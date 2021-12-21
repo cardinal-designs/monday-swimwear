@@ -23,12 +23,18 @@ html.no-js .no-js-hidden {
 
 /*================ Layout ================*/
 .page-width {
-  max-width: 1440px;
+  max-width: 1990px;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 120px;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1600px) {
+  .page-width {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
   .page-width {
     padding: 0 40px;
   }
@@ -36,15 +42,7 @@ html.no-js .no-js-hidden {
 
 @media screen and (max-width: 768px) {
   .page-width {
-    padding: 0 20px;
-  }
-
-  .page-width--narrow {
-    padding: 0 9rem;
-  }
-
-  .page-width-desktop {
-    padding: 0;
+    padding: 0 10px;
   }
 }
 
@@ -196,104 +194,223 @@ html.no-js .no-js-hidden {
 
 /*================ Text ================*/
 h1,
-h2,
-h3,
-h4,
-h5,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5 {
-  
-}
-
-
-h1,
 .h1 {
-  font-size: 60px;
+  font-family: sunset-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 769px) {
   h1,
   .h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
 h2,
 .h2 {
-  font-size: 48px;
+  font-family: tobias, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 769px) {
   h2,
   .h2 {
-    font-size: 32px;
+    font-size: 34px;
+    letter-spacing: -0.02em;
   }
 }
 
 h3,
 .h3 {
-  font-size: 36px;
+  font-family: sunset-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 769px) {
   h3,
   .h3 {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 
 h4,
 .h4 {
-  font-size: 28px;
+  font-family: tobias, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 1.23;
+  letter-spacing: -0.04em;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 769px) {
   h4,
   .h4 {
-    font-size: 20px;
+    font-size: 24px;
+    letter-spacing: -0.03em;
   }
 }
 
-h5,
-.h5 {
+
+.sh1 {
+  font-family: sunset-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
   font-size: 20px;
+  line-height: 1.425;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
-@media only screen and (min-width: 769px) {
-  h5,
-  .h5 {
-    font-size: 20px;
+@media only screen and (max-width: 769px) {
+  .sh1 {
+    font-size: 18px;
   }
 }
 
-h6,
-.h6 {
-  font-size: 18px;
+.sh2 {
+  font-family: sunset-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.425;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
-@media only screen and (min-width: 769px) {
-  h5,
-  .h5 {
-    font-size: 20px;
+@media only screen and (max-width: 769px) {
+  .sh2 {
+    font-size: 15px;
   }
 }
 
-p {
-  font-size: 14px;
+.sh4 {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
-@media only screen and (min-width: 769px) {
-  p {
+.sh5 {
+  font-family: tobias, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+p,
+.body {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (max-width: 769px) {
+  p,
+  .body {
     font-size: 14px;
+    line-height: 1.5;
   }
+}
+
+.body-small {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.body-large {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.caption-sunset {
+  font-family: sunset-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.425;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.caption-neue {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.detail {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.detail-caps {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.link {
+  font-family: neue-haas, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 blockquote {
   font-style: italic;
-  border-left: 1px solid rgba(0, 0, 0, 0.2));
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
   padding-left: 20px;
 }
 
@@ -1053,8 +1170,13 @@ deferred-media {
 }
 
 .announcement-bar__item {
-  padding: 10px 0;
+  padding: 6px 0 9px;
   display: block;
+  text-align: center;
+}
+
+.announcement-bar__item p {
+  margin: 0;
 }
 
 /*================ Cart Bubble ================*/
@@ -1083,7 +1205,7 @@ deferred-media {
   position: sticky;
   top: 0;
   background: white;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #F2F2F2;
   z-index: 3;
 } 
 
@@ -1199,7 +1321,7 @@ deferred-media {
 
 /* Header icons */
 .header__icons {
-  margin-right: -15px;
+  margin-right: -10px;
   display: flex;
   grid-area: icons;
   justify-self: end;
@@ -1208,12 +1330,10 @@ deferred-media {
 .header__icon {
   height: 25px;
   width: 25px;
-  margin: 0 15px;
-}
-
-.header__icon .icon {
-  height: 100%;
-  width: 100%;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__icon::after {

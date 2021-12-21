@@ -290,23 +290,25 @@
   </script>
 {%- endif -%}
 
-{% javascript %}
-  const openSearch = document.querySelector('.js-open-search');
-  const closeSearch = document.querySelector('.js-close-search');
-  const search = document.querySelector('.header__search');
+{%- if section.settings.enable_search -%}
+  <script>
+    const openSearch = document.querySelector('.js-open-search');
+    const closeSearch = document.querySelector('.js-close-search');
+    const search = document.querySelector('.header__search');
 
-  openSearch.addEventListener('click', () => {
-    if (search.classList.contains('is-visible')) {
+    openSearch.addEventListener('click', () => {
+      if (search.classList.contains('is-visible')) {
+        search.classList.remove('is-visible');
+      } else {
+        search.classList.add('is-visible');
+      }
+    });
+
+    closeSearch.addEventListener('click', () => {
       search.classList.remove('is-visible');
-    } else {
-      search.classList.add('is-visible');
-    }
-  });
-
-  closeSearch.addEventListener('click', () => {
-    search.classList.remove('is-visible');
-  }); 
-{% endjavascript %}
+    }); 
+  </script>
+{%- endif -%}
 
 {% schema %}
 {
@@ -327,7 +329,7 @@
       "type": "range",
       "id": "logo_width",
       "min": 50,
-      "max": 250,
+      "max": 300,
       "step": 10,
       "default": 150,
       "unit": "px",
@@ -337,7 +339,7 @@
       "type": "range",
       "id": "mobile_logo_width",
       "min": 50,
-      "max": 150,
+      "max": 250,
       "step": 5,
       "default": 100,
       "unit": "px",
@@ -364,6 +366,16 @@
       "id": "menu",
       "default": "main-menu",
       "label": "Menu"
+    },
+    {
+      "type": "url",
+      "id": "right_link_1",
+      "label": "Right Link 1"
+    },
+    {
+      "type": "url",
+      "id": "right_link_2",
+      "label": "Right Link 2"
     },
     {
       "type": "checkbox",
