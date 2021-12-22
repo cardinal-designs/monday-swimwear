@@ -5,6 +5,10 @@
   align-items: flex-end;
 }
 
+.hero img {
+  object-position: top;
+}
+
 .hero .page-width {
   width: 100%;
 }
