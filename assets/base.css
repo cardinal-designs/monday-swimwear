@@ -195,7 +195,7 @@ html.no-js .no-js-hidden {
 /*================ Text ================*/
 h1,
 .h1 {
-  font-family: sunset-gothic, sans-serif;
+  font-family: 'Sunset Gothic', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 100px;
@@ -212,7 +212,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: tobias, sans-serif;
+  font-family: 'Tobias', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 50px;
@@ -230,7 +230,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: sunset-gothic, sans-serif;
+  font-family: 'Sunset Gothic', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -248,7 +248,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: tobias, sans-serif;
+  font-family: 'Tobias', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -266,7 +266,7 @@ h4,
 
 
 .sh1 {
-  font-family: sunset-gothic, sans-serif;
+  font-family: 'Sunset Gothic', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -282,7 +282,7 @@ h4,
 }
 
 .sh2 {
-  font-family: sunset-gothic, sans-serif;
+  font-family: 'Sunset Gothic', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -298,7 +298,7 @@ h4,
 }
 
 .sh4 {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -308,7 +308,7 @@ h4,
 }
 
 .sh5 {
-  font-family: tobias, sans-serif;
+  font-family: 'Tobias', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
@@ -318,7 +318,7 @@ h4,
 
 p,
 .body {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -335,7 +335,7 @@ p,
 }
 
 .body-small {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -344,7 +344,7 @@ p,
 }
 
 .body-large {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -353,7 +353,7 @@ p,
 }
 
 .btn {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -361,7 +361,7 @@ p,
 }
 
 .caption-sunset {
-  font-family: sunset-gothic, sans-serif;
+  font-family: 'Sunset Gothic', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -371,7 +371,7 @@ p,
 }
 
 .caption-neue {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -381,7 +381,7 @@ p,
 }
 
 .detail {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -390,7 +390,7 @@ p,
 }
 
 .detail-caps {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -400,7 +400,7 @@ p,
 }
 
 .link {
-  font-family: neue-haas, sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -425,19 +425,38 @@ blockquote {
 .button,
 .shopify-challenge__button,
 .customer button {
-  padding: 15px 40px;
+  padding: 18px 50px;
   background: black;
   color: white;
+  border: 1px solid black;
+  display: inline-block;
   text-align: center;
   cursor: pointer;
+  transition: border .3s ease-in-out, color .3s ease-in-out, background .3s ease-in-out;
+  -webkit-transition: border .3s ease-in-out, color .3s ease-in-out, background .3s ease-in-out;
 }
 
+.button--white {
+  background: white;
+  border-color: white;
+  color: black;
+}
+
+.button--bone {
+  background: var(--bone);
+  border-color: var(--bone);
+  color: black;
+}
 
 /* Button - hover */
-.button:not([disabled]):hover,
-.shopify-challenge__button:hover,
-.customer button:hover {
-  
+@media screen and (min-width: 769px) {
+  .button:not([disabled]):hover,
+  .shopify-challenge__button:hover,
+  .customer button:hover {
+    background: transparent;
+    border-color: black;
+    color: black;
+  }
 }
 
 /* Button - other */
@@ -888,6 +907,19 @@ details[open] > .share-button__fallback {
   display: none;
 }
 
+/* Swiper Arrows */
+.swiper-button {
+  width: unset;
+  height: unset;
+  margin: 0;
+  position: unset;
+  color: currentColor;
+}
+
+.swiper-button::after {
+  content: none;
+}
+
 /*================ Media ================*/
 .aspect-ratio {
   position: relative;
@@ -1169,6 +1201,16 @@ deferred-media {
   z-index: 4;
 }
 
+.announcement-bar__wrapper {
+  margin: 0 -5px;
+  display: flex;
+  align-items: center;
+}
+
+.announcement-bar__wrapper .swiper-button {
+  padding: 5px;
+}
+
 .announcement-bar__item {
   padding: 6px 0 9px;
   display: block;
@@ -1262,6 +1304,10 @@ deferred-media {
   list-style: none;
 }
 
+.header__menu-list li {
+  flex-shrink: 0;
+}
+
 .header__menu-item {
   padding: 0 15px;
 }
@@ -1313,8 +1359,23 @@ deferred-media {
   -webkit-transform: rotate(180deg);
 }
 
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 1150px) {
   .header__menu {
+    display: none;
+  }
+}
+
+/* Offset right links */
+.header__offset-links {
+  margin: 0;
+  padding: 0 5px 0 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .header__offset-links {
     display: none;
   }
 }
@@ -1352,7 +1413,7 @@ header-drawer {
   margin-left: -1.2rem;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1150px) {
   header-drawer {
     display: none;
   }

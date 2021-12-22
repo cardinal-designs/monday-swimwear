@@ -24,7 +24,7 @@
                     <li>
                       {%- if link.links != blank -%}
                         <details>
-                          <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
+                          <summary class="menu-drawer__menu-item list-menu__item link link--text btn focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                             {{ link.title | escape }}
                             {% render 'icon-arrow' %}
                             {% render 'icon-caret' %}
@@ -73,7 +73,7 @@
                           </div>
                         </details>
                       {%- else -%}
-                        <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                        <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text btn focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
                           {{ link.title | escape }}
                         </a>
                       {%- endif -%}
@@ -151,7 +151,7 @@
         {%- for link in section.settings.menu.links -%}
           <li>
             {%- if link.links != blank -%}
-              <div class="header__menu-item header__menu-item--has-dropdown">
+              <div class="header__menu-item header__menu-item--has-dropdown btn">
                 <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                 {% render 'icon-caret' %}
               </div>
@@ -165,7 +165,7 @@
                 {%- endfor -%}
               </ul>
             {%- else -%}
-              <a href="{{ link.url }}" class="header__menu-item"{% if link.current %} aria-current="page"{% endif %}>
+              <a href="{{ link.url }}" class="header__menu-item btn"{% if link.current %} aria-current="page"{% endif %}>
                 {{ link.title | escape }}
               </a>
             {%- endif -%}
@@ -177,6 +177,25 @@
 
   <!-- Icons -->
   <div class="header__icons">
+    {% if section.settings.right_link_1 != blank or section.settings.right_link_2 != blank %}    
+      <ul class="header__offset-links" role="list">
+        {% if section.settings.right_link_1 != blank %}
+          <li>
+            <a href="{{ section.settings.right_link_1 }}" class="header__menu-item btn"{% if link.current %} aria-current="page"{% endif %}>
+              {{ section.settings.right_link_1_label }}
+            </a>
+          </li>
+        {% endif %}
+        {% if section.settings.right_link_2 != blank %}
+          <li>
+            <a href="{{ section.settings.right_link_2 }}" class="header__menu-item btn"{% if link.current %} aria-current="page"{% endif %}>
+              {{ section.settings.right_link_2_label }}
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    {% endif %}
+
     {% if section.settings.enable_search %}  
       <button class="js-open-search header__icon header__icon--search hide-mobile" aria-label="Open Search Bar">
         {% render 'icon-search' %}
@@ -373,9 +392,19 @@
       "label": "Right Link 1"
     },
     {
+      "type": "text",
+      "id": "right_link_1_label",
+      "label": "Right Link 1 Label"
+    },
+    {
       "type": "url",
       "id": "right_link_2",
       "label": "Right Link 2"
+    },
+    {
+      "type": "text",
+      "id": "right_link_2_label",
+      "label": "Right Link 2 Label"
     },
     {
       "type": "checkbox",

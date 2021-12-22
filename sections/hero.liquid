@@ -1,0 +1,61 @@
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="hero">
+  {% if section.settings.mobile_image != blank %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+  {% else %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+  {% endif %}
+  <div class="page-width">
+    <div class="hero__container">
+      {% if section.settings.caption != blank %}
+      <div class="hero__caption">
+        <div class="glow"></div>
+        <p class="btn">{{ section.settings.caption }}</p>
+      </div>
+      {% endif %}
+      <div class="hero__button">
+        <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "textarea",
+        "id": "caption",
+        "label": "Caption"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero"
+      }
+    ]
+  }
+{% endschema %}
