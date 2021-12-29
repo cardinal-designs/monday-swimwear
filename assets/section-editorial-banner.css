@@ -1,0 +1,42 @@
+.editorial-banner {
+  margin: 70px 0;
+  overflow: hidden;
+}
+
+.editorial-banner__container {
+  height: 600px;
+  position: relative;
+  color: white;
+}
+
+.editorial-banner__left-text {
+  margin: 0 0 0 95px;
+  position: relative;
+}
+
+.editorial-banner__right-text {
+  margin: -20px -10px 0;
+  text-align: right;
+  position: relative;
+}
+
+.editorial-banner__link {
+  position: absolute;
+  left: 95px;
+  bottom: 35px;
+}
+
+@media screen and (max-width: 1440px) {
+  .editorial-banner__left-text {
+    margin: 0 0 0 30px;
+  }
+
+  .editorial-banner__link {
+    position: absolute;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}

@@ -1,133 +1,116 @@
-{% comment %}
-    Renders a product card
-
-    Accepts:
-    - product_card_product: {Object} Product Liquid object (optional)
-    - media_size: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional)
-    - show_secondary_image: {Boolean} Show the secondary image on hover. Default: false (optional)
-    - add_image_padding: {Boolean} Enables padding on the image to space out the grid
-    - show_vendor: {Boolean} Show the product vendor. Default: false
-    - show_image_outline: {Boolean} Show card outline. Default: true (optional)
-    - show_rating: {Boolean} Show the product rating. Default: false
-
-    Usage:
-    {% render 'product-card', show_vendor: section.settings.show_vendor %}
-{% endcomment %}
-
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-<div class="card-wrapper">
-  <div class="card-information">
-    <div class="card-information__wrapper">
-      {%- if show_vendor -%}
-        <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-        <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
-      {%- endif -%}
-
-      {%- if product_card_product.featured_media -%}
-        <h3 class="card-information__text h5">
-          <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
-            {{ product_card_product.title | escape }}
-          </a>
-        </h3>
-      {%- endif -%}
-
-      {% comment %} TODO: metafield {% endcomment %}
-      <span class="caption-large light">{{ block.settings.description | escape }}</span>
-      {%- if show_rating and product_card_product.metafields.reviews.rating.value != blank -%}
-        {% liquid
-          assign rating_decimal = 0 
-          assign decimal = product_card_product.metafields.reviews.rating.value.rating | modulo: 1 
-          if decimal >= 0.3 and decimal <= 0.7
-            assign rating_decimal = 0.5
-          elsif decimal > 0.7
-            assign rating_decimal = 1
-          endif 
-        %}
-        <div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product_card_product.metafields.reviews.rating.value, rating_max: product_card_product.metafields.reviews.rating.value.scale_max }}">
-          <span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ product_card_product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product_card_product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
-        </div>
-        <p class="rating-text caption">
-          <span aria-hidden="true">{{ product_card_product.metafields.reviews.rating.value }} / {{ product_card_product.metafields.reviews.rating.value.scale_max }}</span>
-        </p>
-        <p class="rating-count caption">
-          <span aria-hidden="true">({{ product_card_product.metafields.reviews.rating_count }})</span>
-          <span class="visually-hidden">{{ product_card_product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
-        </p>
-      {%- endif -%}
-      {% render 'price', product: product_card_product, price_class: '' %}
-    </div>
-  </div>
-
-  <div class="card card--product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}{% if product_card_product.featured_media != nil and show_image_outline %} card--outline{% endif %}" tabindex="-1">
-    <div class="card__inner">
-      {%- if product_card_product.featured_media -%}
-        {%- liquid
-          assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
-
-          if product_card_product.featured_media.aspect_ratio == nil
-            assign featured_media_aspect_ratio = 1
-          endif
-        -%}
-
-        <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
-          <div class="media media--transparent media--{{ media_size }} media--hover-effect"
-            {% if media_size == 'adapt' and product_card_product.featured_media %} style="padding-bottom: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"{% endif %}
-          >
-            <img
-              srcset="{%- if product_card_product.featured_media.width >= 165 -%}{{ product_card_product.featured_media | img_url: '165x' }} 165w,{%- endif -%}
-                {%- if product_card_product.featured_media.width >= 360 -%}{{ product_card_product.featured_media | img_url: '360x' }} 360w,{%- endif -%}
-                {%- if product_card_product.featured_media.width >= 533 -%}{{ product_card_product.featured_media | img_url: '533x' }} 533w,{%- endif -%}
-                {%- if product_card_product.featured_media.width >= 720 -%}{{ product_card_product.featured_media | img_url: '720x' }} 720w,{%- endif -%}
-                {%- if product_card_product.featured_media.width >= 940 -%}{{ product_card_product.featured_media | img_url: '940x' }} 940w,{%- endif -%}
-                {%- if product_card_product.featured_media.width >= 1066 -%}{{ product_card_product.featured_media | img_url: '1066x' }} 1066w,{%- endif -%}
-                {{ product_card_product.featured_media | img_url: 'master' }} {{ product_card_product.featured_media.width }}w"
-              src="{{ product_card_product.featured_media | img_url: '533x' }}"
-              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 769px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-              alt="{{ product_card_product.featured_media.alt | escape }}"
-              loading="lazy"
-              class="motion-reduce"
-              width="{{ product_card_product.featured_media.width }}"
-              height="{{ product_card_product.featured_media.height }}"
-            >
-
-            {%- if product_card_product.media[1] != nil and show_secondary_image -%}
-              <img
-                srcset="{%- if product_card_product.media[1].width >= 165 -%}{{ product_card_product.media[1] | img_url: '165x' }} 165w,{%- endif -%}
-                  {%- if product_card_product.media[1].width >= 360 -%}{{ product_card_product.media[1] | img_url: '360x' }} 360w,{%- endif -%}
-                  {%- if product_card_product.media[1].width >= 533 -%}{{ product_card_product.media[1] | img_url: '533x' }} 533w,{%- endif -%}
-                  {%- if product_card_product.media[1].width >= 720 -%}{{ product_card_product.media[1] | img_url: '720x' }} 720w,{%- endif -%}
-                  {%- if product_card_product.media[1].width >= 940 -%}{{ product_card_product.media[1] | img_url: '940x' }} 940w,{%- endif -%}
-                  {%- if product_card_product.media[1].width >= 1066 -%}{{ product_card_product.media[1] | img_url: '1066x' }} 1066w,{%- endif -%}
-                  {{ product_card_product.media[1] | img_url: 'master' }} {{ product_card_product.media[1].width }}w"
-                src="{{ product_card_product.media[1] | img_url: '533x' }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 769px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="{{ product_card_product.media[1].alt | escape }}"
-                loading="lazy"
-                class="motion-reduce"
-              width="{{ product_card_product.media[1].width }}"
-              height="{{ product_card_product.media[1].height }}"
-              >
-            {%- endif -%}
+<product-card>
+  <div class="product-card" tabindex="-1">
+    <div class="product-card__inner">
+      <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
+        <div class="product-card__image">
+          {% render 'lazy-image' image: product_card_product.featured_media, fade: true, classes: 'initial-image' %}
+          {%- if product_card_product.media[1] != nil and show_secondary_image -%}
+            {% render 'lazy-image' image: product_card_product.media[1], fade: true, classes: 'hover-image' %}
+          {%- endif -%}
+          <div class="product-card__button">
+            <div class="button button--white">Quick View</div>
           </div>
         </div>
-      {%- else -%}
-        <div class="card__content">
-          <h2 class="card__text h3">
-            <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
-              {{ product_card_product.title }}
-            </a>
-          </h2>
-        </div>
-      {%- endif -%}
+      </a>
 
-      <div class="card__badge">
-        {%- if product_card_product.available == false -%}
-          <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
-        {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
-          <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-        {%- endif -%}
+      <div class="product-card__content">
+        <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
+          <div class="product-card__header">
+            <h2 class="product-card__title body-small">
+              {{ product_card_product.title }}
+            </h2>
+            {% render 'price', product: product_card_product, price_class: 'product-card__price body-small' %}
+          </div>
+        </a>
+        {% if product_card_product.available and product_card_product.variants.size > 0 or product_card_product.tags contains 'restocking' or product_card_product.tags contains 'Coming Soon' %}
+          {% comment %} Check if using collection to determine swatches or using product variants {% endcomment %}
+          {% assign use_collection_for_swatches = false %}
+          {% assign collection_for_swatches = '' %}
+          {% for tag in product_card_product.tags %}
+            {% if tag contains 'group_' %}
+              {% assign use_collection_for_swatches = true %}
+
+              {% assign split_tag = tag | split: '_' %}
+              {% assign collection_handle = split_tag[1] | handleize %}
+              {% assign collection_for_swatches = collections[collection_handle] %}
+            {% endif %}
+          {% endfor %}
+
+          {% if use_collection_for_swatches %}
+            {% comment %} Using collection for swatches {% endcomment %}
+            <div class="product-card__swatches">
+              {% comment %} Display product card product first {% endcomment %}
+              {% for current_product in collection_for_swatches.products %}
+                {% if product_card_product.handle == current_product.handle %}
+                  {% assign color = current_product.metafields.nosto.color %}
+                  {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                  {% assign color_swatch_image = images[color_swatch_name] %}
+                  <button class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-url="{{ current_product.url  | within: collection }}">
+                    <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                    <span class="visually-hidden">{{ value }}</span>
+                  </button>
+                {% endif %}
+              {% endfor %}
+              {% comment %} Display the rest of the swatches excluding current product {% endcomment %}
+              {% for current_product in collection_for_swatches.products %}
+                {% unless product_card_product.handle == current_product.handle %}
+                  {% assign color = current_product.metafields.nosto.color %}
+                  {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                  {% assign color_swatch_image = images[color_swatch_name] %}
+
+                  <button class="product-card__swatch" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-url="{{ current_product.url  | within: collection }}">
+                    <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                    <span class="visually-hidden">{{ value }}</span>
+                  </button>
+                {% endunless %}
+              {% endfor %}
+            </div>
+          {% else %}
+            {% comment %} Using product variants {% endcomment %}
+            <div class="product-card__swatches">
+              {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
+              {% for option in product_card_product.options_with_values %}
+                {% assign downcase_option = option.name | downcase %}
+
+                {% comment %} If option is color {% endcomment %}
+                {% if color_label contains downcase_option %}
+                  {% assign variant_option = 'option' | append: forloop.index %}
+
+                  {% for value in option.values %}
+                    {% assign downcase_value = value | downcase %}
+                    {% capture color_id %}{{ section.id }}-{{ product.id }}-{{ forloop.index }}{% endcapture %}
+
+                    {% comment %} Find variants for each color {% endcomment %}
+                    {% for variant in product_card_product.variants %}
+                      {% if variant[variant_option] == value %}
+                        {% assign variant_for_value = variant %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+
+                    {% comment %} Get image {% endcomment %}
+                    {% assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                    {% assign color_swatch_image = images[color_swatch_name] %}
+
+                    {% assign product_image = variant.featured_image | img_url: '600x' %}
+                    {% if variant.featured_image == blank %}
+                      {% assign product_image = product_card_product.featured_image | img_url: '600x' %}
+                    {% endif %}
+
+                    <button class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-url="{{ variant.url | within: collection }}">
+                      <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                      <span class="visually-hidden">{{ value }}</span>
+                    </button>
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endif %}
+
       </div>
     </div>
   </div>
-</div>
+</product-card>

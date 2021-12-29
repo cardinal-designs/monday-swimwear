@@ -1,0 +1,68 @@
+{{ 'section-editorial-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="editorial-banner">
+  <div class="page-width">
+    <div class="editorial-banner__container">
+
+      {% if section.settings.mobile_image != blank %}
+        {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+        {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+      {% else %}
+        {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+      {% endif %}
+
+      <h2 class="h1 editorial-banner__left-text">{{ section.settings.left_text }}</h2>
+      <h2 class="h1 editorial-banner__right-text">{{ section.settings.right_text }}</h2>
+      
+      <div class="editorial-banner__link">
+        {% if section.settings.link_label != blank %}
+          <a href="{{ section.settings.link }}" class="text-link">{{ section.settings.link_label }}</a>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Editorial Banner",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "text",
+        "id": "left_text",
+        "label": "Left Text"
+      },
+      {
+        "type": "text",
+        "id": "right_text",
+        "label": "Right Text"
+      },
+      {
+        "type": "text",
+        "id": "link_label",
+        "label": "Link Label"
+      },
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Editorial Banner"
+      }
+    ]
+  }
+{% endschema %}

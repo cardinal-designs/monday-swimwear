@@ -1,0 +1,37 @@
+{{ 'section-text.css' | asset_url | stylesheet_tag }}
+
+<div class="text-section">
+  <div class="page-width">
+    <div class="text-section__container">
+      {% if section.settings.add_glow %}
+        <div class="glow"></div>
+      {% endif %}
+      <h2>{{ section.settings.text }}</h2>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Text",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text",
+        "default": "If you’re in a bikini on a Monday, you’re having a good day."
+      },
+      {
+        "type": "checkbox",
+        "id": "add_glow",
+        "label": "Add Glow",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Text"
+      }
+    ]
+  }
+{% endschema %}

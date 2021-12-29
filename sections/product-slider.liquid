@@ -1,0 +1,96 @@
+{{ 'section-product-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
+<div class="product-slider">
+  <div class="page-width">
+    <div class="product-slider__header">
+      <div class="product-slider__navigation">
+        {% for block in section.blocks %}
+          {% assign current_collection = collections[block.settings.collection] %}
+          <button class="sh2{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">{{ current_collection.title }}</button>
+        {% endfor %}
+      </div>
+      <div class="product-slider__arrows">
+        {% for block in section.blocks %}
+          {% assign current_collection = collections[block.settings.collection] %}
+          <div class="product-slider__arrows-wrapper{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
+            <button id="collection--{{ current_collection.handle }}-arrow-left" class="swiper-button swiper-button-prev">
+              {% render 'icon-arrow-left' %}
+            </button>
+            <button id="collection--{{ current_collection.handle }}-arrow-right" class="swiper-button swiper-button-next">
+              {% render 'icon-arrow-right' %}
+            </button>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="product-slider__collections">
+      {% for block in section.blocks %}
+        {% assign current_collection = collections[block.settings.collection] %}
+        <div id="collection--{{ current_collection.handle }}" class="product-slider__collection swiper{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
+          <div class="swiper-wrapper">
+            {% for current_product in current_collection.products limit: 16 %}
+              <div class="product-slider__item swiper-slide">
+                {% render 'product-card',
+                  product_card_product: current_product,
+                  show_secondary_image: true
+                %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  var productSliders = [];
+  [...document.querySelectorAll('.product-slider__collection')].forEach((el, i) => {
+    var handle = '#collection--' + el.dataset.collection;
+
+    productSliders[i] = new Swiper(handle, {
+      slidesPerView: 4,
+      loop: true,
+      spaceBetween: 20,
+      watchOverflow: true,
+      /* freeMode: {
+        enabled: true,
+        sticky: true,
+      }, */
+      navigation: {
+        prevEl: handle + '-arrow-left',
+        nextEl: handle + '-arrow-right'
+      }
+    });
+  }); 
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Product Slider",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "collection",
+        "name": "Collection",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Slider"
+      }
+    ]
+  }
+{% endschema %}

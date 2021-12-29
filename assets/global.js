@@ -789,3 +789,55 @@ function atcGetSectionsToRender() {
     }
   ];
 }
+
+class ProductCard extends HTMLElement {
+  constructor() {
+    super();
+    this.swatches = this.querySelectorAll('.product-card__swatch');
+    this.cardImage = this.querySelector('.product-card__image .initial-image img');
+    this.cardHoverImage = this.querySelector('.product-card__image .hover-image img');
+    this.links = this.querySelectorAll('.product-card__link');
+
+    this.handleSwatchClick = (swatch, event) => {
+      event.preventDefault();
+      this.onSwatchClick(swatch);
+    };
+
+    this.swatches.forEach(swatch => {
+      swatch.addEventListener('click', this.handleSwatchClick.bind(this, swatch));
+    });
+  }
+
+  onSwatchClick(swatch, event) {
+    if (!swatch.classList.contains('active')) {
+      this.updateActiveSwatch(swatch);
+      this.updateImages(swatch);
+      this.updateLinks(swatch);
+    }
+  }
+
+  updateActiveSwatch(swatch) {
+    this.swatches.forEach(swatch => {
+      swatch.classList.remove('active');
+    });
+
+    swatch.classList.add('active');
+  }
+
+  updateImages(swatch) {
+    const image = swatch.dataset.image;
+    const hoverImage = swatch.dataset.hover;
+
+    this.cardImage.setAttribute('src', image);
+    this.cardHoverImage.setAttribute('src', hoverImage);
+  }
+
+  updateLinks(swatch) {
+    const url = swatch.dataset.url;
+
+    this.links.forEach(link => {
+      link.setAttribute('href', url);
+    });
+  }
+}
+customElements.define('product-card', ProductCard);

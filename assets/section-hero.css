@@ -35,7 +35,28 @@
 }
 
 .hero__caption .btn {
-  margin: 12px 0 0;
+  margin: 16px 0 0;
   color: white;
   line-height: 1.23;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 620px;
+  }
+
+  .hero__container {
+    padding-bottom: 40px;
+    display: block;
+  }
+
+  .hero__caption {
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .hero__container .button {
+    background: transparent;
+    color: white;
+  }
 }

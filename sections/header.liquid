@@ -196,7 +196,7 @@
                 {%- assign mega_menu_names = mega_menu_names | append: trim_mega_menu_name | append: ',' -%}
                 
                 {%- if downcased_mega_menu_name == downcased_link_title -%}
-                  <div class="header__mega-menu-overlay">
+                  <div class="header__mega-menu-outer">
                     <div class="header__mega-menu">
                       <div class="page-width">
                         <div class="header__mega-menu-container">
@@ -228,6 +228,7 @@
                 {%- endif -%}
               {%- endfor -%}
             </li>
+            <div class="header__mega-menu-overlay"></div>
           {%- endunless -%}
         {%- endfor -%}
       </ul>
@@ -370,12 +371,11 @@
 
 {% javascript %}
   // Transparent header on scroll
+  const header =  document.getElementById('shopify-section-header');
+  const scrollPoint = document.getElementById('MainContent');
+
   document.addEventListener('scroll', function(e) {
     const scrollPosition = window.scrollY;
-    const scrollPoint = document.getElementById('MainContent');
-    const header =  document.getElementById('shopify-section-header');
-
-    console.log(scrollPosition, scrollPoint.offsetTop)
 
     if (scrollPosition > scrollPoint.offsetTop) {
       header.classList.add('scrolled');
@@ -383,6 +383,16 @@
       header.classList.remove('scrolled');
     }
   });
+
+  (() => {
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition > scrollPoint.offsetTop) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })();
 {% endjavascript %}
 
 {%- if section.settings.enable_search -%}
