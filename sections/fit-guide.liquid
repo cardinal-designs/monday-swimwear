@@ -1,0 +1,216 @@
+{{ 'section-fit-guide.css' | asset_url | stylesheet_tag }}
+
+<div class="fit-guide-section">
+  <div class="fit-guide-section__left">
+    <div class="fit-guide-section__left-top-text">
+      <h2 class="h1">The</h2>
+      <h2 class="h1">Fit</h2>
+    </div>
+    <div class="fit-guide-section__left-bottom-text">
+      <h2 class="h1">Guide</h2>
+    </div>
+    <div class="fit-guide-section__images swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="fit-guide-section__image swiper-slide">
+            <div class="fit-guide-section__image-content">
+              <div class="fit-guide-section__image-wrapper">
+                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+              </div>
+              {% if block.settings.fit_tip != blank %}
+                <p class="caption-neue">Fit Tip</p>
+                <p class="body">{{ block.settings.fit_tip }}</p>
+              {% endif %}
+              <a href="{{ block.settings.shop_link }}" class="text-link">Shop Now</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="fit-guide-section__right">
+    <div class="fit-guide-section__content">
+      <div class="fit-guide-section__content-slider swiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="fit-guide-section__content-item swiper-slide">
+              <div class="fit-guide-section__content-item-wrapper">
+                <h2 class="fit-guide-section__content-title h3">{{ block.settings.title }}</h2>
+                <p class="fit-guide-section__content-short-description sh1">
+                  {% assign split_description = block.settings.short_description | split: ',' %}
+                  {% for descriptor in split_description %}
+                    {{ descriptor }}&nbsp;&nbsp;
+                  {% endfor %}
+                </p>
+                <p class="fit-guide-section__content-description body-large">{{ block.settings.description }}</p>
+                <div class="fit-guide-section__content-stats">
+                  <div class="fit-guide-section__content-stat">
+                    <p class="detail-caps">Fit</p>
+                    <p class="body-small">{{ block.settings.fit }}</p>
+                  </div>
+                  <div class="fit-guide-section__content-stat">
+                    <p class="detail-caps">Padding</p>
+                    <p class="body-small">{{ block.settings.padding }}</p>
+                  </div>
+                  <div class="fit-guide-section__content-stat">
+                    <p class="detail-caps">Coverage</p>
+                    <p class="body-small">{{ block.settings.coverage }}</p>
+                  </div>
+                  <div class="fit-guide-section__content-stat">
+                    <p class="detail-caps">Style</p>
+                    <p class="body-small">{{ block.settings.style }}</p>
+                  </div>
+                  <div class="fit-guide-section__content-stat">
+                    <p class="detail-caps">Fabric</p>
+                    <p class="body-small">{{ block.settings.fabric }}</p>
+                  </div>
+                </div>
+                <a href="{{ block.settings.shop_link }}" class="text-link fit-guide-section__explore">Explore the Fit</a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="fit-guide-section__navigation">
+      <div class="fit-guide-section__navigation-wrapper">
+        <button class="swiper-button swiper-button-prev">
+          {% render 'icon-arrow-left' %}
+        </button>
+        <div class="fit-guide-section__navigation-slider swiper">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <button class="fit-guide-section__navigation-item caption-sunset swiper-slide">{{ block.settings.short_title }}</button>
+            {% endfor %}
+          </div>
+        </div>
+        <button class="swiper-button swiper-button-next">
+          {% render 'icon-arrow-right' %}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const fitGuideNavigationSlider = new Swiper('.fit-guide-section__navigation-slider', {
+    slidesPerView: 3,
+    loop: true,
+    spaceBetween: 20,
+    centeredSlides: true,
+    slideToClickedSlide: true,
+    navigation: {
+      nextEl: '.fit-guide-section__navigation .swiper-button-next',
+      prevEl: '.fit-guide-section__navigation .swiper-button-prev',
+    },
+    speed: 900
+  }); 
+
+  const fitGuideContentSlider = new Swiper('.fit-guide-section__content-slider', {
+    loop: true,
+    spaceBetween: 20,
+    effect: 'fade',
+    allowTouchMove: false,
+    speed: 800
+  });
+
+  const fitGuideImageSlider = new Swiper('.fit-guide-section__images', {
+    loop: true,
+    spaceBetween: 20,
+    effect: 'fade',
+    allowTouchMove: false,
+    speed: 800
+  });
+
+  // Sync sliders with navigation
+  fitGuideNavigationSlider.on('slideChange', slider => {
+    let idx = slider.realIndex;
+
+    fitGuideContentSlider.slideToLoop(idx);
+    fitGuideImageSlider.slideToLoop(idx);
+  });
+{% endjavascript %} 
+
+{% schema %}
+  {
+    "name": "Fit Guide",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "fit",
+        "name": "Fit",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "short_title",
+            "label": "Short Title",
+            "info": "This will be used for the navigation."
+          },
+          {
+            "type": "text",
+            "id": "short_description",
+            "label": "Short Description",
+            "info": "Separate with commas and no spaces."
+          },
+          {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+          },
+          {
+            "type": "text",
+            "id": "fit",
+            "label": "Fit"
+          },
+          {
+            "type": "text",
+            "id": "padding",
+            "label": "Padding"
+          },
+          {
+            "type": "text",
+            "id": "coverage",
+            "label": "Coverage"
+          },
+          {
+            "type": "text",
+            "id": "style",
+            "label": "Style"
+          },
+          {
+            "type": "text",
+            "id": "fabric",
+            "label": "Fabric"
+          },
+          {
+            "type": "textarea",
+            "id": "fit_tip",
+            "label": "Fit Tip"
+          },
+          {
+            "type": "url",
+            "id": "shop_link",
+            "label": "Shop Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Fit Guide"
+      }
+    ]
+  }
+{% endschema %}

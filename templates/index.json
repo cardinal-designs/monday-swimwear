@@ -81,6 +81,87 @@
         "text_style": "overlay"
       }
     },
+    "16408186509f925b52": {
+      "type": "fit-guide",
+      "blocks": {
+        "57463eab-fe10-4bbe-97f0-49cb87347475": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_6.png",
+            "title": "The Byron Bottoms",
+            "short_title": "Byron Bottoms",
+            "short_description": "Sexy,Sporty,Chic",
+            "description": "Thoughtfully designed to give as little or as much coverage as you want",
+            "fit": "Best for Cups p-V",
+            "padding": "Minimal",
+            "coverage": "Brazillian",
+            "style": "Adjustable",
+            "fabric": "Soft Jersey",
+            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+          }
+        },
+        "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_6.png",
+            "title": "The Argentina Bottoms",
+            "short_title": "Argentina Bottoms",
+            "short_description": "Sexy,Sporty,Chic",
+            "description": "Thoughtfully designed to give as little or as much coverage as you want",
+            "fit": "Best for Cups p-V",
+            "padding": "Minimal",
+            "coverage": "Brazillian",
+            "style": "Adjustable",
+            "fabric": "Soft Jersey",
+            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+          }
+        },
+        "37be9d4e-ad65-4a18-88ca-dca968d4542e": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_6.png",
+            "title": "The Barbados Bottoms",
+            "short_title": "Barbados Bottoms",
+            "short_description": "Sexy,Sporty,Chic",
+            "description": "Thoughtfully designed to give as little or as much coverage as you want",
+            "fit": "Best for Cups p-V",
+            "padding": "Minimal",
+            "coverage": "Brazillian",
+            "style": "Adjustable",
+            "fabric": "Soft Jersey",
+            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+          }
+        },
+        "bd38ab1e-5212-4333-b22b-ef11f474d882": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_6.png",
+            "title": "The Capri Bottoms",
+            "short_title": "Capri Bottoms",
+            "short_description": "Sexy,Sporty,Chic",
+            "description": "Thoughtfully designed to give as little or as much coverage as you want",
+            "fit": "Best for Cups p-V",
+            "padding": "Minimal",
+            "coverage": "Brazillian",
+            "style": "Adjustable",
+            "fabric": "Soft Jersey",
+            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+          }
+        }
+      },
+      "block_order": [
+        "57463eab-fe10-4bbe-97f0-49cb87347475",
+        "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7",
+        "37be9d4e-ad65-4a18-88ca-dca968d4542e",
+        "bd38ab1e-5212-4333-b22b-ef11f474d882"
+      ],
+      "settings": {
+      }
+    },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
@@ -142,6 +223,7 @@
     "16408101574f5b391b",
     "164081090579915a8a",
     "1640811405c1297562",
+    "16408186509f925b52",
     "1640812146b4d73cae",
     "1640814929d4a3c77a"
   ]
