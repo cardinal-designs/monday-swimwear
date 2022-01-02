@@ -12,7 +12,7 @@
     <div class="fit-guide-section__images swiper">
       <div class="swiper-wrapper">
         {% for block in section.blocks %}
-          <div class="fit-guide-section__image swiper-slide">
+          <div class="fit-guide-section__image swiper-slide" {{ block.shopify_attributes }}>
             <div class="fit-guide-section__image-content">
               <div class="fit-guide-section__image-wrapper">
                 {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
@@ -33,7 +33,7 @@
       <div class="fit-guide-section__content-slider swiper">
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
-            <div class="fit-guide-section__content-item swiper-slide">
+            <div class="fit-guide-section__content-item swiper-slide" {{ block.shopify_attributes }}>
               <div class="fit-guide-section__content-item-wrapper">
                 <h2 class="fit-guide-section__content-title h3">{{ block.settings.title }}</h2>
                 <p class="fit-guide-section__content-short-description sh1">
@@ -72,29 +72,31 @@
         </div>
       </div>
     </div>
-    <div class="fit-guide-section__navigation">
-      <div class="fit-guide-section__navigation-wrapper">
-        <button class="swiper-button swiper-button-prev">
-          {% render 'icon-arrow-left' %}
-        </button>
-        <div class="fit-guide-section__navigation-slider swiper">
-          <div class="swiper-wrapper">
-            {% for block in section.blocks %}
-              <button class="fit-guide-section__navigation-item caption-sunset swiper-slide">{{ block.settings.short_title }}</button>
-            {% endfor %}
+    {% if section.blocks.size > 1 %}
+      <div class="fit-guide-section__navigation">
+        <div class="fit-guide-section__navigation-wrapper">
+          <button class="swiper-button swiper-button-prev">
+            {% render 'icon-arrow-left' %}
+          </button>
+          <div class="fit-guide-section__navigation-slider swiper">
+            <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                <button class="fit-guide-section__navigation-item caption-sunset swiper-slide" {{ block.shopify_attributes }}>{{ block.settings.short_title }}</button>
+              {% endfor %}
+            </div>
           </div>
+          <button class="swiper-button swiper-button-next">
+            {% render 'icon-arrow-right' %}
+          </button>
         </div>
-        <button class="swiper-button swiper-button-next">
-          {% render 'icon-arrow-right' %}
-        </button>
       </div>
-    </div>
+    {% endif %}
   </div>
 </div>
 
 {% javascript %}
   const fitGuideNavigationSlider = new Swiper('.fit-guide-section__navigation-slider', {
-    slidesPerView: 3,
+    slidesPerView: 1,
     loop: true,
     spaceBetween: 20,
     centeredSlides: true,
@@ -103,7 +105,12 @@
       nextEl: '.fit-guide-section__navigation .swiper-button-next',
       prevEl: '.fit-guide-section__navigation .swiper-button-prev',
     },
-    speed: 900
+    speed: 900,
+    breakpoints: {
+      1150: {
+        slidesPerView: 3,
+      }
+    }
   }); 
 
   const fitGuideContentSlider = new Swiper('.fit-guide-section__content-slider', {

@@ -4,7 +4,7 @@
   <div class="page-width">
     <div class="link-blocks__container link-blocks__container--{{ section.blocks.size }} link-blocks__container--{{ section.settings.text_style }}">
       {% for block in section.blocks %}
-        <div class="link-blocks__item">
+        <div class="link-blocks__item" {{ block.shopify_attributes }}>
           {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
           <div class="link-blocks__item-content">
             {% if section.settings.text_style == 'overlay' %}

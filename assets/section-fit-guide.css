@@ -1,7 +1,7 @@
 .fit-guide-section {
   height: 900px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   overflow: hidden;
 }
 
@@ -54,14 +54,17 @@
 .fit-guide-section__image-content {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity .3s ease 0s, transform .1s ease .3s;
+  -webkit-transform: translateY(30px);
+  transition: opacity .4s ease 0s, transform .1s ease .3s;
+  -webkit-transition: opacity .4s ease 0s, transform .1s ease .3s;
 }
 
 .fit-guide-section__image.swiper-slide-active .fit-guide-section__image-content {
   opacity: 1; 
   transform: translateY(0);
-  transition: opacity .5s ease, transform .5s ease;
-  transition-delay: .4s;
+  -webkit-transform: translateY(0);
+  transition: opacity .5s ease .4s, transform .8s ease .4s;
+  -webkit-transition: opacity .5s ease .4s, transform .8s ease .4s;
 }
 
 .fit-guide-section__image-wrapper {
@@ -212,7 +215,7 @@
   }
 
   .fit-guide-section__navigation-wrapper {
-    max-width: auto;
+    max-width: 100%;
   }
 }
 

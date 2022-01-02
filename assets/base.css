@@ -1630,14 +1630,18 @@ header-drawer {
 
 .header__mega-menu-overlay {
   position: fixed;
-  top: 200px;
+  top: 105px;
   right: 0;
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, .4);
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+  transition: opacity 0.4s ease .1s, visibility 0.4s ease .1s;
+}
+
+#shopify-section-header.scrolled .header__mega-menu-overlay {
+  top: 65px;
 }
 
 .header__mega-menu-wrapper:hover .header__mega-menu-outer {
@@ -1648,6 +1652,7 @@ header-drawer {
 .header__mega-menu-wrapper:hover + .header__mega-menu-overlay {
   visibility: visible;
   opacity: 1;
+  transition: opacity 0.4s ease 0, visibility 0.4s ease 0;
 }
 
 .header__menu-item--mega {
