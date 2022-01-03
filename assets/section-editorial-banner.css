@@ -38,5 +38,26 @@
 }
 
 @media screen and (max-width: 768px) {
+  .editorial-banner {
+    margin: 40px 0;
+  }
 
+  .editorial-banner__container {
+    height: 500px;
+    margin: 0 -10px;
+  }
+
+  .editorial-banner__left-text {
+    margin: -13px 0 0 10px;
+  }
+
+  .editorial-banner__right-text {
+    margin: 0 0 0 10px;
+    text-align: left;
+  }
+
+  .editorial-banner__link {
+    left: 10px;
+    bottom: 30px;
+  }
 }

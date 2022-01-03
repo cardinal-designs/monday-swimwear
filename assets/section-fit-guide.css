@@ -220,5 +220,65 @@
 }
 
 @media screen and (max-width: 768px) {
+  .fit-guide-section {
+    display: block;
+  }
 
+  .fit-guide-section__left-top-text {
+    top: -12px;
+  }
+
+  .fit-guide-section__left-bottom-text {
+    bottom: -12px;
+  }
+
+  .fit-guide-section__images {
+    width: 230px;
+    padding-bottom: 30px;
+  }
+
+  .fit-guide-section__image {
+    padding: 0;
+  }
+
+  .fit-guide-section__image-wrapper {
+    height: 230px;
+  }
+
+  .fit-guide-section__content {
+    padding: 40px 20px;
+  }
+
+  .fit-guide-section__content-short-description {
+    font-size: 13px;
+  }
+
+  .fit-guide-section__content-buttons {
+    display: flex;
+  }
+
+  .fit-guide-section__content-buttons a:last-child {
+    margin-left: 30%;
+  }
+
+  .fit-guide-section__navigation {
+    padding: 20px 10px;
+  }
+
+  .fit-guide-section__navigation-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fit-guide-section__navigation-mobile .btn {
+    margin: 0 10px 0 0;
+  }
+
+  .fit-guide-section__navigation-mobile select {
+    padding: 0;
+    background: none;
+    border: 0;
+    color: white;
+  }
 }

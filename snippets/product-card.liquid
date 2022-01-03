@@ -40,6 +40,7 @@
 
           {% if use_collection_for_swatches %}
             {% comment %} Using collection for swatches {% endcomment %}
+            {% assign swatch_count = 0 %}
             <div class="product-card__swatches">
               {% comment %} Display product card product first {% endcomment %}
               {% for current_product in collection_for_swatches.products %}
@@ -64,11 +65,18 @@
                     <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                     <span class="visually-hidden">{{ value }}</span>
                   </button>
+                  {% assign swatch_count = swatch_count | plus: 1 %}
                 {% endunless %}
               {% endfor %}
+              {% if swatch_count > 8 %}
+                <svg class="hide-desktop" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                  <path d="M4.48518 3.51483H8V4.49865H4.48518V8H3.51482V4.49865H0V3.51483H3.51482V0H4.48518V3.51483Z" fill="black"/>
+                </svg>
+              {% endif %}
             </div>
           {% else %}
             {% comment %} Using product variants {% endcomment %}
+            {% assign swatch_count = 0 %}
             <div class="product-card__swatches">
               {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
               {% for option in product_card_product.options_with_values %}
@@ -103,9 +111,15 @@
                       <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                       <span class="visually-hidden">{{ value }}</span>
                     </button>
+                    {% assign swatch_count = swatch_count | plus: 1 %}
                   {% endfor %}
                 {% endif %}
               {% endfor %}
+              {% if swatch_count > 8 %}
+                <svg class="hide-desktop" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                  <path d="M4.48518 3.51483H8V4.49865H4.48518V8H3.51482V4.49865H0V3.51483H3.51482V0H4.48518V3.51483Z" fill="black"/>
+                </svg>
+              {% endif %}
             </div>
           {% endif %}
         {% endif %}

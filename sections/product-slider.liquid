@@ -30,7 +30,7 @@
         {% assign current_collection = collections[block.settings.collection] %}
         <div id="collection--{{ current_collection.handle }}" class="product-slider__collection swiper{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
           <div class="swiper-wrapper">
-            {% for current_product in current_collection.products limit: 16 %}
+            {% for current_product in current_collection.products limit: 12 %}
               <div class="product-slider__item swiper-slide">
                 {% render 'product-card',
                   product_card_product: current_product,
@@ -38,6 +38,9 @@
                 %}
               </div>
             {% endfor %}
+          </div>
+          <div class="product-slider__scrollbar-wrapper">
+            <div id="collection--{{ current_collection.handle }}-scrollbar" class="swiper-scrollbar hide-desktop"></div>
           </div>
         </div>
       {% endfor %}
@@ -50,21 +53,51 @@
   [...document.querySelectorAll('.product-slider__collection')].forEach((el, i) => {
     var handle = '#collection--' + el.dataset.collection;
 
+    console.log(handle)
+
     productSliders[i] = new Swiper(handle, {
-      slidesPerView: 4,
-      loop: true,
+      slidesPerView: 1,
+      loop: false,
       spaceBetween: 20,
       watchOverflow: true,
-      /* freeMode: {
-        enabled: true,
-        sticky: true,
-      }, */
+      allowTouchMove: true,
+      speed: 600,
+      freeMode: true,
       navigation: {
         prevEl: handle + '-arrow-left',
         nextEl: handle + '-arrow-right'
+      },
+      scrollbar: {
+        el: handle + '-scrollbar',
+        draggable: true
+      },
+      breakpoints: {
+        1: {
+          spaceBetween: 10,
+          slidesPerView: 1.5
+        },
+        601: {
+          spaceBetween: 10,
+          slidesPerView: 2
+        },
+        769: {
+          slidesPerView: 2.5,
+          allowTouchMove: false,
+          freeMode: false
+        },
+        1051: {
+          slidesPerView: 3,
+          allowTouchMove: false,
+          freeMode: false
+        },
+        1200: {
+          slidesPerView: 4,
+          allowTouchMove: false,
+          freeMode: false
+        }
       }
     });
-  }); 
+  });
 {% endjavascript %}
 
 {% schema %}

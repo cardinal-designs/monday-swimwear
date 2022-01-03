@@ -18,10 +18,10 @@
                 {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
               </div>
               {% if block.settings.fit_tip != blank %}
-                <p class="caption-neue">Fit Tip</p>
-                <p class="body">{{ block.settings.fit_tip }}</p>
+                <p class="caption-neue hide-mobile">Fit Tip</p>
+                <p class="body hide-mobile">{{ block.settings.fit_tip }}</p>
               {% endif %}
-              <a href="{{ block.settings.shop_link }}" class="text-link">Shop Now</a>
+              <a href="{{ block.settings.shop_link }}" class="text-link hide-mobile">Shop Now</a>
             </div>
           </div>
         {% endfor %}
@@ -35,14 +35,15 @@
           {% for block in section.blocks %}
             <div class="fit-guide-section__content-item swiper-slide" {{ block.shopify_attributes }}>
               <div class="fit-guide-section__content-item-wrapper">
-                <h2 class="fit-guide-section__content-title h3">{{ block.settings.title }}</h2>
+                <h2 class="fit-guide-section__content-title h3 hide-mobile">{{ block.settings.title }}</h2>
+                <h2 class="fit-guide-section__content-title h3 hide-desktop">{{ block.settings.short_title }}</h2>
                 <p class="fit-guide-section__content-short-description sh1">
                   {% assign split_description = block.settings.short_description | split: ',' %}
                   {% for descriptor in split_description %}
                     {{ descriptor }}&nbsp;&nbsp;
                   {% endfor %}
                 </p>
-                <p class="fit-guide-section__content-description body-large">{{ block.settings.description }}</p>
+                <p class="fit-guide-section__content-description body-large hide-mobile">{{ block.settings.description }}</p>
                 <div class="fit-guide-section__content-stats">
                   <div class="fit-guide-section__content-stat">
                     <p class="detail-caps">Fit</p>
@@ -65,7 +66,10 @@
                     <p class="body-small">{{ block.settings.fabric }}</p>
                   </div>
                 </div>
-                <a href="{{ block.settings.shop_link }}" class="text-link fit-guide-section__explore">Explore the Fit</a>
+                <div class="fit-guide-section__content-buttons">
+                  <a href="{{ block.settings.shop_link }}" class="text-link hide-desktop">Shop Now</a>
+                  <a href="{{ block.settings.explore_link }}" class="text-link">Explore the Fit</a>
+                </div>
               </div>
             </div>
           {% endfor %}
@@ -74,7 +78,7 @@
     </div>
     {% if section.blocks.size > 1 %}
       <div class="fit-guide-section__navigation">
-        <div class="fit-guide-section__navigation-wrapper">
+        <div class="fit-guide-section__navigation-wrapper hide-mobile">
           <button class="swiper-button swiper-button-prev">
             {% render 'icon-arrow-left' %}
           </button>
@@ -88,6 +92,14 @@
           <button class="swiper-button swiper-button-next">
             {% render 'icon-arrow-right' %}
           </button>
+        </div>
+        <div class="fit-guide-section__navigation-mobile">
+          <p class="btn">Explore the</p>
+          <select class="caption-sunset">
+            {% for block in section.blocks %}
+              <option value="{{ forloop.index }}">{{ block.settings.short_title }}</option>
+            {% endfor %}
+          </select>
         </div>
       </div>
     {% endif %}
@@ -210,6 +222,11 @@
             "type": "url",
             "id": "shop_link",
             "label": "Shop Link"
+          },
+          {
+            "type": "url",
+            "id": "explore_link",
+            "label": "Explore Link"
           }
         ]
       }

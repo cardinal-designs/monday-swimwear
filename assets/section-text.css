@@ -25,3 +25,14 @@
   margin: 0;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  .text-section {
+    margin: 90px 0;
+  }
+
+  .text-section__container .glow {
+    top: -30px;
+    right: 20px;
+  }
+}
