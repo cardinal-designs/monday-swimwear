@@ -93,13 +93,16 @@
             {% render 'icon-arrow-right' %}
           </button>
         </div>
-        <div class="fit-guide-section__navigation-mobile">
+        <div class="fit-guide-section__navigation-mobile hide-desktop">
           <p class="btn">Explore the</p>
-          <select class="caption-sunset">
-            {% for block in section.blocks %}
-              <option value="{{ forloop.index }}">{{ block.settings.short_title }}</option>
-            {% endfor %}
-          </select>
+          <div class="fit-guide-section__navigation-mobile-select">
+            <select class="fit-guide-section__select caption-sunset">
+              {% for block in section.blocks %}
+                <option value="{{ forloop.index0 }}">{{ block.settings.short_title }}</option>
+              {% endfor %}
+            </select>
+            {% render 'icon-caret' %}
+          </div>
         </div>
       </div>
     {% endif %}
@@ -144,6 +147,15 @@
   // Sync sliders with navigation
   fitGuideNavigationSlider.on('slideChange', slider => {
     let idx = slider.realIndex;
+
+    fitGuideContentSlider.slideToLoop(idx);
+    fitGuideImageSlider.slideToLoop(idx);
+  });
+
+  // Sync sliders with mobile
+  var mobileSelect = document.querySelector('.fit-guide-section__select');
+  mobileSelect.addEventListener('change', event => {
+    let idx = Number(event.target.value);
 
     fitGuideContentSlider.slideToLoop(idx);
     fitGuideImageSlider.slideToLoop(idx);

@@ -562,7 +562,6 @@ blockquote {
   background-color: transparent;
   border: 0.1rem solid transparent;
   border-radius: 0;
-  font-size: 1.6rem;
   width: 100%;
   height: 4.5rem;
   box-sizing: border-box;
@@ -636,41 +635,6 @@ blockquote {
   flex-grow: 1;
   text-align: left;
   padding: 1.5rem;
-}
-
-.field__label,
-.customer .field label {
-  font-size: 1.6rem;
-  left: 1.5rem;
-  top: 1rem;
-  margin-bottom: 0;
-  pointer-events: none;
-  position: absolute;
-  transition: top var(--duration-short) ease,
-    font-size var(--duration-short) ease;
-  color: rgba(var(--color-foreground), 0.75);
-  letter-spacing: 0.1rem;
-  line-height: 1.5;
-}
-
-.field__input:focus ~ .field__label,
-.field__input:not(:placeholder-shown) ~ .field__label,
-.field__input:-webkit-autofill ~ .field__label,
-.customer .field input:focus ~ label,
-.customer .field input:not(:placeholder-shown) ~ label,
-.customer .field input:-webkit-autofill ~ label {
-  font-size: 1rem;
-  top: 0.3em;
-  letter-spacing: 0.04rem;
-}
-
-.field__input:focus,
-.field__input:not(:placeholder-shown),
-.field__input:-webkit-autofill,
-.customer .field input:focus,
-.customer .field input:not(:placeholder-shown),
-.customer .field input:-webkit-autofill {
-  padding: 2.2rem 1.5rem 0.8rem;
 }
 
 .field__input::-webkit-search-cancel-button,
@@ -1794,3 +1758,7 @@ header-drawer {
   }
 }
 
+/*================ Recaptcha ================*/
+.grecaptcha-badge { 
+  visibility: hidden;
+}

@@ -78,7 +78,8 @@
         "643e0732-83e9-4986-9865-1f1ee99fda72"
       ],
       "settings": {
-        "text_style": "overlay"
+        "text_style": "overlay",
+        "slider_on_mobile": false
       }
     },
     "16408186509f925b52": {
@@ -98,7 +99,8 @@
             "style": "Adjustable",
             "fabric": "Soft Jersey",
             "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom",
+            "explore_link": ""
           }
         },
         "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7": {
@@ -115,7 +117,8 @@
             "style": "Adjustable",
             "fabric": "Soft Jersey",
             "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom",
+            "explore_link": ""
           }
         },
         "37be9d4e-ad65-4a18-88ca-dca968d4542e": {
@@ -132,7 +135,8 @@
             "style": "Adjustable",
             "fabric": "Soft Jersey",
             "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom",
+            "explore_link": ""
           }
         },
         "bd38ab1e-5212-4333-b22b-ef11f474d882": {
@@ -149,7 +153,8 @@
             "style": "Adjustable",
             "fabric": "Soft Jersey",
             "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom",
+            "explore_link": ""
           }
         }
       },
@@ -199,7 +204,8 @@
         "e0ecb353-7f3c-4f47-8f4c-38a1184a29ba"
       ],
       "settings": {
-        "text_style": "underneath"
+        "text_style": "underneath",
+        "slider_on_mobile": true
       }
     },
     "1640814929d4a3c77a": {
@@ -215,6 +221,13 @@
         "button_label": "Take the Fit Quiz",
         "button_link": "shopify:\/\/pages\/fit-quiz"
       }
+    },
+    "164124814754670aef": {
+      "type": "instagram",
+      "settings": {
+        "left_text": "Follow Along",
+        "right_text": "@Monday Swim"
+      }
     }
   },
   "order": [
@@ -225,6 +238,7 @@
     "1640811405c1297562",
     "16408186509f925b52",
     "1640812146b4d73cae",
-    "1640814929d4a3c77a"
+    "1640814929d4a3c77a",
+    "164124814754670aef"
   ]
 }

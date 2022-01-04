@@ -130,7 +130,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .editorial-text-image {
+    height: 355px;
+  }
+
+  .editorial-text-image__content {
+    padding: 20px 10px;
+    justify-content: space-between;
+  }
+
   .editorial-text-image__content h2 {
+    max-width: 230px;
+    margin: 0;
     color: white;
+  }
+
+  .editorial-text-image__image {
+    width: 100%;
   }
 }

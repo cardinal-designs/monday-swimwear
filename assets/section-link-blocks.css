@@ -1,5 +1,6 @@
 .link-blocks {
   margin: 60px 0;
+  overflow: hidden;
 }
 
 .link-blocks__container {
@@ -77,5 +78,27 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+  }
+}
+
+/* Slider */
+.link-blocks__container-slider {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .link-blocks__container-slider {
+    overflow: visible;
+  }
+
+  .link-blocks__container-slider .swiper-scrollbar {
+    margin-top: 40px;
+    position: unset;
+    height: 1px;
+    background: rgba(0, 0, 0, .04);
+  }
+  
+  .link-blocks__container-slider .swiper-scrollbar-drag {
+    background: black;
   }
 }

@@ -8,7 +8,7 @@
       <div class="product-slider__navigation">
         {% for block in section.blocks %}
           {% assign current_collection = collections[block.settings.collection] %}
-          <button class="sh2{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">{{ current_collection.title }}</button>
+          <button class="product-slider__navigation-item sh2{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">{{ current_collection.title }}</button>
         {% endfor %}
       </div>
       <div class="product-slider__arrows">
@@ -53,15 +53,13 @@
   [...document.querySelectorAll('.product-slider__collection')].forEach((el, i) => {
     var handle = '#collection--' + el.dataset.collection;
 
-    console.log(handle)
-
     productSliders[i] = new Swiper(handle, {
       slidesPerView: 1,
       loop: false,
       spaceBetween: 20,
       watchOverflow: true,
       allowTouchMove: true,
-      speed: 600,
+      speed: 400,
       freeMode: true,
       navigation: {
         prevEl: handle + '-arrow-left',
@@ -98,6 +96,24 @@
       }
     });
   });
+
+  // Tab change
+  [...document.querySelectorAll('.product-slider__navigation-item')].forEach((el, i) => {
+    el.addEventListener('click', event => {
+      const el = event.target;
+      const collection = el.dataset.collection; 
+      console.log(collection)
+
+      if (!el.classList.contains('active')) {
+        document.querySelector('.product-slider__navigation-item.active').classList.remove('active');
+        el.classList.add('active');
+
+        document.querySelector('.product-slider__collection.active').classList.remove('active');
+        document.querySelector(`.product-slider__collection[data-collection="${collection}"]`).classList.add('active'); 
+      }
+    });
+  });
+
 {% endjavascript %}
 
 {% schema %}
