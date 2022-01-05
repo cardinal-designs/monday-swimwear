@@ -1,3 +1,20 @@
+.collection-header {
+  margin: 50px 0 20px;
+}
+
+.collection-header__container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.collection-header__container h2 {
+  margin: 0 0 20px;
+}
+
+.collection-header__container p {
+  margin: 0;
+}
+
 .collection-grid-section {
   margin-top: 3rem;
 }
@@ -54,4 +71,13 @@
 .collection--empty .title-wrapper {
   margin-top: 10rem;
   margin-bottom: 15rem;
+}
+
+.product-grid { 
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px 20px;
+  list-style: none;
 }

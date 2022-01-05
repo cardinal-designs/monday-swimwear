@@ -11,6 +11,25 @@ class FacetFiltersForm extends HTMLElement {
 
     const facetWrapper = this.querySelector('#FacetsWrapperDesktop');
     if (facetWrapper) facetWrapper.addEventListener('keyup', onKeyUpEscape);
+
+    [...this.querySelectorAll('.filters__button')].forEach(item => {
+      item.nextElementSibling.classList.remove('active');
+
+      item.addEventListener('click', event => {
+        event.preventDefault();
+
+        // var activeItem = document.querySelector('.filters__item.active');
+        // if (activeItem) activeItem.classList.remove('active');
+        
+        event.currentTarget.parentElement.classList.toggle('active');
+        document.querySelector('.filters-overlay').classList.add('active');
+      });
+    });
+
+    document.querySelector('.filters-overlay').addEventListener('click', event => {
+      document.querySelector('.filters__item.active').classList.remove('active');
+      document.querySelector('.filters-overlay').classList.remove('active');
+    });
   }
 
   static setListeners() {
@@ -111,7 +130,7 @@ class FacetFiltersForm extends HTMLElement {
   }
 
   static renderActiveFacets(html) {
-    const activeFacetElementSelectors = ['.active-facets-mobile', '.active-facets-desktop'];
+    const activeFacetElementSelectors = ['.active-facets-mobile', '.active-filters-desktop'];
 
     activeFacetElementSelectors.forEach((selector) => {
       const activeFacetsElement = html.querySelector(selector);

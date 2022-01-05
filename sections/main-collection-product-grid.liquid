@@ -4,16 +4,21 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
-<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="collection-header">
+  <div class="page-width">
+    <div class="collection-header__container">
+      <h2>{{ collection.title }}</h2>
+      <p class="body-large">We’re on vacation all year long.</p>
+    </div>
+  </div>
+</div>
 
 {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+  {{ 'component-filters.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'filters.js' | asset_url }}" defer="defer"></script>
 
-  <div class="page-width" id="main-collection-filters" data-id="{{ section.id }}">
-    {% render 'facets', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
+  <div id="main-collection-filters" data-id="{{ section.id }}">
+    {% render 'filters', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
   </div>
 {%- endif -%}
 
@@ -34,12 +39,9 @@
         <div class="loading-overlay gradient"></div>
 
         <ul id="product-grid" data-id="{{ section.id }}" class="
-          grid grid--2-col negative-margin product-grid
-          {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
-            {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
-          {% endif %}">
+          product-grid">
           {%- for product in collection.products -%}
-            <li class="grid__item">
+            <li class="product-grid__item">
               {% render 'product-card',
                 product_card_product: product,
                 media_size: section.settings.image_ratio,
