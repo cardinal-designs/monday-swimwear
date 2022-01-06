@@ -2,7 +2,7 @@
 
 <div class="link-blocks">
   <div class="page-width">
-    <div class="link-blocks__container link-blocks__container--{{ section.blocks.size }} link-blocks__container--{{ section.settings.text_style }}{% if section.settings.slider_on_mobile %} link-blocks__container-slider swiper{% endif %}">
+    <div class="link-blocks__container link-blocks__container--{{ section.blocks.size }} link-blocks__container--{{ section.settings.text_style }}{% if section.settings.slider_on_mobile %} link-blocks__container-slider swiper{% endif %} fade-in-up">
       {% if section.settings.slider_on_mobile %}<div class="swiper-wrapper">{% endif %} 
       {% for block in section.blocks %}
         <div class="link-blocks__item{% if section.settings.slider_on_mobile %} swiper-slide{% endif %}" {{ block.shopify_attributes }}>

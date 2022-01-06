@@ -9,7 +9,7 @@
     <div class="fit-guide-section__left-bottom-text">
       <h2 class="h1">Guide</h2>
     </div>
-    <div class="fit-guide-section__images swiper">
+    <div class="fit-guide-section__images swiper fade-in-up">
       <div class="swiper-wrapper">
         {% for block in section.blocks %}
           <div class="fit-guide-section__image swiper-slide" {{ block.shopify_attributes }}>
@@ -30,7 +30,7 @@
   </div>
   <div class="fit-guide-section__right">
     <div class="fit-guide-section__content">
-      <div class="fit-guide-section__content-slider swiper">
+      <div class="fit-guide-section__content-slider swiper fade-in-up">
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
             <div class="fit-guide-section__content-item swiper-slide" {{ block.shopify_attributes }}>

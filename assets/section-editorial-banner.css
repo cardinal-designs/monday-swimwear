@@ -9,26 +9,38 @@
   color: white;
 }
 
+.editorial-banner__container .h1 {
+  margin: 0;
+}
+
 .editorial-banner__left-text {
-  margin: -30px 0 0 95px;
-  position: relative;
+  padding: 0 5px;
+  position: absolute;
+  top: -30px;
+  left: 90px;
+  overflow: hidden;
+  filter: blur(8px);
 }
 
 .editorial-banner__right-text {
-  margin: -20px -10px 0;
-  text-align: right;
-  position: relative;
+  padding: 0 5px;
+  position: absolute;
+  top: 70px;
+  right: -15px;
+  overflow: hidden;
+  filter: blur(8px);
 }
 
 .editorial-banner__link {
   position: absolute;
   left: 95px;
   bottom: 35px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1440px) {
   .editorial-banner__left-text {
-    margin: 0 0 0 30px;
+    left: 25px;
   }
 
   .editorial-banner__link {
@@ -48,12 +60,15 @@
   }
 
   .editorial-banner__left-text {
-    margin: -13px 0 0 10px;
+    height: 59px;
+    top: -14px;
+    left: 10px;
   }
 
   .editorial-banner__right-text {
-    margin: 0 0 0 10px;
-    text-align: left;
+    height: 59px;
+    left: 10px;
+    top: 46px;
   }
 
   .editorial-banner__link {

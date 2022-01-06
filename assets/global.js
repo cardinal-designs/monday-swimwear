@@ -796,6 +796,7 @@ class ProductCard extends HTMLElement {
     this.swatches = this.querySelectorAll('.product-card__swatch');
     this.cardImage = this.querySelector('.product-card__image .initial-image img');
     this.cardHoverImage = this.querySelector('.product-card__image .hover-image img');
+    this.productTitle = this.querySelector('.product-card__title');
     this.links = this.querySelectorAll('.product-card__link');
 
     this.handleSwatchClick = (swatch, event) => {
@@ -812,6 +813,7 @@ class ProductCard extends HTMLElement {
     if (!swatch.classList.contains('active')) {
       this.updateActiveSwatch(swatch);
       this.updateImages(swatch);
+      this.updateTitle(swatch);
       this.updateLinks(swatch);
     }
   }
@@ -832,6 +834,12 @@ class ProductCard extends HTMLElement {
     this.cardHoverImage.setAttribute('src', hoverImage);
   }
 
+  updateTitle(swatch) {
+    const title = swatch.dataset.title;
+
+    this.productTitle.innerHTML = title;
+  }
+
   updateLinks(swatch) {
     const url = swatch.dataset.url;
 
@@ -841,3 +849,68 @@ class ProductCard extends HTMLElement {
   }
 }
 customElements.define('product-card', ProductCard);
+
+
+/*================ Animations ================*/
+gsap.registerPlugin(ScrollTrigger);
+
+(function() {
+  const blurProperty = gsap.utils.checkPrefix("filter"),
+        blurExp = /blur\((.+)?px\)/,
+        getBlurMatch = target => (gsap.getProperty(target, blurProperty) || "").match(blurExp) || [];
+
+  gsap.registerPlugin({
+    name: "blur",
+    get(target) {
+      return +(getBlurMatch(target)[1]) || 0;
+    },
+    init(target, endValue) {
+      let data = this,
+          filter = gsap.getProperty(target, blurProperty),
+          endBlur = "blur(" + endValue + "px)",
+          match = getBlurMatch(target)[0],
+          index;
+      if (filter === "none") {
+        filter = "";
+      }
+      if (match) {
+        index = filter.indexOf(match);
+        endValue = filter.substr(0, index) + endBlur + filter.substr(index + match.length);
+      } else {
+        endValue = filter + endBlur;
+        filter += filter ? " blur(0px)" : "blur(0px)";
+      }
+      data.target = target; 
+      data.interp = gsap.utils.interpolate(filter, endValue); 
+    },
+    render(progress, data) {
+      data.target.style[blurProperty] = data.interp(progress);
+    }
+  });
+})();
+
+// Glow Pulse
+gsap.fromTo('.glow', {
+  scale: 0.5
+},
+{
+  scale: 1.4,
+  yoyo: true,
+  duration: 3,
+  repeat: -1,
+  ease: 'linear'
+});
+
+// Fade In Up
+const fadeInUpElems = gsap.utils.toArray('.fade-in-up');
+fadeInUpElems.forEach(elem => {
+  gsap.from(elem, { 
+    opacity: 0,
+    y: 20,
+    duration: .6,
+    scrollTrigger: {
+      trigger: elem,
+      start: "top 80%"
+    }
+  })
+});

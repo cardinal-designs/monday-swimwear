@@ -4,7 +4,7 @@
 
 <div class="product-slider">
   <div class="page-width">
-    <div class="product-slider__header">
+    <div class="product-slider__header fade-in-up">
       <div class="product-slider__navigation">
         {% for block in section.blocks %}
           {% assign current_collection = collections[block.settings.collection] %}
@@ -31,7 +31,7 @@
         <div id="collection--{{ current_collection.handle }}" class="product-slider__collection swiper{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
           <div class="swiper-wrapper">
             {% for current_product in current_collection.products limit: 12 %}
-              <div class="product-slider__item swiper-slide">
+              <div class="product-slider__item swiper-slide fade-in-up">
                 {% render 'product-card',
                   product_card_product: current_product,
                   show_secondary_image: true

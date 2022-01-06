@@ -11,8 +11,12 @@
         {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
       {% endif %}
 
-      <h2 class="h1 editorial-banner__left-text">{{ section.settings.left_text }}</h2>
-      <h2 class="h1 editorial-banner__right-text">{{ section.settings.right_text }}</h2>
+      <h2 class="h1 editorial-banner__left-text">
+        <span>{{ section.settings.left_text }}</span>
+      </h2>
+      <h2 class="h1 editorial-banner__right-text">
+        <span>{{ section.settings.right_text }}</span>
+      </h2>
       
       <div class="editorial-banner__link">
         {% if section.settings.link_label != blank %}
@@ -23,6 +27,31 @@
     </div>
   </div>
 </div>
+
+{% javascript %}
+  let bannerTL = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.editorial-banner',
+      start: "top 90%",
+      end: "top 75%"
+    }
+  });
+
+  bannerTL.from('.editorial-banner', {
+    opacity: 0,
+    y: 20,
+    duration: .8
+  })
+  .from('.editorial-banner .h1', {
+    height: 0,
+    duration: 1
+  }, '>')
+  .to('.editorial-banner .h1', {
+    blur: 0,
+    duration: 1.2
+  }, '-=30%');
+
+{% endjavascript %}
 
 {% schema %}
   {

@@ -430,6 +430,10 @@ blockquote {
   }
 }
 
+.glow {
+  will-change: blur;
+}
+
 /*================ Components ================*/
 /* Button */
 .button,
