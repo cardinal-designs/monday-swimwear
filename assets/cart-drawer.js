@@ -13,7 +13,7 @@ customElements.define('cart-drawer-remove-button', CartDrawerRemoveButton);
 class CartDrawer extends HTMLElement {
   constructor() {
     super();
-
+    
     // Elements
     this.drawer = document.getElementById('cart-drawer');
     
