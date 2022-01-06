@@ -28,7 +28,7 @@
                   {%- for link in section.settings.menu.links -%}
                     <li class="menu-drawer__menu-item--top">
                       {%- if link.links != blank -%}
-                        <div class="menu-drawer__menu-item list-menu__item body focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
+                        <div class="menu-drawer__menu-item list-menu__item body{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                           {% if link.title contains 'Shop All' %}
                             Shop
                             <button class="shop-all-link link" href="/collections/shop-all">Shop All</button>
@@ -41,11 +41,11 @@
                               {%- for childlink in link.links -%}
                                 <li class="menu-drawer__menu-item--middle">
                                   {%- if childlink.links == blank -%}
-                                    <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                    <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                       {{ childlink.title | escape }}
                                     </a>
                                   {%- else -%}
-                                    <button class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                    <button class="menu-drawer__menu-item link link--text list-menu__item">
                                       {{ childlink.title | escape }}
                                       <div class="menu-drawer__menu-control"></div>
                                     </button>
@@ -53,7 +53,7 @@
                                       <ul class="menu-drawer__menu menu-drawer__menu--bottom list-menu list-unstyled" role="list" tabindex="-1">
                                         {%- for grandchildlink in childlink.links -%}
                                           <li class="menu-drawer__menu-item--bottom">
-                                            <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                            <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                               {{ grandchildlink.title | escape }}
                                             </a>
                                           </li>
@@ -66,7 +66,7 @@
                             </ul>
                         </div>
                       {%- else -%}
-                        <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text btn focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                        <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text btn{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
                           {{ link.title | escape }}
                         </a>
                       {%- endif -%}
