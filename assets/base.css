@@ -471,6 +471,12 @@ blockquote {
   color: black;
 }
 
+.button--ghost {
+  background: transparent;
+  border-color: black;
+  color: black;
+}
+
 /* Button - hover */
 @media screen and (min-width: 769px) {
   .button:not([disabled]):hover,
@@ -479,6 +485,16 @@ blockquote {
     background: transparent;
     border-color: black;
     color: black;
+  }
+  
+  .button.button--bone:hover {
+    background: black;
+    color: white;
+  }
+
+  .button.button--ghost:hover {
+    background: black;
+    color: white;
   }
 }
 

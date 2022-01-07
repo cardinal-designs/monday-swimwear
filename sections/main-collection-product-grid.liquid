@@ -3,6 +3,9 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+{{ 'component-collection-filters.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'collection-filters.js' | asset_url }}" defer="defer"></script>
 
 <div class="collection-header">
   <div class="page-width">
@@ -13,20 +16,104 @@
   </div>
 </div>
 
-{%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-  {{ 'component-filters.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'filters.js' | asset_url }}" defer="defer"></script>
+{% assign active_tags = '' %}
 
-  <div id="main-collection-filters" data-id="{{ section.id }}">
-    {% render 'filters', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
+{% for tag in current_tags %}
+  {% assign tag_as_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle %}
+  {% assign active_tags = active_tags | append: tag_as_handle %}
+
+  {% unless forloop.last %}
+    {% assign active_tags = active_tags | append: '+' %}
+  {% endunless %}
+{% endfor %}
+
+<collection-filters class="collection-filters" data-collection-url="{{ collection.url }}" data-current-tags="{{ active_tags }}">
+  <div class="collection-filters__overlay"></div>
+  <div class="collection-filters__container page-width">
+
+    <div class="collection-filters__left">
+      <div class="collection-filters__categories">
+        <p class="collection-filters__title detail-caps">Filters</p>
+        {% for block in section.blocks %}
+          <div class="collection-filters__item">
+            <button class="collection-filters__button body">
+              {{ block.settings.title }}
+              {% render 'icon-caret' %}
+            </button>
+            <div class="collection-filters__dropdown">
+              <div class="page-width">
+                <p class="collection-filters__dropdown-title detail-caps">By {{ block.settings.title }}</p>
+                <div class="collection-filters__dropdown-container">
+                  <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
+                    {% assign tag_list = block.settings.filters | split: ',' %}
+                    {% for category_tag in tag_list %}
+                      {% assign active_tags_split = active_tags | split: '+' %}
+                      {% assign category_tag_handle = category_tag | handleize %}
+                      <button class="collection-filters__tag body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
+                        <div class="collection-filters__tag-radio"></div>
+                        {{ category_tag }}
+                      </button>
+                    {% endfor %}
+                  </div>
+                  <div class="collection-filters__dropdown-buttons">
+                    <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>
+                    <button class="collection-filters__clear button button--ghost" data-category="{{ block.settings.title | handleize }}">Clear</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="collection-filters__active-tags" id="CollectionFilterActiveTags">
+        {% if active_tags != blank %}
+          {% for tag in current_tags %}
+            {% assign tag_as_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle %}
+            <div class="collection-filters__active-tag caption-neue" data-value="{{ tag_as_handle }}">
+              {{ tag }}
+              <button class="collection-filters__active-tag-remove">
+                {% render 'icon-close-small' %}
+              </button>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="collection-filters__right">
+      <div class="collection-filters__total" id="CollectionFilterProductTotal">
+        <p class="detail-caps">{{ collection.products_count }} Product{% if collection.products_count != 1 %}s{% endif %}</p>
+      </div>
+      <div class="collection-filters__sort">
+         
+      </div>
+    </div>
+
   </div>
-{%- endif -%}
+</collection-filters> 
 
-<div id="ProductGridContainer">
+
+{% comment %}
+{{ 'component-filters.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'filters.js' | asset_url }}" defer="defer"></script>
+
+<div id="main-collection-filters" data-id="{{ section.id }}">
+  {% render 'filters', results: collection, enable_filtering: true, enable_sorting: true, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
+</div>
+{% endcomment %}
+
+
+<div id="ProductGridContainer" data-id="{{ section.id }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
-        <div class="loading-overlay gradient"></div>
+        <div class="loading-overlay">
+          <div class="loading-overlay__spinner">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+              <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+            </svg>
+          </div>
+        </div>
         <div class="title-wrapper center">
           <h2 class="title title--primary">
             {{ 'sections.collection_template.empty' | t }}<br>
@@ -65,8 +152,8 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-collection-product-grid.name",
-  "class": "spaced-section collection-grid-section",
+  "name": "Collection",
+  "class": "collection-grid-section",
   "settings": [
     {
       "type": "range",
@@ -76,84 +163,25 @@
       "step": 4,
       "default": 16,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
-    },
+    }
+  ],
+  "blocks": [
     {
-      "type": "header",
-      "content": "t:sections.main-collection-product-grid.settings.header__3.content"
-    },
-    {
-      "type": "select",
-      "id": "image_ratio",
-      "options": [
+      "type": "filter_category",
+      "name": "Filter Category",
+      "settings": [
         {
-          "value": "adapt",
-          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__1.label"
+          "type": "text",
+          "id": "title",
+          "label": "Category Title"
         },
         {
-          "value": "portrait",
-          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__2.label"
-        },
-        {
-          "value": "square",
-          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__3.label"
+          "type": "textarea",
+          "id": "filters",
+          "label": "Tag Filters",
+          "info": "Separate each tag with a comma and no spaces. The tag should be written exactly as is in the product admin page."
         }
-      ],
-      "default": "adapt",
-      "label": "t:sections.main-collection-product-grid.settings.image_ratio.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_secondary_image",
-      "default": false,
-      "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "add_image_padding",
-      "default": false,
-      "label": "t:sections.main-collection-product-grid.settings.add_image_padding.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_image_outline",
-      "default": true,
-      "label": "t:sections.main-collection-product-grid.settings.show_image_outline.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_vendor",
-      "default": false,
-      "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_rating",
-      "default": false,
-      "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
-      "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.main-collection-product-grid.settings.header__1.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_filtering",
-      "default": true,
-      "label": "t:sections.main-collection-product-grid.settings.enable_filtering.label",
-      "info": "t:sections.main-collection-product-grid.settings.enable_filtering.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_sorting",
-      "default": true,
-      "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "collapse_on_larger_devices",
-      "default": false,
-      "label": "t:sections.main-collection-product-grid.settings.collapse_on_larger_devices.label"
+      ]
     }
   ]
 }

@@ -317,7 +317,7 @@ class HeaderDrawer extends HTMLElement {
   onKeyUp(event) {
     if(event.code.toUpperCase() !== 'ESCAPE') return;
 
-    this.closeMenuDrawer.bind(this);
+    this.closeMenuDrawer();
   }
 
   openMenuDrawer() {
