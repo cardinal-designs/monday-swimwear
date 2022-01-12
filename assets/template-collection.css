@@ -33,6 +33,24 @@
   .collection .title:not(.title--no-heading) {
     margin-top: -1rem;
   }
+
+  .collection-header {
+    margin: 30px 0 0;
+  }
+
+  .collection-header__container h2 {
+    margin: 0 0 10px;
+  }
+
+  .collection-header__container p {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+  }
+
+  .collection-grid-section {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -82,4 +100,17 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 60px 20px;
   list-style: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .product-grid { 
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-grid { 
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 10px;
+  }
 }

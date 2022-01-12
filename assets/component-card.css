@@ -108,6 +108,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .product-card__content {
+    padding-top: 14px;
+  }
+
   .product-card__header {
     display: block;
   }

@@ -31,9 +31,18 @@
   <div class="collection-filters__overlay"></div>
   <div class="collection-filters__container page-width">
 
+    <div class="collection-filters__mobile-buttons hide-desktop">
+      <button class="collection-filters__mobile-button body open-filters">Filter&nbsp;&nbsp;&nbsp;+</button>
+      <button class="collection-filters__mobile-button body open-sort">Sort&nbsp;&nbsp;&nbsp;+</button>
+    </div>
+
     <div class="collection-filters__left">
       <div class="collection-filters__categories">
-        <p class="collection-filters__title detail-caps">Filters</p>
+        <p class="collection-filters__title detail-caps hide-mobile">Filters</p>
+        <div class="collection-filters__mobile-title hide-desktop">
+          <p class="body-large">Filters</p>
+          <button class="collection-filters__close">{% render 'icon-close' %}</button>
+        </div>
         {% for block in section.blocks %}
           <div class="collection-filters__item">
             <button class="collection-filters__button body">
@@ -42,7 +51,7 @@
             </button>
             <div class="collection-filters__dropdown">
               <div class="page-width">
-                <p class="collection-filters__dropdown-title detail-caps">By {{ block.settings.title }}</p>
+                <p class="collection-filters__dropdown-title detail-caps hide-mobile">By {{ block.settings.title }}</p>
                 <div class="collection-filters__dropdown-container">
                   <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
                     {% assign tag_list = block.settings.filters | split: ',' %}
@@ -55,7 +64,7 @@
                       </button>
                     {% endfor %}
                   </div>
-                  <div class="collection-filters__dropdown-buttons">
+                  <div class="collection-filters__dropdown-buttons hide-mobile">
                     <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>
                     <button class="collection-filters__clear button button--ghost" data-category="{{ block.settings.title | handleize }}">Clear</button>
                   </div>
@@ -64,6 +73,10 @@
             </div>
           </div>
         {% endfor %}
+        <div class="collection-filters__mobile-actions">
+          <button class="collection-filters__clear-all body">Clear</button>
+          <button class="collection-filters__apply body">Apply Filters</button>
+        </div>
       </div>
       <div class="collection-filters__active-tags" id="CollectionFilterActiveTags">
         {% if active_tags != blank %}
@@ -86,13 +99,17 @@
       </div>
       <div class="collection-filters__sorting">
         <div class="collection-filters__item">
-          <button class="collection-filters__button body">
+          <div class="collection-filters__mobile-title hide-desktop">
+            <p class="body-large">Sort By</p>
+            <button class="collection-filters__sort-close">{% render 'icon-close' %}</button>
+          </div>
+          <button class="collection-filters__button body hide-mobile">
             Sort By
             {% render 'icon-caret' %}
           </button>
           <div class="collection-filters__dropdown">
             <div class="page-width">
-              <p class="collection-filters__dropdown-title detail-caps">Sort By</p>
+              <p class="collection-filters__dropdown-title detail-caps hide-mobile">Sort By</p>
               <div class="collection-filters__dropdown-container">
                 <div class="collection-filters__dropdown-list" data-category="sort">
                   {% for option in collection.sort_options %}
@@ -104,7 +121,7 @@
                   {% endfor %}
                 </div>
                 <div class="collection-filters__dropdown-buttons">
-                  <button class="collection-filters__apply button button--bone" data-category="sort">Apply</button>
+                  <button class="collection-filters__sort-apply button button--bone" data-category="sort">Apply</button>
                 </div>
               </div>
             </div>

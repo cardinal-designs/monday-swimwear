@@ -632,7 +632,9 @@ class ProductCard extends HTMLElement {
     const hoverImage = swatch.dataset.hover;
 
     this.cardImage.setAttribute('src', image);
-    this.cardHoverImage.setAttribute('src', hoverImage);
+    if (this.cardHoverImage) {
+      this.cardHoverImage.setAttribute('src', hoverImage);
+    }
   }
 
   updateTitle(swatch) {

@@ -6,9 +6,13 @@ class CollectionFilters extends HTMLElement {
     this.tagButtons = this.querySelectorAll('.collection-filters__tag');
     this.overlay = this.querySelector('.collection-filters__overlay');
     this.clearButtons = this.querySelectorAll('.collection-filters__clear');
+    this.clearAllButtons = this.querySelectorAll('.collection-filters__clear-all');
     this.applyButtons = this.querySelectorAll('.collection-filters__apply');
     this.activeTagsContainer = this.querySelector('.collection-filters__active-tags');
     this.sortButtons = this.querySelectorAll('.collection-filters__sort');
+
+    this.mobileFilterContainer = this.querySelector('.collection-filters__categories');
+    this.mobileSortContainer = this.querySelector('.collection-filters__sorting');
     
     this.collectionURL = this.dataset.collectionUrl;
     this.currentTags = this.dataset.currentTags.split('+');
@@ -23,6 +27,10 @@ class CollectionFilters extends HTMLElement {
     this.overlay.addEventListener('click', event => {
       document.querySelector('.collection-filters__item.active').classList.remove('active');
       this.overlay.classList.remove('active');
+
+      if (window.innerWidth < 769) {
+        this.mobileFilterContainer.classList.remove('active');
+      }
     });
 
     // Handle Button/Category Click
@@ -40,10 +48,24 @@ class CollectionFilters extends HTMLElement {
       clearButton.addEventListener('click', this.clearByCategory.bind(this, clearButton));
     });
 
+    // Clear all filters
+    this.clearAllButtons.forEach(clearAllButton => {
+      clearAllButton.addEventListener('click', this.clearAllFilters.bind(this, clearAllButton));
+    });
+
     // Apply filters close dropdown
     this.applyButtons.forEach(applyButton => {
       applyButton.addEventListener('click', () => {
-        document.querySelector('.collection-filters__item.active').classList.remove('active');
+        const activeItem = document.querySelector('.collection-filters__item.active');
+
+        if (activeItem) {
+          activeItem.classList.remove('active');
+        }
+
+        if (window.innerWidth < 769) {
+          document.querySelector('.collection-filters__categories.active').classList.remove('active');
+        }
+
         this.overlay.classList.remove('active');
       });
     });
@@ -59,6 +81,21 @@ class CollectionFilters extends HTMLElement {
     // Handle Sort Click
     this.sortButtons.forEach(sortButton => {
       sortButton.addEventListener('click', this.handleSortClick.bind(this, sortButton));
+    });
+
+    // Mobile Filter Open
+    this.querySelector('.open-filters').addEventListener('click', () => {
+      this.openMobileFilters();
+    });
+
+    // Mobile Sort Open
+    this.querySelector('.open-sort').addEventListener('click', () => {
+      this.openMobileSort();
+    });
+
+    // Mobile Sort Apply
+    this.querySelector('.collection-filters__sort-apply').addEventListener('click', () => {
+      this.closeMobileSort();
     });
   }
 
@@ -78,6 +115,42 @@ class CollectionFilters extends HTMLElement {
       parent.classList.add('active');
       this.overlay.classList.add('active');
     }
+  }
+
+  openMobileFilters() {
+    const closeFilterContainer = document.querySelector('.collection-filters__close');
+
+    this.mobileFilterContainer.classList.add('active');
+    this.overlay.classList.add('active');
+    this.overlay.addEventListener('click', () => {
+      this.closeMobileFilters();
+    });
+    closeFilterContainer.addEventListener('click', () => {
+      this.closeMobileFilters();
+    });
+  }
+
+  closeMobileFilters() {
+    this.mobileFilterContainer.classList.remove('active');
+    this.overlay.classList.remove('active');
+  }
+
+  openMobileSort() {
+    const closeSortContainer = document.querySelector('.collection-filters__sort-close');
+
+    this.mobileSortContainer.classList.add('active');
+    this.overlay.classList.add('active');
+    this.overlay.addEventListener('click', () => {
+      this.closeMobileSort();
+    });
+    closeSortContainer.addEventListener('click', () => {
+      this.closeMobileSort();
+    });
+  }
+
+  closeMobileSort() {
+    this.mobileSortContainer.classList.remove('active');
+    this.overlay.classList.remove('active');
   }
 
   handleFilterClick(tagButton, event) {
@@ -138,6 +211,14 @@ class CollectionFilters extends HTMLElement {
       this.updateActiveButtons();
       this.applyFilters();
     }
+  }
+
+  clearAllFilters() {
+    this.temporaryTags = [];
+    document.querySelector('.collection-filters__categories.active').classList.remove('active');
+
+    this.updateActiveButtons();
+    this.applyFilters();
   }
 
   removeTag(tag) {
