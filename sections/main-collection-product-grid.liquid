@@ -27,7 +27,7 @@
   {% endunless %}
 {% endfor %}
 
-<collection-filters class="collection-filters" data-collection-url="{{ collection.url }}" data-current-tags="{{ active_tags }}">
+<collection-filters class="collection-filters" data-collection-url="{{ collection.url }}" data-current-tags="{{ active_tags }}" data-current-sort="{{ collection.sort_by | default: collection.default_sort_by }}">
   <div class="collection-filters__overlay"></div>
   <div class="collection-filters__container page-width">
 
@@ -49,8 +49,8 @@
                     {% for category_tag in tag_list %}
                       {% assign active_tags_split = active_tags | split: '+' %}
                       {% assign category_tag_handle = category_tag | handleize %}
-                      <button class="collection-filters__tag body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
-                        <div class="collection-filters__tag-radio"></div>
+                      <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
+                        <div class="collection-filters__tag-radio radio-button__indicator"></div>
                         {{ category_tag }}
                       </button>
                     {% endfor %}
@@ -84,8 +84,32 @@
       <div class="collection-filters__total" id="CollectionFilterProductTotal">
         <p class="detail-caps">{{ collection.products_count }} Product{% if collection.products_count != 1 %}s{% endif %}</p>
       </div>
-      <div class="collection-filters__sort">
-         
+      <div class="collection-filters__sorting">
+        <div class="collection-filters__item">
+          <button class="collection-filters__button body">
+            Sort By
+            {% render 'icon-caret' %}
+          </button>
+          <div class="collection-filters__dropdown">
+            <div class="page-width">
+              <p class="collection-filters__dropdown-title detail-caps">Sort By</p>
+              <div class="collection-filters__dropdown-container">
+                <div class="collection-filters__dropdown-list" data-category="sort">
+                  {% for option in collection.sort_options %}
+                    {% assign collection_sort_by = collection.sort_by | default: collection.default_sort_by %}
+                    <button class="collection-filters__sort radio-button body{% if option.value == collection_sort_by %} active{% endif %}" data-value="{{ option.value }}">
+                      <div class="collection-filters__sort-radio radio-button__indicator"></div>
+                      {{ option.name }}
+                    </button>
+                  {% endfor %}
+                </div>
+                <div class="collection-filters__dropdown-buttons">
+                  <button class="collection-filters__apply button button--bone" data-category="sort">Apply</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -161,7 +185,7 @@
       "min": 8,
       "max": 24,
       "step": 4,
-      "default": 16,
+      "default": 24,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
     }
   ],

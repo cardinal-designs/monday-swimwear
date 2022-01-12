@@ -8,10 +8,12 @@ class CollectionFilters extends HTMLElement {
     this.clearButtons = this.querySelectorAll('.collection-filters__clear');
     this.applyButtons = this.querySelectorAll('.collection-filters__apply');
     this.activeTagsContainer = this.querySelector('.collection-filters__active-tags');
+    this.sortButtons = this.querySelectorAll('.collection-filters__sort');
     
     this.collectionURL = this.dataset.collectionUrl;
     this.currentTags = this.dataset.currentTags.split('+');
     this.temporaryTags = this.currentTags.slice();
+    this.sortBy = this.dataset.currentSort;
 
     this.setListeners();
   }
@@ -53,11 +55,14 @@ class CollectionFilters extends HTMLElement {
         this.removeTag(tag);
       }
     });
+
+    // Handle Sort Click
+    this.sortButtons.forEach(sortButton => {
+      sortButton.addEventListener('click', this.handleSortClick.bind(this, sortButton));
+    });
   }
 
   handleButtonClick(categoryButton, event) {
-    // event.stopImmediatePropagation();
-
     const parent = categoryButton.parentElement;
     const activeItem = document.querySelector('.collection-filters__item.active');
 
@@ -78,7 +83,7 @@ class CollectionFilters extends HTMLElement {
   handleFilterClick(tagButton, event) {
     const filter = tagButton.dataset.value;
     
-    if (tagButton.classList.contains('is-active')) {
+    if (tagButton.classList.contains('active')) {
        // Delete the tag if already active
       this.temporaryTags.splice(this.temporaryTags.indexOf(filter), 1);
     } else {
@@ -142,21 +147,37 @@ class CollectionFilters extends HTMLElement {
     this.applyFilters();
   }
 
+  handleSortClick(sortButton) {
+    const sort = sortButton.dataset.value;
+
+    // Make clicked button active
+    if (!sortButton.classList.contains('active')) {
+      this.querySelector('.collection-filters__sort.active').classList.remove('active');
+      sortButton.classList.add('active');
+
+      this.sortBy = sort;
+
+      this.currentTags = this.currentTags.filter(el => el != '');
+      this.reloadSections();
+    }
+  }
+
   reloadSections() {
     // Change URL
-    const tags = this.currentTags.length > 0 ? this.currentTags.join('+') : '';
-    const newUrl = window.location.protocol + '//' + window.location.host + this.collectionURL + '/' + tags;
-    // const newUrl = window.location.protocol + '//' + window.location.host + this.settings['collectionUrl'] + '/' + tags + '?sort_by=' + this.currentSortBy;
+    const tags = this.currentTags.length > 0 ?  '/' + this.currentTags.join('+') : '';
+    const newUrl = window.location.protocol + '//' + window.location.host + this.collectionURL + tags + '?sort_by=' + this.sortBy;
+    
     if (history.replaceState) {
       window.history.pushState({ path: newUrl }, '', newUrl);
     }
 
     // Get section rendering URL 
     const url = newUrl + `/?section_id=main-collection-product-grid`;
+    console.log(location.pathname)
 
     // Fetch and replace sections
     this.enableLoading();
-    fetch(url)
+    fetch(location.pathname + '?sort_by=' + this.sortBy)
       .then(response => response.text())
       .then((responseText) => {
         const html = responseText;

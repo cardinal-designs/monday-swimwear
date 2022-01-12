@@ -1562,6 +1562,7 @@ header-drawer {
 .menu-drawer {
   height: 100vh;
   width: calc(100vw - 30px);
+  max-width: 500px;
   position: absolute;
   transform: translateX(-100%);
   -webkit-transform: translateX(-100%);

@@ -6,7 +6,7 @@
       <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
         <div class="product-card__image">
           {% render 'lazy-image' image: product_card_product.featured_media, fade: true, classes: 'initial-image' %}
-          {%- if product_card_product.media[1] != nil and show_secondary_image -%}
+          {%- if product_card_product.media[1] != nil -%}
             {% render 'lazy-image' image: product_card_product.media[1], fade: true, classes: 'hover-image' %}
           {%- endif -%}
           <div class="product-card__button">

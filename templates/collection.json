@@ -39,11 +39,20 @@
         "4802a76d-c48c-4206-968b-2d7341f784cd"
       ],
       "settings": {
-        "products_per_page": 16
+        "products_per_page": 24
+      }
+    },
+    "164195913179be1b55": {
+      "type": "text-banner",
+      "settings": {
+        "text": "Let’s find your perfect fit.",
+        "button_label": "Take the Fit Quiz",
+        "button_link": "shopify:\/\/pages\/fit-quiz"
       }
     }
   },
   "order": [
-    "product-grid"
+    "product-grid",
+    "164195913179be1b55"
   ]
 }
