@@ -1,3 +1,71 @@
+/* SLIDE UP */
+let slideUp = (target, duration=500) => {
+
+  target.style.transitionProperty = 'height, margin, padding';
+  target.style.transitionDuration = duration + 'ms';
+  target.style.boxSizing = 'border-box';
+  target.style.height = target.offsetHeight + 'px';
+  target.offsetHeight;
+  target.style.overflow = 'hidden';
+  target.style.height = 0;
+  target.style.paddingTop = 0;
+  target.style.paddingBottom = 0;
+  target.style.marginTop = 0;
+  target.style.marginBottom = 0;
+  window.setTimeout( () => {
+        target.style.display = 'none';
+        target.style.removeProperty('height');
+        target.style.removeProperty('padding-top');
+        target.style.removeProperty('padding-bottom');
+        target.style.removeProperty('margin-top');
+        target.style.removeProperty('margin-bottom');
+        target.style.removeProperty('overflow');
+        target.style.removeProperty('transition-duration');
+        target.style.removeProperty('transition-property');
+        //alert("!");
+  }, duration);
+}
+
+/* SLIDE DOWN */
+let slideDown = (target, duration=500) => {
+
+  target.style.removeProperty('display');
+  let display = window.getComputedStyle(target).display;
+  if (display === 'none') display = 'block';
+  target.style.display = display;
+  let height = target.offsetHeight;
+  target.style.overflow = 'hidden';
+  target.style.height = 0;
+  target.style.paddingTop = 0;
+  target.style.paddingBottom = 0;
+  target.style.marginTop = 0;
+  target.style.marginBottom = 0;
+  target.offsetHeight;
+  target.style.boxSizing = 'border-box';
+  target.style.transitionProperty = "height, margin, padding";
+  target.style.transitionDuration = duration + 'ms';
+  target.style.height = height + 'px';
+  target.style.removeProperty('padding-top');
+  target.style.removeProperty('padding-bottom');
+  target.style.removeProperty('margin-top');
+  target.style.removeProperty('margin-bottom');
+  window.setTimeout( () => {
+    target.style.removeProperty('height');
+    target.style.removeProperty('overflow');
+    target.style.removeProperty('transition-duration');
+    target.style.removeProperty('transition-property');
+  }, duration);
+}
+
+/* TOOGLE */
+var slideToggle = (target, duration = 500) => {
+  if (window.getComputedStyle(target).display === 'none') {
+    return slideDown(target, duration);
+  } else {
+    return slideUp(target, duration);
+  }
+}
+
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
@@ -157,6 +225,22 @@ class QuantityInput extends HTMLElement {
 }
 
 customElements.define('quantity-input', QuantityInput);
+
+const serializeForm = form => {
+  const obj = {};
+  const formData = new FormData(form);
+  for (const key of formData.keys()) {
+    obj[key] = formData.get(key);
+  }
+  return JSON.stringify(obj);
+};
+
+function fetchConfig(type = 'json') {
+  return {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Accept': `application/${type}` }
+  };
+}
 
 function debounce(fn, wait) {
   let t;
@@ -365,12 +449,13 @@ class VariantSelects extends HTMLElement {
     this.addEventListener('change', this.onVariantChange);
   }
 
-  onVariantChange() {
+  onVariantChange(event) {
     this.updateOptions();
     this.updateMasterId();
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
+    this.updateInfoText(event);
 
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
@@ -438,6 +523,56 @@ class VariantSelects extends HTMLElement {
       input.value = this.currentVariant.id;
       input.dispatchEvent(new Event('change', { bubbles: true }));
     });
+  }
+
+
+  updateInfoText(event) {
+    let value = event.target.closest('input:checked').value;
+    const initialValue = event.target.closest('input:checked').value;
+    const activeTexts = this.querySelectorAll('.product-form__input-active');
+    const isSize = event.target.classList.contains('product-form__input-size');
+    const isProductBar = event.target.classList.contains('is-product-bar');
+
+    if (isSize) {
+      switch (value) {
+        case 'P':
+          value = 'Petite';
+          break;
+        case 'S':
+          value = 'Small';
+          break;
+        case 'M':
+          value = 'Medium';
+          break;
+        case 'L':
+          value = 'Large';
+          break;
+        case 'V':
+          value = 'Voluptuous';
+          break;
+        case 'VV':
+          value = 'Very Voluptuous';
+          break;
+        case 'VVV':
+          value = 'Very Very Voluptuous';
+          break;
+        case 'OS':
+          value = 'One Size';
+          break;
+      
+        default:
+          value;
+      }
+    }
+
+    if (isProductBar) {
+      value = `<span class="product-form__input-active-size-bubble">${initialValue}</span> ` + value;
+    }
+
+    activeTexts.forEach(activeText => {
+      activeText.innerHTML = value;
+    });
+
   }
 
   updatePickupAvailability() {

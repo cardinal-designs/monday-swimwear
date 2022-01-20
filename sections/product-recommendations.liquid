@@ -10,26 +10,30 @@
 
 <product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
   {% if recommendations.performed and recommendations.products_count > 0 %}
-    <h2 class="product-recommendations__heading">{{ section.settings.heading | escape }}</h2>
-    <ul class="grid grid--2-col product-grid{% if recommendations.products_count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ recommendations.products_count }}-col-tablet{% endif %}" role="list">
-      {% for recommendation in recommendations.products %}
-        <li class="grid__item">
-          {% render 'product-card',
-            product_card_product: recommendation,
-            media_size: section.settings.image_ratio,
-            show_secondary_image: section.settings.show_secondary_image,
-            add_image_padding: section.settings.add_image_padding,
-            show_vendor: section.settings.show_vendor,
-            show_image_outline: section.settings.show_image_outline,
-            show_rating: section.settings.show_rating
-          %}
-        </li>
-      {% endfor %}
+    <h2 class="product-recommendations__heading sh4">
+      Recommended
+      <div class="glow"></div>
+      {{ section.settings.heading | escape }}
+    </h2>
+    <ul class="product-recommendations__grid swiper list-unstyled" role="list">
+      <div class="swiper-wrapper">
+        {% for recommendation in recommendations.products %}
+          <li class="product-recommendations__item swiper-slide">
+            {% render 'product-card',
+              product_card_product: recommendation
+            %}
+          </li>
+        {% endfor %}
+      </div>
+      <div class="product-recommendations__scrollbar-wrapper">
+        <div class="swiper-scrollbar product-recommendations__scrollbar hide-desktop"></div>
+      </div>
     </ul>
   {% endif %}
 </product-recommendations>
 
 {% javascript %}
+
   class ProductRecommendations extends HTMLElement {
     constructor() {
       super();
@@ -47,6 +51,48 @@
             if (recommendations && recommendations.innerHTML.trim().length) {
               this.innerHTML = recommendations.innerHTML;
             }
+
+            const recommendationsSlider = new Swiper('.product-recommendations__grid', {
+              slidesPerView: 1,
+              loop: false,
+              spaceBetween: 10,
+              watchOverflow: true,
+              allowTouchMove: true,
+              speed: 400,
+              freeMode: true,
+              scrollbar: {
+                el: '.product-recommendations__scrollbar',
+                draggable: true
+              },
+              breakpoints: {
+                1: {
+                  spaceBetween: 10,
+                  slidesPerView: 1.5
+                },
+                601: {
+                  spaceBetween: 10,
+                  slidesPerView: 2
+                },
+                769: {
+                  spaceBetween: 20,
+                  slidesPerView: 2.5,
+                  allowTouchMove: false,
+                  freeMode: false
+                },
+                1051: {
+                  spaceBetween: 20,
+                  slidesPerView: 3,
+                  allowTouchMove: false,
+                  freeMode: false
+                },
+                1200: {
+                  spaceBetween: 20,
+                  slidesPerView: 4,
+                  allowTouchMove: false,
+                  freeMode: false
+                }
+              }
+            });
           })
           .catch(e => {
             console.error(e);
@@ -75,61 +121,6 @@
       "id": "heading",
       "default": "You may also like",
       "label": "t:sections.product-recommendations.settings.heading.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.product-recommendations.settings.header__2.content"
-    },
-    {
-      "type": "select",
-      "id": "image_ratio",
-      "options": [
-        {
-          "value": "adapt",
-          "label": "t:sections.product-recommendations.settings.image_ratio.options__1.label"
-        },
-        {
-          "value": "portrait",
-          "label": "t:sections.product-recommendations.settings.image_ratio.options__2.label"
-        },
-        {
-          "value": "square",
-          "label": "t:sections.product-recommendations.settings.image_ratio.options__3.label"
-        }
-      ],
-      "default": "adapt",
-      "label": "t:sections.product-recommendations.settings.image_ratio.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_secondary_image",
-      "default": false,
-      "label": "t:sections.product-recommendations.settings.show_secondary_image.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "add_image_padding",
-      "default": false,
-      "label": "t:sections.product-recommendations.settings.add_image_padding.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_image_outline",
-      "default": true,
-      "label": "t:sections.product-recommendations.settings.show_image_outline.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_vendor",
-      "default": false,
-      "label": "t:sections.product-recommendations.settings.show_vendor.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_rating",
-      "default": false,
-      "label": "t:sections.product-recommendations.settings.show_rating.label",
-      "info": "t:sections.product-recommendations.settings.show_rating.info"
     }
   ]
 }

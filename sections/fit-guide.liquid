@@ -1,113 +1,127 @@
 {{ 'section-fit-guide.css' | asset_url | stylesheet_tag }}
 
-<div class="fit-guide-section">
-  <div class="fit-guide-section__left">
-    <div class="fit-guide-section__left-top-text">
-      <h2 class="h1">The</h2>
-      <h2 class="h1">Fit</h2>
-    </div>
-    <div class="fit-guide-section__left-bottom-text">
-      <h2 class="h1">Guide</h2>
-    </div>
-    <div class="fit-guide-section__images swiper fade-in-up">
-      <div class="swiper-wrapper">
-        {% for block in section.blocks %}
-          <div class="fit-guide-section__image swiper-slide" {{ block.shopify_attributes }}>
-            <div class="fit-guide-section__image-content">
-              <div class="fit-guide-section__image-wrapper">
-                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
-              </div>
-              {% if block.settings.fit_tip != blank %}
-                <p class="caption-neue hide-mobile">Fit Tip</p>
-                <p class="body hide-mobile">{{ block.settings.fit_tip }}</p>
-              {% endif %}
-              <a href="{{ block.settings.shop_link }}" class="text-link hide-mobile">Shop Now</a>
-            </div>
-          </div>
-        {% endfor %}
+{% if section.settings.use_page_width %}
+  <div class="page-width">
+{% endif %}
+  <div class="fit-guide-section">
+    <div class="fit-guide-section__left">
+      <div class="fit-guide-section__left-top-text">
+        <h2 class="h1">The</h2>
+        <h2 class="h1{% if section.settings.offset_text %} offset{% endif %}">Fit</h2>
       </div>
-    </div>
-  </div>
-  <div class="fit-guide-section__right">
-    <div class="fit-guide-section__content">
-      <div class="fit-guide-section__content-slider swiper fade-in-up">
+      <div class="fit-guide-section__left-bottom-text">
+        <h2 class="h1">Guide</h2>
+      </div>
+      <div class="fit-guide-section__images swiper fade-in-up">
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
-            <div class="fit-guide-section__content-item swiper-slide" {{ block.shopify_attributes }}>
-              <div class="fit-guide-section__content-item-wrapper">
-                <h2 class="fit-guide-section__content-title h3 hide-mobile">{{ block.settings.title }}</h2>
-                <h2 class="fit-guide-section__content-title h3 hide-desktop">{{ block.settings.short_title }}</h2>
-                <p class="fit-guide-section__content-short-description sh1">
-                  {% assign split_description = block.settings.short_description | split: ',' %}
-                  {% for descriptor in split_description %}
-                    {{ descriptor }}&nbsp;&nbsp;
-                  {% endfor %}
-                </p>
-                <p class="fit-guide-section__content-description body-large hide-mobile">{{ block.settings.description }}</p>
-                <div class="fit-guide-section__content-stats">
-                  <div class="fit-guide-section__content-stat">
-                    <p class="detail-caps">Fit</p>
-                    <p class="body-small">{{ block.settings.fit }}</p>
-                  </div>
-                  <div class="fit-guide-section__content-stat">
-                    <p class="detail-caps">Padding</p>
-                    <p class="body-small">{{ block.settings.padding }}</p>
-                  </div>
-                  <div class="fit-guide-section__content-stat">
-                    <p class="detail-caps">Coverage</p>
-                    <p class="body-small">{{ block.settings.coverage }}</p>
-                  </div>
-                  <div class="fit-guide-section__content-stat">
-                    <p class="detail-caps">Style</p>
-                    <p class="body-small">{{ block.settings.style }}</p>
-                  </div>
-                  <div class="fit-guide-section__content-stat">
-                    <p class="detail-caps">Fabric</p>
-                    <p class="body-small">{{ block.settings.fabric }}</p>
-                  </div>
+            <div class="fit-guide-section__image swiper-slide" {{ block.shopify_attributes }}>
+              <div class="fit-guide-section__image-content">
+                <div class="fit-guide-section__image-wrapper">
+                  {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
                 </div>
-                <div class="fit-guide-section__content-buttons">
-                  <a href="{{ block.settings.shop_link }}" class="text-link hide-desktop">Shop Now</a>
-                  <a href="{{ block.settings.explore_link }}" class="text-link">Explore the Fit</a>
-                </div>
+                {% if block.settings.fit_tip != blank %}
+                  <p class="caption-neue hide-mobile">Fit Tip</p>
+                  <p class="body hide-mobile">{{ block.settings.fit_tip }}</p>
+                {% endif %}
+                {% if block.settings.shop_link != blank %}
+                  <a href="{{ block.settings.shop_link }}" class="text-link hide-mobile">Shop Now</a>
+                {% endif %}
               </div>
             </div>
           {% endfor %}
         </div>
       </div>
     </div>
-    {% if section.blocks.size > 1 %}
-      <div class="fit-guide-section__navigation">
-        <div class="fit-guide-section__navigation-wrapper hide-mobile">
-          <button class="swiper-button swiper-button-prev">
-            {% render 'icon-arrow-left' %}
-          </button>
-          <div class="fit-guide-section__navigation-slider swiper">
-            <div class="swiper-wrapper">
-              {% for block in section.blocks %}
-                <button class="fit-guide-section__navigation-item caption-sunset swiper-slide" {{ block.shopify_attributes }}>{{ block.settings.short_title }}</button>
-              {% endfor %}
-            </div>
-          </div>
-          <button class="swiper-button swiper-button-next">
-            {% render 'icon-arrow-right' %}
-          </button>
-        </div>
-        <div class="fit-guide-section__navigation-mobile hide-desktop">
-          <p class="btn">Explore the</p>
-          <div class="fit-guide-section__navigation-mobile-select">
-            <select class="fit-guide-section__select caption-sunset">
-              {% for block in section.blocks %}
-                <option value="{{ forloop.index0 }}">{{ block.settings.short_title }}</option>
-              {% endfor %}
-            </select>
-            {% render 'icon-caret' %}
+    <div class="fit-guide-section__right">
+      <div class="fit-guide-section__content">
+        <div class="fit-guide-section__content-slider swiper fade-in-up">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <div class="fit-guide-section__content-item swiper-slide" {{ block.shopify_attributes }}>
+                <div class="fit-guide-section__content-item-wrapper">
+                  <h2 class="fit-guide-section__content-title h3 hide-mobile">{{ block.settings.title }}</h2>
+                  <h2 class="fit-guide-section__content-title h3 hide-desktop">{{ block.settings.short_title }}</h2>
+                  <p class="fit-guide-section__content-short-description sh1">
+                    {% assign split_description = block.settings.short_description | split: ',' %}
+                    {% for descriptor in split_description %}
+                      {{ descriptor }}&nbsp;&nbsp;
+                    {% endfor %}
+                  </p>
+                  <p class="fit-guide-section__content-description body-large hide-mobile">{{ block.settings.description }}</p>
+                  <div class="fit-guide-section__content-stats">
+                    <div class="fit-guide-section__content-stat">
+                      <p class="detail-caps">Fit</p>
+                      <p class="body-small">{{ block.settings.fit }}</p>
+                    </div>
+                    <div class="fit-guide-section__content-stat">
+                      <p class="detail-caps">Padding</p>
+                      <p class="body-small">{{ block.settings.padding }}</p>
+                    </div>
+                    <div class="fit-guide-section__content-stat">
+                      <p class="detail-caps">Coverage</p>
+                      <p class="body-small">{{ block.settings.coverage }}</p>
+                    </div>
+                    <div class="fit-guide-section__content-stat">
+                      <p class="detail-caps">Style</p>
+                      <p class="body-small">{{ block.settings.style }}</p>
+                    </div>
+                    <div class="fit-guide-section__content-stat">
+                      <p class="detail-caps">Fabric</p>
+                      <p class="body-small">{{ block.settings.fabric }}</p>
+                    </div>
+                  </div>
+                  {% unless block.settings.shop_link == blank and block.settings.explore_link == blank %}
+                    <div class="fit-guide-section__content-buttons">
+                      {% if block.settings.shop_link != blank %}
+                        <a href="{{ block.settings.shop_link }}" class="text-link hide-desktop">Shop Now</a>
+                        {% endif %}
+                      {% if block.settings.explore_link != blank %}
+                        <a href="{{ block.settings.explore_link }}" class="text-link">Explore the Fit</a>
+                      {% endif %}
+                    </div>
+                  {% endunless %}
+                </div>
+              </div>
+            {% endfor %}
           </div>
         </div>
       </div>
-    {% endif %}
+      {% if section.blocks.size > 1 %}
+        <div class="fit-guide-section__navigation">
+          <div class="fit-guide-section__navigation-wrapper hide-mobile">
+            <button class="swiper-button swiper-button-prev">
+              {% render 'icon-arrow-left' %}
+            </button>
+            <div class="fit-guide-section__navigation-slider swiper">
+              <div class="swiper-wrapper">
+                {% for block in section.blocks %}
+                  <button class="fit-guide-section__navigation-item caption-sunset swiper-slide" {{ block.shopify_attributes }}>{{ block.settings.short_title }}</button>
+                {% endfor %}
+              </div>
+            </div>
+            <button class="swiper-button swiper-button-next">
+              {% render 'icon-arrow-right' %}
+            </button>
+          </div>
+          <div class="fit-guide-section__navigation-mobile hide-desktop">
+            <p class="btn">Explore the</p>
+            <div class="fit-guide-section__navigation-mobile-select">
+              <select class="fit-guide-section__select caption-sunset">
+                {% for block in section.blocks %}
+                  <option value="{{ forloop.index0 }}">{{ block.settings.short_title }}</option>
+                {% endfor %}
+              </select>
+              {% render 'icon-caret' %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    </div>
   </div>
-</div>
+{% if section.settings.use_page_width %}
+  </div>
+{% endif %}
 
 {% javascript %}
   const fitGuideNavigationSlider = new Swiper('.fit-guide-section__navigation-slider', {
@@ -165,8 +179,18 @@
 {% schema %}
   {
     "name": "Fit Guide",
+    "class": "fit-guide-section-wrapper",
     "settings": [
-
+      {
+        "type": "checkbox",
+        "id": "offset_text",
+        "label": "Offset Fit Guide Text"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_page_width",
+        "label": "Use Page Width"
+      }
     ],
     "blocks": [
       {

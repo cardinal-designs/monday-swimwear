@@ -4,7 +4,6 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
 
     this.form = this.querySelector('form');
     this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
-    this.cartNotification = document.querySelector('cart-notification');
     this.cartDrawer = document.querySelector('cart-drawer');
   }
 
@@ -65,6 +64,17 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
       .parseFromString(html, 'text/html')
       .querySelector(selector).innerHTML;
   }
+
+  handleErrorMessage(errorMessage = false) {
+    this.errorMessageWrapper = this.errorMessageWrapper || this.querySelector('.product-form__error-message-wrapper');
+    this.errorMessage = this.errorMessage || this.errorMessageWrapper.querySelector('.product-form__error-message');
+
+    this.errorMessageWrapper.toggleAttribute('hidden', !errorMessage);
+
+    if (errorMessage) {
+      this.errorMessage.textContent = errorMessage;
+    }
+  }
 });
 
 
@@ -76,7 +86,7 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
 //       this.form = this.querySelector('form');
 //       this.form.querySelector('[name=id]').disabled = false;
 //       this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
-//       this.cartNotification = document.querySelector('cart-notification');
+//       this.cartDrawer = document.querySelector('cart-drawer');
 //     }
 
 //     onSubmitHandler(evt) {
@@ -85,7 +95,6 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
 //       if (submitButton.classList.contains('loading')) return;
 
 //       this.handleErrorMessage();
-//       this.cartNotification.setActiveElement(document.activeElement);
 
 //       submitButton.setAttribute('aria-disabled', true);
 //       submitButton.classList.add('loading');
@@ -96,7 +105,7 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
 //       delete config.headers['Content-Type'];
 
 //       const formData = new FormData(this.form);
-//       formData.append('sections', this.cartNotification.getSectionsToRender().map((section) => section.id));
+//       formData.append('sections', this.cartDrawer.getSectionsToRender().map((section) => section.id));
 //       formData.append('sections_url', window.location.pathname);
 //       config.body = formData;
 
@@ -108,7 +117,9 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
 //             return;
 //           }
 
-//           this.cartNotification.renderContents(response);
+//           console.log(response)
+
+//           this.cartDrawer.getSectionInnerHTML(response);
 //         })
 //         .catch((e) => {
 //           console.error(e);
