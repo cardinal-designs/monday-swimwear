@@ -488,3 +488,56 @@ variant-radios fieldset {
     margin-top: 20px;
   }
 }
+
+/* Size chart dropdown */
+.size-chart-dropdown {
+  margin: 20px 0;
+  border-top: 1px solid #F8F7F4;
+  border-bottom: 1px solid #F8F7F4;
+}
+
+.size-chart-dropdown__header {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.size-chart-dropdown__header .sh5 {
+  margin: 0;
+}
+
+.size-chart-dropdown__control {
+  width: 9px;
+  height: 9px;
+  position: relative;
+}
+
+.size-chart-dropdown__control::before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  border-right: 1px solid black;
+  transition: opacity .3s ease;
+}
+
+.size-chart-dropdown__control::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  border-bottom: 1px solid black;
+}
+
+.size-chart-dropdown.active .size-chart-dropdown__control::before {
+  opacity: 0;
+}
+
+.size-chart-dropdown__content {
+  display: none;
+}

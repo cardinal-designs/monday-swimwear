@@ -788,6 +788,21 @@ class ProductCard extends HTMLElement {
 }
 customElements.define('product-card', ProductCard);
 
+/*================ PDP Size Chart ================*/
+const tabs = document.querySelectorAll('.size-chart-dropdown__tab');
+tabs.forEach(tab => {
+  tab.addEventListener('click', event => {
+    if (!tab.classList.contains('active')) {
+      const chartTab = tab.dataset.tab;
+
+      tab.parentElement.querySelector('.active').classList.remove('active');
+      tab.classList.add('active');
+
+      document.querySelector('.size-chart-dropdown__chart-wrapper.active').classList.remove('active');
+      document.querySelector(`.size-chart-dropdown__chart-wrapper[data-tab="${chartTab}"]`).classList.add('active');
+    }
+  });
+});
 
 /*================ Animations ================*/
 gsap.registerPlugin(ScrollTrigger);

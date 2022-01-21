@@ -1,0 +1,65 @@
+/* Tabs */
+.size-chart-dropdown__tabs {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
+  gap: 30px;
+  border-bottom: 1px solid #EBE8DB;
+}
+
+.size-chart-dropdown__tab {
+  padding: 7px 10px;
+}
+
+.size-chart-dropdown__tab.active {
+  background: #EBE8DB;
+}
+
+.size-chart-dropdown__chart-wrapper {
+  display: none;
+}
+
+.size-chart-dropdown__chart-wrapper.active {
+  display: block;
+}
+
+.size-chart-dropdown__chart {
+  width: 100%;
+}
+
+.size-chart-dropdown__chart-header {
+  padding: 10px 0;
+  border-bottom: 1px solid #F8F7F4;
+}
+
+.size-chart-dropdown__chart-header span {
+  height: 27px;
+  width: 27px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.size-chart-dropdown__chart-header span.medium {
+  width: 37px;
+}
+
+.size-chart-dropdown__chart-header span.large {
+  width: 45px;
+}
+
+.size-chart-dropdown__chart-text {
+  padding: 8px 0;
+  border-bottom: 1px solid #F8F7F4;
+}
+
+.size-chart-dropdown__chart-text.center {
+  text-align: center;
+}
+
+.size-chart-dropdown__chart tr:last-child .size-chart-dropdown__chart-text {
+  border: 0;
+}
