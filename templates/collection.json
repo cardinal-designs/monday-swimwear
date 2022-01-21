@@ -30,13 +30,36 @@
             "title": "Fit",
             "filters": "Minimal,Cheeky,Moderate,High-Waisted,Supportive"
           }
+        },
+        "dadcc81c-bd47-4dbf-a565-ebbd1e435485": {
+          "type": "fit_tip_card",
+          "settings": {
+            "collection": "shop-all",
+            "position": 5,
+            "background_color": "#c1d7ec",
+            "title": "The Isla Mujeres",
+            "image": "shopify:\/\/shop_images\/Image_6.png",
+            "tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra."
+          }
+        },
+        "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa": {
+          "type": "lifestyle_card",
+          "settings": {
+            "collection": "shop-all",
+            "position": 14,
+            "image": "shopify:\/\/shop_images\/Rectangle_10.jpg",
+            "top_text": "Color",
+            "bottom_text": "Your<br>Summer<br><br>"
+          }
         }
       },
       "block_order": [
         "27cfdb60-012e-4ea5-b1af-606afdc76a15",
         "8a83884e-ac94-4475-959e-f30b73e1b9fd",
         "117d4bde-f25c-4a9a-8d12-3978feae7f74",
-        "4802a76d-c48c-4206-968b-2d7341f784cd"
+        "4802a76d-c48c-4206-968b-2d7341f784cd",
+        "dadcc81c-bd47-4dbf-a565-ebbd1e435485",
+        "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa"
       ],
       "settings": {
         "products_per_page": 24

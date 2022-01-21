@@ -44,34 +44,36 @@
           <button class="collection-filters__close">{% render 'icon-close' %}</button>
         </div>
         {% for block in section.blocks %}
-          <div class="collection-filters__item">
-            <button class="collection-filters__button body">
-              {{ block.settings.title }}
-              {% render 'icon-caret' %}
-            </button>
-            <div class="collection-filters__dropdown">
-              <div class="page-width">
-                <p class="collection-filters__dropdown-title detail-caps hide-mobile">By {{ block.settings.title }}</p>
-                <div class="collection-filters__dropdown-container">
-                  <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
-                    {% assign tag_list = block.settings.filters | split: ',' %}
-                    {% for category_tag in tag_list %}
-                      {% assign active_tags_split = active_tags | split: '+' %}
-                      {% assign category_tag_handle = category_tag | handleize %}
-                      <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
-                        <div class="collection-filters__tag-radio radio-button__indicator"></div>
-                        {{ category_tag }}
-                      </button>
-                    {% endfor %}
-                  </div>
-                  <div class="collection-filters__dropdown-buttons hide-mobile">
-                    <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>
-                    <button class="collection-filters__clear button button--ghost" data-category="{{ block.settings.title | handleize }}">Clear</button>
+          {% if block.type == 'filter_category' %}
+            <div class="collection-filters__item">
+              <button class="collection-filters__button body">
+                {{ block.settings.title }}
+                {% render 'icon-caret' %}
+              </button>
+              <div class="collection-filters__dropdown">
+                <div class="page-width">
+                  <p class="collection-filters__dropdown-title detail-caps hide-mobile">By {{ block.settings.title }}</p>
+                  <div class="collection-filters__dropdown-container">
+                    <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
+                      {% assign tag_list = block.settings.filters | split: ',' %}
+                      {% for category_tag in tag_list %}
+                        {% assign active_tags_split = active_tags | split: '+' %}
+                        {% assign category_tag_handle = category_tag | handleize %}
+                        <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
+                          <div class="collection-filters__tag-radio radio-button__indicator"></div>
+                          {{ category_tag }}
+                        </button>
+                      {% endfor %}
+                    </div>
+                    <div class="collection-filters__dropdown-buttons hide-mobile">
+                      <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>
+                      <button class="collection-filters__clear button button--ghost" data-category="{{ block.settings.title | handleize }}">Clear</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          {% endif %}
         {% endfor %}
         <div class="collection-filters__mobile-actions hide-desktop">
           <button class="collection-filters__clear-all body">Clear</button>
@@ -169,6 +171,39 @@
         <ul id="product-grid" data-id="{{ section.id }}" class="
           product-grid">
           {%- for product in collection.products -%}
+            {% if active_tags == '' %}
+              {% assign current_loop = forloop.index %}
+              {% for block in section.blocks %}
+                {% if block.type == 'fit_tip_card' %}
+                  {% assign current_collection = collections[block.settings.collection] %}
+                  {% assign position = block.settings.position %}
+                  {% if position == current_loop %}
+                    <li class="product-grid__tip-card" style="background-color: {{ block.settings.background_color }}">
+                      <h2 class="sh1">{{ block.settings.title }}</h2>
+                      {% render 'lazy-image' image: block.settings.image, fade: true %}
+                      <p class="product-grid__tip-btn caption-neue">Fit Tip</p>
+                      <p class="body">{{ block.settings.tip }}</p>
+                    </li>
+                  {% endif %}
+                {% endif %}
+                {% if block.type == 'lifestyle_card' %}
+                  {% assign current_collection = collections[block.settings.collection] %}
+                  {% assign position = block.settings.position %}
+                  {% if position == current_loop %}
+                    <li class="product-grid__lifestyle-card">
+                      {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                      <div class="product-grid__lifestyle-card-top">
+                        <h1>{{ block.settings.top_text }}</h1>
+                      </div>
+                      <div class="product-grid__lifestyle-card-bottom">
+                        <h1>{{ block.settings.bottom_text }}</h1>
+                      </div>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+
             <li class="product-grid__item">
               {% render 'product-card',
                 product_card_product: product,
@@ -221,6 +256,84 @@
           "id": "filters",
           "label": "Tag Filters",
           "info": "Separate each tag with a comma and no spaces. The tag should be written exactly as is in the product admin page."
+        }
+      ]
+    },
+    {
+      "type": "fit_tip_card",
+      "name": "Fit Tip Card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection",
+          "info": "Choose the collection this card will be displayed on."
+        },
+        {
+          "type": "range",
+          "id": "position",
+          "min": 1,
+          "max": 24,
+          "step": 1,
+          "label": "Grid Item Position",
+          "default": 1
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color",
+          "default": "#C1D7EC"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "textarea",
+          "id": "tip",
+          "label": "Tip Text"
+        }
+      ]
+    },
+    {
+      "type": "lifestyle_card",
+      "name": "Lifestyle Card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection",
+          "info": "Choose the collection this card will be displayed on."
+        },
+        {
+          "type": "range",
+          "id": "position",
+          "min": 1,
+          "max": 24,
+          "step": 1,
+          "label": "Grid Item Position",
+          "default": 1
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "top_text",
+          "label": "Top Text"
+        },
+        {
+          "type": "text",
+          "id": "bottom_text",
+          "label": "Bottom Text"
         }
       ]
     }
