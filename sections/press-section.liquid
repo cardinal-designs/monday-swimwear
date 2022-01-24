@@ -1,0 +1,69 @@
+{{ 'section-press-section.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+  {% if section.settings.title != blank %}
+    <h3 class="press-section__title">{{ section.settings.title }}</h3>
+  {% endif %}
+  <div class="press-section">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.link }}" target="_blank">
+        <div class="press-section__item">
+          <div class="press-section__logo">
+            {{ block.settings.logo }}
+          </div>
+          <div class="press-section__content">
+            <p class="body-large">{{ block.settings.text }}</p>
+            <p class="detail-caps">{{ block.settings.date }}</p>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+ 
+{% schema %}
+  {
+    "name": "Press Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "logo",
+            "label": "Logo (SVG)"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "text",
+            "id": "date",
+            "label": "Date"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Press Section"
+      }
+    ],
+    "templates": ["page"]
+  }
+{% endschema %}
