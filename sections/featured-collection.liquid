@@ -1,0 +1,99 @@
+{{ 'section-featured-collection.css' | asset_url | stylesheet_tag }}
+{{ 'section-product-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
+{% assign current_collection = collections[section.settings.collection] %}
+
+<div class="featured-collection">
+  <div class="page-width">
+    <div class="featured-collection__header">
+      <p class="body-small">{{ section.settings.text }}</p>
+      <a href="{{ collection.url }}" class="button">Shop The Collection</a>
+    </div>
+    <div class="featured-collection__container">
+      <div class="product-slider__collection swiper active">
+        <div class="swiper-wrapper">
+          {% for current_product in current_collection.products limit: 4 %}
+            <div class="product-slider__item swiper-slide">
+              {% render 'product-card',
+                product_card_product: current_product,
+                show_secondary_image: true
+              %}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="product-slider__scrollbar-wrapper">
+          <div class="swiper-scrollbar hide-desktop"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const featuredCollection = new Swiper('.product-slider__collection', {
+    slidesPerView: 1,
+    loop: false,
+    spaceBetween: 10,
+    watchOverflow: true,
+    allowTouchMove: true,
+    speed: 400,
+    freeMode: true,
+    scrollbar: {
+      el: '.product-slider__collection .swiper-scrollbar',
+      draggable: true
+    },
+    breakpoints: {
+      1: {
+        spaceBetween: 10,
+        slidesPerView: 1.5
+      },
+      601: {
+        spaceBetween: 10,
+        slidesPerView: 2
+      },
+      769: {
+        spaceBetween: 20,
+        slidesPerView: 2.5,
+        allowTouchMove: false,
+        freeMode: false
+      },
+      1051: {
+        spaceBetween: 20,
+        slidesPerView: 3,
+        allowTouchMove: false,
+        freeMode: false
+      },
+      1200: {
+        spaceBetween: 20,
+        slidesPerView: 4,
+        allowTouchMove: false,
+        freeMode: false
+      }
+    }
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Featured Collection",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Collection"
+      }
+    ]
+  }
+{% endschema %}

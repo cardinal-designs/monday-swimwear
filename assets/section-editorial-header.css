@@ -23,6 +23,10 @@
   right: 14%;
 }
 
+.editorial-header__text-2.right-align {
+  right: 40px;
+}
+
 .editorial-header__text-3 {
   position: absolute;
   top: 230px;

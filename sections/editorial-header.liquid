@@ -13,7 +13,7 @@
     </h2>
   {% endif %}
   {% if section.settings.text_2 != blank %}
-    <h2 class="editorial-header__text-2 h1">
+    <h2 class="editorial-header__text-2 h1{% if section.settings.right_align %} right-align{% endif %}">
       <span>{{ section.settings.text_2 }}</span>
     </h2>
   {% endif %}
@@ -61,6 +61,11 @@
         "type": "text",
         "id": "text_2",
         "label": "Text 2"
+      },
+      {
+        "type": "checkbox",
+        "id": "right_align",
+        "label": "Right Align"
       },
       {
         "type": "text",
