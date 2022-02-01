@@ -34,6 +34,10 @@ html.no-js .no-js-hidden {
   padding: 0 120px;
 }
 
+.page-width--narrow {
+  max-width: 900px;
+}
+
 @media screen and (max-width: 1600px) {
   .page-width {
     padding: 0 80px;
