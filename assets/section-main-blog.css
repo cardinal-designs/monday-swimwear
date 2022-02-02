@@ -21,7 +21,6 @@
 .main-blog__content.show-filters {
   display: grid;
   grid-template-columns: 230px 1fr;
-  gap: 0;
 }
 
 .main-blog__filters {

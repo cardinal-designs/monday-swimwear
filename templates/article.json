@@ -2,29 +2,42 @@
   "sections": {
     "main": {
       "type": "main-article",
+      "settings": {
+      }
+    },
+    "1643772047dba646bf": {
+      "type": "related-articles",
       "blocks": {
-        "featured_image": {
-          "type": "featured_image"
+        "abdf6be7-2605-46c7-91f8-3970a0ee6ccf": {
+          "type": "filter",
+          "settings": {
+            "title": "Swim"
+          }
         },
-        "title": {
-          "type": "title"
+        "2567984a-17ea-4465-8073-86a743545c31": {
+          "type": "filter",
+          "settings": {
+            "title": "Travel"
+          }
         },
-        "content": {
-          "type": "content"
-        },
-        "share": {
-          "type": "share"
+        "f0e8a15c-6900-4bc9-8ec2-4b5ba47a2a7b": {
+          "type": "filter",
+          "settings": {
+            "title": "Founders"
+          }
         }
       },
       "block_order": [
-        "featured_image",
-        "title",
-        "share",
-        "content"
-      ]
+        "abdf6be7-2605-46c7-91f8-3970a0ee6ccf",
+        "2567984a-17ea-4465-8073-86a743545c31",
+        "f0e8a15c-6900-4bc9-8ec2-4b5ba47a2a7b"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1643772047dba646bf"
   ]
 }
