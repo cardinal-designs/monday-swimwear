@@ -101,6 +101,12 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  .product-card:hover .product-card__button .button:hover {
+    background: white;
+    border-color: white;
+    color: black;
+  }
 }
 
 @media screen and (max-width: 768px) {
