@@ -1,23 +1,20 @@
-<style type="text/css">
-  .template-404 .title + * {
-    margin-top: 1rem;
-  }
-
-  @media screen and (min-width: 769px) {
-    .template-404 .title + * {
-      margin-top: 2rem;
-    }
-  }
-</style>
+{{ 'section-main-404.css' | asset_url | stylesheet_tag }}
 
 <div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  <h1 class="title">
-    {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
+  <div class="page-404-wrapper">
+    <div class="lens">
+
+    </div>
+    <h1 class="h2 title-404">
+      {{ 'templates.404.title' | t }}
+    </h1>
+  
+    <p class="body description-404">
+      {{ 'templates.404.subtext' | t }}
+    </p>
+
+    <a href="/" class="button button--bone">
+      {{ 'templates.404.back_to_home' | t }}
+    </a>
+  </div>
 </div>

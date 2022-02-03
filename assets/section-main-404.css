@@ -1,0 +1,55 @@
+.template-404 .page-404-wrapper {
+  position: relative;
+  text-align: center;
+  margin: 235px 0 100px 0;
+}
+
+.template-404 .lens {
+  background: #FFFF50;
+  filter: blur(183.832px);
+  position: absolute;
+  width: 219px;
+  height: 219px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.template-404 h1.title-404 {
+  font-size: 108.545px;
+  margin: 0 0 46px 0;
+  text-transform: capitalize;
+}
+
+.template-404 .description-404 {
+  margin: 0 0 64px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .template-404 .page-404-wrapper {
+    margin: 100px 0 80px 0;
+  }
+
+  .template-404 .lens {
+    filter: blur(80px);
+    height: 131.66px;
+    width: 131.66px;
+  }
+
+  .template-404 h1.title-404 {
+    font-size: 88px;
+    margin: 0 0 38px 0;
+  }
+
+  .template-404 .description-404 {
+    font-size: 14px;
+    margin: 0 0 40px 0;
+  }
+
+  .template-404 .button--bone {
+    width: 100%;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 18px 0 20px 0;
+  }
+}

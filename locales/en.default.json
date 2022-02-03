@@ -204,8 +204,9 @@
       }
     },
     "404": {
-      "title": "Page not found",
-      "subtext": "404"
+      "title": "404 Error",
+      "subtext": "The page you are looking for does not exist.",
+      "back_to_home": "Back To Home"
     }
   },
   "sections": {
@@ -240,7 +241,7 @@
       },
       "update": "Update",
       "login": {
-        "title": "Have an account?",
+        "title": "Don’t have an account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
       }
     },
@@ -317,7 +318,7 @@
     "log_out": "Log out",
     "login_page": {
       "cancel": "Cancel",
-      "create_account": "Create account",
+      "create_account": "Sign up",
       "email": "Email",
       "forgot_password": "Forgot your password?",
       "guest_continue": "Continue",
@@ -367,12 +368,12 @@
       "success": "We've sent you an email with a link to update your password."
     },
     "register": {
-      "title": "Create account",
+      "title": "Sign Up",
       "first_name": "First name",
       "last_name": "Last name",
       "email": "Email",
       "password": "Password",
-      "submit": "Create"
+      "submit": "Sign Up"
     },
     "reset_password": {
       "title": "Reset account password",

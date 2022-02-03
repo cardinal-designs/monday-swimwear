@@ -1,0 +1,71 @@
+.template-register .register-wrapper {
+  margin: 0 auto;
+  max-width: 670px;
+}
+
+.template-register .title {
+  margin: 120px 0 0 0;
+  text-transform: capitalize;
+}
+
+.template-register label {
+  opacity: 0.4;
+}
+
+.template-register input {
+  border-bottom: 1px solid #000000!important;
+  padding: 14px 0!important;
+}
+
+.template-register input.body-large::placeholder {
+  opacity: 0.5;
+}
+
+.template-register .register-first-row {
+  display: flex;
+  grid-gap: 0 20px;
+}
+
+.template-register .field {
+  margin-top: 40px;
+}
+
+.template-register .btn-group {
+  margin: 40px 0 20px 0;
+}
+
+.template-register .login-link {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .template-register .register-wrapper {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .template-register .title {
+    margin-top: 40px;
+  }
+
+  .template-register label {
+    font-size: 11px;
+  }
+
+  .template-register input {
+    font-size: 16px;
+  }
+
+  .template-register .register-first-row {
+    flex-flow: column;
+    grid-gap: unset;
+  }
+
+  .template-register .btn-group {
+    margin-bottom: 6px;
+  }
+
+  .template-register .login-link {
+    margin-top: 20px;
+  }
+}
