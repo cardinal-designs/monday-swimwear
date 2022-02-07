@@ -111,6 +111,83 @@
           "newsletter_heading": "Get in the glow",
           "show_social": true
         }
+      },
+      "text-header": {
+        "type": "text-header",
+        "settings": {
+          "title": "The Fit Dictionary",
+          "text": "Monday Swimwear understands that all bodies are unique and our mission is to create suits that celebrate all different body types and let individuality shine. That’s why we obsess about fit and don’t overlook a single detail. Click to see our fit guide and recommendations so you can find your perfect fit!",
+          "background": "#f2f0e8"
+        }
+      },
+      "fit-dictionary-navigation": {
+        "type": "fit-dictionary-navigation",
+        "settings": {
+        }
+      },
+      "fit-dictionary-list": {
+        "type": "fit-dictionary-list",
+        "blocks": {
+          "c1307c74-def2-435c-a077-9c1465617ede": {
+            "type": "block",
+            "settings": {
+              "title": "Cheeky",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh risus, elit volutpat rhoncus adipiscing sit amet. Vel hac morbi quis velit at orci. Enim tortor rhoncus pretium eget in ut.",
+              "category": "Fit"
+            }
+          },
+          "94d71552-cb4d-4757-b1ae-43e648f30dec": {
+            "type": "block",
+            "settings": {
+              "title": "Crinkle",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh risus, elit volutpat rhoncus adipiscing sit amet. Vel hac morbi quis velit at orci. Enim tortor rhoncus pretium eget in ut.",
+              "category": "Material"
+            }
+          },
+          "8d455a5d-d0b5-4f14-893e-df7fc5ed9fd4": {
+            "type": "block",
+            "settings": {
+              "title": "High Waisted",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh risus, elit volutpat rhoncus adipiscing sit amet. Vel hac morbi quis velit at orci. Enim tortor rhoncus pretium eget in ut.",
+              "category": "Fit"
+            }
+          },
+          "9599a6d5-176d-421c-87e5-c6f1248a75c9": {
+            "type": "block",
+            "settings": {
+              "title": "Scoop Neck",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh risus, elit volutpat rhoncus adipiscing sit amet. Vel hac morbi quis velit at orci. Enim tortor rhoncus pretium eget in ut.",
+              "category": "Fit"
+            }
+          },
+          "a26ffe25-1afa-4797-84ef-4fb29e751faf": {
+            "type": "block",
+            "settings": {
+              "title": "Scoop Neck",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh risus, elit volutpat rhoncus adipiscing sit amet. Vel hac morbi quis velit at orci. Enim tortor rhoncus pretium eget in ut.",
+              "category": ""
+            }
+          },
+          "6914d034-f7d8-4961-9264-9a12220df11d": {
+            "type": "block",
+            "settings": {
+              "title": "VVV",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh risus, elit volutpat rhoncus adipiscing sit amet. Vel hac morbi quis velit at orci. Enim tortor rhoncus pretium eget in ut.",
+              "category": "Sizing"
+            }
+          }
+        },
+        "block_order": [
+          "c1307c74-def2-435c-a077-9c1465617ede",
+          "94d71552-cb4d-4757-b1ae-43e648f30dec",
+          "8d455a5d-d0b5-4f14-893e-df7fc5ed9fd4",
+          "9599a6d5-176d-421c-87e5-c6f1248a75c9",
+          "a26ffe25-1afa-4797-84ef-4fb29e751faf",
+          "6914d034-f7d8-4961-9264-9a12220df11d"
+        ],
+        "settings": {
+          "categories": "Fit,Material,Sizing"
+        }
       }
     },
     "content_for_index": [

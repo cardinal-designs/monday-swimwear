@@ -236,6 +236,7 @@ h2,
   font-size: 50px;
   line-height: 1.2;
   letter-spacing: -0.04em;
+  text-transform: unset;
 }
 
 @media only screen and (max-width: 768px) {
