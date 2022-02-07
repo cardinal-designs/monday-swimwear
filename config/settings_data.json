@@ -188,6 +188,1500 @@
         "settings": {
           "categories": "Fit,Material,Sizing"
         }
+      },
+      "fit-guide-header": {
+        "type": "fit-guide-header",
+        "settings": {
+          "title": "Forever About Fit",
+          "text": "Monday Swimwear understands that all bodies are unique and our mission is to create suits that celebrate all different body types and let individuality shine. That’s why we obsess about fit and don’t overlook a single detail. Click to see our fit guide and recommendations so you can find your perfect fit!",
+          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
+          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
+          "tops_image": "shopify:\/\/shop_images\/fit-guide-tops.png",
+          "beachwear_image": "shopify:\/\/shop_images\/fit-guide-beachwear.png"
+        }
+      },
+      "fit-guide-size-chart": {
+        "type": "fit-guide-size-chart",
+        "settings": {
+          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
+          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
+          "tops_image": "shopify:\/\/shop_images\/fit-guide-tops.png",
+          "beachwear_image": "shopify:\/\/shop_images\/fit-guide-beachwear.png"
+        }
+      },
+      "fit-guide-text": {
+        "type": "fit-guide-text",
+        "settings": {
+          "title": "The V Range",
+          "text": "We renamed XL & XXL sizes to “V” for Voluptuous and “VV” for Very Voluptuous to better represent the women wearing them.\n<br><br>\nMonday Co-Creator, Devin Brugman has always struggled to find swimwear that was supportive enough for her DDD cup bust. Her mission with the “V’ Range is to provide women with classy, chic, and comfortable suits for larger cup sizes. Naturally, the next step was to expand this range. We are proud to design bottoms, one pieces and beachwear suited for those size 12-18 US."
+        }
+      },
+      "fit-guide-editorial-cta": {
+        "type": "fit-guide-editorial-cta",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Ocean-Conservancy_1024x_7333c86f-3f3c-401c-b4e3-7b8f1ee2faa1.jpg",
+          "mobile_image": "shopify:\/\/shop_images\/Ocean-Conservancy_1024x_1.jpg",
+          "title": "Take our quiz and we’ll help find your perfect fit.",
+          "button_label": "Take the Fit Quiz",
+          "button_link": "shopify:\/\/pages\/fit-quiz",
+          "text_1": "Find",
+          "text_2": "Your",
+          "text_3": "Fit"
+        }
+      },
+      "fit-guide-one-pieces": {
+        "type": "fit-guide-one-pieces",
+        "blocks": {
+          "03ef7265-56d4-4558-bb44-6fc473f24067": {
+            "type": "one_piece",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ARUBA_OP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Aruba One Piece",
+              "short_title": "Aruba One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "e25aa9b6-d166-4d1a-b4bc-bf3bfbf50651": {
+            "type": "one_piece",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/BAHAMAS_OP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Bahamas One Piece",
+              "short_title": "Bahamas One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "689219e6-a008-47ac-9927-252b2d15e9d6": {
+            "type": "one_piece",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CORSICA_OP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Corsica One Piece",
+              "short_title": "Corsica One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "0252e8b0-d725-41bf-ad37-f1c03032121b": {
+            "type": "one_piece",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PORTOFINO_OP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Portofino One Piece",
+              "short_title": "Portofino One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "432459e1-8505-4365-a347-fbc6e0b1be6e": {
+            "type": "one_piece",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Sardinia_One_Piece_-_Black.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Sardinia One Piece",
+              "short_title": "Sardinia One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "883266b6-9198-4474-a6ec-d3215fe07e2a": {
+            "type": "one_piece",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/SICILY_ONE_PIECE_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Sicily One Piece",
+              "short_title": "Sicily One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          }
+        },
+        "block_order": [
+          "03ef7265-56d4-4558-bb44-6fc473f24067",
+          "e25aa9b6-d166-4d1a-b4bc-bf3bfbf50651",
+          "689219e6-a008-47ac-9927-252b2d15e9d6",
+          "0252e8b0-d725-41bf-ad37-f1c03032121b",
+          "432459e1-8505-4365-a347-fbc6e0b1be6e",
+          "883266b6-9198-4474-a6ec-d3215fe07e2a"
+        ],
+        "settings": {
+        }
+      },
+      "fit-guide-bottoms": {
+        "type": "fit-guide-bottoms",
+        "blocks": {
+          "47748c60-e91f-45a0-af30-0e8900906f46": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ANTIGUA_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Antigua Bottom",
+              "short_title": "Antigua Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "9668bf65-68e7-41df-ad1e-4efe07e57ae6": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ARGENTINA_BOTTOM_-_BLACK_1.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Argentina Bottom",
+              "short_title": "Argentina Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "b1a36be5-082a-4242-a425-bc49c0332265": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/BARBADOS_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Barbados Bottom",
+              "short_title": "Barbados Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "af3665c0-a3ca-4006-85bb-d7a388ea9dbf": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/BYRON_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Byron Bottom",
+              "short_title": "Byron Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "4278339e-7629-4693-b516-215af45d6163": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Byron_Thong_-_Black.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Byron Thong",
+              "short_title": "Byron Thong",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "83708c9c-bab8-483b-87b9-1c2098ffc2ca": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CALA_CONTA_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Cala Conta Bottom",
+              "short_title": "Cala Conta Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "85767612-329b-4409-9c42-d4c0ebf47a95": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CLOVELLY_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Clovelly Bottom",
+              "short_title": "Clovelly Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "22e7314f-1694-4ac5-a040-5fb554e5b65a": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HANALENI_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Hanaleni Bottom",
+              "short_title": "Hanaleni Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "56f44aff-4d5b-48c7-9711-f10dab98374c": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ISLA_MUJERES_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Isla Mujeres Bottom",
+              "short_title": "Isla Mujeres Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "862fd382-ca17-44b4-afd6-18c003ac9af5": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/JAVA_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Java Bottom",
+              "short_title": "Java Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "ce3ec260-5b8d-44f6-9440-299bfda6b5ac": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/LE_MARAIS_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Le Marais Bottom",
+              "short_title": "Le Marais Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "1cb8461a-0a93-4b6a-9848-27e48cde44dc": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PALMA_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Palma Bottom",
+              "short_title": "Palma Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "73620f54-1142-497e-ae12-f04d2849b86d": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PORTUGAL_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Portugal Bottom",
+              "short_title": "Portugal Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "1438764c-b56e-47b5-8cdb-8801d2f10876": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/RIVIERA_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Riviera Bottom",
+              "short_title": "Riviera Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "451829e4-c761-453b-8c48-d1be554370d0": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/SEYCHELLES_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Seychelles Bottom",
+              "short_title": "Seychelles Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/SORRENTO_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Sorrento Bottom",
+              "short_title": "Sorrento Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "4198cbe8-da95-4c39-b1ff-b5c042b4b767": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TAMARAMA_BOTTOM_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Tamarama Bottom",
+              "short_title": "Tamarama Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "50917c6a-4369-447a-b962-017a811c3759": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TULUM_BOTTOM_-_BLACK_1.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Tulum Bottom",
+              "short_title": "Tulum Bottom",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          }
+        },
+        "block_order": [
+          "47748c60-e91f-45a0-af30-0e8900906f46",
+          "9668bf65-68e7-41df-ad1e-4efe07e57ae6",
+          "b1a36be5-082a-4242-a425-bc49c0332265",
+          "af3665c0-a3ca-4006-85bb-d7a388ea9dbf",
+          "4278339e-7629-4693-b516-215af45d6163",
+          "83708c9c-bab8-483b-87b9-1c2098ffc2ca",
+          "85767612-329b-4409-9c42-d4c0ebf47a95",
+          "22e7314f-1694-4ac5-a040-5fb554e5b65a",
+          "56f44aff-4d5b-48c7-9711-f10dab98374c",
+          "862fd382-ca17-44b4-afd6-18c003ac9af5",
+          "ce3ec260-5b8d-44f6-9440-299bfda6b5ac",
+          "1cb8461a-0a93-4b6a-9848-27e48cde44dc",
+          "73620f54-1142-497e-ae12-f04d2849b86d",
+          "1438764c-b56e-47b5-8cdb-8801d2f10876",
+          "451829e4-c761-453b-8c48-d1be554370d0",
+          "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7",
+          "4198cbe8-da95-4c39-b1ff-b5c042b4b767",
+          "50917c6a-4369-447a-b962-017a811c3759"
+        ],
+        "settings": {
+        }
+      },
+      "fit-guide-tops": {
+        "type": "fit-guide-tops",
+        "blocks": {
+          "37357f4d-a15b-4276-b8ff-aee4055f0467": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ANTIGUA_TOP_ALT_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Antigua Top",
+              "short_title": "Antigua Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "0eff5c91-c031-49ec-9c02-abd12219f539": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ARUBA_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Aruba Top",
+              "short_title": "Aruba Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "f1308142-e814-4529-837d-100e7118fae0": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/BAHAMAS_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Bahamas Top",
+              "short_title": "Bahamas Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "152510ce-cd41-4a35-8b4f-9adc882b98fa": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/BARBADOS_TOP_-_BLACK_b024223d-7c33-44c9-b57d-1491ae91e232.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Barbados Top",
+              "short_title": "Barbados Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "c5819f7d-8ef7-4412-b46a-1e83775f2dc5": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/BORA_BORA_BANDEAU_ALT_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Bora Bora Top",
+              "short_title": "Bora Bora Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "4817e0be-7894-472d-8285-75db420c633b": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CABO_SAN_LUCAS_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Cabo San Lucas Top",
+              "short_title": "Cabo San Lucas Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "1bb3947e-65be-4535-b5d9-934b9d495232": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CALA_CONTA_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Cala Conta Top",
+              "short_title": "Cala Conta Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "158ed1bb-16a3-48a8-b71d-321c654bf0af": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CLOVELLY_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Clovelly Top",
+              "short_title": "Clovelly Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "9b6e64c8-eaac-4daf-bcff-d51de7edbd39": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Copacabana_Top_-_Black.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Copacabana Top",
+              "short_title": "Copacabana Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "415bfca0-18aa-4337-8b45-53cd9f5520e0": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/COSTA_RICA_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Costa Rica Top",
+              "short_title": "Costa Rica Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "412b26dd-9f87-4a2e-8359-46396a2acce7": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Formentera_Top_-_Black_4eb24656-482f-4912-a1e7-143a3338ab1c.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Formentera Top",
+              "short_title": "Formentera Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "11d9390a-4833-48e1-8254-d92ed1b19251": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HANALEI_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Hanalei Top",
+              "short_title": "Hanalei Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "38c2a835-0b7e-4e26-8d5c-ec7e07724229": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ISLA_MUJERES_TOP_-_BLACK_jpg.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Isla Mujeres Top",
+              "short_title": "Isla Mujeres Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "6e8f9b18-bf32-44df-9b9b-60b64b233009": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/JAMAICA_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Jamaica Top",
+              "short_title": "Jamaica Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "79870e93-a2a3-4f15-9552-1b6afb5155a1": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/MAUI_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Maui Top",
+              "short_title": "Maui Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "01310aa3-4f9d-4ec6-82a1-1fa4f34e8d32": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PALMA_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Palma Top",
+              "short_title": "Palma Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "4d55b24c-3be1-4e2c-a9b1-6840f692faaf": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PORTUGAL_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Portugal Top",
+              "short_title": "Portugal Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "a60f3510-c871-4f8b-a759-110d7f66cf34": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PUERTO_RICO_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Puerto Rico Top",
+              "short_title": "Puerto Rico Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "49f5d1ef-703b-4783-abf3-8f7eff728a35": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/SICILY_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Sicily Top",
+              "short_title": "Sicily Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "ea441cd9-c67b-40e8-99a5-2be690dd654a": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TAMARAMA_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Tamarama Top",
+              "short_title": "Tamarama Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "e976424a-94e8-4927-9474-eff48cfdcaec": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TULUM_TOP_-_BLACK.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Tulum Top",
+              "short_title": "Tulum Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          }
+        },
+        "block_order": [
+          "37357f4d-a15b-4276-b8ff-aee4055f0467",
+          "0eff5c91-c031-49ec-9c02-abd12219f539",
+          "f1308142-e814-4529-837d-100e7118fae0",
+          "152510ce-cd41-4a35-8b4f-9adc882b98fa",
+          "c5819f7d-8ef7-4412-b46a-1e83775f2dc5",
+          "4817e0be-7894-472d-8285-75db420c633b",
+          "1bb3947e-65be-4535-b5d9-934b9d495232",
+          "158ed1bb-16a3-48a8-b71d-321c654bf0af",
+          "9b6e64c8-eaac-4daf-bcff-d51de7edbd39",
+          "415bfca0-18aa-4337-8b45-53cd9f5520e0",
+          "412b26dd-9f87-4a2e-8359-46396a2acce7",
+          "11d9390a-4833-48e1-8254-d92ed1b19251",
+          "38c2a835-0b7e-4e26-8d5c-ec7e07724229",
+          "6e8f9b18-bf32-44df-9b9b-60b64b233009",
+          "79870e93-a2a3-4f15-9552-1b6afb5155a1",
+          "01310aa3-4f9d-4ec6-82a1-1fa4f34e8d32",
+          "4d55b24c-3be1-4e2c-a9b1-6840f692faaf",
+          "a60f3510-c871-4f8b-a759-110d7f66cf34",
+          "49f5d1ef-703b-4783-abf3-8f7eff728a35",
+          "ea441cd9-c67b-40e8-99a5-2be690dd654a",
+          "e976424a-94e8-4927-9474-eff48cfdcaec"
+        ],
+        "settings": {
+        }
+      },
+      "fit-guide-beachwear": {
+        "type": "fit-guide-beachwear",
+        "blocks": {
+          "66e09ad9-4f40-4c9f-80e3-3c73483526be": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ACAPULCO_TOP_-_IVR.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Acapulco Top",
+              "short_title": "Acapulco Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "3004b7f7-7772-4c6b-baee-c46e0985b3b8": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/BARCELONA_TUNIC_-_IVORY_1.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Barcelona Tunic",
+              "short_title": "Barcelona Tunic",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "59e8b9a3-59c0-4135-b18f-814c46db7e84": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/EAST_HAMPTON_SHORT.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The East Hampton Short",
+              "short_title": "East Hampton Short",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "ab5d15c3-7a43-47dc-bb1c-dfe3ad7c1cfa": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HAMILTON_ISLAND_SWEATER.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Hamilton Island Sweater",
+              "short_title": "Hamilton Island Sweater",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "8e9061c0-1ac4-4d1b-a60f-15784f7de23b": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HAMPTON_PANT_-_WHITE.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Hampton Pant",
+              "short_title": "Hampton Pant",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "9fd0a086-3d2d-4a0e-aac3-91e601959060": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HAMPTONS_DRESS_e9b1a1c2-ca56-4dbc-bc6e-7885584bd589.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Hamptons Dresss",
+              "short_title": "Hamptons Dresss",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "c025d1c8-23ec-4f57-8c63-c8bdc118ee9a": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HAMPTONS_TOP_-_WHITE.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Hamptons Top",
+              "short_title": "Hamptons Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "57f07c61-2f14-4bad-9f1f-db21e244db67": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/KYTHIRA_DRESS_-_IVR.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Kythira Dress",
+              "short_title": "Kythira Dress",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "147ded9b-30aa-48be-9187-a0cd0185a9f7": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/LA_JOLLA_SHIRT_-_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The La Jolla Shirt",
+              "short_title": "La Jolla Shirt",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "be934de6-5ec1-40a3-acbe-6c76dd789390": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/LA_JOLLA_SHORT_-_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The La Jolla Short",
+              "short_title": "La Jolla Short",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "e7385e4a-09a7-45cd-81ba-ac078ccff5a9": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/MALIBU_LINEN_ROBE_-_IVR.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Malibu Linen Robe",
+              "short_title": "Malibu Linen Robe",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "f164e6b6-ae4f-425e-bcbc-013990eef137": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/MONTAUK_PANT.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Montauk Pant",
+              "short_title": "Montauk Pant",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "d0c2b7c4-ed5b-4b87-bb8e-89376ad741cc": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/MONTAUK_TOP.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Montauk Top",
+              "short_title": "Montauk Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "048bb95d-0316-4e1d-acee-7bcfd387710d": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/MYKONOS_SARONG_-_IVR.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Mykonos Sarong",
+              "short_title": "Mykonos Sarong",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "3f453058-40bc-4f5e-a324-ead7f42ec609": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/NOOSA_TOP_-_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Noosa Top",
+              "short_title": "Noosa Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "bfdd3e62-c0e1-4d31-b145-d9479c8ac746": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PALM_BEACH_TOP_-_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Palm Beach Top",
+              "short_title": "Palm Beach Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "fdca6529-e0bc-4511-a9fe-9c5bfecede32": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/SAN_MIGUEL_SHORT_-_IVR.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The San Miguel Short",
+              "short_title": "San Miguel Short",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "84c6a03d-dfb6-4fc7-9da9-8ab6bdd74d5b": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/SORRENTO_CAFTAN_-_IVR.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Sorrento Caftan",
+              "short_title": "Sorrento Caftan",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "66e29446-c79c-49a3-b84e-fb87cdef8ba1": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ST_BARTHS_SKIRT_-_CROCHET_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The St Barths Skirt",
+              "short_title": "St Barths Skirt",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "11a1a576-fb12-4b91-805a-e8e12102c048": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ST_BARTHS_TOP_-_CROCHET_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The St Barths Top",
+              "short_title": "St Barths Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "329127bc-957e-4231-864a-35bcbf30aa64": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/ST_TROPEZ_SARONG_-_IVR.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The St Tropez Sarong",
+              "short_title": "St Tropez Sarong",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "5bba56c6-8db5-4c49-a386-ab5b6814019d": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TAHITI_PANT_-_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Tahiti Pant",
+              "short_title": "Tahiti Pant",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "4c1ea451-452e-47c6-a184-6c0ba2a5b1b8": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TAHITI_TANK_-_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Tahiti Tank",
+              "short_title": "Tahiti Tank",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "ff502580-41e7-4745-b4d2-c0a5e4f6482a": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TAHITI_TIE_TOP_-_IVORY.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Tahiti Tie Top",
+              "short_title": "Tahiti Tie Top",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "ab9e6433-eee2-44d1-98b2-1e45840bf804": {
+            "type": "beachwear",
+            "settings": {
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Sicily One Piece",
+              "short_title": "Sicily One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          },
+          "d53b513d-06d4-4b9a-ad62-afa2068ef237": {
+            "type": "beachwear",
+            "settings": {
+              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "title": "The Sicily One Piece",
+              "short_title": "Sicily One Piece",
+              "short_description": "Sexy,Sporty,Chic",
+              "description": "Thoughtfully designed to give as little or as much coverage as you want",
+              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
+              "fit": "Best for Cups p-V",
+              "padding": "Minimal",
+              "coverage": "Brazillian",
+              "style": "Adjustable",
+              "fabric": "Soft Jersey",
+              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
+              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+            }
+          }
+        },
+        "block_order": [
+          "66e09ad9-4f40-4c9f-80e3-3c73483526be",
+          "3004b7f7-7772-4c6b-baee-c46e0985b3b8",
+          "59e8b9a3-59c0-4135-b18f-814c46db7e84",
+          "ab5d15c3-7a43-47dc-bb1c-dfe3ad7c1cfa",
+          "8e9061c0-1ac4-4d1b-a60f-15784f7de23b",
+          "9fd0a086-3d2d-4a0e-aac3-91e601959060",
+          "c025d1c8-23ec-4f57-8c63-c8bdc118ee9a",
+          "57f07c61-2f14-4bad-9f1f-db21e244db67",
+          "147ded9b-30aa-48be-9187-a0cd0185a9f7",
+          "be934de6-5ec1-40a3-acbe-6c76dd789390",
+          "e7385e4a-09a7-45cd-81ba-ac078ccff5a9",
+          "f164e6b6-ae4f-425e-bcbc-013990eef137",
+          "d0c2b7c4-ed5b-4b87-bb8e-89376ad741cc",
+          "048bb95d-0316-4e1d-acee-7bcfd387710d",
+          "3f453058-40bc-4f5e-a324-ead7f42ec609",
+          "bfdd3e62-c0e1-4d31-b145-d9479c8ac746",
+          "fdca6529-e0bc-4511-a9fe-9c5bfecede32",
+          "84c6a03d-dfb6-4fc7-9da9-8ab6bdd74d5b",
+          "66e29446-c79c-49a3-b84e-fb87cdef8ba1",
+          "11a1a576-fb12-4b91-805a-e8e12102c048",
+          "329127bc-957e-4231-864a-35bcbf30aa64",
+          "5bba56c6-8db5-4c49-a386-ab5b6814019d",
+          "4c1ea451-452e-47c6-a184-6c0ba2a5b1b8",
+          "ff502580-41e7-4745-b4d2-c0a5e4f6482a",
+          "ab9e6433-eee2-44d1-98b2-1e45840bf804",
+          "d53b513d-06d4-4b9a-ad62-afa2068ef237"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [

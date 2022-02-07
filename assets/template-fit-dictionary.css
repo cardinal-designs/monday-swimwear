@@ -98,16 +98,8 @@
     padding-left: 0;
   }
 
-  .fit-dictionary-nav__button:first-child.active::before {
-    left: 15px;
-  }
-
   .fit-dictionary-nav__button:last-child {
     padding-right: 0;
-  }
-
-  .fit-dictionary-nav__button:last-child.active::before {
-    right: 15px;
   }
 
   .fit-dictionary-nav__container {
