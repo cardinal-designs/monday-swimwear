@@ -46,6 +46,34 @@
     },
     "emails": {
       "type": "contact-emails",
+      "blocks": {
+        "5adfdd93-3981-45e6-ba5a-cd345ecf8283": {
+          "type": "email",
+          "settings": {
+            "location": "Press and media inquiries - US",
+            "email": "Amanda@house-of.com"
+          }
+        },
+        "62db2a2a-3a24-4f01-85fc-90550c5b4d77": {
+          "type": "email",
+          "settings": {
+            "location": "Press and media inquiries - Australia",
+            "email": "Mia@portobellopr.com.au"
+          }
+        },
+        "b7a8b317-e888-4996-9a35-7af2611e52a7": {
+          "type": "email",
+          "settings": {
+            "location": "Joining the Monday Swim Team",
+            "email": "careers@mondayswimwear.com"
+          }
+        }
+      },
+      "block_order": [
+        "5adfdd93-3981-45e6-ba5a-cd345ecf8283",
+        "62db2a2a-3a24-4f01-85fc-90550c5b4d77",
+        "b7a8b317-e888-4996-9a35-7af2611e52a7"
+      ],
       "settings": {
         "background_color": "#F2F0E8",
         "button_text": "Email"
