@@ -2,7 +2,48 @@
   "sections": {
     "main": {
       "type": "main-faq",
+      "blocks": {
+        "af8cf033-f881-46c8-9cf3-b4afcaad37b2": {
+          "type": "category",
+          "settings": {
+            "category_title": "Holiday Shipping"
+          }
+        },
+        "a3c2dbed-8184-4a51-b906-1487b7e8ce01": {
+          "type": "category",
+          "settings": {
+            "category_title": "International Shipping"
+          }
+        },
+        "79636169-6501-49ac-8b68-8758b675d0aa": {
+          "type": "category",
+          "settings": {
+            "category_title": "Taxes & Duties"
+          }
+        },
+        "0bd5a02a-bf8b-4317-9e5f-744fe2145751": {
+          "type": "category",
+          "settings": {
+            "category_title": "General"
+          }
+        },
+        "1dba8cee-4dca-4604-b287-52d25894f1b5": {
+          "type": "category",
+          "settings": {
+            "category_title": "Covid-19"
+          }
+        }
+      },
+      "block_order": [
+        "af8cf033-f881-46c8-9cf3-b4afcaad37b2",
+        "a3c2dbed-8184-4a51-b906-1487b7e8ce01",
+        "79636169-6501-49ac-8b68-8758b675d0aa",
+        "0bd5a02a-bf8b-4317-9e5f-744fe2145751",
+        "1dba8cee-4dca-4604-b287-52d25894f1b5"
+      ],
       "settings": {
+        "category_title": "Category",
+        "search_placeholder": "How can I edit my order?"
       }
     }
   },
