@@ -32,6 +32,14 @@
           "settings": {
             "category_title": "Covid-19"
           }
+        },
+        "059c342d-995a-469a-8134-215c94ac5857": {
+          "type": "accordion",
+          "settings": {
+            "accordion_category": "holiday-shipping",
+            "accordion_title": "Lorem ipsum dolor sit amet?",
+            "accordion_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
+          }
         }
       },
       "block_order": [
@@ -39,7 +47,8 @@
         "a3c2dbed-8184-4a51-b906-1487b7e8ce01",
         "79636169-6501-49ac-8b68-8758b675d0aa",
         "0bd5a02a-bf8b-4317-9e5f-744fe2145751",
-        "1dba8cee-4dca-4604-b287-52d25894f1b5"
+        "1dba8cee-4dca-4604-b287-52d25894f1b5",
+        "059c342d-995a-469a-8134-215c94ac5857"
       ],
       "settings": {
         "category_title": "Category",
