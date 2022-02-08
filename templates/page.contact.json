@@ -1,7 +1,13 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page"
+    "headline": {
+      "type": "contact-headline"
+    },
+    "service-hours": {
+      "type": "contact-service-hours"
+    },
+    "emails": {
+      "type": "contact-emails"
     },
     "form": {
       "type": "contact-form",
@@ -11,7 +17,9 @@
     }
   },
   "order": [
-    "main",
+    "headline",
+    "service-hours",
+    "emails",
     "form"
   ]
 }

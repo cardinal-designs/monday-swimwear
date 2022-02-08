@@ -1,0 +1,42 @@
+{{ 'section-contact-service-hours.css' | asset_url | stylesheet_tag }}
+
+<div class="contact-service-hours" style="background-color: {{ section.settings.background_color }};">
+  <div class="page-width">
+    <h4 class="text-center title sh2">{{ section.settings.heading_text }}</h4>
+
+    <div class="text-center content">
+      {{ section.settings.content }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Contact Service Hours",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#FFFF95"
+      },
+      {
+        "type": "text",
+        "id": "heading_text",
+        "label": "Heading Text",
+        "default": "Customer service hours"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "Content",
+        "default": "<p>Monday – Friday<br>9:30am-6:30pm PST</p>"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Contact Service Hours"
+      }
+    ]
+  }
+{% endschema %}

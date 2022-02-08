@@ -1,0 +1,151 @@
+{{ 'section-main-faq.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width page-width--narrow faq-wrapper">
+  <h1 class="title text-center">
+    {{ page.title | escape }}
+  </h1>
+
+  <div class="faqs">
+    <div class="faq-categories">
+      <div class="detail-caps">
+        {{ section.settings.category_title }}
+      </div>
+  
+      <div class="link-group">
+        <a class="body-large" href="">All</a>
+        {% for block in section.blocks %}
+          {% if block.type == 'category' %}
+            <a class="body-large" href="#{{ block.settings.category_title | handleize }}">{{ block.settings.category_title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  
+    <div class="faq-content">
+      <div class="search-field">
+        <input
+          class="search__input field__input h2"
+          id="search_in_faq"
+          type="search"
+          name="q"
+          value="{{ search.terms | escape }}"
+          placeholder="{{ section.settings.search_placeholder }}"
+        />
+      </div>
+
+      <div class="link-group link-group--mobile">
+        <div class="links">
+          <a class="body-large active" href="">All</a>
+          {% for block in section.blocks %}
+            {% if block.type == 'category' %}
+              <a class="body-large" href="#{{ block.settings.category_title | handleize }}">{{ block.settings.category_title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="category-item">
+        {% for block in section.blocks %}
+          {% if block.type == 'category' %}
+            <div class="h4 category-title" id="{{ block.settings.category_title | handleize }}">
+              {{ block.settings.category_title }}
+            </div>
+          {% endif %}
+
+          {% if block.type == 'accordion' %}
+            <div class="accordion-group">
+              <div class="accordion">
+                <div class="question collapsed">
+                  <div class="body">{{ block.settings.accordion_title }}</div>
+                  <span class="plus">+</span>
+                  <span class="minus hidden">-</span>
+                </div>
+                <div class="answer body-small hideText">
+                  {{ block.settings.accordion_content }}
+                </div>
+              </div>
+            </div> 
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const accordions = document.querySelectorAll('.accordion');
+
+  accordions.forEach(element =>{
+    let btn = element.querySelector('.question');
+    let plus = element.querySelector('.question .plus');
+    let minus = element.querySelector('.question .minus');
+    var answer = element.lastElementChild;
+    var answers = document.querySelectorAll('.accordion .answer');
+    
+    btn.addEventListener('click', ()=>{
+      answers.forEach(ans => {
+        if(answer !== ans) {
+          ans.classList.add('hideText');
+        }
+      });
+      answer.classList.toggle('hideText');
+      plus.classList.toggle('hidden');
+      minus.classList.toggle('hidden');
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Contact Emails",
+    "settings": [
+      {
+        "type": "text",
+        "id": "category_title",
+        "label": "Category Title",
+        "default": "Category"
+      },
+      {
+        "type": "text",
+        "id": "search_placeholder",
+        "label": "Placeholder Text for search",
+        "default": "How can I edit my order?"
+      }
+    ],
+    "max_blocks": 8,
+    "blocks": [
+      {
+        "type": "category",
+        "name": "Category",
+        "settings": [
+          {
+            "type": "text",
+            "id": "category_title",
+            "label": "Category Title"
+          }
+        ]
+      },
+      {
+        "type": "accordion",
+        "name": "Accordion",
+        "settings": [
+          {
+            "type": "text",
+            "id": "accordion_category",
+            "label": "Accordion Category"
+          },
+          {
+            "type": "text",
+            "id": "accordion_title",
+            "label": "Accordion Title"
+          },
+          {
+            "type": "text",
+            "id": "accordion_content",
+            "label": "Accordion Content"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
