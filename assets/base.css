@@ -1948,3 +1948,59 @@ header-drawer {
 .grecaptcha-badge { 
   visibility: hidden;
 }
+
+/*================ FAQ Component ================*/
+.faq__item {
+  border-bottom: 1px solid #F8F7F4;
+}
+
+.faq__item-question {
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.faq__item-question p {
+  margin: 0 20px 0 0;
+}
+
+.faq__item-control {
+  width: 9px;
+  height: 9px;
+  position: relative;
+}
+
+.faq__item-control::before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  border-right: 1px solid black;
+  transition: opacity .3s ease;
+}
+
+.faq__item-control::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  border-bottom: 1px solid black;
+}
+
+.faq__item.active .faq__item-control::before {
+  opacity: 0;
+}
+
+.faq__item-answer {
+  display: none;
+}
+
+.faq__item-answer p {
+  margin: 0;
+  padding-bottom: 24px;
+}

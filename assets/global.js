@@ -867,3 +867,15 @@ fadeInUpElems.forEach(elem => {
     }
   })
 });
+
+/*================ FAQ Component ================*/
+const faqs = document.querySelectorAll('.faq__item-question');
+faqs.forEach(faq => {
+  faq.addEventListener('click', event => {
+    const parent = event.currentTarget.parentElement;
+    const content = parent.querySelector('.faq__item-answer');
+
+    parent.classList.toggle('active');
+    slideToggle(content, 300);
+  });
+});
