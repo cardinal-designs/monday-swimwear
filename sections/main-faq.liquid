@@ -31,6 +31,10 @@
           value="{{ search.terms | escape }}"
           placeholder="{{ section.settings.search_placeholder }}"
         />
+
+        <div class="icon-search">
+          {% render 'icon-search' %}
+        </div>
       </div>
 
       <div class="link-group link-group--mobile">
@@ -97,7 +101,7 @@
 
 {% schema %}
   {
-    "name": "Contact Emails",
+    "name": "FAQs",
     "settings": [
       {
         "type": "text",

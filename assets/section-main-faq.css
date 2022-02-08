@@ -8,6 +8,7 @@
 
 .faq-wrapper .faq-categories {
   max-width: 178px;
+  width: 100%;
 }
 
 .faq-wrapper .faqs {
@@ -43,6 +44,21 @@
   padding-bottom: 24px;
 }
 
+.faq-wrapper .search-field {
+  position: relative;
+}
+
+.faq-wrapper .icon-search {
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
+
+.faq-wrapper .icon-search svg {
+  height: 28px;
+  width: 28px;
+}
+
 /* accordion */
 .accordion {
   padding: 24px 0;
@@ -63,9 +79,15 @@
 .accordion .answer {
   padding: 24px 0 0 0;
   animation: animate .7s;
+  max-width: 834px;
+  width: 100%;
 }
 
 .hideText {
+  display: none;
+}
+
+.faq-wrapper .link-group--mobile {
   display: none;
 }
 
@@ -102,6 +124,12 @@
     display: none;
   }
 
+  .faq-wrapper .search__input {
+    font-size: 20px;
+    height: 3rem;
+    padding: 0 30px 14px 0;
+  }
+
   .faq-wrapper .link-group--mobile {
     display: block;
     flex-direction: row;
@@ -111,7 +139,16 @@
   }
 
   .faq-wrapper .links {
+    display: flex;
+    overflow-x: scroll;
+    grid-gap: 42px;
     border-bottom: 2px solid #F8F7F4;
+  }
+
+  .faq-wrapper .links a {
+    opacity: .4;
+    padding-bottom: 16px;
+    white-space: nowrap;
   }
 
   .faq-wrapper .links a.active {

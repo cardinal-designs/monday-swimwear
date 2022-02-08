@@ -38,6 +38,15 @@
   margin-top: 10px;
 }
 
+.template-register .lens {
+  background: #FFFF50;
+  filter: blur(80px);
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  right: 0;
+}
+
 @media screen and (max-width: 768px) {
   .template-register .register-wrapper {
     max-width: 100%;
@@ -67,5 +76,12 @@
 
   .template-register .login-link {
     margin-top: 20px;
+  }
+
+  .template-register .lens {
+    filter: blur(40px);
+    height: 120px;
+    width: 120px;
+    top: 40px;
   }
 }
