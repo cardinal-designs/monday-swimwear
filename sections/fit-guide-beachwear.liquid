@@ -1,7 +1,7 @@
 <div class="fit-guide fit-guide--beachwear" data-tab="beachwear">
   <div class="fit-guide__navigation">
     <div class="page-width">
-      <div class="fit-guide__navigation-wrapper">
+      <div class="fit-guide__navigation-wrapper hide-mobile">
         <button class="swiper-button swiper-button-prev">
           {% render 'icon-arrow-left' %}
         </button>
@@ -15,6 +15,17 @@
         <button class="swiper-button swiper-button-next">
           {% render 'icon-arrow-right' %}
         </button>
+      </div>
+      <div class="fit-guide__navigation-mobile hide-desktop">
+        <p class="btn">Explore the</p>
+        <div class="fit-guide__navigation-mobile-select">
+          <select class="fit-guide__select caption-sunset">
+            {% for block in section.blocks %}
+              <option value="{{ forloop.index0 }}">{{ block.settings.short_title }}</option>
+            {% endfor %}
+          </select>
+          {% render 'icon-caret' %}
+        </div>
       </div>
     </div>
   </div>
@@ -127,7 +138,7 @@
   var beachwearSelect = document.querySelector('.fit-guide--beachwear .fit-guide__select');
   beachwearSelect.addEventListener('change', event => {
     let idx = Number(event.target.value);
-
+ 
     beachwearContentSlider.slideToLoop(idx);
   });
 {% endjavascript %} 

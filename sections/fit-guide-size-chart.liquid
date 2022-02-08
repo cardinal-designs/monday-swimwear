@@ -81,6 +81,10 @@
               tab.style.display = 'none';
             }
           });
+        } else {
+          const incomingText = event.currentTarget.textContent;
+          
+          event.currentTarget.parentElement.previousElementSibling.textContent = incomingText;
         }
       }
     });
