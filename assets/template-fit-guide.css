@@ -66,6 +66,57 @@
   position: relative;
 }
 
+@media only screen and (max-width: 768px) {
+  .fit-guide-header {
+    padding: 40px 0 33px;
+  }
+
+  .fit-guide-header__text h2 {
+    margin: 0 0 20px;
+  }
+
+  .fit-guide-header__text {
+    margin-bottom: 40px;
+  }
+
+  .fit-guide-header__tabs {
+    gap: 10px;
+  }
+
+  .fit-guide-header__tab {
+    opacity: .4;
+    transition: opacity .3s ease;
+  }
+
+  .fit-guide-header__tab.active {
+    opacity: 1;
+  }
+
+  .fit-guide-header__tab .aspect-ratio {
+    height: 40px;
+    width: 27px !important;
+  }
+
+  .fit-guide-header__tab p {
+    margin-top: 6px;
+    font-family: 'Neue Haas Unica Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: unset;
+  }
+
+  .fit-guide-header__tab::before {
+    height: 22px;
+    width: 22px;
+    filter: blur(6px);
+    top: unset;
+    bottom: 0;
+  }
+}
+
 /* Fit Guide Navigation */
 .fit-guide {
   display: none;
@@ -111,6 +162,50 @@
 
 .fit-guide__navigation-item.swiper-slide-active {
   opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .fit-guide__navigation {
+    padding: 20px 0;
+    top: var(--mobile-header-height);
+  }
+  
+  .fit-guide__navigation-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fit-guide__navigation-mobile .btn {
+    margin: 0 10px 0 0;
+  }
+
+  .fit-guide__navigation-mobile-select {
+    display: flex;
+    align-items: center;
+  }
+
+  .fit-guide__navigation-mobile-select select {
+    padding: 2px 0 0 0;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    appearance: none;
+    color: white;
+  }
+
+  .fit-guide__navigation-mobile-select svg {
+    width: 10px;
+    height: auto;
+    margin: 0 0 0 10px;
+  }
+
+  .fit-guide__navigation-mobile-select svg path {
+    stroke: white;
+  }
 }
 
 /* Fit Guide Sections */
@@ -239,6 +334,42 @@
 
 .fit-guide__lifestyle {
   position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .fit-guide__section {
+    grid-template-columns: .47fr .6fr;
+  }
+
+  .fit-guide__flat {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .fit-guide__lifestyle {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  .fit-guide__description {
+    grid-column: span 2;
+  }
+
+  .fit-guide__flat-container .sh2 {
+    display: none;
+  }
+
+  .fit-guide__description {
+    padding: 40px 20px;
+  }
+
+  .fit-guide__content-short-description {
+    font-size: 13px;
+  }
+
+  .fit-guide__content-stats {
+    margin-bottom: 55px;
+  }
 }
 
 /* Size Chart */
@@ -390,6 +521,116 @@
   width: 45px;
 }
 
+@media only screen and (max-width: 768px) {
+  .fit-size-chart {
+    margin: 20px 0 40px;
+  }
+
+  .fit-size-chart__container {
+    display: block;
+  }
+
+  .fit-size-chart__measurements-container {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .fit-size-chart__measurements-container .detail-caps {
+    grid-column: span 4;
+    text-align: center;
+  }
+
+  .fit-size-chart__tab {
+    display: block;
+    opacity: .4;
+    transition: opacity .3s ease;
+  }
+
+  .fit-size-chart__tab.active {
+    opacity: 1;
+  }
+
+  .fit-size-chart__tab p {
+    margin: 6px 0 0;
+    font-family: 'Neue Haas Unica Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: unset;
+    position: relative;
+  }
+
+  .fit-size-chart__tab::before {
+    height: 22px;
+    width: 22px;
+    filter: blur(6px);
+    top: unset;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .fit-size-chart__current-country {
+    display: none;
+  }
+
+  .fit-size-chart__chart-tabs {
+    margin: 0 -10px 20px;
+    background: var(--tan);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .fit-size-chart__chart-tab {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fit-size-chart__chart-tab svg {
+    margin-left: 8px;
+    margin-bottom: 1px;
+    display: none;
+  }
+
+  .fit-size-chart__chart-tab.active {
+    display: flex;
+    order: -1;
+  }
+
+  .fit-size-chart__chart-tab.active svg {
+    display: inline-block;
+  }
+
+  .fit-size-chart__chart-tabs.open  .fit-size-chart__chart-tab.active svg {
+    transform: rotate(-180deg);
+  }
+
+  .fit-size-chart__chart-container th:first-child {
+    width: 35%;
+  }
+
+  .fit-size-chart__chart-container th:last-child {
+    width: 65%;
+  }
+
+  .fit-size-chart__chart-container td {
+    padding: 20px 0;
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
+
 /* Text */
 .fit-guide-text {
   padding: 80px 0;
@@ -408,6 +649,12 @@
 
 .fit-guide-text__container p {
   margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .fit-guide-text {
+    padding: 50px 25px;
+  }
 }
 
 /* Editorial CTA */
@@ -468,4 +715,20 @@
   right: 330px;
   overflow: hidden;
   filter: blur(8px);
+}
+
+@media only screen and (max-width: 768px) {
+  .fit-guide-cta {
+    height: 514px;
+  }
+
+  .fit-guide-cta__text-container {
+    max-width: 245px;
+    margin: 0 auto;
+  }
+
+  .fit-guide-cta__text-3 {
+    top: calc(100% - 80px);
+    right: 105px;
+  }
 }

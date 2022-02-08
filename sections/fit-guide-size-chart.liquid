@@ -55,14 +55,34 @@
 
   countryTabs.forEach(countryTab => {
     countryTab.addEventListener('click', event => {
-      const tab = event.currentTarget.dataset.tab;
-      const chartContainer = event.currentTarget.closest('.fit-size-chart__chart');
+      const tabs = event.currentTarget.parentElement.querySelectorAll('.fit-size-chart__chart-tab');
 
-      chartContainer.querySelector('.fit-size-chart__chart-tab.active').classList.remove('active');
-      event.currentTarget.classList.add('active');
+      if (window.innerWidth < 769 && event.currentTarget.classList.contains('active')) {
 
-      chartContainer.querySelector('.fit-size-chart__chart-container.active').classList.remove('active');
-      chartContainer.querySelector(`.fit-size-chart__chart-container[data-tab="${tab}"]`).classList.add('active');
+        event.currentTarget.parentElement.classList.add('open');
+        tabs.forEach(tab => {
+          tab.style.display = 'flex';
+        });
+      } else {
+        const tab = event.currentTarget.dataset.tab;
+        const chartContainer = event.currentTarget.closest('.fit-size-chart__chart');
+
+        chartContainer.querySelector('.fit-size-chart__chart-tab.active').classList.remove('active');
+        event.currentTarget.classList.add('active');
+
+        chartContainer.querySelector('.fit-size-chart__chart-container.active').classList.remove('active');
+        chartContainer.querySelector(`.fit-size-chart__chart-container[data-tab="${tab}"]`).classList.add('active');
+
+        if (window.innerWidth < 769) {
+          event.currentTarget.parentElement.classList.remove('open');
+          tabs.forEach(tab => {
+            console.log(tab)
+            if (!tab.classList.contains('active')) {
+              tab.style.display = 'none';
+            }
+          });
+        }
+      }
     });
   });
 {% endjavascript %}

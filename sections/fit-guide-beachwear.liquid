@@ -49,7 +49,7 @@
               </p>
               <p class="fit-guide__content-description body-large hide-mobile">{{ block.settings.description }}</p>
               <div class="fit-guide__content-stats">
-                <div class="fit-guide__content-stat">
+                <div class="fit-guide__content-stat hide-mobile">
                   <p class="detail-caps">Highlights</p>
                   <p class="body">{{ block.settings.highlights }}</p>
                 </div>
@@ -74,6 +74,7 @@
                   <p class="body-small">{{ block.settings.fabric }}</p>
                 </div>
               </div>
+              <a href="{{ block.settings.shop_link }}" class="text-link hide-desktop">Shop Now</a>
             </div>
           </div>
           <div class="fit-guide__lifestyle">
@@ -86,7 +87,7 @@
 </div>
 
 {% javascript %}
-  const onePieceNavigationSlider = new Swiper('.fit-guide--beachwear .fit-guide__navigation-slider', {
+  const beachwearNavigationSlider = new Swiper('.fit-guide--beachwear .fit-guide__navigation-slider', {
     slidesPerView: 1,
     loop: true,
     spaceBetween: 20,
@@ -107,7 +108,7 @@
     }
   }); 
 
-  const onePieceContentSlider = new Swiper('.fit-guide--beachwear .fit-guide__slider', {
+  const beachwearContentSlider = new Swiper('.fit-guide--beachwear .fit-guide__slider', {
     loop: true,
     spaceBetween: 20,
     effect: 'fade',
@@ -116,10 +117,18 @@
   });
 
   // Sync sliders with navigation
-  onePieceNavigationSlider.on('slideChange', slider => {
+  beachwearNavigationSlider.on('slideChange', slider => {
     let idx = slider.realIndex;
 
-    onePieceContentSlider.slideToLoop(idx);
+    beachwearContentSlider.slideToLoop(idx);
+  });
+
+  // Sync sliders with mobile
+  var beachwearSelect = document.querySelector('.fit-guide--beachwear .fit-guide__select');
+  beachwearSelect.addEventListener('change', event => {
+    let idx = Number(event.target.value);
+
+    beachwearContentSlider.slideToLoop(idx);
   });
 {% endjavascript %} 
 

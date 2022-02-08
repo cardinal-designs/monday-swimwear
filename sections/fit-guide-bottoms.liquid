@@ -1,7 +1,7 @@
 <div class="fit-guide fit-guide--bottoms" data-tab="bottoms">
   <div class="fit-guide__navigation">
     <div class="page-width">
-      <div class="fit-guide__navigation-wrapper">
+      <div class="fit-guide__navigation-wrapper hide-mobile">
         <button class="swiper-button swiper-button-prev">
           {% render 'icon-arrow-left' %}
         </button>
@@ -15,6 +15,17 @@
         <button class="swiper-button swiper-button-next">
           {% render 'icon-arrow-right' %}
         </button>
+      </div>
+      <div class="fit-guide__navigation-mobile hide-desktop">
+        <p class="btn">Explore the</p>
+        <div class="fit-guide__navigation-mobile-select">
+          <select class="fit-guide__select caption-sunset">
+            {% for block in section.blocks %}
+              <option value="{{ forloop.index0 }}">{{ block.settings.short_title }}</option>
+            {% endfor %}
+          </select>
+          {% render 'icon-caret' %}
+        </div>
       </div>
     </div>
   </div>
@@ -49,7 +60,7 @@
               </p>
               <p class="fit-guide__content-description body-large hide-mobile">{{ block.settings.description }}</p>
               <div class="fit-guide__content-stats">
-                <div class="fit-guide__content-stat">
+                <div class="fit-guide__content-stat hide-mobile">
                   <p class="detail-caps">Highlights</p>
                   <p class="body">{{ block.settings.highlights }}</p>
                 </div>
@@ -74,6 +85,7 @@
                   <p class="body-small">{{ block.settings.fabric }}</p>
                 </div>
               </div>
+              <a href="{{ block.settings.shop_link }}" class="text-link hide-desktop">Shop Now</a>
             </div>
           </div>
           <div class="fit-guide__lifestyle">
@@ -86,7 +98,7 @@
 </div>
 
 {% javascript %}
-  const onePieceNavigationSlider = new Swiper('.fit-guide--bottoms .fit-guide__navigation-slider', {
+  const bottomNavigationSlider = new Swiper('.fit-guide--bottoms .fit-guide__navigation-slider', {
     slidesPerView: 1,
     loop: true,
     spaceBetween: 20,
@@ -107,7 +119,7 @@
     }
   }); 
 
-  const onePieceContentSlider = new Swiper('.fit-guide--bottoms .fit-guide__slider', {
+  const bottomContentSlider = new Swiper('.fit-guide--bottoms .fit-guide__slider', {
     loop: true,
     spaceBetween: 20,
     effect: 'fade',
@@ -116,10 +128,18 @@
   });
 
   // Sync sliders with navigation
-  onePieceNavigationSlider.on('slideChange', slider => {
+  bottomNavigationSlider.on('slideChange', slider => {
     let idx = slider.realIndex;
 
-    onePieceContentSlider.slideToLoop(idx);
+    bottomContentSlider.slideToLoop(idx);
+  });
+
+  // Sync sliders with mobile
+  var bottomsSelect = document.querySelector('.fit-guide--bottoms .fit-guide__select');
+  bottomsSelect.addEventListener('change', event => {
+    let idx = Number(event.target.value);
+
+    bottomContentSlider.slideToLoop(idx);
   });
 {% endjavascript %} 
 
