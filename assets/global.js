@@ -682,7 +682,6 @@ atcButtons.forEach(atcButton => {
     event.preventDefault();
 
     const id = Number(event.currentTarget.dataset.id);
-    console.log(id)
 
     const body = JSON.stringify({
       items: [{
