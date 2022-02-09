@@ -56,6 +56,10 @@
   padding-top: 0;
 }
 
+.faq__item-answer p {
+  max-width: 835px;
+}
+
 @media screen and (max-width: 768px) {
   .faq__page-header {
     margin: 40px 0 30px;

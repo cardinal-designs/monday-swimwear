@@ -15,6 +15,7 @@ class CartDrawer extends HTMLElement {
     super();
     
     // Elements
+    this.body = document.body;
     this.drawer = document.getElementById('cart-drawer');
     
     this.cartButton = document.querySelector('.js-open-cart');
@@ -45,6 +46,8 @@ class CartDrawer extends HTMLElement {
 
     this.pageOverlayElement.classList.add('is-visible');
     document.body.addEventListener('click', this.onBodyClick);
+
+    this.body.classList.add('scroll-lock');
   }
 
   close() {
@@ -125,6 +128,7 @@ class CartDrawer extends HTMLElement {
     if (target.classList.contains('page-overlay')) {
       this.close();
       this.pageOverlayElement.classList.remove('is-visible');
+      this.body.classList.remove('scroll-lock');
     }
   }
 

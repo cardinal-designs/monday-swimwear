@@ -72,8 +72,34 @@
       },
       "cart-drawer": {
         "type": "cart-drawer",
+        "blocks": {
+          "7d0a6c0b-4d2b-4016-b5c4-ff0e886f7e25": {
+            "type": "upsell",
+            "settings": {
+              "product": "saint-jean-bucket-hat"
+            }
+          },
+          "b998258a-f74b-489f-88ac-d2845f748e54": {
+            "type": "upsell",
+            "settings": {
+              "product": "paloma-bag-large"
+            }
+          },
+          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
+            "type": "upsell",
+            "settings": {
+              "product": "florence-sun-hat"
+            }
+          }
+        },
+        "block_order": [
+          "7d0a6c0b-4d2b-4016-b5c4-ff0e886f7e25",
+          "b998258a-f74b-489f-88ac-d2845f748e54",
+          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5"
+        ],
         "settings": {
-          "cart_title": "Your Cart"
+          "cart_title": "Your Cart",
+          "show_upsell": true
         }
       },
       "footer": {
