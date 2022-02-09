@@ -51,7 +51,7 @@
               <div class="cart-drawer__subtotal-wrapper" id="cart-drawer-subtotal">
                 <h4 class="sh3">Subtotal</h4>
                 <div class="cart-drawer__loading-container">
-                  <h4 class="cart-drawer__subtotal sh3">{{ cart.total_price | money_without_trailing_zeros }}</h4>
+                  <h4 class="cart-drawer__subtotal sh3">{{ cart.total_price | money_with_currency | remove: '.00' }}</h4>
                   <div class="loading-overlay hidden" id="cart-drawer-loading">
                     <div class="loading-overlay__spinner">
                       <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">

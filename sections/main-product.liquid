@@ -13,7 +13,7 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
 <section class="page-width">
-  <div class="product">
+  <div class="product{% if product.type == 'Gift Cards' or product.type == 'Gift Card' %} product--gift-card{% endif %}">
 
     <div class="product__media-container">
       <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
@@ -21,33 +21,53 @@
       </a>
       <div class="product__media-wrapper">
         <div class="product__thumbnail-wrapper">
-          <ul class="product__thumbnail-list swiper list-unstyled" role="list">
-            <div class="swiper-wrapper">
+          {% unless product.media.size == 1 %}
+            <ul class="product__thumbnail-list swiper list-unstyled" role="list">
+              <div class="swiper-wrapper">
+                {% for media in product.media %}
+                  <li class="product__thumbnail-item swiper-slide" data-media-id="{{ section.id }}-{{ media.id }}">
+                    {% render 'lazy-image' image: media.preview_image, fade: true %}
+                  </li>
+                {% endfor %}
+              </div>
+            </ul>
+            <div class="swiper-button-next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="26" viewBox="0 0 12 26" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.93621 18.3187L5.10894 22.5717L5.18919 -5.5888e-07L6.41961 0.0267482L6.44636 22.6252L10.6726 18.3455L11.582 19.2549L5.8044 25.1128L2.05914e-05 19.2282L0.93621 18.3187Z" fill="black"/>
+              </svg>
+            </div>
+          {% else %}
+            <ul class="product__thumbnail-list list-unstyled" role="list">
               {% for media in product.media %}
-                <li class="product__thumbnail-item swiper-slide" data-media-id="{{ section.id }}-{{ media.id }}">
+                <li class="product__thumbnail-item" data-media-id="{{ section.id }}-{{ media.id }}">
                   {% render 'lazy-image' image: media.preview_image, fade: true %}
                 </li>
               {% endfor %}
+            </ul>
+          {% endunless %}
+        </div>
+        {% unless product.media.size == 1 %}
+          <ul class="product__media-list swiper list-unstyled" role="list">
+            <div class="swiper-wrapper">
+              {%- for media in product.media -%}
+                <li class="product__media-item swiper-slide" data-media-id="{{ section.id }}-{{ media.id }}">
+                  {% render 'product-thumbnail', media: media, position: forloop.index %}
+                </li>
+              {%- endfor -%}
+            </div>
+            <div class="product__media-scrollbar-wrapper">
+              <div class="product__media-scrollbar swiper-scrollbar"></div>
             </div>
           </ul>
-          <div class="swiper-button-next">
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="26" viewBox="0 0 12 26" fill="none">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.93621 18.3187L5.10894 22.5717L5.18919 -5.5888e-07L6.41961 0.0267482L6.44636 22.6252L10.6726 18.3455L11.582 19.2549L5.8044 25.1128L2.05914e-05 19.2282L0.93621 18.3187Z" fill="black"/>
-            </svg>
-          </div>
-        </div>
-        <ul class="product__media-list swiper list-unstyled" role="list">
-          <div class="swiper-wrapper">
+        {% else %}
+          <ul class="product__media-list list-unstyled" role="list">
             {%- for media in product.media -%}
-              <li class="product__media-item swiper-slide" data-media-id="{{ section.id }}-{{ media.id }}">
+              <li class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
                 {% render 'product-thumbnail', media: media, position: forloop.index %}
               </li>
             {%- endfor -%}
-          </div>
-          <div class="product__media-scrollbar-wrapper">
-            <div class="product__media-scrollbar swiper-scrollbar"></div>
-          </div>
-        </ul>
+          </ul>
+        {% endunless %}
       </div>
     </div>
 
@@ -201,15 +221,17 @@
             </div>
           </noscript>
 
-          <div class="size-chart-dropdown">
-            <button class="size-chart-dropdown__header">
-              <p class="sh5">size chart</p>
-              <div class="size-chart-dropdown__control"></div>
-            </button>
-            <div class="size-chart-dropdown__content">
-              {% render 'pdp-size-chart' %}
+          {% unless product.type == 'Gift Cards' or product.type == 'Gift Card' %}
+            <div class="size-chart-dropdown">
+              <button class="size-chart-dropdown__header">
+                <p class="sh5">size chart</p>
+                <div class="size-chart-dropdown__control"></div>
+              </button>
+              <div class="size-chart-dropdown__content">
+                {% render 'pdp-size-chart' %}
+              </div>
             </div>
-          </div>
+          {% endunless %}
 
           <div class="product-form__error-message-wrapper" role="alert" hidden>
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">

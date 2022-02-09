@@ -541,3 +541,51 @@ variant-radios fieldset {
 .size-chart-dropdown__content {
   display: none;
 }
+
+/* Gift card */
+.product--gift-card .product__price {
+  margin-bottom: 40px;
+}
+
+.product--gift-card .product-form__input:not(.product-form__quantity) {
+  padding-bottom: 27px;
+  border-bottom: 1px solid #F8F7F4;
+}
+
+.product--gift-card .form__label {
+  margin-bottom: 16px;
+}
+
+.product--gift-card .product-form__input input[type='radio'] + label {
+  height: 46px;
+  width: 46px;
+}
+
+.product--gift-card .product-form__input input[type='radio'] + label::after {
+  height: 60px;
+  width: 60px;
+}
+
+.product--gift-card .product-form__input-active {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .product--gift-card .product__price {
+    margin-bottom: 20px;
+  }
+
+  .product--gift-card .product-form__input:not(.product-form__quantity) {
+    padding-bottom: 20px;
+  }
+
+  .product--gift-card .product-form__input input[type='radio'] + label {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .product--gift-card .product-form__input input[type='radio'] + label::after {
+    height: 50px;
+    width: 50px;
+  }
+}
