@@ -324,6 +324,7 @@ h4,
   font-size: 20px;
   line-height: 2;
   letter-spacing: 0.01em;
+  text-transform: unset;
 }
 
 @media only screen and (max-width: 768px) {

@@ -3,6 +3,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
+        "show_vendor": false
       }
     },
     "cart-footer": {
@@ -24,18 +25,12 @@
         "buttons"
       ],
       "settings": {
-      }
-    },
-    "featured-products": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all"
+        "show_cart_note": false
       }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer",
-    "featured-products"
+    "cart-footer"
   ]
 }
