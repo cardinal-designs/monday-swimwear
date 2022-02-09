@@ -27,6 +27,9 @@
                 {% for media in product.media %}
                   <li class="product__thumbnail-item swiper-slide" data-media-id="{{ section.id }}-{{ media.id }}">
                     {% render 'lazy-image' image: media.preview_image, fade: true %}
+                    {% if media.media_type == 'video' %}
+                      {% render 'icon-thumbnail-play' %}
+                    {% endif %}
                   </li>
                 {% endfor %}
               </div>
