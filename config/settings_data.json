@@ -99,7 +99,8 @@
         ],
         "settings": {
           "cart_title": "Your Cart",
-          "show_upsell": true
+          "show_upsell": true,
+          "upsell_title": "Complete the Look"
         }
       },
       "footer": {
@@ -1855,6 +1856,208 @@
         ],
         "settings": {
           "title": "FAQs"
+        }
+      },
+      "rewards-header": {
+        "type": "rewards-header",
+        "settings": {
+          "title": "Rewards",
+          "text": "Want discounts, gifts, and exclusive early access? All you have to do is shop."
+        }
+      },
+      "rewards-levels": {
+        "type": "rewards-levels",
+        "blocks": {
+          "98cb0e9d-1167-41d9-9a69-de43f85a6554": {
+            "type": "level",
+            "settings": {
+              "level": "Level One",
+              "title": "Liking It",
+              "text": "Annual birthday gift."
+            }
+          },
+          "6e7e7641-de4b-42ee-9ca7-ffe01b59057a": {
+            "type": "level",
+            "settings": {
+              "level": "Level Two",
+              "title": "Loving It",
+              "text": "10% off all purchases\n for life. Annual birthday gift."
+            }
+          },
+          "7fb38702-3712-4d7e-ab71-e8dacaf99eb2": {
+            "type": "level",
+            "settings": {
+              "level": "Level Three",
+              "title": "Obsessed",
+              "text": "15% off all purchases \nfor life. Early access to \nproducts and sales."
+            }
+          }
+        },
+        "block_order": [
+          "98cb0e9d-1167-41d9-9a69-de43f85a6554",
+          "6e7e7641-de4b-42ee-9ca7-ffe01b59057a",
+          "7fb38702-3712-4d7e-ab71-e8dacaf99eb2"
+        ],
+        "settings": {
+        }
+      },
+      "rewards-cta": {
+        "type": "rewards-cta",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/monday-rewards-ocean.jpg",
+          "mobile_image": "shopify:\/\/shop_images\/monday-rewards-ocean-mobile.jpg",
+          "title": "Get Your $25 Birthday Gift",
+          "text": "Enter your birthday so we can send you a $25 credit on your special day.",
+          "button_label": "Join Now",
+          "button_link": "\/register",
+          "secondary_button_label": "Sign In",
+          "secondary_button_link": "\/login"
+        }
+      },
+      "rewards-chart": {
+        "type": "rewards-chart",
+        "blocks": {
+          "8bac01a0-6abf-4176-a6f0-5378c5c53750": {
+            "type": "row",
+            "settings": {
+              "text": "Annual birthday gift",
+              "level_one": true,
+              "level_one_text": "",
+              "level_two": true,
+              "level_two_text": "",
+              "level_three": true,
+              "level_three_text": ""
+            }
+          },
+          "eee2d903-0dc4-4a9d-a3d2-857eef7ab33a": {
+            "type": "row",
+            "settings": {
+              "text": "Early access to sales",
+              "level_one": false,
+              "level_one_text": "",
+              "level_two": true,
+              "level_two_text": "",
+              "level_three": true,
+              "level_three_text": ""
+            }
+          },
+          "f0144e20-3d9e-4fa6-aaa1-3b8a5562c00b": {
+            "type": "row",
+            "settings": {
+              "text": "Early access to new arrivals",
+              "level_one": false,
+              "level_one_text": "",
+              "level_two": true,
+              "level_two_text": "",
+              "level_three": true,
+              "level_three_text": ""
+            }
+          },
+          "d60c1296-2dea-4708-a80b-19499a9a4bbd": {
+            "type": "row",
+            "settings": {
+              "text": "Save on every purchase",
+              "level_one": false,
+              "level_one_text": "",
+              "level_two": true,
+              "level_two_text": "10% off all purchases for life",
+              "level_three": true,
+              "level_three_text": "15% off all purchases for life"
+            }
+          }
+        },
+        "block_order": [
+          "8bac01a0-6abf-4176-a6f0-5378c5c53750",
+          "eee2d903-0dc4-4a9d-a3d2-857eef7ab33a",
+          "f0144e20-3d9e-4fa6-aaa1-3b8a5562c00b",
+          "d60c1296-2dea-4708-a80b-19499a9a4bbd"
+        ],
+        "settings": {
+          "level_one_title": "Liking It",
+          "level_one_text": "Free to Join",
+          "level_two_title": "Loving It",
+          "level_two_text": "$400 Lifetime spend",
+          "level_three_title": "Obsessed",
+          "level_three_text": "$800 Lifetime spend"
+        }
+      },
+      "rewards-email-capture": {
+        "type": "rewards-email-capture",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/tash-dev_ae5be2b5-9452-43f4-8eea-c1a8a690a536.jpg",
+          "title": "Give 15, Get 15",
+          "text": "Tell your friends about Monday Swimwear. They’ll get 15% off and you’ll get $15 for each friend who makes a purchase over $50. It’s a win-win."
+        }
+      },
+      "rewards-faq": {
+        "type": "rewards-faq",
+        "blocks": {
+          "0a780fc7-0239-49bb-89a6-739789a26c16": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How do I join Monday Rewards?",
+              "answer": "It’s easy - simply sign up here. After that, every order you place will go towards your Reward status. Your tier will upgrade automatically once you reach those lifetime spends."
+            }
+          },
+          "6ddaefd1-dda0-442b-b7eb-e9046af4311d": {
+            "type": "faq_item",
+            "settings": {
+              "title": "What do I get for joining?",
+              "answer": "All members will receive an annual gift from us on their birthday. As you shop more, you’ll earn more rewards."
+            }
+          },
+          "40e01aa0-ec41-4f45-8668-b65bc3bbafac": {
+            "type": "faq_item",
+            "settings": {
+              "title": "What does “lifetime spend” mean?",
+              "answer": "Your lifetime spend is the total amount of money you’ve spent with Monday, excluding any discounts or refunds. After you unlock a new tier, all you have to do to maintain your status is to spend $50 in the following 12 months."
+            }
+          },
+          "8e97e0ef-5948-4b53-9fb4-a2fdc8220115": {
+            "type": "faq_item",
+            "settings": {
+              "title": "What’s the birthday gift?",
+              "answer": "Like all the best gifts, this one is a surprise. But here’s a little hint: it could be a discount, a freebie, or something just for you."
+            }
+          },
+          "c901f3aa-7652-4169-8d33-3cb2ea3fc0b8": {
+            "type": "faq_item",
+            "settings": {
+              "title": "Can I use all my referral credits at once?",
+              "answer": "Yes! You can use your credits however you like. Spend them all at once or spread them out over a few purchases. You’ll have the option when checking out."
+            }
+          },
+          "03488e25-5c9a-4f26-9ad7-de7d66195fe3": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How do I get my benefits?",
+              "answer": "All you have to do is shop! Any rewards or benefits will be automatically applied to your account."
+            }
+          },
+          "8d7f72bd-d610-4af4-83d6-0ebc1919b173": {
+            "type": "faq_item",
+            "settings": {
+              "title": "Will my past purchases count towards my Monday Rewards?",
+              "answer": "The last 12 months of spend from 4\/21\/2019 will count towards your tier status."
+            }
+          }
+        },
+        "block_order": [
+          "0a780fc7-0239-49bb-89a6-739789a26c16",
+          "6ddaefd1-dda0-442b-b7eb-e9046af4311d",
+          "40e01aa0-ec41-4f45-8668-b65bc3bbafac",
+          "8e97e0ef-5948-4b53-9fb4-a2fdc8220115",
+          "c901f3aa-7652-4169-8d33-3cb2ea3fc0b8",
+          "03488e25-5c9a-4f26-9ad7-de7d66195fe3",
+          "8d7f72bd-d610-4af4-83d6-0ebc1919b173"
+        ],
+        "settings": {
+          "title": "Ready to Join",
+          "text": "Want discounts, gifts, and exclusive early access? All you have to do is shop.",
+          "button_label": "Join Now",
+          "button_link": "\/register",
+          "secondary_button_label": "Sign In",
+          "secondary_button_link": "\/login"
         }
       }
     },
