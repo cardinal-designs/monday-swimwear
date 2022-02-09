@@ -678,11 +678,11 @@ function getSectionInnerHTML(html, selector) {
 /*================ Add To Cart ================*/
 const atcButtons = document.querySelectorAll('.js-add-to-cart');
 atcButtons.forEach(atcButton => {
-  console.log(atcButton);
   atcButton.addEventListener('click', event => {
     event.preventDefault();
 
     const id = Number(event.currentTarget.dataset.id);
+    console.log(id)
 
     const body = JSON.stringify({
       items: [{
