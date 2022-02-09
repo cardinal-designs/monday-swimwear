@@ -677,11 +677,11 @@ function getSectionInnerHTML(html, selector) {
 
 /*================ Add To Cart ================*/
 const atcButtons = document.querySelectorAll('.js-add-to-cart');
-atcButtons.forEach(atcButton => {
-  atcButton.addEventListener('click', event => {
+document.body.addEventListener('click', event => {
+	if (event.target.classList.contains('js-add-to-cart')) {
     event.preventDefault();
 
-    const id = Number(event.currentTarget.dataset.id);
+    const id = Number(event.target.dataset.id);
 
     const body = JSON.stringify({
       items: [{
@@ -710,7 +710,7 @@ atcButtons.forEach(atcButton => {
       .finally(() => {
         document.querySelector('cart-drawer').open();
       });
-  });
+  }
 });
 
 function atcGetSectionsToRender() {
