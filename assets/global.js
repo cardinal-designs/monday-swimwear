@@ -678,6 +678,7 @@ function getSectionInnerHTML(html, selector) {
 /*================ Add To Cart ================*/
 const atcButtons = document.querySelectorAll('.js-add-to-cart');
 atcButtons.forEach(atcButton => {
+  console.log(atcButton);
   atcButton.addEventListener('click', event => {
     event.preventDefault();
 
