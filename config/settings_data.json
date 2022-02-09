@@ -2065,6 +2065,13 @@
           "secondary_button_label": "Sign In",
           "secondary_button_link": "\/login"
         }
+      },
+      "legal-popup": {
+        "type": "legal-popup",
+        "settings": {
+          "legal_popup_days": "2",
+          "text": "We use our own and third-party cookies to improve your experience and our services, and to analyze the use of our website. If you continue browsing, we take that to mean that you accept their use. <a href=\"https:\/\/www.iubenda.com\/privacy-policy\/57416878\" target=\"_blank\">See info<\/a>."
+        }
       }
     },
     "content_for_index": [

@@ -134,7 +134,11 @@
             {%- if picker_type == 'button' -%}
               <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
                 {%- for option in product.options_with_values -%}
-                  <fieldset class="js product-form__input"{% if use_collection_for_swatches and option.name == 'Color' %} style="display: none"{% endif %}>
+
+                  {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
+                  {% assign downcase_option = option.name | downcase %}
+
+                  <fieldset class="js product-form__input{% if color_label contains downcase_option %} color-swatches{% endif %}"{% if use_collection_for_swatches and option.name == 'Color' %} style="display: none"{% endif %}>
                     <legend class="form__label detail-caps">{{ option.name }} 
                       <span class="product-form__input-active hide-desktop">
                         {% if option.name == 'Size' %}
@@ -146,6 +150,10 @@
                     </legend>
                     <div class="product-form__input-buttons">
                       {%- for value in option.values -%}
+                        
+                        {% assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                        {% assign color_swatch_image = images[color_swatch_name] %}
+
                         <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                           {% if option.name == 'Size' %}class="product-form__input-size"{% endif %}
                           name="{{ option.name }}"
@@ -153,7 +161,7 @@
                           {% if option.selected_value == value %}checked{% endif %}
                            form="{{ product_form_id }}"
                         >
-                        <label class="detail-caps" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                        <label class="detail-caps" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" {% if color_label contains downcase_option %} style="font-size: 0;background-image: url('{{ color_swatch_image | img_url: '60x60' }}');"{% endif %}>
                           {{ value }}
                         </label>
                       {%- endfor -%}

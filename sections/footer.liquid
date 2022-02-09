@@ -83,7 +83,7 @@
 
     <div class="footer__content-bottom">
       <div class="footer__content-credits hide-mobile">
-        <button class="detail-caps">Site Credits</button>
+        <a href="#credits" class="detail-caps">Site Credits</a>
       </div>
       {%- if section.settings.show_social -%}
         {% render 'social' %}
@@ -102,7 +102,7 @@
           <a class="link" href="/">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name }}</a>
         </div>
         <div class="footer__content-credits hide-desktop">
-          <button class="detail-caps">Site Credits</button>
+          <a href="#credits" class="detail-caps">Site Credits</a>
         </div>
       </div>
     </div>

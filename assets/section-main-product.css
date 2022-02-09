@@ -229,7 +229,7 @@
 }
 
 .product__active-color {
-  margin: 0 0 0 10px;
+  margin: 10px 0 0px 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -311,7 +311,7 @@ variant-radios fieldset {
   background-position: center;
   position: relative;
   font-size: 12px;
-  background: #F8F7F4;
+  background-color: #F8F7F4;
 }
 
 .product-form__input input[type='radio'] + label::after {
@@ -593,6 +593,14 @@ variant-radios fieldset {
 
 .product--gift-card .product-form__input-active {
   display: none;
+}
+
+.product--gift-card .product__media {
+  padding-bottom: 100%;
+}
+
+.product--gift-card .product__thumbnail-item .aspect-ratio::before {
+  padding-bottom: 100%;
 }
 
 @media only screen and (max-width: 768px) {
