@@ -721,19 +721,19 @@
             "type": "bottom",
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TULUM_BOTTOM_-_BLACK_1.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Tulum_Bottom_1_e2dec788-8784-46a8-98d7-fc022d68ea79.jpg",
               "title": "The Tulum Bottom",
               "short_title": "Tulum Bottom",
-              "short_description": "Sexy,Sporty,Chic",
-              "description": "Thoughtfully designed to give as little or as much coverage as you want",
-              "highlights": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar vel non, aliquam id quam massa. Urna.",
-              "fit": "Best for Cups p-V",
-              "padding": "Minimal",
-              "coverage": "Brazillian",
-              "style": "Adjustable",
-              "fabric": "Soft Jersey",
-              "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-              "shop_link": "shopify:\/\/products\/aruba-one-piece-black"
+              "short_description": "",
+              "description": "The Tulum Bottom is our most versatile suit in our collection. Designed to accommodate all of your swimwear needs. The adjustable tabs can be customized to your desired coverage — from Brazilian to full coverage.",
+              "highlights": "True to size, the Tulum Bottom is made for the perfect fit with the adjustable side tabs offering custom coverage each wear.",
+              "fit": "Available in sizes S-V.",
+              "padding": "",
+              "coverage": "Moderate",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/products\/tulum-bottom-black-sig"
             }
           }
         },
