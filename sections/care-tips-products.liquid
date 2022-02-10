@@ -11,7 +11,7 @@
       <div class="glow"></div>
       {{ section.settings.text_right }}
     </div>
-    <div class="care-tips-product__container">
+    <div class="care-tips-product__container swiper">
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
             {% assign current_product = all_products[block.settings.product] %}
@@ -32,7 +32,7 @@
 </div>
 
 {% javascript %}
-  const careTipsProducts = new Swiper('.product-slider__collection', {
+  const careTipsProducts = new Swiper('.care-tips-product__container', {
     slidesPerView: 1,
     loop: false,
     spaceBetween: 10,
