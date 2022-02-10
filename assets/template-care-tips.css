@@ -317,7 +317,11 @@
   -webkit-filter: blur(6px);
 }
 
-/* Scrollbar */
+.care-tips-product__container {
+  margin: 0 -5px;
+  padding: 0 5px;
+}
+
 .care-tips-product .swiper-scrollbar {
   margin-top: 40px;
   height: 1px;
