@@ -1,0 +1,55 @@
+<div class="care-tips-beachwear">
+  <h2 class="h1">Beach<span>wear</span></h2>
+  <div class="page-width">
+    <div class="care-tips-beachwear__container">
+      <div class="care-tips-beachwear__glow"></div>
+      <div class="care-tips-beachwear__content">
+        <div class="care-tips-beachwear__content-container">
+          <p class="body-large">{{ section.settings.text }}</p>
+          {% for block in section.blocks %}
+          <div class="care-tips-beachwear__tip">
+            <h4>Tip No. {{ forloop.index }}</h4>
+            <p class="body-small">{{ block.settings.title }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="care-tips-beachwear__image">
+        <div class="care-tips-beachwear__image-container">
+          {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Care Tips - Beachwear",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tip",
+        "name": "Tip",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Tip"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

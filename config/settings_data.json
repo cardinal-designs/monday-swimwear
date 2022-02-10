@@ -2072,6 +2072,130 @@
           "legal_popup_days": "2",
           "text": "We use our own and third-party cookies to improve your experience and our services, and to analyze the use of our website. If you continue browsing, we take that to mean that you accept their use. <a href=\"https:\/\/www.iubenda.com\/privacy-policy\/57416878\" target=\"_blank\">See info<\/a>."
         }
+      },
+      "care-tips-header": {
+        "type": "care-tips-header",
+        "settings": {
+          "title": "How To Care For Your Monday Styles",
+          "text": "Thoughtfully designed to be worn season after season, we have chosen our Monday Swimwear fabric for it's perfect combination of softness and resiliency. To keep your Monday Swimwear pieces in pristine condition, please follow our care instructions listed below."
+        }
+      },
+      "care-tips-swimwear": {
+        "type": "care-tips-swimwear",
+        "blocks": {
+          "ec54d3e9-61e4-429c-9da0-a7e1e19e8c9d": {
+            "type": "tip",
+            "settings": {
+              "title": "Wash your suit in fresh cold water with a gentle cleanser as soon as possible after wearing. Ideally, soak your suit in a bowl or the sink for at least for 20 minutes before adding a small cap full of a gentle hand soap that contains no moisturizers, or a gentle detergent specifically formulated for fabrics with a high spandex content, such as the one made by The Laundress or Le Paume. Gently work the soapy water through the entire suit and make sure to rinse thoroughly in cold water until all soap is gone."
+            }
+          },
+          "08ea98c2-3d86-4f98-9c7b-961e0b9305a6": {
+            "type": "tip",
+            "settings": {
+              "title": "Lay your suit flat to dry in the shade on a towel and use caution to never ring out the fabric or hang it, which could cause stretching and wear to the delicate fabric."
+            }
+          },
+          "fb85ae04-7a9f-4384-a574-a9364f7b441e": {
+            "type": "tip",
+            "settings": {
+              "title": "Make sure your suit is completely dry before putting away."
+            }
+          },
+          "088cbc2b-af49-4eb1-9a5c-b822c1ced8a9": {
+            "type": "tip",
+            "settings": {
+              "title": "Never, ever wash your suit in the washing machine, even on the delicate\/hand-wash cycle. Water temperatures in washing machines are incredibly hard to regulate and the detergents made for machines are far too strong for swimwear fabric."
+            }
+          },
+          "d6ac4b67-4f21-464a-a69f-1064bde9f583": {
+            "type": "tip",
+            "settings": {
+              "title": "Sun cream, tanning cream, chlorine, and hot tubs, can cause extreme damage and discolor suits, so we recommend to be cautious of wearing your suit or getting your suit in contact with these substances. In addition, any rough surface can cause pulling and snagging of the delicate fabric."
+            }
+          },
+          "88611512-3655-498c-b6de-d2e7460b471d": {
+            "type": "tip",
+            "settings": {
+              "title": "Caring for your suit in the appropriate manner is the best way possible to ensure that it will not deteriorate in an untimely manner."
+            }
+          }
+        },
+        "block_order": [
+          "ec54d3e9-61e4-429c-9da0-a7e1e19e8c9d",
+          "08ea98c2-3d86-4f98-9c7b-961e0b9305a6",
+          "fb85ae04-7a9f-4384-a574-a9364f7b441e",
+          "088cbc2b-af49-4eb1-9a5c-b822c1ced8a9",
+          "d6ac4b67-4f21-464a-a69f-1064bde9f583",
+          "88611512-3655-498c-b6de-d2e7460b471d"
+        ],
+        "settings": {
+          "image_1": "shopify:\/\/shop_images\/C1_2723f787-5aa5-40e3-9e71-ef13cde58451_1024x_2.jpg",
+          "image_2": "shopify:\/\/shop_images\/BCRF_d33d3dfb-c7bf-4f4e-8dfb-c057c1dd5f32_1024x_2.jpg"
+        }
+      },
+      "care-tips-beachwear": {
+        "type": "care-tips-beachwear",
+        "blocks": {
+          "fda64959-3199-4b91-a514-4e65a61f3f85": {
+            "type": "tip",
+            "settings": {
+              "title": "To properly hand-wash beachwear, place it in a clean sink with cool water and mild detergent. Gently soak the garment, then remove from the soapy water. Drain the soapy water, rinse the sink and refill with cool water. Rinse the garments and repeat until the water is soap-free."
+            }
+          },
+          "ce4cb4b3-95a7-4ac5-90b9-e2a58bbd28b7": {
+            "type": "tip",
+            "settings": {
+              "title": "After washing, the best way to dry it is by laying the garment flat in an airy space. It's best to avoid the dryer since heat can damage the shape and quality."
+            }
+          }
+        },
+        "block_order": [
+          "fda64959-3199-4b91-a514-4e65a61f3f85",
+          "ce4cb4b3-95a7-4ac5-90b9-e2a58bbd28b7"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Palm_1024x-1_1.jpg",
+          "text": "Our Monday Beachwear is designed from a variety of eco-friendly, lightweight and sustainably made fabrics. Some of our Linen styles are made from flax, which is a natural fiber that is recyclable and bio-degradable. It is considered one of the most eco-friendly fabrics because it grows naturally with little energy, and requires only rainwater to grow. When harvested, the entirety of the flax plant can be used for various products so no part goes to waste. Please follow our care instructions listed below for our beachwear."
+        }
+      },
+      "care-tips-products": {
+        "type": "care-tips-products",
+        "blocks": {
+          "f25a3ba4-6651-4127-ae79-b6d977601df8": {
+            "type": "product",
+            "settings": {
+              "product": "almafi-sarong-black"
+            }
+          },
+          "f50ad5f5-e0ef-4a96-a466-e549c633bfdf": {
+            "type": "product",
+            "settings": {
+              "product": "barbados-bottom-black"
+            }
+          },
+          "6cdd23b6-cca7-4d47-9c3e-1c3d735a7f4e": {
+            "type": "product",
+            "settings": {
+              "product": "sicily-one-piece-black"
+            }
+          },
+          "66b20cad-e1fa-416c-9877-0e84e8e8f676": {
+            "type": "product",
+            "settings": {
+              "product": "clovelly-top-black-sig"
+            }
+          }
+        },
+        "block_order": [
+          "f25a3ba4-6651-4127-ae79-b6d977601df8",
+          "f50ad5f5-e0ef-4a96-a466-e549c633bfdf",
+          "6cdd23b6-cca7-4d47-9c3e-1c3d735a7f4e",
+          "66b20cad-e1fa-416c-9877-0e84e8e8f676"
+        ],
+        "settings": {
+          "text_left": "Recommended",
+          "text_right": "The perfect accessory"
+        }
       }
     },
     "content_for_index": [

@@ -1,0 +1,335 @@
+/* Header */
+.care-tips-header {
+  margin: 100px 0;
+}
+
+.care-tips-header__container {
+  text-align: center;
+}
+
+.care-tips-header__container h2 {
+  margin: 0 0 30px;
+}
+
+.care-tips-header__container p {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+
+  .care-tips-header {
+    margin: 50px 0 40px;
+  }
+}
+
+/* Swimwear */
+.care-tips-swimwear {
+  padding: 160px 0 80px;
+  background: var(--bone);
+  position: relative;
+  overflow: hidden;
+}
+
+.care-tips-swimwear .h1 {
+  margin: 0;
+  position: absolute;
+  top: -36px;
+  left: -10px;
+  font-size: 110px;
+  color: white;
+}
+
+.care-tips-swimwear__container {
+  display: flex;
+  align-items: center;
+}
+
+.care-tips-swimwear__container:first-child {
+  padding-bottom: 100px;
+}
+
+.care-tips-swimwear__content {
+  width: 50%;
+  padding-right: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.care-tips-swimwear__content-container {
+  max-width: 450px;
+}
+
+.care-tips-swimwear__tip {
+  margin-bottom: 40px;
+}
+
+.care-tips-swimwear__tip h4 {
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.care-tips-swimwear__tip p {
+  margin: 0;
+}
+
+.care-tips-swimwear__tip:last-child {
+  margin-bottom: 0;
+}
+
+.care-tips-swimwear__image {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.care-tips-swimwear__image-container {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.care-tips-swimwear__container.reversed {
+  flex-direction: row-reverse;
+}
+
+.care-tips-swimwear__container.reversed .care-tips-swimwear__content {
+  padding-left: 80px;
+  padding-right: 0;
+  justify-content: flex-start;
+}
+
+.care-tips-swimwear__container.reversed .care-tips-swimwear__image {
+  padding-right: 80px;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .care-tips-swimwear__content {
+    padding-right: 40px;
+  }
+
+  .care-tips-swimwear__image {
+    padding-left: 40px;
+  }
+
+  .care-tips-swimwear__container.reversed .care-tips-swimwear__content {
+    padding-left: 40px;
+  }
+  
+  .care-tips-swimwear__container.reversed .care-tips-swimwear__image {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .care-tips-swimwear {
+    padding: 80px 0 0;
+    background: #EBE9E2;
+  }
+
+  .care-tips-swimwear .h1 {
+    width: 100%;
+    font-size: 65px;
+    top: -18px;
+    left: 5px;
+    z-index: 2;
+  }
+
+  .care-tips-swimwear .h1 span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 54px;
+  }
+
+  .care-tips-swimwear__container {
+    padding-bottom: 40px !important;
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .care-tips-swimwear__image {
+    width: 100%;
+    padding: 0 !important;
+  }
+
+  .care-tips-swimwear__content {
+    width: 100%;
+    padding: 40px 0 0 !important;
+  }
+
+  .care-tips-swimwear__content p {
+    font-size: 12px;
+  }
+}
+
+/* Beachwear */
+.care-tips-beachwear {
+  padding-top: 180px;
+  position: relative;
+  overflow: hidden;
+}
+
+.care-tips-beachwear .h1 {
+  margin: 0;
+  position: absolute;
+  right: -15px;
+  top: -33px;
+  color: var(--bone);
+  font-size: 110px;
+}
+
+.care-tips-beachwear__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.care-tips-beachwear__glow {
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  top: -80px;
+  left: -180px;
+  border-radius: 100%;
+  background: var(--yellow);
+  filter: blur(70px);
+  -webkit-filter: blur(70px);
+}
+
+.care-tips-beachwear__content {
+  width: 50%;
+  padding-right: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.care-tips-beachwear__content-container {
+  max-width: 535px;
+  position: relative;
+}
+
+.care-tips-beachwear__content-container .body-large {
+  margin: 0 0 30px;
+}
+
+.care-tips-beachwear__tip {
+  margin-bottom: 40px;
+}
+
+.care-tips-beachwear__tip h4 {
+  margin: 0 0 20px;
+}
+
+.care-tips-beachwear__tip p {
+  margin: 0;
+}
+
+.care-tips-beachwear__tip:last-child {
+  margin: 0;
+}
+
+.care-tips-beachwear__image {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.care-tips-beachwear__image-container {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 1050px) {
+  .care-tips-beachwear__content {
+    padding-right: 40px;
+  }
+
+  .care-tips-beachwear__image {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .care-tips-beachwear {
+    padding-top: 65px;
+  }
+
+  .care-tips-beachwear .h1 {
+    width: 100%;
+    font-size: 65px;
+    top: -18px;
+    left: 5px;
+    color: #EBE9E2;
+    z-index: 2;
+  }
+
+  .care-tips-beachwear .h1 span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 54px;
+  }
+
+  .care-tips-beachwear__container {
+    flex-direction: column-reverse;
+  }
+
+  .care-tips-beachwear__glow {
+    display: none;
+  }
+
+  .care-tips-beachwear__image {
+    width: 100%;
+    padding: 0;
+  }
+
+  .care-tips-beachwear__content {
+    width: 100%;
+    padding: 40px 0 0;
+  }
+
+  .care-tips-beachwear__tip p {
+    font-size: 12px;
+  }
+}
+
+/* Product */
+.care-tips-product {
+  margin-top: 125px;
+  overflow: hidden;
+}
+
+.care-tips-product__header {
+  margin: 0 0 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.care-tips-product__header .glow {
+  height: 23px;
+  width: 23px;
+  margin: 0 30px;
+  border-radius: 100%;
+  background: var(--yellow);
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+
+/* Scrollbar */
+.care-tips-product .swiper-scrollbar {
+  margin-top: 40px;
+  height: 1px;
+  background: rgba(0, 0, 0, .04);
+}
+
+.care-tips-product .swiper-scrollbar-drag {
+  background: black;
+}
+
+@media screen and (max-width: 768px) {
+  .care-tips-product {
+    margin-top: 80px;
+  }  
+}
