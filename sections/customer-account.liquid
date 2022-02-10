@@ -1,4 +1,5 @@
 {{ 'section-customer-account.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'account.js' | asset_url }}" defer></script>
 
 <div class="customer account">
   <div>
@@ -7,12 +8,12 @@
 
   <div class="customer-wrapper">
     <div class="tabs">
-      <a class="btn tab active" href="">
+      <a class="btn tab active" data-section="billing_information">
         <span class="lens"></span>
         {{ 'customer.account.details' | t }}
       </a>
   
-      <a class="btn tab" href="">
+      <a class="btn tab" data-section="order_history">
         <span class="lens"></span>
         {{ 'customer.orders.title' | t }}
       </a>

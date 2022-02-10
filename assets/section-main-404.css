@@ -6,13 +6,14 @@
 
 .template-404 .lens {
   background: #FFFF50;
-  filter: blur(183.832px);
-  position: absolute;
-  width: 219px;
-  height: 219px;
+  filter: blur(80px);
+  height: 220px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute;
   top: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  z-index: -1;
 }
 
 .template-404 h1.title-404 {
@@ -31,9 +32,9 @@
   }
 
   .template-404 .lens {
-    filter: blur(80px);
-    height: 131.66px;
-    width: 131.66px;
+    filter: blur(40px);
+    height: 120px;
+    width: 120px;
   }
 
   .template-404 h1.title-404 {
