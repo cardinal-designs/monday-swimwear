@@ -67,7 +67,17 @@
 
 .price--on-sale .price-item--regular {
   margin-right: 5px;
-  text-decoration: line-through;
+  text-decoration: none;
+  position: relative;
+}
+
+.price--on-sale .price-item--regular::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  border-bottom: 2px solid black;
 }
 
 .unit-price {

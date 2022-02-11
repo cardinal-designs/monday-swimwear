@@ -1,0 +1,27 @@
+<div class="rewards-header">
+  <div class="page-width">
+    <div class="rewards-header__container">
+      <h1>{{ section.settings.title }}</h1>
+      <p class="body-large">{{ section.settings.text }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Rewards Header",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Rewards"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,99 @@
+<div class="fit-guide-cta">
+  {% if section.settings.mobile_image != blank %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+  {% else %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+  {% endif %}
+
+  <div class="page-width">
+    <div class="fit-guide-cta__container">
+      <h2 class="h1 fit-guide-cta__text-1">
+        <span>{{ section.settings.text_1 }}</span>
+      </h2>
+      <h2 class="h1 fit-guide-cta__text-2">
+        <span>{{ section.settings.text_2 }}</span>
+      </h2>
+      <h2 class="h1 fit-guide-cta__text-3">
+        <span>{{ section.settings.text_3 }}</span>
+      </h2>
+
+      <div class="fit-guide-cta__text-container">
+        <h2>{{ section.settings.title }}</h2>
+        <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  let bannerTL = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.fit-guide-cta',
+      start: "top 90%",
+      end: "top 75%"
+    }
+  });
+
+  bannerTL.from('.fit-guide-cta', {
+    opacity: 0,
+    duration: .8
+  })
+  .from('.fit-guide-cta .h1', {
+    height: 0,
+    duration: 1
+  }, '>')
+  .to('.fit-guide-cta .h1', {
+    blur: 0,
+    duration: 1.2
+  }, '-=30%');
+
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Fit Guide Editorial CTA",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "text_1",
+        "label": "Text 1"
+      },
+      {
+        "type": "text",
+        "id": "text_2",
+        "label": "Text 2"
+      },
+      {
+        "type": "text",
+        "id": "text_3",
+        "label": "Text 3"
+      }
+    ]
+  }
+{% endschema %}

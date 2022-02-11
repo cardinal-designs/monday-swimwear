@@ -1,0 +1,103 @@
+{{ 'section-related-article.css' | asset_url | stylesheet_tag }}
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+
+<div class="related-articles">
+  <div class="page-width">
+    <div class="related-articles__container">
+      <div class="related-articles__filters-wrapper no-scrollbar">
+        <div class="related-articles__filters">
+          <p class="detail-caps hide-mobile">Recommended</p>
+          <button href="{{ blog.url }}" class="body-large active" data-tag="latest">
+            <div class="active-glow"></div>
+            <span>Latest Articles</span>
+          </button>
+          {% for block in section.blocks %}
+            {% assign tag = block.settings.title %}
+            <button href="{{ blog.url }}/tagged/{{ tag | handleize }}" class="body-large" data-tag="{{ tag | handleize }}">
+              <div class="active-glow"></div>
+              <span>{{ tag }}</span>
+            </button>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="related-articles__articles">
+        <div class="related-articles__articles-group active" data-tag="latest">
+          {% assign article_count = 0 %}
+          {% for current_article in blog.articles %}
+            {% if article_count < 2 %}
+              {% if current_article.handle != article.handle %}
+                {% render 'article-card' article: current_article %}
+                {% assign article_count = article_count | plus: 1 %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% for block in section.blocks %}
+          {% assign tag = block.settings.title %}
+          <div class="related-articles__articles-group" data-tag="{{ tag | handleize }}">
+            {% assign article_count = 0 %}
+            {% for current_article in blog.articles %}
+              {% if current_article.tags contains tag %}
+                {% if article_count < 2 %}
+                  {% if current_article.handle != article.handle %}
+                    {% render 'article-card' article: current_article %}
+                    {% assign article_count = article_count | plus: 1 %}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const filterButton = document.querySelectorAll('.related-articles__filters button');
+
+  filterButton.forEach(button => {
+    button.addEventListener('click', event => {
+      const tag = event.currentTarget.dataset.tag;
+      const nextGroup = document.querySelector(`.related-articles__articles-group[data-tag="${tag}"]`);
+      console.log('GROUP', nextGroup)
+
+      const activeButton = document.querySelector('.related-articles__filters button.active');
+      const activeGroup = document.querySelector('.related-articles__articles-group.active');
+
+
+      activeButton.classList.remove('active');
+      event.currentTarget.classList.add('active');
+
+      activeGroup.classList.remove('active');
+      nextGroup.classList.add('active');
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Related Articles",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "filter",
+        "name": "Filter",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Related Articles"
+      }
+    ]
+  }
+{% endschema %}

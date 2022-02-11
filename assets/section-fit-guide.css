@@ -310,4 +310,8 @@
     height: auto;
     margin: 0 0 0 10px;
   }
+
+  .fit-guide-section__navigation-mobile-select svg path {
+    stroke: white;
+  }
 }

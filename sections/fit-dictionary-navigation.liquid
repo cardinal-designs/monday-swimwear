@@ -1,0 +1,75 @@
+<div class="fit-dictionary-nav no-scrollbar">
+  <div class="fit-dictionary-nav__container">
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="A"><span>A</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="B"><span>B</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="C"><span>C</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="D"><span>D</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="E"><span>E</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="F"><span>F</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="G"><span>G</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="H"><span>H</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="I"><span>I</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="J"><span>J</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="K"><span>K</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="L"><span>L</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="M"><span>M</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="N"><span>N</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="O"><span>O</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="P"><span>P</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="Q"><span>Q</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="R"><span>R</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="S"><span>S</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="T"><span>T</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="U"><span>U</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="V"><span>V</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="W"><span>W</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="X"><span>X</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="Y"><span>Y</span></button>
+    <button class="fit-dictionary-nav__button detail-caps" data-letter="Z"><span>Z</span></button>
+  </div>
+</div>
+
+{% javascript %}
+  const links = document.querySelectorAll('.fit-dictionary-nav__button');
+  const navHeight = document.querySelector('.fit-dictionary-nav__button').clientHeight + document.querySelector('.fit-dictionary-nav').clientHeight + 70;
+
+  window.addEventListener('scroll', (event) => {
+    const fromTop = window.scrollY;
+
+    links.forEach(link => {
+      const section = document.querySelector(`.fit-dictionary__item-group[data-letter="${link.dataset.letter}"]`);
+
+      if (section) {
+        if ((section.offsetTop - navHeight) <= fromTop && (section.offsetTop - navHeight) + section.clientHeight > fromTop) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      }
+    });
+  });
+
+  // Scroll to link
+  links.forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      const letter = event.currentTarget.dataset.letter;
+      const section = document.querySelector(`.fit-dictionary__item-group[data-letter="${letter}"]`)
+
+      window.scrollTo({
+        top: section.offsetTop - navHeight,
+        behavior: "smooth"
+      });
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Fit Dictionary Navigation",
+    "class": "fit-dictionary-nav-wrapper",
+    "settings": [
+
+    ]
+  }
+{% endschema %}

@@ -7,7 +7,7 @@
         "mobile_image": "shopify:\/\/shop_images\/Image_70.jpg",
         "text_1": "The",
         "text_2": "Monday",
-        "right_align": true,
+        "right_align": false,
         "text_3": "Story"
       }
     },
@@ -25,7 +25,7 @@
           "settings": {
             "reversed": true,
             "show_glow": true,
-            "image": "shopify:\/\/shop_images\/Image_71.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_0030.jpg",
             "text_1": "Monday Swimwear founders, Natasha Oakley and Devin Brugman, are known as “swimwear connoisseurs” to many, but more noticeably for their strong advocacy of body positivity. Acting as inspiration to millions of women across the world, Natasha and Devin created Monday Swimwear as a continuation of their goal to instill confidence and power within their female audience. \n<br><br>\nAn essential mode of achieving this is ensuring their designs are based off timeless pieces they know will compliment and flatter the female form, as opposed to recreating size-specific, temporary trends.",
             "text_2": "Monday is designed especially for the stylish girl who is minimalistic, confident, and carefree. Whether she’s lying on the beach in the tropics soaking up the sun, sitting poolside with her friends, or swimming in the ocean, she’s happy and glowing because she feels comfortable and confident in her own skin.",
             "bottom_align_text": false

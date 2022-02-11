@@ -1,0 +1,233 @@
+<div class="fit-guide fit-guide--one-piece active" data-tab="one-pieces">
+  <div class="fit-guide__navigation">
+    <div class="page-width">
+      <div class="fit-guide__navigation-wrapper hide-mobile">
+        <button class="swiper-button swiper-button-prev">
+          {% render 'icon-arrow-left' %}
+        </button>
+        <div class="fit-guide__navigation-slider swiper">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <button class="fit-guide__navigation-item caption-sunset swiper-slide" {{ block.shopify_attributes }}>{{ block.settings.short_title }}</button>
+            {% endfor %}
+          </div>
+        </div>
+        <button class="swiper-button swiper-button-next">
+          {% render 'icon-arrow-right' %}
+        </button>
+      </div>
+      <div class="fit-guide__navigation-mobile hide-desktop">
+        <p class="btn">Explore the</p>
+        <div class="fit-guide__navigation-mobile-select">
+          <select class="fit-guide__select caption-sunset">
+            {% for block in section.blocks %}
+              <option value="{{ forloop.index0 }}">{{ block.settings.short_title }}</option>
+            {% endfor %}
+          </select>
+          {% render 'icon-caret' %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fit-guide__slider swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="fit-guide__section swiper-slide" {{ block.shopify_attributes }}>
+          <div class="fit-guide__flat">
+            <div class="fit-guide__flat-container">
+              <p class="sh2">{{ block.settings.title }}</p>
+              <div class="fit-guide__flat-image">
+                {% render 'lazy-image' image: block.settings.flat_image, fade: true, classes: 'img-fill' %}
+              </div>
+              {% if block.settings.fit_tip != blank %}
+                <p class="caption-neue hide-mobile">Fit Tip</p>
+                <p class="body hide-mobile">{{ block.settings.fit_tip }}</p>
+              {% endif %}
+              {% if block.settings.shop_link != blank %}
+                <a href="{{ block.settings.shop_link }}" class="text-link hide-mobile">Shop Now</a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="fit-guide__description">
+            <div class="fit-guide__description-container">
+              <h2 class="fit-guide__content-title h3 hide-mobile">{{ block.settings.title }}</h2>
+              <h2 class="fit-guide__content-title h3 hide-desktop">{{ block.settings.short_title }}</h2>
+              <p class="fit-guide__content-short-description sh1">
+                {% assign split_description = block.settings.short_description | split: ',' %}
+                {% for descriptor in split_description %}
+                  {{ descriptor }}&nbsp;&nbsp;
+                {% endfor %}
+              </p>
+              <p class="fit-guide__content-description body-large hide-mobile">{{ block.settings.description }}</p>
+              <div class="fit-guide__content-stats">
+                <div class="fit-guide__content-stat hide-mobile">
+                  <p class="detail-caps">Highlights</p>
+                  <p class="body">{{ block.settings.highlights }}</p>
+                </div>
+                <div class="fit-guide__content-stat">
+                  <p class="detail-caps">Fit</p>
+                  <p class="body-small">{{ block.settings.fit }}</p>
+                </div>
+                <div class="fit-guide__content-stat">
+                  <p class="detail-caps">Padding</p>
+                  <p class="body-small">{{ block.settings.padding }}</p>
+                </div>
+                <div class="fit-guide__content-stat">
+                  <p class="detail-caps">Coverage</p>
+                  <p class="body-small">{{ block.settings.coverage }}</p>
+                </div>
+                <div class="fit-guide__content-stat">
+                  <p class="detail-caps">Style</p>
+                  <p class="body-small">{{ block.settings.style }}</p>
+                </div>
+                <div class="fit-guide__content-stat">
+                  <p class="detail-caps">Fabric</p>
+                  <p class="body-small">{{ block.settings.fabric }}</p>
+                </div>
+              </div>
+              <a href="{{ block.settings.shop_link }}" class="text-link hide-desktop">Shop Now</a>
+            </div>
+          </div>
+          <div class="fit-guide__lifestyle">
+            {% render 'lazy-image' image: block.settings.lifestyle_image, fade: true, classes: 'img-fill' %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const onePieceNavigationSlider = new Swiper('.fit-guide--one-piece .fit-guide__navigation-slider', {
+    slidesPerView: 1,
+    loop: true,
+    spaceBetween: 20,
+    centeredSlides: true,
+    slideToClickedSlide: true,
+    navigation: {
+      nextEl: '.fit-guide--one-piece .swiper-button-next',
+      prevEl: '.fit-guide--one-piece .swiper-button-prev',
+    },
+    speed: 900,
+    breakpoints: {
+      768: {
+        slidesPerView: 3
+      },
+      1050: {
+        slidesPerView: 5
+      }
+    }
+  }); 
+
+  const onePieceContentSlider = new Swiper('.fit-guide--one-piece .fit-guide__slider', {
+    loop: true,
+    spaceBetween: 20,
+    effect: 'fade',
+    allowTouchMove: false,
+    speed: 800
+  });
+
+  // Sync sliders with navigation
+  onePieceNavigationSlider.on('slideChange', slider => {
+    let idx = slider.realIndex;
+
+    onePieceContentSlider.slideToLoop(idx);
+  });
+
+  // Sync sliders with mobile 
+  var onePieceSelect = document.querySelector('.fit-guide--one-piece .fit-guide__select');
+  onePieceSelect.addEventListener('change', event => {
+    let idx = Number(event.target.value);
+
+    onePieceContentSlider.slideToLoop(idx);
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Fit Guide - One Pieces",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "one_piece",
+        "name": "One Piece",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "flat_image",
+            "label": "Product Flat Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "lifestyle_image",
+            "label": "Lifestyle Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "short_title",
+            "label": "Short Title",
+            "info": "This will be used for the navigation."
+          },
+          {
+            "type": "text",
+            "id": "short_description",
+            "label": "Short Description",
+            "info": "Separate with commas and no spaces."
+          },
+          {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+          },
+          {
+            "type": "textarea",
+            "id": "highlights",
+            "label": "Highlights"
+          },
+          {
+            "type": "text",
+            "id": "fit",
+            "label": "Fit"
+          },
+          {
+            "type": "text",
+            "id": "padding",
+            "label": "Padding"
+          },
+          {
+            "type": "text",
+            "id": "coverage",
+            "label": "Coverage"
+          },
+          {
+            "type": "text",
+            "id": "style",
+            "label": "Style"
+          },
+          {
+            "type": "text",
+            "id": "fabric",
+            "label": "Fabric"
+          },
+          {
+            "type": "textarea",
+            "id": "fit_tip",
+            "label": "Fit Tip"
+          },
+          {
+            "type": "url",
+            "id": "shop_link",
+            "label": "Shop Link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

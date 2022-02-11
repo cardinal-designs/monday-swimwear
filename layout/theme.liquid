@@ -69,6 +69,9 @@
         --yellow-tint: #FFFF85;
         --sky: #C1D7EC;
 
+        --header-height: 65px;
+        --mobile-header-height: 58px;
+
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
@@ -146,6 +149,19 @@
       </main>
 
       {% section 'footer' %}
+
+      {% section 'legal-popup' %}
+
+      <div class="credits">
+        <div class="page-width">
+          <div class="credits__container">
+            <p class="body-small">Design by <a href="https://www.lustre.nyc/" target="_blank">Lustre</a>&nbsp;&nbsp;/&nbsp;&nbsp;Development by <a href="https://cardinalco.agency/" target="_blank">Cardinal & Co.</a></p>
+            <button class="credits__close button button--white-ghost">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
 
       <ul hidden>
         <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>

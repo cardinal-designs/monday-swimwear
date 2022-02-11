@@ -1,99 +1,81 @@
-{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 
+{% assign show_filters = section.settings.show_filters %}
 
-{%- paginate blog.articles by 6 -%}
-
-  <div class="main-blog page-width">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
-
-    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for article in blog.articles -%}
-        <div class="blog-articles__article article">
-          {%- render 'article-card', article: article, image_height: section.settings.image_height, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
-        </div>
-      {%- endfor -%}
+<div class="main-blog">
+  <div class="page-width">
+    <div class="main-blog__header{% if show_filters %} show-filters{% endif %}">
+      {% assign title_split = blog.title | split: ' ' %}
+      <h1 class="hide-mobile">{{ blog.title | escape }}</h1>
+      <h1 class="hide-desktop">
+        <span>
+          {% for word in title_split %}
+            {% unless forloop.last %}
+              {{ word }} 
+            {% endunless %}
+          {% endfor %}
+        </span>
+        <span>{{ title_split[-1] }}</span>
+      </h1>
+      <p class="body-large hide-mobile">{{ section.settings.subtext }}</p>
     </div>
 
-    {%- if paginate.pages > 1 -%}
-      {%- render 'pagination', paginate: paginate -%}
-    {%- endif -%}
+    <div class="main-blog__content{% if show_filters %} show-filters{% endif %}">
+
+      {% if show_filters %}
+        <div class="main-blog__filters-wrapper no-scrollbar">
+          <div class="main-blog__filters">
+            <p class="detail-caps hide-mobile">Categories</p>
+            <a href="{{ blog.url }}" class="body-large{% unless current_tags %} active{% endunless %}">
+              {% unless current_tags %}<div class="active-glow"></div>{% endunless %}
+              <span>All</span>
+            </a>
+            {% for tag in blog.all_tags %}
+              <a href="{{ blog.url }}/tagged/{{ tag.title | handleize }}" class="body-large{% if current_tags contains tag %} active{% endif %}">
+                {% if current_tags contains tag %}<div class="active-glow"></div>{% endif %}
+                <span>{{ tag.title }}</span>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="main-blog__articles">
+        <p class="body-large hide-desktop">{{ section.settings.subtext }}</p>
+
+        {% paginate blog.articles by 12 %}
+          {% for article in blog.articles %}
+            <div class="main-blog__article">
+              {% render 'article-card', article: article %}
+            </div>
+          {% endfor %}
+
+          <div class="main-blog__pagination">
+            {% if paginate.pages > 1 %}
+              {% render 'pagination', paginate: paginate %}
+            {% endif %}
+          </div>
+        {% endpaginate %}
+      </div>
+    </div>
+
   </div>
-{%- endpaginate -%}
+</div>
 
 {% schema %}
 {
-  "name": "t:sections.main-blog.name",
-  "tag": "section",
-  "class": "spaced-section",
+  "name": "Blog",
   "settings": [
     {
-      "type": "header",
-      "content": "t:sections.main-blog.settings.header.content"
-    },
-    {
-      "type": "select",
-      "id": "layout",
-      "options": [
-        {
-          "value": "grid",
-          "label": "t:sections.main-blog.settings.layout.options__1.label"
-        },
-        {
-          "value": "collage",
-          "label": "t:sections.main-blog.settings.layout.options__2.label"
-        }
-      ],
-      "default": "collage",
-      "label": "t:sections.main-blog.settings.layout.label"
+      "type": "text",
+      "id": "subtext",
+      "label": "Subtext"
     },
     {
       "type": "checkbox",
-      "id": "show_image",
-      "default": true,
-      "label": "t:sections.main-blog.settings.show_image.label"
-    },
-    {
-      "type": "select",
-      "id": "image_height",
-      "options": [
-        {
-          "value": "adapt",
-          "label": "t:sections.main-blog.settings.image_height.options__1.label"
-        },
-        {
-          "value": "small",
-          "label": "t:sections.main-blog.settings.image_height.options__2.label"
-        },
-        {
-          "value": "medium",
-          "label": "t:sections.main-blog.settings.image_height.options__3.label"
-        },
-        {
-          "value": "large",
-          "label": "t:sections.main-blog.settings.image_height.options__4.label"
-        }
-      ],
-      "default": "medium",
-      "label": "t:sections.main-blog.settings.image_height.label",
-      "info": "t:sections.main-blog.settings.image_height.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_date",
-      "default": true,
-      "label": "t:sections.main-blog.settings.show_date.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_author",
-      "default": false,
-      "label": "t:sections.main-blog.settings.show_author.label"
-    },
-    {
-      "type": "paragraph",
-      "content": "t:sections.main-blog.settings.paragraph.content"
+      "id": "show_filters",
+      "label": "Show Filters"
     }
   ]
 }

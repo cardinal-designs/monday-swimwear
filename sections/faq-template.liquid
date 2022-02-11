@@ -1,0 +1,98 @@
+{{ 'template-faq.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'faq.js' | asset_url }}" defer="defer"></script>
+
+<div class="faq">
+  <div class="page-width">
+    <h1 class="faq__page-header">{{ section.settings.title }}</h1>
+    <div class="faq__container">
+      <div class="faq__navigation no-scrollbar">
+        <div class="faq__navigation-wrapper">
+          <p class="detail-caps hide-mobile">Categories</p>
+
+          {% for block in section.blocks %}
+            {% if block.type == 'header' %}
+              <button class="faq__navigation-button body-large" data-section="{{ block.settings.title | handleize }}">
+                <div class="active-glow"></div>
+                <span>{{ block.settings.title }}</span>
+              </button>
+            {% endif %}
+          {% endfor %}
+
+        </div>
+      </div>
+      <div class="faq__content">
+        {% assign is_first_faq = true %}
+
+        {% for block in section.blocks %}
+          {% if block.type == 'header' %}
+            <div class="faq__component"  data-section="{{ block.settings.title | handleize }}">
+              <h4 class="faq__header">{{ block.settings.title }}</h4>
+          {% endif %}
+
+          {% if block.type == 'faq_item' %}
+            <div class="faq__item{% if is_first_faq %} active{% endif %}">
+              <button class="faq__item-question">
+                <p class="body">{{ block.settings.title }}</p>
+                <div class="faq__item-control"></div>
+              </button>
+              <div class="faq__item-answer"{% if is_first_faq %} style="display: block;"{% endif %}>
+                <div class="faq__item-answer-container">
+                  <p class="body-small">{{ block.settings.answer }}</p>
+                </div>
+              </div>
+            </div>
+            {% assign is_first_faq = false %}
+
+            {% if section.blocks[forloop.index].type == 'header' %}
+              </div>
+            {% endif %}
+          {% endif %}
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "FAQ",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "FAQs"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "header",
+        "name": "Header",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      },
+      {
+        "type": "faq_item",
+        "name": "FAQ Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Question"
+          },
+          {
+            "type": "textarea",
+            "id": "answer",
+            "label": "Answer"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

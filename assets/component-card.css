@@ -92,6 +92,10 @@
   border-color: rgba(0, 0, 0, .3);
 }
 
+.product-card .price--on-sale .price-item--regular::after {
+  border-width: 1px;
+}
+
 @media screen and (min-width: 769px) {
   .product-card:hover .product-card__image .aspect-ratio + .aspect-ratio {
     opacity: 1;
@@ -100,6 +104,12 @@
   .product-card:hover .product-card__button {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  .product-card:hover .product-card__button .button:hover {
+    background: white;
+    border-color: white;
+    color: black;
   }
 }
 
