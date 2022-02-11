@@ -1,0 +1,80 @@
+{{ 'section-contact-headline.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width contact-headline">
+  <div class="contact-headline-wrapper">
+    <h1 class="text-center title">{{ section.settings.heading_text }}</h1>
+    <h2 class="text-center subtitle">{{ section.settings.subtitle }}</h2>
+    <p class="text-center body">{{ section.settings.description }}</p>
+  </div>
+
+  {% if section.blocks.size > 0 %}
+    <div class="link-group">
+      {% for block in section.blocks %}
+        <a class="btn" href="{{ block.settings.url }}">
+          {{ block.settings.link_text }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+  {
+    "name": "Contact Headline",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading_text",
+        "label": "Heading Text",
+        "default": "Contact Us"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle",
+        "default": "How can we help?"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description",
+        "default": "Our customer service team is here to answer your questions and we love hearing about your Monday Swimwear experiences. We’ve also compiled a helpful list of FAQs, some for general inquiries and some specifically for international shoppers, and our fit guide was specifically designed to help you to find your perfect fit in Monday Swimwear."
+      }
+    ],
+    "max_blocks": 3,
+    "blocks": [
+      {
+        "type": "link",
+        "name": "Link",
+        "settings": [
+          {
+            "type": "text",
+            "id": "link_text",
+            "label": "Link text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Contact Headline",
+        "blocks": [
+          {
+            "type": "link"
+          },
+          {
+            "type": "link"
+          },
+          {
+            "type": "link"
+          }
+       ]
+      }
+    ]
+  }
+{% endschema %}

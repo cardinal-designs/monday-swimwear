@@ -1991,6 +1991,15 @@ header-drawer {
   }
 }
 
+/*================ Text alignment ================*/
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 /*================ Recaptcha ================*/
 .grecaptcha-badge { 
   visibility: hidden;
