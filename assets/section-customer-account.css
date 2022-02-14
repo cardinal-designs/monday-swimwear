@@ -88,6 +88,36 @@
   cursor: pointer;
 }
 
+.customer [aria-expanded=false]~div[id] {
+  display: none;
+}
+
+.customer [aria-expanded=true]~div[id] {
+  display: block;
+}
+
+.customer label {
+  opacity: 0.4;
+}
+
+.customer input,
+.customer select {
+  border-bottom: 1px solid #000000!important;
+  padding: 14px 0!important;
+}
+
+.customer input.body-large::placeholder {
+  opacity: 0.5;
+}
+
+.customer .field {
+  margin-top: 40px;
+}
+
+.customer .btn-group {
+  margin: 40px 0 50px 0;
+}
+
 @media screen and (max-width: 768px) {
   .customer.account {
     padding: 70px 10px 10px;
