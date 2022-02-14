@@ -61,10 +61,11 @@
 
 <div class="product__media">
   {% if media.media_type == 'image' %}
-    {% render 'lazy-image' image: media.preview_image, fade: true %}
+    {% render 'lazy-image' image: media.preview_image, fade: true, classes: 'img-fill' %}
   {% elsif media.media_type == 'video' %}
-    <video src="">
-    
+    <video autoplay loop muted playsinline class="img-fill">
+      <source src="{{ media.sources[1].url }}" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
   {% endif %}
 </div>

@@ -1,0 +1,120 @@
+<div class="fit-size-chart">
+  <div class="page-width">
+    <div class="fit-size-chart__container">
+      <div class="fit-size-chart__measurements">
+        <div class="fit-size-chart__measurements-container">
+          <p class="detail-caps">Measurements</p>
+          <button class="fit-size-chart__tab active" data-tab="all">
+            {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
+            <p class="body-large">All</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="bottoms">
+            {% render 'lazy-image' image: section.settings.bottoms_image, fade: true %}
+            <p class="body-large">Bottoms</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="tops">
+            {% render 'lazy-image' image: section.settings.tops_image, fade: true %}
+            <p class="body-large">Tops</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="beachwear">
+            {% render 'lazy-image' image: section.settings.beachwear_image, fade: true %}
+            <p class="body-large">Beachwear</p>
+          </button>
+        </div>
+      </div>
+      <div class="fit-size-chart__charts">
+
+        {% render 'fit-chart-all' %}
+        {% render 'fit-chart-bottoms' %}
+        {% render 'fit-chart-tops' %}
+        {% render 'fit-chart-beachwear' %}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  // Fit tabs
+  const fitTabs = document.querySelectorAll('.fit-size-chart__tab');
+
+  fitTabs.forEach(fitTab => {
+    fitTab.addEventListener('click', event => {
+      const tab = event.currentTarget.dataset.tab;
+
+      document.querySelector('.fit-size-chart__tab.active').classList.remove('active');
+      event.currentTarget.classList.add('active');
+
+      document.querySelector('.fit-size-chart__chart.active').classList.remove('active');
+      document.querySelector(`.fit-size-chart__chart[data-tab="${tab}"]`).classList.add('active');
+    });
+  });
+
+  // Country tabs
+  const countryTabs = document.querySelectorAll('.fit-size-chart__chart-tab');
+
+  countryTabs.forEach(countryTab => {
+    countryTab.addEventListener('click', event => {
+      const tabs = event.currentTarget.parentElement.querySelectorAll('.fit-size-chart__chart-tab');
+
+      if (window.innerWidth < 769 && event.currentTarget.classList.contains('active')) {
+
+        event.currentTarget.parentElement.classList.add('open');
+        tabs.forEach(tab => {
+          tab.style.display = 'flex';
+        });
+      } else {
+        const tab = event.currentTarget.dataset.tab;
+        const chartContainer = event.currentTarget.closest('.fit-size-chart__chart');
+
+        chartContainer.querySelector('.fit-size-chart__chart-tab.active').classList.remove('active');
+        event.currentTarget.classList.add('active');
+
+        chartContainer.querySelector('.fit-size-chart__chart-container.active').classList.remove('active');
+        chartContainer.querySelector(`.fit-size-chart__chart-container[data-tab="${tab}"]`).classList.add('active');
+
+        if (window.innerWidth < 769) {
+          event.currentTarget.parentElement.classList.remove('open');
+          tabs.forEach(tab => {
+            console.log(tab)
+            if (!tab.classList.contains('active')) {
+              tab.style.display = 'none';
+            }
+          });
+        } else {
+          const incomingText = event.currentTarget.textContent;
+          
+          event.currentTarget.parentElement.previousElementSibling.textContent = incomingText;
+        }
+      }
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Fit Guide Size Chart",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "one_pieces_image",
+        "label": "One Pieces Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "bottoms_image",
+        "label": "Bottoms Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "tops_image",
+        "label": "Tops Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "beachwear_image",
+        "label": "Beachwear Image"
+      }
+    ]
+  }
+{% endschema %}

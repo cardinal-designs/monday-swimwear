@@ -371,6 +371,7 @@ class HeaderDrawer extends HTMLElement {
   constructor() {
     super();
 
+    this.body = document.body;
     this.drawer = this.querySelector('.menu-drawer');
     this.overlay = this.querySelector('.menu-drawer__overlay');
     this.openMenuButtons = document.querySelectorAll('.js-open-menu');
@@ -675,11 +676,12 @@ function getSectionInnerHTML(html, selector) {
 }
 
 /*================ Add To Cart ================*/
-if (document.querySelector('.js-add-to-cart')) {
-  document.querySelector('.js-add-to-cart').addEventListener('click', function(e) {
-    e.preventDefault();
+const atcButtons = document.querySelectorAll('.js-add-to-cart');
+document.body.addEventListener('click', event => {
+	if (event.target.classList.contains('js-add-to-cart')) {
+    event.preventDefault();
 
-    const id = Number(this.dataset.id);
+    const id = Number(event.target.dataset.id);
 
     const body = JSON.stringify({
       items: [{
@@ -708,8 +710,8 @@ if (document.querySelector('.js-add-to-cart')) {
       .finally(() => {
         document.querySelector('cart-drawer').open();
       });
-  });
-}
+  }
+});
 
 function atcGetSectionsToRender() {
   return [
@@ -787,6 +789,36 @@ class ProductCard extends HTMLElement {
   }
 }
 customElements.define('product-card', ProductCard);
+
+/*================ Functions ================*/
+
+/*================ Cookies ================*/
+function getCookie(name) {
+  var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+  return v ? v[2] : null;
+}
+
+function setCookie(name, value, days) {
+  var d = new Date;
+  d.setTime(d.getTime() + 24*60*60*1000*days);
+  document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+}
+
+/*================ Credits popup ================*/
+const creditsButton = document.querySelector('a[href="#credits"]');
+const creditsCloseButton = document.querySelector('.credits__close');
+const credits = document.querySelector('.credits');
+
+
+creditsButton.addEventListener('click', event => {
+  event.preventDefault();
+  console.log(credits)
+  credits.classList.add('is-visible');
+});
+
+creditsCloseButton.addEventListener('click', event => {
+  credits.classList.remove('is-visible');
+});
 
 /*================ PDP Size Chart ================*/
 const tabs = document.querySelectorAll('.size-chart-dropdown__tab');
@@ -866,4 +898,16 @@ fadeInUpElems.forEach(elem => {
       start: "top 80%"
     }
   })
+});
+
+/*================ FAQ Component ================*/
+const faqs = document.querySelectorAll('.faq__item-question');
+faqs.forEach(faq => {
+  faq.addEventListener('click', event => {
+    const parent = event.currentTarget.parentElement;
+    const content = parent.querySelector('.faq__item-answer');
+
+    parent.classList.toggle('active');
+    slideToggle(content, 300);
+  });
 });

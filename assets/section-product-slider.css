@@ -98,6 +98,10 @@
   align-items: center;
 }
 
+.product-slider__arrows-wrapper .swiper-button {
+  flex-shrink: 0;
+}
+
 .product-slider__arrows-wrapper .swiper-button-next {
   margin-left: 30px;
 }
