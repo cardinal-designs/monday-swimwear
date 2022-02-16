@@ -1,12 +1,27 @@
+<div class="collection-header">
+  <div class="page-width">
+    <div class="collection-header__container">
+      <h2>{{ collection.title }}</h2>
+      <p class="body-large">{{ section.settings.text }}</p>
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Collection Header",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text",
+        "default": "We’re on vacation all year long."
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection Header"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
