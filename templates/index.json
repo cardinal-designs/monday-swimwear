@@ -3,7 +3,7 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/moon-crinkle-bikini-at-beach.jpg",
+        "image": "shopify:\/\/shop_images\/header_79265bdd-6ff4-43be-9eed-6d36a5a44108.jpg",
         "mobile_image": "shopify:\/\/shop_images\/moon-crinkle-bikini-at-beach-mobile.jpg",
         "caption": "On the beaches of Tulum wearing the Byron bottoms and Tulum Top.",
         "button_label": "Shop the Collection",
@@ -165,6 +165,8 @@
         "bd38ab1e-5212-4333-b22b-ef11f474d882"
       ],
       "settings": {
+        "offset_text": false,
+        "use_page_width": false
       }
     },
     "1640812146b4d73cae": {
