@@ -1,5 +1,10 @@
 {
   "sections": {
+    "header": {
+      "type": "collection-header",
+      "settings": {
+      }
+    },
     "filters": {
       "type": "collection-filters",
       "blocks": {
@@ -106,7 +111,7 @@
         "products_per_page": 24
       }
     },
-    "164195913179be1b55": {
+    "banner": {
       "type": "text-banner",
       "settings": {
         "text": "Let’s find your perfect fit.",
@@ -116,8 +121,9 @@
     }
   },
   "order": [
+    "header",
     "filters",
     "product-grid",
-    "164195913179be1b55"
+    "banner"
   ]
 }
