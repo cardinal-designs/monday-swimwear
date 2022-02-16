@@ -38,7 +38,9 @@
                   {% if position == current_loop %}
                     <li class="product-grid__tip-card" style="background-color: {{ block.settings.background_color }}">
                       <h2 class="sh1">{{ block.settings.title }}</h2>
-                      {% render 'lazy-image' image: block.settings.image, fade: true %}
+                      <span class="{% if section.settings.make_transparent %} make-transparent{% endif %}">
+                        {% render 'lazy-image' image: block.settings.image, fade: true %}
+                      </span>
                       <p class="product-grid__tip-btn caption-neue">Fit Tip</p>
                       <p class="body">{{ block.settings.tip }}</p>
                     </li>
