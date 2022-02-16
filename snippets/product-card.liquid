@@ -57,7 +57,7 @@
               {% comment %} Display the rest of the swatches excluding current product {% endcomment %}
               {% for current_product in collection_for_swatches.products %}
                 {% unless product_card_product.handle == current_product.handle %}
-              	  {% for option in product.options %}
+              	  {% for option in product_card_product.options %}
               		{% if option == 'Color' %}
               		  {{ option }}
                     {% endif %}
