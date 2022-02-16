@@ -15,10 +15,6 @@
   margin: 0;
 }
 
-.collection-grid-section {
-  margin-top: 3rem;
-}
-
 .collection {
   margin-bottom: 60px;
   position: relative;
@@ -46,10 +42,6 @@
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.02em;
-  }
-
-  .collection-grid-section {
-    margin-top: 30px;
   }
 }
 
