@@ -59,9 +59,7 @@
                 {% unless product_card_product.handle == current_product.handle %}
               	  {% for option in current_product.options_with_values %}
               		{% if option.name == 'Color' %}
-              		  {% for value in option.values %}
-              			{{ value }}
-                      {% endfor %}
+              		  {{ option.values[0] }}
                     {% endif %}
                   {% endfor %}
                   {% assign color = current_product.metafields.nosto.color %}
