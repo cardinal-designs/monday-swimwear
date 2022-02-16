@@ -4,6 +4,16 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
+{% assign active_tags = '' %}
+
+{% for tag in current_tags %}
+  {% assign tag_as_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle %}
+  {% assign active_tags = active_tags | append: tag_as_handle %}
+
+  {% unless forloop.last %}
+    {% assign active_tags = active_tags | append: '+' %}
+  {% endunless %}
+{% endfor %}
 
 <div id="ProductGridContainer" data-id="{{ section.id }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
@@ -32,7 +42,6 @@
             {% if active_tags == '' %}
               {% assign current_loop = forloop.index %}
               {% for block in section.blocks %}
-          hi
                 {% if block.type == 'fit_tip_card' %}
                   {% assign current_collection = collections[block.settings.collection] %}
                   {% assign position = block.settings.position %}
