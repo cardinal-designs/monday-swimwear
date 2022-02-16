@@ -1,14 +1,14 @@
 .collection-filter-section {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 50px;
   position: sticky;
   top: 65px;
+  z-index: 3;
 }
 
 .collection-filters {
   display: block;
   background: white;
-  z-index: 2;
 }
 
 .collection-filters__overlay.active {
@@ -215,8 +215,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .collection-filters {
-    /* top: 58px; */
+  .collection-filter-section {
+    margin-top: 30px;
     position: unset;
   }
 
