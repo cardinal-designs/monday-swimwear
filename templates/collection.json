@@ -3,6 +3,7 @@
     "header": {
       "type": "collection-header",
       "settings": {
+        "text": "We’re on vacation all year long."
       }
     },
     "filters": {
@@ -44,39 +45,12 @@
         "4802a76d-c48c-4206-968b-2d7341f784cd"
       ],
       "settings": {
+        "products_per_page": 24
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "27cfdb60-012e-4ea5-b1af-606afdc76a15": {
-          "type": "filter_category",
-          "settings": {
-            "title": "Category",
-            "filters": "Swimwear,Beachwear,Accessories"
-          }
-        },
-        "8a83884e-ac94-4475-959e-f30b73e1b9fd": {
-          "type": "filter_category",
-          "settings": {
-            "title": "Color",
-            "filters": "Aloe,Black,Caramel Rib,Creme Wave,Cyan Crinkle,Creme Rib,Italian Ice,Ivory, Ivory Crinkle,Jaguar,Moon Crinkle,Moss Rib,Navy Rib,Neon Pink,Oat,Orchid,Orchid Jacquard,Palm,Paper Floral,Paprika,Periwinkle,Persimmon,Sand,Sea Jacquard,Sky Blue,Straw,Tiger,Toffee,White,White Sand"
-          }
-        },
-        "117d4bde-f25c-4a9a-8d12-3978feae7f74": {
-          "type": "filter_category",
-          "settings": {
-            "title": "Size",
-            "filters": "P,S,M,L,XL,V,VV,VVV,S\/M,L\/V,OS"
-          }
-        },
-        "4802a76d-c48c-4206-968b-2d7341f784cd": {
-          "type": "filter_category",
-          "settings": {
-            "title": "Fit",
-            "filters": "Minimal,Cheeky,Moderate,High-Waisted,Supportive"
-          }
-        },
         "dadcc81c-bd47-4dbf-a565-ebbd1e435485": {
           "type": "fit_tip_card",
           "settings": {
@@ -100,10 +74,6 @@
         }
       },
       "block_order": [
-        "27cfdb60-012e-4ea5-b1af-606afdc76a15",
-        "8a83884e-ac94-4475-959e-f30b73e1b9fd",
-        "117d4bde-f25c-4a9a-8d12-3978feae7f74",
-        "4802a76d-c48c-4206-968b-2d7341f784cd",
         "dadcc81c-bd47-4dbf-a565-ebbd1e435485",
         "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa"
       ],
