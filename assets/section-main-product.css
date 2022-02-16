@@ -584,7 +584,13 @@ variant-radios fieldset {
 .size-chart-dropdown__content {
   display: none;
 }
-
+  
+@media screen and (max-width: 768px) {
+  .size-chart-dropdown__tabs {
+    gap: 10px;
+  }
+}
+  
 /* Gift card */
 .product--gift-card .product__price {
   margin-bottom: 40px;
