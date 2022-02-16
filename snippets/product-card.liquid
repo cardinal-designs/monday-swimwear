@@ -58,7 +58,7 @@
               {% for current_product in collection_for_swatches.products %}
                 {% unless product_card_product.handle == current_product.handle %}
               	  {% for option in product_card_product.options_with_values %}
-              		{% if option == 'Color' %}
+              		{% if option.name == 'Color' %}
               		  {% for value in option.values %}
               			{{ value }}
                       {% endfor %}
