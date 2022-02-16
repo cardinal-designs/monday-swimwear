@@ -1,5 +1,10 @@
 {
   "sections": {
+    "filters": {
+      "type": "collection-filters",
+      "settings": {
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -75,6 +80,7 @@
     }
   },
   "order": [
+    "filters",
     "product-grid",
     "164195913179be1b55"
   ]
