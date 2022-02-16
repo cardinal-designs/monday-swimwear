@@ -128,7 +128,12 @@
                     <span class="visually-hidden">{{ value }}</span>
                   </a>
                 {% endfor %}
-                <p class="product__active-color detail-caps hide-mobile">{{ color }}</p>
+                {% for option in product.options_with_values %}
+              		{% if option.name == 'Color' %}
+              		  {% assign current_color = option.values[0] %}
+                    {% endif %}
+                  {% endfor %}
+                <p class="product__active-color detail-caps hide-mobile">{{ current_color }}</p>
               </div>
 
             </div>
