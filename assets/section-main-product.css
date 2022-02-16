@@ -167,6 +167,10 @@
     margin-top: 10px;
     display: block;
   }
+  
+  .product__media-alt {
+    padding: 9px;
+  }
 }
 
 /* Product info */
