@@ -3,15 +3,6 @@
 
 <script src="{{ 'collection-filters.js' | asset_url }}" defer="defer"></script>
 
-<div class="collection-header">
-  <div class="page-width">
-    <div class="collection-header__container">
-      <h2>{{ collection.title }}</h2>
-      <p class="body-large">We’re on vacation all year long.</p>
-    </div>
-  </div>
-</div>
-
 {% assign active_tags = '' %}
 
 {% for tag in current_tags %}
