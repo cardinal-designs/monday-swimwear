@@ -122,7 +122,6 @@
                   {% endfor %}
                   {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
                   {% assign color_swatch_image = images[color_swatch_name] %}
-{{color_swatch_name}}
                   <a class="product__swatch{% if product.handle == current_product.handle %} active{% endif %}" href="{{ current_product.url }}">
                     <div class="product__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '50x' }}')"></div>
                     <span class="visually-hidden">{{ value }}</span>
