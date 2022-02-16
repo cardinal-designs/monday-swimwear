@@ -47,6 +47,7 @@
                 {% if product_card_product.handle == current_product.handle %}
                   {% assign title_split = current_product.title | split: ' - ' %}
                   {% assign color = title_split[1] | downcase %}
+              {{color}}
                   {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
                   {% assign color_swatch_image = images[color_swatch_name] %}
                   <button class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}">
