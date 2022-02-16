@@ -58,7 +58,8 @@
             "position": 5,
             "background_color": "#c1d7ec",
             "title": "The Isla Mujeres",
-            "image": "shopify:\/\/shop_images\/Image_6.png",
+            "image": "shopify:\/\/shop_images\/ISLA_MUJERES_BOTTOM_-_BLACK.jpg",
+            "make_transparent": true,
             "tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra."
           }
         },
