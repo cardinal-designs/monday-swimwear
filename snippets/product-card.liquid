@@ -46,7 +46,7 @@
               {% for current_product in collection_for_swatches.products %}
                 {% if product_card_product.handle == current_product.handle %}
                   {% for option in product_card_product.options %}
-              		{{ option.value }}
+              		{{ option }}
                   {% endfor %}
                   {% assign color = current_product.metafields.nosto.color %}
                   {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
