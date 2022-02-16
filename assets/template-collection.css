@@ -117,7 +117,7 @@
 }
 
 .make-transparent {
-  
+  mix-blend-mode: multiply;
 }
 
 .product-grid__tip-card .sh1 {
