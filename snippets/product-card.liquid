@@ -45,7 +45,11 @@
               {% comment %} Display product card product first {% endcomment %}
               {% for current_product in collection_for_swatches.products %}
                 {% if product_card_product.handle == current_product.handle %}
-                  {% assign color = current_product.metafields.nosto.color %}
+              	  {% for option in current_product.options_with_values %}
+              		{% if option.name == 'Color' %}
+              		  {% assign color = option.values[0] %}
+                    {% endif %}
+                  {% endfor %}
                   {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
                   {% assign color_swatch_image = images[color_swatch_name] %}
                   <button class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}">
