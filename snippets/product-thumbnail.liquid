@@ -68,4 +68,10 @@
       Your browser does not support the video tag.
     </video>
   {% endif %}
+  
+  {% if media.preview_image.alt != blank %}
+    <div class="product__media-alt">
+      <p class="detail-caps">{{ media.preview_image.alt }}</p>
+    </div>
+  {% endif %}
 </div>
