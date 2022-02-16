@@ -338,7 +338,7 @@
                 <div class="product__dropdown-control"></div>
               </button>
               <div class="product__dropdown-content">
-                <p class="body-small">{{ product.metafields.pdp_extras.fabric }}</p>
+                <p class="body-small">{{ product.metafields.pdp_extras.fabric | newline_to_br }}</p>
               </div>
             </div>
           {% endif %}
@@ -349,7 +349,7 @@
                 <div class="product__dropdown-control"></div>
               </button>
               <div class="product__dropdown-content">
-                <p class="body-small">{{ product.metafields.pdp_extras.size_fit }}</p>
+                <p class="body-small">{{ product.metafields.pdp_extras.size_fit | newline_to_br }}</p>
               </div>
             </div>
           {% endif %}
@@ -360,7 +360,7 @@
                 <div class="product__dropdown-control"></div>
               </button>
               <div class="product__dropdown-content">
-                <p class="body-small">{{ product.metafields.pdp_extras.shipping_returns }}</p>
+                <p class="body-small">{{ product.metafields.pdp_extras.shipping_returns | newline_to_br }}</p>
               </div>
             </div>
           {% endif %}
