@@ -2130,7 +2130,7 @@ header-drawer {
   bottom: 0;
   background: black;
   color: white;
-  z-index: 3;
+  z-index: 7;
   opacity: 0;
   visibility: hidden;
   transition: opacity .3s ease, visibility .3s ease;
