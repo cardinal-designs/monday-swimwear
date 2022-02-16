@@ -587,7 +587,7 @@ variant-radios fieldset {
   
 @media screen and (max-width: 768px) {
   .size-chart-dropdown__tabs {
-    gap: 10px;
+    gap: 0 !important;
   }
 }
   
