@@ -5,6 +5,7 @@
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 {{ 'component-collection-filters.css' | asset_url | stylesheet_tag }}
 
+{% comment %}
 <script src="{{ 'collection-filters.js' | asset_url }}" defer="defer"></script>
 
 <div class="collection-header">
@@ -134,7 +135,7 @@
 
   </div>
 </collection-filters> 
-
+{% endcomment %}
 
 {% comment %}
 {{ 'component-filters.css' | asset_url | stylesheet_tag }}
