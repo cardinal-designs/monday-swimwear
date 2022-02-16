@@ -32,6 +32,7 @@
             {% if active_tags == '' %}
               {% assign current_loop = forloop.index %}
               {% for block in section.blocks %}
+          hi
                 {% if block.type == 'fit_tip_card' %}
                   {% assign current_collection = collections[block.settings.collection] %}
                   {% assign position = block.settings.position %}
