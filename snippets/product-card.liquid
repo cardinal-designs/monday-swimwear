@@ -45,7 +45,7 @@
               {% comment %} Display product card product first {% endcomment %}
               {% for current_product in collection_for_swatches.products %}
                 {% if product_card_product.handle == current_product.handle %}
-                  {% for option in product.options %}
+                  {% for option in product_card_product.options %}
               		{{ option.value }}
                   {% endfor %}
                   {% assign color = current_product.metafields.nosto.color %}
