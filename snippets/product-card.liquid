@@ -62,7 +62,6 @@
               		  {% assign color = option.values[0] %}
                     {% endif %}
                   {% endfor %}
-              {{color}}
                   {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
                   {% assign color_swatch_image = images[color_swatch_name] %}
 
