@@ -3,11 +3,11 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/header_79265bdd-6ff4-43be-9eed-6d36a5a44108.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/moon-crinkle-bikini-at-beach-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/Header_97e2addf-fa04-4839-818a-f3757ddba60b.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_d2ef159e-ff77-4c1f-855f-a627ab9ce063.jpg",
         "caption": "On the beaches of Tulum wearing the Byron bottoms and Tulum Top.",
-        "button_label": "Shop the Collection",
-        "button_link": "shopify:\/\/collections\/moon-crinkle"
+        "button_label": "SHOP NEW ARRIVALS",
+        "button_link": "shopify:\/\/collections\/new-arrivals"
       }
     },
     "16407502469f0e5f45": {
@@ -16,7 +16,7 @@
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals"
+            "collection": "ivory-crochet"
           }
         },
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
@@ -36,12 +36,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/moon-crinkle-lilac-beach.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/moon-crinkle-lilac-beach-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/header_79265bdd-6ff4-43be-9eed-6d36a5a44108.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile-2_ae12ba7d-9e20-4368-9147-0d1a04a7a5de.jpg",
         "left_text": "Living In A",
         "right_text": "Lilac Dream",
-        "link_label": "Shop the Moon Collection",
-        "link": "shopify:\/\/collections\/moon-crinkle"
+        "link_label": "Shop the Pistachio Wave Collection",
+        "link": "shopify:\/\/collections\/pistachio-wave"
       }
     },
     "164081090579915a8a": {
