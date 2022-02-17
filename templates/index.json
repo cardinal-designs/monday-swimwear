@@ -172,28 +172,28 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-one-pieces.jpg",
-            "text": "Support without Sacrifice",
-            "link_label": "Shop One Pieces",
-            "link": "shopify:\/\/collections\/one-pieces"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shop-recycled-fabrics.jpg",
+            "image": "shopify:\/\/shop_images\/lower_21655f46-5dcc-46be-a9d7-c22d54d77639.jpg",
             "text": "Making Sustainability Sexy",
             "link_label": "Shop Recycled Fabrics",
             "link": "shopify:\/\/collections\/recycled-fabrics"
           }
         },
-        "e0ecb353-7f3c-4f47-8f4c-38a1184a29ba": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shop-beachwear.jpg",
+            "image": "shopify:\/\/shop_images\/OP_61712dd5-ce3c-4006-92fa-2f0dbafbfc29.jpg",
+            "text": "Support without Sacrifice",
+            "link_label": "Shop One Pieces",
+            "link": "shopify:\/\/collections\/one-pieces"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BW.jpg",
             "text": "Beachwear, Upgraded",
             "link_label": "Shop Beachwear",
             "link": "shopify:\/\/collections\/monday-beachwear"
@@ -201,9 +201,9 @@
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "e0ecb353-7f3c-4f47-8f4c-38a1184a29ba"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
