@@ -417,7 +417,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/antigua-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-antigua"
             }
           },
           "9668bf65-68e7-41df-ad1e-4efe07e57ae6": {
@@ -436,7 +436,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/argentina-bottom-white-sand-crinkle"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-argentina"
             }
           },
           "b1a36be5-082a-4242-a425-bc49c0332265": {
@@ -455,7 +455,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "For a comfortable and flattering fit, we suggest to size up one size.",
-              "shop_link": "shopify:\/\/products\/barbados-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-barbados"
             }
           },
           "af3665c0-a3ca-4006-85bb-d7a388ea9dbf": {
@@ -474,7 +474,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/byron-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
             }
           },
           "4278339e-7629-4693-b516-215af45d6163": {
@@ -512,7 +512,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/cala-conta-bottom-black"
+              "shop_link": "shopify:\/\/collections\/cala-conta-bottom"
             }
           },
           "85767612-329b-4409-9c42-d4c0ebf47a95": {
@@ -531,7 +531,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/clovelly-bottom-black-sig"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-clovelly-top-byron-bottom"
             }
           },
           "22e7314f-1694-4ac5-a040-5fb554e5b65a": {
@@ -550,7 +550,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/hanalei-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-hanalei"
             }
           },
           "56f44aff-4d5b-48c7-9711-f10dab98374c": {
@@ -569,7 +569,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/isla-mujeres-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-isla-mujeres"
             }
           },
           "862fd382-ca17-44b4-afd6-18c003ac9af5": {
@@ -612,6 +612,23 @@
               "shop_link": "shopify:\/\/products\/le-marais-bottom-black-sig"
             }
           },
+          "b3e14f3e-c578-4023-a1ec-1846ea20cf6c": {
+            "type": "bottom",
+            "settings": {
+              "title": "The Maui Bottom",
+              "short_title": "Maui Bottom",
+              "short_description": "",
+              "description": "The Maui Bottom is an instant favorite to our best selling bottoms. Offering a figure flattering touch with the adjustable side ties and cheeky coverage, this bottom is made to give you a relaxed and confident look no matter your shape!",
+              "highlights": "Thick adjustable side ties, seamless",
+              "fit": "Available in sizes P-V",
+              "padding": "",
+              "coverage": "Cheeky",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/shop-by-style-maui-bottom"
+            }
+          },
           "1cb8461a-0a93-4b6a-9848-27e48cde44dc": {
             "type": "bottom",
             "settings": {
@@ -628,7 +645,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/palma-bottom-black-sig"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-palma-bottom"
             }
           },
           "73620f54-1142-497e-ae12-f04d2849b86d": {
@@ -667,7 +684,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/riviera-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-riviera-bottom"
             }
           },
           "451829e4-c761-453b-8c48-d1be554370d0": {
@@ -686,7 +703,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/seychelles-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-seychelles"
             }
           },
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7": {
@@ -705,7 +722,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/sorrento-bottom-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-sorrento"
             }
           },
           "4198cbe8-da95-4c39-b1ff-b5c042b4b767": {
@@ -724,7 +741,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/tamarama-bottom-black"
+              "shop_link": "shopify:\/\/collections\/tamarama-bottom"
             }
           },
           "50917c6a-4369-447a-b962-017a811c3759": {
@@ -743,7 +760,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/tulum-bottom-black-sig"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-tulum-bottom"
             }
           }
         },
@@ -759,6 +776,7 @@
           "56f44aff-4d5b-48c7-9711-f10dab98374c",
           "862fd382-ca17-44b4-afd6-18c003ac9af5",
           "ce3ec260-5b8d-44f6-9440-299bfda6b5ac",
+          "b3e14f3e-c578-4023-a1ec-1846ea20cf6c",
           "1cb8461a-0a93-4b6a-9848-27e48cde44dc",
           "73620f54-1142-497e-ae12-f04d2849b86d",
           "1438764c-b56e-47b5-8cdb-8801d2f10876",
