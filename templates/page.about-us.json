@@ -3,8 +3,8 @@
     "header": {
       "type": "editorial-header",
       "settings": {
-        "image": "shopify:\/\/shop_images\/About-2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Image_70.jpg",
+        "image": "shopify:\/\/shop_images\/About_cb2bfe97-aacb-454b-989d-2ab33329e2d3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/About-3.jpg",
         "text_1": "The",
         "text_2": "Monday",
         "right_align": false,
@@ -53,8 +53,8 @@
     "1643218769655364e2": {
       "type": "about-text-over-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_73.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Puerto-Rico-Top-Campaign---Periwinkle_700x_20d60b0f-1317-4894-818c-c52309d6a497.jpg",
+        "image": "shopify:\/\/shop_images\/About_cb2bfe97-aacb-454b-989d-2ab33329e2d3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/About-3.jpg",
         "text": "If you’re in a bikini on a Monday, you’re having a good day."
       }
     },
