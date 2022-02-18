@@ -29,19 +29,18 @@
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_6.png",
-            "title": "The Barbados Bottoms",
-            "short_title": "Barbados Bottoms",
-            "short_description": "Sexy,Sporty,Chic",
-            "description": "Thoughtfully designed to give as little or as much coverage as you want",
-            "fit": "Best for Cups p-V",
-            "padding": "Minimal",
-            "coverage": "Brazillian",
-            "style": "Adjustable",
-            "fabric": "Soft Jersey",
-            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "",
-            "explore_link": ""
+            "image": "shopify:\/\/shop_images\/TAMARAMA_BOTTOM_-_BLACK.jpg",
+            "title": "The Tamarama Bottom",
+            "short_title": "Tamarama Bottom",
+            "short_description": "",
+            "description": "The Tamarama Bottom is our newest bikini bottom featuring everything you need: less coverage and thinner sides. Similar to the Byron Bottom & Java Bottom, the high leg cut elongates your silhouette while the cheeky coverage gives you the perfect tan.",
+            "fit": "Available in sizes P-VVV",
+            "padding": "",
+            "coverage": "Cheeky",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/collections\/tamarama-bottom"
           }
         }
       },
