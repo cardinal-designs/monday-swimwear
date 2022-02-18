@@ -29,19 +29,18 @@
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_6.png",
-            "title": "The Barbados Bottoms",
-            "short_title": "Barbados Bottoms",
-            "short_description": "Sexy,Sporty,Chic",
-            "description": "Thoughtfully designed to give as little or as much coverage as you want",
-            "fit": "Best for Cups p-V",
-            "padding": "Minimal",
-            "coverage": "Brazillian",
-            "style": "Adjustable",
-            "fabric": "Soft Jersey",
-            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "",
-            "explore_link": ""
+            "image": "shopify:\/\/shop_images\/SEYCHELLES_BOTTOM_-_BLACK.jpg",
+            "title": "The Seychelles Bottom",
+            "short_title": "Seychelles Bottom",
+            "short_description": "",
+            "description": "The Seychelles Bottom is an update version of our best selling Byron Bottom. Made to make your legs look instantly longer with the high cut silhouette while giving you  moderate coverage.",
+            "fit": "Available in sizes P-VV",
+            "padding": "",
+            "coverage": "Moderate",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-seychelles"
           }
         }
       },
