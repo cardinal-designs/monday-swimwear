@@ -29,19 +29,18 @@
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_6.png",
-            "title": "The Barbados Bottoms",
-            "short_title": "Barbados Bottoms",
-            "short_description": "Sexy,Sporty,Chic",
-            "description": "Thoughtfully designed to give as little or as much coverage as you want",
-            "fit": "Best for Cups p-V",
-            "padding": "Minimal",
-            "coverage": "Brazillian",
-            "style": "Adjustable",
-            "fabric": "Soft Jersey",
-            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "",
-            "explore_link": ""
+            "image": "shopify:\/\/shop_images\/BARBADOS_TOP_-_BLACK_b024223d-7c33-44c9-b57d-1491ae91e232.jpg",
+            "title": "The Barbados Top",
+            "short_title": "Barbados Top",
+            "short_description": "Minimal,Sleek,Classic",
+            "description": "The Barbados Top is our newest triangle bikini top made for the perfect fit.",
+            "fit": "Designed to best fit cup sizes A-D.",
+            "padding": "No",
+            "coverage": "",
+            "style": "Triangle \/ Minimal",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/barbados-top-black"
           }
         }
       },
