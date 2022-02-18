@@ -29,19 +29,18 @@
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_6.png",
-            "title": "The Barbados Bottoms",
-            "short_title": "Barbados Bottoms",
-            "short_description": "Sexy,Sporty,Chic",
-            "description": "Thoughtfully designed to give as little or as much coverage as you want",
-            "fit": "Best for Cups p-V",
-            "padding": "Minimal",
-            "coverage": "Brazillian",
-            "style": "Adjustable",
-            "fabric": "Soft Jersey",
-            "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "",
-            "explore_link": ""
+            "image": "shopify:\/\/shop_images\/TAMARAMA_TOP_-_BLACK.jpg",
+            "title": "The Tamarama Top",
+            "short_title": "Tamarama Top",
+            "short_description": "Feminine,Flirty,Sleek",
+            "description": "A much needed vacation is on the horizon. Elevate your classic bikini tops in the Tamarama Top. Designed for minimal tan lines in mind with thin adjustable ties and bandeau shaped cups, this top will have you looking & feeling your best.",
+            "fit": "Designed to best fit cup sizes A-D.",
+            "padding": "Yes, removable padding",
+            "coverage": "",
+            "style": "Bandeau \/ Minimal",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/tamarama-top-black"
           }
         }
       },
