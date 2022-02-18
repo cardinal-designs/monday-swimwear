@@ -8,13 +8,13 @@
             {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
             <p class="body-large">All</p>
           </button>
-          <button class="fit-size-chart__tab" data-tab="bottoms">
-            {% render 'lazy-image' image: section.settings.bottoms_image, fade: true %}
-            <p class="body-large">Bottoms</p>
-          </button>
           <button class="fit-size-chart__tab" data-tab="tops">
             {% render 'lazy-image' image: section.settings.tops_image, fade: true %}
             <p class="body-large">Tops</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="bottoms">
+            {% render 'lazy-image' image: section.settings.bottoms_image, fade: true %}
+            <p class="body-large">Bottoms</p>
           </button>
           <button class="fit-size-chart__tab" data-tab="beachwear">
             {% render 'lazy-image' image: section.settings.beachwear_image, fade: true %}
@@ -25,8 +25,8 @@
       <div class="fit-size-chart__charts">
 
         {% render 'fit-chart-all' %}
-        {% render 'fit-chart-bottoms' %}
         {% render 'fit-chart-tops' %}
+        {% render 'fit-chart-bottoms' %}
         {% render 'fit-chart-beachwear' %}
 
       </div>
