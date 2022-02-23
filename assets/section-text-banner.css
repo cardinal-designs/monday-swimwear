@@ -1,5 +1,5 @@
 .text-banner {
-  padding: 80px 0;
+  padding: 100px 0;
   background: var(--yellow-tint);
 }
 
@@ -8,7 +8,7 @@
 }
 
 .text-banner__container h2 {
-  margin: 0 0 40px;
+  margin: 0 0 24px;
   font-size: 30px;
 }
 
