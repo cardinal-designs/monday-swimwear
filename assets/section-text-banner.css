@@ -9,6 +9,7 @@
 
 .text-banner__container h2 {
   margin: 0 0 40px;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 768px) {
