@@ -1,5 +1,5 @@
 .fit-guide-section {
-  height: 800px;
+  height: 900px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   overflow: hidden;
