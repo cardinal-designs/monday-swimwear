@@ -20,6 +20,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .collection-header__container {
+    text-align: center;
+  }
+  
   .collection .grid__item:only-child {
     flex: 0 0 100%;
     max-width: 100%;
