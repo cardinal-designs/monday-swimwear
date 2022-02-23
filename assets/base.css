@@ -1957,6 +1957,12 @@ header-drawer {
   width: 100%;
 }
 
+.header__mega-menu-button .button:hover {
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
 /*============================================================================
   Slide out menu
 ==============================================================================*/
