@@ -4,9 +4,9 @@
       <div class="fit-size-chart__measurements">
         <div class="fit-size-chart__measurements-container">
           <p class="detail-caps">Measurements</p>
-          <button class="fit-size-chart__tab active" data-tab="all">
+          <button class="fit-size-chart__tab active" data-tab="one-piece">
             {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
-            <p class="body-large">All</p>
+            <p class="body-large">One Pieces</p>
           </button>
           <button class="fit-size-chart__tab" data-tab="tops">
             {% render 'lazy-image' image: section.settings.tops_image, fade: true %}
@@ -24,7 +24,7 @@
       </div>
       <div class="fit-size-chart__charts">
 
-        {% render 'fit-chart-all' %}
+        {% render 'fit-chart-one-pieces' %}
         {% render 'fit-chart-tops' %}
         {% render 'fit-chart-bottoms' %}
         {% render 'fit-chart-beachwear' %}
