@@ -86,8 +86,8 @@
       "type": "text-banner",
       "settings": {
         "text": "Let’s find your perfect fit.",
-        "button_label": "Take the Fit Quiz",
-        "button_link": "shopify:\/\/pages\/fit-quiz"
+        "button_label": "Explore the Fit Guide",
+        "button_link": "shopify:\/\/pages\/fit-guide"
       }
     }
   },
