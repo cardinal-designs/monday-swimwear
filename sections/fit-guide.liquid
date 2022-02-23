@@ -50,26 +50,36 @@
                   </p>
                   <p class="fit-guide-section__content-description body-large hide-mobile">{{ block.settings.description }}</p>
                   <div class="fit-guide-section__content-stats">
-                    <div class="fit-guide-section__content-stat">
-                      <p class="detail-caps">Fit</p>
-                      <p class="body-small">{{ block.settings.fit }}</p>
-                    </div>
-                    <div class="fit-guide-section__content-stat">
-                      <p class="detail-caps">Padding</p>
-                      <p class="body-small">{{ block.settings.padding }}</p>
-                    </div>
-                    <div class="fit-guide-section__content-stat">
-                      <p class="detail-caps">Coverage</p>
-                      <p class="body-small">{{ block.settings.coverage }}</p>
-                    </div>
-                    <div class="fit-guide-section__content-stat">
-                      <p class="detail-caps">Style</p>
-                      <p class="body-small">{{ block.settings.style }}</p>
-                    </div>
-                    <div class="fit-guide-section__content-stat">
-                      <p class="detail-caps">Fabric</p>
-                      <p class="body-small">{{ block.settings.fabric }}</p>
-                    </div>
+                    {% if block.settings.fit != blank %}
+                      <div class="fit-guide-section__content-stat">
+                        <p class="detail-caps">Fit</p>
+                        <p class="body-small">{{ block.settings.fit }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.padding != blank %}
+                      <div class="fit-guide-section__content-stat">
+                        <p class="detail-caps">Padding</p>
+                        <p class="body-small">{{ block.settings.padding }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.coverage != blank %}
+                      <div class="fit-guide-section__content-stat">
+                        <p class="detail-caps">Coverage</p>
+                        <p class="body-small">{{ block.settings.coverage }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.style != blank %}
+                      <div class="fit-guide-section__content-stat">
+                        <p class="detail-caps">Style</p>
+                        <p class="body-small">{{ block.settings.style }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.fabric != blank %}
+                      <div class="fit-guide-section__content-stat">
+                        <p class="detail-caps">Fabric</p>
+                        <p class="body-small">{{ block.settings.fabric }}</p>
+                      </div>
+                    {% endif %}
                   </div>
                   {% unless block.settings.shop_link == blank and block.settings.explore_link == blank %}
                     <div class="fit-guide-section__content-buttons">
