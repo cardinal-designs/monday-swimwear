@@ -71,8 +71,8 @@
           "menu": "main-menu-2022",
           "right_link_1": "shopify:\/\/pages\/fit-guide",
           "right_link_1_label": "Fit Guide",
-          "right_link_2": "",
-          "right_link_2_label": "#help",
+          "right_link_2": "#help",
+          "right_link_2_label": "Help",
           "enable_search": false
         }
       },
