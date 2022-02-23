@@ -48,6 +48,7 @@
 
 .fit-guide-section__images {
   width: 350px;
+  mix-blend-mode: multiply;
 }
 
 .fit-guide-section__image {
