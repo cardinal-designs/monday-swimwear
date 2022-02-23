@@ -71,8 +71,8 @@
           "menu": "main-menu-2022",
           "right_link_1": "shopify:\/\/pages\/fit-guide",
           "right_link_1_label": "Fit Guide",
-          "right_link_2": "shopify:\/\/pages\/fit-quiz",
-          "right_link_2_label": "Take the Fit Quiz!",
+          "right_link_2": "",
+          "right_link_2_label": "#help",
           "enable_search": false
         }
       },
