@@ -6,7 +6,7 @@
         "image": "shopify:\/\/shop_images\/Header_97e2addf-fa04-4839-818a-f3757ddba60b.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Mobile_d2ef159e-ff77-4c1f-855f-a627ab9ce063.jpg",
         "caption": "Swimwear that takes you somewhere.",
-        "button_label": "SHOP NEW ARRIVALS",
+        "button_label": "Shop New Arrivals",
         "button_link": "shopify:\/\/collections\/new-arrivals"
       }
     },
@@ -16,7 +16,7 @@
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
-            "collection": "ivory-crochet"
+            "collection": "new-arrivals"
           }
         },
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
