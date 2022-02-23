@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .text-banner {
-    padding: 60px 0;
+    padding: 60px 0 50px;
   }
 
   .text-banner__container h2 {
