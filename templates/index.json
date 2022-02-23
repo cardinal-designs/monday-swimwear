@@ -85,24 +85,6 @@
     "16408186509f925b52": {
       "type": "fit-guide",
       "blocks": {
-        "57463eab-fe10-4bbe-97f0-49cb87347475": {
-          "type": "fit",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BYRON_BOTTOM_-_BLACK.jpg",
-            "title": "The Byron Bottom",
-            "short_title": "Byron Bottom",
-            "short_description": "",
-            "description": "The Byron Bottom is one of the newest bottoms to be added to our range, and an instant favorite. Its high leg style is universally flattering and the notoriously soft Monday Swimwear fabric ensures it does not dig in.",
-            "fit": "Available in sizes P-VVV",
-            "padding": "",
-            "coverage": "Cheeky",
-            "style": "",
-            "fabric": "",
-            "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/byron-bottom-black",
-            "explore_link": "shopify:\/\/products\/byron-bottom-black"
-          }
-        },
         "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7": {
           "type": "fit",
           "settings": {
@@ -119,6 +101,24 @@
             "fit_tip": "",
             "shop_link": "shopify:\/\/products\/isla-mujeres-top-black",
             "explore_link": "shopify:\/\/products\/isla-mujeres-top-black"
+          }
+        },
+        "57463eab-fe10-4bbe-97f0-49cb87347475": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BYRON_BOTTOM_-_BLACK.jpg",
+            "title": "The Byron Bottom",
+            "short_title": "Byron Bottom",
+            "short_description": "",
+            "description": "The Byron Bottom is one of the newest bottoms to be added to our range, and an instant favorite. Its high leg style is universally flattering and the notoriously soft Monday Swimwear fabric ensures it does not dig in.",
+            "fit": "Available in sizes P-VVV",
+            "padding": "",
+            "coverage": "Cheeky",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/byron-bottom-black",
+            "explore_link": "shopify:\/\/products\/byron-bottom-black"
           }
         },
         "37be9d4e-ad65-4a18-88ca-dca968d4542e": {
@@ -141,8 +141,8 @@
         }
       },
       "block_order": [
-        "57463eab-fe10-4bbe-97f0-49cb87347475",
         "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7",
+        "57463eab-fe10-4bbe-97f0-49cb87347475",
         "37be9d4e-ad65-4a18-88ca-dca968d4542e"
       ],
       "settings": {
