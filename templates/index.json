@@ -88,7 +88,6 @@
         "57463eab-fe10-4bbe-97f0-49cb87347475": {
           "type": "fit",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_6.png",
             "title": "The Byron Bottoms",
             "short_title": "Byron Bottoms",
             "short_description": "Sexy,Sporty,Chic",
@@ -99,8 +98,8 @@
             "style": "Adjustable",
             "fabric": "Soft Jersey",
             "fit_tip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra.",
-            "shop_link": "shopify:\/\/collections\/shop-by-style-byron-bottom",
-            "explore_link": "shopify:\/\/collections\/shop-by-style-byron-bottom"
+            "shop_link": "shopify:\/\/products\/byron-bottom-black",
+            "explore_link": "shopify:\/\/products\/byron-bottom-black"
           }
         },
         "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7": {
