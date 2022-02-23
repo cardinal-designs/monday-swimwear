@@ -77,6 +77,10 @@
   position: relative;
 }
 
+.fit-guide-section__image-wrapper img {
+  object-fit: contain;
+}
+
 .fit-guide-section__image .caption-neue {
   margin: 0 auto 20px;
   padding: 8px 10px;
