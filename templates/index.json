@@ -22,7 +22,7 @@
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers"
+            "collection": "the-signature-collection-1"
           }
         }
       },
@@ -193,6 +193,7 @@
     },
     "1640814929d4a3c77a": {
       "type": "editorial-text-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_41.jpg",
         "word_1": "Find",
