@@ -1451,6 +1451,7 @@ deferred-media {
   color: currentColor;
   transition: color .3s ease;
   -webkit-transition: color .3s ease;
+  font-size: 14px;
 }
 
 .template-index #shopify-section-header:not(.scrolled) .header__menu-item {
