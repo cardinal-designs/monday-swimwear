@@ -60,7 +60,7 @@
             "image": "shopify:\/\/shop_images\/1_63b04751-9e74-414f-a875-8e3e475270e3.jpg",
             "text": "Going green",
             "link_label": "SHOP RECYCLED FABRICS",
-            "link": ""
+            "link": "shopify:\/\/collections\/recycled-fabrics"
           }
         },
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
@@ -68,8 +68,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-2_85f77515-9662-4d51-8b9c-8fde2ec61396.jpg",
             "text": "update",
-            "link_label": "SHOP",
-            "link": ""
+            "link_label": "SHOP NEW ARRIVALS",
+            "link": "shopify:\/\/collections\/new-arrivals"
           }
         }
       },
