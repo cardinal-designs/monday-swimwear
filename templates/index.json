@@ -58,7 +58,7 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/C1_27e8a42c-c5e1-4506-b8b4-882901a28da0.jpg",
-            "text": "Going green",
+            "text": "GOING GREEN",
             "link_label": "SHOP RECYCLED FABRICS",
             "link": "shopify:\/\/collections\/recycled-fabrics"
           }
@@ -67,7 +67,7 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-2_85f77515-9662-4d51-8b9c-8fde2ec61396.jpg",
-            "text": "fresh arrivals",
+            "text": "FRESH ARRIVALS",
             "link_label": "SHOP THE NEWEST",
             "link": "shopify:\/\/collections\/new-arrivals"
           }
@@ -159,7 +159,7 @@
             "image": "shopify:\/\/shop_images\/2_a9d10fd0-c437-4a0c-87c6-a859b4695f89.jpg",
             "text": "Feeling It",
             "link_label": "Shop Textured Fabrics",
-            "link": ""
+            "link": "https:\/\/mondayswimwear.com\/collections\/textured-fabrics"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -168,7 +168,7 @@
             "image": "shopify:\/\/shop_images\/3_ff7b18b0-a59e-4f0a-abca-3f786a345637.jpg",
             "text": "Most Popular",
             "link_label": "Shop Best Sellers",
-            "link": "shopify:\/\/collections\/one-pieces"
+            "link": "shopify:\/\/collections\/best-sellers"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
