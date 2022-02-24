@@ -550,7 +550,7 @@ blockquote {
 }
 
 .button--full {
-  width: 100%;
+  width: 100% !important;
 }
 
 .button.loading {
