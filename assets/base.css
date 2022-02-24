@@ -1504,6 +1504,11 @@ deferred-media {
   visibility: visible;
 }
 
+.header__offset-linkst li:hover .header__submenu {
+  opacity: 1;
+  visibility: visible;
+}
+
 .header__menu-list li:hover .icon-caret {
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
