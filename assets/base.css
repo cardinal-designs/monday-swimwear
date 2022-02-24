@@ -1504,7 +1504,7 @@ deferred-media {
   visibility: visible;
 }
 
-.header__offset-linkst li:hover .header__submenu {
+.header__offset-links li:hover .header__submenu {
   opacity: 1;
   visibility: visible;
 }
