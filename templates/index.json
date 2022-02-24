@@ -67,8 +67,8 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-2_85f77515-9662-4d51-8b9c-8fde2ec61396.jpg",
-            "text": "update",
-            "link_label": "SHOP NEW ARRIVALS",
+            "text": "just arrived",
+            "link_label": "SHOP THE NEWEST",
             "link": "shopify:\/\/collections\/new-arrivals"
           }
         }
