@@ -142,7 +142,7 @@
             <li>
               {%- if link.links != blank -%}
                 <div class="header__menu-item header__menu-item--has-dropdown btn">
-                  <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                  <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                   {% render 'icon-caret' %}
                 </div>
                 <ul class="header__submenu" role="list" tabindex="-1">
@@ -213,7 +213,7 @@
 
   <!-- Icons -->
   <div class="header__icons">
-    {% if section.settings.right_link_1 != blank or section.settings.right_link_2 != blank %}    
+    {% if section.settings.right_link_1 != blank or section.settings.right_links_dropdown != blank %}    
       <ul class="header__offset-links" role="list">
         {% if section.settings.right_link_1 != blank %}
           <li>
@@ -222,12 +222,22 @@
             </a>
           </li>
         {% endif %}
-        {% if section.settings.right_link_2 != blank %}
-          <li>
-            <a href="{{ section.settings.right_link_2 }}" class="header__menu-item btn"{% if link.current %} aria-current="page"{% endif %}>
-              {{ section.settings.right_link_2_label }}
-            </a>
-          </li>
+        {% if section.settings.right_links_dropdown != blank %}
+          {% assign right_dropdown_menu = linklists[section.settings.right_links_dropdown] %}
+          <div class="header__menu-item header__menu-item--has-dropdown btn">
+            <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ section.sesttings.right_dropdown_menu_label }}</span>
+            {% render 'icon-caret' %}
+          </div>
+          <ul class="header__submenu" role="list" tabindex="-1">
+            {%- for childlink in right_dropdown_menu.links -%}
+              <li>
+                <a href="{{ childlink.url }}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                  {{ childlink.title | escape }}
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+
         {% endif %}
       </ul>
     {% endif %}
