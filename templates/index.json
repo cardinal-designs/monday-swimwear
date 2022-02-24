@@ -166,8 +166,8 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_ff7b18b0-a59e-4f0a-abca-3f786a345637.jpg",
-            "text": "Support without Sacrifice",
-            "link_label": "Shop One Pieces",
+            "text": "Most Popular",
+            "link_label": "Shop Best Sellers",
             "link": "shopify:\/\/collections\/one-pieces"
           }
         },
