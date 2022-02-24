@@ -560,6 +560,18 @@ class VariantSelects extends HTMLElement {
         case 'OS':
           value = 'One Size';
           break;
+        case 'P/S':
+          value = 'Petite/Small';
+          break;
+        case 'S/M':
+          value = 'Small/Medium';
+          break;
+        case 'M/L':
+          value = 'Medium/Large';
+          break;
+        case 'L/V':
+          value = 'Large/Voluptuous';
+          break;
       
         default:
           value;
