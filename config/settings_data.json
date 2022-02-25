@@ -710,6 +710,7 @@
           },
           "1438764c-b56e-47b5-8cdb-8801d2f10876": {
             "type": "bottom",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/RIVIERA_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
