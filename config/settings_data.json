@@ -1712,21 +1712,42 @@
           "6a39d5b6-0a91-404d-a30d-0619a2cb800f": {
             "type": "header",
             "settings": {
-              "title": "Holiday Shipping"
+              "title": "Returns & Exchanges"
             }
           },
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6": {
             "type": "faq_item",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
+              "title": "I am located in the US, what is your return policy?",
+              "answer": "We happily accept returns in original condition (unused, unworn, and unaltered) with tags and liners attached for either a refund, exchange, or store credit. All return requests must be made within 14 days after the date of delivery. The refund, store credit, or exchange will be processed within 14 business days from the date of the returned package. We can only process a refund back to the original payment method and we charge a restocking fee of $6.95 per return order and we do not refund any shipping fees. \nItems that are purchased on sale are final sale. They cannot be returned or exchanged, and no exceptions will be made for any fit or sizing issues."
             }
           },
           "911fbafc-5e0f-4618-9f58-af0126a0a664": {
             "type": "faq_item",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
+              "title": "I am an international customer, what is your return policy?",
+              "answer": "We happily accept returns in original condition (unused, unworn, and unaltered) with tags and liners attached for either a refund or store credit. All return requests must be made within 14 days after the date of delivery. The refund will be processed within 14 business days from the date of the returned package. We can only process a refund back to the original payment method and we do not refund any shipping fees. We do not provide return labels nor cover any cost incurred when shipping back your return.\nFor Canadian orders, we offer return labels and exchanges. However we charge a restocking fee of $15 per return order and we do not refund any shipping fees. \nItems that are purchased on sale are final sale. They cannot be returned or exchanged, and no exceptions will be made for any fit or sizing issues."
+            }
+          },
+          "0f759d4f-a44b-4ca6-957d-23121564dac4": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How do I return if I am an international customer?",
+              "answer": "We are sorry to hear you are needing to return! Please use this link to start your return."
+            }
+          },
+          "d59f3ab9-9bbd-4bff-99e6-def0b9e03097": {
+            "type": "faq_item",
+            "settings": {
+              "title": "What is your return policy for sale items and orders placed with a discount code?",
+              "answer": "Any item purchased on sale or at a marked down price is final sale and ineligible for any form of return or exchange. If a discount code was applied to a full retail priced item, the item is not final sale unless if the discount code is advertised as final sale. We do not offer any exceptions for this policy."
+            }
+          },
+          "a1c06967-31dc-456d-b9f7-53a056bc2e78": {
+            "type": "faq_item",
+            "settings": {
+              "title": "If I return an order that had a discount code applied, will the discount code be available again for a new purchase?",
+              "answer": "Our discount codes are for one time use and are unable to be reloaded if you return your order."
             }
           },
           "0e2fb847-a09d-48d3-b3ec-806bd15e1ffd": {
@@ -1815,18 +1836,18 @@
               "title": "General"
             }
           },
-          "d59f3ab9-9bbd-4bff-99e6-def0b9e03097": {
+          "829b5c7a-3d22-4949-910c-da484d2b61bc": {
             "type": "faq_item",
             "settings": {
               "title": "Lorem ipsum dolor sit amet?",
               "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
             }
           },
-          "829b5c7a-3d22-4949-910c-da484d2b61bc": {
+          "650ddacd-d103-4825-a8ae-70a465eb5a19": {
             "type": "faq_item",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
+              "title": "When will my exchange ship out?",
+              "answer": "We are sorry to hear you needed to return\/exchange! When you submit an exchange it is not processed until the return has been sent back and the tracking label has updated to in transit with your returned products. Once your exchange has been processed, an order confirmation email will be sent over via email."
             }
           }
         },
@@ -1834,6 +1855,9 @@
           "6a39d5b6-0a91-404d-a30d-0619a2cb800f",
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6",
           "911fbafc-5e0f-4618-9f58-af0126a0a664",
+          "0f759d4f-a44b-4ca6-957d-23121564dac4",
+          "d59f3ab9-9bbd-4bff-99e6-def0b9e03097",
+          "a1c06967-31dc-456d-b9f7-53a056bc2e78",
           "0e2fb847-a09d-48d3-b3ec-806bd15e1ffd",
           "36fa2bed-75b9-42c7-94f4-173b9207a8fe",
           "e036fd04-6634-411b-924a-b8b06d39e344",
@@ -1847,8 +1871,8 @@
           "dc819730-e6c2-4a57-b5a5-ed3701df45b4",
           "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23",
           "ac8f65e4-2fb1-44fa-9c84-74c591614dbf",
-          "d59f3ab9-9bbd-4bff-99e6-def0b9e03097",
-          "829b5c7a-3d22-4949-910c-da484d2b61bc"
+          "829b5c7a-3d22-4949-910c-da484d2b61bc",
+          "650ddacd-d103-4825-a8ae-70a465eb5a19"
         ],
         "settings": {
           "title": "FAQs"
