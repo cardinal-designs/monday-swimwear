@@ -1781,7 +1781,7 @@
             "type": "faq_item",
             "settings": {
               "title": "When will my order be fulfilled?",
-              "answer": "<p>Our team asks for 1-7 business days to fulfill packages. Once your package has been fulfilled, an email will be sent confirming the tracking number.\n\nPlease note, we do not fulfill orders over the weekend and any expedited order placed after 12:30pm, will be fulfilled the following business day.<\/p>"
+              "answer": "<p>Our team asks for 1-7 business days to fulfill packages. Once your package has been fulfilled, an email will be sent confirming the tracking number.<\/p><p>Please note, we do not fulfill orders over the weekend and any expedited order placed after 12:30pm, will be fulfilled the following business day.<\/p>"
             }
           },
           "e036fd04-6634-411b-924a-b8b06d39e344": {
