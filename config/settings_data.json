@@ -1757,17 +1757,24 @@
               "answer": "We are sorry to hear you needed to return\/exchange! When you submit an exchange it is not processed until the return has been sent back and the tracking label has updated to in transit with your returned products. Once your exchange has been processed, an order confirmation email will be sent over via email."
             }
           },
+          "55c8f1ac-3356-4297-b4bf-d233a0ab573f": {
+            "type": "faq_item",
+            "settings": {
+              "title": "Does my exchange get charged a $6.95 restocking fee?",
+              "answer": "We do not charge a restocking fee for exchanges or returns for store credits. Start a return."
+            }
+          },
           "0e2fb847-a09d-48d3-b3ec-806bd15e1ffd": {
             "type": "header",
             "settings": {
-              "title": "International Shipping"
+              "title": "Shipping Policy"
             }
           },
           "36fa2bed-75b9-42c7-94f4-173b9207a8fe": {
             "type": "faq_item",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
+              "title": "When will my order be fulfilled?",
+              "answer": "Our team asks for 1-7 business days to fulfill packages. Once your package has been fulfilled, an email will be sent confirming the tracking number.\n\nPlease note, we do not fulfill orders over the weekend and any expedited order placed after 12:30pm, will be fulfilled the following business day."
             }
           },
           "e036fd04-6634-411b-924a-b8b06d39e344": {
@@ -1849,13 +1856,6 @@
               "title": "Lorem ipsum dolor sit amet?",
               "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
             }
-          },
-          "55c8f1ac-3356-4297-b4bf-d233a0ab573f": {
-            "type": "faq_item",
-            "settings": {
-              "title": "Does my exchange get charged a $6.95 restocking fee?",
-              "answer": "We do not charge a restocking fee for exchanges or returns for store credits. Start a return."
-            }
           }
         },
         "block_order": [
@@ -1866,6 +1866,7 @@
           "d59f3ab9-9bbd-4bff-99e6-def0b9e03097",
           "a1c06967-31dc-456d-b9f7-53a056bc2e78",
           "650ddacd-d103-4825-a8ae-70a465eb5a19",
+          "55c8f1ac-3356-4297-b4bf-d233a0ab573f",
           "0e2fb847-a09d-48d3-b3ec-806bd15e1ffd",
           "36fa2bed-75b9-42c7-94f4-173b9207a8fe",
           "e036fd04-6634-411b-924a-b8b06d39e344",
@@ -1879,8 +1880,7 @@
           "dc819730-e6c2-4a57-b5a5-ed3701df45b4",
           "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23",
           "ac8f65e4-2fb1-44fa-9c84-74c591614dbf",
-          "829b5c7a-3d22-4949-910c-da484d2b61bc",
-          "55c8f1ac-3356-4297-b4bf-d233a0ab573f"
+          "829b5c7a-3d22-4949-910c-da484d2b61bc"
         ],
         "settings": {
           "title": "FAQs"
