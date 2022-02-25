@@ -13,7 +13,7 @@
             {{ block.settings.logo }}
             {% endif %}
             {% if block.settings.logo_img != blank %}
-            {{ block.settings.logo_img }}
+            {% render 'lazy-image' image: block.settings.logo_img, fade: true, classes: 'img-fill' %}
             {% endif %}
           </div>
           <div class="press-section__content">
