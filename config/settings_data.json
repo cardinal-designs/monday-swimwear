@@ -1928,6 +1928,13 @@
               "answer": "<p>Our online store is the only place in the world to buy original Monday Swimwear. We do occasionally host Pop-Up shops worldwide, in order to know when and where you can stay up to date through our <a href=\"https:\/\/mondayswimwear.us3.list-manage.com\/subscribe\/post?u=3310d1e3f4fc0249a96538267&id=17d627245a\" title=\"Email Subscription\">email subscription<\/a> and social media pages! <\/p>"
             }
           },
+          "df24f8a6-07fb-4a59-8ff8-a23d2c43ad39": {
+            "type": "faq_item",
+            "settings": {
+              "title": "When will I receive my gift card? Is an actual gift card sent out?",
+              "answer": "<p>We ask for 1 business day to send out gift cards, please allow this time. We do not send out physical gift cards, we provide digital online gift certificates.<\/p>"
+            }
+          },
           "251481f5-9731-462c-838d-78c656ecb189": {
             "type": "header",
             "settings": {
@@ -1937,8 +1944,8 @@
           "829b5c7a-3d22-4949-910c-da484d2b61bc": {
             "type": "faq_item",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est.<\/p>"
+              "title": "Delay Shipping",
+              "answer": "<p>All the carriers are experiencing above normal volumes and are not keeping up with the higher than normal demand. UPS actually is doing better than most, FedEx next best, USPS is doing the worst. They are 14 days behind in some areas. It is common right now for USPS tracking to not be synchronized with actual deliveries. <br\/> <br\/>UPS has hired third parties, leased equipment, more staging space and temporary workers to get caught up. Unfortunately service sometimes is a bit compromised with all of this happening. But in the big scheme of things it’s usually a small percentage. UPS and FedEx have set up commercial access points for consumers to ship to with greater reliability in certain areas if desired by consumers. Another solution would be to use Route. They would work directly with the clients to process the delivery failures, do full refunds or reship items at no additional cost. From UPS we can expect approximately 95% reliability in delivery performance during this time.<br\/> <br\/>At the onset of the Covid-19 pandemic, both FedEx and UPS suspended service guarantees, citing that business closures and above Peak Season volumes had impacted their ability to meet high standards of delivery service. However, both carriers have exception codes that invalidate money-back guarantees. <br\/> <br\/>FedEx service performance has been trending worse than UPS thus far during the pandemic. On-time percentage is in the low-90s for most weeks, which is a big lag behind their pre-Covid performance. FedEx maintains separate networks for Ground, SmartPost and Express, which makes them less flexible than UPS in this new environment.<\/p><p>In accordance with local governments, the Public Health Department and the Governor of California guidelines, our fulfillment center employees maintain at least six feet distance to ensure the safety of their health and to ensure orders are processed with minimal contact. For more information about social distancing practices, click <a href=\"http:\/\/publichealth.lacounty.gov\/media\/coronavirus\/GuidanceSocialDistancing.pdf\" target=\"_blank\">here<\/a>.<\/p><p>Should you have any questions about your order, please reach out to <a href=\"mailto:customerservice@mondayswimwear.com\">customerservice@mondayswimwear.com<\/a> and we'd be happy to assist you!<\/p>"
             }
           },
           "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23": {
@@ -1953,13 +1960,6 @@
             "settings": {
               "title": "Do you offer price adjustments?",
               "answer": "<p>We are unable to offer price adjustments and cannot apply discount codes to orders after they have been placed. Please note: Vouchers cannot be combined with other discount codes.<\/p>"
-            }
-          },
-          "df24f8a6-07fb-4a59-8ff8-a23d2c43ad39": {
-            "type": "faq_item",
-            "settings": {
-              "title": "When will I receive my gift card? Is an actual gift card sent out?",
-              "answer": "<p>We ask for 1 business day to send out gift cards, please allow this time. We do not send out physical gift cards, we provide digital online gift certificates.<\/p>"
             }
           }
         },
@@ -1996,11 +1996,11 @@
           "94f9eeb0-64fd-45af-bc2d-dae0d60a8ba2",
           "cd430233-5c59-46e3-8ca6-67b7c3cadeff",
           "172e77ab-29f6-433e-9435-b8c315bf9cd3",
+          "df24f8a6-07fb-4a59-8ff8-a23d2c43ad39",
           "251481f5-9731-462c-838d-78c656ecb189",
           "829b5c7a-3d22-4949-910c-da484d2b61bc",
           "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23",
-          "1d028560-4f4b-4e77-b3a2-41049c1b4614",
-          "df24f8a6-07fb-4a59-8ff8-a23d2c43ad39"
+          "1d028560-4f4b-4e77-b3a2-41049c1b4614"
         ],
         "settings": {
           "title": "FAQs"
