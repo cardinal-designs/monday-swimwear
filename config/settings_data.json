@@ -1933,6 +1933,13 @@
               "title": "Lorem ipsum dolor sit amet?",
               "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est.<\/p>"
             }
+          },
+          "cd430233-5c59-46e3-8ca6-67b7c3cadeff": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How do I care for my suit?",
+              "answer": "<p>We have chosen our Monday Swimwear fabric for it's perfect combination of softness and resiliency. To keep your Monday Swimwear suit in pristine condition, please follow our care instructions listed <a href=\"https:\/\/mondayswimwear.com\/pages\/care-tips\" target=\"_blank\" title=\"https:\/\/mondayswimwear.com\/pages\/care-tips\">here<\/a>.<\/p>"
+            }
           }
         },
         "block_order": [
@@ -1968,7 +1975,8 @@
           "94f9eeb0-64fd-45af-bc2d-dae0d60a8ba2",
           "251481f5-9731-462c-838d-78c656ecb189",
           "829b5c7a-3d22-4949-910c-da484d2b61bc",
-          "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23"
+          "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23",
+          "cd430233-5c59-46e3-8ca6-67b7c3cadeff"
         ],
         "settings": {
           "title": "FAQs"
