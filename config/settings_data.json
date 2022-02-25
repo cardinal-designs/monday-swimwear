@@ -1266,6 +1266,7 @@
         "blocks": {
           "66e09ad9-4f40-4c9f-80e3-3c73483526be": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/ACAPULCO_TOP_-_IVR.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1399,6 +1400,7 @@
           },
           "57f07c61-2f14-4bad-9f1f-db21e244db67": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/KYTHIRA_DRESS_-_IVR.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1418,6 +1420,7 @@
           },
           "147ded9b-30aa-48be-9187-a0cd0185a9f7": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/LA_JOLLA_SHIRT_-_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1437,6 +1440,7 @@
           },
           "be934de6-5ec1-40a3-acbe-6c76dd789390": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/LA_JOLLA_SHORT_-_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1456,6 +1460,7 @@
           },
           "e7385e4a-09a7-45cd-81ba-ac078ccff5a9": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/MALIBU_LINEN_ROBE_-_IVR.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1513,6 +1518,7 @@
           },
           "048bb95d-0316-4e1d-acee-7bcfd387710d": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/MYKONOS_SARONG_-_IVR.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1551,6 +1557,7 @@
           },
           "bfdd3e62-c0e1-4d31-b145-d9479c8ac746": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/PALM_BEACH_TOP_-_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1570,6 +1577,7 @@
           },
           "fdca6529-e0bc-4511-a9fe-9c5bfecede32": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/SAN_MIGUEL_SHORT_-_IVR.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1589,6 +1597,7 @@
           },
           "84c6a03d-dfb6-4fc7-9da9-8ab6bdd74d5b": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/SORRENTO_CAFTAN_-_IVR.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1608,6 +1617,7 @@
           },
           "66e29446-c79c-49a3-b84e-fb87cdef8ba1": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/ST_BARTHS_SKIRT_-_CROCHET_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1627,6 +1637,7 @@
           },
           "11a1a576-fb12-4b91-805a-e8e12102c048": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/ST_BARTHS_TOP_-_CROCHET_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1646,6 +1657,7 @@
           },
           "329127bc-957e-4231-864a-35bcbf30aa64": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/ST_TROPEZ_SARONG_-_IVR.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1703,6 +1715,7 @@
           },
           "ff502580-41e7-4745-b4d2-c0a5e4f6482a": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TAHITI_TIE_TOP_-_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
