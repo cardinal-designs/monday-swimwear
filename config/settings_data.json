@@ -1743,6 +1743,13 @@
               "answer": "<p>Any item purchased on sale or at a marked down price is final sale and ineligible for any form of return or exchange. If a discount code was applied to a full retail priced item, the item is not final sale <em><strong>unless<\/strong><\/em> if the discount code is advertised as final sale. We do not offer any exceptions for this policy.<\/p>"
             }
           },
+          "65e8243e-6d00-40ec-be71-ebe7901b79be": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How do I start my return request?",
+              "answer": "<p>We are sorry to hear you are needing to return! Please <a href=\"https:\/\/monday-swimwear.loopreturns.com\/\"><strong>click this link<\/strong><\/a> to start your return.<\/p>"
+            }
+          },
           "a1c06967-31dc-456d-b9f7-53a056bc2e78": {
             "type": "faq_item",
             "settings": {
@@ -1899,6 +1906,7 @@
           "911fbafc-5e0f-4618-9f58-af0126a0a664",
           "0f759d4f-a44b-4ca6-957d-23121564dac4",
           "d59f3ab9-9bbd-4bff-99e6-def0b9e03097",
+          "65e8243e-6d00-40ec-be71-ebe7901b79be",
           "a1c06967-31dc-456d-b9f7-53a056bc2e78",
           "650ddacd-d103-4825-a8ae-70a465eb5a19",
           "55c8f1ac-3356-4297-b4bf-d233a0ab573f",
