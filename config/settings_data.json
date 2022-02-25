@@ -1897,7 +1897,7 @@
             "type": "faq_item",
             "settings": {
               "title": "What payment methods are accepted?",
-              "answer": "<p>We accept the following payment methods:<\/p><p>VISA<br\/>MasterCard<br\/>Discover<br\/>Amex<br\/>Apple<br\/>PayPayPal<\/p>"
+              "answer": "<p>We accept the following payment methods:<br\/>VISA<br\/>MasterCard<br\/>Discover<br\/>Amex<br\/>Apple<br\/>PayPayPal<\/p>"
             }
           },
           "dc819730-e6c2-4a57-b5a5-ed3701df45b4": {
