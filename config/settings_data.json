@@ -1822,14 +1822,14 @@
             "type": "faq_item",
             "settings": {
               "title": "If I am located internationally, how much will shipping cost?",
-              "answer": "<p>LWe ship all international packages via Passport Shipping that is then delivered to you through your local carrier. The shipping cost can vary depending on your location. Once you have entered in your location through our checkout page, the shipping fee will be displayed with any custom and duty tax prior to finalizing your order. Due to your location, shipping fees vary.<\/p>"
+              "answer": "<p>We ship all international packages via Passport Shipping that is then delivered to you through your local carrier. The shipping cost can vary depending on your location. Once you have entered in your location through our checkout page, the shipping fee will be displayed with any custom and duty tax prior to finalizing your order. Due to your location, shipping fees vary. <\/p>"
             }
           },
           "151ba9d4-246c-47c9-b91a-1aeb7aedff39": {
             "type": "faq_item",
             "settings": {
               "title": "If I am an Australian customer, when will my order arrive?",
-              "answer": "<p>We offer free express shipping for all AU orders over $250AUD\/$180USD (prices on the US site are still displayed in USD in the checkout). \n\nOrders under $250AUD\/$180USD have a $15USD express option. Shipping time is 7-15 business days.\n\nAll expedited and ground shipping can incur carrier delays that will extend this transit time.<\/p>"
+              "answer": "<p>We offer free express shipping for all AU orders over $250AUD\/$180USD (prices on the US site are still displayed in USD in the checkout). <\/p><p>Orders under $250AUD\/$180USD have a $15USD express option. Shipping time is 7-15 business days.<\/p><p>All expedited and ground shipping can incur carrier delays that will extend this transit time.<\/p>"
             }
           },
           "88f56e8e-a3b5-49d2-839e-84b901721f26": {
