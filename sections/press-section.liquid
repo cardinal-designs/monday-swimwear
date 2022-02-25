@@ -9,7 +9,12 @@
       <a href="{{ block.settings.link }}" target="_blank">
         <div class="press-section__item">
           <div class="press-section__logo">
+            {% if block.settings.logo != blank %}
             {{ block.settings.logo }}
+            {% endif %}
+            {% if block.settings.logo_img != blank %}
+            {{ block.settings.logo_img }}
+            {% endif %}
           </div>
           <div class="press-section__content">
             <p class="body-large">{{ block.settings.text }}</p>
@@ -40,6 +45,11 @@
             "type": "textarea",
             "id": "logo",
             "label": "Logo (SVG)"
+          },
+		  {
+            "type": "image_picker",
+            "id": "logo_img",
+            "label": "Logo (png)"
           },
           {
             "type": "textarea",
