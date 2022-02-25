@@ -1866,6 +1866,13 @@
               "answer": "<p>All international packages may be subject to taxes and duties. This charge is calculated into the total shipping price at checkout. The customer's country's local customs office will assess the additional customs fees and notify the customer of this additional charge by email, phone, or physical notice. The amount of the charge is completely at the discretion of one's local government.<\/p><p>We are legally required to claim the true price of products purchased and our shipping system automatically enters this information into the customs documents it creates.<\/p><p>Please note: If you used a discount on your order, your customs office assesses taxes based on the original retail price. <\/p><p><em>Monday Swimwear is not held responsible nor can refund\/reimburse for any taxes or duties charged by the customer’s local government. Any fees of this nature are the sole responsibility of the purchaser.<\/em><\/p><p><em>We are unable to offer a refund for taxes\/duties.<\/em><\/p>"
             }
           },
+          "59f035f9-62f7-42ec-8f86-eb674cd72862": {
+            "type": "faq_item",
+            "settings": {
+              "title": "Can I calculate taxes\/duties before delivery?",
+              "answer": "<p>We do not have the ability to estimate taxes prior to delivery but we do offer Passport shipping methods to certain countries that include the duty fee at checkout.<\/p><p>Here are some helpful links:<\/p><p>- For information on Canadian Customs click <a href=\"http:\/\/www.cbsa-asfc.gc.ca\/menu-eng.html\">HERE<br\/><\/a>- For information on UK Customs click <a href=\"http:\/\/www.hmrc.gov.uk\/customs\/tax-and-duty.htm\">HERE<\/a><br\/>- For information on Australia Customs click<a href=\"http:\/\/www.customs.gov.au\/site\/page5834.asp\">HERE<\/a><\/p>"
+            }
+          },
           "44418d9a-c957-47e3-8e76-6feeccc733d8": {
             "type": "faq_item",
             "settings": {
@@ -1952,6 +1959,7 @@
           "fe55f69b-f633-40c6-a327-3675e17b77fc",
           "e0ed9c64-a1f6-4bf6-a33f-c3b032de101a",
           "f4b4e342-a7da-4378-a231-74f0565c142c",
+          "59f035f9-62f7-42ec-8f86-eb674cd72862",
           "44418d9a-c957-47e3-8e76-6feeccc733d8",
           "aae2bfa3-2a24-49c3-b989-ea76777ee5c4",
           "94f9eeb0-64fd-45af-bc2d-dae0d60a8ba2",
