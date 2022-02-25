@@ -1877,6 +1877,20 @@
               "title": "Lorem ipsum dolor sit amet?",
               "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
             }
+          },
+          "ef040c43-1bc8-4f62-8800-6911e5f13bba": {
+            "type": "faq_item",
+            "settings": {
+              "title": "If I am an international customer, when will my order arrive?",
+              "answer": "Once your order has been shipped, we ask for 10-30 business days for delivery. Please note, packages are subject to carrier delays and all international packages will incur taxes by their local government."
+            }
+          },
+          "88f56e8e-a3b5-49d2-839e-84b901721f26": {
+            "type": "faq_item",
+            "settings": {
+              "title": "If I refused an international package, will I receive a refund?",
+              "answer": "We are sorry to hear you have refused your package! Once our team has received your returned package, we will process a refund for the items, minus the shipping fee. If your order was placed with our free international shipping, then we will deduct the cost incurred for returning your suit back to our warehouse."
+            }
           }
         },
         "block_order": [
@@ -1904,7 +1918,9 @@
           "dc819730-e6c2-4a57-b5a5-ed3701df45b4",
           "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23",
           "ac8f65e4-2fb1-44fa-9c84-74c591614dbf",
-          "829b5c7a-3d22-4949-910c-da484d2b61bc"
+          "829b5c7a-3d22-4949-910c-da484d2b61bc",
+          "ef040c43-1bc8-4f62-8800-6911e5f13bba",
+          "88f56e8e-a3b5-49d2-839e-84b901721f26"
         ],
         "settings": {
           "title": "FAQs"
