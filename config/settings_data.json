@@ -536,6 +536,25 @@
               "shop_link": "shopify:\/\/collections\/cala-conta-bottom"
             }
           },
+          "64f0f0e4-6472-43de-a110-1f1292f3df26": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Capri.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Capri-2.jpg",
+              "title": "The Capri Bottom",
+              "short_title": "Capri Bottom",
+              "short_description": "",
+              "description": "The Capri Bottom is one of our best sellers and is said to be one of our most flattering silhouettes. Designed with adjustable side sliders and a high leg fit, this bottom is guaranteed to make you look your best from every angle with its Brazilian coverage.",
+              "highlights": "Can be worn high leg, gold slider hardware details",
+              "fit": "Available in sizes P-V",
+              "padding": "",
+              "coverage": "Cheeky",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
+          },
           "85767612-329b-4409-9c42-d4c0ebf47a95": {
             "type": "bottom",
             "settings": {
@@ -792,6 +811,7 @@
           "af3665c0-a3ca-4006-85bb-d7a388ea9dbf",
           "4278339e-7629-4693-b516-215af45d6163",
           "83708c9c-bab8-483b-87b9-1c2098ffc2ca",
+          "64f0f0e4-6472-43de-a110-1f1292f3df26",
           "85767612-329b-4409-9c42-d4c0ebf47a95",
           "22e7314f-1694-4ac5-a040-5fb554e5b65a",
           "56f44aff-4d5b-48c7-9711-f10dab98374c",
