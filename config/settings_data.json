@@ -442,6 +442,7 @@
           },
           "9668bf65-68e7-41df-ad1e-4efe07e57ae6": {
             "type": "bottom",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/ARGENTINA_BOTTOM_-_BLACK_1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -486,7 +487,7 @@
               "title": "The Byron Bottom",
               "short_title": "Byron Bottom",
               "short_description": "",
-              "description": "The Byron Bottom is one of the newest bottoms to be added to our range, and an instant favorite. Its high leg style is universally flattering and the notoriously soft Monday Swimwear fabric ensures it does not dig in.",
+              "description": "Believe us when we tell you that the Byron Bottom will be the staple bottom in your swimwear collection. With a high leg, mid-rise fit and moderate cheeky coverage, this swim bottom is extremely flattering and reassuringly comfortable.",
               "highlights": "High-leg cut, mid-rise bottom",
               "fit": "Available in sizes P-VVV",
               "padding": "",
