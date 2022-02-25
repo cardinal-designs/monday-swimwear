@@ -2079,6 +2079,13 @@ header-drawer {
   letter-spacing: .02em;
 }
 
+.faq__item-answer a {
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: .02em;
+  text-decoration: underline;
+}
+
 /*================ Legal Popup ================*/
 .legal-popup {
   padding: 16px 0 18px;
