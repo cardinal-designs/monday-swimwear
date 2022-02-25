@@ -1798,17 +1798,24 @@
               "answer": "Oh no! Since the package was indicated that it was delivered, there are a few steps we suggest taking! Occasionally, packages are marked as delivered before they are physically at your address. Please allow 24 hours following a delivery confirmation before assuming that there is an issue with the delivery.\n\n- Contact your local post carrier and try to speak to your postal person directly, as sometimes they have a recollection of when and where they leave packages.\n- Make sure your mail area is secure, and leave a note to request that packages not be left unattended.\n- Is there a chance one of your neighbors mistakenly collected your package?\n\nIf you have completed all of the above, please visit UPS to file a claim and provide our team with this claim number.\n\nWe cannot be held responsible for orders that go missing after obtaining a “Delivered” status. Please ensure that you provide a shipping address that is attended during the day if your mail area is not secure. An official non-emergency police report must accompany all claims for packages not received after being marked \"Delivered\"."
             }
           },
+          "4d9c999e-8bf1-4332-b76b-b809eca5a61d": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How does your expedited shipping work?",
+              "answer": "All expedited orders need to be placed before 12:30pm PST to ship same day. If placed after 12:30pm PST, the order will ship out the following business day. We do not ship on weekends. Orders placed on Friday after 12:30pm, will ship Monday. Orders placed with 2-day shipping on Thursday before 12:30pm PST, will arrive by end of day Monday. Orders placed with 2-day shipping on Friday before 12:30pm, will arrive Tuesday."
+            }
+          },
           "fded6e81-13b9-4516-a4c8-47e8bb750f35": {
             "type": "header",
             "settings": {
-              "title": "Returns & Exchanges"
+              "title": "International Shipping"
             }
           },
           "df013a2a-941c-4b98-a6fe-5dc38bef8d80": {
             "type": "faq_item",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
+              "title": "If I am located internationally, how much will shipping cost?",
+              "answer": "LWe ship all international packages via Passport Shipping that is then delivered to you through your local carrier. The shipping cost can vary depending on your location. Once you have entered in your location through our checkout page, the shipping fee will be displayed with any custom and duty tax prior to finalizing your order. Due to your location, shipping fees vary."
             }
           },
           "151ba9d4-246c-47c9-b91a-1aeb7aedff39": {
@@ -1870,13 +1877,6 @@
               "title": "Lorem ipsum dolor sit amet?",
               "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est."
             }
-          },
-          "4d9c999e-8bf1-4332-b76b-b809eca5a61d": {
-            "type": "faq_item",
-            "settings": {
-              "title": "How does your expedited shipping work?",
-              "answer": "All expedited orders need to be placed before 12:30pm PST to ship same day. If placed after 12:30pm PST, the order will ship out the following business day. We do not ship on weekends. Orders placed on Friday after 12:30pm, will ship Monday. Orders placed with 2-day shipping on Thursday before 12:30pm PST, will arrive by end of day Monday. Orders placed with 2-day shipping on Friday before 12:30pm, will arrive Tuesday."
-            }
           }
         },
         "block_order": [
@@ -1893,6 +1893,7 @@
           "e036fd04-6634-411b-924a-b8b06d39e344",
           "190e690b-99bf-45d6-8ff5-7c280853edf9",
           "67769b47-9e1b-4bc7-89a0-272dac2dd56e",
+          "4d9c999e-8bf1-4332-b76b-b809eca5a61d",
           "fded6e81-13b9-4516-a4c8-47e8bb750f35",
           "df013a2a-941c-4b98-a6fe-5dc38bef8d80",
           "151ba9d4-246c-47c9-b91a-1aeb7aedff39",
@@ -1903,8 +1904,7 @@
           "dc819730-e6c2-4a57-b5a5-ed3701df45b4",
           "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23",
           "ac8f65e4-2fb1-44fa-9c84-74c591614dbf",
-          "829b5c7a-3d22-4949-910c-da484d2b61bc",
-          "4d9c999e-8bf1-4332-b76b-b809eca5a61d"
+          "829b5c7a-3d22-4949-910c-da484d2b61bc"
         ],
         "settings": {
           "title": "FAQs"
