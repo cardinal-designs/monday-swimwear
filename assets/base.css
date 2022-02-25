@@ -2074,6 +2074,9 @@ header-drawer {
 .faq__item-answer p {
   margin: 0;
   padding-bottom: 24px;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: .02em;
 }
 
 /*================ Legal Popup ================*/
