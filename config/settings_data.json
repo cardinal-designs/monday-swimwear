@@ -1843,7 +1843,14 @@
             "type": "faq_item",
             "settings": {
               "title": "If I refused an international package, will I receive a refund?",
-              "answer": "<p>We are sorry to hear you have refused your package! Once our team has received your returned package, we will process a refund for the items, minus the shipping fee. If your order was placed with our free international shipping, then we will deduct the cost incurred for returning your suit back to our warehouse. <\/p>"
+              "answer": "<p>We are sorry to hear you have refused your package! Once our team has received your returned package, we will process a refund for the items, minus the shipping fee. If your order was placed with our free international shipping, then we will deduct the cost incurred for returning your suit back to our warehouse.<\/p>"
+            }
+          },
+          "fe55f69b-f633-40c6-a327-3675e17b77fc": {
+            "type": "faq_item",
+            "settings": {
+              "title": "Do you ship orders to the UK? If so, how will orders to the UK be shipped?",
+              "answer": "<p>Yes, we ship to the UK. To get your order to you,we've partnered with Passport Shipping andthey will be the Seller for all orders to the UK £135 and under.<\/p>"
             }
           },
           "e0ed9c64-a1f6-4bf6-a33f-c3b032de101a": {
@@ -1921,6 +1928,7 @@
           "151ba9d4-246c-47c9-b91a-1aeb7aedff39",
           "88f56e8e-a3b5-49d2-839e-84b901721f26",
           "ef040c43-1bc8-4f62-8800-6911e5f13bba",
+          "fe55f69b-f633-40c6-a327-3675e17b77fc",
           "e0ed9c64-a1f6-4bf6-a33f-c3b032de101a",
           "94f9eeb0-64fd-45af-bc2d-dae0d60a8ba2",
           "3b9a00a1-c1ab-43cc-945c-5b6bd880f497",
