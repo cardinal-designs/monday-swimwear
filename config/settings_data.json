@@ -1733,14 +1733,14 @@
             "type": "faq_item",
             "settings": {
               "title": "How do I return if I am an international customer?",
-              "answer": "<p>We are sorry to hear you are needing to return! Please use this link to start your return.<\/p>"
+              "answer": "<p>We are sorry to hear you are needing to return! Please <a href=\"https:\/\/returns.mondayswimwear.com\/#\/\"><strong>use this link<\/strong><\/a> to start your return.<\/p>"
             }
           },
           "d59f3ab9-9bbd-4bff-99e6-def0b9e03097": {
             "type": "faq_item",
             "settings": {
               "title": "What is your return policy for sale items and orders placed with a discount code?",
-              "answer": "<p>Any item purchased on sale or at a marked down price is final sale and ineligible for any form of return or exchange. If a discount code was applied to a full retail priced item, the item is not final sale unless if the discount code is advertised as final sale. We do not offer any exceptions for this policy.<\/p>"
+              "answer": "<p>Any item purchased on sale or at a marked down price is final sale and ineligible for any form of return or exchange. If a discount code was applied to a full retail priced item, the item is not final sale <em><strong>unless<\/strong><\/em> if the discount code is advertised as final sale. We do not offer any exceptions for this policy.<\/p>"
             }
           },
           "a1c06967-31dc-456d-b9f7-53a056bc2e78": {
