@@ -2034,6 +2034,8 @@ header-drawer {
 
 .faq__item-question p {
   margin: 0 20px 0 0;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .faq__item-control {
