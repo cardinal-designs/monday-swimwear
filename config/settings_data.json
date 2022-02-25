@@ -329,6 +329,24 @@
               "shop_link": "shopify:\/\/products\/corsica-one-piece-black-sig"
             }
           },
+          "ab74d75e-a266-47e3-97f9-3ee491028e51": {
+            "type": "one_piece",
+            "settings": {
+              "lifestyle_image": "shopify:\/\/shop_images\/Maui-Op-1_7be1f3b7-ad03-49b9-8d80-4b62d2287a8a.jpg",
+              "title": "The Maui One Piece",
+              "short_title": "Maui One Piece",
+              "short_description": "Sexy, Confident, Chic",
+              "description": "The Maui One Piece was designed with comfort and support in mind. With a classic silhouette, this one piece is made to flatter your figure with the high cut leg, supportive underwire cups and adjustable shoulder straps for a custom fit.",
+              "highlights": "Sweetheart neckline, underwire cups, adjustable shoulder straps with delicate gold ring slider, high leg",
+              "fit": "Designed to best fit cup sizes A-DDD",
+              "padding": "No",
+              "coverage": "Moderate and supportive",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
+          },
           "0252e8b0-d725-41bf-ad37-f1c03032121b": {
             "type": "one_piece",
             "settings": {
@@ -391,6 +409,7 @@
           "03ef7265-56d4-4558-bb44-6fc473f24067",
           "e25aa9b6-d166-4d1a-b4bc-bf3bfbf50651",
           "689219e6-a008-47ac-9927-252b2d15e9d6",
+          "ab74d75e-a266-47e3-97f9-3ee491028e51",
           "0252e8b0-d725-41bf-ad37-f1c03032121b",
           "432459e1-8505-4365-a347-fbc6e0b1be6e",
           "883266b6-9198-4474-a6ec-d3215fe07e2a"
