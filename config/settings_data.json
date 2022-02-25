@@ -1440,10 +1440,9 @@
           },
           "be934de6-5ec1-40a3-acbe-6c76dd789390": {
             "type": "beachwear",
-            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/LA_JOLLA_SHORT_-_IVORY.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/La-Jolla-Short_c8323e49-1714-4dc9-9ab8-8b922ec18236.jpg",
               "title": "The La Jolla Short",
               "short_title": "La Jolla Short",
               "short_description": "",
@@ -1696,9 +1695,9 @@
           },
           "4c1ea451-452e-47c6-a184-6c0ba2a5b1b8": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TAHITI_TANK_-_IVORY.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/Tahiti-Top_1.jpg",
               "title": "The Tahiti Tank",
               "short_title": "Tahiti Tank",
               "short_description": "",
@@ -1715,10 +1714,9 @@
           },
           "ff502580-41e7-4745-b4d2-c0a5e4f6482a": {
             "type": "beachwear",
-            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TAHITI_TIE_TOP_-_IVORY.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Tahiti-Tie-Top.jpg",
               "title": "The Tahiti Tie Top",
               "short_title": "Tahiti Tie Top",
               "short_description": "",
