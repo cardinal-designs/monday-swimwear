@@ -1784,6 +1784,13 @@
               "answer": "Once your order has been shipped, we ask for 1-10 business days for delivery. Please note, packages are subject to carrier delays.\n\nPlease note: We do not ship and\/or deliver on weekends & some orders will require a signature. Please allow up to 2 days for your order to be dispatched. All orders received after 1:00 PM on Friday will be shipped the following Monday.\n\n* 2 Day Expedited\/Overnight orders must be placed before 12:30pm PST to be sent out within the same business day. Expedited orders placed after 12:30pm PST will ship out on the following business day. Expedited orders are delivered Monday-Friday. There is no expedited option for weekend delivery."
             }
           },
+          "190e690b-99bf-45d6-8ff5-7c280853edf9": {
+            "type": "faq_item",
+            "settings": {
+              "title": "If I am located in the US, how much does shipping cost?",
+              "answer": "We offer free standard shipping for US orders over $200. If your US order is under $200, our standard shipping can vary between $8-$10.\n\nIf you are needing to expedite your package, we offer overnight and 2-day delivery. This expedited shipping cost can vary between $18-$40.\n\nPlease note, we do not fulfill orders over the weekend and any expedited order placed after 12:30pm, will be fulfilled the following business day."
+            }
+          },
           "fded6e81-13b9-4516-a4c8-47e8bb750f35": {
             "type": "header",
             "settings": {
@@ -1870,6 +1877,7 @@
           "0e2fb847-a09d-48d3-b3ec-806bd15e1ffd",
           "36fa2bed-75b9-42c7-94f4-173b9207a8fe",
           "e036fd04-6634-411b-924a-b8b06d39e344",
+          "190e690b-99bf-45d6-8ff5-7c280853edf9",
           "fded6e81-13b9-4516-a4c8-47e8bb750f35",
           "df013a2a-941c-4b98-a6fe-5dc38bef8d80",
           "151ba9d4-246c-47c9-b91a-1aeb7aedff39",
