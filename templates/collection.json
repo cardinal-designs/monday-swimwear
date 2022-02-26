@@ -53,6 +53,7 @@
       "blocks": {
         "dadcc81c-bd47-4dbf-a565-ebbd1e435485": {
           "type": "fit_tip_card",
+          "disabled": true,
           "settings": {
             "collection": "shop-all",
             "position": 5,
@@ -67,10 +68,10 @@
           "type": "lifestyle_card",
           "settings": {
             "collection": "shop-all",
-            "position": 14,
-            "image": "shopify:\/\/shop_images\/Rectangle_10.jpg",
-            "top_text": "Color",
-            "bottom_text": "Your<br>Summer<br><br>"
+            "position": 10,
+            "image": "shopify:\/\/shop_images\/Collection-Image.jpg",
+            "top_text": "",
+            "bottom_text": ""
           }
         }
       },
