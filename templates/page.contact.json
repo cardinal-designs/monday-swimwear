@@ -7,7 +7,7 @@
           "type": "link",
           "settings": {
             "link_text": "Fit Tips",
-            "url": "shopify:\/\/pages\/fit-tips-2019"
+            "url": "https:\/\/mondayswimwear.com\/pages\/fit-tips-2019"
           }
         },
         "a91615ac-98db-4989-ad72-439ad69a8d9b": {
@@ -39,9 +39,9 @@
     "service-hours": {
       "type": "contact-service-hours",
       "settings": {
-        "background_color": "#FFFF95",
+        "background_color": "#ffff95",
         "heading_text": "Customer service hours",
-        "content": "<p>Monday – Friday<br>9:30am-6:30pm PST<\/p>"
+        "content": "<p>Monday – Friday<br\/>9:30am-6:30pm PST<\/p>"
       }
     },
     "emails": {
@@ -75,7 +75,7 @@
         "b7a8b317-e888-4996-9a35-7af2611e52a7"
       ],
       "settings": {
-        "background_color": "#F2F0E8",
+        "background_color": "#f2f0e8",
         "button_text": "Email"
       }
     },
