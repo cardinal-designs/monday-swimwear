@@ -1888,6 +1888,21 @@ header-drawer {
   background: var(--yellow);
 }
 
+.header__menu-item--has-dropdown::after {
+  content: '';
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 100%;
+  background: transparent;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  z-index: 3;
+}
+
 .header__mega-menu {
   width: 100%;
   max-height: 650px;
