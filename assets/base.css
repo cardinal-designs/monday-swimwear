@@ -1931,7 +1931,7 @@ header-drawer {
 
 .header__mega-menu-group-links a {
   display: block;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.5;
   transition: transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -2007,7 +2007,7 @@ header-drawer {
 
 .header__submenu .header__submenu-item {
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 20px;
   line-height: 1.5;
   transition: transform .15s ease-in-out;
