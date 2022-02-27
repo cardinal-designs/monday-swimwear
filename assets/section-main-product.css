@@ -376,6 +376,10 @@ variant-radios fieldset {
   margin: 20px 0;
 }
 
+.product__final-sale {
+  color: #EB5757;
+}
+
 @media only screen and (max-width: 768px) {
   .product-form__input-active {
     margin-left: 7px;
