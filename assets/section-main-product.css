@@ -203,6 +203,16 @@
   margin-bottom: 7px;
 }
 
+.product__label {
+  color: black;
+  font-size: 11px;
+  line-height: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 10px;
+}
+
 @media only screen and (max-width: 850px) {
   .product__info-wrapper {
     padding-top: 30px;
