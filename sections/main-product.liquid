@@ -41,7 +41,7 @@
           {% else %}
             <ul class="product__thumbnail-list list-unstyled" role="list">
               {% for media in product.media %}
-                <li class="product__thumbnail-item" data-media-id="{{ section.id }}-{{ media.id }}">
+                <li class="product__thumbnail-item TEST" data-media-id="{{ section.id }}-{{ media.id }}">
                   {% render 'lazy-image' image: media.preview_image, fade: true %}
                 </li>
               {% endfor %}
@@ -60,9 +60,6 @@
             <div class="product__media-scrollbar-wrapper">
               <div class="product__media-scrollbar swiper-scrollbar"></div>
             </div>
-            {% if product.metafields.my_fields.model_is_wearing != blank %}
-              <p class="body-small">{{ product.metafields.my_fields.model_is_wearing }}</p>
-              {% endif %}
           </ul>
         {% else %}
           <ul class="product__media-list list-unstyled" role="list">
