@@ -1907,6 +1907,10 @@ header-drawer {
   z-index: 3;
 }
 
+.header__menu-item--has-dropdown:hover {
+  background: var(--yellow);
+}
+
 .header__mega-menu {
   width: 100%;
   max-height: 650px;
