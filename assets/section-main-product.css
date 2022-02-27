@@ -220,13 +220,13 @@
 }
 
 .product__swatches::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   height: 1px;
   width: 10px;
-  background-color: blue;
+  background: white;
 }
 
 .product__swatch {
