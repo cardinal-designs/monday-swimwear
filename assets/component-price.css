@@ -31,7 +31,7 @@ s.price-item {
 }
 
 .price:not(.price--show-badge) .price-item--last:last-of-type {
-  margin: 0;
+  margin: 0 0 0 12px;;
   display: flex;
   align-items: center;
   opacity: 1;
