@@ -224,7 +224,7 @@
         {% endif %}
         {% if section.settings.right_links_dropdown != blank %}
           {% assign right_dropdown_menu = linklists[section.settings.right_links_dropdown] %}
-          <li>
+          <li {% if section.settings.right_links_dropdown != blank %}class="TEST"{% endif %}>
             <div class="header__menu-item header__menu-item--has-dropdown btn">
               <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ section.settings.right_link_dropdown_label }}</span>
             </div>
