@@ -84,9 +84,9 @@
         <div class="product__price no-js-hidden" id="price-{{ section.id }}" role="status">
           {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'h4' -%}
           
-          {% if product.metafields.my_fields.product_label != blank %}
-          <div class="product__label">
-            {{ product.metafields.my_fields.product_label }}
+          {% if product.metafields.my_fields.label_text != blank %}
+          <div class="product__label" style="background-color: {{ product.metafields.my_fields.label_text }};">
+            {{ product.metafields.my_fields.label_text }}
           </div>
           {% endif %}
         </div>
