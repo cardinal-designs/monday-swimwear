@@ -184,6 +184,9 @@
 }
 
 .product__title {
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   margin: 0 0 16px;
 }
 
