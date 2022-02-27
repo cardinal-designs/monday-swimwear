@@ -1988,7 +1988,7 @@ header-drawer {
   z-index: 9;
 }
 
-.header__icons:hover .header__menu-item--has-dropdown::after {
+.header__menu-list--submenu:hover .header__menu-item--has-dropdown::after {
   background: var(--yellow);
 }
 
