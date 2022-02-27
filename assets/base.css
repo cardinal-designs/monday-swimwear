@@ -1888,6 +1888,10 @@ header-drawer {
   background: var(--yellow);
 }
 
+.header__menu-item--has-dropdown {
+  position: relative;
+}
+
 .header__menu-item--has-dropdown::after {
   content: '';
   width: 18px;
