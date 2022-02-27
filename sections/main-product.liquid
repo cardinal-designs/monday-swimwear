@@ -67,6 +67,9 @@
               <li class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
                 {% render 'product-thumbnail', media: media, position: forloop.index %}
               </li>
+              {% if product.metafields.my_fields.model_is_wearing != blank %}
+              <p class="body-small">{{ product.metafields.my_fields.model_is_wearing }}</p>
+              {% endif %}
             {%- endfor -%}
           </ul>
         {% endunless %}
