@@ -13,15 +13,10 @@
   justify-content: flex-end;
 }
 
-.price:not(.price--show-badge) .price-item--last:last-of-type {
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
 .price-item {
   font-size: 20px;
   line-height: 24px;
+  opacity: .5;
 }
 
 .money {
@@ -30,6 +25,13 @@
 
 .price span {
   line-height: 24px;
+}
+
+.price:not(.price--show-badge) .price-item--last:last-of-type {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  opacity: 1;
 }
 
 @media screen and (min-width: 769px) {
