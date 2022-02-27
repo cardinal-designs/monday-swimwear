@@ -145,9 +145,9 @@
                   <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                   {% render 'icon-caret' %}
                 </div>
-                <ul class="header__submenu" role="list" tabindex="-1">
+                <ul class="header__submenu TEST" role="list" tabindex="-1">
                   {%- for childlink in link.links -%}
-                    <li class="TEST">
+                    <li>
                       <a href="{{ childlink.url }}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                         {{ childlink.title | escape }}
                       </a>
