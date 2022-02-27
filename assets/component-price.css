@@ -16,7 +16,6 @@
 .price-item {
   font-size: 20px;
   line-height: 24px;
-  opacity: .5;
 }
 
 .money {
@@ -25,6 +24,10 @@
 
 .price span {
   line-height: 24px;
+}
+
+s.price-item {
+  opacity: .5;
 }
 
 .price:not(.price--show-badge) .price-item--last:last-of-type {
