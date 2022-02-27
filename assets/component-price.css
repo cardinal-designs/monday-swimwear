@@ -22,6 +22,10 @@
   line-height: 24px;
 }
 
+.money {
+  line-height: 24px;
+}
+
 @media screen and (min-width: 769px) {
   .price {
     margin-bottom: 0;
