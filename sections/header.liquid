@@ -228,10 +228,10 @@
             <div class="header__menu-item header__menu-item--has-dropdown btn">
               <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ section.settings.right_link_dropdown_label }}</span>
             </div>
-            <ul class="header__submenu TEST" role="list" tabindex="-1">
+            <ul class="header__submenu" role="list" tabindex="-1">
               {%- for childlink in right_dropdown_menu.links -%}
                 <li>
-                  <a href="{{ childlink.url }}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                  <a {% if childlink.title == 'Help' %}{% else %}href="{{ childlink.url }}"{% endif %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                     {{ childlink.title | escape }}
                   </a>
                 </li>
