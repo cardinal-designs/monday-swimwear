@@ -60,6 +60,9 @@
             <div class="product__media-scrollbar-wrapper">
               <div class="product__media-scrollbar swiper-scrollbar"></div>
             </div>
+            {% if product.metafields.my_fields.model_is_wearing != blank %}
+              <p class="body-small">{{ product.metafields.my_fields.model_is_wearing }}</p>
+              {% endif %}
           </ul>
         {% else %}
           <ul class="product__media-list list-unstyled" role="list">
@@ -67,9 +70,6 @@
               <li class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
                 {% render 'product-thumbnail', media: media, position: forloop.index %}
               </li>
-              {% if product.metafields.my_fields.model_is_wearing != blank %}
-              <p class="body-small">{{ product.metafields.my_fields.model_is_wearing }}</p>
-              {% endif %}
             {%- endfor -%}
           </ul>
         {% endunless %}
