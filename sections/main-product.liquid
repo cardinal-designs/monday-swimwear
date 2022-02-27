@@ -319,7 +319,9 @@
         {% endif %}
         
         {% for tag in product.tags %}
-          <p class="product__final-sale detail">This item is Final Sale. It cannot be returned for refund, credit or exchange.</p>
+          {% if tag contains 'Final Sale' %}
+            <p class="product__final-sale detail">This item is Final Sale. It cannot be returned for refund, credit or exchange.</p>
+          {% endif %}
         {% endfor %}
 
         <div class="product__dropdowns">
