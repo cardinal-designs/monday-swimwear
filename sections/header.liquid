@@ -231,7 +231,7 @@
             <ul class="header__submenu" role="list" tabindex="-1">
               {%- for childlink in right_dropdown_menu.links -%}
                 <li>
-                  <a {% if childlink.title == 'Help' %}{% else %}href="{{ childlink.url }}"{% endif %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %} {% if childlink.title == 'Help' %}header__submenu-item--gray{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                  <a {% if childlink.title == 'Help' %}{% else %}href="{{ childlink.url }}"{% endif %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %} {% if childlink.title == 'Help' %}header__submenu-item--gray{% endif %}  {% if childlink.title contains 'Contact' %}header__submenu-item--indent{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                     {{ childlink.title | escape }}
                   </a>
                 </li>

@@ -2013,10 +2013,10 @@ header-drawer {
 }
 
 .header__submenu-item--gray {
-  opacity: .4; 
+  opacity: d.4; 
 }
 
-.header__submenu .header__submenu-item:nth-of-type(2) {
+.header__submenu .header__submenu-item--indent {
   transform: translateX(10px);
 }
 
