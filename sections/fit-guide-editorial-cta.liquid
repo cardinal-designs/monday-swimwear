@@ -1,3 +1,4 @@
+{% if section.settings.show_section %}
 <div class="fit-guide-cta">
   {% if section.settings.mobile_image != blank %}
     {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
@@ -25,6 +26,7 @@
     </div>
   </div>
 </div>
+{% endif %}
 
 {% javascript %}
   let bannerTL = gsap.timeline({
@@ -54,6 +56,12 @@
   {
     "name": "Fit Guide Editorial CTA",
     "settings": [
+	  {
+        "type": "checkbox",
+        "id": "show_section",
+        "label": "Show Section?",
+		"default": false
+      },
       {
         "type": "image_picker",
         "id": "image",
