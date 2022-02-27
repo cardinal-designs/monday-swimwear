@@ -346,6 +346,11 @@ variant-radios fieldset {
   background-color: #F8F7F4;
 }
 
+.product-form__input input[type='radio']:checked + label {
+  background-color: #333333;
+  color: white;
+}
+
 .product-form__input input[type='radio'] + label::after {
   content: '';
   height: 43px;
