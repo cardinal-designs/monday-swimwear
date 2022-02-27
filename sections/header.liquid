@@ -212,7 +212,7 @@
   {%- endif -%}
 
   <!-- Icons -->
-  <div class="header__icons TEST">
+  <div class="header__icons">
     {% if section.settings.right_link_1 != blank or section.settings.right_links_dropdown != blank %}    
       <ul class="header__offset-links" role="list">
         {% if section.settings.right_link_1 != blank %}
@@ -228,7 +228,7 @@
             <div class="header__menu-item header__menu-item--has-dropdown btn">
               <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ section.settings.right_link_dropdown_label }}</span>
             </div>
-            <ul class="header__submenu" role="list" tabindex="-1">
+            <ul class="header__submenu TEST" role="list" tabindex="-1">
               {%- for childlink in right_dropdown_menu.links -%}
                 <li>
                   <a href="{{ childlink.url }}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
