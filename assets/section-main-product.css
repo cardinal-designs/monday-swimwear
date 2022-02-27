@@ -410,6 +410,10 @@ variant-radios fieldset {
     width: 136px;
     margin-right: 10px;
   }
+  
+  .product__final-sale {
+    text-align: center;
+  }
 }
 
 /* No outline when focus-visible is available in the browser */
