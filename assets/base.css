@@ -1907,7 +1907,7 @@ header-drawer {
   z-index: 3;
 }
 
-.header__mega-menu-wrapper:hover .header__menu-item--has-dropdown::after {
+.header__icons:hover .header__menu-item--has-dropdown::after {
   background: var(--yellow);
 }
 
