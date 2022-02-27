@@ -317,6 +317,10 @@
         {% if product.metafields.my_fields.shipping_notice != blank %}
           <p class="product__shipping-notice detail">{{ product.metafields.my_fields.shipping_notice }}</p>
         {% endif %}
+        
+        {% for tag in product.tags %}
+          <p class="product__final-sale detail">This item is Final Sale. It cannot be returned for refund, credit or exchange.</p>
+        {% endfor %}
 
         <div class="product__dropdowns">
           <div class="product__dropdown">
