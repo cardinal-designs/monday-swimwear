@@ -568,13 +568,13 @@ variant-radios fieldset {
 /* Size chart dropdown */
 .size-chart-dropdown {
   margin: 20px 0;
-  border-top: 1px solid #F8F7F4;
-  border-bottom: 0;
+  border-top: 0;
+  border-bottom: 1px solid #F8F7F4;
 }
 
 .size-chart-dropdown__header {
   width: 100%;
-  padding: 10px 0;
+  padding: 14px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
