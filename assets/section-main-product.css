@@ -194,6 +194,8 @@
   margin-bottom: 20px;
   padding-bottom: 16px;
   border-bottom: 1px solid #F8F7F4;
+  display: flex;
+  align-items: center;
 }
 
 .product__info-wrapper .form__label {
