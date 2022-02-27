@@ -2014,7 +2014,7 @@ header-drawer {
   -webkit-transition: transform .15s ease-in-out;
 }
 
-.header__submenu .header__submenu-item a:hover {
+.header__submenu .header__submenu-item:not(..header__submenu-item--gray):hover {
   transform: translateX(10px);
 }
 
