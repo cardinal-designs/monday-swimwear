@@ -2012,6 +2012,10 @@ header-drawer {
   line-height: 1.5;
 }
 
+.header__submenu-item--gray {
+  opacity: 0.4; 
+}
+
 
 /*============================================================================
   Slide out menu
