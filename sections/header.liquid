@@ -148,7 +148,7 @@
                 <ul class="header__submenu" role="list" tabindex="-1">
                   {%- for childlink in link.links -%}
                     <li>
-                      <a {% unless childlink.title == 'Help' %}href="{{ childlink.url }}"}{% endunless %} class="TEST header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                      <a {% unless childlink.title == 'Help' %}href="{{ childlink.url }}"{% endunless %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                         {{ childlink.title | escape }}
                       </a>
                     </li>
