@@ -2013,7 +2013,11 @@ header-drawer {
 }
 
 .header__submenu-item--gray {
-  opacity: 0.4; 
+  opacity: .4; 
+}
+
+.header__submenu .header__submenu-item:nth-of-type(2) {
+  transform: translateX(10px);
 }
 
 
