@@ -71,11 +71,10 @@
           </ul>
         {% endunless %}
         
-      </div>
-      
-      {% if product.metafields.my_fields.model_is_wearing != blank %}
+        {% if product.metafields.my_fields.model_is_wearing != blank %}
         <p class="body-small">{{ product.metafields.my_fields.model_is_wearing }}</p>
         {% endif %}
+      </div>      
     </div>
 
     <div class="product__info-wrapper">
