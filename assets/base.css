@@ -2010,13 +2010,8 @@ header-drawer {
   font-size: 14px;
   margin-bottom: 20px;
   line-height: 1.5;
-  transition: transform .15s ease-in-out;
-  -webkit-transition: transform .15s ease-in-out;
 }
 
-.header__submenu .header__submenu-item:hover {
-  transform: translate(10px);
-}
 
 /*============================================================================
   Slide out menu
