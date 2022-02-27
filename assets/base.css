@@ -1907,7 +1907,7 @@ header-drawer {
   z-index: 3;
 }
 
-.header__menu-item--has-dropdown:hover {
+.header__menu-item--has-dropdown:hover .header__menu-item--has-dropdown::hover {
   background: var(--yellow);
 }
 
