@@ -211,6 +211,8 @@
 /* Product swatches */
 .product__swatches {
   margin: 0 0 20px -10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F8F7F4;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
