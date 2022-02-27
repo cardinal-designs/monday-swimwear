@@ -377,6 +377,7 @@ variant-radios fieldset {
 }
 
 .product__final-sale {
+  margin-top: 20px;
   color: #EB5757;
 }
 
