@@ -2157,7 +2157,7 @@ header-drawer {
 /*================ Legal Popup ================*/
 .legal-popup {
   width: 300px;
-  padding: 25px;
+  padding: 20px 25px;
   position: fixed;
   left: 0;
   right: 0;
