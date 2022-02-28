@@ -2209,8 +2209,7 @@ header-drawer {
 }
 
 @media screen and (max-width: 768px) {
- 
-  .legal-popup__close {
+/*   .legal-popup__close {
     position: relative;
     padding: 0;
     width: auto;
@@ -2228,7 +2227,7 @@ header-drawer {
     background-color: #fff;
     left: 0;
     bottom: -3px;
-  }
+  } */
 }
 
 /*================ Credits ================*/
