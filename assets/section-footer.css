@@ -255,7 +255,7 @@
   padding: 0 !important;
   width: 50px !important;
   border-bottom: 1px solid black !important;
-  background-image: url('https://cdn.shopify.com/s/files/1/2352/6823/files/right-arrow.svg?v=1646025811');
-  background-size: contain;
-  background-position: center;
+  background-image: url('https://cdn.shopify.com/s/files/1/2352/6823/files/right-arrow.svg?v=1646025811') !important;
+  background-size: contain !important;
+  background-position: center !important;
 }
