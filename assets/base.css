@@ -2209,6 +2209,9 @@ header-drawer {
 }
 
 @media screen and (max-width: 768px) {
+  .legal-popup {
+    padding: 20px;
+  }
 /*   .legal-popup__close {
     position: relative;
     padding: 0;
@@ -2228,6 +2231,12 @@ header-drawer {
     left: 0;
     bottom: -3px;
   } */
+}
+
+@media screen and (max-width: 450px) {
+  .legal-popup {
+    width: 250px;
+  }
 }
 
 /*================ Credits ================*/
