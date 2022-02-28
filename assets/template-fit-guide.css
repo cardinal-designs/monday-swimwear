@@ -533,6 +533,10 @@
   .fit-size-chart__container {
     display: block;
   }
+  
+  .fit-size-chart__measurements {
+    justify-content: center;
+  }
 
   .fit-size-chart__measurements-container {
     margin-bottom: 20px;
