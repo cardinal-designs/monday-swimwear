@@ -274,6 +274,10 @@ cart-items {
   margin-left: 13px !important;
 }
 
+#nested-ecocart-container .second-div a {
+  margin-left: 0 !important;
+}
+
 @media screen and (min-width: 769px) {
   .cart-note {
     max-width: 35rem;
