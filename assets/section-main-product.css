@@ -136,6 +136,9 @@
   height: 1px;
 }
 
+.product__model-note {
+}
+
 @media screen and (max-width: 1150px) {
   .product__media-wrapper {
     gap: 20px;
