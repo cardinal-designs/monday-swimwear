@@ -261,6 +261,15 @@ cart-items {
   text-align: center !important;
 }
 
+#nested-ecocart-container {
+  border: 0 !important;
+}
+
+#nested-ecocart-container p:not(.ec-title) {
+  font-family: Neue Haas Unica Pro,sans-serif;
+  font-style: normal;
+}
+
 @media screen and (min-width: 769px) {
   .cart-note {
     max-width: 35rem;
