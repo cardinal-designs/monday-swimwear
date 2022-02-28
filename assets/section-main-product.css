@@ -136,17 +136,6 @@
   height: 1px;
 }
 
-.product__model-note {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  left: 0;
-  margin: 0;
-  bottom: 0px;
-  padding: 14px 0;
-  background-color: #F2F0E8;
-}
-
 @media screen and (max-width: 1150px) {
   .product__media-wrapper {
     gap: 20px;
