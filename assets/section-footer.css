@@ -235,7 +235,7 @@
 .footer .kl-private-reset-css-Xuajs1 input[type='email'] {
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   font-style: normal !important;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 18px !important;
   line-height: 1.5 !important;
   letter-spacing: 0.02em !important;
@@ -248,7 +248,7 @@
 .footer .kl-private-reset-css-Xuajs1 input[type='email']::placeholder {
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   font-style: normal !important;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 18px !important;
   line-height: 1.5 !important;
   letter-spacing: 0.02em !important;
@@ -263,4 +263,11 @@
   background-size: 16px !important;
   background-position: center right!important;
   background-repeat: no-repeat !important;
+}
+
+.footer .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1 .ql-container.ql-container.ql-container p, 
+.footer .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1 .ql-container.ql-container.ql-container a {
+  font-family: 'Neue Haas Unica Pro', sans-serif !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.02em !important;
 }
