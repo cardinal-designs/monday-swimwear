@@ -186,7 +186,7 @@
   background: #F8F7F4;
 }
 
-..product-bar__form .product-form__input input[type=radio]:checked+label .product-form__input-btn {
+.product-bar__form .product-form__input input[type='radio']:checked + label .product-form__input-btn {
   background: #333;
 }
 
