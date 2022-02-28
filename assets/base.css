@@ -2162,10 +2162,10 @@ header-drawer {
 .legal-popup__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .legal-popup__container p {
-  max-width: 800px;
   margin: 0 40px 0 0;
   font-size: 10px;
   line-height: 18px;
