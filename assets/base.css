@@ -1321,7 +1321,7 @@ deferred-media {
 @media screen and (max-width: 768px) {
   .announcement-bar__item p {
     font-size: 12px;
-    line-height: 21px;
+    line-height: 18px;
   }
 }
 
