@@ -249,3 +249,9 @@
   line-height: 1.5 !important;
   letter-spacing: 0.02em !important;
 }
+
+.footer .kl-private-reset-css-Xuajs1 button {
+  padding: 0 !important;
+  width: 50px !important;
+  padding-bottom: 1px solid black !important;
+}
