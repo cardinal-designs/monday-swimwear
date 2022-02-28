@@ -228,6 +228,10 @@
 }
 
 /* Klaviyo embed */
+.footer .kl-private-reset-css-Xuajs1 {
+  min-height: auto !important;
+}
+
 .footer .kl-private-reset-css-Xuajs1 input[type='email'] {
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   font-style: normal !important;
