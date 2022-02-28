@@ -2185,7 +2185,12 @@ header-drawer {
 .legal-popup__close {
   font-size: 11px;
   line-height: 11px;
-  padding: 17px 67px 20px 67px;
+  padding: 0 0 4px;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
