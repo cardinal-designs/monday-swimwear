@@ -1694,6 +1694,7 @@ header-drawer {
 
 .menu-drawer__menu-item--top {
   border-bottom: 1px solid #F8F7F4;
+  position: relative;
 }
 
 .menu-drawer__menu-item--top > .menu-drawer__menu-item {
@@ -1701,7 +1702,6 @@ header-drawer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 
 .menu-drawer__menu-item--top .shop-all-link {
