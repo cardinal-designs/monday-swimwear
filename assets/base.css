@@ -1703,7 +1703,7 @@ header-drawer {
   align-items: center;
 }
 
-.menu-drawer__menu-item--top > .menu-drawer__menu-item .shop-all-link {
+.menu-drawer__menu-item--top >  .shop-all-link {
   padding: 7px 22px 8px;
   background: var(--bone);
 }
