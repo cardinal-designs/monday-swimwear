@@ -31,7 +31,7 @@
                         <div class="menu-drawer__menu-item list-menu__item body{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                           {% if link.title contains 'Shop All' %}
                             Shop
-                            <button class="shop-all-link link" href="/collections/shop-all">Shop All</button>
+                            <a class="shop-all-link link" href="/collections/shop-all">Shop All</a>
                           {% else %}
                             {{ link.title | escape }}
                           {% endif %}
