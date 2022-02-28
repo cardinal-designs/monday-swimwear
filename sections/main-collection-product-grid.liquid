@@ -28,17 +28,12 @@
         </div>
         <div class="title-wrapper center">
           <p class="body-large title title--primary">
-            {{ 'sections.collection_template.empty' | t }}<br>
-            {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
-          </p>
-          
-          <p class="body-large title title--primary">
             No products found.
           </p>
           <div class="collection--empty-buttons">
-            <button class="button collection-filters__clear">Change Filters</button>
+            <a class="button collection-filters__clear" href="{{ collection.url }}">Change Filters</a>
             <p>or</p>
-            <a class="button button--ghost" href="">Shop All</a>
+            <a class="button button--ghost" href="/collections/all-swimwear">Shop All</a>
           </div>
         </div>
       </div>
