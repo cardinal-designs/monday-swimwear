@@ -150,7 +150,7 @@
 }
 
 .footer__content-bottom .list-social {
-  margin-left: -10px;
+  margin-left: 0;
   justify-content: flex-start;
 }
 
