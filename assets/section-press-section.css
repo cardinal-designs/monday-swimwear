@@ -16,7 +16,6 @@
   padding: 70px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background: var(--bone);
   text-align: center;
 }
