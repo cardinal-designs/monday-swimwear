@@ -69,6 +69,7 @@
           "mobile_logo_width": 210,
           "logo_position": "center",
           "menu": "main-menu-2022",
+          "mobile_menu": "mobile-menu",
           "right_link_1": "shopify:\/\/pages\/fit-guide",
           "right_link_1_label": "Fit Guide",
           "right_links_dropdown": "help",
