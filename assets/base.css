@@ -1836,7 +1836,7 @@ header-drawer {
 .header__mega-menu-outer {
   width: 100%;
   position: absolute;
-  top: 100%;
+  top: calc(100% - 1px);
   left: 0;
   visibility: hidden;
   opacity: 0;
