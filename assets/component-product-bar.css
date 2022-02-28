@@ -190,6 +190,10 @@
   background: #333;
 }
 
+.product-bar__form .product-form__input input[type='radio']:checked + label p {
+  color: black;
+}
+
 .product-bar__form .form__label {
   margin: 0 20px 0 0;
   opacity: .4;
