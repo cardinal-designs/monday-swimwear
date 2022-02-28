@@ -238,7 +238,7 @@
   border-top: 0 !important;
   border-left: 0 !important;
   border-right: 0 !important;
-  padding-left 0 !important;
+  padding-left: 0 !important;
 }
 
 .footer .kl-private-reset-css-Xuajs1 input[type='email']::placeholder {
