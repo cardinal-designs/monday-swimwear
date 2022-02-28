@@ -2182,6 +2182,12 @@ header-drawer {
   color: black;
 }
 
+.legal-popup__close {
+  font-size: 11px;
+  line-height: 11px;
+  padding: 17px 67px 20px 67px;
+}
+
 @media screen and (max-width: 768px) {
   .legal-popup {
     padding: 10px 0 14px;
