@@ -1,11 +1,9 @@
 <div class="legal-popup" data-day="{% if section.settings.legal_popup_days != blank %} {{ section.settings.legal_popup_days }}{% else %}1{% endif %} ">
-  <div class="page-width">
-    <div class="legal-popup__container">
-      <p class="body-small">{{ section.settings.text }}</p>
-      <button class="legal-popup__close button button--white-ghost">
-        Accept
-      </button>
-    </div>
+  <div class="legal-popup__container">
+    <p class="body-small">{{ section.settings.text }}</p>
+    <button class="legal-popup__close button button--white-ghost">
+      Accept
+    </button>
   </div>
 </div>
 
