@@ -2210,7 +2210,7 @@ header-drawer {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .legal-popup {
     padding: 5px 15px 8px;
   }
@@ -2240,7 +2240,7 @@ header-drawer {
     left: 0;
     bottom: -3px;
   }
-}
+} */
 
 /*================ Credits ================*/
 .credits {
