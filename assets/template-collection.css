@@ -88,6 +88,11 @@
   margin-bottom: 120px;
 }
 
+.collection--empty .title {
+  margin: 0;
+  text-align: center;
+}
+
 .product-grid { 
   margin: 0;
   padding: 0;
