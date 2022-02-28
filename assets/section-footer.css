@@ -270,4 +270,7 @@
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   line-height: 1.5 !important;
   letter-spacing: 0.02em !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
 }
