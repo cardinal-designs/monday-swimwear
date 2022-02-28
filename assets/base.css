@@ -2200,8 +2200,9 @@ header-drawer {
   }
 
   .legal-popup__container p {
-    margin: 0 0 20px;
-    font-size: 12px;
+    margin: 0;
+    font-size: 9px;
+    line-height: 16px;
   }
   
   .legal-popup__close {
@@ -2211,6 +2212,7 @@ header-drawer {
     min-width: auto;
     height: auto;
     border: 0;
+    margin-left: 11px;
   }
 }
 
