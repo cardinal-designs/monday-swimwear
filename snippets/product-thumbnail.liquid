@@ -74,4 +74,8 @@
       <p class="detail-caps">{{ media.preview_image.alt }}</p>
     </div>
   {% endif %}
+  
+  {% if product.metafields.my_fields.model_is_wearing != blank %}
+    <p class="body-small">{{ product.metafields.my_fields.model_is_wearing }}</p>
+  {% endif %}
 </div>
