@@ -13,20 +13,20 @@
   justify-content: flex-end;
 }
 
-.price-item {
+.product__info-container .price-item {
   font-size: 20px;
   line-height: 24px;
 }
 
-.money {
+.product__info-container .money {
   line-height: 24px;
 }
 
-.price span {
+.product__info-container .price span {
   line-height: 24px;
 }
 
-s.price-item {
+.product__info-container s.price-item {
   opacity: .5;
 }
 
