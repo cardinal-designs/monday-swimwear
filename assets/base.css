@@ -1300,6 +1300,10 @@ deferred-media {
   align-items: center;
 }
 
+.announcement-bar__wrapper .swiper-wrapper {
+  align-items: center;
+}
+
 .announcement-bar__wrapper .swiper-button {
   padding: 5px;
 }
