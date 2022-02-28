@@ -82,6 +82,10 @@
   object-fit: contain;
 }
 
+.fit-guide-section__image-content .text-link {
+  margin-top: 8px;
+}
+
 .fit-guide-section__image .caption-neue {
   margin: 0 auto 20px;
   padding: 8px 10px;
