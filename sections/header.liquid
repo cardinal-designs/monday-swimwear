@@ -67,7 +67,12 @@
                         </div>
                       {%- else -%}
                         <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text btn{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
-                          {{ link.title | escape }}
+                          {% if link.title contains 'Shop All' %}
+                            Shop
+                            <a class="shop-all-link link" href="/collections/shop-all">Shop All</a>
+                          {% else %}
+                            {{ link.title | escape }}
+                          {% endif %}
                         </a>
                       {%- endif -%}
                     </li>
