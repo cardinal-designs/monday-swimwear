@@ -1701,11 +1701,15 @@ header-drawer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .menu-drawer__menu-item--top .shop-all-link {
   padding: 7px 22px 8px;
   background: var(--bone);
+  position: absolute;
+  top: 12px;
+  right: 0;
 }
 
 .menu-drawer__menu--middle {
