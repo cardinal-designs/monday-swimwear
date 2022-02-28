@@ -1314,6 +1314,13 @@ deferred-media {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .announcement-bar__item p {
+    font-size: 12px;
+    line-height: 21px;
+  }
+}
+
 /*================ Cart Bubble ================*/
 .cart-count-bubble:empty {
   display: none;
