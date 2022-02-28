@@ -251,6 +251,7 @@
 }
 
 .footer .kl-private-reset-css-Xuajs1 button {
+  position: relative;
   padding: 0 !important;
   width: 50px !important;
   border-bottom: 1px solid black !important;
