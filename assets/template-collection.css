@@ -95,8 +95,9 @@
 
 .collection--empty-buttons {
   display: flex;
-  height: 54px;
   justify-content: center;
+  align-items: center;
+  height: 54px;
 }
 
 .collection--empty-buttons p {
