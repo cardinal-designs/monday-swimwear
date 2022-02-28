@@ -204,6 +204,7 @@
 .product-bar__form .product__swatches {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .product-bar__form .product__swatches-button {
