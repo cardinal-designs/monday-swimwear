@@ -418,6 +418,10 @@ variant-radios fieldset {
 }
 
 @media only screen and (max-width: 850px) {
+  .product__shipping-notice {
+    text-align: center;
+  }
+  
   .product__final-sale {
     text-align: center;
   }
