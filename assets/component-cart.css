@@ -265,8 +265,8 @@ cart-items {
   border: 0 !important;
 }
 
-#nested-ecocart-container p:not(.ec-title) {
-  font-family: Neue Haas Unica Pro,sans-serif;
+#nested-ecocart-container p {
+  font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal;
 }
 
