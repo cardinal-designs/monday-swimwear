@@ -101,12 +101,14 @@
   [...document.querySelectorAll('.product-slider__navigation-item')].forEach((el, i) => {
     el.addEventListener('click', event => {
       const el = event.target;
-      const collection = el.dataset.collection; 
-      console.log(collection)
+      const collection = el.dataset.collection;
 
       if (!el.classList.contains('active')) {
         document.querySelector('.product-slider__navigation-item.active').classList.remove('active');
         el.classList.add('active');
+
+        document.querySelector('.product-slider__arrows-wrapper.active').classList.remove('active');
+        document.querySelector(`.product-slider__arrows-wrapper[data-collection="${collection}"]`).classList.add('active'); 
 
         document.querySelector('.product-slider__collection.active').classList.remove('active');
         document.querySelector(`.product-slider__collection[data-collection="${collection}"]`).classList.add('active'); 
