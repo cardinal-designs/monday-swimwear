@@ -2187,6 +2187,7 @@ header-drawer {
   line-height: 11px;
   padding: 0 0 4px;
   width: 90px;
+  min-width: 90px;
   height: 30px;
   display: flex;
   align-items: center;
