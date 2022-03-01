@@ -1694,6 +1694,16 @@ header-drawer {
   padding: 0 0 30px;
 }
 
+.header__icon--close {
+  background: black;
+  height: 50px;
+  width: 50px;
+}
+
+.header__icon--close .icon-close {
+  color: white;
+}
+
 .menu-drawer__menu-item--top {
   border-bottom: 1px solid #F8F7F4;
   position: relative;
