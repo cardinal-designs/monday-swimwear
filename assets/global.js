@@ -817,19 +817,21 @@ function setCookie(name, value, days) {
 }
 
 /*================ Credits popup ================*/
-const creditsButton = document.querySelector('a[href="#credits"]');
-const creditsCloseButton = document.querySelector('.credits__close');
+const creditsButtons = document.querySelectorAll('a[href="#credits"]');
+const creditsCloseButtons = document.querySelectorAll('.credits__close');
 const credits = document.querySelector('.credits');
 
-
-creditsButton.addEventListener('click', event => {
-  event.preventDefault();
-  console.log(credits)
-  credits.classList.add('is-visible');
+creditsButtons.forEach(creditsButton => {
+  creditsButton.addEventListener('click', event => {
+    event.preventDefault();
+    credits.classList.add('is-visible');
+  });
 });
 
-creditsCloseButton.addEventListener('click', event => {
-  credits.classList.remove('is-visible');
+creditsCloseButtons.forEach(creditsCloseButton => {
+  creditsCloseButton.addEventListener('click', event => {
+    credits.classList.remove('is-visible');
+  });
 });
 
 /*================ PDP Size Chart ================*/
