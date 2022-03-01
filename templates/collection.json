@@ -27,7 +27,7 @@
           "type": "filter_category",
           "settings": {
             "title": "Size",
-            "filters": "P,S,M,L,XL,V,VV,VVV,S\/M,L\/V,OS"
+            "filters": "P,S,M,L,V,VV,VVV,P\/S,M\/L,OS,S\/M,L\/V,"
           }
         },
         "4802a76d-c48c-4206-968b-2d7341f784cd": {
