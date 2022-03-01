@@ -20,14 +20,14 @@
           "type": "filter_category",
           "settings": {
             "title": "Color",
-            "filters": "Black,Caramel Rib,Creme Wave,Cyan Crinkle,Italian Ice,Ivory,Jaguar,Moon Crinkle,Navy Rib,Orchid Jacquard,Peach Floral,Sand,Sea Jacquard,Straw,Tiger,Toffee,White,White Sand"
+            "filters": "Black,Caramel Rib,Creme Wave,Cyan Crinkle,Italian Ice,Jaguar,Moon Crinkle,Navy Rib,Orchid Jacquard,Peach Floral,Sand,Straw,Tiger,Toffee,White,White Sand"
           }
         },
         "117d4bde-f25c-4a9a-8d12-3978feae7f74": {
           "type": "filter_category",
           "settings": {
             "title": "Size",
-            "filters": "P,S,M,L,V,VV,VVV,P\/S,M\/L,OS,S\/M,L\/V,"
+            "filters": "P,S,M,L,V,VV,VVV,OS,P\/S,M\/L,S\/M,L\/V,"
           }
         },
         "4802a76d-c48c-4206-968b-2d7341f784cd": {
