@@ -13,7 +13,7 @@
           "type": "filter_category",
           "settings": {
             "title": "Category",
-            "filters": "Triangle,Strapless,Underwire,Supportive"
+            "filters": "Swim Tops,Swim Bottoms, One Piece, Beachwear"
           }
         },
         "8a83884e-ac94-4475-959e-f30b73e1b9fd": {
@@ -34,7 +34,7 @@
           "type": "filter_category",
           "settings": {
             "title": "Fit",
-            "filters": "Minimal,Cheeky,Moderate,High-Waisted,Supportive"
+            "filters": "Triangle,Underwire,Supportive, Minimal,Cheeky,Moderate,High-Waisted,"
           }
         }
       },
