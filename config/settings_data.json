@@ -74,7 +74,7 @@
           "right_link_1_label": "Fit Guide",
           "right_links_dropdown": "help",
           "right_link_dropdown_label": "Help",
-          "enable_search": false
+          "enable_search": true
         }
       },
       "cart-drawer": {
