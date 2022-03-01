@@ -202,6 +202,7 @@
 
   .footer__info-links {
     display: block;
+    margin-bottom: 70px;
   }
 
   .footer__info-links a {
@@ -218,8 +219,9 @@
 
   .footer__content-credits {
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    left: 0;
+    right: auto;
+    bottom: 20px;
   }
 
   .footer__content-top {
