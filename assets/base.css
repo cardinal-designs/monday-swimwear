@@ -1843,6 +1843,8 @@ header-drawer {
   border: 0;
   font-size: 14px;
   font-family: 'Neue Haas Unica Pro', sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 150%;
   background: transparent;
 }
 
