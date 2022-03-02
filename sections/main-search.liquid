@@ -62,6 +62,7 @@
     {%- else -%}
       <h1 class="h2">{{ 'general.search.search' | t }}</h1>
     {%- endif -%}
+    {% comment %}
     <div class="template-search__search">
       {%- if settings.predictive_search_enabled -%}
         <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}">
@@ -115,6 +116,7 @@
       {%- endif -%} 
 
     </div>
+      {% endcomment %}
     {%- if search.performed -%}
       {%- unless section.settings.enable_filtering or section.settings.enable_sorting -%} 
         {%- if search.results_count > 0 -%}        
