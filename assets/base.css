@@ -1431,7 +1431,8 @@ deferred-media {
 }
 
 @media screen and (min-width: 769px) {
-  .template-index #shopify-section-header:not(.scrolled) .header__svg-logo svg {
+  .template-index #shopify-section-header:not(.scrolled) .header__svg-logo svg,
+  .template-index #shopify-section-header:not(.scrolled) .header__icon svg {
     color: white;
   }
 
