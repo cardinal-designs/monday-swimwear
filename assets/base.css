@@ -1904,7 +1904,8 @@ header-drawer {
   border-bottom: none;
 }
 
-.mobile-search .header__search-input, .mobile-search .header__search-input::placeholder  { {
+.mobile-search .header__search-input, 
+.mobile-search .header__search-input::placeholder {
   font-size: 12px;
 }
 
