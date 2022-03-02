@@ -1843,7 +1843,7 @@ header-drawer {
   font-size: 18px;
 }
 
-.header__search-container .icon {
+.header__search-container .icon, .header__search-close {
   height: 12px;
   width: 12px;
 }
