@@ -19,6 +19,7 @@
             <div class="menu-drawer__header">
               <div class="mobile-search">
                 <form action="{{ routes.search_url }}" method="get" role="search" class="header__search-form">
+                  <input type="hidden" name="type" value="product">
                   <div class="header__search-group">
                     <input class="header__search-input" id="Search-In-Modal" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
                     <input type="hidden" name="options[prefix]" value="last">
