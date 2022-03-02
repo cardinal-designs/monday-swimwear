@@ -1914,8 +1914,8 @@ header-drawer {
 }
 
 .mobile-search .header__search-group svg {
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
 }
 
 .mobile-search .header__search-input {
@@ -1923,7 +1923,7 @@ header-drawer {
 }
 
 .mobile-search .header__search-button {
-  height: 25px;
+  height: 17px;
 }  
 
 .mobile-search .header__icon--close {
