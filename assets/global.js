@@ -925,3 +925,7 @@ faqs.forEach(faq => {
     slideToggle(content, 300);
   });
 });
+
+/*================ Search ================*/
+
+// $('.header__search.is-visible').parent().parent().find('.')
