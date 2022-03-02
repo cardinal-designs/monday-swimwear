@@ -1821,6 +1821,7 @@ header-drawer {
   display: flex;
   justify-content: center;
   align-items: center;
+  header__search-container
 }
 
 .header__search-form {
