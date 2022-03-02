@@ -1821,7 +1821,7 @@ header-drawer {
   display: flex;
   justify-content: center;
   align-items: center;
-  header__search-container
+  position: relative;
 }
 
 .header__search-form {
@@ -1849,9 +1849,14 @@ header-drawer {
   width: 25px;
 }
 
-.header__search-container .header__search-close svg,
-.header__search-container .header__search-close   {
+.header__search-container .header__search-close svg {
   height: 12px;
+  width: 12px;
+}
+
+.header__search-container .header__search-close {
+  position: absolute;
+  right: 0;
   width: 12px;
 }
 
