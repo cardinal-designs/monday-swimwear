@@ -393,12 +393,16 @@
     const openSearch = document.querySelector('.js-open-search');
     const closeSearch = document.querySelector('.js-close-search');
     const search = document.querySelector('.header__search');
+    var header = document.getElementById('shopify-section-header');
+    
 
     openSearch.addEventListener('click', () => {
       if (search.classList.contains('is-visible')) {
         search.classList.remove('is-visible');
+        header.classList.remove('header-background');
       } else {
         search.classList.add('is-visible');
+        header.classList.add('header-background');
       }
     });
 
