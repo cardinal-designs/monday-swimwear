@@ -17,7 +17,18 @@
         <div id="menu-drawer" class="menu-drawer" tabindex="-1" aria-hidden="true">
           <div class="menu-drawer__inner-container">
             <div class="menu-drawer__header">
-              <h2>Menu</h2>
+              <div class="mobile-search">
+                <form action="{{ routes.search_url }}" method="get" role="search" class="header__search-form">
+                  <div class="header__search-group">
+                    <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
+                    <input type="hidden" name="options[prefix]" value="last">
+                    <input type="hidden" name="type" value="product" />
+                    <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
+                      {% render 'icon-search' %}
+                    </button>
+                  </div>
+                </form>
+              </div>
               <button class="js-close-menu header__icon header__icon--close" aria-label="Menu">
                 {% render 'icon-close' %}
               </button>
@@ -304,8 +315,9 @@
         <div class="header__search-container">
           <form action="{{ routes.search_url }}" method="get" role="search" class="header__search-form">
             <div class="header__search-group">
-              <input class="header__search-input" id="Search-In-Modal" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search...">
-              <input type="hidden" name="options[prefix]" value="last">
+              <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." />
+              <input type="hidden" name="options[prefix]" value="last" />
+              <input type="hidden" name="type" value="product" /> 
               <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
                 {% render 'icon-search' %}
               </button>
@@ -393,6 +405,8 @@
     const openSearch = document.querySelector('.js-open-search');
     const closeSearch = document.querySelector('.js-close-search');
     const search = document.querySelector('.header__search');
+    var header = document.getElementById('shopify-section-header');
+    
 
     openSearch.addEventListener('click', () => {
       if (search.classList.contains('is-visible')) {
