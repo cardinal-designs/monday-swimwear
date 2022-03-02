@@ -1910,8 +1910,8 @@ header-drawer {
 }
 
 .mobile-search .header__search-group .icon--search {
-  width: 27px;
-  height: 27px;
+  width: 25px;
+  height: 25px;
 }
 
 .mobile-search .header__search-input {
@@ -1919,8 +1919,8 @@ header-drawer {
 }
 
 .mobile-search .header__search-button {
-  height: 27px;
-}
+  height: 25px;
+}  
 
 .mobile-search .header__icon--close {
   width: 56px;
