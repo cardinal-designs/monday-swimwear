@@ -1801,7 +1801,7 @@ header-drawer {
 /*================ Search ================*/
 .header__search {
   width: 100%;
-  padding: 20px 0;
+  padding: 12px 0;
   position: absolute;
   top: 100%;
   left: 0;
