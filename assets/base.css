@@ -1896,6 +1896,7 @@ header-drawer {
 
 .mobile-search .header__search-group {
   margin-right: 0;
+  margin: 0 5px;
 }
 
 /*============================================================================
