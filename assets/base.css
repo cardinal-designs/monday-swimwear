@@ -1439,7 +1439,7 @@ deferred-media {
     stroke: white;
   }
 
-  .template-index #shopify-section-header:not(.scrolled) .header__icon svg:hover {
+  .template-index #shopify-section-header:hover .header__icon svg {
     stroke: black;
   }
 
