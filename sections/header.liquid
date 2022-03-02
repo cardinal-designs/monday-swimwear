@@ -17,7 +17,17 @@
         <div id="menu-drawer" class="menu-drawer" tabindex="-1" aria-hidden="true">
           <div class="menu-drawer__inner-container">
             <div class="menu-drawer__header">
-              <h2>Menu</h2>
+              <div>
+                <form action="{{ routes.search_url }}" method="get" role="search" class="header__search-form">
+                  <div class="header__search-group">
+                    <input class="header__search-input" id="Search-In-Modal" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
+                    <input type="hidden" name="options[prefix]" value="last">
+                    <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
+                      {% render 'icon-search' %}
+                    </button>
+                  </div>
+                </form>
+              </div>
               <button class="js-close-menu header__icon header__icon--close" aria-label="Menu">
                 {% render 'icon-close' %}
               </button>
