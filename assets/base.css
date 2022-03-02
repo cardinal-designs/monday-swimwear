@@ -1898,6 +1898,10 @@ header-drawer {
   align-items: center;
 }
 
+.mobile-search .header__search-input {
+  background: #FAF5E1 !important;
+}
+
 .mobile-search .header__search-group {
   margin-right: 20px;
   margin-left: 10px;
