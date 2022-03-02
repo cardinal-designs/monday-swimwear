@@ -1860,6 +1860,10 @@ header-drawer {
   background: transparent;
 }
 
+.header__search-input:focus{
+    outline: none;
+}
+
 .header__search-container .icon {
   height: 30px;
   width: 30px;
