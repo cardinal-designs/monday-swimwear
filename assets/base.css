@@ -1892,6 +1892,10 @@ header-drawer {
 
 .mobile-search {
   width: 100%;
+  background: #F2F0E8;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .mobile-search .header__search-group {
