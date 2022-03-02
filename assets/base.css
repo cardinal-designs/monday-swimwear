@@ -1381,7 +1381,7 @@ deferred-media {
     margin-top: -65px;
   }
 
-  .template-index #shopify-section-header .header__search.is-visible {
+  .template-index #shopify-section-header:not(.scrolled) .header__search.is-visible {
     background: white;
     border: transparent;
   }
