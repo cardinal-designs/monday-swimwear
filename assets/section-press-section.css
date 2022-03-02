@@ -24,6 +24,11 @@
   margin-bottom: 22px;
 }
 
+.press-section__logo img {
+  max-width: 100%;
+  height: auto;
+}
+
 .press-section__content .body-large {
   margin: 0 0 20px;
 }
