@@ -155,9 +155,9 @@
             <div class="loading-overlay gradient"></div>
             <ul id="product-grid" data-id="{{ section.id }}" class="product-grid">
               {%- for item in search.results -%}
-                <li class="product-grid__item">
+                <li class="product-grid__item {{item.object_type}}">
                   {%- case item.object_type -%}
-                  {{item.object_type}}
+                  
                     {%- when 'product' -%}
                       {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
                       {% render 'product-card',
