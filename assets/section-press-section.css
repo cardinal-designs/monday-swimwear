@@ -25,7 +25,7 @@
 }
 
 .press-section__logo .aspect-ratio img {
-  height: 40px;
+  height: auto;
   width: auto;
   max-width: 100%;
 }
