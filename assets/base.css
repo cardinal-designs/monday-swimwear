@@ -1901,6 +1901,7 @@ header-drawer {
 .mobile-search .header__search-group {
   margin-right: 20px;
   margin-left: 10px;
+  border-bottom: none;
 }
 
 .mobile-search .header__search-group .icon--search {
