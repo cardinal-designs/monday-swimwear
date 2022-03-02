@@ -1848,7 +1848,7 @@ header-drawer {
   width: 25px;
 }
 
-.header__search-container.header__search-close {
+.header__search-container .header__search-close {
   height: 12px;
   width: 12px;
 }
