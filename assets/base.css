@@ -1380,11 +1380,6 @@ deferred-media {
   .template-index #MainContent {
     margin-top: -65px;
   }
-
-  .template-index #shopify-section-header:not(.scrolled) .header__search.is-visible {
-    background: white;
-    border: transparent;
-  }
 }
 
 @media screen and (max-width: 768px) {
