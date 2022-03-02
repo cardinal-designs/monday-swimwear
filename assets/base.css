@@ -1891,6 +1891,12 @@ header-drawer {
 }
 
 
+.header__search-button svg{
+  height: 21px;
+  width: 21px;
+}
+
+
 .mobile-search {
   width: 100%;
   background: #FAF5E1 !important;
