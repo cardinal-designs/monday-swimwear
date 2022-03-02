@@ -40,7 +40,8 @@
             "style": "Supportive",
             "fabric": "",
             "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/jamaica-top-black"
+            "shop_link": "shopify:\/\/products\/jamaica-top-black",
+            "explore_link": ""
           }
         }
       },
@@ -51,6 +52,11 @@
         "offset_text": true,
         "use_page_width": true
       }
+    },
+    "16462581317fc2b4a0": {
+      "type": "nosto-recommendations",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -58,6 +64,7 @@
     "16426285735ee00f29",
     "164253095353d35284",
     "product-recommendations",
-    "1642702250db612244"
+    "1642702250db612244",
+    "16462581317fc2b4a0"
   ]
 }
