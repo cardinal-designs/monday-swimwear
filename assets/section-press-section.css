@@ -24,9 +24,10 @@
   margin-bottom: 22px;
 }
 
-.press-section__logo img {
+.press-section__logo .aspect-ratio img {
+  height: 40px;
+  width: auto;
   max-width: 100%;
-  height: auto;
 }
 
 .press-section__content .body-large {
