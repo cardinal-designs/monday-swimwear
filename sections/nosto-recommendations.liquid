@@ -1,4 +1,52 @@
-<div class="nosto_element" id="productpage-nosto-1"></div>
+<style type="text/css">
+.nosto-recommendation {
+  font-size:12px;
+  color:#333;
+  width:100%;
+  margin-bottom:10px;
+}
+.nosto-header {
+  font-size:14px;
+  font-weight:bold;
+}
+.nosto-product-list {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.nosto-product-list-item {
+  float:left;
+  width:100px;
+  margin-right:10px;
+}
+.nosto-product-image {
+  display:block;
+  margin-bottom:5px;
+}
+.nosto-product-name {
+  font-weight:bold;
+  text-decoration:none;
+}
+</style>
+
+<div class="nosto-recommendation">
+  <div class="nosto-header">$!title</div>
+  <ul class="nosto-product-list">
+#foreach($product in $products)
+    <li class="nosto-product-list-item">
+      <a class="nosto-product-image" href="!$product.url">
+        <img src="$product.thumb(2)" alt="">
+      </a>
+      <div class="nosto-product-info">
+        <a class="nosto-product-name" href="$!product.url">$!product.name</a>
+        <div class="nosto-product-description">$!product.description</div>
+        <div class="nosto-product-price">$!product.price</div>
+      </div>
+    </li>
+#end
+  </ul>
+</div>
+ 
 
 {% schema %}
   {
