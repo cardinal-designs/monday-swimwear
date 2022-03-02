@@ -1435,12 +1435,13 @@ deferred-media {
     color: white;
   }
 
-  .template-index #shopify-section-header:not(.scrolled) .header__icon svg {
-    stroke: white;
+  .template-index #shopify-section-header:hover .header__icon svg,
+  .template-index #shopify-section-header .header__icon svg {
+    stroke: black;
   }
 
-  .template-index #shopify-section-header:hover .header__icon svg {
-    stroke: black;
+  .template-index #shopify-section-header:not(.scrolled) .header__icon svg {
+    stroke: white;
   }
 
   .template-index #shopify-section-header:hover .header__svg-logo svg {
