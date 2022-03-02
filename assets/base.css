@@ -1835,7 +1835,6 @@ header-drawer {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #000;
-  background: transparent;
 }
 
 .header__search-input {
@@ -1843,6 +1842,7 @@ header-drawer {
   padding: 0 0 10px;
   border: 0;
   font-size: 18px;
+  background: transparent;
 }
 
 .header__search-container .icon {
