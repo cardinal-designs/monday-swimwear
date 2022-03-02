@@ -1836,6 +1836,7 @@ header-drawer {
   align-items: center;
   border-bottom: 1px solid #000;
   opacity: 0.2;
+  background: transparent;
 }
 
 .header__search-input {
