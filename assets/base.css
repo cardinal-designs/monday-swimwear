@@ -1837,7 +1837,7 @@ header-drawer {
   border-bottom: 1px solid #000;
 }
 
-.header__search-input {
+.header__search-input, .header__search-input::placeholder  {
   width: 100%;
   padding: 0 0 10px;
   border: 0;
