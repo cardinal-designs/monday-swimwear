@@ -1904,6 +1904,10 @@ header-drawer {
   border-bottom: none;
 }
 
+.mobile-search .header__search-input {
+  font-size: 12px;
+}
+
 .mobile-search .header__search-group .icon--search {
   width: 25px;
   height: 25px;
