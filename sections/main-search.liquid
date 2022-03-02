@@ -157,6 +157,7 @@
               {%- for item in search.results -%}
                 <li class="product-grid__item">
                   {%- case item.object_type -%}
+                  {{item.object_type}}
                     {%- when 'product' -%}
                       {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
                       {% render 'product-card',
