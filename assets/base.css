@@ -1913,9 +1913,9 @@ header-drawer {
   font-size: 12px;
 }
 
-.mobile-search .header__search-group .icon--search {
-  width: 25px;
-  height: 25px;
+.mobile-search .header__search-group svg {
+  width: 15px;
+  height: 15px;
 }
 
 .mobile-search .header__search-input {
