@@ -155,7 +155,7 @@
             <div class="loading-overlay gradient"></div>
             <ul id="product-grid" data-id="{{ section.id }}" class="product-grid">
               {%- for item in search.results -%}
-                <li class="product-grid__item {{item.object_type}}">
+                <li class="product-grid__item">
                   {%- case item.object_type -%}
                   
                     {%- when 'product' -%}
