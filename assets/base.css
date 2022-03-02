@@ -1899,7 +1899,8 @@ header-drawer {
 }
 
 .mobile-search .header__search-group {
-  margin-right: 0;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 /*============================================================================
