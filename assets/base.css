@@ -1806,8 +1806,6 @@ header-drawer {
   top: 100%;
   left: 0;
   background: white;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   opacity: 0;
   visibility: hidden;
   transition: opacity .3s ease, visibility .3s ease;
