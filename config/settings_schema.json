@@ -8,7 +8,7 @@
     "theme_support_url": "https:\/\/cardinalco.agency\/"
   },
   {
-    "name": "Colors", 
+    "name": "Colors",
     "settings": [
       {
         "type": "color",
@@ -138,6 +138,16 @@
         "id": "currency_code_enabled",
         "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Checkout Note",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "checkout_note",
+        "label": "Checkout Note"
       }
     ]
   }
