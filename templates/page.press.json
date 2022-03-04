@@ -109,15 +109,6 @@
             "link": ""
           }
         },
-        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
-          "type": "block",
-          "settings": {
-            "logo": "insert who what wear",
-            "text": "“So the style that stood out above the rest for me? The Monday Swimwear Bahamas One Piece. The classic simple shape is the perfect entry point for someone not accustomed to a one-piece. It’s just the right amount of revealing on the bottom, and the material feels sturdy enough to hold everything in place.”",
-            "date": "Sept 2020",
-            "link": ""
-          }
-        },
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0": {
           "type": "block",
           "settings": {
@@ -146,6 +137,15 @@
             "date": "Sept 2020",
             "link": ""
           }
+        },
+        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
+          "type": "block",
+          "settings": {
+            "logo": "insert who what wear",
+            "text": "“So the style that stood out above the rest for me? The Monday Swimwear Bahamas One Piece. The classic simple shape is the perfect entry point for someone not accustomed to a one-piece. It’s just the right amount of revealing on the bottom, and the material feels sturdy enough to hold everything in place.”",
+            "date": "Sept 2020",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -154,10 +154,10 @@
         "afbc82dd-6c43-4f7a-9106-ad19ad971e58",
         "f6365442-2f02-469f-a572-bcc13a4b0ab9",
         "3cdcbc26-b2da-461f-912c-09be3d6ababc",
-        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
         "6917545b-14b1-4ef1-a682-48b0fd1cf274",
-        "613ef298-49bd-4e28-b8ab-16a6efb76314"
+        "613ef298-49bd-4e28-b8ab-16a6efb76314",
+        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b"
       ],
       "settings": {
         "title": ""
