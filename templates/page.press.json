@@ -93,7 +93,8 @@
         "f6365442-2f02-469f-a572-bcc13a4b0ab9": {
           "type": "block",
           "settings": {
-            "logo": "elle Australia",
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/elle-australia-vector-logo.png",
             "text": "“Brainchild of cool girls Tash Oakley and Devin Brugman, Monday Swim is the master of sexy flattering styles that are practically made for the ‘gram.”",
             "date": "Sept 2020",
             "link": ""
@@ -112,7 +113,8 @@
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0": {
           "type": "block",
           "settings": {
-            "logo": "insert Zoe report",
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/The_zoe_report_600x_e7a7644f-1531-407d-ba80-68c83cf160bd.png",
             "text": "“Monday Swimwear’s lineup feels thoughtfully curated - down to each new color way the brand adds into its mix.”",
             "date": "",
             "link": ""
@@ -132,7 +134,7 @@
           "type": "block",
           "settings": {
             "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/Nylon_magazine_logo.svg_5f75ebab-32e2-46d5-86cc-f01461806685.png",
+            "logo_img": "shopify:\/\/shop_images\/Nylon_magazine_logo-pink.png",
             "text": "“A refreshing array of simple swimwear in flattering silhouettes, billowing blouses, and breezy sarongs.”",
             "date": "Sept 2020",
             "link": ""
