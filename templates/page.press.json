@@ -64,7 +64,8 @@
         "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5": {
           "type": "block",
           "settings": {
-            "logo": "insert who what wear",
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
             "text": "“Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.”",
             "date": "Sept 2020",
             "link": ""
@@ -143,7 +144,8 @@
         "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
           "type": "block",
           "settings": {
-            "logo": "insert who what wear",
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
             "text": "“So the style that stood out above the rest for me? The Monday Swimwear Bahamas One Piece. The classic simple shape is the perfect entry point for someone not accustomed to a one-piece. It’s just the right amount of revealing on the bottom, and the material feels sturdy enough to hold everything in place.”",
             "date": "Sept 2020",
             "link": ""
