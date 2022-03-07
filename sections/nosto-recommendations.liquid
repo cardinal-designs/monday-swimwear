@@ -16,7 +16,7 @@
           .then(text => {
             const html = document.createElement('div');
             html.innerHTML = text;
-            const recommendations = html.querySelector('product-recommendations');
+            const recommendations = html.querySelector('#pdp-test-dynamic');
             if (recommendations && recommendations.innerHTML.trim().length) {
               this.innerHTML = recommendations.innerHTML;
             }
