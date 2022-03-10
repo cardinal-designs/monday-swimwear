@@ -32,6 +32,8 @@
         }
       }
     </style>
+    
+    {{ 'swell-rewards.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
     {{ skip_to_content_link }}
@@ -80,6 +82,9 @@
     <script src="https://api.passportshipping.com/external/shopify/themes/utils/utils.js?ts=1620030299559" type="text/javascript"></script> 
     <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript"></script> 
     <!-- /PASSPORT BREAKOUT SCRIPT -->
+    
+    
+    {{ 'swell-rewards.js' | asset_url | script_tag }}
 
   </body>
 </html>
