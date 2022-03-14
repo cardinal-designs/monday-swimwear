@@ -66,6 +66,7 @@
         },
         "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa": {
           "type": "lifestyle_card",
+          "disabled": true,
           "settings": {
             "collection": "shop-all",
             "position": 10,
