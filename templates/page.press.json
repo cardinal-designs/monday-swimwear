@@ -3,16 +3,6 @@
     "main": {
       "type": "press-section",
       "blocks": {
-        "e487a299-d64b-4e66-84ec-28c81d43788f": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/Cosmo.png",
-            "text": "“Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.”",
-            "date": "Sept 2020",
-            "link": ""
-          }
-        },
         "f3a2874f-ba11-4655-9ff6-953115ca2271": {
           "type": "block",
           "settings": {
@@ -20,6 +10,16 @@
             "logo_img": "shopify:\/\/shop_images\/1200px-VOGUE_revista_-_logo.png",
             "text": "\"No wonder Monday Swimwear founders Natasha Oakley and Devin Brugman are considered swimwear connoisseurs.\"",
             "date": "MARCH 2022",
+            "link": ""
+          }
+        },
+        "e487a299-d64b-4e66-84ec-28c81d43788f": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/Cosmo.png",
+            "text": "“Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.”",
+            "date": "Sept 2020",
             "link": ""
           }
         },
@@ -43,8 +43,8 @@
         }
       },
       "block_order": [
-        "e487a299-d64b-4e66-84ec-28c81d43788f",
         "f3a2874f-ba11-4655-9ff6-953115ca2271",
+        "e487a299-d64b-4e66-84ec-28c81d43788f",
         "78e91819-fd33-4578-9006-dce561d2c26f",
         "4e226a33-ac1a-44a9-9c1d-11c9700cbdae"
       ],
