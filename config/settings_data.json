@@ -2115,9 +2115,9 @@
           "title": "Get Your $25 Birthday Gift",
           "text": "Enter your birthday so we can send you a $25 credit on your special day.",
           "button_label": "Join Now",
-          "button_link": "\/register",
+          "button_link": "\/account\/register",
           "secondary_button_label": "Sign In",
-          "secondary_button_link": "\/login"
+          "secondary_button_link": "\/account\/login"
         }
       },
       "rewards-chart": {
