@@ -2261,9 +2261,9 @@
           "title": "Ready to Join",
           "text": "Want discounts, gifts, and exclusive early access? All you have to do is shop.",
           "button_label": "Join Now",
-          "button_link": "\/register",
+          "button_link": "\/account\/register",
           "secondary_button_label": "Sign In",
-          "secondary_button_link": "\/login"
+          "secondary_button_link": "\/account\/login"
         }
       },
       "legal-popup": {
