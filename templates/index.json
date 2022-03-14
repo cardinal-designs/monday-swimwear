@@ -11,13 +11,6 @@
         "button_link": "shopify:\/\/collections\/new-arrivals"
       }
     },
-    "164081090579915a8a": {
-      "type": "text",
-      "settings": {
-        "text": "10% of proceeds from all orders placed from March 14, 2022 through March 20, 2022 will be donated to the National Coalition Against Domestic Violence.",
-        "add_glow": true
-      }
-    },
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
@@ -39,6 +32,13 @@
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f"
       ],
       "settings": {
+      }
+    },
+    "164081090579915a8a": {
+      "type": "text",
+      "settings": {
+        "text": "10% of proceeds from all orders placed from March 14, 2022 through March 20, 2022 will be donated to the National Coalition Against Domestic Violence.",
+        "add_glow": true
       }
     },
     "16408101574f5b391b": {
@@ -217,8 +217,8 @@
   },
   "order": [
     "1640133702b1b204aa",
-    "164081090579915a8a",
     "16407502469f0e5f45",
+    "164081090579915a8a",
     "16408101574f5b391b",
     "1640811405c1297562",
     "16408186509f925b52",
