@@ -40,16 +40,29 @@
                 <div class="page-width">
                   <p class="collection-filters__dropdown-title detail-caps hide-mobile">By {{ block.settings.title }}</p>
                   <div class="collection-filters__dropdown-container">
-                    <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
-                      {% assign tag_list = block.settings.filters | split: ',' %}
+                    <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize }}">
+                      
                       {% for category_tag in tag_list %}
+                      	{% assign downcase_option = option.value | downcase %}
                         {% assign active_tags_split = active_tags | split: '+' %}
                         {% assign category_tag_handle = category_tag | handleize %}
+                      
+                        {% assign downcase_category = block.settings.title | handleize %}
+                        {% if downcase_category == 'color' %}
+                          {% assign color_swatch_name = option.value | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                          {% assign color_swatch_image = images[color_swatch_name] %}
+                        {% endif %}
+                      
                         <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
-                          <div class="collection-filters__tag-radio radio-button__indicator"></div>
-                          {{ category_tag }}
+                          {% if downcase_option == 'color' %}
+                            <div class="collection-filters__tag-radio radio-button__indicator color" style="background-image: url('{{ color_swatch_image | img_url: '50x' }}')"></div>
+                          {% else %}
+                            <div class="collection-filters__tag-radio radio-button__indicator"></div>
+                            {{ category_tag }}
+                          {% endif %}
                         </button>
                       {% endfor %}
+                      
                     </div>
                     <div class="collection-filters__dropdown-buttons hide-mobile">
                       <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>
@@ -101,14 +114,10 @@
               <div class="collection-filters__dropdown-container">
                 <div class="collection-filters__dropdown-list" data-category="sort">
                   {% for option in collection.sort_options %}
-                  	{% assign downcase_option = option.value | downcase %}
                     {% assign collection_sort_by = collection.sort_by | default: collection.default_sort_by %}
                     <button class="collection-filters__sort radio-button body{% if option.value == collection_sort_by %} active{% endif %}" data-value="{{ option.value }}">
-                      {% if downcase_option == 'color' %}
-                        {% assign color_swatch_name = option.value | handleize | prepend: 'swatch_' | append: '.jpg' %}
-                        {% assign color_swatch_image = images[color_swatch_name] %}
-                      {% endif %}
-                      <div class="collection-filters__sort-radio radio-button__indicator{% if downcase_option == 'color' %} color" data-img="{{ color_swatch_image}}"{% else %}"{% endif %}></div>
+                      
+                      <div class="collection-filters__sort-radio radio-button__indicator"></div>
                       {{ option.name }}
                     </button>
                   {% endfor %}
