@@ -150,6 +150,11 @@
   border-color: rgba(0, 0, 0, .3);
 }
 
+.radio-button__indicator.color {
+  background-size: cover;
+  background-position: center;
+}
+
 .collection-filters__dropdown-buttons {
   flex-shrink: 0;
 }
