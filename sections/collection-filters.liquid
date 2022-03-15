@@ -49,7 +49,7 @@
                       
                         {% assign downcase_category = block.settings.title | handleize %}
                         {% if downcase_category == 'color' %}
-                          {% assign color_swatch_name = option.value | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                          {% assign color_swatch_name = category_tag | handleize | prepend: 'swatch_' | append: '.jpg' %}
                           {% assign color_swatch_image = images[color_swatch_name] %}
                         {% endif %}
                       
