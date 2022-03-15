@@ -153,8 +153,8 @@
 /* Swatch */
 .collection-filters__tag-radio-color {
   height: 20px;
-  height: 20px;
   width: 20px;
+  margin-right: 20px;
   border-radius: 100%;
   background-size: cover;
   background-position: center;
