@@ -101,9 +101,14 @@
               <div class="collection-filters__dropdown-container">
                 <div class="collection-filters__dropdown-list" data-category="sort">
                   {% for option in collection.sort_options %}
+                  	{% assign downcase_option = option.value | downcase %}
                     {% assign collection_sort_by = collection.sort_by | default: collection.default_sort_by %}
                     <button class="collection-filters__sort radio-button body{% if option.value == collection_sort_by %} active{% endif %}" data-value="{{ option.value }}">
-                      <div class="collection-filters__sort-radio radio-button__indicator"></div>
+                      {% if downcase_option == 'color' %}
+                        {% assign color_swatch_name = option.value | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                        {% assign color_swatch_image = images[color_swatch_name] %}
+                      {% endif %}
+                      <div class="collection-filters__sort-radio radio-button__indicator{% if downcase_option == 'color' %} color" data-img="{{ color_swatch_image}}"{% else %}"{% endif %}></div>
                       {{ option.name }}
                     </button>
                   {% endfor %}
