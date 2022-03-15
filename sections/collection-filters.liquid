@@ -53,8 +53,8 @@
                         {% endif %}
                       
                         <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
-                          {% if downcase_category == 'afsd' %}
-                          	<div class="collection-filters__tag-radio radio-button__indicator color" style="background-image: url('{{ color_swatch_image | img_url: '50x' }}')"></div>
+                          {% if downcase_category == 'color' %}
+                          	<div class="collection-filters__tag-radio-color" style="background-image: url('{{ color_swatch_image | img_url: '50x' }}')"></div>
                           {% else %}
                             <div class="collection-filters__tag-radio radio-button__indicator"></div>
                             {{ category_tag }}
