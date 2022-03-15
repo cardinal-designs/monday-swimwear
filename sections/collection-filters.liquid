@@ -53,7 +53,7 @@
                         {% endif %}
                       
                         <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
-                          <div class="collection-filters__tag-radio radio-button__indicator"></div>
+                          <div class="collection-filters__tag-radio radio-button__indicator" data-p="{{ color_swatch_image }}"></div>
                           {{ category_tag }}
                         </button>
                       {% endfor %}
