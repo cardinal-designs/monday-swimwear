@@ -40,23 +40,16 @@
                 <div class="page-width">
                   <p class="collection-filters__dropdown-title detail-caps hide-mobile">By {{ block.settings.title }}</p>
                   <div class="collection-filters__dropdown-container">
-                    <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize }}">
-                      
+                    <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
+                      {% assign tag_list = block.settings.filters | split: ',' %}
                       {% for category_tag in tag_list %}
-                      	{% assign downcase_option = option.value | downcase %}
                         {% assign active_tags_split = active_tags | split: '+' %}
                         {% assign category_tag_handle = category_tag | handleize %}
-                      
-                       
-                      
                         <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
-                  
-                            <div class="collection-filters__tag-radio radio-button__indicator"></div>
-                            {{ category_tag }}
-                  
+                          <div class="collection-filters__tag-radio radio-button__indicator"></div>
+                          {{ category_tag }}
                         </button>
                       {% endfor %}
-                      
                     </div>
                     <div class="collection-filters__dropdown-buttons hide-mobile">
                       <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>
@@ -110,7 +103,6 @@
                   {% for option in collection.sort_options %}
                     {% assign collection_sort_by = collection.sort_by | default: collection.default_sort_by %}
                     <button class="collection-filters__sort radio-button body{% if option.value == collection_sort_by %} active{% endif %}" data-value="{{ option.value }}">
-                      
                       <div class="collection-filters__sort-radio radio-button__indicator"></div>
                       {{ option.name }}
                     </button>
