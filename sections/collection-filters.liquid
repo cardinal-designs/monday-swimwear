@@ -47,11 +47,7 @@
                         {% assign active_tags_split = active_tags | split: '+' %}
                         {% assign category_tag_handle = category_tag | handleize %}
                       
-                        {% assign downcase_category = block.settings.title | handleize %}
-                        {% if downcase_category == 'color' %}
-                          {% assign color_swatch_name = category_tag | handleize | prepend: 'swatch_' | append: '.jpg' %}
-                          {% assign color_swatch_image = images[color_swatch_name] %}
-                        {% endif %}
+                       
                       
                         <button class="collection-filters__tag radio-button body{% if active_tags_split contains category_tag_handle %} active{% endif %}" data-value="{{ category_tag_handle }}">
                   
