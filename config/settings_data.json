@@ -410,8 +410,8 @@
           },
           "cad1b610-c4f2-4439-9836-d7a8da702f1e": {
             "type": "one_piece",
-            "disabled": true,
             "settings": {
+              "flat_image": "shopify:\/\/shop_images\/TAMARAMA_BOTTOM_-_BLACK_2efe9489-113d-4887-9485-30b15ab93c48.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/St.-Barth_s-One-Piece---Black--2.jpg",
               "title": "The St. Barth's One Piece",
               "short_title": "St. Barth's One Piece",
