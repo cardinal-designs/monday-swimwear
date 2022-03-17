@@ -410,15 +410,15 @@
           },
           "cad1b610-c4f2-4439-9836-d7a8da702f1e": {
             "type": "one_piece",
+            "disabled": true,
             "settings": {
-              "flat_image": "shopify:\/\/shop_images\/TAMARAMA_BOTTOM_-_BLACK_2efe9489-113d-4887-9485-30b15ab93c48.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/St.-Barth_s-One-Piece---Black--2.jpg",
               "title": "The St. Barth's One Piece",
               "short_title": "St. Barth's One Piece",
               "short_description": "Sophisticated, Sexy, Confident",
               "description": "We can't take our eyes off the St. Barth's One Piece. From the sultry cut-out detail to the flattering silhouette, this must-have one piece is made to show off your figure. Complete with a rounded v-neckline, adjustable back tie closure and a gold ring detail. All eyes on you!",
-              "highlights": "",
-              "fit": "Designed to best fit cup sizes AA-E",
+              "highlights": "Rounded v-neckline, adjustable back tie, high cut leg, chunky gold ring detail, cheeky coverage",
+              "fit": "Designed to best fit cup sizes A-DD",
               "padding": "No",
               "coverage": "Moderate and minimal",
               "style": "",
