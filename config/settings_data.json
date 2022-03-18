@@ -412,6 +412,7 @@
             "type": "one_piece",
             "disabled": true,
             "settings": {
+              "flat_image": "shopify:\/\/shop_images\/St.-Barth_s-OP.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/St.-Barth_s-One-Piece---Black--2.jpg",
               "title": "The St. Barth's One Piece",
               "short_title": "St. Barth's One Piece",
@@ -1223,6 +1224,7 @@
             "type": "top",
             "disabled": true,
             "settings": {
+              "flat_image": "shopify:\/\/shop_images\/St.-Martin-Top.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/St.-Martin-Top---Black-2.jpg",
               "title": "The St. Martin Top",
               "short_title": "St. Martin Top",
