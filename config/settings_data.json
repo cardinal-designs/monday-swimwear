@@ -870,7 +870,7 @@
               "fit": "Designed to best fit cup sizes A-G",
               "padding": "Yes, removable padding",
               "coverage": "",
-              "style": "Bandeau",
+              "style": "One Shoulder",
               "fabric": "",
               "fit_tip": "",
               "shop_link": "shopify:\/\/products\/antigua-top-black"
@@ -1030,6 +1030,7 @@
           },
           "415bfca0-18aa-4337-8b45-53cd9f5520e0": {
             "type": "top",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/COSTA_RICA_TOP_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
@@ -1077,7 +1078,7 @@
               "description": "The Hanalei Top is a play on from our famous Palma Top. Designed with classic triangle coverage and adjustability, this barley-there top features dainty gold rings, ultra-thin straps and the same underbust support you'd expect.",
               "highlights": "Triangle cups with removable padding, dainty gold rings, adjustable thin back and neck tie with gold hardware detail",
               "fit": "Designed to best fit cup sizes A-G",
-              "padding": "Yes, removable padding.  Lined",
+              "padding": "Yes, removable padding. Lined",
               "coverage": "",
               "style": "Triangle",
               "fabric": "",
@@ -1214,7 +1215,7 @@
               "fit": "Designed to best fit cup sizes A-E",
               "padding": "No. Lined",
               "coverage": "",
-              "style": "Minimal",
+              "style": "One Shoulder",
               "fabric": "",
               "fit_tip": "",
               "shop_link": "shopify:\/\/products\/sicily-top-black"
