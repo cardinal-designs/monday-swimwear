@@ -70,8 +70,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2_5a184417-3890-4e71-a86d-d3ba85c2ed38.jpg",
             "text": "FRESH ARRIVALS",
-            "link_label": "SHOP THE NEWEST",
-            "link": "shopify:\/\/collections\/new-arrivals"
+            "link_label": "SHOP TEXTURED FABRICS",
+            "link": "shopify:\/\/collections\/textured-fabrics"
           }
         }
       },
