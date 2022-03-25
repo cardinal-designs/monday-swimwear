@@ -945,5 +945,11 @@ faqs.forEach(faq => {
   showFront.addEventListener("click", e => {
     console.log('hello', this)
     
+    var frontImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='front']`);
+    var backImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='back']`);
+    frontImg.style.display = 'block'
+    backImg.style.display = 'none'
+    //     $('.fit-guide__lifestyle > div').hide();
+//     $(`.fit-guide__lifestyle > div[data-id='${id}']`).show();
   });
 
