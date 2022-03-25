@@ -942,7 +942,11 @@ faqs.forEach(faq => {
     const back = parent.querySelector(`div[data-id='back']`);
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
-    
+
+    blurs.forEach(function(item) {
+      item.style.display = 'none'
+    })
+
     front.style.display = 'block'
     back.style.display = 'none'
     blur.style.display = 'block'
@@ -955,10 +959,10 @@ faqs.forEach(faq => {
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
 
-   console.log(blurs)
-   blurs.forEach(function(item) {
-     item.style.display = 'none'
-   })
+    blurs.forEach(function(item) {
+      item.style.display = 'none'
+    })
+
     front.style.display = 'none'
     back.style.display = 'block'
     blur.style.display = 'block'
