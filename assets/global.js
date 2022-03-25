@@ -941,20 +941,25 @@ faqs.forEach(faq => {
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
-
+    const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
+    
     front.style.display = 'block'
     back.style.display = 'none'
+    blurs.style.display = 'none'
     blur.style.display = 'block'
   });
 
   showBack.addEventListener("click", event => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
-    const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
+    const blur = event.currentTarget.parentElement.querySelector('.text-blur');
+    const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
+
 
     front.style.display = 'none'
     back.style.display = 'block'
+    blurs.style.display = 'none'
     blur.style.display = 'block'
   });
 
