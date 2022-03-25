@@ -940,7 +940,7 @@ faqs.forEach(faq => {
 //     $(`.fit-guide__lifestyle > div[data-id='${id}']`).show();
 //   })
 
-  var showFront = document.querySelector('.fit-guide__text p');
-showFront.addEventListener("click", e => {
-console.log('hello')
-});
+//   var showFront = document.querySelector('.fit-guide__text p');
+// showFront.addEventListener("click", e => {
+// console.log('hello')
+// });
