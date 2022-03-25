@@ -980,10 +980,12 @@ showFrontMobile.forEach(function(suit) {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
-    const blur = event.currentTarget.parentElement.querySelector('.text-blur');
-    const blursMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__lifestyle .text-blur');
+    const blur = event.currentTarget.parentElement.querySelector('.text-blur'); 
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
-    console.log(blursMobile)
+    
+    const blurMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll(`.fit-guide__lifestyle .fit-guide__text p[data-id='front'] .text-blur`);
+    const blursMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__lifestyle .text-blur');
+    console.log(blurMobile)
     blurs.forEach(function(item) {
       item.style.display = 'none'
     })
