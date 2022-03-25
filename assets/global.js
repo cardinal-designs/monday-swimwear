@@ -974,3 +974,39 @@ showBack.forEach(function(suit) {
   });
 })
 
+showFrontMobile.forEach(function(suit) {
+  suit.addEventListener("click", e => {
+    const parent = event.currentTarget.parentElement.parentElement.parentElement;
+    const front = parent.querySelector(`div[data-id='front']`);
+    const back = parent.querySelector(`div[data-id='back']`);
+    const blur = event.currentTarget.parentElement.querySelector('.text-blur');
+    const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
+
+    blurs.forEach(function(item) {
+      item.style.display = 'none'
+    })
+
+    front.style.display = 'block'
+    back.style.display = 'none'
+    blur.style.display = 'block'
+  });
+})
+   
+showBackMobile.forEach(function(suit) {
+  suit.addEventListener("click", event => {
+    const parent = event.currentTarget.parentElement.parentElement.parentElement;
+    const front = parent.querySelector(`div[data-id='front']`);
+    const back = parent.querySelector(`div[data-id='back']`);
+    const blur = event.currentTarget.parentElement.querySelector('.text-blur');
+    const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
+
+    blurs.forEach(function(item) {
+      item.style.display = 'none'
+    })
+
+    front.style.display = 'none'
+    back.style.display = 'block'
+    blur.style.display = 'block'
+  });
+})
+
