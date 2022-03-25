@@ -954,7 +954,8 @@ faqs.forEach(faq => {
 
   showBack.addEventListener("click", event => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
-    console.log('hello2', parent)
+    const content = parent.querySelector(`div[data-id='front']`);
+    console.log('hello2', content)
     
     var frontImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='front']`);
     var backImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='back']`);
