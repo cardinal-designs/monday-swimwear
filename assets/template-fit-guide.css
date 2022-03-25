@@ -779,3 +779,7 @@
   width: 19px;
   height: 19px;
 }
+
+.fit-guide__toggle .fit-guide__text:last-of-type .text-blur {
+  display: none;
+}
