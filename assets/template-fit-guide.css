@@ -766,7 +766,9 @@
   position: absolute;
   background: #FFFF50;
   filter: blur(13.5714px);
-  transform: rotate(-90deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 19px;
   height: 19px;
 }
