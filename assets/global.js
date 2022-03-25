@@ -930,3 +930,11 @@ faqs.forEach(faq => {
 
 // $('.header__search.is-visible').parent().parent().find('.')
 
+
+/*================ Fit guide ================*/
+
+$('.fit-guide__text p').click(function() {
+  let id = $(this).data('id')
+  $('.fit-guide__lifestyle > div').hide();
+  $(`.fit-guide__lifestyle > div[data-id='${id}']`).show();
+})
