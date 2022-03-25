@@ -804,6 +804,7 @@
 
 .fit-guide__toggle-mobile .fit-guide__text p {
   transform: rotate(90deg);
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
