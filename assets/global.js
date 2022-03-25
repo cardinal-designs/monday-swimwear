@@ -940,9 +940,11 @@ faqs.forEach(faq => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
+    const blur = event.currentTarget.parentElement.querySelector('.text-blur');
 
     front.style.display = 'block'
     back.style.display = 'none'
+    blur.style.display = 'block'
   });
 
   showBack.addEventListener("click", event => {
