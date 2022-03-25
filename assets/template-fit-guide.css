@@ -795,4 +795,8 @@
   .fit-guide__toggle-desktop {
     display: none;
   }
+  
+  .fit-guide__toggle-mobile {
+    display: block;
+  }
 }
