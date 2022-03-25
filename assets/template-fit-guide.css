@@ -740,3 +740,10 @@
     right: 105px;
   }
 }
+
+/* Toggle */
+
+.fit-guide__toggle {
+  display: flex;
+  justify-content: space-around;
+}
