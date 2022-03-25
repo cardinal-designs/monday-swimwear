@@ -765,7 +765,7 @@
 .fit-guide__toggle .text-blur {
   position: absolute;
   background: #FFFF50;
-  filter: blur(13.5714px);
+  filter: blur(8px);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
