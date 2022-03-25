@@ -935,7 +935,7 @@ faqs.forEach(faq => {
 
   var showFront = document.querySelectorAll(`.fit-guide__toggle-desktop .fit-guide__text p[data-id='front']`);
   var showBack = document.querySelectorAll(`.fit-guide__toggle-desktop .fit-guide__text p[data-id='back']`);
-  console.log(showFront)
+
 showFront.forEach(function(suit) {
   suit.addEventListener("click", e => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
@@ -943,7 +943,7 @@ showFront.forEach(function(suit) {
     const back = parent.querySelector(`div[data-id='back']`);
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
-
+    console.log(blurs)
     blurs.forEach(function(item) {
       item.style.display = 'none'
     })
