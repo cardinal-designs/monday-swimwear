@@ -783,3 +783,16 @@
 .fit-guide__toggle .fit-guide__text:last-of-type .text-blur {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .fit-guide__text p {
+    transform: rotate(90deg);
+  }
+
+  .fit-guide__toggle {
+    flex-direction: column;
+    bottom: 0;
+    top: 0;
+    right: 0;
+  }
+}
