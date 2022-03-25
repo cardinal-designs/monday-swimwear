@@ -933,10 +933,11 @@ faqs.forEach(faq => {
 
 /*================ Fit guide ================*/
 
-  var showFront = document.querySelector(`.fit-guide__text p[data-id='front']`);
-  var showBack = document.querySelector(`.fit-guide__text p[data-id='back']`);
-
-  showFront.addEventListener("click", e => {
+  var showFront = document.querySelectorAll(`.fit-guide__text p[data-id='front']`);
+  var showBack = document.querySelectorAll(`.fit-guide__text p[data-id='back']`);
+  
+showFront.forEach(function(suit) {
+  suit.addEventListener("click", e => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
@@ -951,8 +952,10 @@ faqs.forEach(faq => {
     back.style.display = 'none'
     blur.style.display = 'block'
   });
-
-  showBack.addEventListener("click", event => {
+})
+   
+showBack.forEach(function(suit) {
+  suit.addEventListener("click", event => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
@@ -967,4 +970,5 @@ faqs.forEach(faq => {
     back.style.display = 'block'
     blur.style.display = 'block'
   });
+})
 
