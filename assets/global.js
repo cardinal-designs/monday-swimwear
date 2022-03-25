@@ -956,7 +956,6 @@ faqs.forEach(faq => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
-    console.log('hello2', content)
 
     front.style.display = 'none'
     back.style.display = 'block'
