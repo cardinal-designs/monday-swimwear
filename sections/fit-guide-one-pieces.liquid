@@ -111,11 +111,11 @@
             </div>
             <div class="fit-guide__toggle">
               <div class="fit-guide__text">
-                <p data-id="front" class="caption-neue" onclick="showFront()">FRONT</p>
+                <p data-id="front" class="caption-neue">FRONT</p>
                 <div class="text-blur"></div>
               </div>
               <div class="fit-guide__text">
-                <p data-id="back" class="caption-neue" onclick="showBack()">BACK</p>
+                <p data-id="back" class="caption-neue">BACK</p>
                 <div class="text-blur"></div>
               </div>
             </div>
@@ -172,10 +172,13 @@
   });
 
 // click functions
+  var showFront = document.querySelector('.fit-guide__text p');
+  showFront.addEventListener("click", function() {
+console.log('hello')
 
-  function showFront() {
-    console.log('hello')
-  }
+});
+    
+ 
 
 {% endjavascript %}
 
