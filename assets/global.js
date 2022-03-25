@@ -956,8 +956,8 @@ faqs.forEach(faq => {
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
 
    console.log(blurs)
-   blurs.each(function() {
-     this.style.display = 'none'
+   blurs.forEach(function(item) {
+     item.style.display = 'none'
    })
     front.style.display = 'none'
     back.style.display = 'block'
