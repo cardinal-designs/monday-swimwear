@@ -637,6 +637,10 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
+  
+  .fit-size-chart__chart {
+    max-width: unset;
+  }
 }
 
 /* Text */
