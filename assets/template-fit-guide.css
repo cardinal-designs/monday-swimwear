@@ -338,11 +338,11 @@
 
 @media only screen and (max-width: 768px) {
   .fit-guide__section {
-    grid-template-columns: .47fr .6fr;
+    grid-template-columns: .45fr .1 .45fr;
   }
 
   .fit-guide__flat {
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-row-start: 1;
   }
 
@@ -352,7 +352,7 @@
   }
 
   .fit-guide__description {
-    grid-column: span 2;
+    grid-column: span 3;
   }
 
   .fit-guide__flat-container .sh2 {
