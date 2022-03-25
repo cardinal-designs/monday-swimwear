@@ -943,7 +943,7 @@ showFront.forEach(function(suit) {
     const back = parent.querySelector(`div[data-id='back']`);
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
-    console.log(blurs)
+
     blurs.forEach(function(item) {
       item.style.display = 'none'
     })

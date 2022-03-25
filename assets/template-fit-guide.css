@@ -783,7 +783,7 @@
   height: 19px;
 }
 
-.fit-guide__toggle .fit-guide__text:last-of-type .text-blur {
+.fit-guide__toggle-desktop .fit-guide__text:last-of-type .text-blur {
   display: none;
 }
 
