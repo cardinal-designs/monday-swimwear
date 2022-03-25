@@ -767,4 +767,6 @@
   background: #FFFF50;
   filter: blur(13.5714px);
   transform: rotate(-90deg);
+  width: 19px;
+  height: 19px;
 }
