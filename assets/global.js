@@ -943,7 +943,7 @@ faqs.forEach(faq => {
 
   var showFront = document.querySelector(`.fit-guide__text p[data-id='front']`);
   showFront.addEventListener("click", e => {
-    console.log('hello', this.parent().parent())
+    console.log('hello', this)
     
   });
 
