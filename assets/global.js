@@ -954,12 +954,11 @@ faqs.forEach(faq => {
 
   showBack.addEventListener("click", event => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
-    const content = parent.querySelector(`div[data-id='front']`);
+    const front = parent.querySelector(`div[data-id='front']`);
+    const back = parent.querySelector(`div[data-id='back']`);
     console.log('hello2', content)
-    
-    var frontImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='front']`);
-    var backImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='back']`);
-    frontImg.style.display = 'none'
-    backImg.style.display = 'block'
+
+    front.style.display = 'none'
+    back.style.display = 'block'
   });
 
