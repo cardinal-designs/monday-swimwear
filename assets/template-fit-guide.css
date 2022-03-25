@@ -762,6 +762,12 @@
   position: relative;
 }
 
+.fit-guide__text p {
+  cursor: pointer;
+  z-index: 999999;
+  position: relative;
+}
+
 .fit-guide__toggle .text-blur {
   position: absolute;
   background: #FFFF50;
