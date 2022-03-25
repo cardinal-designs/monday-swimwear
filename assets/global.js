@@ -985,7 +985,7 @@ showFrontMobile.forEach(function(suit) {
     
     const blurMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelector(`.fit-guide__lifestyle .fit-guide__text[data-id='front'] .text-blur`);
     const blursMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__lifestyle .text-blur');
-
+    console.log()
     blurs.forEach(function(item) {
       item.style.display = 'none'
     })
@@ -997,7 +997,7 @@ showFrontMobile.forEach(function(suit) {
     front.style.display = 'block'
     back.style.display = 'none'
     blur.style.display = 'block'
-//     blurMobile.style.display = 'block'
+    blurMobile.style.display = 'block'
   });
 })
    
@@ -1023,7 +1023,7 @@ showBackMobile.forEach(function(suit) {
     front.style.display = 'none'
     back.style.display = 'block'
     blur.style.display = 'block'
-//     blurMobile.style.display = 'block'
+    blurMobile.style.display = 'block'
   });
 })
 
