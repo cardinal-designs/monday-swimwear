@@ -758,7 +758,8 @@
   padding: 2px 0px;
 }
 
-.fit-guide__toggle-desktop p {
+.fit-guide__toggle-desktop p,
+.fit-guide__toggle-mobile p {
   cursor: pointer;
 }
 
@@ -772,7 +773,8 @@
   position: relative;
 }
 
-.fit-guide__toggle-desktop .text-blur {
+.fit-guide__toggle-desktop .text-blur,
+.fit-guide__toggle-mobile .text-blur {
   position: absolute;
   background: #FFFF50;
   filter: blur(8px);
@@ -783,7 +785,8 @@
   height: 19px;
 }
 
-.fit-guide__toggle-desktop .fit-guide__text:last-of-type .text-blur {
+.fit-guide__toggle-desktop .fit-guide__text:last-of-type .text-blur,
+.fit-guide__toggle-mobile .fit-guide__text:last-of-type .text-blur {
   display: none;
 }
 
