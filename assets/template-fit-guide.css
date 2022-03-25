@@ -757,3 +757,14 @@
 .fit-guide__toggle p {
   cursor: pointer;
 }
+
+.fit-guide__text {
+  position: relative;
+}
+
+.fit-guide__toggle .text-blur {
+  position: absolute;
+  background: #FFFF50;
+  filter: blur(13.5714px);
+  transform: rotate(-90deg);
+}
