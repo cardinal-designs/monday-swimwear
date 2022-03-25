@@ -945,7 +945,6 @@ faqs.forEach(faq => {
     
     front.style.display = 'block'
     back.style.display = 'none'
-    blurs.style.display = 'none'
     blur.style.display = 'block'
   });
 
@@ -957,9 +956,11 @@ faqs.forEach(faq => {
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
 
    console.log(blurs)
+   blurs.each(function() {
+     this.style.display = 'none'
+   })
     front.style.display = 'none'
     back.style.display = 'block'
-    blurs.style.display = 'none'
     blur.style.display = 'block'
   });
 
