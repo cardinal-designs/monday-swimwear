@@ -173,19 +173,18 @@
 
 // click functions
 
-(function() {
 
-
-
-  var showFront = document.querySelector('.fit-guide__text p');
-console.log(showFront)
-  showFront.addEventListener("click", e => {
-    console.log('hello')
-  });
- });   
+  
  
 
 {% endjavascript %}
+
+<script>
+  var showFront = document.querySelector('.fit-guide__text p');
+showFront.addEventListener("click", e => {
+console.log('hello')
+});
+</script>
 
 {% schema %}
   {
