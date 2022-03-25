@@ -798,6 +798,8 @@
   padding: 2px 0px;
   display: none;
   flex-direction: column;
+  grid-column-start: 2;
+  grid-row-start: 1;
 }
 
 .fit-guide__toggle-mobile .fit-guide__text p {
