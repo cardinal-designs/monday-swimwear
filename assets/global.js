@@ -935,7 +935,7 @@ faqs.forEach(faq => {
 
   var showFront = document.querySelectorAll(`. fit-guide__toggle-desktop .fit-guide__text p[data-id='front']`);
   var showBack = document.querySelectorAll(`.fit-guide__toggle-desktop .fit-guide__text p[data-id='back']`);
-  
+  console.log(showFront)
 showFront.forEach(function(suit) {
   suit.addEventListener("click", e => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
