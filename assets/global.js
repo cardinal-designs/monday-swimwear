@@ -944,7 +944,7 @@ faqs.forEach(faq => {
   var showFront = document.querySelector(`.fit-guide__text p[data-id='front']`);
   var showBack = document.querySelector(`.fit-guide__text p[data-id='back']`);
   showFront.addEventListener("click", e => {
-    console.log('hello', this)
+    console.log('hello')
     
     var frontImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='front']`);
     var backImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='back']`);
@@ -953,7 +953,7 @@ faqs.forEach(faq => {
   });
 
   showBack.addEventListener("click", e => {
-    console.log('hello', this)
+    console.log('hello2')
     
     var frontImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='front']`);
     var backImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='back']`);
