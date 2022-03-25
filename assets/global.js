@@ -969,7 +969,7 @@ showBack.forEach(function(suit) {
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
 
-    const blurMobile = event.currentTarget.parentElement.parentElement.parentElement.parentElement.querySelector(`.fit-guide__toggle-mobile .fit-guide__text[data-id='front'] .text-blur`);
+    const blurMobile = event.currentTarget.parentElement.parentElement.parentElement.parentElement.querySelector(`.fit-guide__toggle-mobile .fit-guide__text[data-id='back'] .text-blur`);
     const blursMobile = event.currentTarget.parentElement.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__toggle-mobile .text-blur');
     
     blurs.forEach(function(item) {
