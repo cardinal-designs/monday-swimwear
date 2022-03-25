@@ -338,7 +338,7 @@
 
 @media only screen and (max-width: 768px) {
   .fit-guide__section {
-    grid-template-columns: .46fr .08fr .46fr;
+    grid-template-columns: .49fr .1fr .49fr;
   }
 
   .fit-guide__flat {
