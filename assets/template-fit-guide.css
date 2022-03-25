@@ -797,6 +797,11 @@
   position: relative;
   padding: 2px 0px;
   display: none;
+  flex-direction: column;
+}
+
+.fit-guide__toggle-mobile .fit-guide__text p {
+  transform: rotate(90deg);
 }
 
 @media only screen and (max-width: 768px) {
