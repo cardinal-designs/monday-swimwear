@@ -981,8 +981,9 @@ showFrontMobile.forEach(function(suit) {
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
+    const blursMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelector('.fit-guide__lifestyle .text-blur');
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
-
+    console.log(blursMobile)
     blurs.forEach(function(item) {
       item.style.display = 'none'
     })
