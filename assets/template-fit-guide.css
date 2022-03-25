@@ -745,7 +745,7 @@
 
 .fit-guide__toggle {
   display: flex;
-  justify-content: space-around;
+  gap: 70px;
   background-color: rgba(235,233,226, 0.8);
   position: absolute;
   bottom: 0;
