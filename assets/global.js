@@ -953,7 +953,7 @@ faqs.forEach(faq => {
   });
 
   showBack.addEventListener("click", event => {
-    const parent = event.currentTarget.parentElement;
+    const parent = event.currentTarget.parentElement.parentElement;
     console.log('hello2', parent)
     
     var frontImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='front']`);
