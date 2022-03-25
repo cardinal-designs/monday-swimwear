@@ -104,8 +104,12 @@
           </div>
           <div class="fit-guide__lifestyle">
             {% render 'lazy-image' image: block.settings.lifestyle_image, fade: true, classes: 'img-fill' %}
+            <div class="fit-guide__toggle">
+              <p>front</p>
+              <p>back</p>
+            </div>
           </div>
-        </div>
+      </div>
       {% endfor %}
     </div>
   </div>
