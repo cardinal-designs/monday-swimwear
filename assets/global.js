@@ -933,16 +933,9 @@ faqs.forEach(faq => {
 
 /*================ Fit guide ================*/
 
-//   jQuery('.fit-guide__text p').click(function() {
-//     let id = $(this).data('id')
-//     console.log('id',id)
-//     $('.fit-guide__lifestyle > div').hide();
-//     $(`.fit-guide__lifestyle > div[data-id='${id}']`).show();
-//   })
-
-
   var showFront = document.querySelector(`.fit-guide__text p[data-id='front']`);
   var showBack = document.querySelector(`.fit-guide__text p[data-id='back']`);
+
   showFront.addEventListener("click", e => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
     const front = parent.querySelector(`div[data-id='front']`);
@@ -954,10 +947,12 @@ faqs.forEach(faq => {
 
   showBack.addEventListener("click", event => {
     const parent = event.currentTarget.parentElement.parentElement.parentElement;
+    const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const front = parent.querySelector(`div[data-id='front']`);
     const back = parent.querySelector(`div[data-id='back']`);
 
     front.style.display = 'none'
     back.style.display = 'block'
+    blur.style.display = 'block'
   });
 
