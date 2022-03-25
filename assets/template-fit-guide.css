@@ -754,3 +754,6 @@
   padding: 2px 0px;
 }
 
+.fit-guide__toggle p {
+  cursor: pointer;
+}
