@@ -944,12 +944,12 @@ faqs.forEach(faq => {
   var showFront = document.querySelector(`.fit-guide__text p[data-id='front']`);
   var showBack = document.querySelector(`.fit-guide__text p[data-id='back']`);
   showFront.addEventListener("click", e => {
-    console.log('hello')
-    
-    var frontImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='front']`);
-    var backImg = document.querySelector(`.fit-guide__lifestyle > div[data-id='back']`);
-    frontImg.style.display = 'block'
-    backImg.style.display = 'none'
+    const parent = event.currentTarget.parentElement.parentElement.parentElement;
+    const front = parent.querySelector(`div[data-id='front']`);
+    const back = parent.querySelector(`div[data-id='back']`);
+
+    front.style.display = 'block'
+    back.style.display = 'none'
   });
 
   showBack.addEventListener("click", event => {
