@@ -983,21 +983,21 @@ showFrontMobile.forEach(function(suit) {
     const blur = event.currentTarget.parentElement.querySelector('.text-blur'); 
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
     
-    const blurMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelector(`.fit-guide__lifestyle .fit-guide__text[data-id='front'] .text-blur`);
-    const blursMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__lifestyle .text-blur');
+    const blurDesktop = event.currentTarget.parentElement.parentElement.parentElement.querySelector(`.fit-guide__lifestyle .fit-guide__text[data-id='front'] .text-blur`);
+    const blursDesktop = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__lifestyle .text-blur');
     console.log()
     blurs.forEach(function(item) {
       item.style.display = 'none'
     })
     
-    blursMobile.forEach(function(item) {
+    blursDesktop.forEach(function(item) {
       item.style.display = 'none'
     })
 
     front.style.display = 'block'
     back.style.display = 'none'
     blur.style.display = 'block'
-    blurMobile.style.display = 'block'
+    blurDesktop.style.display = 'block'
   });
 })
    
@@ -1009,21 +1009,21 @@ showBackMobile.forEach(function(suit) {
     const blur = event.currentTarget.parentElement.querySelector('.text-blur');
     const blurs = event.currentTarget.parentElement.parentElement.querySelectorAll('.text-blur')
 
-    const blurMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelector(`.fit-guide__lifestyle .fit-guide__text[data-id='back'] .text-blur`);
-    const blursMobile = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__lifestyle .text-blur');
+    const blurDesktop = event.currentTarget.parentElement.parentElement.parentElement.querySelector(`.fit-guide__lifestyle .fit-guide__text[data-id='back'] .text-blur`);
+    const blursDesktop = event.currentTarget.parentElement.parentElement.parentElement.querySelectorAll('.fit-guide__lifestyle .text-blur');
    
     blurs.forEach(function(item) {
       item.style.display = 'none'
     })
 
-    blursMobile.forEach(function(item) {
+    blursDesktop.forEach(function(item) {
       item.style.display = 'none'
     })
 
     front.style.display = 'none'
     back.style.display = 'block'
     blur.style.display = 'block'
-    blurMobile.style.display = 'block'
+    blurDesktop.style.display = 'block'
   });
 })
 
