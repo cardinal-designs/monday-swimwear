@@ -581,6 +581,10 @@ variant-radios fieldset {
   line-height: 1.8;
   letter-spacing: 0.02em;
 }
+  
+.product__dropdown-content .rte a {
+  text-decoration: underline;
+}
 
 .product__dropdown-content .body-small {
   margin: 0;
