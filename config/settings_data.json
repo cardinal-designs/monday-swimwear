@@ -1208,6 +1208,7 @@
             "type": "top",
             "disabled": true,
             "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Palm-Springs-Top.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Palm-Springs-Top-1.jpg",
               "title": "The Palm Springs Top",
               "short_title": "Palm Springs Top",
