@@ -697,6 +697,7 @@
           },
           "b3e14f3e-c578-4023-a1ec-1846ea20cf6c": {
             "type": "bottom",
+            "disabled": true,
             "settings": {
               "title": "The Maui Bottom",
               "short_title": "Maui Bottom",
@@ -849,6 +850,7 @@
           },
           "14ddb791-3e55-44aa-96e8-2e0a32f0eb97": {
             "type": "bottom",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/Wategos-Bottom-1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Wategos-Bottom-2.jpg",
