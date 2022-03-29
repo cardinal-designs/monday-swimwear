@@ -578,6 +578,26 @@
               "shop_link": ""
             }
           },
+          "ef7ea90b-58eb-4ecb-9598-be8b40fad38b": {
+            "type": "bottom",
+            "disabled": true,
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Capri-Thong-1.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Capri-Thong-2.jpg",
+              "title": "The Capri Thong",
+              "short_title": "Capri Thong",
+              "short_description": "",
+              "description": "Less coverage, a hi-cut leg and effortless, need we say more? The Capri Thong is our newest bottom guaranteed to be your summer go-to to achieve the perfect tan.",
+              "highlights": "Hi-cut leg, seamless, thong coverage",
+              "fit": "Available in sizes P-VV",
+              "padding": "",
+              "coverage": "Minimal",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
+          },
           "85767612-329b-4409-9c42-d4c0ebf47a95": {
             "type": "bottom",
             "settings": {
@@ -829,7 +849,6 @@
           },
           "14ddb791-3e55-44aa-96e8-2e0a32f0eb97": {
             "type": "bottom",
-            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/Wategos-Bottom-1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Wategos-Bottom-2.jpg",
@@ -856,6 +875,7 @@
           "4278339e-7629-4693-b516-215af45d6163",
           "83708c9c-bab8-483b-87b9-1c2098ffc2ca",
           "64f0f0e4-6472-43de-a110-1f1292f3df26",
+          "ef7ea90b-58eb-4ecb-9598-be8b40fad38b",
           "85767612-329b-4409-9c42-d4c0ebf47a95",
           "22e7314f-1694-4ac5-a040-5fb554e5b65a",
           "56f44aff-4d5b-48c7-9711-f10dab98374c",
