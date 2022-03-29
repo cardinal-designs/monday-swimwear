@@ -1204,6 +1204,25 @@
               "shop_link": "shopify:\/\/products\/palma-top-black-sig"
             }
           },
+          "95e89091-7e7c-4e19-a3c7-1e18cf8d25e8": {
+            "type": "top",
+            "disabled": true,
+            "settings": {
+              "lifestyle_image": "shopify:\/\/shop_images\/Palm-Springs-Top-1.jpg",
+              "title": "The Palm Springs Top",
+              "short_title": "Palm Springs Top",
+              "short_description": "Chic,Modern,Sporty",
+              "description": "Classic with a sporty touch: The Palm Springs Top. Flaunting a tall and wide triangle cup, our newest triangle bikini top lends more coverage and equal support like our other triangle tops. Complete with adjustable cups and a back tie closure.",
+              "highlights": "Tall and wide triangle cups, adjustable cups, removable pads, adjustable back tie closure",
+              "fit": "",
+              "padding": "Yes, removable padding",
+              "coverage": "Designed to best fit cup sizes A-DDD",
+              "style": "Triangle",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/shop-by-style-palm-springs-top"
+            }
+          },
           "4d55b24c-3be1-4e2c-a9b1-6840f692faaf": {
             "type": "top",
             "disabled": true,
@@ -1260,7 +1279,7 @@
               "style": "One Shoulder",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify:\/\/products\/sicily-top-black"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-sicily"
             }
           },
           "cf6d73b2-bf9d-4cff-bfaa-b70bdbfd4b45": {
@@ -1279,7 +1298,27 @@
               "style": "Minimal Wrap Top",
               "fabric": "",
               "fit_tip": "Runs small. We recommend to size up for a comfortable and flattering fit.",
-              "shop_link": "https:\/\/mondayswimwear.com\/collections\/st-martin-top"
+              "shop_link": "shopify:\/\/collections\/shop-by-style-st-martin-top"
+            }
+          },
+          "40f33af9-f739-43c5-b5d9-818a1b9a587d": {
+            "type": "top",
+            "disabled": true,
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/St.-Martinique-Bandeau.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/St.-Martinique-Bandeau-2.jpg",
+              "title": "The St. Martinique Bandeau",
+              "short_title": "St. Martinique Bandeau",
+              "short_description": "Supportive,Shaping,Flattering",
+              "description": "The St. Martinique Bandeau is the swimsuit you'll want in your suitcase. From the underwire cups to the optional strap detail, this bandeau is thoughtfully made to redefine the bandeau bikini top with its shaping and supportive cups for the perfect tan.",
+              "highlights": "Underwire cups with u-wire detail, bandeau with removable padding, removable and adjustable halter strap, adjustable back tie closure, side boning",
+              "fit": "Designed to best fit cup sizes A-D",
+              "padding": "Yes, removable padding",
+              "coverage": "",
+              "style": "Bandeau \/ Underwire \/ Minimal",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/shop-by-style-st-martinique-bandeau"
             }
           },
           "ea441cd9-c67b-40e8-99a5-2be690dd654a": {
@@ -1319,25 +1358,6 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/products\/tulum-top-black-sig"
             }
-          },
-          "40f33af9-f739-43c5-b5d9-818a1b9a587d": {
-            "type": "top",
-            "settings": {
-              "flat_image": "shopify:\/\/shop_images\/St.-Martinique-Bandeau.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/St.-Martinique-Bandeau-2.jpg",
-              "title": "The St. Martinique Bandeau",
-              "short_title": "St. Martinique Bandeau",
-              "short_description": "Supportive,Shaping,Flattering",
-              "description": "The St. Martinique Bandeau is the swimsuit you'll want in your suitcase. From the underwire cups to the optional strap detail, this bandeau is thoughtfully made to redefine the bandeau bikini top with its shaping and supportive cups for the perfect tan.",
-              "highlights": "Underwire cups with u-wire detail, bandeau with removable padding, removable and adjustable halter strap, adjustable back tie closure, side boning",
-              "fit": "Designed to best fit cup sizes A-D",
-              "padding": "Yes, removable padding",
-              "coverage": "",
-              "style": "Bandeau \/ Underwire \/ Minimal",
-              "fabric": "",
-              "fit_tip": "",
-              "shop_link": ""
-            }
           }
         },
         "block_order": [
@@ -1357,13 +1377,14 @@
           "6e8f9b18-bf32-44df-9b9b-60b64b233009",
           "79870e93-a2a3-4f15-9552-1b6afb5155a1",
           "01310aa3-4f9d-4ec6-82a1-1fa4f34e8d32",
+          "95e89091-7e7c-4e19-a3c7-1e18cf8d25e8",
           "4d55b24c-3be1-4e2c-a9b1-6840f692faaf",
           "a60f3510-c871-4f8b-a759-110d7f66cf34",
           "49f5d1ef-703b-4783-abf3-8f7eff728a35",
           "cf6d73b2-bf9d-4cff-bfaa-b70bdbfd4b45",
+          "40f33af9-f739-43c5-b5d9-818a1b9a587d",
           "ea441cd9-c67b-40e8-99a5-2be690dd654a",
-          "e976424a-94e8-4927-9474-eff48cfdcaec",
-          "40f33af9-f739-43c5-b5d9-818a1b9a587d"
+          "e976424a-94e8-4927-9474-eff48cfdcaec"
         ],
         "settings": {
         }
