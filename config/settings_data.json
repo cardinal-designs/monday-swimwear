@@ -826,6 +826,26 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-tulum-bottom"
             }
+          },
+          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97": {
+            "type": "bottom",
+            "disabled": true,
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Wategos-Bottom-1.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Wategos-Bottom-2.jpg",
+              "title": "The Wategos Bottom",
+              "short_title": "Wategos Bottom",
+              "short_description": "",
+              "description": "Offering a figure flattering touch with the adjustable side ties and cheeky coverage, the Wategos Bottom is made to give you a confident and flirty look no matter your shape!",
+              "highlights": "Thick adjustable side ties, cheeky medium coverage",
+              "fit": "Available in sizes P-VV",
+              "padding": "",
+              "coverage": "Cheeky",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
           }
         },
         "block_order": [
@@ -848,7 +868,8 @@
           "451829e4-c761-453b-8c48-d1be554370d0",
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7",
           "4198cbe8-da95-4c39-b1ff-b5c042b4b767",
-          "50917c6a-4369-447a-b962-017a811c3759"
+          "50917c6a-4369-447a-b962-017a811c3759",
+          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97"
         ],
         "settings": {
         }
