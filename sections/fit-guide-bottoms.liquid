@@ -47,7 +47,7 @@
         }
         {% endif %}
       </style>
-      <div class="fit-guide__section swiper-slide" {{ block.shopify_attributes }}>
+      <div class="fit-guide__section--{{forloop.index}} fit-guide__section swiper-slide" {{ block.shopify_attributes }}>
           <div class="fit-guide__flat">
             <div class="fit-guide__flat-container">
               <p class="sh2">{{ block.settings.title }}</p>
