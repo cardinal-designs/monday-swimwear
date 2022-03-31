@@ -1708,12 +1708,11 @@
             "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/SAN_MIGUEL_SHORT_-_IVR.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
               "title": "The San Miguel Short",
               "short_title": "San Miguel Short",
               "short_description": "",
               "description": "Find comfort while wearing the San Miguel Short. Designed in an airy lightweight fabric, this summery short features a smocked waistband with a wrap front detail finished with a relaxed and comfortable fit.",
-              "highlights": "Flattering for every silhouette, the  lightweight fabric, this summery short features a smocked waistband with a wrap front detail finished with a relaxed and comfortable fit. Pair with the Tahiti Tie Top for a chic vacation wardrobe.",
+              "highlights": "Smocked waistband, wrap front detail, unlined sheer",
               "fit": "Relaxed fit",
               "padding": "",
               "coverage": "",
@@ -1721,6 +1720,26 @@
               "fabric": "",
               "fit_tip": "",
               "shop_link": "shopify:\/\/products\/san-miguel-short-ivory"
+            }
+          },
+          "70d799fe-8892-4cf9-8952-ac8083fc5019": {
+            "type": "beachwear",
+            "disabled": true,
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/San-Diego-Top.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/San-Diego-Top-Fit-Guide.jpg",
+              "title": "The San Diego Top",
+              "short_title": "San Diego Top",
+              "short_description": "",
+              "description": "We designed the San Diego Top to be a wardrobe essential through the warmer months ahead. Made to effortlessly pair with countless options, this cropped linen tank is complete with adjustable shoulder straps and a back tie closure. Complete this chic look with the Monaco Pant.",
+              "highlights": "Cropped fit, adjustable shoulder straps, adjustable back tie closure",
+              "fit": "",
+              "padding": "",
+              "coverage": "",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/san-diego-top"
             }
           },
           "84c6a03d-dfb6-4fc7-9da9-8ab6bdd74d5b": {
@@ -1879,6 +1898,7 @@
           "3f453058-40bc-4f5e-a324-ead7f42ec609",
           "bfdd3e62-c0e1-4d31-b145-d9479c8ac746",
           "fdca6529-e0bc-4511-a9fe-9c5bfecede32",
+          "70d799fe-8892-4cf9-8952-ac8083fc5019",
           "84c6a03d-dfb6-4fc7-9da9-8ab6bdd74d5b",
           "66e29446-c79c-49a3-b84e-fb87cdef8ba1",
           "11a1a576-fb12-4b91-805a-e8e12102c048",
