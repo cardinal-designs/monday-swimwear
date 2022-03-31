@@ -109,6 +109,7 @@
             <div data-id="back" style="display: none;">
               {% render 'lazy-image' image: block.settings.lifestyle_image2, fade: true, classes: 'img-fill' %}
             </div>
+            {% if block.settings.lifestyle_image2 != blank %}
             <div class="fit-guide__toggle-desktop">
               <div data-id="front" class="fit-guide__text">
                 <p data-id="front" class="caption-neue">FRONT</p>
@@ -119,7 +120,9 @@
                 <div class="text-blur"></div>
               </div>
             </div>
+            {% endif %}
           </div>
+          {% if block.settings.lifestyle_image2 != blank %}
           <div class="fit-guide__toggle-mobile">
             <div data-id="front" class="fit-guide__text">
               <p data-id="front" class="caption-neue">FRONT</p>
@@ -130,6 +133,7 @@
               <div class="text-blur"></div>
             </div>
           </div>
+          {% endif %}
       </div>
       {% endfor %}
     </div>
