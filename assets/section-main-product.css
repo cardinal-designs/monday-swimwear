@@ -571,6 +571,20 @@ variant-radios fieldset {
   line-height: 1.8;
   letter-spacing: 0.02em;
 }
+  
+.product__dropdown-content .rte span,
+.product__dropdown-content .rte div {
+  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+  
+.product__dropdown-content .rte a {
+  text-decoration: underline;
+}
 
 .product__dropdown-content .body-small {
   margin: 0;
