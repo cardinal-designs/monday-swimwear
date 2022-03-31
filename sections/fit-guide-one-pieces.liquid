@@ -1,3 +1,14 @@
+<style>
+  {% if block.settings.lifestyle_image2 == blank %}
+  @media only screen and (max-width: 768px) {
+    .fit-guide__section {
+      grid-template-columns: .49fr 0fr .59fr;
+    }
+  }
+  {% endif %}
+</style>
+
+
 <div class="fit-guide fit-guide--one-piece active" data-tab="one-pieces">
   <div class="fit-guide__navigation">
     <div class="page-width">
