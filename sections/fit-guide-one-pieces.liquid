@@ -37,7 +37,7 @@
         {% if block.settings.lifestyle_image2 == blank %}
         @media only screen and (max-width: 768px) {
           .fit-guide__section--{{forloop.index}} {
-            grid-template-columns: .49fr 0fr .59fr;
+            grid-template-columns: .49fr 0fr .59fr !important;
           }
         }
         {% endif %}
