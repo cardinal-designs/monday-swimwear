@@ -32,6 +32,15 @@
   <div class="fit-guide__slider swiper">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
+      <style>
+        {% if block.settings.lifestyle_image2 == blank %}
+        @media only screen and (max-width: 768px) {
+          .fit-guide__section {
+            grid-template-columns: .49fr 0fr .59fr;
+          }
+        }
+        {% endif %}
+      </style>
         <div class="fit-guide__section swiper-slide" {{ block.shopify_attributes }}>
           <div class="fit-guide__flat">
             <div class="fit-guide__flat-container">
@@ -103,12 +112,37 @@
             </div>
           </div>
           <div class="fit-guide__lifestyle">
-            {% render 'lazy-image' image: block.settings.lifestyle_image, fade: true, classes: 'img-fill' %}
-            <div class="fit-guide__toggle">
-              <p>front</p>
-              <p>back</p>
+            <div data-id="front">
+              {% render 'lazy-image' image: block.settings.lifestyle_image, fade: true, classes: 'img-fill' %}
+            </div>
+            <div data-id="back" style="display: none;">
+              {% render 'lazy-image' image: block.settings.lifestyle_image2, fade: true, classes: 'img-fill' %}
+            </div>
+            {% if block.settings.lifestyle_image2 != blank %}
+            <div class="fit-guide__toggle-desktop">
+              <div data-id="front" class="fit-guide__text">
+                <p data-id="front" class="caption-neue">FRONT</p>
+                <div class="text-blur"></div>
+              </div>
+              <div data-id="back" class="fit-guide__text">
+                <p data-id="back" class="caption-neue">BACK</p>
+                <div class="text-blur"></div>
+              </div>
+            </div>
+            {% endif %}
+          </div>
+          {% if block.settings.lifestyle_image2 != blank %}
+          <div class="fit-guide__toggle-mobile">
+            <div data-id="front" class="fit-guide__text">
+              <p data-id="front" class="caption-neue">FRONT</p>
+              <div class="text-blur"></div>
+            </div>
+            <div data-id="back" class="fit-guide__text">
+              <p data-id="back" class="caption-neue">BACK</p>
+              <div class="text-blur"></div>
             </div>
           </div>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
