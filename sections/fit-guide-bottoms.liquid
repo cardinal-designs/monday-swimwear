@@ -39,6 +39,12 @@
             grid-template-columns: .49fr 0fr .59fr;
           }
         }
+        {% else %}
+        @media only screen and (max-width: 768px) {
+          .fit-guide__section {
+            grid-template-columns: .49fr .1fr .49fr;
+          }
+        }
         {% endif %}
       </style>
       <div class="fit-guide__section swiper-slide" {{ block.shopify_attributes }}>
