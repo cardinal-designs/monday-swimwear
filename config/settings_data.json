@@ -1703,6 +1703,26 @@
               "shop_link": "shopify:\/\/products\/palm-beach-top-ivory"
             }
           },
+          "16f5af57-578b-4066-a0b7-0376bd0d88ae": {
+            "type": "beachwear",
+            "disabled": true,
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/RAVELLO-DRESS---VANILLA.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Ravello-Dress---Vanilla-Fit-Guide.jpg",
+              "title": "The Ravello Dress - Vanilla",
+              "short_title": "Ravello Dress - Vanilla",
+              "short_description": "",
+              "description": "Slip into the Ravello Dress for a feminine and romantic look. This stunning dress flaunts an airy crinkle fabric in a versatile hue complete with a deep v-neckline, an adjustable thin ties and 3\/4 sleeves.",
+              "highlights": "Deep v-neckline, adjustable thin ties, 3\/4 sleeves, unlined sheer",
+              "fit": "True to size meant to be flowy and wide",
+              "padding": "",
+              "coverage": "",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/shop-by-style-ravello-dress"
+            }
+          },
           "fdca6529-e0bc-4511-a9fe-9c5bfecede32": {
             "type": "beachwear",
             "disabled": true,
@@ -1733,7 +1753,7 @@
               "short_description": "",
               "description": "We designed the San Diego Top to be a wardrobe essential through the warmer months ahead. Made to effortlessly pair with countless options, this cropped linen tank is complete with adjustable shoulder straps and a back tie closure. Complete this chic look with the Monaco Pant.",
               "highlights": "Cropped fit, adjustable shoulder straps, adjustable back tie closure",
-              "fit": "",
+              "fit": "True to size",
               "padding": "",
               "coverage": "",
               "style": "",
@@ -1897,6 +1917,7 @@
           "048bb95d-0316-4e1d-acee-7bcfd387710d",
           "3f453058-40bc-4f5e-a324-ead7f42ec609",
           "bfdd3e62-c0e1-4d31-b145-d9479c8ac746",
+          "16f5af57-578b-4066-a0b7-0376bd0d88ae",
           "fdca6529-e0bc-4511-a9fe-9c5bfecede32",
           "70d799fe-8892-4cf9-8952-ac8083fc5019",
           "84c6a03d-dfb6-4fc7-9da9-8ab6bdd74d5b",
