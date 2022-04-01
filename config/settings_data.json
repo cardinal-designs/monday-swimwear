@@ -434,6 +434,27 @@
               "fit_tip": "",
               "shop_link": "https:\/\/mondayswimwear.com\/collections\/st-barths-one-piece"
             }
+          },
+          "53ad0856-0a4d-44a3-8195-38377837d3b1": {
+            "type": "one_piece",
+            "disabled": true,
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Whitehaven-One-Piece-1.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Whitehaven-One-Piece-2.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Whitehaven-One-Piece-3.jpg",
+              "title": "The Whitehaven One Piece",
+              "short_title": "Whitehaven One Piece",
+              "short_description": "Feminine,Sophisticated,Chic",
+              "description": "The Whitehaven One Piece is an all-around must have! Its chic neckline, low back and adjustable waist ties instantly elevates your look. We love this one piece as a bodysuit under the Tahiti, Hampton or Monaco Pant for a beach to dinner set.",
+              "highlights": "Straight neckline, low open back, high leg, adjustable shoulder straps, adjustable waist ties",
+              "fit": "Designed to best fit cup sizes A-E",
+              "padding": "No",
+              "coverage": "Moderate & Minimal",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
           }
         },
         "block_order": [
@@ -444,7 +465,8 @@
           "0252e8b0-d725-41bf-ad37-f1c03032121b",
           "432459e1-8505-4365-a347-fbc6e0b1be6e",
           "883266b6-9198-4474-a6ec-d3215fe07e2a",
-          "cad1b610-c4f2-4439-9836-d7a8da702f1e"
+          "cad1b610-c4f2-4439-9836-d7a8da702f1e",
+          "53ad0856-0a4d-44a3-8195-38377837d3b1"
         ],
         "settings": {
         }
