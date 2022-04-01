@@ -1463,6 +1463,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/BARCELONA_TUNIC_-_IVORY_1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Barcelona-Tunic-1_30d94834-d037-4834-9cf8-1e1ac8895d15.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Barcelona-Tunic-2_copy.jpg",
               "title": "The Barcelona Tunic",
               "short_title": "Barcelona Tunic",
               "short_description": "",
@@ -1502,6 +1503,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/HAMILTON_ISLAND_SWEATER.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Hamilton-Island-Sweater-1_a7fc9d3a-87dd-458a-804c-ddc3ff5d81ff.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Hamilton-Island-Sweater-2.jpg",
               "title": "The Hamilton Island Sweater",
               "short_title": "Hamilton Island Sweater",
               "short_description": "",
@@ -1521,6 +1523,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/HAMPTON_PANT_-_WHITE.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Hamptons-Pant-1_e2be34a2-d6b2-49a9-9ca1-b9ff563af9f1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Hamptons-Pant-2_ac5768c8-6b25-475b-b872-0c862273b372.jpg",
               "title": "The Hampton Pant",
               "short_title": "Hampton Pant",
               "short_description": "",
@@ -1540,6 +1543,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/HAMPTONS_DRESS_e9b1a1c2-ca56-4dbc-bc6e-7885584bd589.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Hamptons-Dress-Main_47255faa-21b9-4f86-a605-4daf4d6b62d4.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Hamptons-Dress-Alt_fbfddda5-5676-47e7-b637-7ae2e4adf388.jpg",
               "title": "The Hamptons Dresss",
               "short_title": "Hamptons Dresss",
               "short_description": "",
@@ -1559,6 +1563,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/HAMPTONS_TOP_-_WHITE.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Hamptons-Top_1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Hamptons-Top-2_f0d0474e-025d-4c5f-8001-af1488e04945.jpg",
               "title": "The Hamptons Top",
               "short_title": "Hamptons Top",
               "short_description": "",
@@ -1657,6 +1662,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/MONTAUK_PANT.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Montauk-Pant---1_a9ef4e55-799c-487a-8ecc-0875f98ea987.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Montauk-Pant---2_e0bec6a4-6dac-4ad1-80ba-6548c2c6cf0a.jpg",
               "title": "The Montauk Pant",
               "short_title": "Montauk Pant",
               "short_description": "",
@@ -1676,6 +1682,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/MONTAUK_TOP.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Montauk-Top---Ivory-1_1faeb3eb-9827-48d3-b971-4dc7365cf9d4.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Montauk-Top---Ivory-2_d1e9a550-ed6a-42f1-8023-9021e8bf90c2.jpg",
               "title": "The Montauk Top",
               "short_title": "Montauk Top",
               "short_description": "",
@@ -1715,6 +1722,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/NOOSA_TOP_-_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Noosa-Top-1_9ceffcda-823c-4abe-b824-eefdcc42903d.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Hamptons-Pant-2_ac5768c8-6b25-475b-b872-0c862273b372.jpg",
               "title": "The Noosa Top",
               "short_title": "Noosa Top",
               "short_description": "",
@@ -1893,6 +1901,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TAHITI_PANT_-_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Tahiti-Pant-1_6b2d866c-1937-4683-996a-1066b785d88c.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Tahiti-Pant-2_3934b516-6e6c-40ff-b062-861fd7b2319b.jpg",
               "title": "The Tahiti Pant",
               "short_title": "Tahiti Pant",
               "short_description": "",
@@ -1931,6 +1940,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TAHITI_TIE_TOP_-_IVORY.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Tahiti-Tie-Top.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Tahiti-Top_1_c789b3fc-d98d-437a-8af0-a3797e71ef56.jpg",
               "title": "The Tahiti Tie Top",
               "short_title": "Tahiti Tie Top",
               "short_description": "",
