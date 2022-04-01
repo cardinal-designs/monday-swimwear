@@ -557,6 +557,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/CALA_CONTA_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Cala-Conta-Bottom_1_bda1f2f6-d7c2-41d2-9710-2dd6d2c68c90.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Cala-Conta-Bottom_2_d7f6d1dd-ed96-4009-a6a8-13ffaced32b0.jpg",
               "title": "The Cala Conta Bottom",
               "short_title": "Cala Conta Bottom",
               "short_description": "",
@@ -576,6 +577,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/Capri.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Capri-2.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Capri_Bottom_2_c4bbf5b0-de1d-4370-9b5c-32bc1f7ca2b8.jpg",
               "title": "The Capri Bottom",
               "short_title": "Capri Bottom",
               "short_description": "",
@@ -596,6 +598,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/Capri-Thong-1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Capri-Thong-2.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Capri-Thong-2_f6f83164-755d-4332-a9f8-ff7ca8b7f31c.jpg",
               "title": "The Capri Thong",
               "short_title": "Capri Thong",
               "short_description": "",
@@ -615,6 +618,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/CLOVELLY_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Clovelly_Bottom_1_544250f9-41e8-4074-ac53-9e729f3ea68b.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Clovelly_Bottom_2_53a82bb5-d91f-47c2-88ce-8ef4d5965597.jpg",
               "title": "The Clovelly Bottom",
               "short_title": "Clovelly Bottom",
               "short_description": "",
@@ -634,6 +638,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/HANALENI_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Hanalei_Bottom_1_5709331d-bd16-49f4-af86-8b184dd6601a.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Hanalei_Bottom_2_381f125a-c56a-4868-b798-08ad8967cd42.jpg",
               "title": "The Hanalei Bottom",
               "short_title": "Hanalei Bottom",
               "short_description": "",
@@ -653,6 +658,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/ISLA_MUJERES_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Isla_Mujeres_Bottom_1_a948fc62-d4c3-4db6-ad4f-26e4e8d0dcea.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Isla_Mujeres_Bottom_2_247ff2bf-d8cf-43ee-a645-e073920c05bc.jpg",
               "title": "The Isla Mujeres Bottom",
               "short_title": "Isla Mujeres Bottom",
               "short_description": "",
@@ -709,8 +715,10 @@
           },
           "b3e14f3e-c578-4023-a1ec-1846ea20cf6c": {
             "type": "bottom",
-            "disabled": true,
             "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Maui-Bottom.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Maui_Bottom_1_e54d1249-b0ff-481b-be69-65e83a767328.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Maui_Bottom_2_976bbf3b-7689-4629-8173-db54c88650a8.jpg",
               "title": "The Maui Bottom",
               "short_title": "Maui Bottom",
               "short_description": "",
@@ -730,6 +738,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/PALMA_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Palma_Bottom_1_6525b19a-693c-4196-8547-b264e5c2e6ca.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Palma_Bottom_2_2b99ea8b-8853-4ccd-bfc0-5b6edc47e924.jpg",
               "title": "The Palma Bottom",
               "short_title": "Palma Bottom",
               "short_description": "",
@@ -789,6 +798,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/SEYCHELLES_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Seychelles_Bottom_1_64e93a77-e7cb-4ec2-8e76-5733bb01c9f6.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Seychelles_Bottom_2_f549d20c-1a34-4af6-9ac9-b5edf67c008b.jpg",
               "title": "The Seychelles Bottom",
               "short_title": "Seychelles Bottom",
               "short_description": "",
@@ -808,6 +818,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/SORRENTO_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Sorrento_Bottom_1_581aaa4b-0034-4a6c-954a-49e9f3fa4e6d.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Sorrento_Bottom_2_b44f3eab-15d5-4613-80ff-45842afcbcb0.jpg",
               "title": "The Sorrento Bottom",
               "short_title": "Sorrento Bottom",
               "short_description": "",
@@ -827,6 +838,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TAMARAMA_BOTTOM_-_BLACK.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Tamarama-Bottom-1_be95559c-108d-419f-a055-346b9903be0b.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Tamarama-Bottom-2_28d123d2-7cc9-41d4-835a-58b8f925c9be.jpg",
               "title": "The Tamarama Bottom",
               "short_title": "Tamarama Bottom",
               "short_description": "",
@@ -846,6 +858,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/TULUM_BOTTOM_-_BLACK_1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Tulum_Bottom_1_e2dec788-8784-46a8-98d7-fc022d68ea79.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Tulum_Bottom_2_e367b232-1264-416c-811f-89b1e5ab81a4.jpg",
               "title": "The Tulum Bottom",
               "short_title": "Tulum Bottom",
               "short_description": "",
@@ -866,6 +879,7 @@
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/Wategos-Bottom-1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Wategos-Bottom-2.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Wategos-Bottom-2_copy.jpg",
               "title": "The Wategos Bottom",
               "short_title": "Wategos Bottom",
               "short_description": "",
