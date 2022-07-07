@@ -78,17 +78,20 @@
               {% endfor %}
             {% endif %}
 
-            <li class="product-grid__item">
-              {% render 'product-card',
-                product_card_product: product,
-                media_size: section.settings.image_ratio,
-                show_secondary_image: section.settings.show_secondary_image,
-                add_image_padding: section.settings.add_image_padding,
-                show_vendor: section.settings.show_vendor,
-                show_image_outline: section.settings.show_image_outline,
-                show_rating: section.settings.show_rating
-              %}
-            </li>
+            {% unless product.vendor == "EcoCart" %}
+              <li class="product-grid__item">
+                {% render 'product-card',
+                  product_card_product: product,
+                  media_size: section.settings.image_ratio,
+                  show_secondary_image: section.settings.show_secondary_image,
+                  add_image_padding: section.settings.add_image_padding,
+                  show_vendor: section.settings.show_vendor,
+                  show_image_outline: section.settings.show_image_outline,
+                  show_rating: section.settings.show_rating
+                %}
+              </li>
+            {% endunless %}
+          
           {%- endfor -%}
         </ul>
 
@@ -109,9 +112,9 @@
       "type": "range",
       "id": "products_per_page",
       "min": 8,
-      "max": 24,
-      "step": 4,
-      "default": 24,
+      "max": 48,
+      "step": 2,
+      "default": 36,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
     }
   ],

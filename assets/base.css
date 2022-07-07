@@ -2033,6 +2033,11 @@ header-drawer {
   gap: 20px;
 }
 
+.header__mega-menu-links.full-width {
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .header__mega-menu-group .detail-caps {
   margin: 0 0 20px;
   opacity: .4;

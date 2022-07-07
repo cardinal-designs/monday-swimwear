@@ -5,6 +5,16 @@
   align-items: flex-end;
 }
 
+.hero-overlay__link {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
 .hero img {
   object-position: top;
 }
@@ -23,6 +33,10 @@
 
 .hero__caption {
   max-width: 300px;
+}
+
+.hero__container .hero__button {
+  z-index: 3;
 }
 
 .hero__caption .glow {

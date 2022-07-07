@@ -1,6 +1,6 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-<product-card>
+<product-card data="{{product_card_product.variants[0].available | json}}">
   <div class="product-card" tabindex="-1">
     <div class="product-card__inner">
       <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
@@ -15,6 +15,7 @@
           </div>
           {% endcomment %}
         </div>
+        <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
       </a>
 
       <div class="product-card__content">
@@ -25,9 +26,14 @@
             </h2>
             {% render 'price', product: product_card_product, price_class: 'product-card__price body-small' %}
           </div>
+          {% for tag in product_card_product.tags %}
+          {% if tag contains 'Eco-Friendly' %}
+          <p class="detail-caps">Eco-Friendly</p>
+          {% endif %}
+          {% endfor %}
         </a>
         {% if product_card_product.available and product_card_product.variants.size > 0 or product_card_product.tags contains 'restocking' or product_card_product.tags contains 'Coming Soon' %}
-          {% comment %} Check if using collection to determine swatches or using product variants {% endcomment %}
+        {% comment %} Check if using collection to determine swatches or using product variants {% endcomment %}
           {% assign use_collection_for_swatches = false %}
           {% assign collection_for_swatches = '' %}
           {% for tag in product_card_product.tags %}
@@ -54,7 +60,7 @@
                   {% endfor %}
                   {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
                   {% assign color_swatch_image = images[color_swatch_name] %}
-                  <button class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}">
+                  <button class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{current_product.available}}">
                     <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                     <span class="visually-hidden">{{ value }}</span>
                   </button>
@@ -71,7 +77,7 @@
                   {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
                   {% assign color_swatch_image = images[color_swatch_name] %}
 
-                  <button class="product-card__swatch" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}">
+                  <button class="product-card__swatch" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{current_product.available}}">
                     <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                     <span class="visually-hidden">{{ value }}</span>
                   </button>
@@ -136,5 +142,5 @@
 
       </div>
     </div>
-  </div>
+  {% render 'preorder-now-collection-item', product: product %}</div>
 </product-card>

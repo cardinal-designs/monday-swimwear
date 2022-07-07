@@ -559,6 +559,8 @@ class VariantSelects extends HTMLElement {
           break;
         case 'OS':
           value = 'One Size';
+        case 'O/S':
+          value = 'One Size';
           break;
         case 'P/S':
           value = 'Petite / Small';
@@ -748,6 +750,9 @@ class ProductCard extends HTMLElement {
     this.cardHoverImage = this.querySelector('.product-card__image .hover-image img');
     this.productTitle = this.querySelector('.product-card__title');
     this.links = this.querySelectorAll('.product-card__link');
+    this.soldout = this.querySelector('.product-card__link .sold-out__tag')
+    this.card = this.querySelector('.product-card__image');
+
 
     this.handleSwatchClick = (swatch, event) => {
       event.preventDefault();
@@ -779,7 +784,16 @@ class ProductCard extends HTMLElement {
   updateImages(swatch) {
     const image = swatch.dataset.image;
     const hoverImage = swatch.dataset.hover;
-
+    const available = swatch.dataset.available;
+    
+    if(available == 'true') {
+      this.card.style.opacity = "1";
+      this.soldout.style.display = "none"
+    } else {
+      this.card.style.opacity = "0.5"
+      this.soldout.style.display = "block";
+    }
+    
     this.cardImage.setAttribute('src', image);
     if (this.cardHoverImage) {
       this.cardHoverImage.setAttribute('src', hoverImage);
@@ -1041,4 +1055,11 @@ showBackMobile.forEach(function(suit) {
     blurDesktop.style.display = 'block'
   });
 })
+
+
+focusMethod = function getFocus() {
+  console.log('fire',document.getElementsByClassName("header__search-input"))
+  document.getElementsByClassName("header__search-input").focus();
+}
+
 

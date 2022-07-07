@@ -192,9 +192,9 @@
 
 /* Upsell */
 .cart-drawer__upsell {
-  max-width: 455px;
+  max-width: 470px;
   margin: 0 auto;
-  padding: 90px 0 40px;
+  padding: 40px 0;
 }
 
 .cart-drawer__upsell .detail-caps {

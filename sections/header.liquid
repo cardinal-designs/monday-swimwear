@@ -192,7 +192,7 @@
                     <div class="header__mega-menu">
                       <div class="page-width">
                         <div class="header__mega-menu-container">
-                          <div class="header__mega-menu-links">
+                          <div class="header__mega-menu-links{% if block.settings.image == blank %} full-width{% endif %}">
                             {% for child_link in link.links %}
                               <div class="header__mega-menu-group">
                                 <p class="detail-caps">{{ child_link.title }}</p>
@@ -209,12 +209,14 @@
                           <a href="{{ block.settings.shop_all_link }}" class="button button--bone">Shop All</a>
                         </div>
                       </div>
-                      <div class="header__mega-menu-image">
-                        {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
-                        <div class="header__mega-menu-button">
-                          <a href="{{ block.settings.button_overlay_link }}" class="button button--white">{{ block.settings.button_overlay_label }}</a>
+                      {% if block.settings.image != blank %}
+                        <div class="header__mega-menu-image">
+                          {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                          <div class="header__mega-menu-button">
+                            <a href="{{ block.settings.button_overlay_link }}" class="button button--white">{{ block.settings.button_overlay_label }}</a>
+                          </div>
                         </div>
-                      </div>
+                      {% endif %}
                     </div>
                   </div>
                 {%- endif -%}
@@ -260,7 +262,7 @@
     {% endif %}
 
     {% if section.settings.enable_search %}  
-      <button class="js-open-search header__icon header__icon--search hide-mobile" aria-label="Open Search Bar">
+      <button class="js-open-search header__icon header__icon--search hide-mobile" onclick="focusMethod()" aria-label="Open Search Bar">
         {% render 'icon-search' %}
       </button>
     {% endif %}
@@ -405,6 +407,7 @@
     const openSearch = document.querySelector('.js-open-search');
     const closeSearch = document.querySelector('.js-close-search');
     const search = document.querySelector('.header__search');
+    const searchInput = document.querySelector('.header__search .header__search-input');
     var header = document.getElementById('shopify-section-header');
     
 
@@ -413,6 +416,10 @@
         search.classList.remove('is-visible');
       } else {
         search.classList.add('is-visible');
+        searchInput.setAttribute('tabindex', '0');
+        setTimeout(function() {
+          searchInput.focus();
+        }, 500)
       }
     });
 

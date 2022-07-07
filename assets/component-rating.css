@@ -58,3 +58,20 @@
     display: block;
   }
 }
+
+    
+.sold-out__tag {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  background-color: #d3d3d3;
+  padding: 0 10px;
+}
+    
+.sold-out__tag p {
+  margin: 0;
+}
+    
+.product-card__link {
+  position: relative;
+}

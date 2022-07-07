@@ -29,6 +29,27 @@
           height: inherit;
         }
       }
+      
+      .yotpo-checkout-variable-widget,
+      .yotpo-checkout-variable-widget span,
+      .yotpo-checkout-variable-widget div,
+      .yotpo-checkout-variable-widget p,
+      .yotpo-checkout-variable-widget h1,
+      .yotpo-checkout-variable-widget h2,
+      .yotpo-checkout-variable-widget h3,
+      .yotpo-checkout-variable-widget h4,
+      .yotpo-checkout-variable-widget h5,
+      .yotpo-checkout-variable-widget h6 {
+        font-family: Helvetica Neue, sans-serif !important;
+      }
+      
+      .yotpo-checkout-variable-widget .yotpo-point-balance-text {
+        margin-top: 0 !important;
+      }
+      
+      .yotpo-checkout-variable-widget .yotpo-not-enough-points-text {
+        margin-bottom: 0 !important;
+      }
     </style>
     
     {{ 'swell-rewards.css' | asset_url | stylesheet_tag }}

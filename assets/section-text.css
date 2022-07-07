@@ -9,6 +9,10 @@
   text-align: center;
 }
 
+.text-section__container--wide {
+  max-width: 900px;
+}
+
 .text-section__container .glow {
   height: 90px;
   width: 90px;

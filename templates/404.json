@@ -1,10 +1,1 @@
-{
-  "sections": {
-    "main": {
-      "type": "main-404"
-    }
-  },
-  "order": [
-    "main"
-  ]
-}
+{"sections":{"main":{"type":"main-404","settings":{}},"1650914312a5c486f9":{"type":"nosto-recommendations","disabled":true,"settings":{"label":"You Might Also Like","custom_html":"<div class=\"nosto_element\" id=\"notfound-nosto-1\"><\/div>"}},"16509144360021e141":{"type":"nosto-recommendations","settings":{"label":"Maybe This Instead","custom_html":"<div class=\"nosto_element\" id=\"notfound-nosto-2\"><\/div>"}},"nosto_404":{"type":"nosto-404","settings":{}}},"order":["main","1650914312a5c486f9","16509144360021e141","nosto_404"]}

@@ -8,92 +8,32 @@
 <noscript>{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}</noscript>
 
-
-<product-recommendations class="product-recommendations page-width">
-<div class="nosto_element" id="pdp-test-dynamic"></div>
+<product-recommendations class="nosto-custom-section product-recommendations">
+    {{section.settings.custom_html}}
 </product-recommendations>
 
-{% javascript %}
-
-  class ProductRecommendations extends HTMLElement {
-    constructor() {
-      super();
-
-      const handleIntersection = (entries, observer) => {
-        if (!entries[0].isIntersecting) return;
-        observer.unobserve(this);
-
-        fetch(this.dataset.url)
-          .then(response => response.text())
-          .then(text => {
-            const html = document.createElement('div');
-            html.innerHTML = text;
-            const recommendations = html.querySelector('product-recommendations');
-            if (recommendations && recommendations.innerHTML.trim().length) {
-              this.innerHTML = recommendations.innerHTML;
-            }
-
-            const recommendationsSlider = new Swiper('.nosto_element', {
-              slidesPerView: 1,
-              loop: false,
-              spaceBetween: 10,
-              watchOverflow: true,
-              allowTouchMove: true,
-              speed: 400,
-              freeMode: true,
-              mousewheel: {
-                forceToAxis: true
-              },
-              scrollbar: {
-                el: '.product-recommendations__scrollbar',
-                draggable: true
-              },
-              breakpoints: {
-                1: {
-                  spaceBetween: 10,
-                  slidesPerView: 1.5
-                },
-                601: {
-                  spaceBetween: 10,
-                  slidesPerView: 2
-                },
-                769: {
-                  spaceBetween: 20,
-                  slidesPerView: 2.5
-                },
-                1051: {
-                  spaceBetween: 20,
-                  slidesPerView: 3
-                },
-                1200: {
-                  spaceBetween: 20,
-                  slidesPerView: 4,
-                  allowTouchMove: false,
-                  freeMode: false
-                }
-              }
-            });
-          })
-          .catch(e => {
-            console.error(e);
-          });
-      }
-
-      new IntersectionObserver(handleIntersection.bind(this), {rootMargin: '0px 0px 200px 0px'}).observe(this);
-    }
-  }
-
-  customElements.define('product-recommendations', ProductRecommendations);
-{% endjavascript %}
 
 {% schema %}
-  {
-    "name": "Nosto Recommendations",
-    "settings": [],
-    "presets": [
-      {
-        "name": "Nosto Recommendations"
-      }
-    ]
-  }
+    {
+        "name": "Nosto Block",
+        "settings": [
+            {
+                "type": "text",
+                "id": "label",
+                "label": "Label"
+            },
+            {
+                "type": "textarea",
+                "id": "custom_html",
+                "label": "Nosto Placement Div"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Nosto Block",
+                "category": "Nosto",
+                "settings": {}
+            }
+        ]
+    }
 {% endschema %}

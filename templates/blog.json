@@ -1,14 +1,1 @@
-{
-  "sections": {
-    "main": {
-      "type": "main-blog",
-      "settings": {
-        "subtext": "We’re on vacation all year long.",
-        "show_filters": true
-      }
-    }
-  },
-  "order": [
-    "main"
-  ]
-}
+{"sections":{"main":{"type":"main-blog","settings":{"subtext":"We’re on vacation all year long.","show_filters":true}}},"order":["main"]}

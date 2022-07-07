@@ -159,6 +159,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  flex-shrink: 0;
 }
 
 .collection-filters__tag-radio-color::after {
