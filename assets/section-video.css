@@ -6,3 +6,8 @@
 .video__title {
   margin: 0 0 50px;
 }
+
+.video__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
