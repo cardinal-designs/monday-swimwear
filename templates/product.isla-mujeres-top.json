@@ -1,1 +1,56 @@
-{"sections":{"main":{"type":"main-product","settings":{}},"16426285735ee00f29":{"type":"product-bar","settings":{"title":""}},"164253095353d35284":{"type":"in-real-life","settings":{"title":"In Real Life"}},"1642702250db612244":{"type":"fit-guide","blocks":{"d23066f0-85fa-465e-ba20-432d714ec220":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/ISLA_MUJERES_TOP_-_BLACK_jpg.jpg","title":"The Isla Mujeres Top","short_title":"Isla Mujeres Top","short_description":"Lift,Sculpt,Support","description":"The Isla Mujeres Top was thoughtfully designed to lift & sculpt your cup. Featuring a supportive underwire cup, adjustable ruched cup details and adjustable ties, the perfect fit can be found in this bikini top.","fit":"Designed to best fit cup sizes A-E.","padding":"No","coverage":"","style":"Underwire","fabric":"","fit_tip":"","shop_link":"shopify:\/\/products\/isla-mujeres-top-black"}}},"block_order":["d23066f0-85fa-465e-ba20-432d714ec220"],"settings":{"offset_text":true,"use_page_width":true}}},"order":["main","16426285735ee00f29","164253095353d35284","1642702250db612244"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "1642702250db612244": {
+      "type": "fit-guide",
+      "blocks": {
+        "d23066f0-85fa-465e-ba20-432d714ec220": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ISLA_MUJERES_TOP_-_BLACK_jpg.jpg",
+            "title": "The Isla Mujeres Top",
+            "short_title": "Isla Mujeres Top",
+            "short_description": "Lift,Sculpt,Support",
+            "description": "The Isla Mujeres Top was thoughtfully designed to lift & sculpt your cup. Featuring a supportive underwire cup, adjustable ruched cup details and adjustable ties, the perfect fit can be found in this bikini top.",
+            "fit": "Designed to best fit cup sizes A-E.",
+            "padding": "No",
+            "coverage": "",
+            "style": "Underwire",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/isla-mujeres-top-black"
+          }
+        }
+      },
+      "block_order": [
+        "d23066f0-85fa-465e-ba20-432d714ec220"
+      ],
+      "settings": {
+        "offset_text": true,
+        "use_page_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426285735ee00f29",
+    "164253095353d35284",
+    "1642702250db612244"
+  ]
+}

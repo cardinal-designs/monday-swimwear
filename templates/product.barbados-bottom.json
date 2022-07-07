@@ -1,1 +1,57 @@
-{"sections":{"main":{"type":"main-product","settings":{}},"16426285735ee00f29":{"type":"product-bar","settings":{"title":""}},"164253095353d35284":{"type":"in-real-life","settings":{"title":"In Real Life"}},"1642702250db612244":{"type":"fit-guide","blocks":{"d23066f0-85fa-465e-ba20-432d714ec220":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/BARBADOS_BOTTOM_-_BLACK.jpg","title":"The Barbados Bottom","short_title":"Barbados Bottom","short_description":"","description":"Minimal tanlines await in the the Barbados Bottom. This flattering bikini bottom features thin straps and a subtle high cut leg with minimal coverage.","fit":"Available in sizes P-L","padding":"","coverage":"Minimal","style":"","fabric":"","fit_tip":"For a comfortable and flattering fit, we suggest to size up one size.","shop_link":"shopify:\/\/collections\/shop-by-style-barbados","explore_link":""}}},"block_order":["d23066f0-85fa-465e-ba20-432d714ec220"],"settings":{"offset_text":true,"use_page_width":true}}},"order":["main","16426285735ee00f29","164253095353d35284","1642702250db612244"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "1642702250db612244": {
+      "type": "fit-guide",
+      "blocks": {
+        "d23066f0-85fa-465e-ba20-432d714ec220": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BARBADOS_BOTTOM_-_BLACK.jpg",
+            "title": "The Barbados Bottom",
+            "short_title": "Barbados Bottom",
+            "short_description": "",
+            "description": "Minimal tanlines await in the the Barbados Bottom. This flattering bikini bottom features thin straps and a subtle high cut leg with minimal coverage.",
+            "fit": "Available in sizes P-L",
+            "padding": "",
+            "coverage": "Minimal",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "For a comfortable and flattering fit, we suggest to size up one size.",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-barbados",
+            "explore_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d23066f0-85fa-465e-ba20-432d714ec220"
+      ],
+      "settings": {
+        "offset_text": true,
+        "use_page_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426285735ee00f29",
+    "164253095353d35284",
+    "1642702250db612244"
+  ]
+}

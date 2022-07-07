@@ -1,1 +1,56 @@
-{"sections":{"main":{"type":"main-product","settings":{}},"16426285735ee00f29":{"type":"product-bar","settings":{"title":""}},"164253095353d35284":{"type":"in-real-life","settings":{"title":"In Real Life"}},"1642702250db612244":{"type":"fit-guide","blocks":{"d23066f0-85fa-465e-ba20-432d714ec220":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/COSTA_RICA_TOP_-_BLACK.jpg","title":"The Costa Rica Top","short_title":"Costa Rica Top","short_description":"Effortless,Flirty,Feminine","description":"Designed from recycled fibers, the Costa Rica Top top features a center front gold hardware loop and a removable halter strap that can be adjusted for the perfect amount of lift and support for all your beach adventures.","fit":"Designed to best fit cup sizes A-D.","padding":"Yes, removable padding","coverage":"","style":"Bandeau","fabric":"","fit_tip":"","shop_link":"shopify:\/\/products\/costa-rica-top-oat-crinkle"}}},"block_order":["d23066f0-85fa-465e-ba20-432d714ec220"],"settings":{"offset_text":true,"use_page_width":true}}},"order":["main","16426285735ee00f29","164253095353d35284","1642702250db612244"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "1642702250db612244": {
+      "type": "fit-guide",
+      "blocks": {
+        "d23066f0-85fa-465e-ba20-432d714ec220": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COSTA_RICA_TOP_-_BLACK.jpg",
+            "title": "The Costa Rica Top",
+            "short_title": "Costa Rica Top",
+            "short_description": "Effortless,Flirty,Feminine",
+            "description": "Designed from recycled fibers, the Costa Rica Top top features a center front gold hardware loop and a removable halter strap that can be adjusted for the perfect amount of lift and support for all your beach adventures.",
+            "fit": "Designed to best fit cup sizes A-D.",
+            "padding": "Yes, removable padding",
+            "coverage": "",
+            "style": "Bandeau",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/costa-rica-top-oat-crinkle"
+          }
+        }
+      },
+      "block_order": [
+        "d23066f0-85fa-465e-ba20-432d714ec220"
+      ],
+      "settings": {
+        "offset_text": true,
+        "use_page_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426285735ee00f29",
+    "164253095353d35284",
+    "1642702250db612244"
+  ]
+}

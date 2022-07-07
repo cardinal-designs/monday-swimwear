@@ -1,1 +1,57 @@
-{"sections":{"main":{"type":"main-product","settings":{}},"16426285735ee00f29":{"type":"product-bar","settings":{"title":""}},"164253095353d35284":{"type":"in-real-life","settings":{"title":"In Real Life"}},"1642702250db612244":{"type":"fit-guide","blocks":{"d23066f0-85fa-465e-ba20-432d714ec220":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/PUERTO_RICO_TOP_-_BLACK.jpg","title":"The Puerto Rico Top","short_title":"Puerto Rico Top","short_description":"Modern,Sleek,Sporty","description":"The Puerto Rico Top was made to be your favorite. Designed with a modern square neckline, supportive wide straps and an adjustable back tie closure for the perfect sun-soaking look—and doubles as a crop top.","fit":"Designed to best fit cup sizes A-E.","padding":"No","coverage":"Supportive","style":"","fabric":"","fit_tip":"","shop_link":"shopify:\/\/products\/puerto-rico-top-black","explore_link":""}}},"block_order":["d23066f0-85fa-465e-ba20-432d714ec220"],"settings":{"offset_text":true,"use_page_width":true}}},"order":["main","16426285735ee00f29","164253095353d35284","1642702250db612244"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "1642702250db612244": {
+      "type": "fit-guide",
+      "blocks": {
+        "d23066f0-85fa-465e-ba20-432d714ec220": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PUERTO_RICO_TOP_-_BLACK.jpg",
+            "title": "The Puerto Rico Top",
+            "short_title": "Puerto Rico Top",
+            "short_description": "Modern,Sleek,Sporty",
+            "description": "The Puerto Rico Top was made to be your favorite. Designed with a modern square neckline, supportive wide straps and an adjustable back tie closure for the perfect sun-soaking look—and doubles as a crop top.",
+            "fit": "Designed to best fit cup sizes A-E.",
+            "padding": "No",
+            "coverage": "Supportive",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/puerto-rico-top-black",
+            "explore_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d23066f0-85fa-465e-ba20-432d714ec220"
+      ],
+      "settings": {
+        "offset_text": true,
+        "use_page_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426285735ee00f29",
+    "164253095353d35284",
+    "1642702250db612244"
+  ]
+}

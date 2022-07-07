@@ -1,1 +1,56 @@
-{"sections":{"main":{"type":"main-product","settings":{}},"16426285735ee00f29":{"type":"product-bar","settings":{"title":""}},"164253095353d35284":{"type":"in-real-life","settings":{"title":"In Real Life"}},"1642702250db612244":{"type":"fit-guide","blocks":{"d23066f0-85fa-465e-ba20-432d714ec220":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/HANALENI_BOTTOM_-_BLACK.jpg","title":"The Hanaleni Bottom","short_title":"Hanaleni Bottom","short_description":"","description":"Satisfy your sun-soaking needs in the Hanalei Bottom. A play off of our famous Palma Bottom, this classic string bottom features dainty gold rings and adjustable ultra-thin straps for a barely-there feel.","fit":"Available in sizes P-V","padding":"","coverage":"Minimal","style":"","fabric":"","fit_tip":"","shop_link":"shopify:\/\/collections\/shop-by-style-hanalei"}}},"block_order":["d23066f0-85fa-465e-ba20-432d714ec220"],"settings":{"offset_text":true,"use_page_width":true}}},"order":["main","16426285735ee00f29","164253095353d35284","1642702250db612244"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "1642702250db612244": {
+      "type": "fit-guide",
+      "blocks": {
+        "d23066f0-85fa-465e-ba20-432d714ec220": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HANALENI_BOTTOM_-_BLACK.jpg",
+            "title": "The Hanaleni Bottom",
+            "short_title": "Hanaleni Bottom",
+            "short_description": "",
+            "description": "Satisfy your sun-soaking needs in the Hanalei Bottom. A play off of our famous Palma Bottom, this classic string bottom features dainty gold rings and adjustable ultra-thin straps for a barely-there feel.",
+            "fit": "Available in sizes P-V",
+            "padding": "",
+            "coverage": "Minimal",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-hanalei"
+          }
+        }
+      },
+      "block_order": [
+        "d23066f0-85fa-465e-ba20-432d714ec220"
+      ],
+      "settings": {
+        "offset_text": true,
+        "use_page_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426285735ee00f29",
+    "164253095353d35284",
+    "1642702250db612244"
+  ]
+}

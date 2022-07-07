@@ -1,1 +1,92 @@
-{"sections":{"headline":{"type":"contact-headline","blocks":{"7114362b-e669-4fc8-b885-3736c137103e":{"type":"link","settings":{"link_text":"Fit Tips","url":"shopify:\/\/pages\/care-tips"}},"a91615ac-98db-4989-ad72-439ad69a8d9b":{"type":"link","settings":{"link_text":"Fit Guide","url":"shopify:\/\/pages\/fit-guide"}},"0985426f-439f-457a-a7ef-10b1709404a5":{"type":"link","settings":{"link_text":"FAQs","url":"shopify:\/\/pages\/faqs"}}},"block_order":["7114362b-e669-4fc8-b885-3736c137103e","a91615ac-98db-4989-ad72-439ad69a8d9b","0985426f-439f-457a-a7ef-10b1709404a5"],"settings":{"heading_text":"Contact Us","subtitle":"How can we help?","description":"Our customer service team is here to answer your questions and we love hearing about your Monday Swimwear experiences. We’ve also compiled a helpful list of FAQs, some for general inquiries and some specifically for international shoppers, and our fit guide was specifically designed to help you to find your perfect fit in Monday Swimwear."}},"service-hours":{"type":"contact-service-hours","settings":{"background_color":"#ffff95","heading_text":"Customer service hours","content":"<p>Monday – Friday<br\/>9:30am-6:30pm PST<\/p>"}},"emails":{"type":"contact-emails","blocks":{"5adfdd93-3981-45e6-ba5a-cd345ecf8283":{"type":"email","settings":{"location":"Press & Media Inquiries - US","email":"Amanda@house-of.com"}},"b7a8b317-e888-4996-9a35-7af2611e52a7":{"type":"email","settings":{"location":"Collab Inquires","email":"collabs@mondayswimwear.com"}}},"block_order":["5adfdd93-3981-45e6-ba5a-cd345ecf8283","b7a8b317-e888-4996-9a35-7af2611e52a7"],"settings":{"background_color":"#f2f0e8","button_text":"Email"}},"form":{"type":"contact-form","settings":{"heading_text":"We're here for you","subtitle":"For all customer service, fit inquires, order and return inquires, please use the section below to send an email to us.","request_return":"To request a return","description":"","note":"*Please allow 24-48 business hours for one of our customer service representatives to review and respond to your inquiry. Outside of those hours, feel free to email us, and we'll get back to you as quickly as we can! If you do not receive an automated email when sending in your inquiry our team has not received your email. If you have sent an email and you have not received a response, please be sure to check your junk\/spam folders.","btn_label":"Start a Return"}}},"order":["headline","service-hours","emails","form"]}
+{
+  "sections": {
+    "headline": {
+      "type": "contact-headline",
+      "blocks": {
+        "7114362b-e669-4fc8-b885-3736c137103e": {
+          "type": "link",
+          "settings": {
+            "link_text": "Fit Tips",
+            "url": "shopify:\/\/pages\/care-tips"
+          }
+        },
+        "a91615ac-98db-4989-ad72-439ad69a8d9b": {
+          "type": "link",
+          "settings": {
+            "link_text": "Fit Guide",
+            "url": "shopify:\/\/pages\/fit-guide"
+          }
+        },
+        "0985426f-439f-457a-a7ef-10b1709404a5": {
+          "type": "link",
+          "settings": {
+            "link_text": "FAQs",
+            "url": "shopify:\/\/pages\/faqs"
+          }
+        }
+      },
+      "block_order": [
+        "7114362b-e669-4fc8-b885-3736c137103e",
+        "a91615ac-98db-4989-ad72-439ad69a8d9b",
+        "0985426f-439f-457a-a7ef-10b1709404a5"
+      ],
+      "settings": {
+        "heading_text": "Contact Us",
+        "subtitle": "How can we help?",
+        "description": "Our customer service team is here to answer your questions and we love hearing about your Monday Swimwear experiences. We’ve also compiled a helpful list of FAQs, some for general inquiries and some specifically for international shoppers, and our fit guide was specifically designed to help you to find your perfect fit in Monday Swimwear."
+      }
+    },
+    "service-hours": {
+      "type": "contact-service-hours",
+      "settings": {
+        "background_color": "#ffff95",
+        "heading_text": "Customer service hours",
+        "content": "<p>Monday – Friday<br\/>9:30am-6:30pm PST<\/p>"
+      }
+    },
+    "emails": {
+      "type": "contact-emails",
+      "blocks": {
+        "5adfdd93-3981-45e6-ba5a-cd345ecf8283": {
+          "type": "email",
+          "settings": {
+            "location": "Press & Media Inquiries - US",
+            "email": "Amanda@house-of.com"
+          }
+        },
+        "b7a8b317-e888-4996-9a35-7af2611e52a7": {
+          "type": "email",
+          "settings": {
+            "location": "Collab Inquires",
+            "email": "collabs@mondayswimwear.com"
+          }
+        }
+      },
+      "block_order": [
+        "5adfdd93-3981-45e6-ba5a-cd345ecf8283",
+        "b7a8b317-e888-4996-9a35-7af2611e52a7"
+      ],
+      "settings": {
+        "background_color": "#f2f0e8",
+        "button_text": "Email"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading_text": "We're here for you",
+        "subtitle": "For all customer service, fit inquires, order and return inquires, please use the section below to send an email to us.",
+        "request_return": "To request a return",
+        "description": "",
+        "note": "*Please allow 24-48 business hours for one of our customer service representatives to review and respond to your inquiry. Outside of those hours, feel free to email us, and we'll get back to you as quickly as we can! If you do not receive an automated email when sending in your inquiry our team has not received your email. If you have sent an email and you have not received a response, please be sure to check your junk\/spam folders.",
+        "btn_label": "Start a Return"
+      }
+    }
+  },
+  "order": [
+    "headline",
+    "service-hours",
+    "emails",
+    "form"
+  ]
+}

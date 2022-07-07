@@ -1,1 +1,247 @@
-{"sections":{"1640133702b1b204aa":{"type":"hero","settings":{"image":"shopify:\/\/shop_images\/Header_6101b39b-f0d0-464b-842c-2473383029b0.jpg","mobile_image":"shopify:\/\/shop_images\/Mobile_8f43ad4f-47f6-417a-b0aa-bc27d297636c.jpg","caption":"shade seeker","caption_color":"#ffffff","button_label":"PRE-ORDER THE EXUMA HAT","button_link":"shopify:\/\/collections\/new-arrivals","overlay_link":true}},"164081090579915a8a":{"type":"text","disabled":true,"settings":{"text":"15% of orders placed from June 20 - June 29 from our Cloud Collection will go directly to The Clean Air Task Force.","wide":true,"add_glow":true}},"16407502469f0e5f45":{"type":"product-slider","blocks":{"944498a4-3695-48f6-9a89-0208d09aab7b":{"type":"collection","settings":{"collection":"beachwear-accessories"}},"d2afee54-b61f-4a31-9d4b-d9fa58443b4f":{"type":"collection","settings":{"collection":"the-signature-collection-1"}}},"block_order":["944498a4-3695-48f6-9a89-0208d09aab7b","d2afee54-b61f-4a31-9d4b-d9fa58443b4f"],"settings":{}},"16408101574f5b391b":{"type":"editorial-banner","settings":{"image":"shopify:\/\/shop_images\/Home.jpg","mobile_image":"shopify:\/\/shop_images\/Cloud.jpg","left_text":"HEAD IN","right_text":"THE CLOUDS","link_label":"SHOP THE LIMITED COLLECTION","link":"shopify:\/\/collections\/cloud"}},"1640811405c1297562":{"type":"link-blocks","blocks":{"d029689e-51e9-4bab-918a-a703bb5724d6":{"type":"link_block","settings":{"image":"shopify:\/\/shop_images\/Mobile_ffa2caf8-446b-4a05-8fe9-36a499fb7c5f.jpg","text":"FEELING GROUNDED","link_label":"SHOP OLIVE GREEN CRINKLE","link":"shopify:\/\/collections\/olive-green-crinkle"}},"643e0732-83e9-4986-9865-1f1ee99fda72":{"type":"link_block","settings":{"image":"shopify:\/\/shop_images\/EP.jpg","text":"DRIPPING IN GOLD","link_label":"SHOP EMMA PILLS x MONDAY SWIMWEAR","link":"shopify:\/\/collections\/emma-pills"}}},"block_order":["d029689e-51e9-4bab-918a-a703bb5724d6","643e0732-83e9-4986-9865-1f1ee99fda72"],"settings":{"text_style":"overlay","slider_on_mobile":false}},"16408186509f925b52":{"type":"fit-guide","blocks":{"6e9a9dd8-b1b2-416a-affd-fef02ba43eb7":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/SORRENTO-TOP.jpg","title":"The Sorrento Top","short_title":"Sorrento Top","short_description":"Supportive,Shaping,Feminine","description":"Introducing our newest underwire, the Sorrento Top. Designed with support and shape in mind, this flattering swim top holds and lifts everything into one place. Complete with a demi shaped underwire cup, adjustable shoulder straps and a back tie closure for a custom fit.","fit":"Designed to best fit cup sizes A-G.","padding":"No","coverage":"","style":"Underwire \/ Supportive","fabric":"","fit_tip":"","shop_link":"shopify:\/\/products\/sorrento-top-black","explore_link":"shopify:\/\/products\/sorrento-top-black"}},"57463eab-fe10-4bbe-97f0-49cb87347475":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/Sorrento-Bottom---Black_ab8e212b-26b5-4313-9c7b-d9e3a83de85e.jpg","title":"The Sorrento Bottom","short_title":"Sorrento Bottom","short_description":"","description":"The Sorrento Bottom is the perfect option for that classic high waisted look. Designed with a higher and wider coverage, This figure flattering bottom accentuates your waist keeping you covered in all the right places and is bound to become your go-to.","fit":"Available in sizes P-VV","padding":"","coverage":"High Waisted \/ Moderate","style":"","fabric":"","fit_tip":"","shop_link":"shopify:\/\/products\/sorrento-bottom-black","explore_link":"shopify:\/\/products\/sorrento-bottom-black"}},"37be9d4e-ad65-4a18-88ca-dca968d4542e":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/Whitehaven-One-Piece.jpg","title":"The Whitehaven One Piece","short_title":"Whitehaven One Piece","short_description":"Feminine,Sophisticated,Chic","description":"The Whitehaven One Piece is an all-around must have! Its chic neckline, low back and adjustable waist ties instantly elevates your look. We love this one piece as a bodysuit under the Tahiti, Hampton or Monaco Pant for a beach to dinner set.","fit":"Designed to best fit cup sizes A-E.","padding":"No","coverage":"Moderate and minimal","style":"","fabric":"","fit_tip":"","shop_link":"shopify:\/\/products\/whitehaven-one-piece-black","explore_link":"shopify:\/\/products\/whitehaven-one-piece-black"}}},"block_order":["6e9a9dd8-b1b2-416a-affd-fef02ba43eb7","57463eab-fe10-4bbe-97f0-49cb87347475","37be9d4e-ad65-4a18-88ca-dca968d4542e"],"settings":{"offset_text":false,"use_page_width":false}},"1640812146b4d73cae":{"type":"link-blocks","blocks":{"0570681f-5b84-4eab-8818-e52ba333c98a":{"type":"link_block","settings":{"image":"shopify:\/\/shop_images\/L1_476481da-23f0-4b3f-a0bc-13c4bfb710dc.jpg","text":"Soft Hues","link_label":"Shop Neutral Styles","link":"shopify:\/\/collections\/neutrals"}},"ad429781-a8be-4669-ae64-dff66392ae7d":{"type":"link_block","settings":{"image":"shopify:\/\/shop_images\/L-3_0da84472-9548-49ca-8ff3-44d8958a7c38.jpg","text":"One & Done","link_label":"Shop One Pieces","link":"shopify:\/\/collections\/one-pieces"}},"61e4895c-cc75-4fad-b969-1bc491d269ef":{"type":"link_block","settings":{"image":"shopify:\/\/shop_images\/L2_d52ce3cb-6332-4d0d-a210-702ea3d8e646.jpg","text":"Beach to Bar","link_label":"Shop Beachwear","link":"shopify:\/\/collections\/monday-beachwear"}}},"block_order":["0570681f-5b84-4eab-8818-e52ba333c98a","ad429781-a8be-4669-ae64-dff66392ae7d","61e4895c-cc75-4fad-b969-1bc491d269ef"],"settings":{"text_style":"underneath","slider_on_mobile":true}},"1640814929d4a3c77a":{"type":"editorial-text-image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Fit.jpg","word_1":"Find","word_2":"The","word_3":"Perfect","word_4":"Fit","text":"Explore the Fit Guide and Find Your Perfect Fit.","mobile_text":"Explore the Fit Guide and Find Your Perfect Fit.","button_label":"Explore the Fit Guide","button_link":"shopify:\/\/pages\/fit-guide"}},"164124814754670aef":{"type":"instagram","settings":{"left_text":"Follow Along","right_text":"@mondayswimwear"}},"1650912644aa65b794":{"type":"nosto-recommendations","settings":{"label":"Recommend for You","custom_html":"<div class=\"nosto_element\" id=\"frontpage-nosto-1\"><\/div>"}},"nosto_index":{"type":"nosto-index","disabled":true,"settings":{}}},"order":["1640133702b1b204aa","164081090579915a8a","16407502469f0e5f45","16408101574f5b391b","1640811405c1297562","16408186509f925b52","1640812146b4d73cae","1640814929d4a3c77a","164124814754670aef","1650912644aa65b794","nosto_index"]}
+{
+  "sections": {
+    "1640133702b1b204aa": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Header_6101b39b-f0d0-464b-842c-2473383029b0.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_8f43ad4f-47f6-417a-b0aa-bc27d297636c.jpg",
+        "caption": "shade seeker",
+        "caption_color": "#ffffff",
+        "button_label": "PRE-ORDER THE EXUMA HAT",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "overlay_link": true
+      }
+    },
+    "164081090579915a8a": {
+      "type": "text",
+      "disabled": true,
+      "settings": {
+        "text": "15% of orders placed from June 20 - June 29 from our Cloud Collection will go directly to The Clean Air Task Force.",
+        "wide": true,
+        "add_glow": true
+      }
+    },
+    "16407502469f0e5f45": {
+      "type": "product-slider",
+      "blocks": {
+        "944498a4-3695-48f6-9a89-0208d09aab7b": {
+          "type": "collection",
+          "settings": {
+            "collection": "beachwear-accessories"
+          }
+        },
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
+          }
+        }
+      },
+      "block_order": [
+        "944498a4-3695-48f6-9a89-0208d09aab7b",
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f"
+      ],
+      "settings": {
+      }
+    },
+    "16408101574f5b391b": {
+      "type": "editorial-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Cloud.jpg",
+        "left_text": "HEAD IN",
+        "right_text": "THE CLOUDS",
+        "link_label": "SHOP THE LIMITED COLLECTION",
+        "link": "shopify:\/\/collections\/cloud"
+      }
+    },
+    "1640811405c1297562": {
+      "type": "link-blocks",
+      "blocks": {
+        "d029689e-51e9-4bab-918a-a703bb5724d6": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mobile_ffa2caf8-446b-4a05-8fe9-36a499fb7c5f.jpg",
+            "text": "FEELING GROUNDED",
+            "link_label": "SHOP OLIVE GREEN CRINKLE",
+            "link": "shopify:\/\/collections\/olive-green-crinkle"
+          }
+        },
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EP.jpg",
+            "text": "DRIPPING IN GOLD",
+            "link_label": "SHOP EMMA PILLS x MONDAY SWIMWEAR",
+            "link": "shopify:\/\/collections\/emma-pills"
+          }
+        }
+      },
+      "block_order": [
+        "d029689e-51e9-4bab-918a-a703bb5724d6",
+        "643e0732-83e9-4986-9865-1f1ee99fda72"
+      ],
+      "settings": {
+        "text_style": "overlay",
+        "slider_on_mobile": false
+      }
+    },
+    "16408186509f925b52": {
+      "type": "fit-guide",
+      "blocks": {
+        "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SORRENTO-TOP.jpg",
+            "title": "The Sorrento Top",
+            "short_title": "Sorrento Top",
+            "short_description": "Supportive,Shaping,Feminine",
+            "description": "Introducing our newest underwire, the Sorrento Top. Designed with support and shape in mind, this flattering swim top holds and lifts everything into one place. Complete with a demi shaped underwire cup, adjustable shoulder straps and a back tie closure for a custom fit.",
+            "fit": "Designed to best fit cup sizes A-G.",
+            "padding": "No",
+            "coverage": "",
+            "style": "Underwire \/ Supportive",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/sorrento-top-black",
+            "explore_link": "shopify:\/\/products\/sorrento-top-black"
+          }
+        },
+        "57463eab-fe10-4bbe-97f0-49cb87347475": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sorrento-Bottom---Black_ab8e212b-26b5-4313-9c7b-d9e3a83de85e.jpg",
+            "title": "The Sorrento Bottom",
+            "short_title": "Sorrento Bottom",
+            "short_description": "",
+            "description": "The Sorrento Bottom is the perfect option for that classic high waisted look. Designed with a higher and wider coverage, This figure flattering bottom accentuates your waist keeping you covered in all the right places and is bound to become your go-to.",
+            "fit": "Available in sizes P-VV",
+            "padding": "",
+            "coverage": "High Waisted \/ Moderate",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/sorrento-bottom-black",
+            "explore_link": "shopify:\/\/products\/sorrento-bottom-black"
+          }
+        },
+        "37be9d4e-ad65-4a18-88ca-dca968d4542e": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Whitehaven-One-Piece.jpg",
+            "title": "The Whitehaven One Piece",
+            "short_title": "Whitehaven One Piece",
+            "short_description": "Feminine,Sophisticated,Chic",
+            "description": "The Whitehaven One Piece is an all-around must have! Its chic neckline, low back and adjustable waist ties instantly elevates your look. We love this one piece as a bodysuit under the Tahiti, Hampton or Monaco Pant for a beach to dinner set.",
+            "fit": "Designed to best fit cup sizes A-E.",
+            "padding": "No",
+            "coverage": "Moderate and minimal",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/products\/whitehaven-one-piece-black",
+            "explore_link": "shopify:\/\/products\/whitehaven-one-piece-black"
+          }
+        }
+      },
+      "block_order": [
+        "6e9a9dd8-b1b2-416a-affd-fef02ba43eb7",
+        "57463eab-fe10-4bbe-97f0-49cb87347475",
+        "37be9d4e-ad65-4a18-88ca-dca968d4542e"
+      ],
+      "settings": {
+        "offset_text": false,
+        "use_page_width": false
+      }
+    },
+    "1640812146b4d73cae": {
+      "type": "link-blocks",
+      "blocks": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L1_476481da-23f0-4b3f-a0bc-13c4bfb710dc.jpg",
+            "text": "Soft Hues",
+            "link_label": "Shop Neutral Styles",
+            "link": "shopify:\/\/collections\/neutrals"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L-3_0da84472-9548-49ca-8ff3-44d8958a7c38.jpg",
+            "text": "One & Done",
+            "link_label": "Shop One Pieces",
+            "link": "shopify:\/\/collections\/one-pieces"
+          }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L2_d52ce3cb-6332-4d0d-a210-702ea3d8e646.jpg",
+            "text": "Beach to Bar",
+            "link_label": "Shop Beachwear",
+            "link": "shopify:\/\/collections\/monday-beachwear"
+          }
+        }
+      },
+      "block_order": [
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+      ],
+      "settings": {
+        "text_style": "underneath",
+        "slider_on_mobile": true
+      }
+    },
+    "1640814929d4a3c77a": {
+      "type": "editorial-text-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Fit.jpg",
+        "word_1": "Find",
+        "word_2": "The",
+        "word_3": "Perfect",
+        "word_4": "Fit",
+        "text": "Explore the Fit Guide and Find Your Perfect Fit.",
+        "mobile_text": "Explore the Fit Guide and Find Your Perfect Fit.",
+        "button_label": "Explore the Fit Guide",
+        "button_link": "shopify:\/\/pages\/fit-guide"
+      }
+    },
+    "164124814754670aef": {
+      "type": "instagram",
+      "settings": {
+        "left_text": "Follow Along",
+        "right_text": "@mondayswimwear"
+      }
+    },
+    "1650912644aa65b794": {
+      "type": "nosto-recommendations",
+      "settings": {
+        "label": "Recommend for You",
+        "custom_html": "<div class=\"nosto_element\" id=\"frontpage-nosto-1\"><\/div>"
+      }
+    },
+    "nosto_index": {
+      "type": "nosto-index",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1640133702b1b204aa",
+    "164081090579915a8a",
+    "16407502469f0e5f45",
+    "16408101574f5b391b",
+    "1640811405c1297562",
+    "16408186509f925b52",
+    "1640812146b4d73cae",
+    "1640814929d4a3c77a",
+    "164124814754670aef",
+    "1650912644aa65b794",
+    "nosto_index"
+  ]
+}

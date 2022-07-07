@@ -1,1 +1,57 @@
-{"sections":{"main":{"type":"main-product","settings":{}},"16426285735ee00f29":{"type":"product-bar","settings":{"title":""}},"164253095353d35284":{"type":"in-real-life","settings":{"title":"In Real Life"}},"1642702250db612244":{"type":"fit-guide","blocks":{"d23066f0-85fa-465e-ba20-432d714ec220":{"type":"fit","settings":{"image":"shopify:\/\/shop_images\/SORRENTO_BOTTOM_-_BLACK.jpg","title":"The Sorrento Bottom","short_title":"Sorrento Bottom","short_description":"","description":"The Sorrento Bottom is the perfect option for that classic high waisted look. Designed with a higher and wider coverage, This figure flattering bottom accentuates your waist keeping you covered in all the right places and is bound to become your go-to.","fit":"Available in sizes P-VV","padding":"","coverage":"High Waisted \/ Moderate","style":"","fabric":"","fit_tip":"","shop_link":"shopify:\/\/collections\/shop-by-style-sorrento","explore_link":""}}},"block_order":["d23066f0-85fa-465e-ba20-432d714ec220"],"settings":{"offset_text":true,"use_page_width":true}}},"order":["main","16426285735ee00f29","164253095353d35284","1642702250db612244"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "1642702250db612244": {
+      "type": "fit-guide",
+      "blocks": {
+        "d23066f0-85fa-465e-ba20-432d714ec220": {
+          "type": "fit",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SORRENTO_BOTTOM_-_BLACK.jpg",
+            "title": "The Sorrento Bottom",
+            "short_title": "Sorrento Bottom",
+            "short_description": "",
+            "description": "The Sorrento Bottom is the perfect option for that classic high waisted look. Designed with a higher and wider coverage, This figure flattering bottom accentuates your waist keeping you covered in all the right places and is bound to become your go-to.",
+            "fit": "Available in sizes P-VV",
+            "padding": "",
+            "coverage": "High Waisted \/ Moderate",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "shopify:\/\/collections\/shop-by-style-sorrento",
+            "explore_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d23066f0-85fa-465e-ba20-432d714ec220"
+      ],
+      "settings": {
+        "offset_text": true,
+        "use_page_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426285735ee00f29",
+    "164253095353d35284",
+    "1642702250db612244"
+  ]
+}
