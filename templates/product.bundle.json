@@ -4,54 +4,9 @@
       "type": "main-product",
       "settings": {
       }
-    },
-    "16426285735ee00f29": {
-      "type": "product-bar",
-      "settings": {
-        "title": ""
-      }
-    },
-    "164253095353d35284": {
-      "type": "in-real-life",
-      "settings": {
-        "title": "In Real Life"
-      }
-    },
-    "1642702250db612244": {
-      "type": "fit-guide",
-      "blocks": {
-        "d23066f0-85fa-465e-ba20-432d714ec220": {
-          "type": "fit",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ANTIGUA_BOTTOM_-_BLACK.jpg",
-            "title": "The Antigua Bottom",
-            "short_title": "Antigua Bottom",
-            "short_description": "",
-            "description": "Complementing every shape, the Antigua Bottom is the perfect way to accentuate your waist. Complete with a high-cut leg and supportive waistband with a chunky gold ring. The higher leg shape elongates your figure and gives a cheekier back coverage.",
-            "fit": "Available in sizes P-V",
-            "padding": "",
-            "coverage": "High Waisted \/ High Leg \/ Cheeky",
-            "style": "",
-            "fabric": "",
-            "fit_tip": "",
-            "shop_link": "shopify:\/\/collections\/shop-by-style-antigua",
-            "explore_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "d23066f0-85fa-465e-ba20-432d714ec220"
-      ],
-      "settings": {
-        "offset_text": true,
-        "use_page_width": true
-      }
     }
   },
   "order": [
-    "main",
-    "16426285735ee00f29",
-    "164253095353d35284",
-    "1642702250db612244"
+    "main"
   ]
 }
