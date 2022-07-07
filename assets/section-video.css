@@ -27,3 +27,9 @@
   bottom: 0;
   left: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .video {
+    margin: 40px 0 60px;
+  }
+}
