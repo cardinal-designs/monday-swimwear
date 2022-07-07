@@ -12,6 +12,13 @@
         "overlay_link": true
       }
     },
+    "1657215750b8e1724d": {
+      "type": "video",
+      "settings": {
+        "title": "PARAISO Miami Beach",
+        "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/eZNpqsZDx2k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
+      }
+    },
     "164081090579915a8a": {
       "type": "text",
       "disabled": true,
@@ -233,6 +240,7 @@
   },
   "order": [
     "1640133702b1b204aa",
+    "1657215750b8e1724d",
     "164081090579915a8a",
     "16407502469f0e5f45",
     "16408101574f5b391b",
