@@ -6,7 +6,9 @@
       <h2 class="video__title h4">{{ section.settings.title }}</h2>
     {% endif %}
     <div class="video__container">
-      {{ section.settings.youtube_embed }}
+      <div class="video__video-wrapper">
+        {{ section.settings.youtube_embed }}
+      </div>
     </div>
   </div>
 </div>
