@@ -20,7 +20,11 @@
       
       <div class="editorial-banner__link">
         {% if section.settings.link_label != blank %}
-          <a href="{{ section.settings.link }}" class="text-link">{{ section.settings.link_label }}</a>
+          <a href="{{ section.settings.link }}" class="text-link">{{ section.settings.link_label }}
+            {% if section.settings.logo != blank %}
+            <span class="text-link-logo">{% render 'lazy-image' image: section.settings.logo %}</span>
+            {% endif %}
+          </a>
         {% endif %}
       </div>
 
@@ -86,6 +90,11 @@
         "type": "url",
         "id": "link",
         "label": "Link"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "(Optional) Inline Logo"
       }
     ],
     "presets": [

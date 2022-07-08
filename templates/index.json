@@ -59,8 +59,9 @@
         "mobile_image": "shopify:\/\/shop_images\/Cloud.jpg",
         "left_text": "HEAD IN",
         "right_text": "THE CLOUDS",
-        "link_label": "SHOP THE LIMITED COLLECTION",
-        "link": "shopify:\/\/collections\/cloud"
+        "link_label": "SHOP NOW WITH",
+        "link": "shopify:\/\/collections\/cloud",
+        "logo": "shopify:\/\/shop_images\/klarna.png"
       }
     },
     "1640811405c1297562": {

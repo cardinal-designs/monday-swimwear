@@ -38,6 +38,19 @@
   overflow: hidden;
 }
 
+.editorial-banner__link .text-link {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.editorial-banner__link .text-link-logo {
+  margin-left: 5px;
+}
+
+.editorial-banner__link .text-link-logo .aspect-ratio {
+  width: 55px !important;
+} 
+
 @media screen and (max-width: 1440px) {
   .editorial-banner__left-text {
     left: 25px;
