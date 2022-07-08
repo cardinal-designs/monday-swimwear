@@ -20,7 +20,11 @@
       
       <div class="editorial-banner__link">
         {% if section.settings.link_label != blank %}
-          <a href="{{ section.settings.link }}" class="text-link">{{ section.settings.link_label }}<span class="text-link-logo">{% render 'lazy-image' image: section.settings.logo %}</span></a>
+          <a href="{{ section.settings.link }}" class="text-link">{{ section.settings.link_label }}
+            {% if section.settings.logo != blank %}
+            <span class="text-link-logo">{% render 'lazy-image' image: section.settings.logo %}</span>
+            {% endif %}
+          </a>
         {% endif %}
       </div>
 
