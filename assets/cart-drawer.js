@@ -56,6 +56,8 @@ class CartDrawer extends HTMLElement {
 
     this.pageOverlayElement.classList.remove('is-visible');
     document.body.removeEventListener('click', this.onBodyClick);
+
+    this.body.classList.remove('scroll-lock');
   }
 
   onChange(event) {
