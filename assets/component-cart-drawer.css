@@ -64,7 +64,7 @@
 
 .cart-drawer__items {
   height: 100%;
-  margin-bottom: 170px;
+  margin-bottom: 240px;
   padding: 0 30px;
   overflow: scroll;
 }
@@ -156,10 +156,6 @@
 
   .cart-drawer__content {
     height: calc(100% - 60px);
-  }
-  
-  .cart-drawer__items {
-    margin-bottom: 160px;
   }
 
   .cart-drawer__item-image {
