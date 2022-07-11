@@ -198,6 +198,10 @@
   align-items: center;
 }
 
+.product__price .price {
+  width: 100%;
+}
+
 .product__info-wrapper .form__label {
   opacity: .4;
   margin-bottom: 7px;
