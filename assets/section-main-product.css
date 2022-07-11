@@ -203,6 +203,10 @@
   width: 100%;
 }
 
+klarna-placaement .container {
+  padding: 0 !important;
+}
+
 .product__info-wrapper .form__label {
   opacity: .4;
   margin-bottom: 7px;
