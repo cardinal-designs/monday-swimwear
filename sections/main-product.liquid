@@ -89,15 +89,15 @@
             {{ product.metafields.my_fields.label_text }}
           </div>
           {% endif %}
-        </div>
 
-        <!-- Placement v2 -->
-        <klarna-placement
-          data-key="credit-promotion-badge"
-          data-locale="en-US"
-          data-purchase-amount=""
-        ></klarna-placement>
-        <!-- end Placement -->
+          <!-- Placement v2 -->
+          <klarna-placement
+            data-key="credit-promotion-badge"
+            data-locale="en-US"
+            data-purchase-amount=""
+          ></klarna-placement>
+          <!-- end Placement -->
+        </div>
 
         {% comment %}
         {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
