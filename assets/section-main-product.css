@@ -195,6 +195,7 @@
   padding-bottom: 16px;
   border-bottom: 1px solid #F8F7F4;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
