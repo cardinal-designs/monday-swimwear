@@ -6,7 +6,9 @@
       {% if section.settings.add_glow %}
         <div class="glow"></div>
       {% endif %}
+      {% if section.settings.link != blank %}<a href="{{ section.settings.link }}">{% endif %}
       <h2>{{ section.settings.text }}</h2>
+      {% if section.settings.link != blank %}</a>{% endif %}
     </div>
   </div>
 </div>
