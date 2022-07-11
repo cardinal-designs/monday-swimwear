@@ -201,11 +201,7 @@
 
 .product__price .price {
   width: 100%;
-}
-
-.product__price .container {
-  padding: 0 !important;
-  border: 0 !important;
+  margin-bottom: 10px;
 }
 
 .product__info-wrapper .form__label {
