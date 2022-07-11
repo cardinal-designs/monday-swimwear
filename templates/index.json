@@ -3,12 +3,12 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage_c95c46ca-f4ab-4653-89a6-9fec8bcc8bc7.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_0de015d3-54ce-4c04-879e-819962962b9c.jpg",
-        "caption": "for more than the beach",
+        "image": "shopify:\/\/shop_images\/Homepage_f91fac2c-d27e-41d1-87c8-35ab6920332b.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_ad651613-acbb-4b81-b8c1-52d307a61f5c.jpg",
+        "caption": "MIAMI SWIM WEEK BOUND",
         "caption_color": "#ffffff",
-        "button_label": "SHOP BEACHWEAR",
-        "button_link": "shopify:\/\/collections\/monday-beachwear",
+        "button_label": "SHOP COBALT",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
     },
@@ -31,16 +31,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "944498a4-3695-48f6-9a89-0208d09aab7b": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        },
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
-          }
-        },
-        "944498a4-3695-48f6-9a89-0208d09aab7b": {
-          "type": "collection",
-          "settings": {
-            "collection": "monday-beachwear"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -51,8 +51,8 @@
         }
       },
       "block_order": [
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
         "944498a4-3695-48f6-9a89-0208d09aab7b",
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
