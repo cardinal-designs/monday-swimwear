@@ -91,14 +91,20 @@
           {% endif %}
         </div>
 
+        <!-- Placement v2 -->
+        <klarna-placement
+          data-key="credit-promotion-badge"
+          data-locale="en-US"
+          data-purchase-amount=""
+        ></klarna-placement>
+        <!-- end Placement -->
+
         {% comment %}
         {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
           <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
           {{ form | payment_terms }}
         {%- endform -%}
         {% endcomment %}
-
-        
 
         <product-form class="product-form">
           {% comment %} Check if using collection to determine swatches or using product variants {% endcomment %}
