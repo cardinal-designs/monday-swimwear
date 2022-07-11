@@ -3,12 +3,12 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Header_6101b39b-f0d0-464b-842c-2473383029b0.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_8f43ad4f-47f6-417a-b0aa-bc27d297636c.jpg",
-        "caption": "shade seeker",
+        "image": "shopify:\/\/shop_images\/Homepage_c95c46ca-f4ab-4653-89a6-9fec8bcc8bc7.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_0de015d3-54ce-4c04-879e-819962962b9c.jpg",
+        "caption": "for more than the beach",
         "caption_color": "#ffffff",
-        "button_label": "PRE-ORDER THE EXUMA HAT",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_label": "SHOP BEACHWEAR",
+        "button_link": "shopify:\/\/collections\/monday-beachwear",
         "overlay_link": true
       }
     },
@@ -22,7 +22,6 @@
     },
     "164081090579915a8a": {
       "type": "text",
-      "disabled": true,
       "settings": {
         "text": "Shop the Miami Swim Week Edit collection using Klarna at checkout and get an exclusive 20% off. Code: Klarna20 valid from July 11th - July 18th.",
         "wide": true,
@@ -32,22 +31,29 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "944498a4-3695-48f6-9a89-0208d09aab7b": {
-          "type": "collection",
-          "settings": {
-            "collection": "beachwear-accessories"
-          }
-        },
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
           }
+        },
+        "944498a4-3695-48f6-9a89-0208d09aab7b": {
+          "type": "collection",
+          "settings": {
+            "collection": "monday-beachwear"
+          }
+        },
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
         "944498a4-3695-48f6-9a89-0208d09aab7b",
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
       }
@@ -55,12 +61,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Home.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Cloud.jpg",
-        "left_text": "HEAD IN",
-        "right_text": "THE CLOUDS",
+        "image": "shopify:\/\/shop_images\/Homepage_2b9a3768-b7d7-42f3-a60c-4849b0eb663c.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_ffa2caf8-446b-4a05-8fe9-36a499fb7c5f.jpg",
+        "left_text": "THE MIAMI",
+        "right_text": "SWIM EDIT",
         "link_label": "SHOP NOW WITH",
-        "link": "shopify:\/\/collections\/cloud",
+        "link": "shopify:\/\/collections\/monday-swimwear-miami-swim-week-edit",
         "logo": "shopify:\/\/shop_images\/klarna.png"
       }
     },
@@ -70,10 +76,10 @@
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobile_ffa2caf8-446b-4a05-8fe9-36a499fb7c5f.jpg",
-            "text": "FEELING GROUNDED",
-            "link_label": "SHOP OLIVE GREEN CRINKLE",
-            "link": "shopify:\/\/collections\/olive-green-crinkle"
+            "image": "shopify:\/\/shop_images\/Mobile_39fb4c45-16db-4aa1-bae5-a05ad075ca6e.jpg",
+            "text": "SUMMER IN COLOR",
+            "link_label": "SHOP SUMMER '22",
+            "link": "shopify:\/\/collections\/summer-22"
           }
         },
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
