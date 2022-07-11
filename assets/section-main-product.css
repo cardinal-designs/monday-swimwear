@@ -204,6 +204,15 @@
   margin-bottom: 10px;
 }
 
+klarna-placement p {
+  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  letter-spacing: .02em !important;
+}
+
 .product__info-wrapper .form__label {
   opacity: .4;
   margin-bottom: 7px;
