@@ -3,7 +3,55 @@ class CartRemoveButton extends HTMLElement {
     super();
     this.addEventListener('click', (event) => {
       event.preventDefault();
-      this.closest('cart-items').updateQuantity(this.dataset.index, 0);
+
+      const cartItems = this.closest('cart-items');
+      const idx = this.dataset.index;
+      const cartItem = cartItems.querySelector(`.cart-item[data-idx="${idx}"]`);
+      const bundleId = cartItem.dataset.bundle;
+
+      let qtyChanges = {};
+      
+      console.log(bundleId)
+      if (bundleId) {
+        let itemsWithBundleId = cartItems.querySelectorAll(`.cart-item[data-bundle="${bundleId}"]`);
+        for (let item of itemsWithBundleId) {
+          const itemKey = item.querySelector('cart-remove-button').dataset.key;
+          qtyChanges[itemKey] = 0;
+        }
+        
+        cartItems.enableLoading();
+
+        const body = JSON.stringify({
+          updates: qtyChanges,
+          sections: cartItems.getSectionsToRender().map((section) => section.section),
+          sections_url: window.location.pathname
+        });
+    
+        fetch(`${routes.cart_update_url}`, {...fetchConfig(), ...{ body }})
+          .then((response) => {
+            return response.text();
+          })
+          .then((state) => {
+            const parsedState = JSON.parse(state);
+
+            cartItems.getSectionsToRender().forEach((section => {
+              const elementToReplace =
+                document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+                
+              elementToReplace.innerHTML =
+              cartItems.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
+            }));
+
+            cartItems.disableLoading();
+          
+          }).catch((error) => {
+            cartItems.disableLoading();
+            console.log(error);
+          });
+
+      } else {
+        this.closest('cart-items').updateQuantity(idx, 0);
+      }
     });
   }
 }

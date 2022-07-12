@@ -5,8 +5,8 @@ class CartDrawerRemoveButton extends HTMLElement {
       event.preventDefault();
       const cartDrawer = this.closest('cart-drawer');
       const idx = this.dataset.index;
-      const $drawerItem = $(`.cart-drawer__item[data-idx="${idx}"]`);
-      const bundleId = $drawerItem.data('bundle');
+      const drawerItem = cartDrawer.querySelector(`.cart-drawer__item[data-idx="${idx}"]`);
+      const bundleId = drawerItem.dataset.bundle;
 
       let qtyChanges = {};
       
