@@ -1,4 +1,14 @@
-<div class="cart-drawer__item">
+{% comment %}
+  Check for a bundle ID so we can apply starter kit logic
+{% endcomment %}
+{%- assign bundle_id = '' -%}
+{%- for property in item.properties -%}
+  {%- if property.first == '_bundleId' -%}
+    {%- assign bundle_id = property.last -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<div class="cart-drawer__item" data-idx="{{ idx }}"{% if bundle_id != blank %} data-bundle="{{ bundle_id }}"{% endif %}>
 
   <div class="cart-drawer__item-image-wrapper">
     {% if item.image %}
@@ -72,7 +82,7 @@
         </quantity-input>
       </div>
 
-      <cart-drawer-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
+      <cart-drawer-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}" data-variant="{{ item.id }}" data-key="{{ item.key }}">
         <a href="{{ item.url_to_remove }}" class="cart-drawer__item-remove body-small" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">Remove
         </a>
       </cart-drawer-remove-button>
