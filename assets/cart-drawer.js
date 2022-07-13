@@ -3,7 +3,53 @@ class CartDrawerRemoveButton extends HTMLElement {
     super();
     this.addEventListener('click', (event) => {
       event.preventDefault();
-      this.closest('cart-drawer').updateQuantity(this.dataset.index, 0);
+      const cartDrawer = this.closest('cart-drawer');
+      const idx = this.dataset.index;
+      const drawerItem = cartDrawer.querySelector(`.cart-drawer__item[data-idx="${idx}"]`);
+      const bundleId = drawerItem.dataset.bundle;
+
+      let qtyChanges = {};
+      
+      if (bundleId) {
+        let itemsWithBundleId = cartDrawer.querySelectorAll(`.cart-drawer__item[data-bundle="${bundleId}"]`);
+        for (let item of itemsWithBundleId) {
+          const itemKey = item.querySelector('cart-drawer-remove-button').dataset.key;
+          qtyChanges[itemKey] = 0;
+        }
+        
+        cartDrawer.enableLoading();
+
+        const body = JSON.stringify({
+          updates: qtyChanges,
+          sections: cartDrawer.getSectionsToRender().map((section) => section.section),
+          sections_url: window.location.pathname
+        });
+    
+        fetch(`${routes.cart_update_url}`, {...fetchConfig(), ...{ body }})
+          .then((response) => {
+            return response.text();
+          })
+          .then((state) => {
+            const parsedState = JSON.parse(state);
+
+            cartDrawer.getSectionsToRender().forEach((section => {
+              const elementToReplace =
+                document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+                
+              elementToReplace.innerHTML =
+              cartDrawer.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
+            }));
+
+            cartDrawer.disableLoading();
+          
+          }).catch((error) => {
+            cartDrawer.disableLoading();
+            console.log(error);
+          });
+
+      } else {
+        this.closest('cart-drawer').updateQuantity(idx, 0);
+      }
     });
   }
 }
