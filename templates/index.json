@@ -3,11 +3,11 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Header_6101b39b-f0d0-464b-842c-2473383029b0.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_8f43ad4f-47f6-417a-b0aa-bc27d297636c.jpg",
-        "caption": "shade seeker",
+        "image": "shopify:\/\/shop_images\/Homepage_f91fac2c-d27e-41d1-87c8-35ab6920332b.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_ad651613-acbb-4b81-b8c1-52d307a61f5c.jpg",
+        "caption": "MIAMI SWIM WEEK BOUND",
         "caption_color": "#ffffff",
-        "button_label": "PRE-ORDER THE EXUMA HAT",
+        "button_label": "SHOP COBALT",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
@@ -22,11 +22,23 @@
     },
     "164081090579915a8a": {
       "type": "text",
-      "disabled": true,
       "settings": {
-        "text": "15% of orders placed from June 20 - June 29 from our Cloud Collection will go directly to The Clean Air Task Force.",
+        "text": "Shop the Miami Swim Week Edit collection using Klarna at checkout and get an exclusive 20% off. Code: Klarna20 valid from July 11th - July 18th.",
         "wide": true,
-        "add_glow": true
+        "add_glow": true,
+        "link": "shopify:\/\/collections\/monday-swimwear-miami-swim-week-edit"
+      }
+    },
+    "16408101574f5b391b": {
+      "type": "editorial-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Homepage_2b9a3768-b7d7-42f3-a60c-4849b0eb663c.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_ffa2caf8-446b-4a05-8fe9-36a499fb7c5f.jpg",
+        "left_text": "THE MIAMI SWIM",
+        "right_text": "WEEK EDIT",
+        "link_label": "SHOP NOW WITH",
+        "link": "shopify:\/\/collections\/monday-swimwear-miami-swim-week-edit",
+        "logo": "shopify:\/\/shop_images\/klarna.png"
       }
     },
     "16407502469f0e5f45": {
@@ -35,7 +47,7 @@
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "new-arrivals"
           }
         },
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
@@ -43,24 +55,20 @@
           "settings": {
             "collection": "the-signature-collection-1"
           }
+        },
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "944498a4-3695-48f6-9a89-0208d09aab7b",
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f"
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
-      }
-    },
-    "16408101574f5b391b": {
-      "type": "editorial-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Home.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Cloud.jpg",
-        "left_text": "HEAD IN",
-        "right_text": "THE CLOUDS",
-        "link_label": "SHOP THE LIMITED COLLECTION",
-        "link": "shopify:\/\/collections\/cloud"
       }
     },
     "1640811405c1297562": {
@@ -69,10 +77,10 @@
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobile_ffa2caf8-446b-4a05-8fe9-36a499fb7c5f.jpg",
-            "text": "FEELING GROUNDED",
-            "link_label": "SHOP OLIVE GREEN CRINKLE",
-            "link": "shopify:\/\/collections\/olive-green-crinkle"
+            "image": "shopify:\/\/shop_images\/Mobile_39fb4c45-16db-4aa1-bae5-a05ad075ca6e.jpg",
+            "text": "SUMMER IN COLOR",
+            "link_label": "SHOP SUMMER '22",
+            "link": "shopify:\/\/collections\/summer-22"
           }
         },
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
@@ -243,8 +251,8 @@
     "1640133702b1b204aa",
     "1657215750b8e1724d",
     "164081090579915a8a",
-    "16407502469f0e5f45",
     "16408101574f5b391b",
+    "16407502469f0e5f45",
     "1640811405c1297562",
     "16408186509f925b52",
     "1640812146b4d73cae",

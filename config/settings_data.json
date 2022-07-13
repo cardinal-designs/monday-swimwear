@@ -28,22 +28,22 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "2b1b8459-d702-437f-a64f-d74e618d18b9": {
+            "type": "announcement",
+            "settings": {
+              "text": "Shop Now, Pay Later 🛒 \nShop the Miami Swim Week Edit collection using Klarna at checkout and get an exclusive 20% off. Code: Klarna20 valid from 7\/11 - 7\/18."
+            }
+          },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
             "settings": {
               "text": "FREE SHIPPING ON US ORDERS OVER $200 📦"
             }
-          },
-          "2b1b8459-d702-437f-a64f-d74e618d18b9": {
-            "type": "announcement",
-            "settings": {
-              "text": "INTEREST-FREE PAYMENTS W\/ KLARNA. LEARN MORE AT CHECKOUT 🛒"
-            }
           }
         },
         "block_order": [
-          "9e9ecc40-4b57-4047-b32f-6330f3026efb",
-          "2b1b8459-d702-437f-a64f-d74e618d18b9"
+          "2b1b8459-d702-437f-a64f-d74e618d18b9",
+          "9e9ecc40-4b57-4047-b32f-6330f3026efb"
         ],
         "settings": {
           "background_color": "#000000",

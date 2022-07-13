@@ -3,12 +3,17 @@
   text-align: center;
 }
 
+.video .page-width {
+  max-width: 100%;
+  padding: 0;
+}
+
 .video__title {
   margin: 0 0 30px;
 }
 
 .video__container {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
