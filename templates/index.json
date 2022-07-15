@@ -176,28 +176,28 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L1_476481da-23f0-4b3f-a0bc-13c4bfb710dc.jpg",
-            "text": "Soft Hues",
-            "link_label": "Shop Neutral Styles",
-            "link": "shopify:\/\/collections\/neutrals"
+            "image": "shopify:\/\/shop_images\/Olive-Runway-Style-Box.jpg",
+            "text": "Olive Runway Style Box",
+            "link_label": "Shop the Look",
+            "link": "shopify:\/\/products\/olive-runway-style-box"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L-3_0da84472-9548-49ca-8ff3-44d8958a7c38.jpg",
-            "text": "One & Done",
-            "link_label": "Shop One Pieces",
-            "link": "shopify:\/\/collections\/one-pieces"
+            "image": "shopify:\/\/shop_images\/Black-_-Ivory-Runway-Style-Box.jpg",
+            "text": "Black & Ivory Runway Style Box",
+            "link_label": "Shop the Look",
+            "link": "shopify:\/\/products\/black-ivory-runway-style-box"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L2_d52ce3cb-6332-4d0d-a210-702ea3d8e646.jpg",
-            "text": "Beach to Bar",
-            "link_label": "Shop Beachwear",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "image": "shopify:\/\/shop_images\/Cobalt-Runway-Style-Box.jpg",
+            "text": "Cobalt Runway Style Box",
+            "link_label": "Shop the Look",
+            "link": "shopify:\/\/products\/cobalt-runway-style-box"
           }
         }
       },
