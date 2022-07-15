@@ -29,6 +29,47 @@
         "link": "shopify:\/\/collections\/monday-swimwear-miami-swim-week-edit"
       }
     },
+    "1640812146b4d73cae": {
+      "type": "link-blocks",
+      "blocks": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Olive-Runway-Style-Box.jpg",
+            "text": "Olive Runway Style Box",
+            "link_label": "Shop the Look",
+            "link": "shopify:\/\/products\/olive-runway-style-box"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Black-_-Ivory-Runway-Style-Box.jpg",
+            "text": "Black & Ivory Runway Style Box",
+            "link_label": "Shop the Look",
+            "link": "shopify:\/\/products\/black-ivory-runway-style-box"
+          }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cobalt-Runway-Style-Box.jpg",
+            "text": "Cobalt Runway Style Box",
+            "link_label": "Shop the Look",
+            "link": "shopify:\/\/products\/cobalt-runway-style-box"
+          }
+        }
+      },
+      "block_order": [
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+      ],
+      "settings": {
+        "text_style": "underneath",
+        "slider_on_mobile": true
+      }
+    },
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
@@ -170,47 +211,6 @@
         "use_page_width": false
       }
     },
-    "1640812146b4d73cae": {
-      "type": "link-blocks",
-      "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Olive-Runway-Style-Box.jpg",
-            "text": "Olive Runway Style Box",
-            "link_label": "Shop the Look",
-            "link": "shopify:\/\/products\/olive-runway-style-box"
-          }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Black-_-Ivory-Runway-Style-Box.jpg",
-            "text": "Black & Ivory Runway Style Box",
-            "link_label": "Shop the Look",
-            "link": "shopify:\/\/products\/black-ivory-runway-style-box"
-          }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Cobalt-Runway-Style-Box.jpg",
-            "text": "Cobalt Runway Style Box",
-            "link_label": "Shop the Look",
-            "link": "shopify:\/\/products\/cobalt-runway-style-box"
-          }
-        }
-      },
-      "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
-      ],
-      "settings": {
-        "text_style": "underneath",
-        "slider_on_mobile": true
-      }
-    },
     "1640814929d4a3c77a": {
       "type": "editorial-text-image",
       "disabled": true,
@@ -251,11 +251,11 @@
     "1640133702b1b204aa",
     "1657215750b8e1724d",
     "164081090579915a8a",
+    "1640812146b4d73cae",
     "16408101574f5b391b",
     "16407502469f0e5f45",
     "1640811405c1297562",
     "16408186509f925b52",
-    "1640812146b4d73cae",
     "1640814929d4a3c77a",
     "164124814754670aef",
     "1650912644aa65b794",
