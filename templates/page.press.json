@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/Unknown_039d0677-fa64-43ac-99d9-85d3b298ebe7.png",
+            "text": "\"The 15 Hottest Plus-Size Swim Looks From Paraiso Miami Beach......This zebra bikini by Monday Swimwear is further proof that animal prints are always a good idea.\"",
+            "date": "JULY 2022",
+            "link": "https:\/\/www.bustle.com\/style\/plus-size-swim-paraiso-miami-beach-swim-week-2022\/amp"
+          }
+        },
         "38c526bd-4666-495a-907a-38cf1a9bafc0": {
           "type": "block",
           "settings": {
@@ -96,16 +106,6 @@
             "link": ""
           }
         },
-        "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/Unknown_039d0677-fa64-43ac-99d9-85d3b298ebe7.png",
-            "text": "\"The 15 Hottest Plus-Size Swim Looks From Paraiso Miami Beach......This zebra bikini by Monday Swimwear is further proof that animal prints are always a good idea.\"",
-            "date": "JULY 2022",
-            "link": "https:\/\/www.bustle.com\/style\/plus-size-swim-paraiso-miami-beach-swim-week-2022\/amp"
-          }
-        },
         "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
           "type": "block",
           "settings": {
@@ -121,9 +121,9 @@
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/elle-australia-vector-logo.png",
-            "text": "“Brainchild of cool girls Tash Oakley and Devin Brugman, Monday Swim is the master of sexy flattering styles that are practically made for the ‘gram.”",
-            "date": "Sept 2020",
-            "link": ""
+            "text": "\"Brainchild of the ultimate cool girls, Tash Oakley and Devon Windsor, Monday Swimwear are the masters of sexy, flattering styles that are practically made for the 'gram, with sizes going up to an F cup.\"",
+            "date": "JAN 2022",
+            "link": "https:\/\/www.elle.com.au\/fashion\/best-swimwear-brands-big-boobs-19423"
           }
         },
         "7845f36f-66dd-4f54-8621-22bdfa3dce6f": {
@@ -178,10 +178,10 @@
         }
       },
       "block_order": [
+        "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
         "38c526bd-4666-495a-907a-38cf1a9bafc0",
         "505098ab-c169-42c4-9c4c-81c3756929eb",
         "6917545b-14b1-4ef1-a682-48b0fd1cf274",
-        "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
         "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
         "f6365442-2f02-469f-a572-bcc13a4b0ab9",
         "7845f36f-66dd-4f54-8621-22bdfa3dce6f",
