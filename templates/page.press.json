@@ -76,6 +76,16 @@
             "link": "https:\/\/www.bustle.com\/style\/plus-size-swim-paraiso-miami-beach-swim-week-2022\/amp"
           }
         },
+        "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
+            "text": "\"...Monday Swimwear quickly skyrocketed to fame thanks to its amazing fits, mix of trendy and classic assortment, and inclusive ethos. The brand’s tops, for example, are designed to comfortably fit sizes A-G, while their site is a trove of helpful sizing information and its imagery leaves no one feeling unwelcome.\"",
+            "date": "JULY 2022",
+            "link": "https:\/\/www.whowhatwear.com\/classic-swimwear"
+          }
+        },
         "38c526bd-4666-495a-907a-38cf1a9bafc0": {
           "type": "block",
           "settings": {
@@ -106,22 +116,22 @@
             "link": "https:\/\/www.elle.com.au\/fashion\/best-swimwear-brands-big-boobs-19423"
           }
         },
+        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
+            "text": "“From the beginning, Monday Swimwear was designed with a diverse range of body types and cup sizes in mind, and its perfect fits continue to set the brand apart. This summer, it's seeing sales spike for some of its classic silhouettes as well as just-launched pieces.”",
+            "date": "August 2020",
+            "link": "https:\/\/www.whowhatwear.com\/popular-swimsuits"
+          }
+        },
         "6917545b-14b1-4ef1-a682-48b0fd1cf274": {
           "type": "block",
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/ELLE_Magazine_Logo.png",
             "text": "“Monday Swimwear has the best classic cuts and supportive styles especially designed for bigger bust sizes.”",
-            "date": "Sept 2020",
-            "link": ""
-          }
-        },
-        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
-            "text": "“So the style that stood out above the rest for me? The Monday Swimwear Bahamas One Piece. The classic simple shape is the perfect entry point for someone not accustomed to a one-piece. It’s just the right amount of revealing on the bottom, and the material feels sturdy enough to hold everything in place.”",
             "date": "Sept 2020",
             "link": ""
           }
@@ -144,16 +154,6 @@
             "text": "“Comfort? Check. Flattering silhouettes? Check. Lustworthy? Check again. Striking a balance between classic and contemporary, the label caters for the woman who wants to look great and feel confident on the beach.”",
             "date": "Sept 2020",
             "link": ""
-          }
-        },
-        "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
-            "text": "\"...Monday Swimwear quickly skyrocketed to fame thanks to its amazing fits, mix of trendy and classic assortment, and inclusive ethos. The brand’s tops, for example, are designed to comfortably fit sizes A-G, while their site is a trove of helpful sizing information and its imagery leaves no one feeling unwelcome.\"",
-            "date": "JULY 2022",
-            "link": "https:\/\/www.whowhatwear.com\/classic-swimwear"
           }
         },
         "613ef298-49bd-4e28-b8ab-16a6efb76314": {
@@ -179,14 +179,14 @@
       },
       "block_order": [
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
+        "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5",
         "38c526bd-4666-495a-907a-38cf1a9bafc0",
         "505098ab-c169-42c4-9c4c-81c3756929eb",
         "f6365442-2f02-469f-a572-bcc13a4b0ab9",
-        "6917545b-14b1-4ef1-a682-48b0fd1cf274",
         "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
+        "6917545b-14b1-4ef1-a682-48b0fd1cf274",
         "7845f36f-66dd-4f54-8621-22bdfa3dce6f",
         "afbc82dd-6c43-4f7a-9106-ad19ad971e58",
-        "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5",
         "613ef298-49bd-4e28-b8ab-16a6efb76314",
         "3cdcbc26-b2da-461f-912c-09be3d6ababc"
       ],
