@@ -116,16 +116,6 @@
             "link": "https:\/\/www.elle.com.au\/fashion\/best-swimwear-brands-big-boobs-19423"
           }
         },
-        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
-            "text": "“From the beginning, Monday Swimwear was designed with a diverse range of body types and cup sizes in mind, and its perfect fits continue to set the brand apart. This summer, it's seeing sales spike for some of its classic silhouettes as well as just-launched pieces.”",
-            "date": "August 2020",
-            "link": "https:\/\/www.whowhatwear.com\/popular-swimsuits"
-          }
-        },
         "6917545b-14b1-4ef1-a682-48b0fd1cf274": {
           "type": "block",
           "settings": {
@@ -134,6 +124,16 @@
             "text": "“Monday Swimwear has the best classic cuts and supportive styles especially designed for bigger bust sizes.”",
             "date": "Sept 2020",
             "link": ""
+          }
+        },
+        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
+            "text": "“From the beginning, Monday Swimwear was designed with a diverse range of body types and cup sizes in mind, and its perfect fits continue to set the brand apart. This summer, it's seeing sales spike for some of its classic silhouettes as well as just-launched pieces.”",
+            "date": "August 2020",
+            "link": "https:\/\/www.whowhatwear.com\/popular-swimsuits"
           }
         },
         "7845f36f-66dd-4f54-8621-22bdfa3dce6f": {
@@ -183,8 +183,8 @@
         "38c526bd-4666-495a-907a-38cf1a9bafc0",
         "505098ab-c169-42c4-9c4c-81c3756929eb",
         "f6365442-2f02-469f-a572-bcc13a4b0ab9",
-        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
         "6917545b-14b1-4ef1-a682-48b0fd1cf274",
+        "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
         "7845f36f-66dd-4f54-8621-22bdfa3dce6f",
         "afbc82dd-6c43-4f7a-9106-ad19ad971e58",
         "613ef298-49bd-4e28-b8ab-16a6efb76314",
