@@ -3,12 +3,12 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage_f91fac2c-d27e-41d1-87c8-35ab6920332b.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_ad651613-acbb-4b81-b8c1-52d307a61f5c.jpg",
-        "caption": "MIAMI SWIM WEEK BOUND",
+        "image": "shopify:\/\/shop_images\/Header_8f9c1962-8493-45be-b66e-3bdcfc442056.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_ac995ced-e13e-4b74-a10a-39d0f78168a4.jpg",
+        "caption": "HEAT WAVE",
         "caption_color": "#ffffff",
-        "button_label": "SHOP COBALT",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_label": "SHOP TEXTURED FABRICS",
+        "button_link": "shopify:\/\/collections\/textured-fabrics",
         "overlay_link": true
       }
     },
@@ -104,12 +104,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage_2b9a3768-b7d7-42f3-a60c-4849b0eb663c.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_ffa2caf8-446b-4a05-8fe9-36a499fb7c5f.jpg",
-        "left_text": "THE MIAMI SWIM",
-        "right_text": "WEEK EDIT",
+        "image": "shopify:\/\/shop_images\/Lower-Editorial-Banner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_0de015d3-54ce-4c04-879e-819962962b9c.jpg",
+        "left_text": "BEACH",
+        "right_text": "TO BAR",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/monday-swimwear-miami-swim-week-edit"
+        "link": "shopify:\/\/collections\/monday-beachwear"
       }
     },
     "1640811405c1297562": {
