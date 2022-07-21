@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "4a9fd056-80e8-482d-a618-3f8aa3da6ec2": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/Nylon_magazine_logo-pink.png",
+            "text": "\"Founded by Natasha Oakley and Devin Brugman, Monday Swimwear’s latest presentation showcased the brand’s elevated twist on construction and body-inclusive pieces....The model casting was a huge plus for the runway show, too, featuring a slew of new faces, curvy models, and Rihanna-inspired maternity ‘fits.\"",
+            "date": "JULY 2022",
+            "link": "https:\/\/www.nylon.com\/fashion\/emerging-designers-paraiso-2022-miami-swim-week"
+          }
+        },
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0": {
           "type": "block",
           "settings": {
@@ -178,6 +188,7 @@
         }
       },
       "block_order": [
+        "4a9fd056-80e8-482d-a618-3f8aa3da6ec2",
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
         "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5",
         "38c526bd-4666-495a-907a-38cf1a9bafc0",
