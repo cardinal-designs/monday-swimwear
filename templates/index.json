@@ -30,6 +30,36 @@
         "link": "shopify:\/\/collections\/monday-swimwear-miami-swim-week-edit"
       }
     },
+    "16407502469f0e5f45": {
+      "type": "product-slider",
+      "blocks": {
+        "944498a4-3695-48f6-9a89-0208d09aab7b": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        },
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
+          }
+        },
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "944498a4-3695-48f6-9a89-0208d09aab7b",
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+      ],
+      "settings": {
+      }
+    },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
@@ -69,36 +99,6 @@
       "settings": {
         "text_style": "underneath",
         "slider_on_mobile": true
-      }
-    },
-    "16407502469f0e5f45": {
-      "type": "product-slider",
-      "blocks": {
-        "944498a4-3695-48f6-9a89-0208d09aab7b": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals"
-          }
-        },
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-signature-collection-1"
-          }
-        },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "944498a4-3695-48f6-9a89-0208d09aab7b",
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
-      ],
-      "settings": {
       }
     },
     "16408101574f5b391b": {
@@ -251,8 +251,8 @@
     "1640133702b1b204aa",
     "1657215750b8e1724d",
     "164081090579915a8a",
-    "1640812146b4d73cae",
     "16407502469f0e5f45",
+    "1640812146b4d73cae",
     "16408101574f5b391b",
     "1640811405c1297562",
     "16408186509f925b52",
