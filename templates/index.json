@@ -60,6 +60,48 @@
       "settings": {
       }
     },
+    "1640811405c1297562": {
+      "type": "link-blocks",
+      "blocks": {
+        "d029689e-51e9-4bab-918a-a703bb5724d6": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L1_9149e6ac-1dfe-4884-b00e-bd1928c424e3.jpg",
+            "text": "SUMMER IN COLOR",
+            "link_label": "SHOP SUMMER '22",
+            "link": "shopify:\/\/collections\/summer-22"
+          }
+        },
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L2_28f661bd-980b-4400-8760-86778f3f1a5c.jpg",
+            "text": "TEXTURES YOU CAN FEEL",
+            "link_label": "SHOP TEXTURED FABRICS",
+            "link": "shopify:\/\/collections\/textured-fabrics"
+          }
+        }
+      },
+      "block_order": [
+        "d029689e-51e9-4bab-918a-a703bb5724d6",
+        "643e0732-83e9-4986-9865-1f1ee99fda72"
+      ],
+      "settings": {
+        "text_style": "overlay",
+        "slider_on_mobile": false
+      }
+    },
+    "16408101574f5b391b": {
+      "type": "editorial-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EDITORIAL.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE_f87e7c48-89c3-44b1-8233-623abb6eb241.jpg",
+        "left_text": "DRIPPING",
+        "right_text": "IN GOLD",
+        "link_label": "SHOP EMMA PILLS x MONDAY SWIMWEAR",
+        "link": "shopify:\/\/collections\/emma-pills"
+      }
+    },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
@@ -99,48 +141,6 @@
       "settings": {
         "text_style": "underneath",
         "slider_on_mobile": true
-      }
-    },
-    "16408101574f5b391b": {
-      "type": "editorial-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Lower-Editorial-Banner.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_0de015d3-54ce-4c04-879e-819962962b9c.jpg",
-        "left_text": "BEACH",
-        "right_text": "TO BAR",
-        "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/monday-beachwear"
-      }
-    },
-    "1640811405c1297562": {
-      "type": "link-blocks",
-      "blocks": {
-        "d029689e-51e9-4bab-918a-a703bb5724d6": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mobile_39fb4c45-16db-4aa1-bae5-a05ad075ca6e.jpg",
-            "text": "SUMMER IN COLOR",
-            "link_label": "SHOP SUMMER '22",
-            "link": "shopify:\/\/collections\/summer-22"
-          }
-        },
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EP.jpg",
-            "text": "DRIPPING IN GOLD",
-            "link_label": "SHOP EMMA PILLS x MONDAY SWIMWEAR",
-            "link": "shopify:\/\/collections\/emma-pills"
-          }
-        }
-      },
-      "block_order": [
-        "d029689e-51e9-4bab-918a-a703bb5724d6",
-        "643e0732-83e9-4986-9865-1f1ee99fda72"
-      ],
-      "settings": {
-        "text_style": "overlay",
-        "slider_on_mobile": false
       }
     },
     "16408186509f925b52": {
@@ -252,9 +252,9 @@
     "1657215750b8e1724d",
     "164081090579915a8a",
     "16407502469f0e5f45",
-    "1640812146b4d73cae",
-    "16408101574f5b391b",
     "1640811405c1297562",
+    "16408101574f5b391b",
+    "1640812146b4d73cae",
     "16408186509f925b52",
     "1640814929d4a3c77a",
     "164124814754670aef",
