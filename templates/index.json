@@ -3,12 +3,12 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/header_4a210aec-1ffc-4e99-b521-e4aa70d9f6cf.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/St.-Barth_s-OP_c9dae5e3-ed4a-442f-948f-8cb00d0c936e.jpg",
-        "caption": "HEAT WAVE",
+        "image": "shopify:\/\/shop_images\/Header-1_f5516d96-ef79-41c6-9f77-93b2b2ced332.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Saint-Jean-Bucket-Hat---White.jpg",
+        "caption": "island girl",
         "caption_color": "#ffffff",
-        "button_label": "SHOP NEW ARRIVALS",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_label": "SHOP THE GALAPAGOS EDIT",
+        "button_link": "shopify:\/\/collections\/the-galapagos-island-edit",
         "overlay_link": true
       }
     },
