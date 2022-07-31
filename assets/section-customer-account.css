@@ -194,6 +194,17 @@
   -webkit-transition: border .35s ease-in-out,color .35s ease-in-out,background .35s ease-in-out !important;
 }
 
+/* Yotpo rewards popup */
+.yotpo-rewards-history .yotpo-rewards-history-title .yotpo-inner-text {
+  font-family: Tobias,sans-serif !important;
+  font-style: normal !important;
+  font-weight: 200 !important;
+  font-size: 28px !important;
+  line-height: 1.2 !important;
+  letter-spacing: -.04em !important;
+  text-transform: unset !important;
+}
+
 @media screen and (max-width: 768px) {
   .customer.account {
     padding: 70px 10px 10px;
