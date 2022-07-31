@@ -165,7 +165,7 @@
   opacity: 1 !important;
 }
 
-.yotpo-widget-my-rewards-widget .secondary button {
+.yotpo-widget-my-rewards-widget .yotpo-secondary-button button {
   width: auto !important;
   height: inherit !important;
   padding: 13px 50px 16px !important;
