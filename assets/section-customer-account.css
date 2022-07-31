@@ -139,6 +139,10 @@
   text-transform: uppercase !important;
 }
 
+.yotpo-widget-my-rewards-widget .yotpo-primary-button {
+  padding: 5px 8px !important;
+}
+
 .yotpo-widget-my-rewards-widget .yotpo-primary-button button {
   width: 225px !important;
   height: inherit !important;
@@ -156,6 +160,10 @@
   cursor: pointer !important;
   transition: border .35s ease-in-out,color .35s ease-in-out,background .35s ease-in-out !important;
   -webkit-transition: border .35s ease-in-out,color .35s ease-in-out,background .35s ease-in-out !important;
+}
+
+.yotpo-widget-my-rewards-widget .yotpo-secondary-button {
+  padding: 5px 8px !important;
 }
 
 .yotpo-widget-my-rewards-widget .yotpo-primary-button button:hover {
