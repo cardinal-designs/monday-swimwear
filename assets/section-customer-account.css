@@ -140,6 +140,8 @@
 }
 
 .yotpo-widget-my-rewards-widget .yotpo-primary-button button {
+  width: auto !important;
+  height: inherit !important;
   padding: 16px 50px 20px !important;
   font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
