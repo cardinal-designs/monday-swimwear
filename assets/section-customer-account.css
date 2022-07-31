@@ -119,7 +119,7 @@
 }
 
 /* Swell rewards widget */
-.yotpo-widget-override-css .yotpo-headline .yotpo-inner-text {
+.yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {
   font-family: Tobias,sans-serif !important;
   font-style: normal !important;
   font-weight: 200 !important;
@@ -129,7 +129,7 @@
   text-transform: unset !important;
 }
 
-.yotpo-widget-override-css .yotpo-description .yotpo-inner-text {
+.yotpo-widget-my-rewards-widget .yotpo-description .yotpo-inner-text {
   font-family: Sunset Gothic,sans-serif !important;
   font-style: normal !important;
   font-weight: 600 !important;
@@ -139,15 +139,15 @@
   text-transform: uppercase !important;
 }
 
-.yotpo-widget-override-css .yotpo-logged-in-view .yotpo-description {
+.yotpo-widget-my-rewards-widget .yotpo-logged-in-view .yotpo-description {
   margin-bottom: 30px !important;
 }
 
-.yotpo-widget-override-css .yotpo-primary-button {
+.yotpo-widget-my-rewards-widget .yotpo-primary-button {
   padding: 5px 8px !important;
 }
 
-.yotpo-widget-override-css .yotpo-primary-button button {
+.yotpo-widget-my-rewards-widget .yotpo-primary-button button {
   width: 225px !important;
   height: inherit !important;
   padding: 13px 10px 16px !important;
@@ -166,18 +166,18 @@
   -webkit-transition: border .35s ease-in-out,color .35s ease-in-out,background .35s ease-in-out !important;
 }
 
-.yotpo-widget-override-css .yotpo-secondary-button {
+.yotpo-widget-my-rewards-widget .yotpo-secondary-button {
   padding: 5px 8px !important;
 }
 
-.yotpo-widget-override-css .yotpo-primary-button button:hover {
+.yotpo-widget-my-rewards-widget .yotpo-primary-button button:hover {
   background: transparent !important;
   border-color: #000 !important;
   color: #000 !important;
   opacity: 1 !important;
 }
 
-.yotpo-widget-override-css .yotpo-secondary-button button {
+.yotpo-widget-my-rewards-widget .yotpo-secondary-button button {
   width: 225px !important;
   height: inherit !important;
   padding: 13px 10px 16px !important;
