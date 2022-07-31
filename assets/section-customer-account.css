@@ -206,12 +206,11 @@
 }
 
 .yotpo-rewards-history .no-rewards-text .yotpo-inner-text {
-  font-family: Sunset Gothic,sans-serif !important;
+  font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
   font-size: 16px !important;
-  line-height: 1.425 !important;
-  letter-spacing: .02em !important;
+  line-height: 1 !important;
 }
 
 @media screen and (max-width: 768px) {
