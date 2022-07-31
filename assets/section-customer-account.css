@@ -140,9 +140,9 @@
 }
 
 .yotpo-widget-my-rewards-widget .yotpo-primary-button button {
-  width: auto !important;
+  width: 225px !important;
   height: inherit !important;
-  padding: 13px 50px 16px !important;
+  padding: 13px 10px 16px !important;
   font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
@@ -166,9 +166,9 @@
 }
 
 .yotpo-widget-my-rewards-widget .yotpo-secondary-button button {
-  width: auto !important;
+  width: 225px !important;
   height: inherit !important;
-  padding: 13px 50px 16px !important;
+  padding: 13px 10px 16px !important;
   font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
