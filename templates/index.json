@@ -3,12 +3,12 @@
     "1640133702b1b204aa": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/header_1e15bc14-151a-4fa1-b388-f4207f2a5fce.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Saint-Jean-Bucket-Hat---White.jpg",
-        "caption": "island escape",
+        "image": "shopify:\/\/shop_images\/Header_a0a178e1-20f0-4db7-9c4b-aeddbf4f09d2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_f9f8091c-7937-46cc-858a-316fe618f551.jpg",
+        "caption": "figure flattering fabrics",
         "caption_color": "#ffffff",
-        "button_label": "SHOP THE GALAPAGOS EDIT",
-        "button_link": "shopify:\/\/collections\/the-galapagos-island-edit",
+        "button_label": "START SHOPPING",
+        "button_link": "shopify:\/\/collections\/textured-fabrics",
         "overlay_link": true
       }
     },
