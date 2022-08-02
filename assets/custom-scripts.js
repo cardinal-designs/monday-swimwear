@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
     
     var mobactiveIndex = $('.active-tab').index(),
         $mobcontentlis = $('.tabs-content > div'),
-        $mobtabslis = $('.Custom_Dropdown_List li');
+        $mobtabslis = $('.Custom_Dropdown_List li a');
   
     link.click(function(e) {
       e.preventDefault();
