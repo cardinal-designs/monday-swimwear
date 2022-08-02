@@ -124,6 +124,15 @@ nt.customer.account {
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  
+  .customer .field .button, 
+  .customer div .button {
+    margin-top: 10px;
+  }
+  
+}
+
 @media screen and (max-width: 950px) {
   .customer .customer-wrapper {
     grid-gap: 50px;
@@ -246,16 +255,6 @@ nt.customer.account {
     line-height: 2;
   }
 
-    .text-area, .select {
-    min-height: auto;
-  }
-  
-  .customer .field .button, 
-  .customer div .button {
-    margin-top: 10px;
-  }
-  
-  
 }
 
 @media screen and (max-width: 374px) {
