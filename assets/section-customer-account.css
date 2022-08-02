@@ -206,6 +206,15 @@ nt.customer.account {
     height: 7px;
     top: 55%;
     transform: translateY(-55%);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  
+  .customer .customer-wrapper .Custom_Dropdown .Js_Link.active svg {
+    transform: rotate(-180deg);
   }
   
   .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List {
