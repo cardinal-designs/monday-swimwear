@@ -126,6 +126,7 @@ nt.customer.account {
   display: none;
 }
 
+
 @media screen and (max-width: 950px) {
   .customer .customer-wrapper {
     grid-gap: 50px;
@@ -238,6 +239,10 @@ nt.customer.account {
   
   .customer .tabs-content>div {
     display: none;
+  }
+  
+  .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List li .btn {
+    line-height: 2;
   }
   
 }
