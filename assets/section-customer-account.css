@@ -118,6 +118,36 @@
   margin: 40px 0 50px 0;
 }
 
+@media screen and (max-width: 768px) {
+  .customer.account {
+    padding: 70px 10px 10px;
+  }
+
+  .customer .title {
+    margin: 0;
+  }
+
+  .customer .tabs {
+    display: none;
+  }
+
+  .customer .account-content {
+    padding: 0 10px;
+  }
+
+  .customer .add-address-mobile {
+    display: block;
+  }
+
+  .customer .add-address {
+    display: none;
+  }
+
+  .customer .address-box {
+    align-items: flex-end;
+  }
+}
+
 /* Swell rewards widget */
 .yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {
   font-family: Tobias,sans-serif !important;
@@ -194,6 +224,17 @@
   -webkit-transition: border .35s ease-in-out,color .35s ease-in-out,background .35s ease-in-out !important;
 }
 
+@media screen and (max-width: 768px) {
+  .yotpo-widget-my-rewards-widget .yotpo-logged-in-view {
+    padding: 40px 0 !important;
+  }
+
+  .yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {
+    font-size: 34px !important;
+    letter-spacing: -.02em !important;
+  }
+}
+
 /* Yotpo rewards popup */
 .yotpo-rewards-history .yotpo-rewards-history-title .yotpo-inner-text {
   font-family: Tobias,sans-serif !important;
@@ -211,34 +252,4 @@
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 1 !important;
-}
-
-@media screen and (max-width: 768px) {
-  .customer.account {
-    padding: 70px 10px 10px;
-  }
-
-  .customer .title {
-    margin: 0;
-  }
-
-  .customer .tabs {
-    display: none;
-  }
-
-  .customer .account-content {
-    padding: 0 10px;
-  }
-
-  .customer .add-address-mobile {
-    display: block;
-  }
-
-  .customer .add-address {
-    display: none;
-  }
-
-  .customer .address-box {
-    align-items: flex-end;
-  }
 }
