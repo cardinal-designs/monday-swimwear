@@ -118,7 +118,7 @@ nt.customer.account {
   margin: 40px 0 50px 0;
 }
 
-.customer .customer-wrapper.mobile-view {
+.customer .customer-wrapper .mobile-view-tab {
   display: none;
 }
 
@@ -164,11 +164,11 @@ nt.customer.account {
     width: auto;
   }
   
-  .customer .customer-wrapper.mobile-view {
+  .customer .customer-wrapper .mobile-view-tab {
     display: block;
   }
 
-  .customer .customer-wrapper.desktop-view {
+  .customer .customer-wrapper .desktop-view-tab {
     display: none;
   }
   
