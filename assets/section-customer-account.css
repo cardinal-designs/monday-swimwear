@@ -164,10 +164,10 @@ nt.customer.account {
     width: auto;
   }
   
-.customer .customer-wrapper .mobile-view-tab {
+  .customer .customer-wrapper .mobile-view-tab {
     display: block;
     width: 100%;
-}
+  }
 
   .customer .customer-wrapper .desktop-view-tab {
     display: none;
@@ -175,7 +175,11 @@ nt.customer.account {
 
   .customer .customer-wrapper {
     display: block;
-}
+  }
+
+  .customer .customer-wrapper .account-content .account-section-title {
+    display: none;
+  }
   
 }
 
