@@ -15,9 +15,30 @@
     <div class="Custom_Dropdown">
       <a href="javascript:void(0)" class="Js_Link">{{ 'customer.account.details' | t }} {% render 'icon-custom-dropdown' %}</a>
       <ul class="Custom_Dropdown_List sh3">
-        <li data-section="">{{ 'customer.account.details' | t }}</li>
+        <li data-section="billing_information">{{ 'customer.account.details' | t }}</li>
         <li data-section="order_history">{{ 'customer.orders.title' | t }}</li>
         <li><a href="{{ routes.account_logout_url }}">{{ 'customer.log_out' | t }}</a></li>
+      </ul>
+
+      <ul>
+          <li>
+            <a class="btn tab active" data-section="billing_information">
+              <span class="lens"></span>
+              {{ 'customer.account.details' | t }}
+            </a>
+          </li>
+          <li>
+            <a class="btn tab" data-section="order_history">
+              <span class="lens"></span>
+              {{ 'customer.orders.title' | t }}
+            </a>
+          </li>
+          <li>
+            <a class="btn tab" href="{{ routes.account_logout_url }}">
+              <span class="lens"></span>
+              {{ 'customer.log_out' | t }}
+            </a>
+          </li>
       </ul>
     </div>
     
