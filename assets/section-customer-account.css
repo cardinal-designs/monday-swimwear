@@ -149,6 +149,10 @@ nt.customer.account {
 }
 
 /* Swell rewards widget */
+.yotpo-widget-my-rewards-widget .yotpo-logged-in-view {
+  padding: 60px 0 !important;
+}
+
 .yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {
   font-family: Tobias,sans-serif !important;
   font-style: normal !important;
