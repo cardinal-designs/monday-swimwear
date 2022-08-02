@@ -18,3 +18,11 @@
   width: 10rem;
   padding: 0.5rem;
 }
+
+@media screen and (max-width: 374px) {
+  
+  .header__logo {
+    width: 148px;
+  }
+  
+}
