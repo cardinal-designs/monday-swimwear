@@ -204,6 +204,10 @@ nt.customer.account {
   
 }
 
+@media screen and (max-width: 374px) {
+  
+}
+
 /* Swell rewards widget */
 .yotpo-widget-my-rewards-widget .yotpo-logged-in-view {
   padding: 60px 0 !important;
