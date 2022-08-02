@@ -118,6 +118,10 @@ nt.customer.account {
   margin: 40px 0 50px 0;
 }
 
+.customer .customer-wrapper.mobile-view {
+  display: none;
+}
+
 @media screen and (max-width: 950px) {
   .customer .customer-wrapper {
     grid-gap: 50px;
@@ -159,6 +163,11 @@ nt.customer.account {
     min-width: auto;
     width: auto;
   }
+  
+  .customer .customer-wrapper.mobile-view {
+    display: block;
+  }
+  
 }
 
 /* Swell rewards widget */
