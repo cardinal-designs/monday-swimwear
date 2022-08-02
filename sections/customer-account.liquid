@@ -18,6 +18,15 @@
         <option value="{{ 'customer.orders.title' | t }}">{{ 'customer.orders.title' | t }}</option>
         <option value="{{ 'customer.log_out' | t }}">{{ 'customer.log_out' | t }}</option>
       </select>
+
+    <div class="Custom_Dropdown">
+        <a href="#" class="Js_Link">{{ 'customer.account.details' | t }}</a>
+        <ul class="Custom_Dropdown_List">
+          <li>{{ 'customer.account.details' | t }}</li>
+          <li>{{ 'customer.orders.title' | t }}</li>
+          <li><a href="{{ routes.account_logout_url }}">{{ 'customer.account.logout' | t }}</a></li>
+        </ul>
+      </div>
     </div>
     
     <div class="tabs desktop-view-tab">
@@ -37,7 +46,7 @@
       </a>
     </div>
     
-    <div class="account-content">
+    <div class="account-content tabs-content">
       <div class="right-side" id="billing_information">
         <h2 class="account-section-title">{{ 'customer.account.details' | t }}</h2>
         
