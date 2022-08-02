@@ -193,6 +193,10 @@ nt.customer.account {
     background-position: right;
   }
   
+  .customer .address-box .addresses {
+    width: 135px;
+  }
+  
 }
 
 /* Swell rewards widget */
