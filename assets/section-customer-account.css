@@ -227,24 +227,11 @@ nt.customer.account {
 @media screen and (max-width: 768px) {
   .yotpo-widget-my-rewards-widget .yotpo-logged-in-view {
     padding: 40px 10px !important;
-    text-align: left !important;
   }
 
   .yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {
     font-size: 34px !important;
     letter-spacing: -.02em !important;
-  }
-
-  .yotpo-widget-my-rewards-widget .yotpo-action-buttons-tile {
-    justify-content: flex-start !important;
-  }
-
-  .yotpo-widget-my-rewards-widget .yotpo-primary-button {
-    padding-left: 0 !important;
-  }
-
-  .yotpo-widget-my-rewards-widget .yotpo-secondary-button {
-    padding-left: 0 !important;
   }
 }
 
