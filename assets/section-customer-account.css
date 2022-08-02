@@ -224,8 +224,8 @@ nt.customer.account {
     padding-bottom: 15px;
   }
 
-  .customer .customer-wrapper .tabs-content .hidden {
-    display: none !important;
+  .desktop-view-content {
+    display: none;
   }
   
 }
