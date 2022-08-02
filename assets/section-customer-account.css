@@ -179,6 +179,10 @@ nt.customer.account {
   .customer .customer-wrapper .account-content .account-section-title {
     display: none;
   }
+
+  .customer .customer-wrapper select {
+    border-bottom: 1px solid #F2F0E8 !important;
+}
   
 }
 
