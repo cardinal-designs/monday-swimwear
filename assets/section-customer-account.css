@@ -132,7 +132,7 @@ nt.customer.account {
   }
 
   .customer .account-content {
-    padding: 0 10px;
+    padding: 0;
   }
 
   .customer .add-address-mobile {
