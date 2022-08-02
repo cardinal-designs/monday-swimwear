@@ -26,7 +26,8 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'scroll-trigger.min.js' | asset_url }}" defer="defer"></script>
@@ -34,6 +35,7 @@
     <script src="{{ 'lazysizes.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'custom-scripts.js' | asset_url }}" defer="defer"></script>
 
     {{ content_for_header }}
 

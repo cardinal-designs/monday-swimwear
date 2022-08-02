@@ -104,6 +104,8 @@ nt.customer.account {
 .customer select {
   border-bottom: 1px solid #000000!important;
   padding: 14px 0!important;
+  -webkit-appearance: auto;
+  appearance: auto;
 }
 
 .customer input.body-large::placeholder {
@@ -116,6 +118,19 @@ nt.customer.account {
 
 .customer .btn-group {
   margin: 40px 0 50px 0;
+}
+
+.customer .customer-wrapper .Custom_Dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  
+  .customer .field .button, 
+  .customer div .button {
+    margin-top: 10px;
+  }
+  
 }
 
 @media screen and (max-width: 950px) {
@@ -159,6 +174,95 @@ nt.customer.account {
     min-width: auto;
     width: auto;
   }
+  
+  .customer .customer-wrapper .Custom_Dropdown {
+    display: grid;
+  }
+
+  .customer .customer-wrapper .desktop-view-tab {
+    display: none;
+  }
+
+  .customer .customer-wrapper {
+    display: block;
+    padding: 0;
+  }
+
+  .customer .customer-wrapper .account-content .account-section-title {
+    display: none;
+  }
+  
+  .customer .customer-wrapper .Custom_Dropdown .Js_Link {
+    position: relative;
+    display: block;
+    padding: 15px 30px 15px 0;
+    border-bottom: 1px solid #F2F0E8!important;
+    font-size: 24px;
+    font-family: Tobias,sans-serif!important;
+    letter-spacing: -.03em;
+    line-height: 1.3;
+  }
+
+  .customer .customer-wrapper .Custom_Dropdown .Js_Link .btn {
+    font-size: 24px;
+    font-family: Tobias,sans-serif!important;
+    letter-spacing: -.03em;
+    line-height: 1.3;
+  }
+
+  .customer .customer-wrapper .Custom_Dropdown .Js_Link svg {
+    position: absolute;
+    right: 0;
+    width: 12px;
+    height: 7px;
+    top: 55%;
+    transform: translateY(-55%);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  
+  .customer .customer-wrapper .Custom_Dropdown .Js_Link.active svg {
+    transform: rotate(-180deg);
+  }
+  
+  .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: normal;
+    text-transform: capitalize;
+    line-height: 1.8;
+    display: none;
+  }
+  
+  .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List li {
+    cursor: pointer;
+  }
+  
+  .customer .address-box .addresses {
+    width: 135px;
+  }
+  
+  .customer .address-new a, 
+  .customer .edit-address-link {
+    padding-bottom: 15px;
+  }
+  
+  .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List li .btn {
+    line-height: 2;
+  }
+
+}
+
+@media screen and (max-width: 374px) {
+  
+  .customer .address-box .addresses {
+    width: 100px;
+  }
+  
 }
 
 /* Swell rewards widget */
@@ -243,7 +347,7 @@ nt.customer.account {
 
 @media screen and (max-width: 768px) {
   .yotpo-widget-my-rewards-widget .yotpo-logged-in-view {
-    padding: 40px 0 !important;
+    padding: 30px 0 !important;
   }
 
   .yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {

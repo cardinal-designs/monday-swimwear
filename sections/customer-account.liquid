@@ -11,7 +11,29 @@
   <div class="yotpo-widget-instance" data-yotpo-instance-id="203983"></div>
 
   <div class="customer-wrapper page-width">
-    <div class="tabs">
+
+    <div class="Custom_Dropdown">
+      <a href="javascript:void(0)" class="Js_Link">{{ 'customer.account.details' | t }} {% render 'icon-custom-dropdown' %}</a>
+      <ul class="Custom_Dropdown_List">
+          <li>
+            <a class="btn tab sh3 active" data-section="billing_information">
+              {{ 'customer.account.details' | t }}
+            </a>
+          </li>
+          <li>
+            <a class="btn tab sh3" data-section="order_history">
+              {{ 'customer.orders.title' | t }}
+            </a>
+          </li>
+          <li>
+            <a class="btn tab sh3" href="{{ routes.account_logout_url }}">
+              {{ 'customer.log_out' | t }}
+            </a>
+          </li>
+      </ul>
+    </div>
+    
+    <div class="tabs desktop-view-tab">
       <a class="btn tab active" data-section="billing_information">
         <span class="lens"></span>
         {{ 'customer.account.details' | t }}
@@ -28,8 +50,8 @@
       </a>
     </div>
     
-    <div class="account-content">
-      <div class="right-side" id="billing_information">
+    <div class="account-content tabs-content">
+      <div class="Billing_Information right-side" id="billing_information">
         <h2 class="account-section-title">{{ 'customer.account.details' | t }}</h2>
         
         <div class="address-box">
@@ -237,7 +259,7 @@
         </div>
       </div>
 
-      <div class="right-side hidden" id="order_history">
+      <div class="Order_History right-side hidden" id="order_history">
         <h2 class="account-section-title">{{ 'customer.orders.title' | t }}</h2>
 
         {% paginate customer.orders by 20 %}
@@ -330,6 +352,8 @@
       </div>
     </div>
   </div>
+
+  
 
   {% comment %}
   <div>
