@@ -192,6 +192,13 @@ nt.customer.account {
     line-height: 1.3;
   }
 
+  .customer .customer-wrapper .Custom_Dropdown .Js_Link .btn {
+      font-size: 24px;
+      font-family: Tobias,sans-serif!important;
+      letter-spacing: -.03em;
+      line-height: 1.3;
+  }
+
   .customer .customer-wrapper .Custom_Dropdown .Js_Link svg {
     position: absolute;
     right: 0;
