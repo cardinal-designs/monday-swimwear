@@ -226,7 +226,7 @@ nt.customer.account {
 
 @media screen and (max-width: 768px) {
   .yotpo-widget-my-rewards-widget .yotpo-logged-in-view {
-    padding: 40px 10px !important;
+    padding: 40px 0 !important;
   }
 
   .yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {
