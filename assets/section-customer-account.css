@@ -198,6 +198,10 @@ nt.customer.account {
     width: 135px;
   }
   
+  .customer .address-new a, .customer .edit-address-link {
+    padding-bottom: 15px;
+  }
+  
 }
 
 /* Swell rewards widget */
