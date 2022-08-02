@@ -227,6 +227,10 @@ nt.customer.account {
   .desktop-view-content {
     display: none;
   }
+
+  .mobile-view-content {
+    display: block;
+  }
   
 }
 
