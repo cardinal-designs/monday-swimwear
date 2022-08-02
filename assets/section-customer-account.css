@@ -158,7 +158,11 @@ nt.customer.account {
     justify-content: flex-start;
     gap: 30px;
   }
-
+  
+  .text-area, .select {
+    min-height: auto;
+  }
+  
   .customer .address-new {
     min-width: auto;
     width: auto;
