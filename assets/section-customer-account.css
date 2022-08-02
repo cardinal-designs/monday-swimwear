@@ -1,4 +1,4 @@
-.customer.account {
+nt.customer.account {
   padding: 100px 0 77px 0;
 }
 
@@ -233,6 +233,10 @@
   .yotpo-widget-my-rewards-widget .yotpo-headline .yotpo-inner-text {
     font-size: 34px !important;
     letter-spacing: -.02em !important;
+  }
+
+  .yotpo-widget-my-rewards-widget .yotpo-action-buttons-tile {
+    justify-content: flex-start !important;
   }
 }
 
