@@ -237,10 +237,6 @@ nt.customer.account {
     display: block;
   }
   
-  .customer .tabs-content>div {
-    display: none;
-  }
-  
   .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List li .btn {
     line-height: 2;
   }
