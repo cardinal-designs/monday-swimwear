@@ -236,6 +236,10 @@ nt.customer.account {
     display: block;
   }
   
+  .customer .tabs-content>div {
+    display: none;
+  }
+  
 }
 
 @media screen and (max-width: 374px) {
