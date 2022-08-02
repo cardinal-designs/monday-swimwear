@@ -204,8 +204,8 @@ nt.customer.account {
     right: 0;
     width: 12px;
     height: 7px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 55%;
+    transform: translateY(-55%);
   }
   
   .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List {
