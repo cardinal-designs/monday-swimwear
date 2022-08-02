@@ -1,5 +1,5 @@
 <div class="account-content desktop-view-content">
-  <div class="Billing_Information right-side" id="billing_information">
+  <div class="right-side" id="billing_information">
     <h2 class="account-section-title">{{ 'customer.account.details' | t }}</h2>
     
     <div class="address-box">
@@ -207,7 +207,7 @@
     </div>
   </div>
 
-  <div class="Order_History right-side hidden" id="order_history">
+  <div class="right-side hidden" id="order_history">
     <h2 class="account-section-title">{{ 'customer.orders.title' | t }}</h2>
 
     {% paginate customer.orders by 20 %}
