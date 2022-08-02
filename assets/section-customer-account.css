@@ -213,6 +213,7 @@ nt.customer.account {
     font-weight: normal;
     text-transform: capitalize;
     line-height: 1.8;
+    display: none;
   }
   
   .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List li {
@@ -223,7 +224,8 @@ nt.customer.account {
     width: 135px;
   }
   
-  .customer .address-new a, .customer .edit-address-link {
+  .customer .address-new a, 
+  .customer .edit-address-link {
     padding-bottom: 15px;
   }
 
