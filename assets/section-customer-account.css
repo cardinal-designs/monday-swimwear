@@ -104,6 +104,8 @@ nt.customer.account {
 .customer select {
   border-bottom: 1px solid #000000!important;
   padding: 14px 0!important;
+  -webkit-appearance: auto;
+  appearance: auto;
 }
 
 .customer input.body-large::placeholder {
