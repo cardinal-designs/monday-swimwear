@@ -250,6 +250,11 @@ nt.customer.account {
     min-height: auto;
   }
   
+  .customer .field .button, 
+  .customer div .button {
+    margin-top: 10px;
+  }
+  
   
 }
 
