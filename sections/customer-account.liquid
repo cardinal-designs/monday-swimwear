@@ -12,21 +12,13 @@
 
   <div class="customer-wrapper page-width">
 
-    <div class="mobile-view-tab">
-      <select name="customer-account" id="customer-account">
-        <option value="{{ 'customer.account.details' | t }}">{{ 'customer.account.details' | t }}</option>
-        <option value="{{ 'customer.orders.title' | t }}">{{ 'customer.orders.title' | t }}</option>
-        <option value="{{ 'customer.log_out' | t }}">{{ 'customer.log_out' | t }}</option>
-      </select>
-
     <div class="Custom_Dropdown">
-        <a href="#" class="Js_Link">{{ 'customer.account.details' | t }}</a>
-        <ul class="Custom_Dropdown_List">
-          <li>{{ 'customer.account.details' | t }}</li>
-          <li>{{ 'customer.orders.title' | t }}</li>
-          <li><a href="{{ routes.account_logout_url }}">{{ 'customer.log_out' | t }}</a></li>
-        </ul>
-      </div>
+      <a href="javascript:void(0)" class="Js_Link">{{ 'customer.account.details' | t }}</a>
+      <ul class="Custom_Dropdown_List">
+        <li>{{ 'customer.account.details' | t }}</li>
+        <li>{{ 'customer.orders.title' | t }}</li>
+        <li><a href="{{ routes.account_logout_url }}">{{ 'customer.log_out' | t }}</a></li>
+      </ul>
     </div>
     
     <div class="tabs desktop-view-tab">
