@@ -165,8 +165,7 @@ nt.customer.account {
   }
   
   .customer .customer-wrapper .mobile-view-tab {
-    display: block;
-    width: 100%;
+    display: grid;
   }
 
   .customer .customer-wrapper .desktop-view-tab {
