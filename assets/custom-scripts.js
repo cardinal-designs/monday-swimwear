@@ -1,7 +1,5 @@
 jQuery(document).ready(function($){
 
-
-
   $(function() {
     var list = $('.Custom_Dropdown_List');
     var link = $('.Js_Link');
@@ -27,8 +25,6 @@ jQuery(document).ready(function($){
   
       var $mobcurrent = $(e.currentTarget),
           mobindex = $mobcurrent.index();
-      $mobtabslis.removeClass('active-tab');
-      $mobcurrent.addClass('active-tab');
       $mobcontentlis.hide().eq(mobindex).show();
     });
   });
