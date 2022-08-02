@@ -34,7 +34,7 @@ jQuery(document).ready(function($){
     
     list.find('li').click(function(e) {    
       var text = $(this).html();
-      var icon = '<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7 7L13 1" stroke="black"/></svg>';
+      var icon = '<svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11 0.5L6 5.5L1 0.5" stroke="black" stroke-width="1.25"/> </svg>';
       link.html(text+icon);
       list.slideToggle(200);
       if (text === '* Reset') {
