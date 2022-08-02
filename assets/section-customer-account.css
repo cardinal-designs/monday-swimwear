@@ -167,6 +167,10 @@ nt.customer.account {
   .customer .customer-wrapper.mobile-view {
     display: block;
   }
+
+  .customer .customer-wrapper.desktop-view {
+    display: none;
+  }
   
 }
 
