@@ -122,11 +122,6 @@ nt.customer.account {
   display: none;
 }
 
-.mobile-view-content {
-  display: none;
-}
-
-
 @media screen and (max-width: 950px) {
   .customer .customer-wrapper {
     grid-gap: 50px;
@@ -227,14 +222,6 @@ nt.customer.account {
   .customer .address-new a, 
   .customer .edit-address-link {
     padding-bottom: 15px;
-  }
-
-  .desktop-view-content {
-    display: none;
-  }
-
-  .mobile-view-content {
-    display: block;
   }
   
   .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List li .btn {
