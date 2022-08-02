@@ -154,15 +154,11 @@ nt.customer.account {
   }
 
   .customer .address-box {
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: flex-start;
     gap: 30px;
   }
-  
-  .text-area, .select {
-    min-height: auto;
-  }
-  
+
   .customer .address-new {
     min-width: auto;
     width: auto;
@@ -247,6 +243,11 @@ nt.customer.account {
   .customer .customer-wrapper .Custom_Dropdown .Custom_Dropdown_List li .btn {
     line-height: 2;
   }
+
+    .text-area, .select {
+    min-height: auto;
+  }
+  
   
 }
 
