@@ -145,6 +145,13 @@ nt.customer.account {
 
   .customer .address-box {
     align-items: flex-end;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .customer .address-new {
+    min-width: auto;
+    width: auto;
   }
 }
 
