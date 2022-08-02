@@ -201,6 +201,10 @@ nt.customer.account {
   .customer .address-new a, .customer .edit-address-link {
     padding-bottom: 15px;
   }
+
+  .customer .customer-wrapper .tabs-content .hidden {
+    display: block !important;
+  }
   
 }
 
