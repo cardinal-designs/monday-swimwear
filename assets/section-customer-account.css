@@ -206,6 +206,10 @@ nt.customer.account {
 
 @media screen and (max-width: 374px) {
   
+  .customer .address-box .addresses {
+    width: 100px;
+  }
+  
 }
 
 /* Swell rewards widget */
