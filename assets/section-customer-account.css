@@ -122,6 +122,10 @@ nt.customer.account {
   display: none;
 }
 
+.mobile-view-content {
+  display: none;
+}
+
 @media screen and (max-width: 950px) {
   .customer .customer-wrapper {
     grid-gap: 50px;
