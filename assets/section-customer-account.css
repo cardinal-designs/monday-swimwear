@@ -225,7 +225,7 @@ nt.customer.account {
   }
 
   .customer .customer-wrapper .tabs-content .hidden {
-    display: block !important;
+    display: none !important;
   }
   
 }
