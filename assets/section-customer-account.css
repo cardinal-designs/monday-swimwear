@@ -238,6 +238,14 @@ nt.customer.account {
   .yotpo-widget-my-rewards-widget .yotpo-action-buttons-tile {
     justify-content: flex-start !important;
   }
+
+  .yotpo-widget-my-rewards-widget .yotpo-primary-button {
+    padding-left: 0 !important;
+  }
+
+  .yotpo-widget-my-rewards-widget .yotpo-secondary-button {
+    padding-left: 0 !important;
+  }
 }
 
 /* Yotpo rewards popup */
