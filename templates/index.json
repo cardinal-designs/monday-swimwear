@@ -32,6 +32,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": "beachwear-accessories"
+          }
+        },
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
@@ -43,18 +49,12 @@
           "settings": {
             "collection": "monday-beachwear"
           }
-        },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "944498a4-3695-48f6-9a89-0208d09aab7b",
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f"
       ],
       "settings": {
       }
