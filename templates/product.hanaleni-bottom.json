@@ -24,8 +24,8 @@
           "type": "fit",
           "settings": {
             "image": "shopify:\/\/shop_images\/HANALENI_BOTTOM_-_BLACK.jpg",
-            "title": "The Hanaleni Bottom",
-            "short_title": "Hanaleni Bottom",
+            "title": "The Hanalei Bottom",
+            "short_title": "Hanalei Bottom",
             "short_description": "",
             "description": "Satisfy your sun-soaking needs in the Hanalei Bottom. A play off of our famous Palma Bottom, this classic string bottom features dainty gold rings and adjustable ultra-thin straps for a barely-there feel.",
             "fit": "Available in sizes P-V",
@@ -34,7 +34,8 @@
             "style": "",
             "fabric": "",
             "fit_tip": "",
-            "shop_link": "shopify:\/\/collections\/shop-by-style-hanalei"
+            "shop_link": "shopify:\/\/collections\/shop-by-style-hanalei",
+            "explore_link": ""
           }
         }
       },
