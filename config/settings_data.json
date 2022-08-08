@@ -2455,6 +2455,13 @@
               "title": "Will my return\/refund be delayed?",
               "answer": "<p>Our team is currently processing returns\/refunds as normal. Should there be any delays, we will update our FAQ.<\/p>"
             }
+          },
+          "06ea453a-75f1-4191-a3d1-0d8bc35661d7": {
+            "type": "faq_item",
+            "settings": {
+              "title": "What is the Summer Sale return policy?",
+              "answer": "<p>By purchasing products from our Summer ’22, sale at 25% off, you agree to the return policy being exchange only. Price adjustments cannot be made to previous orders.<\/p>"
+            }
           }
         },
         "block_order": [
@@ -2496,7 +2503,8 @@
           "df24f8a6-07fb-4a59-8ff8-a23d2c43ad39",
           "251481f5-9731-462c-838d-78c656ecb189",
           "829b5c7a-3d22-4949-910c-da484d2b61bc",
-          "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23"
+          "ec1b01e7-0e3a-4874-80c3-eb68d4a81d23",
+          "06ea453a-75f1-4191-a3d1-0d8bc35661d7"
         ],
         "settings": {
           "title": "FAQs"
