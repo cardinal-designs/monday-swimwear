@@ -4,8 +4,8 @@
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/sale-homepage5.png",
-        "mobile_image": "shopify:\/\/shop_images\/Middle-Mobile_178e9645-60c6-4648-82b1-dd25d56d0651.jpg",
-        "caption": "summer sale - 25% off",
+        "mobile_image": "shopify:\/\/shop_images\/sale-homepage5-mob.png",
+        "caption": "",
         "caption_color": "#ffffff",
         "button_label": "SHOP NOW",
         "button_link": "shopify:\/\/collections\/summer-sale-25-off",
