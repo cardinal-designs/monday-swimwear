@@ -106,6 +106,15 @@
             "link": "https:\/\/sheerluxe.com\/fashion\/stylish-supportive-swimwear-bigger-busts"
           }
         },
+        "3cdcbc26-b2da-461f-912c-09be3d6ababc": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "text": "\"21 Best Swimsuit Brands to Shop for the Summer 2022 Season\"",
+            "date": "JUNE 2022",
+            "link": "https:\/\/www.vanityfair.com\/style\/2022\/05\/21-best-swimsuit-brands-to-shop-for-the-summer-2022-season"
+          }
+        },
         "505098ab-c169-42c4-9c4c-81c3756929eb": {
           "type": "block",
           "settings": {
@@ -156,13 +165,12 @@
             "link": "https:\/\/www.nylon.com\/miami-swim-week-2019"
           }
         },
-        "3cdcbc26-b2da-461f-912c-09be3d6ababc": {
+        "e2c83908-2e4d-43a3-8454-a475fcb0787d": {
           "type": "block",
           "settings": {
             "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/Refinery29_logo.svg_ad527db2-1872-4f97-a81e-36542f9b22ec.png",
-            "text": "“Proof that you can support your chest and look good doing it.”",
-            "date": "JULY 2018",
+            "text": "",
+            "date": "",
             "link": ""
           }
         }
@@ -172,12 +180,13 @@
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
         "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5",
         "38c526bd-4666-495a-907a-38cf1a9bafc0",
+        "3cdcbc26-b2da-461f-912c-09be3d6ababc",
         "505098ab-c169-42c4-9c4c-81c3756929eb",
         "f6365442-2f02-469f-a572-bcc13a4b0ab9",
         "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
         "6917545b-14b1-4ef1-a682-48b0fd1cf274",
         "613ef298-49bd-4e28-b8ab-16a6efb76314",
-        "3cdcbc26-b2da-461f-912c-09be3d6ababc"
+        "e2c83908-2e4d-43a3-8454-a475fcb0787d"
       ],
       "settings": {
         "title": ""
