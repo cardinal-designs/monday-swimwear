@@ -358,6 +358,7 @@
   }
 </script>
 
+{% comment %}
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" %}
   <script type="application/ld+json">
@@ -374,6 +375,7 @@
     }
   </script>
 {%- endif -%}
+{% endcomment %}
 
 {% javascript %}
   // Transparent header on scroll
