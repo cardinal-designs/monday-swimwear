@@ -315,7 +315,7 @@
     <div class="header__search">
       <div class="page-width">
         <div class="header__search-container">
-          <form action="{{ routes.search_url }}" method="get" role="search" class="header__search-form">
+          <form action="/search" method="get" role="search" class="header__search-form">
             <div class="header__search-group">
               <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." />
               <input type="hidden" name="options[prefix]" value="last" />
