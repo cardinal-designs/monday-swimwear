@@ -57,6 +57,10 @@
   border-color: white;
 }
 
+.hero__container .button {
+  margin-top: 40px;
+}
+
 /* Other positions */
 .hero.hero--top-left {
   justify-content: flex-start;
