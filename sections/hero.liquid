@@ -10,10 +10,10 @@
   {% endif %}
   <div class="page-width">
     <div class="hero__container">
-      {% if section.settings.caption != blank %}
-      <div class="hero__caption">
+      {% if section.settings.text != blank %}
+      <div class="hero__text">
         <div class="glow"></div>
-        <p class="btn" style="color: {{ section.settings.caption_color }};">{{ section.settings.caption }}</p>
+        <p class="btn" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</p>
       </div>
       {% endif %}
       <div class="hero__button">
