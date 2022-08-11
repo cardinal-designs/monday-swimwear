@@ -12,8 +12,12 @@
     <div class="hero__container">
       {% if section.settings.text != blank %}
       <div class="hero__text">
+        {% if section.settings.text_size == 'small' %}
         <div class="glow"></div>
-        <p class="btn" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</p>
+          <p class="btn" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</p>
+        {% else %}
+          <h2 class="h1" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</h2>
+        {% endif %}
       </div>
       {% endif %}
       <div class="hero__button">
