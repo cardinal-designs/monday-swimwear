@@ -8,7 +8,7 @@
         "text": "Lorem Ipsum Dolor Sit",
         "text_color": "#ffffff",
         "text_size": "large",
-        "content_position": "bottom-split",
+        "content_position": "top-left",
         "button_label": "SHOP NOW",
         "button_link": "shopify:\/\/collections\/summer-sale-25-off",
         "overlay_link": false
