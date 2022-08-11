@@ -103,7 +103,7 @@
   align-items: flex-end;
 }
 
-.hero.hero--bottom-split {
+.hero.hero--bottom-split .hero__container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
