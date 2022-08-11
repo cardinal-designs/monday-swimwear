@@ -142,6 +142,7 @@
   }
 
   .hero__container {
+    max-width: 400px;
     padding-bottom: 40px;
     display: block;
   }
