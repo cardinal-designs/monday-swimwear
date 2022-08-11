@@ -31,7 +31,7 @@
   position: relative;
 }
 
-.hero__caption {
+.hero__text {
   max-width: 300px;
 }
 
@@ -39,7 +39,7 @@
   z-index: 2;
 }
 
-.hero__caption .glow {
+.hero__text .glow {
   height: 23px;
   width: 23px;
   border-radius: 100%;
