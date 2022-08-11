@@ -5,6 +5,12 @@
   align-items: flex-end;
 }
 
+.hero .page-width {
+  display: flex;
+  display: flex;
+  align-items: flex-end;
+}
+
 .hero-overlay__link {
   z-index: 2;
   position: absolute;
@@ -67,52 +73,52 @@
 }
 
 /* Other positions */
-.hero.hero--top-left {
+.hero.hero--top-left .page-width {
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.hero.hero--top-center {
+.hero.hero--top-center .page-width {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
 }
 
-.hero.hero--top-right {
+.hero.hero--top-right .page-width {
   justify-content: flex-end;
   align-items: flex-start;
   text-align: right;
 }
 
-.hero.hero--center-left {
+.hero.hero--center-left .page-width {
   justify-content: flex-start;
   align-items: center;
 }
 
-.hero.hero--center-center {
+.hero.hero--center-center .page-width {
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.hero.hero--center-right {
+.hero.hero--center-right .page-width {
   justify-content: flex-end;
   align-items: center;
   text-align: right;
 }
 
-.hero.hero--bottom-left {
+.hero.hero--bottom-left .page-width {
   justify-content: flex-start;
   align-items: flex-end;
 }
 
-.hero.hero--bottom-center {
+.hero.hero--bottom-center .page-width {
   justify-content: center;
   align-items: flex-end;
   text-align: center;
 }
 
-.hero.hero--bottom-right {
+.hero.hero--bottom-right .page-width {
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
