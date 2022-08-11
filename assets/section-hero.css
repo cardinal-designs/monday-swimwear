@@ -25,9 +25,6 @@
 
 .hero__container {
   padding: 30px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
   position: relative;
 }
 
@@ -103,6 +100,12 @@
 
 .hero.hero--bottom-right {
   justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero.hero--bottom-split {
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
