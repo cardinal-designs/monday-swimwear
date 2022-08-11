@@ -24,15 +24,12 @@
 }
 
 .hero__container {
+  max-width: 700px;
   padding: 90px 0 30px;
   position: relative;
 }
 
-.hero__text {
-  max-width: 700px;
-}
-
-.hero.hero--small .hero__text {
+.hero.hero--small .hero__container {
   max-width: 300px;
 }
 
@@ -125,6 +122,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.hero.hero--top-center .hero__container,
+.hero.hero--center-center .hero__container,
+.hero.hero--bottom-center .hero__container {
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
