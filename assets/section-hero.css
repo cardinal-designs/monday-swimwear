@@ -73,20 +73,20 @@
 }
 
 .hero.hero--top-center {
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   text-align: center;
 }
 
 .hero.hero--top-right {
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-start;
   text-align: right;
 }
 
 .hero.hero--center-left {
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .hero.hero--center-center {
@@ -96,8 +96,8 @@
 }
 
 .hero.hero--center-right {
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: center;
   text-align: right;
 }
 
@@ -108,7 +108,7 @@
 
 .hero.hero--bottom-center {
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   text-align: center;
 }
 
