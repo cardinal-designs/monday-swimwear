@@ -45,7 +45,11 @@
   -webkit-filter: blur(6px);
 }
 
-.hero__caption .btn {
+.hero__text .h1 {
+  margin: 0;
+}
+
+.hero__text .btn {
   margin: 16px 0 0;
   color: white;
   line-height: 1.23;
