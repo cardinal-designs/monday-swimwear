@@ -2330,7 +2330,7 @@ header-drawer {
 @media screen and (max-width: 500px) {
   .legal-popup {
     width: 100%;
-    padding: 10px 10px 12px;
+    padding: 10px 15px 12px;
   }
 }
 
