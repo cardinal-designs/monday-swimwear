@@ -5,6 +5,12 @@
   align-items: flex-end;
 }
 
+.hero .page-width {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
 .hero-overlay__link {
   z-index: 2;
   position: absolute;
@@ -24,14 +30,12 @@
 }
 
 .hero__container {
-  padding-bottom: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  max-width: 700px;
+  padding: 90px 0 30px;
   position: relative;
 }
 
-.hero__caption {
+.hero.hero--small .hero__container {
   max-width: 300px;
 }
 
@@ -39,7 +43,7 @@
   z-index: 2;
 }
 
-.hero__caption .glow {
+.hero__text .glow {
   height: 23px;
   width: 23px;
   border-radius: 100%;
@@ -48,7 +52,11 @@
   -webkit-filter: blur(6px);
 }
 
-.hero__caption .btn {
+.hero__text .h1 {
+  margin: 0;
+}
+
+.hero__text .btn {
   margin: 16px 0 0;
   color: white;
   line-height: 1.23;
@@ -60,12 +68,81 @@
   border-color: white;
 }
 
+.hero__container .button {
+  margin-top: 40px;
+}
+
+/* Other positions */
+.hero.hero--top-left .page-width {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hero.hero--top-center .page-width {
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.hero.hero--top-right .page-width {
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: right;
+}
+
+.hero.hero--center-left .page-width {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero.hero--center-center .page-width {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero.hero--center-right .page-width {
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+.hero.hero--bottom-left .page-width {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.hero.hero--bottom-center .page-width {
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.hero.hero--bottom-right .page-width {
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.hero.hero--bottom-split .hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hero.hero--top-center .hero__container,
+.hero.hero--center-center .hero__container,
+.hero.hero--bottom-center .hero__container {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     height: 620px;
   }
 
   .hero__container {
+    max-width: 400px;
     padding-bottom: 40px;
     display: block;
   }

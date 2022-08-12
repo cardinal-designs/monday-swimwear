@@ -1,15 +1,32 @@
 {
   "sections": {
-    "1640133702b1b204aa": {
+    "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/sale-homepage5.png",
-        "mobile_image": "shopify:\/\/shop_images\/sale-homepage5-mob.png",
-        "caption": "",
-        "caption_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/sale-homepage5.webp",
+        "mobile_image": "shopify:\/\/shop_images\/sale-homepage5-mob.webp",
+        "text": "",
+        "text_color": "#FFFFFF",
+        "text_size": "small",
+        "content_position": "bottom-split",
         "button_label": "SHOP NOW",
         "button_link": "shopify:\/\/collections\/summer-sale-25-off",
         "overlay_link": true
+      }
+    },
+    "1640133702b1b204aa": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Header_a0a178e1-20f0-4db7-9c4b-aeddbf4f09d2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_f9f8091c-7937-46cc-858a-316fe618f551.jpg",
+        "text": "Lorem Ipsum Dolor Sit",
+        "text_color": "#ffffff",
+        "text_size": "large",
+        "content_position": "bottom-right",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify:\/\/collections\/summer-sale-25-off",
+        "overlay_link": false
       }
     },
     "1657215750b8e1724d": {
@@ -247,6 +264,7 @@
     }
   },
   "order": [
+    "1660324166f7286707",
     "1640133702b1b204aa",
     "1657215750b8e1724d",
     "164081090579915a8a",
