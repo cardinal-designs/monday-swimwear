@@ -123,7 +123,6 @@
       "blocks": {
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Lower_024c8534-b2f7-4611-baaa-cf97e71e4a23.jpg",
             "text": "Classic & Timeless",
@@ -131,31 +130,29 @@
             "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Black-_-Ivory-Runway-Style-Box.jpg",
-            "text": "Black & Ivory Runway Style Box",
-            "link_label": "Shop the Look",
-            "link": "shopify:\/\/products\/black-ivory-runway-style-box"
-          }
-        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mobile_ad651613-acbb-4b81-b8c1-52d307a61f5c.jpg",
             "text": "Blue Dreams",
             "link_label": "Shop Cobalt",
             "link": "shopify:\/\/collections\/cobalt"
           }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_ee8c1b53-f217-4aad-a57e-27cfe2856241.jpg",
+            "text": "Feelin' Flirty",
+            "link_label": "Shop Prints",
+            "link": "shopify:\/\/collections\/prints"
+          }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
