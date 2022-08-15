@@ -6,7 +6,7 @@
         "image": "shopify:\/\/shop_images\/sale-homepage-40off.jpg",
         "mobile_image": "shopify:\/\/shop_images\/sale-homepage-40off-mob.jpg",
         "text": "",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
         "button_label": "SHOP NOW",
@@ -21,7 +21,7 @@
         "image": "shopify:\/\/shop_images\/Header_a0a178e1-20f0-4db7-9c4b-aeddbf4f09d2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Mobile_f9f8091c-7937-46cc-858a-316fe618f551.jpg",
         "text": "",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
         "button_label": "SHOP NOW",
@@ -123,6 +123,7 @@
       "blocks": {
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Olive-Runway-Style-Box.jpg",
             "text": "Olive Runway Style Box",
@@ -132,6 +133,7 @@
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Black-_-Ivory-Runway-Style-Box.jpg",
             "text": "Black & Ivory Runway Style Box",
@@ -141,6 +143,7 @@
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Cobalt-Runway-Style-Box.jpg",
             "text": "Cobalt Runway Style Box",
