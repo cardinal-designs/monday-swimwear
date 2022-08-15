@@ -121,14 +121,14 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Olive-Runway-Style-Box.jpg",
-            "text": "Olive Runway Style Box",
-            "link_label": "Shop the Look",
-            "link": "shopify:\/\/products\/olive-runway-style-box"
+            "image": "shopify:\/\/shop_images\/Lower_024c8534-b2f7-4611-baaa-cf97e71e4a23.jpg",
+            "text": "Classic & Timeless",
+            "link_label": "Shop Signature Styles",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -141,21 +141,21 @@
             "link": "shopify:\/\/products\/black-ivory-runway-style-box"
           }
         },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cobalt-Runway-Style-Box.jpg",
-            "text": "Cobalt Runway Style Box",
-            "link_label": "Shop the Look",
-            "link": "shopify:\/\/products\/cobalt-runway-style-box"
+            "image": "shopify:\/\/shop_images\/Mobile_ad651613-acbb-4b81-b8c1-52d307a61f5c.jpg",
+            "text": "Blue Dreams",
+            "link_label": "Shop Cobalt",
+            "link": "shopify:\/\/collections\/cobalt"
           }
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
