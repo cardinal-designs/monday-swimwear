@@ -868,7 +868,7 @@ class ProductCard extends HTMLElement {
 
 
     if (compareAtPrice > price) {
-      priceContainer.innerHtml = `
+      const priceHTML = `
       <div class="price product-card__price body-small price--on-sale">
         <span class="price-item price-item--regular">
           <span class="money">${Shopify.formatMoney(price)} ${currency}</span>
@@ -887,6 +887,9 @@ class ProductCard extends HTMLElement {
         </div>
       </div>
       `;
+
+      this.clearElement(priceContainer)
+      priceContainer.insertAdjacentHTML('beforeend',priceHTML);
     } else {
     const priceHTML = `
         <div class="price product-card__price body-small">
@@ -920,16 +923,16 @@ class ProductCard extends HTMLElement {
         </div></div>
       `;
 
-      this.clearBox(priceContainer)
+      this.clearElement(priceContainer)
       priceContainer.insertAdjacentHTML('beforeend',priceHTML);
     }
   }
 
-  clearBox(element) {
+  clearElement(element) {
     while(element.firstChild) {
         element.removeChild(element.firstChild);
     }
-}
+  }
 }
 
 customElements.define('product-card', ProductCard);
