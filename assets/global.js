@@ -861,14 +861,14 @@ class ProductCard extends HTMLElement {
   }
 
   updatePrice(swatch) {
-    this.priceContainer = this.querySelector('.product-card__price-container');
+    const priceContainer = this.querySelector('.product-card__price-container');
     const currency = swatch.dataset.currency;
     const price = swatch.dataset.price;
     const compareAtPrice = swatch.dataset.comparePrice
 
 
     if (compareAtPrice > price) {
-      this.priceContainer.innerHtml = `
+      priceContainer.innerHtml = `
       <div class="price product-card__price body-small price--on-sale">
         <span class="price-item price-item--regular">
           <span class="money">${Shopify.formatMoney(price)} ${currency}</span>
@@ -921,7 +921,7 @@ class ProductCard extends HTMLElement {
       `;
 
       console.log(priceHTML)
-      this.priceContainer.innerHtml = priceHTML;
+      priceContainer.innerHtml = priceHTML;
     }
   }
 }
