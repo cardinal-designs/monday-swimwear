@@ -921,7 +921,7 @@ class ProductCard extends HTMLElement {
       `;
 
       console.log(priceHTML)
-      priceContainer.replaceChildren(priceHTML);
+      priceContainer.insertAdjacentHTML('beforeend',priceHTML);
     }
   }
 }
