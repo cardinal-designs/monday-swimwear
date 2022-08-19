@@ -889,7 +889,7 @@ class ProductCard extends HTMLElement {
       </div>
       `
     } else {
-    this.priceContainer.innerHtml = `
+    const priceHTML = `
         <div class="price product-card__price body-small">
         <div><div class="price__regular">
             <span class="visually-hidden visually-hidden--inline">Regular price</span>
@@ -920,6 +920,9 @@ class ProductCard extends HTMLElement {
           </small>
         </div></div>
       `;
+
+      console.log(priceHTML)
+      this.priceContainer.innerHtml = priceHTML;
     }
   }
 }
