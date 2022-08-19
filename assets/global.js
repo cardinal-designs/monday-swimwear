@@ -871,7 +871,7 @@ class ProductCard extends HTMLElement {
       const priceHTML = `
       <div class="price product-card__price body-small price--on-sale">
         <span class="price-item price-item--regular">
-          <span class="money">${Shopify.formatMoney(price)} ${currency}</span>
+          <span class="money"></span>
         </span>
         <div class="price__sale">
           <span class="visually-hidden visually-hidden--inline">Regular price</span>
