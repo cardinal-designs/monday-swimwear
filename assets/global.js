@@ -887,7 +887,7 @@ class ProductCard extends HTMLElement {
       </div>
       `
     } else {
-      = `
+    this.priceContainer.innerHtml = `
         <div class="price product-card__price body-small">
         <div><div class="price__regular">
             <span class="visually-hidden visually-hidden--inline">Regular price</span>
