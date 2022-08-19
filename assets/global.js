@@ -796,7 +796,6 @@ class ProductCard extends HTMLElement {
     this.productTitle = this.querySelector('.product-card__title');
     this.links = this.querySelectorAll('.product-card__link');
     this.soldout = this.querySelector('.product-card__link .sold-out__tag');
-    this.priceContainer = this.querySelector('.product-card__price-container');
     this.card = this.querySelector('.product-card__image');
 
 
@@ -862,6 +861,7 @@ class ProductCard extends HTMLElement {
   }
 
   updatePrice(swatch) {
+    this.priceContainer = this.querySelector('.product-card__price-container');
     const currency = swatch.dataset.currency;
     const price = swatch.dataset.price;
     const compareAtPrice = swatch.dataset.comparePrice
