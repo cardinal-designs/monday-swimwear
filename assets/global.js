@@ -864,7 +864,9 @@ class ProductCard extends HTMLElement {
   updatePrice(swatch) {
     const currency = swatch.dataset.currency;
     const price = swatch.dataset.price;
-    const compareAtPrice = swatch.dataset.comparePrice;
+    const compareAtPrice = swatch.dataset.comparePrice
+
+    console.log(compareAtPrice, price, this.priceContainer)
 
     if (compareAtPrice > price) {
       this.priceContainer.innerHtml = `
