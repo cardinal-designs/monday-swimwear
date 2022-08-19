@@ -901,9 +901,7 @@ class ProductCard extends HTMLElement {
               <span class="visually-hidden visually-hidden--inline">Regular price</span>
               <span>
                 <s class="price-item price-item--regular">
-                  
                     <span class="money"></span>
-                  
                 </s>
               </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
             <span class="price-item price-item--sale price-item--last">
