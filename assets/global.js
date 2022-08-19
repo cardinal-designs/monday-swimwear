@@ -866,7 +866,6 @@ class ProductCard extends HTMLElement {
     const price = swatch.dataset.price;
     const compareAtPrice = swatch.dataset.comparePrice
 
-    console.log(compareAtPrice > price, this.priceContainer)
 
     if (compareAtPrice > price) {
       this.priceContainer.innerHtml = `
@@ -887,7 +886,7 @@ class ProductCard extends HTMLElement {
           </span>
         </div>
       </div>
-      `
+      `;
     } else {
     const priceHTML = `
         <div class="price product-card__price body-small">
