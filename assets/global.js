@@ -750,7 +750,8 @@ class ProductCard extends HTMLElement {
     this.cardHoverImage = this.querySelector('.product-card__image .hover-image img');
     this.productTitle = this.querySelector('.product-card__title');
     this.links = this.querySelectorAll('.product-card__link');
-    this.soldout = this.querySelector('.product-card__link .sold-out__tag')
+    this.soldout = this.querySelector('.product-card__link .sold-out__tag');
+    this.priceContainer = this.querySelector('.product-card__price-container');
     this.card = this.querySelector('.product-card__image');
 
 
