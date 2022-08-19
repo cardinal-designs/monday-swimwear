@@ -894,36 +894,6 @@ class ProductCard extends HTMLElement {
 
 customElements.define('product-card', ProductCard);
 
-<div><div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">Regular price</span>
-      <span class="price-item price-item--regular">
-        <span class="money">$57.60 USD</span>​
-      </span>
-    </div>
-    <div class="price__sale">
-        <span class="visually-hidden visually-hidden--inline">Regular price</span>
-        <span>
-          <s class="price-item price-item--regular">
-            
-              <span class="money">$96 USD</span>​
-            
-          </s>
-        </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
-      <span class="price-item price-item--sale price-item--last">
-        <span class="money">$57.60 USD</span>​
-      </span>
-    </div>
-    <small class="unit-price caption hidden">
-      <span class="visually-hidden">Unit price</span>
-      <span class="price-item price-item--last">
-        <span></span>
-        <span aria-hidden="true">/</span>
-        <span class="visually-hidden">&nbsp;per&nbsp;</span>
-        <span>
-        </span>
-      </span>
-    </small>
-  </div>
 
 /*================ Functions ================*/
 
