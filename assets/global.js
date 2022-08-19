@@ -870,18 +870,18 @@ class ProductCard extends HTMLElement {
       this.priceContainer.innerHtml = `
       <div class="price product-card__price body-small price--on-sale">
         <span class="price-item price-item--regular">
-          <span class="money">${price} ${currency}</span>
+          <span class="money">${Shopify.formatMoney(price)} ${currency}</span>
         </span>
         <div class="price__sale">
           <span class="visually-hidden visually-hidden--inline">Regular price</span>
           <span>
             <s class="price-item price-item--regular">
-              <span class="money">${compareAtPrice} ${currency}</span>
+              <span class="money">${Shopify.formatMoney(compareAtPrice)} ${currency}</span>
             </s>
           </span>
           <span class="visually-hidden visually-hidden--inline">Sale price</span>
           <span class="price-item price-item--sale price-item--last">
-            <span class="money">${price} ${currency}</span>
+            <span class="money">${Shopify.formatMoney(price)} ${currency}</span>
           </span>
         </div>
       </div>
