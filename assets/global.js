@@ -920,10 +920,16 @@ class ProductCard extends HTMLElement {
         </div></div>
       `;
 
-      console.log(priceHTML)
+      this.clearBox(priceContainer)
       priceContainer.insertAdjacentHTML('beforeend',priceHTML);
     }
   }
+
+  clearBox(element) {
+    while(element.firstChild) {
+        element.removeChild(element.firstChild);
+    }
+}
 }
 
 customElements.define('product-card', ProductCard);
