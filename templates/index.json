@@ -110,12 +110,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Middle_c85fea70-9664-4cc7-b32c-7e592ad84c41.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_7d091d77-eaaa-45f2-8409-e71a9828a9d3.jpg",
-        "left_text": "BACK",
-        "right_text": "IN STOCK",
-        "link_label": "SHOP BEACH BAGS",
-        "link": "shopify:\/\/collections\/beachwear-accessories"
+        "image": "shopify:\/\/shop_images\/60off-monday2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/60off-monday-mob.jpg",
+        "left_text": "",
+        "right_text": "",
+        "link_label": "SHOP THE SALE",
+        "link": "shopify:\/\/collections\/summer-sale-60-off"
       }
     },
     "1640812146b4d73cae": {
