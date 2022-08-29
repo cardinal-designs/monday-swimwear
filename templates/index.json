@@ -37,15 +37,6 @@
         "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/eZNpqsZDx2k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
       }
     },
-    "164081090579915a8a": {
-      "type": "text",
-      "settings": {
-        "text": "Our semi-annual Summer sale is here! Shop & save now before your favorite styles are gone.<br>\n*we do not offer price adjustments.",
-        "wide": true,
-        "add_glow": true,
-        "link": ""
-      }
-    },
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
@@ -74,6 +65,26 @@
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f"
       ],
       "settings": {
+      }
+    },
+    "16408101574f5b391b": {
+      "type": "editorial-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/60off-monday2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/60off-monday-mob.jpg",
+        "left_text": "",
+        "right_text": "",
+        "link_label": "SHOP THE SALE",
+        "link": "shopify:\/\/collections\/summer-sale-60-off"
+      }
+    },
+    "164081090579915a8a": {
+      "type": "text",
+      "settings": {
+        "text": "Our semi-annual Summer sale is here! Shop & save now before your favorite styles are gone.<br>\n*we do not offer price adjustments.",
+        "wide": true,
+        "add_glow": true,
+        "link": ""
       }
     },
     "1640811405c1297562": {
@@ -105,17 +116,6 @@
       "settings": {
         "text_style": "overlay",
         "slider_on_mobile": false
-      }
-    },
-    "16408101574f5b391b": {
-      "type": "editorial-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/60off-monday2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/60off-monday-mob.jpg",
-        "left_text": "",
-        "right_text": "",
-        "link_label": "SHOP THE SALE",
-        "link": "shopify:\/\/collections\/summer-sale-60-off"
       }
     },
     "1640812146b4d73cae": {
@@ -267,10 +267,10 @@
     "1660324166f7286707",
     "1640133702b1b204aa",
     "1657215750b8e1724d",
-    "164081090579915a8a",
     "16407502469f0e5f45",
-    "1640811405c1297562",
     "16408101574f5b391b",
+    "164081090579915a8a",
+    "1640811405c1297562",
     "1640812146b4d73cae",
     "16408186509f925b52",
     "1640814929d4a3c77a",
