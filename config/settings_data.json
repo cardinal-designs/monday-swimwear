@@ -28,12 +28,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "8d409115-d923-4e31-b399-0835b50f48df": {
-            "type": "announcement",
-            "settings": {
-              "text": "The Summer '22 Sale has started! Start Shopping."
-            }
-          },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
             "settings": {
@@ -48,7 +42,6 @@
           }
         },
         "block_order": [
-          "8d409115-d923-4e31-b399-0835b50f48df",
           "9e9ecc40-4b57-4047-b32f-6330f3026efb",
           "2b1b8459-d702-437f-a64f-d74e618d18b9"
         ],

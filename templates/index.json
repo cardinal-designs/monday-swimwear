@@ -3,13 +3,13 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/HOME-PAGE_2bde6a26-1ac6-442e-b043-fc0f6f54ffe3.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_2316d8fb-a8d6-4e1e-9997-1394305ae630.jpg",
+        "image": "shopify:\/\/shop_images\/Header-Alt-1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_d45e54a5-f83e-49ca-963b-a71027a80db8.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
-        "button_label": "back in stock",
+        "button_label": "start shopping",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
@@ -70,25 +70,26 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/60off-monday2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/60off-monday-mob.jpg",
+        "image": "shopify:\/\/shop_images\/tease.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/1_6c732a64-beae-402d-995f-bdcb5c3b2e02.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "SHOP THE SALE",
-        "link": "shopify:\/\/collections\/summer-sale"
+        "link_label": "",
+        "link": ""
       }
     },
     "164081090579915a8a": {
       "type": "text",
       "settings": {
-        "text": "Our semi-annual Summer sale is here! Shop & save now before your favorite styles are gone.<br>\n*we do not offer price adjustments.",
+        "text": "As a women owned and run company we want to help ensure all women can get the healthcare they need. That's why we are donating 15% of all proceeds now through September 30th to Planned Parenthood.",
         "wide": true,
         "add_glow": true,
-        "link": "shopify:\/\/collections\/summer-sale"
+        "link": "shopify:\/\/collections\/the-signature-collection-1"
       }
     },
     "1640811405c1297562": {
       "type": "link-blocks",
+      "disabled": true,
       "blocks": {
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
