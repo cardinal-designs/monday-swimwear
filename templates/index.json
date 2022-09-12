@@ -3,13 +3,13 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/blackchevron-dekstop.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/blackcheron-desktop.jpg",
+        "image": "shopify:\/\/shop_images\/zebra1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/zebra-mob.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
-        "button_label": "start shopping",
+        "button_label": "resort 2023",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
@@ -70,12 +70,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/tease.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1_6c732a64-beae-402d-995f-bdcb5c3b2e02.jpg",
+        "image": "shopify:\/\/shop_images\/HOME-PAGE_2bde6a26-1ac6-442e-b043-fc0f6f54ffe3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE_2316d8fb-a8d6-4e1e-9997-1394305ae630.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "",
-        "link": ""
+        "link_label": "shop now",
+        "link": "shopify:\/\/collections\/white-sand"
       }
     },
     "164081090579915a8a": {
