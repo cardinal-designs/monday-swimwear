@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "e2c83908-2e4d-43a3-8454-a475fcb0787d": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/ELLE_Magazine_Logo.png",
+            "text": "\"The Most Stylish Swimwear Brands That Will Actually Fit Big Boobs.\"",
+            "date": "Sept 2022",
+            "link": "https:\/\/www.elle.com\/uk\/fashion\/what-to-wear\/g40940957\/best-swimwear-big-boobs\/"
+          }
+        },
         "4a9fd056-80e8-482d-a618-3f8aa3da6ec2": {
           "type": "block",
           "settings": {
@@ -165,18 +175,10 @@
             "date": "JULY 2019",
             "link": "https:\/\/www.nylon.com\/miami-swim-week-2019"
           }
-        },
-        "e2c83908-2e4d-43a3-8454-a475fcb0787d": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "text": "",
-            "date": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "e2c83908-2e4d-43a3-8454-a475fcb0787d",
         "4a9fd056-80e8-482d-a618-3f8aa3da6ec2",
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
         "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5",
@@ -186,8 +188,7 @@
         "f6365442-2f02-469f-a572-bcc13a4b0ab9",
         "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
         "6917545b-14b1-4ef1-a682-48b0fd1cf274",
-        "613ef298-49bd-4e28-b8ab-16a6efb76314",
-        "e2c83908-2e4d-43a3-8454-a475fcb0787d"
+        "613ef298-49bd-4e28-b8ab-16a6efb76314"
       ],
       "settings": {
         "title": ""
