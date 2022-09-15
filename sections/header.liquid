@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
+  <link rel="preload" href="{{ 'component-cart-drawer.css' | asset_url }}" as="style">
 {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
 
 <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
