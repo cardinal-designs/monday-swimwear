@@ -1,7 +1,9 @@
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="hero hero--{{ section.settings.content_position }} hero--{{ section.settings.text_size }}">
-  {% if section.settings.overlay_link %}<a href="{{ section.settings.button_link }}" class="hero-overlay__link"></a>{% endif %}
+  {% if section.settings.overlay_link %}<a href="{{ section.settings.button_link }}" class="hero-overlay__link">
+    <span class="visually-hidden">{{shop.name}}</span>
+  </a>{% endif %}
   {% if section.settings.mobile_image != blank %}
     {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
     {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
