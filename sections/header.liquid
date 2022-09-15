@@ -164,7 +164,7 @@
                 <ul class="header__submenu" role="list" tabindex="-1">
                   {%- for childlink in link.links -%}
                     <li>
-                      <a href="{{ childlink.url }}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                      <a href="{% if childlink.url != blank %}{{ childlink.url }}{% else %}#{% endif %}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                         {{ childlink.title | escape }}
                       </a>
                     </li>
