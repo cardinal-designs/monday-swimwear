@@ -1035,7 +1035,8 @@ details[open] > .share-button__fallback {
 }
 
 .aspect-ratio img {
-  height: 100%;
+  height: auto;
+/*   height:100%; */
   width: 100%;
   position: absolute;
   top: 0;
