@@ -100,6 +100,7 @@
   <!-- Logo -->
   <div class="header__logo">
     <a href="{{ routes.root_url }}" class="header__logo-link">
+      <span class="visually-hidden">{{ shop.name }}</span>
       <div class="header__logo-wrapper">
         {%- if section.settings.svg_logo != blank -%}
           <div class="header__svg-logo">
