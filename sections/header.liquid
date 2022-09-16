@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
+
 {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
 
 <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
@@ -100,6 +101,7 @@
   <!-- Logo -->
   <div class="header__logo">
     <a href="{{ routes.root_url }}" class="header__logo-link">
+      <span class="visually-hidden">{{ shop.name }}</span>
       <div class="header__logo-wrapper">
         {%- if section.settings.svg_logo != blank -%}
           <div class="header__svg-logo">
@@ -164,7 +166,7 @@
                 <ul class="header__submenu" role="list" tabindex="-1">
                   {%- for childlink in link.links -%}
                     <li>
-                      <a href="{{ childlink.url }}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                      <a href="{% if childlink.url != blank %}{{ childlink.url }}{% else %}#{% endif %}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                         {{ childlink.title | escape }}
                       </a>
                     </li>
@@ -249,7 +251,7 @@
             <ul class="header__submenu" role="list" tabindex="-1">
               {%- for childlink in right_dropdown_menu.links -%}
                 <li>
-                  <a {% if childlink.title == 'Help' %}{% else %}href="{{ childlink.url }}"{% endif %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %} {% if childlink.title == 'Help' %}header__submenu-item--gray{% endif %}  {% if childlink.title contains 'Contact' %}header__submenu-item--indent{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                  <a {% if childlink.title == 'Help' %}href="#"{% else %}href="{{ childlink.url }}"{% endif %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %} {% if childlink.title == 'Help' %}header__submenu-item--gray{% endif %}  {% if childlink.title contains 'Contact' %}header__submenu-item--indent{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                     {{ childlink.title | escape }}
                   </a>
                 </li>

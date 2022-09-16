@@ -1035,7 +1035,7 @@ details[open] > .share-button__fallback {
 }
 
 .aspect-ratio img {
-  height: 100%;
+   height:100%; 
   width: 100%;
   position: absolute;
   top: 0;
@@ -2393,4 +2393,13 @@ header-drawer {
   .credits__container .button {
     width: 100%;
   }
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
