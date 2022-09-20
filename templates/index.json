@@ -144,9 +144,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_ee8c1b53-f217-4aad-a57e-27cfe2856241.jpg",
-            "text": "Feelin' Wild",
+            "text": "A Print for Everyone",
             "link_label": "Shop Prints",
-            "link": "shopify:\/\/collections\/animal-prints"
+            "link": "shopify:\/\/collections\/prints"
           }
         }
       },
