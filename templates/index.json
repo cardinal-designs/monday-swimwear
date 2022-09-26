@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/zebra1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/zebra-new-mob.png",
+        "image": "shopify:\/\/shop_images\/core-essentials-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/core-essentials-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
-        "button_label": "shop now",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_label": "shop signature",
+        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
         "overlay_link": true
       }
     },
@@ -43,7 +43,7 @@
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals"
+            "collection": "the-signature-collection-1"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -54,6 +54,7 @@
         },
         "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "monday-beachwear"
           }
@@ -70,12 +71,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/HOME-PAGE_2bde6a26-1ac6-442e-b043-fc0f6f54ffe3.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_2316d8fb-a8d6-4e1e-9997-1394305ae630.jpg",
+        "image": "shopify:\/\/shop_images\/zebra1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/zebra-mob.jpg",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
-        "link": "shopify:\/\/collections\/white-sand"
+        "link": "shopify:\/\/collections\/resort-23"
       }
     },
     "164081090579915a8a": {
@@ -125,7 +126,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lower_024c8534-b2f7-4611-baaa-cf97e71e4a23.jpg",
+            "image": "shopify:\/\/shop_images\/1_0a9e72d3-2830-4f1c-b9bc-e555d1726e4c.jpg",
             "text": "Classic & Timeless",
             "link_label": "Shop Signature Styles",
             "link": "shopify:\/\/collections\/the-signature-collection-1"
@@ -134,19 +135,19 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobile_ad651613-acbb-4b81-b8c1-52d307a61f5c.jpg",
-            "text": "Blue Dreams",
-            "link_label": "Shop Cobalt",
-            "link": "shopify:\/\/collections\/cobalt"
+            "image": "shopify:\/\/shop_images\/2_98a72334-53f8-4fe5-be98-de1524e70a88.jpg",
+            "text": "Monday Mommas",
+            "link_label": "For You & Your Bump",
+            "link": "shopify:\/\/collections\/monday-mommas"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_ee8c1b53-f217-4aad-a57e-27cfe2856241.jpg",
-            "text": "A Print for Everyone",
-            "link_label": "Shop Prints",
-            "link": "shopify:\/\/collections\/prints"
+            "image": "shopify:\/\/shop_images\/3_515c99a6-2990-41d4-8504-e3ae50f21f4f.jpg",
+            "text": "Keeping Covered",
+            "link_label": "Monday Beachwear",
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         }
       },
