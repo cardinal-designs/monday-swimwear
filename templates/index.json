@@ -9,7 +9,7 @@
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
-        "button_label": "shop signature",
+        "button_label": "start shopping",
         "button_link": "shopify:\/\/collections\/the-signature-collection-1",
         "overlay_link": true
       }
