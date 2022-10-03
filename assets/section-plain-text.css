@@ -48,6 +48,10 @@
   line-height: 100% !important;
 }
 
+.size-form__container .go3894874857:focus-within {
+  box-shadow: none !important;
+}
+
 .size-form__container input {
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   font-style: normal;
