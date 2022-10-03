@@ -10,16 +10,16 @@
         "text_3": "Size"
       }
     },
-    "166482931158410546": {
-      "type": "fit-guide-header",
+    "16648295087581102d": {
+      "type": "plain-text",
       "settings": {
-        "title": "",
-        "text": ""
+        "title": "Lorem Ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit neque, tristique at tempor vitae, ullamcorper condimentum dolor. Fusce ac arcu molestie, eleifend mauris id, fermentum massa. In mattis, nunc non efficitur sodales, magna nibh mattis lectus, nec vulputate odio tellus in massa. Praesent sed consequat leo. Nullam venenatis rhoncus dolor, sed euismod tortor scelerisque id. Fusce et nulla pulvinar, laoreet lectus sit amet, sodales tellus."
       }
     }
   },
   "order": [
     "1664829234575ffe2d",
-    "166482931158410546"
+    "16648295087581102d"
   ]
 }
