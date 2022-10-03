@@ -1,10 +1,10 @@
 .size-form__container {
   margin: 0 auto;
   max-width: 670px;
-  font-family: 'Neue Haas Unica Pro', sans-serif;
 }
 
-.size-form__label {
+.size-form__container label {
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-weight: 400;
   font-size: 11px;
   line-height: 100%;
