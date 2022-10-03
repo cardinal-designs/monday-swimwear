@@ -6,6 +6,9 @@
       <h2>{{ section.settings.title }}</h2>
       <p class="body-small">{{ section.settings.text }}</p>
     </div>
+    <div>
+      {{ section.settings.klaviyo }}
+    </div>
   </div>
 </div>
 
@@ -23,6 +26,11 @@
         "type": "textarea",
         "id": "text",
         "label": "Text"
+      },
+      {
+        "type": "textarea",
+        "id": "klaviyo",
+        "label": "Klaviyo Form (optional)"
       }
     ],
     "presets": [
@@ -32,3 +40,5 @@
     ]
   }
 {% endschema %}
+
+Customer Size Data
