@@ -3,7 +3,7 @@
   max-width: 670px;
 }
 
-.size-form__container > * {
+.size-form__container #downshift-1-menu div {
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
 }
 
