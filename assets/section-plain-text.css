@@ -39,8 +39,12 @@
 }
 
 .size-form__container .go3894874857 {
+  font-family: 'Neue Haas Unica Pro', sans-serif !important;
   padding: 18px 50px !important;
   margin: 20px auto !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 100% !important;
 }
 
 .size-form__container input {
