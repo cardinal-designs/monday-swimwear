@@ -35,6 +35,7 @@
   border-radius: 0 !important;
   border: none !important;
   border-bottom: 1px solid black !important;
+  padding-left: 0 !important;
 }
 
 .size-form__container input {
