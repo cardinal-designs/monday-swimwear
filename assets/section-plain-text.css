@@ -10,6 +10,14 @@
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
 }
 
+.size-form__container #downshift-1-menu, 
+.size-form__container #downshift-2-men,
+.size-form__container #downshift-3-menu,
+.size-form__container #downshift-4-menu {
+  border-radius: 0 !important;
+  border-top: none !important;
+}
+
 .size-form__container label {
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   font-weight: 400 !important;
