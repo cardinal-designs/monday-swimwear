@@ -4,9 +4,19 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1664829234575ffe2d": {
+      "type": "editorial-header",
+      "settings": {
+        "text_1": "",
+        "text_2": "",
+        "right_align": false,
+        "text_3": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1664829234575ffe2d"
   ]
 }
