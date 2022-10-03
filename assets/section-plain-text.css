@@ -5,6 +5,7 @@
 
 .size-form__container #downshift-1-menu div {
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
+  border-radius: 0 !important;
 }
 
 .size-form__container label {
