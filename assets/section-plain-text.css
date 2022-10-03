@@ -1,4 +1,15 @@
 .size-form__container {
   margin: 0 auto;
   max-width: 670px;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
+}
+
+.size-form__label {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.4;
 }
