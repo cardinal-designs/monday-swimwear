@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/core-essentials-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/core-essentials-mob.png",
+        "image": "shopify:\/\/shop_images\/IVORY-CROCHET-WEB.png",
+        "mobile_image": "shopify:\/\/shop_images\/IVORY-CROCHET-MOB.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
         "button_label": "start shopping",
-        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
     },
@@ -18,14 +18,14 @@
       "type": "hero",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Header_a0a178e1-20f0-4db7-9c4b-aeddbf4f09d2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_f9f8091c-7937-46cc-858a-316fe618f551.jpg",
+        "image": "shopify:\/\/shop_images\/IVORY-CROCHET-WEB.png",
+        "mobile_image": "shopify:\/\/shop_images\/IVORY-CROCHET-MOB.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
         "button_label": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/summer-sale-25-off",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": false
       }
     },
