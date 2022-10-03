@@ -1,10 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-      }
-    },
     "1664829234575ffe2d": {
       "type": "editorial-header",
       "settings": {
@@ -24,7 +19,6 @@
     }
   },
   "order": [
-    "main",
     "1664829234575ffe2d",
     "166482931158410546"
   ]
