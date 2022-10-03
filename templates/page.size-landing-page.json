@@ -8,15 +8,24 @@
     "1664829234575ffe2d": {
       "type": "editorial-header",
       "settings": {
-        "text_1": "",
-        "text_2": "",
+        "image": "shopify:\/\/shop_images\/Image_10.jpg",
+        "text_1": "My",
+        "text_2": "Monday",
         "right_align": false,
-        "text_3": ""
+        "text_3": "Size"
+      }
+    },
+    "166482931158410546": {
+      "type": "fit-guide-header",
+      "settings": {
+        "title": "",
+        "text": ""
       }
     }
   },
   "order": [
     "main",
-    "1664829234575ffe2d"
+    "1664829234575ffe2d",
+    "166482931158410546"
   ]
 }
