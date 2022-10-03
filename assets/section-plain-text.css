@@ -31,7 +31,8 @@
   opacity: 0.4;
 }
 
-.size-form__container button {
+.size-form__container button,
+.size-form__container #email_49154389 {
   border-radius: 0 !important;
   border: none !important;
   border-bottom: 1px solid black !important;
