@@ -233,7 +233,7 @@ const templates = [
           </div>
           {% endcomment %}
         </div>
-        <button type="submit" class="wk-product-form__submit" data-wk-add-to-cart="{{ product.wishlist_item_id }}" {% unless current_variant.available %}disabled{% endunless %}>
+        <button type="submit" class="product-form__submit button button--full button--primary" data-wk-add-to-cart="{{ product.wishlist_item_id }}" {% unless current_variant.available %}disabled{% endunless %}>
           {% if current_variant.available %}{{ locale.add_to_cart }}{% else %}{{ locale.sold_out }}{% endif %}
         </button>
       </form>
