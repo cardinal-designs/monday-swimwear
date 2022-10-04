@@ -138,7 +138,7 @@
   
   WishlistKing.observe(
     {
-      selector: "header a[href='{{ routes.cart_url }}']",
+      selector: ".header__icon.header__icon--cart",
     },
     (target) => {
       target.insertBefore(WishlistKing.createComponent("wishlist-link"));
