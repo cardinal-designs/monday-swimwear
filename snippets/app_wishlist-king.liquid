@@ -131,7 +131,7 @@
   });
 
   // Header link
-  /*
+  
   WishlistKing.observe(
     {
       selector: "header a[href='{{ routes.cart_url }}']",
@@ -140,10 +140,10 @@
       target.insertBefore(WishlistKing.createComponent("wishlist-link"));
     }
   );
-  */
+  
 
   // Wishlist button on product page
-  /*
+  
   WishlistKing.observe(
     {
       selector: "form[action='{{ routes.cart_add_url }}']",
@@ -157,27 +157,27 @@
       );
     }
   );
-  */
+  
 
   // Wishlist button on collection page
-  /*
+  
   WishlistKing.observe(
     {
-      selector: "[data-product-id]",
+      selector: "product-card[data-product-id]",
       template: "collection",
     },
     (target) => {
-      target.append(
+      target.find('.product-card__inner').append(
         WishlistKing.createComponent("wishlist-button-floating", {
           id: target.container.getAttribute("data-product-id"),
         })
       );
     }
   );
-  */
+  
 
   // Wishlist page
-  /*
+  
   WishlistKing.observe(
     {
       selector: "main .rte",
@@ -198,5 +198,5 @@
       target.insertAfter(WishlistKing.createComponent("wishlist-page-shared"));
     }
   );
-  */
+  
 </script>
