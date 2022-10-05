@@ -94,7 +94,7 @@ class CartDrawer extends HTMLElement {
     document.body.addEventListener('click', this.onBodyClick);
 
     this.body.classList.add('scroll-lock');
-  }
+
 
   close() {
     this.drawer.setAttribute('aria-hidden', true);
