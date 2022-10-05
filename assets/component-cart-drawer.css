@@ -597,6 +597,10 @@
   cursor: pointer;
 }
 
+.checkoutCheckbox {
+  filter: grayscale(100%);
+}
+
 .cart-checkout-button.inactive {
   pointer-events: none;
   opacity: 0.6;
