@@ -1185,3 +1185,14 @@ focusMethod = function getFocus() {
 }
 
 
+const checkbox = document.getElementById('checkoutCheckbox')
+
+checkbox.addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+    alert('checked');
+  } else {
+    alert('not checked');
+  }
+})
+
+
