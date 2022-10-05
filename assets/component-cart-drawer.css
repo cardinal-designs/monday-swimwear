@@ -599,6 +599,7 @@
 
 .checkoutCheckbox {
   filter: grayscale(100%);
+  margin-bottom: 10px;
 }
 
 .cart-checkout-button.inactive {
