@@ -62,10 +62,10 @@
                 </div>
               </div>
               <div class="check_xs">
-                <input id="check_xs_input" class="check_xs_input" type="checkbox" name="check_xs" value="true">
-                <label for="check_xs_input">I agree to terms & conditions.</label>
+                <input id="checkoutCheckbox" class="checkoutCheckbox" type="checkbox" name="check_xs" value="true">
+                <label for="checkoutCheckbox">I agree to terms & conditions.</label>
               </div>
-              <a href="/checkout" class="button button--full" name="checkout" form="cart">{{ 'sections.cart.checkout' | t }}</a>
+              <a href="/checkout" class="cart-checkout-button button button--full" name="checkout" form="cart">{{ 'sections.cart.checkout' | t }}</a>
               <h6 class="cart-drawer__taxes body-small">{{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}</h6>
             </div>
           {%- endif -%}
