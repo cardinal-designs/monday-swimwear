@@ -40,6 +40,10 @@
                   {%- endif -%}
                 </div>
               </div>
+                <div class="check_xs">
+                  <input id="cartCheckbox" class="cartCheckbox" type="checkbox" name="check_xs" value="true">
+                  <label for="cartCheckbox">I agree to terms & conditions.</label>
+                </div>
             {%- else -%}
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
@@ -47,10 +51,6 @@
                     {{ 'sections.cart.update' | t }}
                   </button>
                 </noscript>
-                <div class="check_xs">
-                  <input id="cartCheckbox" class="cartCheckbox" type="checkbox" name="check_xs" value="true">
-                  <label for="cartCheckbox">I agree to terms & conditions.</label>
-                </div>
                 <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout" disabled form="cart">
                   {{ 'sections.cart.checkout' | t }}
                 </button>
