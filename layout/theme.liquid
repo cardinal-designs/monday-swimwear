@@ -47,7 +47,8 @@
       /* Sunset Gothic - Medium */
       @font-face {
         font-family: 'Sunset Gothic';
-        src: url('{{ "Sunset-Gothic-Medium-Pro.woff2" | asset_url }}') format('otf');
+        src: url('{{ "Sunset-Gothic-Medium-Pro.woff2" | asset_url }}') format('woff2'),
+             url('{{ "Sunset-Gothic-Medium-Pro.woff" | asset_url }}') format('woff');
         font-style: normal;
         font-weight: 600;
       }
