@@ -1186,7 +1186,7 @@ focusMethod = function getFocus() {
 
 
 const checkbox = document.getElementById('checkoutCheckbox')
-
+const cartCheckbox = document.getElementById('cartCheckbox')
 checkbox.addEventListener('change', (event) => {
   var checkoutButton = document.getElementById("cart-checkout-button");
   
@@ -1197,4 +1197,13 @@ checkbox.addEventListener('change', (event) => {
   }
 })
 
+cartCheckbox.addEventListener('change', (event) => {
+  var cartButton = document.getElementById("checkout");
+  
+  if (event.currentTarget.checked) {
+    cartButton.disabled = false;
+  } else {
+    cartButton.disabled = true;
+  }
+})
 
