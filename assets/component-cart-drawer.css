@@ -596,3 +596,7 @@
   background: #F6ECE1;
   cursor: pointer;
 }
+
+.cart-checkout-button {
+  pointer-events: none;
+}
