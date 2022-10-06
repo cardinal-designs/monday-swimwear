@@ -633,7 +633,7 @@
   padding: 2px;
   margin-right: 7px;
   text-align: center;
-  margin-top: -4px;
+  margin-top: -2px;
 }
 
 .check_xs input:checked + label:before {
