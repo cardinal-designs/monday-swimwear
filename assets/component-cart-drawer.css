@@ -646,7 +646,7 @@
   position: absolute;
   width: 1px;
   height: 5px;
-  border: solid #40484c;
+  border: solid #fff;
   border-width: 0 3px 3px 0px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
