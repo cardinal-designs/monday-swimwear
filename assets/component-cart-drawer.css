@@ -604,7 +604,6 @@
 
 .cart-checkout-button.inactive {
   pointer-events: none;
-  cursor: not-allowed;
   opacity: 0.4;
 }
 
