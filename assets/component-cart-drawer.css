@@ -613,6 +613,7 @@
 
 .check_xs {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .check_xs label { 
@@ -650,7 +651,7 @@
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  top: 2px;
+  top: 5px;
   left: 5px;
 }
 
