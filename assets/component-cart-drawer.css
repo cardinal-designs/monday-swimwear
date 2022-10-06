@@ -597,8 +597,12 @@
   cursor: pointer;
 }
 
+
+
+
+
+
 .checkoutCheckbox {
-  filter: grayscale(100%);
   margin-bottom: 10px;
 }
 
@@ -606,3 +610,43 @@
   pointer-events: none;
   opacity: 0.6;
 }
+
+.check_xs label { 
+
+}
+ 
+.check_xs input {
+  display: none;
+}
+
+.check_xs input + label:before {
+  content: '';
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #40484c;
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  margin-right: 7px;
+  text-align: center;
+  margin-top: -4px;
+}
+
+.check_xs input:checked + label:after {
+  content: "";
+  padding: 4px 2px;
+  text-align: center;
+  position: absolute;
+  width: 1px;
+  height: 5px;
+  border: solid #40484c;
+  border-width: 0 3px 3px 0px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  top: 6px;
+  left: 4px;
+}
+
