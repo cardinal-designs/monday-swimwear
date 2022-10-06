@@ -597,14 +597,14 @@
   cursor: pointer;
 }
 
-
-
-
-
+/* T&C Checkbox */
+.cart-checkout-button {
+  margin-top: 10px;
+}
 
 .cart-checkout-button.inactive {
   pointer-events: none;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .check_xs {
