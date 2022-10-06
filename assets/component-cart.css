@@ -337,7 +337,3 @@ cart-items {
     bottom: 5px;
   }
 }
-
-.cartCheckbox {
-  filter: grayscale(100%);
-}
