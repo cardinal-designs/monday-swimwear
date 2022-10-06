@@ -635,6 +635,10 @@
   margin-top: -4px;
 }
 
+.check_xs input:checked + label:before {
+  background: #000;
+}
+
 .check_xs input:checked + label:after {
   content: "";
   padding: 4px 2px;
