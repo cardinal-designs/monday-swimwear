@@ -602,10 +602,6 @@
 
 
 
-.checkoutCheckbox {
-  margin-bottom: 10px;
-}
-
 .cart-checkout-button.inactive {
   pointer-events: none;
   opacity: 0.6;
