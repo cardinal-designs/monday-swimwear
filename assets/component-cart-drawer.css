@@ -611,6 +611,10 @@
   opacity: 0.6;
 }
 
+.check_xs {
+  position: relative;
+}
+
 .check_xs label { 
   font-family: 'Neue Haas Unica Pro', sans-serif;
 }
