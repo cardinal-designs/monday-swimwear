@@ -165,16 +165,18 @@
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
-      checkout.checkForConsentNeeded();
+      setTimeout(function() {
+        checkout.checkForConsentNeeded();
+      },1000)
       checkout.onConsentChange();
       checkout.checkContinueStatus();
 
       const observedEl = document.querySelector(".main__content");
       const observer = new MutationObserver(mutationRecords => {
         if(!document.querySelector(".consent-wrapper")){
-          setTimeout(function() {
+         
             checkout.checkForConsentNeeded();
-          },1000)
+          
           checkout.onConsentChange();
         }
         checkout.checkContinueStatus();
