@@ -3,13 +3,13 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/IVORY-CROCHET-WEB.png",
-        "mobile_image": "shopify:\/\/shop_images\/IVORY-CROCHET-MOB.png",
+        "image": "shopify:\/\/shop_images\/website-shadedoak-2.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob-verze.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
-        "button_label": "start shopping",
+        "button_label": "shop now",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
@@ -40,10 +40,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "944498a4-3695-48f6-9a89-0208d09aab7b": {
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "eco-friendly-fabrics"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -52,18 +52,17 @@
             "collection": "beachwear-accessories"
           }
         },
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f": {
+        "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": "monday-beachwear"
+            "collection": "the-signature-collection-1"
           }
         }
       },
       "block_order": [
-        "944498a4-3695-48f6-9a89-0208d09aab7b",
+        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
-        "d2afee54-b61f-4a31-9d4b-d9fa58443b4f"
+        "944498a4-3695-48f6-9a89-0208d09aab7b"
       ],
       "settings": {
       }

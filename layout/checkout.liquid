@@ -6,7 +6,9 @@
 
     <title>{{ page_title }}</title>
 
-    </head><body>{{ content_for_header }}
+    </head>
+  <body>
+    {{ content_for_header }}
 
     {{ checkout_stylesheets }}
     {{ checkout_scripts }}
@@ -53,7 +55,6 @@
     </style>
     
     {{ 'swell-rewards.css' | asset_url | stylesheet_tag }}
-  
   
     {{ skip_to_content_link }}
 
@@ -105,11 +106,10 @@
     <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript"></script> 
     <!-- /PASSPORT BREAKOUT SCRIPT -->
     
-    
     {{ 'swell-rewards.js' | asset_url | script_tag }}
 
-  
-
-
-{% include 'swell-checkout' %}
-{% include 'swell-post-checkout' %}</body></html>
+    {% include 'checkout-scripts' %}
+    {% include 'swell-checkout' %}
+    {% include 'swell-post-checkout' %}
+  </body>
+</html>
