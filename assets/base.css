@@ -2406,7 +2406,7 @@ header-drawer {
 }
 
 /*================ Wishlist App ================*/
-.wk-icon__svg {
+#shopify-section-header:not(.scrolled) .wk-icon__svg {
   stroke: white !important;
   transition: color .3s ease;
   -webkit-transition: color .3s ease;
