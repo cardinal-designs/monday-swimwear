@@ -6,6 +6,10 @@
   .consent-wrapper {
     margin-top: 10px;
   }
+
+  .consent-wrapper:nth-child(2) {
+    display: none;
+  }
   
   .consent-wrapper a {
     text-transform: capitalize;
@@ -14,6 +18,7 @@
     font-family: inherit;
     color: inherit;
   }
+
 
   label[for='consent-checkbox'] {
     padding-left: 0.75em;
@@ -33,7 +38,6 @@
       const stepSection = document.getElementsByClassName(selectors.stepSections);
       const firstStep = document.getElementsByTagName('form')[0].dataset.customerInformationForm;
       let checkbox = createCheckboxMarkup();
-      console.log(stepSection)
         stepSection[0].appendChild(checkbox);
         if(localStorage.getItem("consentStatus") ){
           document.getElementById('consent-checkbox').checked = true
@@ -161,25 +165,27 @@
     }
   }
 
-  if(!Shopify.Checkout.OrderStatus) {
+  if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
     document.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
-      checkout.checkForConsentNeeded();
-      checkout.onConsentChange();
-      checkout.checkContinueStatus();
-
+      setTimeout(function() {
+        checkout.checkForConsentNeeded();
+        checkout.onConsentChange();
+        checkout.checkContinueStatus();
+     
       const observedEl = document.querySelector(".main__content");
       const observer = new MutationObserver(mutationRecords => {
         if(!document.querySelector(".consent-wrapper")){
-          checkout.checkForConsentNeeded();
+          // checkout.checkForConsentNeeded();
           checkout.onConsentChange();
-        }
+         }
         checkout.checkContinueStatus();
       })
 
       observer.observe(observedEl, {subtree: true, childList: true});
+    }, 3000)
     });
   } else if (Shopify.Checkout.OrderStatus) {
     document.addEventListener("DOMContentLoaded", function(event) {
@@ -187,4 +193,5 @@
       let checkout = Shopify.checkoutScripts;
     });
   }
+
 </script>
