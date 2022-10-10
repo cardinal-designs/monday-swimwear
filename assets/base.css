@@ -2411,10 +2411,10 @@ header-drawer {
   -webkit-transition: color .3s ease;  
 }
 
-#shopify-section-header:not(.scrolled) .wk-icon__svg {
+.template-index #shopify-section-header:not(.scrolled) .wk-icon__svg {
   stroke: white !important;
 }
 
-#shopify-section-header:hover .wk-icon__svg {
+.template-index #shopify-section-header:hover .wk-icon__svg {
   stroke: black !important;
 }
