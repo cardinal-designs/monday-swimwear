@@ -161,7 +161,7 @@
   }
 
   if(!Shopify.Checkout.OrderStatus) {
-const stepSection = document.getElementsByClassName(selectors.stepSections);
+    const stepSection = document.querySelector("[data-last-step='true'] .section--billing-address")
     stepSection.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
