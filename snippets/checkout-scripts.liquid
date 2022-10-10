@@ -161,7 +161,7 @@
   }
 
  console.log('aaa', Shopify.Checkout)
-  if(!Shopify.Checkout.OrderStatus) {
+  if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
     document.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
