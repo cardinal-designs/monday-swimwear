@@ -162,8 +162,7 @@
   }
 
   if(!Shopify.Checkout.OrderStatus) {
-    console.log(1)
-    document.addEventListener("DOMContentLoaded", function(event) {
+    document.addEventListener("load", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
@@ -183,7 +182,6 @@
       observer.observe(observedEl, {subtree: true, childList: true});
     });
   } else if (Shopify.Checkout.OrderStatus) {
-    console.log(2);
     document.addEventListener("DOMContentLoaded", function(event) {
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
