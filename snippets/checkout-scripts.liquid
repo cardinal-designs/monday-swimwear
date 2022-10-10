@@ -165,7 +165,7 @@
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
-     
+      checkout.checkForConsentNeeded();
       checkout.onConsentChange();
       checkout.checkContinueStatus();
 
