@@ -596,3 +596,62 @@
   background: #F6ECE1;
   cursor: pointer;
 }
+
+/* T&C Checkbox */
+.cart-checkout-button {
+  margin-top: 10px;
+}
+
+.cart-checkout-button.inactive {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.check_xs {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.check_xs label { 
+  font-family: 'Neue Haas Unica Pro', sans-serif;
+}
+ 
+.check_xs input {
+  display: none;
+}
+
+.check_xs input + label:before {
+  content: '';
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #40484c;
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  margin-right: 7px;
+  text-align: center;
+  margin-top: -2px;
+}
+
+.check_xs input:checked + label:before {
+  background: #000;
+}
+
+.check_xs input:checked + label:after {
+  content: "";
+  padding: 4px 2px;
+  text-align: center;
+  position: absolute;
+  width: 1px;
+  height: 5px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  top: 5px;
+  left: 5px;
+}
+

@@ -1184,4 +1184,29 @@ focusMethod = function getFocus() {
   document.getElementsByClassName("header__search-input").focus();
 }
 
+if (!!document.getElementById('checkoutCheckbox')) {
+  const checkbox = document.getElementById('checkoutCheckbox')
+  checkbox.addEventListener('change', (event) => {
+    var checkoutButton = document.getElementById("cart-checkout-button");
+    
+    if (event.currentTarget.checked) {
+      checkoutButton.classList.remove("inactive");
+    } else {
+      checkoutButton.classList.add("inactive");
+    }
+  })
+}
+
+if (!!document.getElementById('cartCheckbox')) {
+  const cartCheckbox = document.getElementById('cartCheckbox')
+  cartCheckbox.addEventListener('change', (event) => {
+    var cartButton = document.getElementById("checkout");
+    console.log('ww')
+    if (event.currentTarget.checked) {
+      cartButton.disabled = false;
+    } else {
+      cartButton.disabled = true;
+    }
+  })
+}
 

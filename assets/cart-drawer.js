@@ -94,6 +94,19 @@ class CartDrawer extends HTMLElement {
     document.body.addEventListener('click', this.onBodyClick);
 
     this.body.classList.add('scroll-lock');
+
+    if (!!document.getElementById('checkoutCheckbox')) {
+      const checkbox = document.getElementById('checkoutCheckbox')
+      checkbox.addEventListener('change', (event) => {
+        var checkoutButton = document.getElementById("cart-checkout-button");
+        
+        if (event.currentTarget.checked) {
+          checkoutButton.classList.remove("inactive");
+        } else {
+          checkoutButton.classList.add("inactive");
+        }
+      })
+    }
   }
 
   close() {

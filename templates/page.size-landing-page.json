@@ -1,12 +1,26 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "1664829234575ffe2d": {
+      "type": "editorial-header",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Image_10.jpg",
+        "text_1": "My",
+        "text_2": "Monday",
+        "right_align": false,
+        "text_3": "Size"
+      }
+    },
+    "16648295087581102d": {
+      "type": "plain-text",
+      "settings": {
+        "title": "Lorem Ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit neque, tristique at tempor vitae, ullamcorper condimentum dolor. Fusce ac arcu molestie, eleifend mauris id, fermentum massa. In mattis, nunc non efficitur sodales, magna nibh mattis lectus, nec vulputate odio tellus in massa. Praesent sed consequat leo. Nullam venenatis rhoncus dolor, sed euismod tortor scelerisque id. Fusce et nulla pulvinar, laoreet lectus sit amet, sodales tellus.",
+        "klaviyo": "<div class=\"klaviyo-form-UZnbi4\"><\/div>"
       }
     }
   },
   "order": [
-    "main"
+    "1664829234575ffe2d",
+    "16648295087581102d"
   ]
 }
