@@ -30,7 +30,6 @@
     }
 
     const checkForConsentNeeded  = () => {
-      setTimeout(function() {
       const stepSection = document.getElementsByClassName(selectors.stepSections);
       const firstStep = document.getElementsByTagName('form')[0].dataset.customerInformationForm;
       let checkbox = createCheckboxMarkup();
@@ -42,7 +41,6 @@
         }
 
       checkContinueStatus();
-        }, 1000)
     }
 
     const checkContinueStatus = () => {
