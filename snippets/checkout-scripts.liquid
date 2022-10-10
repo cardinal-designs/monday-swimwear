@@ -160,6 +160,7 @@
     }
   }
 
+  console.log('f',Shopify.Checkout)
   if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
     document.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
