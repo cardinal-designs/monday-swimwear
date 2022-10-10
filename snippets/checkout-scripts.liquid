@@ -161,9 +161,7 @@
   }
 
   if(!Shopify.Checkout.OrderStatus) {
-    const stepSection = document.querySelector(".section--billing-address")
-    console.log(stepSection)
-    stepSection.addEventListener("load", function(event) {
+    stepSection.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
