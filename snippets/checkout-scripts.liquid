@@ -30,7 +30,7 @@
     }
 
     const checkForConsentNeeded  = () => {
-      document.addEventListener("DOMContentLoaded", function(event) {
+      document.addEventListener("load", function(event) {
       const stepSection = document.getElementsByClassName(selectors.stepSections);
       const firstStep = document.getElementsByTagName('form')[0].dataset.customerInformationForm;
       let checkbox = createCheckboxMarkup();
