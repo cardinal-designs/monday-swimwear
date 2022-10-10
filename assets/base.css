@@ -2406,8 +2406,15 @@ header-drawer {
 }
 
 /*================ Wishlist App ================*/
+.wk-icon__svg {
+  transition: color .3s ease;
+  -webkit-transition: color .3s ease;  
+}
+
 #shopify-section-header:not(.scrolled) .wk-icon__svg {
   stroke: white !important;
-  transition: color .3s ease;
-  -webkit-transition: color .3s ease;
+}
+
+#shopify-section-header:hover .wk-icon__svg {
+  stroke: white !important;
 }
