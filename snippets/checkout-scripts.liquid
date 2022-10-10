@@ -173,10 +173,10 @@
 
       const observedEl = document.querySelector(".main__content");
       const observer = new MutationObserver(mutationRecords => {
-        // if(!document.querySelector(".consent-wrapper")){
+        if(!document.querySelector(".consent-wrapper")){
         //   checkout.checkForConsentNeeded();
-        //   checkout.onConsentChange();
-        // }
+          checkout.onConsentChange();
+         }
         checkout.checkContinueStatus();
       })
 
