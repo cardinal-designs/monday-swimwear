@@ -160,17 +160,14 @@
     }
   }
 
-  console.log('f',Shopify.Checkout)
   if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
     document.addEventListener("DOMContentLoaded", function(event) {
-      setTimeout(function() {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
       checkout.checkForConsentNeeded();
       checkout.onConsentChange();
       checkout.checkContinueStatus();
-   }, 2000)
       const observedEl = document.querySelector(".main__content");
       const observer = new MutationObserver(mutationRecords => {
         if(!document.querySelector(".consent-wrapper")){
