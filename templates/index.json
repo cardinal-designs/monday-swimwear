@@ -123,13 +123,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_0a9e72d3-2830-4f1c-b9bc-e555d1726e4c.jpg",
-            "text": "Classic & Timeless",
-            "link_label": "Shop Signature Styles",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "image": "shopify:\/\/shop_images\/3_8ef3b3ef-5c2e-44c6-80bf-4d40eadd5f90.jpg",
+            "text": "Keeping Covered",
+            "link_label": "Monday Beachwear",
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -141,20 +141,20 @@
             "link": "shopify:\/\/collections\/monday-mommas"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_515c99a6-2990-41d4-8504-e3ae50f21f4f.jpg",
-            "text": "Keeping Covered",
-            "link_label": "Monday Beachwear",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "image": "shopify:\/\/shop_images\/1_0a9e72d3-2830-4f1c-b9bc-e555d1726e4c.jpg",
+            "text": "Classic & Timeless",
+            "link_label": "Shop Signature Styles",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
