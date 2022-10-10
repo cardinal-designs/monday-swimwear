@@ -2407,5 +2407,7 @@ header-drawer {
 
 /*================ Wishlist App ================*/
 .wk-icon__svg {
-  stroke: white;
+  stroke: white !important;
+  transition: color .3s ease;
+  -webkit-transition: color .3s ease;
 }
