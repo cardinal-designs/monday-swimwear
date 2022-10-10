@@ -2394,6 +2394,7 @@ header-drawer {
     width: 100%;
   }
 }
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -2402,4 +2403,9 @@ header-drawer {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+/*================ Wishlist App ================*/
+.wk-icon__svg {
+  stroke: white;
 }
