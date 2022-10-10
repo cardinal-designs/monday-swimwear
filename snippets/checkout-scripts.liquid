@@ -1,4 +1,4 @@
-<style>
+00<style>
   button.disabled, button[disabled='true'] {
     opacity: .5;
   }
@@ -162,6 +162,7 @@
 
  console.log('aaa', Shopify.Checkout)
   if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
+    setTimeout(function() {},1
     document.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
