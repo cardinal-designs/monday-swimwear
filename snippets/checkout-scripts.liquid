@@ -163,6 +163,7 @@
   console.log('f',Shopify.Checkout)
   if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
     document.addEventListener("DOMContentLoaded", function(event) {
+      setTimeout(function() {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
@@ -180,6 +181,7 @@
       })
 
       observer.observe(observedEl, {subtree: true, childList: true});
+      }, 2000)
     });
   } else if (Shopify.Checkout.OrderStatus) {
     document.addEventListener("DOMContentLoaded", function(event) {
