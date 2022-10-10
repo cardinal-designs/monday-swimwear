@@ -1197,16 +1197,4 @@ if (!!document.getElementById('checkoutCheckbox')) {
   })
 }
 
-if (!!document.getElementById('cartCheckbox')) {
-  const cartCheckbox = document.getElementById('cartCheckbox')
-  cartCheckbox.addEventListener('change', (event) => {
-    var cartButton = document.getElementById("checkout");
-    console.log('ww')
-    if (event.currentTarget.checked) {
-      cartButton.disabled = false;
-    } else {
-      cartButton.disabled = true;
-    }
-  })
-}
 
