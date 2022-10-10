@@ -33,11 +33,7 @@
       const stepSection = document.getElementsByClassName(selectors.stepSections);
       const firstStep = document.getElementsByTagName('form')[0].dataset.customerInformationForm;
       let checkbox = createCheckboxMarkup();
-      let alreadyCreated = false;
-      if (!alreadyCreated) {
         stepSection[0].appendChild(checkbox);
-        alreadyCreated = true
-      }
         if(localStorage.getItem("consentStatus") ){
           document.getElementById('consent-checkbox').checked = true
         } else {
