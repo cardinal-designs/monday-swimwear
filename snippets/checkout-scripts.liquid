@@ -1,4 +1,4 @@
-00<style>
+<style>
   button.disabled, button[disabled='true'] {
     opacity: .5;
   }
@@ -162,7 +162,7 @@
 
  console.log('aaa', Shopify.Checkout)
   if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
-    setTimeout(function() {},1
+    setTimeout(function() {
     document.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
@@ -182,6 +182,7 @@
 
       observer.observe(observedEl, {subtree: true, childList: true});
     });
+      },1000)
   } else if (Shopify.Checkout.OrderStatus) {
     document.addEventListener("DOMContentLoaded", function(event) {
       Shopify.checkoutScripts = CheckoutScripts();
