@@ -9,7 +9,7 @@
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
-        "button_label": "start shopping",
+        "button_label": "shop now",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
