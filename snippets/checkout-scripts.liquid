@@ -161,7 +161,8 @@
   }
 
   if(!Shopify.Checkout.OrderStatus) {
-    document.addEventListener("DOMContentLoaded", function(event) {
+
+    stepSection.addEventListener("DOMContentLoaded", function(event) {
       Shopify = window.Shopify || {};
       Shopify.checkoutScripts = CheckoutScripts();
       let checkout = Shopify.checkoutScripts;
