@@ -2416,5 +2416,5 @@ header-drawer {
 }
 
 #shopify-section-header:hover .wk-icon__svg {
-  stroke: white !important;
+  stroke: black !important;
 }
