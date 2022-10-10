@@ -170,7 +170,7 @@
       checkout.checkForConsentNeeded();
       checkout.onConsentChange();
       checkout.checkContinueStatus();
-
+   }, 2000)
       const observedEl = document.querySelector(".main__content");
       const observer = new MutationObserver(mutationRecords => {
         if(!document.querySelector(".consent-wrapper")){
@@ -181,7 +181,7 @@
       })
 
       observer.observe(observedEl, {subtree: true, childList: true});
-      }, 2000)
+   
     });
   } else if (Shopify.Checkout.OrderStatus) {
     document.addEventListener("DOMContentLoaded", function(event) {
