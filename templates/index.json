@@ -71,7 +71,7 @@
       "type": "editorial-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/zebra1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/zebra-mob.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/zebra-collection.png",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
