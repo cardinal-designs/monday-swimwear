@@ -2418,3 +2418,17 @@ header-drawer {
 .template-index #shopify-section-header:hover .wk-icon__svg {
   stroke: black !important;
 }
+
+/*================ Klaviyo Form ================*/
+.kl-private-reset-css-Xuajs1 input {
+  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 2 !important;
+  letter-spacing: .02em !important;
+}
+
+
+
+
