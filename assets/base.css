@@ -2420,7 +2420,8 @@ header-drawer {
 }
 
 /*================ Klaviyo Form ================*/
-.kl-private-reset-css-Xuajs1 input {
+.kl-private-reset-css-Xuajs1 input,
+.kl-private-reset-css-Xuajs1 input:not([type]) {
   font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
