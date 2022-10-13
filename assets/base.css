@@ -2430,6 +2430,12 @@ header-drawer {
   letter-spacing: .02em !important;
 }
 
+.kl-private-reset-css-Xuajs1 input[type=email] {
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
 
 
 
