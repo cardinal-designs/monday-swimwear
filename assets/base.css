@@ -2450,6 +2450,15 @@ header-drawer {
   -webkit-transition: border .35s ease-in-out, color .35s ease-in-out, background .35s ease-in-out;
 }
 
+.page-my-monday-size .kl-private-reset-css-Xuajs1 {
+  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 2 !important;
+  letter-spacing: .02em !important;
+}
+
 @media screen and (min-width: 769px) {
   .page-my-monday-size .kl-private-reset-css-Xuajs1 button:not(#downshift-0-toggle-button,#downshift-1-toggle-button,#downshift-2-toggle-button,#downshift-3-toggle-button):hover {
     background: transparent !important;
