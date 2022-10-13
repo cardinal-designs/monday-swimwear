@@ -2420,8 +2420,8 @@ header-drawer {
 }
 
 /*================ Klaviyo Form ================*/
-.kl-private-reset-css-Xuajs1 input,
-.kl-private-reset-css-Xuajs1 input:not([type]) {
+.page-my-monday-size .kl-private-reset-css-Xuajs1 input,
+.page-my-monday-size .kl-private-reset-css-Xuajs1 input:not([type]) {
   font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
@@ -2430,11 +2430,36 @@ header-drawer {
   letter-spacing: .02em !important;
 }
 
-.kl-private-reset-css-Xuajs1 input[type=email] {
+.page-my-monday-size .kl-private-reset-css-Xuajs1 input[type=email] {
   border-top: 0 !important;
   border-right: 0 !important;
   border-left: 0 !important;
   padding-left: 0 !important;
+}
+
+.page-my-monday-size .kl-private-reset-css-Xuajs1 button {
+  padding: 16px 50px 20px;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: border .35s ease-in-out, color .35s ease-in-out, background .35s ease-in-out;
+  -webkit-transition: border .35s ease-in-out, color .35s ease-in-out, background .35s ease-in-out;
+}
+
+@media screen and (min-width: 769px) {
+  .page-my-monday-size .kl-private-reset-css-Xuajs1 button:hover {
+    background: transparent;
+    border-color: black;
+    color: black;
+  }
 }
 
 
