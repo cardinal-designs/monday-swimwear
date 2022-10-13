@@ -2437,7 +2437,7 @@ header-drawer {
   padding-left: 0 !important;
 }
 
-.page-my-monday-size .kl-private-reset-css-Xuajs1 button:not(#downshift-3-toggle-button) {
+.page-my-monday-size .kl-private-reset-css-Xuajs1 button:not(#downshift-3-toggle-button,#downshift-2-toggle-button,#downshift-1-toggle-button) {
   padding: 16px 50px 20px !important;
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   font-style: normal !important;
