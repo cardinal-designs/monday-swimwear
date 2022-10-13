@@ -2431,10 +2431,25 @@ header-drawer {
 }
 
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input[type=email] {
+  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 2 !important;
+  letter-spacing: .02em !important;
   border-top: 0 !important;
   border-right: 0 !important;
   border-left: 0 !important;
   padding-left: 0 !important;
+}
+
+.page-my-monday-size .kl-private-reset-css-Xuajs1 input[type=email]::placeholder {
+  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 2 !important;
+  letter-spacing: .02em !important;
 }
 
 .page-my-monday-size .kl-private-reset-css-Xuajs1 button:not(#downshift-0-toggle-button,#downshift-1-toggle-button,#downshift-2-toggle-button,#downshift-3-toggle-button) {
@@ -2450,7 +2465,7 @@ header-drawer {
   -webkit-transition: border .35s ease-in-out, color .35s ease-in-out, background .35s ease-in-out;
 }
 
-.page-my-monday-size .kl-private-reset-css-Xuajs1 {
+.page-my-monday-size .kl-private-reset-css-Xuajs1 p {
   font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
