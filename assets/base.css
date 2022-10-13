@@ -2437,7 +2437,7 @@ header-drawer {
   padding-left: 0 !important;
 }
 
-.page-my-monday-size .kl-private-reset-css-Xuajs1 button {
+.page-my-monday-size .kl-private-reset-css-Xuajs1 button:not(#downshift-3-toggle-button) {
   padding: 16px 50px 20px !important;
   font-family: 'Neue Haas Unica Pro', sans-serif !important;
   font-style: normal !important;
@@ -2452,9 +2452,9 @@ header-drawer {
 }
 
 @media screen and (min-width: 769px) {
-  .page-my-monday-size .kl-private-reset-css-Xuajs1 button:hover {
+  .page-my-monday-size .kl-private-reset-css-Xuajs1 button:not(#downshift-3-toggle-button):hover {
     background: transparent !important;
-    border-color: black !important;
+    border: 1px solid black !important;
     color: black !important;
   }
 }
