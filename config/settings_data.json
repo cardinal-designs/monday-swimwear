@@ -789,6 +789,26 @@
               "shop_link": "shopify:\/\/collections\/shop-by-style-maui-bottom"
             }
           },
+          "678c6af8-5cf8-4bcf-a201-85fb07a13af2": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Morocco_Bottom_-_Black.png",
+              "lifestyle_image": "shopify:\/\/shop_images\/Morocco-Set---Black-5_0abac4af-da76-4fc3-86de-16e4f205b1f6.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Morocco-Set---Black-4_11c6111c-2e96-446d-a757-96b3540e384d.jpg",
+              "title": "The Morocco Bottom",
+              "short_title": "Morocco Bottom",
+              "short_description": "",
+              "description": "The Morocco Bottom is perfect for the girl who wants minimal coverage with a little extra! Featuring a high cut leg and high waisted fit, this bottom features gold ring details with a soft strap side for the perfect tan.",
+              "highlights": "Gold ring detail, high-cut leg, high waisted, minimal bottom coverage",
+              "fit": "Available in sizes P-VV",
+              "padding": "",
+              "coverage": "High Waisted \/ High Leg \/ Minimal",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/morocco-bottom"
+            }
+          },
           "1cb8461a-0a93-4b6a-9848-27e48cde44dc": {
             "type": "bottom",
             "settings": {
@@ -965,6 +985,7 @@
           "862fd382-ca17-44b4-afd6-18c003ac9af5",
           "ce3ec260-5b8d-44f6-9440-299bfda6b5ac",
           "b3e14f3e-c578-4023-a1ec-1846ea20cf6c",
+          "678c6af8-5cf8-4bcf-a201-85fb07a13af2",
           "1cb8461a-0a93-4b6a-9848-27e48cde44dc",
           "73620f54-1142-497e-ae12-f04d2849b86d",
           "1438764c-b56e-47b5-8cdb-8801d2f10876",
