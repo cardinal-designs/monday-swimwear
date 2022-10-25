@@ -144,10 +144,10 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_0a9e72d3-2830-4f1c-b9bc-e555d1726e4c.jpg",
-            "text": "Classic & Timeless",
-            "link_label": "Shop Signature Styles",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "image": "shopify:\/\/shop_images\/C2_596bdfde-f01b-4a99-b762-ffba521ce018.jpg",
+            "text": "Holiday Dreaming",
+            "link_label": "Shop Tash’s Hamilton Island Looks",
+            "link": "shopify:\/\/collections\/shop-tashs-looks"
           }
         }
       },
