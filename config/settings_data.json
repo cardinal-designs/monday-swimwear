@@ -1168,6 +1168,26 @@
               "shop_link": "shopify:\/\/collections\/shop-by-style-cala-roja-top"
             }
           },
+          "d1c672a2-babe-488c-a19c-e37f4938b0d5": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CapriTop-Black.png",
+              "lifestyle_image": "shopify:\/\/shop_images\/Capri-Top---Black-5.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Capri-Top---Black-2.jpg",
+              "title": "The Capri Top",
+              "short_title": "Capri Top",
+              "short_description": "Sleek,Chic,Lift",
+              "description": "Thoughtfully designed in a new sleek fit, this Capi Top features an enhanced underwire to shape, lift and support your cup. Complete with adjustable shoulder straps and a back tie closure for a flattering custom fit.",
+              "highlights": "Underwire cups, adjustable straps and back tie closure with gold hardware details",
+              "fit": "Designed to best fit cup sizes A-DDD",
+              "padding": "No",
+              "coverage": "",
+              "style": "Underwire \/ Supportive",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/shop-by-style-the-capri-top"
+            }
+          },
           "158ed1bb-16a3-48a8-b71d-321c654bf0af": {
             "type": "top",
             "settings": {
@@ -1565,26 +1585,6 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/products\/tulum-top-black-sig"
             }
-          },
-          "d1c672a2-babe-488c-a19c-e37f4938b0d5": {
-            "type": "top",
-            "settings": {
-              "flat_image": "shopify:\/\/shop_images\/CapriTop-Black.png",
-              "lifestyle_image": "shopify:\/\/shop_images\/Capri-Top---Black-5.jpg",
-              "lifestyle_image2": "shopify:\/\/shop_images\/Capri-Top---Black-2.jpg",
-              "title": "The Capri Top",
-              "short_title": "Capri Top",
-              "short_description": "Sleek,Chic,Lift",
-              "description": "Thoughtfully designed in a new sleek fit, this Capi Top features an enhanced underwire to shape, lift and support your cup. Complete with adjustable shoulder straps and a back tie closure for a flattering custom fit.",
-              "highlights": "Underwire cups, adjustable straps and back tie closure with gold hardware details",
-              "fit": "Designed to best fit cup sizes A-DDD",
-              "padding": "No",
-              "coverage": "",
-              "style": "Underwire \/ Supportive",
-              "fabric": "",
-              "fit_tip": "",
-              "shop_link": "shopify:\/\/collections\/shop-by-style-the-capri-top"
-            }
           }
         },
         "block_order": [
@@ -1596,6 +1596,7 @@
           "4817e0be-7894-472d-8285-75db420c633b",
           "1bb3947e-65be-4535-b5d9-934b9d495232",
           "fa47799a-74af-4308-a63c-8d16e2594cc5",
+          "d1c672a2-babe-488c-a19c-e37f4938b0d5",
           "158ed1bb-16a3-48a8-b71d-321c654bf0af",
           "9b6e64c8-eaac-4daf-bcff-d51de7edbd39",
           "415bfca0-18aa-4337-8b45-53cd9f5520e0",
@@ -1615,8 +1616,7 @@
           "cf6d73b2-bf9d-4cff-bfaa-b70bdbfd4b45",
           "40f33af9-f739-43c5-b5d9-818a1b9a587d",
           "ea441cd9-c67b-40e8-99a5-2be690dd654a",
-          "e976424a-94e8-4927-9474-eff48cfdcaec",
-          "d1c672a2-babe-488c-a19c-e37f4938b0d5"
+          "e976424a-94e8-4927-9474-eff48cfdcaec"
         ],
         "settings": {
         }
