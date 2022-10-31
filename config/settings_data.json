@@ -975,6 +975,26 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-tulum-bottom"
             }
+          },
+          "b0125b9f-4c98-44f8-8b8d-148335524b5c": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/PalominoBottom-Black.png",
+              "lifestyle_image": "shopify:\/\/shop_images\/Palomino-Bottom---Black-3.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Palomino-Bottom---Black-4.jpg",
+              "title": "The Palomino Bottom",
+              "short_title": "Palomino Bottom",
+              "short_description": "",
+              "description": "If you love the Palma Bottom, you'll need the Palomino Bottom. Featuring a high waist and high leg this, tie side bottom is perfect for that 90's iconic look.",
+              "highlights": "Adjustable side ties with gold hardware detail, high-rise, minimal bottom coverage",
+              "fit": "",
+              "padding": "",
+              "coverage": "",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
           }
         },
         "block_order": [
@@ -1000,7 +1020,8 @@
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7",
           "4198cbe8-da95-4c39-b1ff-b5c042b4b767",
           "50917c6a-4369-447a-b962-017a811c3759",
-          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97"
+          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97",
+          "b0125b9f-4c98-44f8-8b8d-148335524b5c"
         ],
         "settings": {
         }
