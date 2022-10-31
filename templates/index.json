@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Header-Alt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_2316d8fb-a8d6-4e1e-9997-1394305ae630.jpg",
+        "image": "shopify:\/\/shop_images\/pear-website.png",
+        "mobile_image": "shopify:\/\/shop_images\/pear-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -70,8 +70,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/MIDDLE_8e796a71-8634-404f-8941-5ba812af8776.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_51296c29-3077-411a-829e-7551775c2aae.jpg",
+        "image": "shopify:\/\/shop_images\/zebra1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/zebra-collection.png",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
