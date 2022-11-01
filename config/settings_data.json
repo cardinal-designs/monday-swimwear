@@ -1708,6 +1708,7 @@
           "50b1fef0-3b5d-431c-8644-c7225cd53b1b": {
             "type": "beachwear",
             "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Grenada_Tunic.png",
               "lifestyle_image": "shopify:\/\/shop_images\/Grenada-Tunic---Ivory-1.jpg",
               "lifestyle_image2": "shopify:\/\/shop_images\/Grenada-Tunic---Ivory-2.jpg",
               "title": "The Grenada Tunic",
@@ -1721,7 +1722,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": ""
+              "shop_link": "shopify:\/\/collections\/the-grenada-tunic"
             }
           },
           "ab5d15c3-7a43-47dc-bb1c-dfe3ad7c1cfa": {
