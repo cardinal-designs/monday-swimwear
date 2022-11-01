@@ -1705,6 +1705,25 @@
               "shop_link": "shopify:\/\/products\/east-hampton-short-ivory"
             }
           },
+          "50b1fef0-3b5d-431c-8644-c7225cd53b1b": {
+            "type": "beachwear",
+            "settings": {
+              "lifestyle_image": "shopify:\/\/shop_images\/Grenada-Tunic---Ivory-1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Grenada-Tunic---Ivory-2.jpg",
+              "title": "The Grenada Tunic",
+              "short_title": "Grenada Tunic",
+              "short_description": "",
+              "description": "The Grenada Tunic is all you need for that impossibly chic yet effortless look. Wear over swimwear, denim, or with a sarong, and everyone will be wondering how you always manage the perfect relaxed but pulled together look.",
+              "highlights": "Open neckline w\/ collar detail, adjustable waist tie, long sleeves, semi-sheer",
+              "fit": "True to size",
+              "padding": "",
+              "coverage": "",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
+          },
           "ab5d15c3-7a43-47dc-bb1c-dfe3ad7c1cfa": {
             "type": "beachwear",
             "settings": {
@@ -2266,6 +2285,7 @@
           "66e09ad9-4f40-4c9f-80e3-3c73483526be",
           "3004b7f7-7772-4c6b-baee-c46e0985b3b8",
           "59e8b9a3-59c0-4135-b18f-814c46db7e84",
+          "50b1fef0-3b5d-431c-8644-c7225cd53b1b",
           "ab5d15c3-7a43-47dc-bb1c-dfe3ad7c1cfa",
           "8e9061c0-1ac4-4d1b-a60f-15784f7de23b",
           "9fd0a086-3d2d-4a0e-aac3-91e601959060",
