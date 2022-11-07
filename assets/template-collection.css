@@ -32,6 +32,10 @@
     text-align: center;
   }
   
+  .collection-header__container iframe {
+    position: relative;
+  }
+  
   .collection .grid__item:only-child {
     flex: 0 0 100%;
     max-width: 100%;
