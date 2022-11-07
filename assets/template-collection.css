@@ -34,6 +34,9 @@
   
   .collection-header__container iframe {
     position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto 0;
   }
   
   .collection .grid__item:only-child {
