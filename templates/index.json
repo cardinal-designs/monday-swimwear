@@ -70,12 +70,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/zebra1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/zebra-collection.png",
+        "image": "shopify:\/\/shop_images\/pear-website.png",
+        "mobile_image": "shopify:\/\/shop_images\/pear-mob.png",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
-        "link": "shopify:\/\/collections\/the-zebra-collection"
+        "link": "shopify:\/\/collections\/resort-23"
       }
     },
     "164081090579915a8a": {
