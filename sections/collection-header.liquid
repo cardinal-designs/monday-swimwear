@@ -8,7 +8,9 @@
       <p class="body-large">{{ section.settings.text }}</p>
       {% endif %}
 
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6zlYm16zAKEU4oFjkcUaN8?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      {% if collection.metafields.custom.spotify_playlist != blank %}
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/{{ collection.metafields.custom.spotify_playlist }}?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      {% endif %}
     </div>
   </div>
 </div>
