@@ -79,6 +79,7 @@
         "request_return": "To request a return",
         "description": "",
         "note": "*Please allow 24-48 business hours for one of our customer service representatives to review and respond to your inquiry. Outside of those hours, feel free to email us, and we'll get back to you as quickly as we can! If you do not receive an automated email when sending in your inquiry our team has not received your email. If you have sent an email and you have not received a response, please be sure to check your junk\/spam folders.",
+        "btn_link": "https:\/\/returns.mondayswimwear.com\/#\/",
         "btn_label": "Start a Return"
       }
     }
