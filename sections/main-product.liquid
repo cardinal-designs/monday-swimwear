@@ -303,9 +303,12 @@
               </div>
               {% assign checktag = false %}
               {% for tag in product.tags %}
-                {{ tag | downcase | handleize }}
-                {% assign checktag = false %}
+                {%  assign all_tags =  tag | downcase | handleize %}
+                 {% if all_tags == 'final-sale' %}
+                {% assign checktag = true %}
+                   {% endif %}
               {% endfor %}
+            {{ checktag }}
               <input id="your-name" type="text" name="properties[Your name]">
               <button
                 type="submit"
