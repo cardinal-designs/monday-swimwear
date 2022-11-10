@@ -111,8 +111,8 @@
     {% include 'checkout-scripts' %}
     {% include 'swell-checkout' %}
     {% include 'swell-post-checkout' %}
-
-    {% assign finalSaleTaggedProducts = blank %}
+    
+    {% assign finalSaleTaggedProducts = 'null' %}
     {% for item in checkout.line_items %}
       {% assign haveFinalSaleTag = false %}
       {% for tag in item.product.tags %}
@@ -123,8 +123,10 @@
         {% endif %}
       {% endfor %}
     {% endfor %}
-
-    {{ finalSaleTaggedProducts }}
+    <script type="text/javascript">
+      var finalSaleProducts = `{{ finalSaleTaggedProducts }}`;
+      console.log(finalSaleProducts)
+    </script>
     
   </body>
 </html>
