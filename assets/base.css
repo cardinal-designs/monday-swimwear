@@ -2419,6 +2419,29 @@ header-drawer {
   stroke: black !important;
 }
 
+.wk-grid__item .wk-product-form__option {
+  border: 1px solid black;
+  position: relative;
+}
+
+.wk-grid__item .wk-product-form__option::after {
+  content: '';
+  height: 6px;
+  width: 6px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  position: absolute;
+  right: 20px;
+  transform: rotate(45deg);
+}
+
+.wk-grid__item .wk-product-form__option__select {
+  border-radius: 0;
+  border: 0;
+  padding: 16px 16px;
+  appearance: none;
+}
+
 /*================ Klaviyo Form ================*/
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input,
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input:not([type]) {
