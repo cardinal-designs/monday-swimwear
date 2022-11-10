@@ -132,9 +132,9 @@
           let lineItem = lineItemsWrapper.querySelector(`[data-variant-id="${id}"]`);
           if(lineItem){
             let labelHtml = 
-              `<div class="tag">
-                <div class="tag__wrapper">
-                  <span class="tag__text">Final Sale</span>
+              `<div class="label">
+                <div class="label_wrapper">
+                  <span class="label_text">Final Sale</span>
                 </div>
                </div>`;
             lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
@@ -143,7 +143,7 @@
       }
     </script>
     <style>
-      .label_wrapper {
+      .label {
         background-color: rgba(109,108,104,0.11);
         color: #30302e;
         width: fit-content;
