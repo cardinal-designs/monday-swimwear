@@ -303,7 +303,7 @@
               </div>
               {% assign checktag = false %}
               {% for tag in product.tags %}
-                {{ tag }}
+                {{ tag | downcase }}
                 {% assign checktag = false %}
               {% endfor %}
               <input id="your-name" type="text" name="properties[Your name]">
