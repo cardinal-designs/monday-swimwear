@@ -53,6 +53,10 @@
               </p>
             {%- endfor -%}
           {%- endif -%}
+          {%  assign all_tags =  item.product.tags | downcase | map: 'final sale' %}
+          <div class="product-option detail-caps">
+              {{ all_tags }}
+          </div>
         </div>
 
         <p class="product-option caption">{{ item.selling_plan_allocation.selling_plan.name }}</p>
