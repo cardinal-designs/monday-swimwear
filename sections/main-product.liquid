@@ -308,8 +308,9 @@
                 {% assign checktag = true %}
                    {% endif %}
               {% endfor %}
-            {{ checktag }}
-              <input id="your-name" type="text" name="properties[Your name]">
+              {% if checktag %} 
+                <input id="final-sale" type="text" name="properties[Final Sale]">
+              {% endif %}
               <button
                 type="submit"
                 name="add"
