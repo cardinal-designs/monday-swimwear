@@ -128,10 +128,28 @@
       if(finalSaleProducts != 'null'){
         let splitProductId = finalSaleProducts.split(',');
         splitProductId.forEach(function(id){
-          console.log('id :',id);
+          let lineItemsWrapper = document.querySelector('[data-order-summary-section="line-items"]');
+          let lineItem = lineItemsWrapper.querySelector(`[data-variant-id="${id}"]`);
+          if(lineItem){
+            let labelHtml = 
+              `<div class="tag">
+                <div class="tag__wrapper">
+                  <span class="tag__text">Final Sale</span>
+                </div>
+               </div>`;
+            lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
+          }
         })
       }
     </script>
-    
+    <style>
+      .label_wrapper {
+        background-color: rgba(109,108,104,0.11);
+        color: #30302e;
+        width: fit-content;
+        padding: 3px 10px;
+        border-radius: 4px;
+      }
+    </style>
   </body>
 </html>
