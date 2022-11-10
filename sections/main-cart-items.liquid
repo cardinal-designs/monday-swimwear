@@ -93,12 +93,18 @@
                             </div>
                           {%- endfor -%}
                         {%- endif -%}
-
+                      
+                   
+                                      {%  assign all_tags =  item.product.tags | downcase | handleize %}
+                                       {% if all_tags == 'final-sale' %}
+                                     
+                                         
+                                    
                       <div class="product-option detail-caps 1">
                         
                       {{ item.product.tags }}Fianl sale
                       </div>
-
+{% endif %}
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
