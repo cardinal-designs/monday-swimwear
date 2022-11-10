@@ -38,7 +38,6 @@
               {%- for item in cart.items -%}
                 {%- assign bundle_id = '' -%}
                 {%- for property in item.properties -%}
-                  {{ property.first }}--{{ property.last }}
                   {%- if property.first == '_bundleId' -%}
                     {%- assign bundle_id = property.last -%}
                   {%- endif -%}
