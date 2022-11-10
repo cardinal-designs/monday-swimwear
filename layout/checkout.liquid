@@ -113,7 +113,7 @@
     {% include 'swell-post-checkout' %}
 
     {% for item in checkout.line_items %}
-      {{ item.title }}<br />
+      {{ item.product.tags | json }}<br />
     {% endfor %}
     
   </body>
