@@ -38,6 +38,7 @@
               {%- for item in cart.items -%}
                 {%- assign bundle_id = '' -%}
                 {%- for property in item.properties -%}
+                  {{ property.first }}--{{ property.last }}
                   {%- if property.first == '_bundleId' -%}
                     {%- assign bundle_id = property.last -%}
                   {%- endif -%}
@@ -101,7 +102,7 @@
                               {{ property.first }} <span>{{ property.last }}</span>
                             </div>
 
-                          
+                            {% comment %}
                               <div class="product-option">
                                 <dt>{{ property.first }}: </dt>
                                 <dd>
@@ -114,7 +115,7 @@
                                   {%- endif -%}
                                 </dd>
                               </div>
-                            
+                            {% endcomment %}
                           {%- endif -%}
                         {%- endfor -%}
                       </div>
