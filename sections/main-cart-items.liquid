@@ -95,7 +95,8 @@
                         {%- endif -%}
                       
                    
-                                      {%  assign all_tags =  item.product.tags | downcase | handleize %}
+                                      {%  assign all_tags =  item.product.tags | downcase %}
+                      {{ all_tags }}
                                        {% if all_tags == 'final-sale' %}
                                      
                                          
