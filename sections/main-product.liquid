@@ -301,6 +301,12 @@
                   </button>
                 </quantity-input>
               </div>
+              {% assign checktag = false %}
+              {% for tag in product.tags %}
+                {{ tag }}
+                {% assign checktag = false %}
+              {% endfor %}
+              <input id="your-name" type="text" name="properties[Your name]">
               <button
                 type="submit"
                 name="add"
