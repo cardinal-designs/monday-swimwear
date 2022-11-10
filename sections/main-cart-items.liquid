@@ -97,6 +97,11 @@
                    
                                       {%  assign all_tags =  item.product.tags | downcase %}
                       {{ all_tags }}
+                      <script>
+                      if(Object.values(all_tags).indexOf('final sale') > -1) {
+   console.log('has test1');
+}
+                        </script>
                                        {% if all_tags == 'final-sale' %}
                                      
                                          
