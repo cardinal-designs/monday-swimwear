@@ -125,22 +125,27 @@
     {% endfor %}
     <script type="text/javascript">
       var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
-      if(finalSaleProducts != 'null'){
-        let splitProductId = finalSaleProducts.split(',');
-        splitProductId.forEach(function(id){
-          let lineItemsWrapper = document.querySelector('[data-order-summary-section="line-items"]');
-          let lineItem = lineItemsWrapper.querySelector(`[data-variant-id="${id}"]`);
-          if(lineItem){
-            let labelHtml = 
-              `<div class="label">
-                <div class="label_wrapper">
-                  <span class="label_text">Final Sale</span>
-                </div>
-               </div>`;
-            lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
-          }
-        })
+      function FinalSaleLabel(){
+        if(finalSaleProducts != 'null'){
+          let splitProductId = finalSaleProducts.split(',');
+          splitProductId.forEach(function(id){
+            let lineItemsWrapper = document.querySelector('[data-order-summary-section="line-items"]');
+            let lineItem = lineItemsWrapper.querySelector(`[data-variant-id="${id}"]`);
+            if(lineItem){
+              let labelHtml = 
+                `<div class="label">
+                  <div class="label_wrapper">
+                    <span class="label_text">Final Sale</span>
+                  </div>
+                 </div>`;
+              lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
+            }
+          })
+        }
       }
+      $(document).on("page:load page:change", function() {
+        FinalSaleLabel();
+      });
     </script>
     <style>
       .label {
