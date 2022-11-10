@@ -94,17 +94,10 @@
                           {%- endfor -%}
                         {%- endif -%}
                         {%  assign all_tags =  item.product.tags | downcase | map: 'final sale' %}
-                      {{ all_tags }}
-                   
-                                       {% if all_tags == 'final sale' %}
-                                     
-                                         
-                                    
-                      <div class="product-option detail-caps 1">
-                        
-                      {{ item.product.tags }}Fianl sale
-                      </div>
-{% endif %}
+                        <div class="product-option detail-caps 1">
+                          {{ all_tags }}Fianl sale
+                        </div>
+
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
