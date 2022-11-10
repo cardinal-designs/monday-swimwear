@@ -112,16 +112,19 @@
     {% include 'swell-checkout' %}
     {% include 'swell-post-checkout' %}
 
+    {% assign finalSaleTaggedProducts = blank %}
     {% for item in checkout.line_items %}
       {% assign haveFinalSaleTag = false %}
       {% for tag in item.product.tags %}
         {% assign handleizeTag = tag | handleize %}
         {% if handleizeTag == 'final-sale' %}
-          {{ item.variant.id }}<br />
+          {% assign finalSaleTaggedProducts = item.variant.id | append:',' | append:finalSaleTaggedProducts %}
           {% break %}
         {% endif %}
       {% endfor %}
     {% endfor %}
+
+    {{ finalSaleTaggedProducts }}
     
   </body>
 </html>
