@@ -124,7 +124,7 @@
       {% endfor %}
     {% endfor %}
     <script type="text/javascript">
-      var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' }}`;
+      var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
       console.log(finalSaleProducts)
     </script>
     
