@@ -118,7 +118,7 @@
       {% for tag in item.product.tags %}
         {% assign handleizeTag = tag | handleize %}
         {% if handleizeTag == 'final-sale' %}
-          {% assign finalSaleTaggedProducts = item.variant.id | append:',' | append:finalSaleTaggedProducts %}
+          {% assign finalSaleTaggedProducts = item.variant.id | prepend:',' | append:finalSaleTaggedProducts %}
           {% break %}
         {% endif %}
       {% endfor %}
