@@ -93,12 +93,10 @@
                             </div>
                           {%- endfor -%}
                         {%- endif -%}
-                      
-                   
-                                      {%  assign all_tags =  item.product.tags | downcase | map: 'final sale' %}
+                        {%  assign all_tags =  item.product.tags | downcase | map: 'final sale' %}
                       {{ all_tags }}
                    
-                                       {% if all_tags == 'final-sale' %}
+                                       {% if all_tags != blank %}
                                      
                                          
                                     
