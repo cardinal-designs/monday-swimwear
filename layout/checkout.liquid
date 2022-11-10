@@ -113,7 +113,13 @@
     {% include 'swell-post-checkout' %}
 
     {% for item in checkout.line_items %}
-      {{ item.product.tags | json }}<br />
+      {% assign haveFinalSaleTag = false %}
+      {% for tag in item.product.tags %}
+        {% assign handleizeTag = tag | handleize %}
+        {% if handleizeTag == 'final-tag' %}
+          {{ item.title }}<br />
+        {% endif %}
+      {% endfor %}
     {% endfor %}
     
   </body>
