@@ -116,9 +116,9 @@
       {% assign haveFinalSaleTag = false %}
       {% for tag in item.product.tags %}
         {% assign handleizeTag = tag | handleize %}
-        --> {{ handleizeTag }}<br />
-        {% if handleizeTag == 'final-tag' %}
+        {% if handleizeTag == 'final-sale' %}
           {{ item.title }}<br />
+          {% break %}
         {% endif %}
       {% endfor %}
     {% endfor %}
