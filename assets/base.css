@@ -2419,6 +2419,16 @@ header-drawer {
   stroke: black !important;
 }
 
+.wk-grid__item .wk-product-title,
+.wk-grid__item .wk-product-price * {
+  font-family: Neue Haas Unica Pro,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: .02em;
+}
+
 .wk-grid__item .wk-product-form__option {
   border: 1px solid black;
   position: relative;
@@ -2440,6 +2450,12 @@ header-drawer {
   border: 0;
   padding: 14px 16px;
   appearance: none;
+  font-family: Neue Haas Unica Pro,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: .02em;
 }
 
 /*================ Klaviyo Form ================*/
