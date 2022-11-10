@@ -95,11 +95,9 @@
                         {%- endif -%}
                       
                    
-                                      {%  assign all_tags =  item.product.tags | downcase %}
+                                      {%  assign all_tags =  item.product.tags | downcase | map: 'final sale' %}
                       {{ all_tags }}
-                      <script>
-                      Object.values(all_tags).includes("final sale");
-                      </script>
+                   
                                        {% if all_tags == 'final-sale' %}
                                      
                                          
