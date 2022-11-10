@@ -27,7 +27,7 @@
             {%- assign property_first_char = property.first | slice: 0 -%}
             {%- if property.last != blank and property_first_char != '_' -%}
               <p class="cart-drawer__item-option detail-caps">
-                {{ property.first }} <span>{{ property.last }}</span>
+                {{ property.first }} <span>yes{{ property.last }}</span>
               </p>
 
               {% comment %}
