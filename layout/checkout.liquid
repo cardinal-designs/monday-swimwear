@@ -125,7 +125,12 @@
     {% endfor %}
     <script type="text/javascript">
       var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
-      console.log(finalSaleProducts)
+      if(finalSaleProducts != 'null'){
+        let splitProductId = finalSaleProducts.split(',');
+        splitProductId.forEach(function(id){
+          console.log('id :',id);
+        })
+      }
     </script>
     
   </body>
