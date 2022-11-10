@@ -96,7 +96,7 @@
                         {%  assign all_tags =  item.product.tags | downcase | map: 'final sale' %}
                       {{ all_tags }}
                    
-                                       {% if all_tags != blank %}
+                                       {% if all_tags == 'final sale' %}
                                      
                                          
                                     
