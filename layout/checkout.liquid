@@ -111,5 +111,50 @@
     {% include 'checkout-scripts' %}
     {% include 'swell-checkout' %}
     {% include 'swell-post-checkout' %}
+    
+    {% assign finalSaleTaggedProducts = blank %}
+    {% for item in checkout.line_items %}
+      {% assign haveFinalSaleTag = false %}
+      {% for tag in item.product.tags %}
+        {% assign handleizeTag = tag | handleize %}
+        {% if handleizeTag == 'final-sale' %}
+          {% assign finalSaleTaggedProducts = item.variant.id | prepend:',' | append:finalSaleTaggedProducts %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    <script type="text/javascript">
+      var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
+      function FinalSaleLabel(){
+        if(finalSaleProducts != 'null'){
+          let splitProductId = finalSaleProducts.split(',');
+          splitProductId.forEach(function(id){
+            let lineItemsWrapper = document.querySelector('[data-order-summary-section="line-items"]');
+            let lineItem = lineItemsWrapper.querySelector(`[data-variant-id="${id}"]`);
+            if(lineItem){
+              let labelHtml = 
+                `<div class="label">
+                  <div class="label_wrapper">
+                    <span class="label_text">Final Sale</span>
+                  </div>
+                 </div>`;
+              lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
+            }
+          })
+        }
+      }
+      $(document).on("page:load page:change", function() {
+        FinalSaleLabel();
+      });
+    </script>
+    <style>
+      .label {
+        background-color: rgba(109,108,104,0.11);
+        color: #30302e;
+        width: fit-content;
+        padding: 3px 10px;
+        border-radius: 4px;
+      }
+    </style>
   </body>
 </html>

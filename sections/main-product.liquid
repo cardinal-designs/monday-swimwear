@@ -279,7 +279,17 @@
 
           {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
             <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-
+             {% assign checktag = false %}
+              {% for tag in product.tags %}
+                {%  assign all_tags =  tag | downcase | handleize %}
+                 {% if all_tags == 'final-sale' %}
+                {% assign checktag = true %}
+                   {% endif %}
+              {% endfor %}
+              {% if checktag %} 
+                <input id="final-sale" type="hidden" name="properties[final_sale]" value="Final Sale">
+              {% endif %}
+            
             <div class="product-form__button-wrapper">
               <div class="product-form__input product-form__quantity">    
                 <quantity-input class="quantity">
@@ -301,6 +311,7 @@
                   </button>
                 </quantity-input>
               </div>
+             
               <button
                 type="submit"
                 name="add"

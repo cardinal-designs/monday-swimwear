@@ -20,6 +20,7 @@
     <div class="cart-drawer__item-header">
       <h4 class="cart-drawer__item-title body-large">{{ item.product.title }}</h4>
 
+     
       {%- if item.product.has_only_default_variant == false or item.properties.size != 0 or item.selling_plan_allocation != nil -%}
         <div class="cart-drawer__item-variant">
           {%- for property in item.properties -%}
