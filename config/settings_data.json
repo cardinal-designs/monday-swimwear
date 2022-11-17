@@ -2330,10 +2330,9 @@
           },
           "06ea453a-75f1-4191-a3d1-0d8bc35661d7": {
             "type": "faq_item",
-            "disabled": true,
             "settings": {
-              "title": "What is the Summer Sale return policy?",
-              "answer": "<p>By purchasing products from our Summer ’22 sale at our 25% and 40% off, you agree to the return policy being an exchange for sizing or store credit only. Customers in the US and Canada who are eligible to exchange will have this option available in the returns portal. If you are located outside of the US or Canada, your order is only eligible for a store credit. Price adjustments cannot be made to previous orders.<\/p><p><strong>Any products from our Summer ’22 sale listed at 60% off, noted with final sale, you agree to the return policy being final sale. Price adjustments cannot be made to previous orders and no exchanges or store credits will be eligible.<\/strong><\/p>"
+              "title": "What is your Black Friday \/ Cyber Monday return policy?",
+              "answer": "<p>All orders placed with any of our Black Friday \/ Cyber Monday discount codes are only eligible for a return for store credit, no exchanges or refunds. If you purchase an item that is marked as final sale, the item is not eligible for <em><strong>any <\/strong><\/em>form of a return. We do not offer price adjustments for any previous orders.<\/p>"
             }
           },
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6": {
