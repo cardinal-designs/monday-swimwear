@@ -70,12 +70,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pear-website.png",
-        "mobile_image": "shopify:\/\/shop_images\/pear-mob.png",
+        "image": "shopify:\/\/shop_images\/newtosaleweb.png",
+        "mobile_image": "shopify:\/\/shop_images\/newtosale-mob1.png",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
-        "link": "shopify:\/\/collections\/resort-23"
+        "link": "shopify:\/\/collections\/new-to-sale-collection"
       }
     },
     "164081090579915a8a": {
