@@ -70,12 +70,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/newtosaleweb.png",
-        "mobile_image": "shopify:\/\/shop_images\/newtosale-mob1.png",
+        "image": "shopify:\/\/shop_images\/sale_on_sale_-_web.png",
+        "mobile_image": "shopify:\/\/shop_images\/sale_on_sale_mob.png",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
-        "link": "shopify:\/\/collections\/new-to-sale-collection"
+        "link": "https:\/\/mondayswimwear.com\/collections\/shop-the-sale-collection"
       }
     },
     "164081090579915a8a": {
