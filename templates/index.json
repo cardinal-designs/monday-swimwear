@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/seaglass-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/seaglass-mob.png",
+        "image": "shopify:\/\/shop_images\/cyber5.png",
+        "mobile_image": "shopify:\/\/shop_images\/cyber-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -123,13 +123,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_8ef3b3ef-5c2e-44c6-80bf-4d40eadd5f90.jpg",
-            "text": "Keeping Covered",
-            "link_label": "Monday Beachwear",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "image": "shopify:\/\/shop_images\/2_98a72334-53f8-4fe5-be98-de1524e70a88.jpg",
+            "text": "Monday Mommas",
+            "link_label": "For You & Your Bump",
+            "link": "shopify:\/\/collections\/monday-mommas"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -141,20 +141,20 @@
             "link": "shopify:\/\/collections\/shop-tashs-looks"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_98a72334-53f8-4fe5-be98-de1524e70a88.jpg",
-            "text": "Monday Mommas",
-            "link_label": "For You & Your Bump",
-            "link": "shopify:\/\/collections\/monday-mommas"
+            "image": "shopify:\/\/shop_images\/3_8ef3b3ef-5c2e-44c6-80bf-4d40eadd5f90.jpg",
+            "text": "Keeping Covered",
+            "link_label": "Monday Beachwear",
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
