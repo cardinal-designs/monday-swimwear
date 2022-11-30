@@ -168,8 +168,10 @@ html.no-js .no-js-hidden {
 }
 
 .gift-card__body .gift-card__copy-link{
-  margin-top: 6px;
-  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid;
+  background: transparent;
+  padding: 0;
 }
 
 .gift-card__heading{
@@ -202,6 +204,10 @@ html.no-js .no-js-hidden {
   border-color: #000;
   max-height: 48px;
   margin-left: 10px;
+}
+
+.gift-card__body .gift-card__number{
+  padding: 4px;
 }
 
 /*================ Animations ================*/
