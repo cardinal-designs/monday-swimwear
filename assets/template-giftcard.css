@@ -208,7 +208,12 @@ html.no-js .no-js-hidden {
 }
 
 .gift-card__body .gift-card__number{
-  padding: 4px;
+  padding: 4px 14px;
+  border: 1px solid #000000;
+  height: 25px;
+  border-radius: 4px;
+  font-family: Sunset Gothic,sans-serif;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 768px) {
