@@ -190,6 +190,13 @@ html.no-js .no-js-hidden {
   margin: 0 0 16px;
 }
 
+.gift-card__body  .button{
+  letter-spacing: normal;
+  font-size: 16px;
+  font-family: Neue Haas Unica Pro,sans-serif;
+  text-decoration: none;
+}
+
 /*================ Animations ================*/
 @keyframes animateMenuOpen {
   0% {
