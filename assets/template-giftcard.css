@@ -163,6 +163,10 @@ html.no-js .no-js-hidden {
   padding: 100px 0;
 }
 
+.gift-card__qr-code img{
+  margin: 0 auto;
+}
+
 /*================ Animations ================*/
 @keyframes animateMenuOpen {
   0% {
