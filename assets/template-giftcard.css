@@ -187,9 +187,9 @@ html.no-js .no-js-hidden {
   font-family: Tobias,sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.23;
-  letter-spacing: -.04em;
+  letter-spacing: normal;
   text-transform: unset;
   margin: 0 0 16px;
 }
