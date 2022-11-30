@@ -216,6 +216,14 @@ html.no-js .no-js-hidden {
   font-size: 15px;
 }
 
+.gift-card__copy-code .gift-card__copy-success{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  font-size: 13px;
+}
+
 @media only screen and (max-width: 768px) {
 
   .gift-card__body .gift-card__image-wrapper img{
