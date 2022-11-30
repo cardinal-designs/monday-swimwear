@@ -76,9 +76,29 @@
     {{ 'template-giftcard.css' | asset_url | stylesheet_tag }}
   </head>
 
-  <body class="gradient">
+  <body class="gradient gift-card__body">
     <header class="gift-card__title">
-      <span class="h2">{{ shop.name }}</span>
+      <span class="h2">
+        {%- if settings.svg_logo != blank -%}
+          <div class="header__svg-logo">
+            {{ settings.svg_logo }}
+          </div>
+        {%- else -%}
+          {%- if settings.logo != blank -%}
+            {%- assign image_size = settings.logo_width | append: 'x' -%}
+            <img srcset="{{ settings.logo | img_url: image_size }} 1x, {{ settings.logo | img_url: image_size, scale: 2 }} 2x"
+              src="{{ settings.logo | img_url: image_size }}"
+              loading="lazy"
+              class="header__heading-logo"
+              width="{{ settings.logo.width }}"
+              height="{{ settings.logo.height }}"
+              alt="{{ settings.logo.alt | default: shop.name | escape }}"
+            >
+          {%- else -%}
+            <span class="h2">{{ shop.name }}</span>
+          {%- endif -%}
+        {%- endif -%}
+      </span>
       <h1 class="gift-card__heading">{{ 'gift_cards.issued.subtext' | t }}</h1>
       <div class="gift-card__price">
         <p>

@@ -160,5 +160,21 @@
         "label": "Product Fit & Size Note"
       }
     ]
+  },
+  {
+    "name": "Gift Card",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "svg_logo",
+        "label": "SVG Logo",
+        "info": "Optional. This will override logo image picker."
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:sections.header.settings.logo.label"
+      }
+    ]
   }
 ]
