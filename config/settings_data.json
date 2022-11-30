@@ -28,12 +28,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "92944bb5-c800-4c1f-85ef-1e0466d1390a": {
-            "type": "announcement",
-            "settings": {
-              "text": "50% OFF SITE WIDE - CODE: BFCM50"
-            }
-          },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
             "settings": {
@@ -48,7 +42,6 @@
           }
         },
         "block_order": [
-          "92944bb5-c800-4c1f-85ef-1e0466d1390a",
           "9e9ecc40-4b57-4047-b32f-6330f3026efb",
           "2b1b8459-d702-437f-a64f-d74e618d18b9"
         ],
