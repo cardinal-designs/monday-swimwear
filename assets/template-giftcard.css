@@ -196,6 +196,10 @@ html.no-js .no-js-hidden {
   margin: 0 0 16px;
 }
 
+gift-card__buttons {
+  margin-top: 10px;
+}
+
 .gift-card__body  .button{
   letter-spacing: normal;
   font-size: 16px;
