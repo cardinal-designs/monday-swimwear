@@ -213,7 +213,7 @@ html.no-js .no-js-hidden {
 
 @media only screen and (max-width: 768px) {
 
-  .gift-card__body .gift-card__image-wrapper{
+  .gift-card__body .gift-card__image-wrapper img{
     width: 100%;
     height: 100%;
   }
