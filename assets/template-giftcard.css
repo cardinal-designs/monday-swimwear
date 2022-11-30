@@ -167,6 +167,10 @@ html.no-js .no-js-hidden {
   margin: 26px auto;
 }
 
+.gift-card__body .gift-card__copy-link{
+  margin-top: 16px;
+}
+
 /*================ Animations ================*/
 @keyframes animateMenuOpen {
   0% {
