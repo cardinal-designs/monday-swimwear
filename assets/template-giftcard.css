@@ -196,8 +196,8 @@ html.no-js .no-js-hidden {
   margin: 0 0 16px;
 }
 
-gift-card__buttons {
-  margin-top: 10px;
+.gift-card__buttons {
+  margin-top: 20px;
 }
 
 .gift-card__body  .button{
