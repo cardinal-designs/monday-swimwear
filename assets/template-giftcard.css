@@ -171,6 +171,13 @@ html.no-js .no-js-hidden {
   margin-top: 16px;
 }
 
+.gift-card__heading{
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: .02em;
+  margin: 0 0 16px;
+}
+
 /*================ Animations ================*/
 @keyframes animateMenuOpen {
   0% {
