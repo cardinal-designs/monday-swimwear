@@ -206,6 +206,7 @@ html.no-js .no-js-hidden {
   border-color: #000;
   max-height: 48px;
   margin-left: 10px;
+  line-height: 1;
 }
 
 .gift-card__body .gift-card__number{
