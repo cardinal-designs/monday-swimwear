@@ -127,10 +127,19 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_98a72334-53f8-4fe5-be98-de1524e70a88.jpg",
-            "text": "Monday Mommas",
-            "link_label": "For You & Your Bump",
-            "link": "shopify:\/\/collections\/monday-mommas"
+            "image": "shopify:\/\/shop_images\/1_b2811397-fbf6-413a-a1c5-b9735aea57ba.jpg",
+            "text": "Supportive & Sweet",
+            "link_label": "Pear Rib",
+            "link": "shopify:\/\/collections\/eco-friendly-fabrics"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_806b17d5-39bc-4154-bf5b-65d639fc0711.jpg",
+            "text": "Keeping Covered",
+            "link_label": "Monday Beachwear",
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -141,21 +150,12 @@
             "link_label": "Shop Tash’s Hamilton Island Looks",
             "link": "shopify:\/\/collections\/shop-tashs-looks"
           }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_8ef3b3ef-5c2e-44c6-80bf-4d40eadd5f90.jpg",
-            "text": "Keeping Covered",
-            "link_label": "Monday Beachwear",
-            "link": "shopify:\/\/collections\/monday-beachwear"
-          }
         }
       },
       "block_order": [
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
