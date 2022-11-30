@@ -160,7 +160,7 @@ html.no-js .no-js-hidden {
 
 .gift-card__body{
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 10px;
 }
 
 .gift-card__qr-code img{
@@ -238,6 +238,10 @@ html.no-js .no-js-hidden {
   
   .gift-card__price{
     font-size: 22px;
+  }
+
+  .gift-card__body .button{
+    padding: 15px 30px;
   }
   
 }
