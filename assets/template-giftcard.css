@@ -183,6 +183,7 @@ html.no-js .no-js-hidden {
   margin: 30px 0 16px;
 }
 
+.gift-card__price p,
 .gift-card__price{
   font-family: Tobias,sans-serif;
   font-style: normal;
