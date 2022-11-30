@@ -197,6 +197,12 @@ html.no-js .no-js-hidden {
   text-decoration: none;
 }
 
+.gift-card__body .button{
+  border-color: #000;
+  max-height: 48px;
+  margin-left: 10px;
+}
+
 /*================ Animations ================*/
 @keyframes animateMenuOpen {
   0% {
