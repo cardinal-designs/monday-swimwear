@@ -173,6 +173,7 @@ html.no-js .no-js-hidden {
   background: transparent;
   padding: 0;
   margin: 6px 0 26px;
+  cursor: pointer;
 }
 
 .gift-card__heading{
@@ -219,6 +220,7 @@ html.no-js .no-js-hidden {
 }
 
 .gift-card__copy-code .gift-card__copy-success{
+  font-family: Sunset Gothic,sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
