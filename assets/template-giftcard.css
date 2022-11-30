@@ -168,7 +168,8 @@ html.no-js .no-js-hidden {
 }
 
 .gift-card__body .gift-card__copy-link{
-  margin-top: 16px;
+  margin-top: 6px;
+  margin-bottom: 10px;
 }
 
 .gift-card__heading{
