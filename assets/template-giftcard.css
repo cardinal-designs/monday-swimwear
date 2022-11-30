@@ -156,6 +156,13 @@ html.no-js .no-js-hidden {
   clip: auto;
 }
 
+/*================ Template ================*/
+
+.gift-card__body{
+  text-align: center;
+  padding: 100px 0;
+}
+
 /*================ Animations ================*/
 @keyframes animateMenuOpen {
   0% {
