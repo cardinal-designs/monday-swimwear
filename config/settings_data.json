@@ -29,6 +29,12 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2": {
+            "type": "announcement",
+            "settings": {
+              "text": "We are experiencing fulfillment delays, please allow your order an additional 2-5 business days to be fulfilled."
+            }
+          },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
             "settings": {
@@ -43,6 +49,7 @@
           }
         },
         "block_order": [
+          "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2",
           "9e9ecc40-4b57-4047-b32f-6330f3026efb",
           "2b1b8459-d702-437f-a64f-d74e618d18b9"
         ],
