@@ -71,12 +71,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/newtosaleweb.png",
-        "mobile_image": "shopify:\/\/shop_images\/newtosale-mob1.png",
+        "image": "shopify:\/\/shop_images\/eco-web1.png",
+        "mobile_image": "shopify:\/\/shop_images\/eco-mob2.png",
         "left_text": "",
         "right_text": "",
-        "link_label": "save 30% - shop new markdowns",
-        "link": "https:\/\/mondayswimwear.com\/collections\/new-markdowns"
+        "link_label": "shop sustainably",
+        "link": "shopify:\/\/collections\/eco-friendly-fabrics"
       }
     },
     "164081090579915a8a": {
