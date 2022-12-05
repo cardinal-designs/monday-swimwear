@@ -3,12 +3,12 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pear-website.png",
-        "mobile_image": "shopify:\/\/shop_images\/pear-mob.png",
+        "image": "shopify:\/\/shop_images\/SUNSET-WEB1.png",
+        "mobile_image": "shopify:\/\/shop_images\/sunset-mob-edit.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
-        "content_position": "bottom-split",
+        "content_position": "bottom-center",
         "button_label": "shop now",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
