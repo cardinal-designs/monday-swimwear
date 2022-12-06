@@ -8,10 +8,11 @@
 }
 
 .collection-header__container iframe {
+  max-width: 500px;
   width: 50%;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -50px;
 }
 
 .collection-header__container h2 {
