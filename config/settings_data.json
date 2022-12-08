@@ -35,23 +35,23 @@
               "text": "We are experiencing fulfillment delays, please allow your order an additional 2-5 business days to be fulfilled."
             }
           },
+          "2b1b8459-d702-437f-a64f-d74e618d18b9": {
+            "type": "announcement",
+            "settings": {
+              "text": "Use Klarna at checkout & get an automatic 20% off now through 12\/10 🛒"
+            }
+          },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
             "settings": {
               "text": "FREE SHIPPING ON US ORDERS OVER $200 📦"
             }
-          },
-          "2b1b8459-d702-437f-a64f-d74e618d18b9": {
-            "type": "announcement",
-            "settings": {
-              "text": "Shop Now, Pay Later 🛒  using Klarna at checkout."
-            }
           }
         },
         "block_order": [
           "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2",
-          "9e9ecc40-4b57-4047-b32f-6330f3026efb",
-          "2b1b8459-d702-437f-a64f-d74e618d18b9"
+          "2b1b8459-d702-437f-a64f-d74e618d18b9",
+          "9e9ecc40-4b57-4047-b32f-6330f3026efb"
         ],
         "settings": {
           "background_color": "#000000",
