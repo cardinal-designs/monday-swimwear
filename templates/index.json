@@ -132,6 +132,15 @@
             "link": "shopify:\/\/collections\/eco-friendly-fabrics"
           }
         },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_c73823dd-c26b-4c88-a211-d0e79cbb72cf.jpg",
+            "text": "Holiday Dreaming",
+            "link_label": "Shop Ivory",
+            "link": "shopify:\/\/collections\/ivory"
+          }
+        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -140,21 +149,12 @@
             "link_label": "Monday Beachwear",
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_5065f7c4-6849-4da5-b002-ffa2e8b724f7.jpg",
-            "text": "Holiday Dreaming",
-            "link_label": "Shop Resort '23",
-            "link": "shopify:\/\/collections\/resort-23"
-          }
         }
       },
       "block_order": [
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
