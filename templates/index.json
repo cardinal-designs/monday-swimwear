@@ -37,6 +37,15 @@
         "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/eZNpqsZDx2k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
       }
     },
+    "164081090579915a8a": {
+      "type": "text",
+      "settings": {
+        "text": "It’s our turn to do a little gift giving. Starting 12\/12, we’re giving you a free St. Tropez Sarong in White Crinkle Linen with all orders over $180USD. <br>\nAdd the sarong to your cart for qualifying orders & the discount will be automatically applied at checkout. \n\n<br><br>Available while supplies last*",
+        "wide": true,
+        "add_glow": true,
+        "link": "shopify:\/\/products\/st-tropez-sarong-white-crinkle-linen"
+      }
+    },
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
@@ -76,15 +85,6 @@
         "right_text": "",
         "link_label": "shop sustainably",
         "link": "shopify:\/\/collections\/eco-friendly-fabrics"
-      }
-    },
-    "164081090579915a8a": {
-      "type": "text",
-      "settings": {
-        "text": "It’s our turn to do a little gift giving. So all week, we’re giving you a free St. Tropez Sarong in White Crinkle Linen with all orders over $180USD. <br>\nAdd the Sarong to your cart for qualifying orders and the discount will be automatically applied at checkout. \n\n<br><br>Available while supplies last*",
-        "wide": true,
-        "add_glow": true,
-        "link": "shopify:\/\/products\/st-tropez-sarong-white-crinkle-linen"
       }
     },
     "1640811405c1297562": {
@@ -268,9 +268,9 @@
     "1660324166f7286707",
     "1640133702b1b204aa",
     "1657215750b8e1724d",
+    "164081090579915a8a",
     "16407502469f0e5f45",
     "16408101574f5b391b",
-    "164081090579915a8a",
     "1640811405c1297562",
     "1640812146b4d73cae",
     "16408186509f925b52",
