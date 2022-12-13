@@ -3,47 +3,13 @@
     "main": {
       "type": "monday-returns-headline",
       "settings": {
-      }
-    },
-    "81853b9c-b37b-4071-86e4-a00dc96942e2": {
-      "type": "contact-headline",
-      "blocks": {
-        "template--14729424273444__81853b9c-b37b-4071-86e4-a00dc96942e2-16709280910b9022a6-0": {
-          "type": "link",
-          "settings": {
-            "link_text": "",
-            "url": ""
-          }
-        },
-        "template--14729424273444__81853b9c-b37b-4071-86e4-a00dc96942e2-16709280910b9022a6-1": {
-          "type": "link",
-          "settings": {
-            "link_text": "",
-            "url": ""
-          }
-        },
-        "template--14729424273444__81853b9c-b37b-4071-86e4-a00dc96942e2-16709280910b9022a6-2": {
-          "type": "link",
-          "settings": {
-            "link_text": "",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14729424273444__81853b9c-b37b-4071-86e4-a00dc96942e2-16709280910b9022a6-0",
-        "template--14729424273444__81853b9c-b37b-4071-86e4-a00dc96942e2-16709280910b9022a6-1",
-        "template--14729424273444__81853b9c-b37b-4071-86e4-a00dc96942e2-16709280910b9022a6-2"
-      ],
-      "settings": {
-        "heading_text": "Contact Us",
+        "heading_text": "MONDAY RETURNS",
         "subtitle": "",
         "description": "<p>Welcome to the page.<\/p>\n<p>QR Code<\/p>\n<p>Have questions? Email us here: <a href=\"mailto:customercare@mondayswimwear.com\">customercare@mondayswimwear.com<\/a><\/p>"
       }
     }
   },
   "order": [
-    "main",
-    "81853b9c-b37b-4071-86e4-a00dc96942e2"
+    "main"
   ]
 }
