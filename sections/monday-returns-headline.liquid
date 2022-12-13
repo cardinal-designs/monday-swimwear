@@ -2,9 +2,15 @@
 
 <div class="main-page page-width page-width--narrow contact-headline">
   <div class="contact-headline-wrapper">
+    {% if section.settings.heading_text != blank %}
     <h1 class="text-center title">{{ section.settings.heading_text }}</h1>
+    {% endif %}
+    {% if section.settings.subtitle != blank %}
     <h2 class="text-center subtitle">{{ section.settings.subtitle }}</h2>
+    {% endif %}
+    {% if section.settings.description != blank %}
     <p class="text-center body">{{ section.settings.description }}</p>
+    {% endif %}
   </div>
 
   {% if section.blocks.size > 0 %}
