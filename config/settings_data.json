@@ -91,6 +91,18 @@
       "cart-drawer": {
         "type": "cart-drawer",
         "blocks": {
+          "179ec68a-9604-4dfe-9a08-c0e685271c72": {
+            "type": "upsell",
+            "settings": {
+              "product": "staniel-cay-comb-tortoise"
+            }
+          },
+          "b998258a-f74b-489f-88ac-d2845f748e54": {
+            "type": "upsell",
+            "settings": {
+              "product": "her-extra-hoops"
+            }
+          },
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd": {
             "type": "upsell",
             "settings": {
@@ -120,28 +132,16 @@
             "settings": {
               "product": "lake-como-straw-bag"
             }
-          },
-          "b998258a-f74b-489f-88ac-d2845f748e54": {
-            "type": "upsell",
-            "settings": {
-              "product": "her-extra-hoops"
-            }
-          },
-          "179ec68a-9604-4dfe-9a08-c0e685271c72": {
-            "type": "upsell",
-            "settings": {
-              "product": "antigua-monday-cap-black"
-            }
           }
         },
         "block_order": [
+          "179ec68a-9604-4dfe-9a08-c0e685271c72",
+          "b998258a-f74b-489f-88ac-d2845f748e54",
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd",
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
           "ce35da39-8666-4078-8a2b-f96324678747",
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
-          "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86",
-          "b998258a-f74b-489f-88ac-d2845f748e54",
-          "179ec68a-9604-4dfe-9a08-c0e685271c72"
+          "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86"
         ],
         "settings": {
           "cart_title": "Your Cart",
