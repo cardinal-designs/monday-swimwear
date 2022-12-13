@@ -2,14 +2,51 @@
   "sections": {
     "main": {
       "type": "monday-returns-headline",
+      "blocks": {
+        "ae8500a7-6c86-4cf1-b211-821c42135975": {
+          "type": "link",
+          "settings": {
+            "link_text": "Fit Tips",
+            "url": "shopify:\/\/pages\/care-tips"
+          }
+        },
+        "94a81261-a080-4e85-b7c1-fa042e75ee9d": {
+          "type": "link",
+          "settings": {
+            "link_text": "Fit Guide",
+            "url": "shopify:\/\/pages\/fit-guide"
+          }
+        },
+        "dc0b3337-4277-48b3-af6e-a8bea83a5615": {
+          "type": "link",
+          "settings": {
+            "link_text": "FAQs",
+            "url": "shopify:\/\/pages\/faqs"
+          }
+        }
+      },
+      "block_order": [
+        "ae8500a7-6c86-4cf1-b211-821c42135975",
+        "94a81261-a080-4e85-b7c1-fa042e75ee9d",
+        "dc0b3337-4277-48b3-af6e-a8bea83a5615"
+      ],
       "settings": {
         "heading_text": "MONDAY RETURNS",
         "subtitle": "",
         "description": "<p>Welcome to the page.<\/p>\n<p>QR Code<\/p>\n<p>Have questions? Email us here: <a href=\"mailto:customercare@mondayswimwear.com\">customercare@mondayswimwear.com<\/a><\/p>"
       }
+    },
+    "7e23a0cf-cd56-4c3e-b05e-40a4658e78ac": {
+      "type": "contact-service-hours",
+      "settings": {
+        "background_color": "#FFFF95",
+        "heading_text": "Customer service hours",
+        "content": "<p>Monday – Friday<br\/>9:30am-6:30pm PST<\/p>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7e23a0cf-cd56-4c3e-b05e-40a4658e78ac"
   ]
 }
