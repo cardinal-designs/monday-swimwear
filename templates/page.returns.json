@@ -38,7 +38,7 @@
       "settings": {
         "heading_text": "Contact Us",
         "subtitle": "Welcome to the page.QR CodeHave questions? Email us here: customercare@mondayswimwear.com",
-        "description": ""
+        "description": "<p>Welcome to the page.<\/p>\n<p>QR Code<\/p>\n<p>Have questions? Email us here: <a href=\"mailto:customercare@mondayswimwear.com\">customercare@mondayswimwear.com<\/a><\/p>"
       }
     }
   },
