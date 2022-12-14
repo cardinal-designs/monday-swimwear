@@ -49,16 +49,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "bf612915-d86f-40f2-817f-6322dada207b": {
-          "type": "collection",
-          "settings": {
-            "collection": "resort-23"
-          }
-        },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
             "collection": "beachwear-accessories"
+          }
+        },
+        "bf612915-d86f-40f2-817f-6322dada207b": {
+          "type": "collection",
+          "settings": {
+            "collection": "resort-23"
           }
         },
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
@@ -69,8 +69,8 @@
         }
       },
       "block_order": [
-        "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "bf612915-d86f-40f2-817f-6322dada207b",
         "944498a4-3695-48f6-9a89-0208d09aab7b"
       ],
       "settings": {
