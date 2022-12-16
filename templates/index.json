@@ -143,17 +143,26 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_b2811397-fbf6-413a-a1c5-b9735aea57ba.jpg",
-            "text": "Supportive & Sweet",
-            "link_label": "Shop Supportive Styles",
-            "link": "https:\/\/mondayswimwear.com\/collections\/supportive-collection"
+            "image": "shopify:\/\/shop_images\/3_d8e5afc1-59c4-4e65-93bc-9c119d800198.jpg",
+            "text": "Stocking Stuffers",
+            "link_label": "Shop Now",
+            "link": "https:\/\/mondayswimwear.com\/collections\/under-150"
+          }
+        },
+        "f5556959-00a4-408a-8e5e-68f9eca3dd4c": {
+          "type": "link_block",
+          "settings": {
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "f5556959-00a4-408a-8e5e-68f9eca3dd4c"
       ],
       "settings": {
         "text_style": "underneath",
