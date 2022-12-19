@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/SUNSET-WEB1.png",
-        "mobile_image": "shopify:\/\/shop_images\/SUNSET-MOB2.png",
+        "image": "shopify:\/\/shop_images\/WEB.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobile_3022e7a9-7ef2-49ca-848d-37c8064edc1c.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
-        "button_label": "shop now",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_label": "shop signature styles",
+        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
         "overlay_link": true
       }
     },
@@ -64,7 +64,7 @@
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "monday-beachwear"
           }
         }
       },
