@@ -131,15 +131,6 @@
             "link": "shopify:\/\/collections\/ivory"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_806b17d5-39bc-4154-bf5b-65d639fc0711.jpg",
-            "text": "Keeping Covered",
-            "link_label": "Monday Beachwear",
-            "link": "shopify:\/\/collections\/monday-beachwear"
-          }
-        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
@@ -147,6 +138,15 @@
             "text": "Stocking Stuffers",
             "link_label": "Shop Now",
             "link": "https:\/\/mondayswimwear.com\/collections\/under-150"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_806b17d5-39bc-4154-bf5b-65d639fc0711.jpg",
+            "text": "Keeping Covered",
+            "link_label": "Monday Beachwear",
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
         "f5556959-00a4-408a-8e5e-68f9eca3dd4c": {
@@ -160,8 +160,8 @@
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "f5556959-00a4-408a-8e5e-68f9eca3dd4c"
       ],
       "settings": {
