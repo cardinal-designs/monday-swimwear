@@ -13,15 +13,18 @@
     },
     "164253095353d35284": {
       "type": "in-real-life",
+      "disabled": true,
       "settings": {
         "title": "In Real Life"
       }
     },
     "1642702250db612244": {
       "type": "fit-guide",
+      "disabled": true,
       "blocks": {
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ANTIGUA_TOP_ALT_-_BLACK.jpg",
             "title": "The Antigua Top",
@@ -34,7 +37,8 @@
             "style": "Bandeau",
             "fabric": "",
             "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/antigua-top-black"
+            "shop_link": "shopify:\/\/products\/antigua-top-black",
+            "explore_link": ""
           }
         }
       },
