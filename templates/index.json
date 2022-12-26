@@ -131,15 +131,6 @@
             "link": "shopify:\/\/collections\/ivory"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Print_2e55f9b3-5057-44ef-a56b-e753409fbb3f.jpg",
-            "text": "Must-have Prints",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/prints"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -147,6 +138,15 @@
             "text": "Keeping Covered",
             "link_label": "Monday Beachwear",
             "link": "shopify:\/\/collections\/monday-beachwear"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Print_2e55f9b3-5057-44ef-a56b-e753409fbb3f.jpg",
+            "text": "Must-have Prints",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/prints"
           }
         },
         "f5556959-00a4-408a-8e5e-68f9eca3dd4c": {
@@ -160,8 +160,8 @@
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "f5556959-00a4-408a-8e5e-68f9eca3dd4c"
       ],
       "settings": {
