@@ -122,13 +122,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c73823dd-c26b-4c88-a211-d0e79cbb72cf.jpg",
-            "text": "Winter Escape",
-            "link_label": "Shop Ivory",
-            "link": "shopify:\/\/collections\/ivory"
+            "image": "shopify:\/\/shop_images\/Print_2e55f9b3-5057-44ef-a56b-e753409fbb3f.jpg",
+            "text": "Must-have Prints",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/prints"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -140,13 +140,13 @@
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Print_2e55f9b3-5057-44ef-a56b-e753409fbb3f.jpg",
-            "text": "Must-have Prints",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/prints"
+            "image": "shopify:\/\/shop_images\/2_c73823dd-c26b-4c88-a211-d0e79cbb72cf.jpg",
+            "text": "Winter Escape",
+            "link_label": "Shop Ivory",
+            "link": "shopify:\/\/collections\/ivory"
           }
         },
         "f5556959-00a4-408a-8e5e-68f9eca3dd4c": {
@@ -159,9 +159,9 @@
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "f5556959-00a4-408a-8e5e-68f9eca3dd4c"
       ],
       "settings": {
