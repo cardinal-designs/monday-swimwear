@@ -20,10 +20,12 @@
 
 .product__info-container .money {
   line-height: 24px;
+  letter-spacing: 0.8px;
 }
 
 .product__info-container .price span {
   line-height: 24px;
+  letter-spacing: 0.8px;
 }
 
 .product__info-container s.price-item {
