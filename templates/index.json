@@ -9,8 +9,8 @@
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
-        "button_label": "shop signature styles",
-        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
+        "button_label": "shop the sale now",
+        "button_link": "shopify:\/\/collections\/new-markdowns",
         "overlay_link": true
       }
     },
@@ -80,12 +80,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/eco-web1.png",
-        "mobile_image": "shopify:\/\/shop_images\/eco-mob2.png",
+        "image": "shopify:\/\/shop_images\/upto20-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/finalsale-mob.png",
         "left_text": "",
         "right_text": "",
-        "link_label": "shop sustainably",
-        "link": "shopify:\/\/collections\/eco-friendly-fabrics"
+        "link_label": "start saving",
+        "link": "shopify:\/\/collections\/up-to-70-off-sale"
       }
     },
     "1640811405c1297562": {
