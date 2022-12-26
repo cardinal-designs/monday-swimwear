@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/WEB-1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/mobile_3022e7a9-7ef2-49ca-848d-37c8064edc1c.jpg",
+        "image": "shopify:\/\/shop_images\/salestarts-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/salestarts-web.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -59,7 +59,7 @@
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "resort-23"
+            "collection": "the-signature-collection-1"
           }
         },
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
