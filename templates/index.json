@@ -4,7 +4,7 @@
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/salestarts-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/salestarts-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/salesstarts-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
