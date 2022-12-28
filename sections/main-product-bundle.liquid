@@ -148,7 +148,7 @@
                 </div>
               </div>
 
-              {% if product_1.has_only_default_variant %}
+              {% if product_1.variants.size == 1 %}
                 {% assign only_default_variant_count = only_default_variant_count | plus: 1 %}
               {% endif %}
             {% endif %}
@@ -188,14 +188,14 @@
                 </div>
               </div>
 
-              {% if product_2.has_only_default_variant %}
+              {% if product_2.variants.size == 1 %}
                 {% assign only_default_variant_count = only_default_variant_count | plus: 1 %}
               {% endif %}
             {% endif %}
 
             {% if product.metafields.custom.bundle_product_3 != blank %}
               {% assign product_3 = all_products[product.metafields.custom.bundle_product_3] %}
-              <div class="product-bundle__item" {{ product_3.has_only_default_variant }}>
+              <div class="product-bundle__item">
                 <div class="product-bundle__image">
                   {% render 'lazy-image' image: product.metafields.custom.bundle_product_image_3, fade: true, classes: 'img-fill' %}
                 </div>
@@ -228,7 +228,7 @@
                 </div>
               </div>
 
-              {% if product_3.has_only_default_variant %}
+              {% if product_3.variants.size == 1 %}
                 {% assign only_default_variant_count = only_default_variant_count | plus: 1 %}
               {% endif %}
             {% endif %}
