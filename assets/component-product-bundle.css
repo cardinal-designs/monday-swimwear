@@ -40,8 +40,8 @@
 }
 
 .product-bundle__buttons-container input[type='radio'] + label {
-  height: 30px;
-  width: 30px;
+  height: 36px;
+  width: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
