@@ -79,8 +79,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/upto20-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/finalsale-mob.png",
+        "image": "shopify:\/\/shop_images\/upto-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/upto-mob.png",
         "left_text": "",
         "right_text": "",
         "link_label": "start saving",
