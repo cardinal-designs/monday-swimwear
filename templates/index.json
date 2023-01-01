@@ -148,21 +148,12 @@
             "link_label": "Shop Ivory",
             "link": "shopify:\/\/collections\/ivory"
           }
-        },
-        "f5556959-00a4-408a-8e5e-68f9eca3dd4c": {
-          "type": "link_block",
-          "settings": {
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "f5556959-00a4-408a-8e5e-68f9eca3dd4c"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
