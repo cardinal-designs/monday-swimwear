@@ -77,9 +77,14 @@
   border-color: rgba(0, 0, 0, .2);
 }
 
+.product-bundle__buttons-container input[disabled] {
+  cursor: not-allowed;
+}
+
 .product-bundle__buttons-container input[disabled] + label::before {
   content: '';
   height: 43px;
+  position: absolute;
   top: -4px;
   bottom: 0;
   left: 50%;
