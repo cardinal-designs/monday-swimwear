@@ -104,6 +104,7 @@
   border: 1px solid #CCC;
   cursor: pointer;
   transition: border .3s ease;
+  cursor: not-allowed;
 }
 
 .product-bundle .size-chart-dropdown {
