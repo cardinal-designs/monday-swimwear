@@ -133,6 +133,7 @@
                               value="{{ variant.id }}"
                               form="product-bundle-form"
                               {% if option.values.size == 1 %}checked{% endif %}
+                              {% unless variant.available %} disabled{% endunless %}
                             >
                             <label class="detail-caps" for="ProductBundle1-{{ option.position }}-{{ forloop.index0 }}">
                               {{ value }}
@@ -173,6 +174,7 @@
                               value="{{ variant.id }}"
                               form="product-bundle-form"
                               {% if option.values.size == 1 %}checked{% endif %}
+                              {% unless variant.available %} disabled{% endunless %}
                             >
                             <label class="detail-caps" for="ProductBundle2-{{ option.position }}-{{ forloop.index0 }}">
                               {{ value }}
@@ -213,6 +215,7 @@
                               value="{{ variant.id }}"
                               form="product-bundle-form"
                               {% if option.values.size == 1 %}checked{% endif %}
+                              {% unless variant.available %} disabled{% endunless %}
                             >
                             <label class="detail-caps" for="ProductBundle3-{{ option.position }}-{{ forloop.index0 }}">
                               {{ value }}
