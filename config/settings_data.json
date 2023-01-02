@@ -84,12 +84,6 @@
       "cart-drawer": {
         "type": "cart-drawer",
         "blocks": {
-          "ce35da39-8666-4078-8a2b-f96324678747": {
-            "type": "upsell",
-            "settings": {
-              "product": "st-tropez-sarong-white-crinkle-linen"
-            }
-          },
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd": {
             "type": "upsell",
             "settings": {
@@ -105,13 +99,19 @@
           "b998258a-f74b-489f-88ac-d2845f748e54": {
             "type": "upsell",
             "settings": {
-              "product": "her-extra-hoops"
+              "product": "obsession-belt"
             }
           },
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
             "type": "upsell",
             "settings": {
               "product": "cannes-clutch"
+            }
+          },
+          "ce35da39-8666-4078-8a2b-f96324678747": {
+            "type": "upsell",
+            "settings": {
+              "product": "st-tropez-sarong-white-crinkle-linen"
             }
           },
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d": {
@@ -128,11 +128,11 @@
           }
         },
         "block_order": [
-          "ce35da39-8666-4078-8a2b-f96324678747",
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd",
           "179ec68a-9604-4dfe-9a08-c0e685271c72",
           "b998258a-f74b-489f-88ac-d2845f748e54",
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
+          "ce35da39-8666-4078-8a2b-f96324678747",
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
           "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86"
         ],
