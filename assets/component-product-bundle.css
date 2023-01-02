@@ -80,11 +80,11 @@
 .product-bundle__buttons-container input[disabled] + label::before {
   content: '';
   height: 43px;
-  top: 0;
+  top: -4px;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-  border-right: 1px solid rgba(0, 0, 0, .2);
+  border-right: 1px solid #CCC;
 }
 
 .product-bundle__buttons-container input[disabled] + label::after {
@@ -96,7 +96,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 100%;
-  border: 1px solid rgba(0, 0, 0, .2);
+  border: 1px solid #CCC;
   cursor: pointer;
   transition: border .3s ease;
 }
