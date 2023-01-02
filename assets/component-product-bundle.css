@@ -77,6 +77,29 @@
   border-color: rgba(0, 0, 0, .2);
 }
 
+.product-bundle__buttons-container input[type='radio'][disabled] + label::before {
+  content: '';
+  height: 43px;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+.product-bundle__buttons-container input[type='radio'][disabled] + label::after {
+  content: '';
+  height: 43px;
+  width: 43px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, .2);
+  cursor: pointer;
+  transition: border .3s ease;
+}
 
 .product-bundle .size-chart-dropdown {
   margin-top: 0;
