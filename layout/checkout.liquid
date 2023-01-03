@@ -131,6 +131,7 @@
           splitProductId.forEach(function(id){
             let lineItemsWrapper = document.querySelector('[data-order-summary-section="line-items"]');
             let lineItem = lineItemsWrapper.querySelector(`[data-variant-id="${id}"]`);
+            console.log(lineItem)
             if(lineItem){
               let labelHtml = 
                 `<div class="label">
