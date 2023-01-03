@@ -78,7 +78,7 @@
               {% endfor %}
             {% endif %}
 
-            {% unless product.vendor == "EcoCart" or product.type == 'Bundle' %}
+            {% unless product.vendor == "EcoCart" %}
               <li class="product-grid__item">
                 {% render 'product-card',
                   product_card_product: product,
