@@ -138,7 +138,7 @@
                     <span class="label_text">Final Sale</span>
                   </div>
                  </div>`;
-              lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
+              if(!lineItem.querySelector('.product__description').querySelector('.label')) lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
             }
           })
         }
