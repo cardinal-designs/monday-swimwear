@@ -131,8 +131,6 @@
           splitProductId.forEach(function(id){
             let lineItemsWrapper = document.querySelector('[data-order-summary-section="line-items"]');
             let lineItem = lineItemsWrapper.querySelector(`[data-variant-id="${id}"]`);
-            console.log(lineItem)
-            console.log(lineItem.querySelector('.product__description').querySelector('.label'))
             if(lineItem){
               let labelHtml = 
                 `<div class="label">
@@ -140,7 +138,7 @@
                     <span class="label_text">Final Sale</span>
                   </div>
                  </div>`;
-              lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
+              if(!lineItem.querySelector('.product__description').querySelector('.label')) lineItem.querySelector('.product__description').insertAdjacentHTML('beforeend',labelHtml);
             }
           })
         }
