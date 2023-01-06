@@ -10,17 +10,10 @@
       "settings": {
         "title": ""
       }
-    },
-    "164253095353d35284": {
-      "type": "in-real-life",
-      "settings": {
-        "title": "In Real Life"
-      }
     }
   },
   "order": [
     "main",
-    "16426285735ee00f29",
-    "164253095353d35284"
+    "16426285735ee00f29"
   ]
 }
