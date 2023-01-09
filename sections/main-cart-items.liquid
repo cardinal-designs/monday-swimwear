@@ -38,7 +38,7 @@
               {%- for item in cart.items -%}
                 {%- assign bundle_id = '' -%}
                 {%- for property in item.properties -%}
-                  {%- if property.first == '_bundleId' -%}
+                {%- if property.first == '_bundleId' or property.first == '_beachBundle' or property.first == '_terryBundle' -%}
                     {%- assign bundle_id = property.last -%}
                   {%- endif -%}
                 {%- endfor -%}
