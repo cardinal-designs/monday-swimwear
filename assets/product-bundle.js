@@ -46,7 +46,10 @@ class ProductBundle extends HTMLElement {
     let items = [];
     const bundleId = Date.now().toString(36);
 
+     
+
     this.getSelectedVariants().map(variant => {
+      console.log('henlo', this.title)
       items.push({
         id: variant,
         quantity: 1,
