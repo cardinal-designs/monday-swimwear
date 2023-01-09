@@ -153,7 +153,8 @@
                 {% assign only_default_variant_count = only_default_variant_count | plus: 1 %}
               {% endif %}
             {% endif %}
-{{ product.metafields.custom.bundle_product_2 }}
+            
+{{ product.metafields["custom"]["bundle_product_2"].value }}
             {% if product.metafields.custom.bundle_product_2 != blank %}
               {% assign product_2 = all_products[product.metafields.custom.bundle_product_2] %}
               <div class="product-bundle__item">
