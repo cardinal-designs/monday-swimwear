@@ -115,7 +115,7 @@
 
             {% if product.metafields.custom.bundle_product_1 != blank %}
               {% assign product_1 = all_products[product.metafields.custom.bundle_product_1] %}
-              {{ product_1 | json }}
+              {{ product_1 }}
               <div class="product-bundle__item">
                 <div class="product-bundle__image">
                   {% render 'lazy-image' image: product.metafields.custom.bundle_product_image_1, fade: true, classes: 'img-fill' %}
