@@ -49,24 +49,39 @@ class ProductBundle extends HTMLElement {
      
 
     this.getSelectedVariants().map(variant => {
-      // let bundleName;
-      // if (this.dataset.handle == 'monday-terry-bundle') {
-      //   let bundleName = '_terryBundle'
-      // } else if (this.dataset.handle == 'monday-beach-bundle') {
-      //   let bundleName = '_beachBundle'
-      // } else {
-      //   let bundleName = '_bundleId'
-      // }
-
-      items.push({
+      let bundleName;
+      if (this.dataset.handle == 'monday-terry-bundle') {
+        let bundleName = '_terryBundle'
+      } else if (this.dataset.handle == 'monday-beach-bundle') {
+        let bundleName = '_beachBundle'
+      } else {
+        let bundleName = '_bundleId'
+      }
+      
+      let bundleItem = {
         id: variant,
         quantity: 1,
         properties: {
           "Bundle": this.title,
-          this.dataset.handle == 'monday-terry-bundle' ? ("_terryBundle" : bundleId) : this.dataset.handle == 'monday-beach-bundle' ? ("_beachBundle" : bundleId) : "_bundleId" : bundleId
+           bundleName : bundleId
         }
+      }
+      
+      // items.push({
+      //   id: variant,
+      //   quantity: 1,
+      //   properties: {
+      //     "Bundle": this.title,
+      //     this.dataset.handle == 'monday-terry-bundle' ? ("_terryBundle" : bundleId) : this.dataset.handle == 'monday-beach-bundle' ? ("_beachBundle" : bundleId) : "_bundleId" : bundleId
+      //   }
+
+      items.push(bundleItem)
+
       })
 
+
+
+    
     });
 
   
