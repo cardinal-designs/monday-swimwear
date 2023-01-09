@@ -52,7 +52,7 @@ class ProductBundle extends HTMLElement {
       let bundleName;
       if (this.dataset.handle == 'monday-terry-bundle') {
         let bundleName = '_terryBundle'
-      } else if (this.dataset.handle == 'monday-beach-bundle') {
+      } else if (this.dataset.handle == 'beach-hair-bundle') {
         let bundleName = '_beachBundle'
       } else {
         let bundleName = '_bundleId'
