@@ -58,13 +58,15 @@ class ProductBundle extends HTMLElement {
       } else {
         let bundleName = '_bundleId'
       }
-      
+
+            console.log('v', bundleName)
+
       items.push({
         id: variant,
         quantity: 1,
         properties: {
           "Bundle": this.title,
-          bundleName : bundleId
+          `${bundleName}` : bundleId
         }
       })
     });
