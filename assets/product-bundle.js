@@ -63,7 +63,7 @@ class ProductBundle extends HTMLElement {
         quantity: 1,
         properties: {
           "Bundle": this.title,
-           bundleName : bundleId
+           `${bundleName}` : bundleId
         }
       }
       
