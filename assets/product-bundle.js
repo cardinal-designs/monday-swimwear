@@ -49,7 +49,7 @@ class ProductBundle extends HTMLElement {
      
 
     this.getSelectedVariants().map(variant => {
-      
+       
       items.push({
         id: variant,
         quantity: 1,
