@@ -66,9 +66,11 @@ class ProductBundle extends HTMLElement {
           bundleName : bundleId
         }
       })
+
+        console.log(bundleName)
     });
 
-    console.log(items)
+  
 
     const body = JSON.stringify({
       items: items,
