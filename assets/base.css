@@ -1652,7 +1652,7 @@ header-drawer {
   padding: 0;
   border-left: 0;
   background-color: white;
-  overflow-x: hidden;
+  overflow-x: scroll;
   transition: .4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
@@ -1673,7 +1673,6 @@ header-drawer {
 
 .menu-drawer__inner-container {
   padding: 0 10px;
-  overflow: scroll;
 }
 
 .menu-drawer__header {
