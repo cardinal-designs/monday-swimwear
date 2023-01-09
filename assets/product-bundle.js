@@ -57,30 +57,16 @@ class ProductBundle extends HTMLElement {
       } else {
         let bundleName = '_bundleId'
       }
-      
-      let bundleItem = {
+      items.push({
         id: variant,
         quantity: 1,
         properties: {
           "Bundle": this.title,
-           `${bundleName}` : bundleId
+          "_terryBundle" : bundleId
         }
-      }
-      
-      // items.push({
-      //   id: variant,
-      //   quantity: 1,
-      //   properties: {
-      //     "Bundle": this.title,
-      //     this.dataset.handle == 'monday-terry-bundle' ? ("_terryBundle" : bundleId) : this.dataset.handle == 'monday-beach-bundle' ? ("_beachBundle" : bundleId) : "_bundleId" : bundleId
-      //   }
+      })
 
-      items.push(bundleItem)
-
-
-
-
-    
+        console.log(bundleName)
     });
 
   
