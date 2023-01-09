@@ -120,7 +120,7 @@
                   {% render 'lazy-image' image: product.metafields.custom.bundle_product_image_1, fade: true, classes: 'img-fill' %}
                 </div>
                 <div class="product-bundle__content">
-                  <p class="product-bundle__content-title body">f {{ product_1.title }}</p>
+                  <p class="product-bundle__content-title body">{{ product_1.title }}</p>
                   <div class="product-bundle__buttons">
                     <div class="product-bundle__buttons-container">
                       {% for option in product_1.options_with_values %}
