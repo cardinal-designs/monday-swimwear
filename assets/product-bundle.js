@@ -49,24 +49,34 @@ class ProductBundle extends HTMLElement {
      
 
     this.getSelectedVariants().map(variant => {
-      let bundleName;
       if (this.dataset.handle == 'monday-terry-bundle') {
-        let bundleName = '_terryBundle'
+        items.push({
+          id: variant,
+          quantity: 1,
+          properties: {
+            "Bundle": this.title,
+            "_terryBundle" : bundleId
+          }
+        })   
       } else if (this.dataset.handle == 'beach-hair-bundle') {
-        let bundleName = '_beachBundle'
+        items.push({
+          id: variant,
+          quantity: 1,
+          properties: {
+            "Bundle": this.title,
+            "_beachBundle" : bundleId
+          }
+        })
       } else {
-        let bundleName = '_bundleId'
+        items.push({
+          id: variant,
+          quantity: 1,
+          properties: {
+            "Bundle": this.title,
+            "_bundleId" : bundleId
+          }
+        })
       }
-      items.push({
-        id: variant,
-        quantity: 1,
-        properties: {
-          "Bundle": this.title,
-          "_terryBundle" : bundleId
-        }
-      })
-
-        console.log(bundleName)
     });
 
   
