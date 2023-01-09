@@ -50,12 +50,21 @@ class ProductBundle extends HTMLElement {
 
     this.getSelectedVariants().map(variant => {
       console.log('v', this.dataset.handle)
+      let bundleName;
+      if (this.dataset.handle == 'monday-terry-bundle') {
+        bundleName = '_terryBundle'
+      } else if () {
+        bundleName = '_beachBundle'
+      } else {
+        bundleName = '_bundleId'
+      }
+      
       items.push({
         id: variant,
         quantity: 1,
         properties: {
           "Bundle": this.title,
-          "_bundleId": bundleId
+          bundleName : bundleId
         }
       })
     });
