@@ -109,7 +109,7 @@
         %}
 
         {% assign only_default_variant_count = 0 %}
-{% if product.metafields.custom.bundle_product_1 != blank %}true {% else %}false{% endif %}
+{{ all_products[product.metafields.custom.bundle_product_1.value].title }}
         <product-bundle data-title="{{ product.title }}" data-handle="{{ product.handle }}" data-total="{{ bundle_count }}">
           <form class="product-bundle" id="product-bundle-form">
 
