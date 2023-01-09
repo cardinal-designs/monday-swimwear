@@ -1673,6 +1673,7 @@ header-drawer {
 
 .menu-drawer__inner-container {
   padding: 0 10px;
+  overflow: scroll;
 }
 
 .menu-drawer__header {
@@ -1700,7 +1701,6 @@ header-drawer {
 
 .menu-drawer__navigation-container {
   padding: 0 0 30px;
-  overflow: scroll;
 }
 
 .header__icon--close {
