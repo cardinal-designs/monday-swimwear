@@ -53,7 +53,7 @@ class ProductBundle extends HTMLElement {
       let bundleName;
       if (this.dataset.handle == 'monday-terry-bundle') {
         bundleName = '_terryBundle'
-      } else if () {
+      } else if (this.dataset.handle == 'monday-beach-bundle') {
         bundleName = '_beachBundle'
       } else {
         bundleName = '_bundleId'
