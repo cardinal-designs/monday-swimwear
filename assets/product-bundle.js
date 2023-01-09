@@ -49,7 +49,6 @@ class ProductBundle extends HTMLElement {
      
 
     this.getSelectedVariants().map(variant => {
-      console.log('v', this.dataset.handle)
       let bundleName;
       if (this.dataset.handle == 'monday-terry-bundle') {
         let bundleName = '_terryBundle'
@@ -64,10 +63,12 @@ class ProductBundle extends HTMLElement {
         quantity: 1,
         properties: {
           "Bundle": this.title,
-          `${bundleName}` : bundleId
+          bundleName : bundleId
         }
       })
     });
+
+    console.log(items)
 
     const body = JSON.stringify({
       items: items,
