@@ -59,8 +59,6 @@ class ProductBundle extends HTMLElement {
         let bundleName = '_bundleId'
       }
 
-            console.log('v', bundleName)
-
       items.push({
         id: variant,
         quantity: 1,
