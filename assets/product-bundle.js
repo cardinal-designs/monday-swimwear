@@ -77,7 +77,6 @@ class ProductBundle extends HTMLElement {
 
       items.push(bundleItem)
 
-      })
 
 
 
