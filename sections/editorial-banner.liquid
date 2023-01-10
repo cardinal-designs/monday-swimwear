@@ -2,33 +2,33 @@
 
 <div class="editorial-banner">
   <div class="page-width">
-    <div class="editorial-banner__container">
-
-      {% if section.settings.mobile_image != blank %}
-        {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
-        {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
-      {% else %}
-        {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
-      {% endif %}
-
-      <h2 class="h1 editorial-banner__left-text">
-        <span>{{ section.settings.left_text }}</span>
-      </h2>
-      <h2 class="h1 editorial-banner__right-text">
-        <span>{{ section.settings.right_text }}</span>
-      </h2>
-      
-      <div class="editorial-banner__link">
-        {% if section.settings.link_label != blank %}
-          <a href="{{ section.settings.link }}" class="text-link">{{ section.settings.link_label }}
-            {% if section.settings.logo != blank %}
-            <span class="text-link-logo">{% render 'lazy-image' image: section.settings.logo %}</span>
-            {% endif %}
-          </a>
+    <a href="{{ section.settings.link }}">
+      <div class="editorial-banner__container">
+        {% if section.settings.mobile_image != blank %}
+          {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+          {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+        {% else %}
+          {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
         {% endif %}
+  
+        <h2 class="h1 editorial-banner__left-text">
+          <span>{{ section.settings.left_text }}</span>
+        </h2>
+        <h2 class="h1 editorial-banner__right-text">
+          <span>{{ section.settings.right_text }}</span>
+        </h2>
+        
+        <div class="editorial-banner__link">
+          {% if section.settings.link_label != blank %}
+            <a href="{{ section.settings.link }}" class="text-link">{{ section.settings.link_label }}
+              {% if section.settings.logo != blank %}
+              <span class="text-link-logo">{% render 'lazy-image' image: section.settings.logo %}</span>
+              {% endif %}
+            </a>
+          {% endif %}
+        </div>
       </div>
-
-    </div>
+    </a>
   </div>
 </div>
 
