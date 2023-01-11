@@ -498,6 +498,27 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-whitehaven-one-piece"
             }
+          },
+          "edbf894c-cd76-4d2a-ad8f-db8199614b88": {
+            "type": "one_piece",
+            "disabled": true,
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Vera-One-Piece---Black.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Vera-One-Piece---Black-1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Vera-One-Piece---Black-2.jpg",
+              "title": "The Vera One Piece",
+              "short_title": "Vera One Piece",
+              "short_description": "Modern,Sexy,Sophisticated",
+              "description": "Suit up in style in our newest one shoulder: The Vera One Piece. Sophisticated and chic, this one piece features a sleek one-shoulder design with our favorite cheeky coverage, gold ring detailing and adjustable back tie . Made to easily transtion under any sarong for cocktail hour.",
+              "highlights": "Straight neckline, one shoulder, adjustable back tie, high cut leg, chunky gold ring detail \ncheeky coverage",
+              "fit": "Designed to best fit cup sizes A-E",
+              "padding": "No",
+              "coverage": "Cheeky",
+              "style": "Skin-baring",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
           }
         },
         "block_order": [
@@ -510,7 +531,8 @@
           "432459e1-8505-4365-a347-fbc6e0b1be6e",
           "883266b6-9198-4474-a6ec-d3215fe07e2a",
           "cad1b610-c4f2-4439-9836-d7a8da702f1e",
-          "53ad0856-0a4d-44a3-8195-38377837d3b1"
+          "53ad0856-0a4d-44a3-8195-38377837d3b1",
+          "edbf894c-cd76-4d2a-ad8f-db8199614b88"
         ],
         "settings": {
         }
