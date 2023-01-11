@@ -76,17 +76,6 @@
       "settings": {
       }
     },
-    "16408101574f5b391b": {
-      "type": "editorial-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/upto-web_56660b93-c893-442c-add2-e099bdb83331.png",
-        "mobile_image": "shopify:\/\/shop_images\/upto-mob_7ecef97d-7471-4c7d-85cf-6c14a72b2207.png",
-        "left_text": "",
-        "right_text": "",
-        "link_label": "start saving",
-        "link": "shopify:\/\/collections\/up-to-70-off-sale"
-      }
-    },
     "1640811405c1297562": {
       "type": "link-blocks",
       "disabled": true,
@@ -117,6 +106,17 @@
       "settings": {
         "text_style": "overlay",
         "slider_on_mobile": false
+      }
+    },
+    "16408101574f5b391b": {
+      "type": "editorial-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/upto-web_56660b93-c893-442c-add2-e099bdb83331.png",
+        "mobile_image": "shopify:\/\/shop_images\/upto-mob_7ecef97d-7471-4c7d-85cf-6c14a72b2207.png",
+        "left_text": "",
+        "right_text": "",
+        "link_label": "start saving",
+        "link": "shopify:\/\/collections\/up-to-70-off-sale"
       }
     },
     "1640812146b4d73cae": {
@@ -270,8 +270,8 @@
     "1657215750b8e1724d",
     "164081090579915a8a",
     "16407502469f0e5f45",
-    "16408101574f5b391b",
     "1640811405c1297562",
+    "16408101574f5b391b",
     "1640812146b4d73cae",
     "16408186509f925b52",
     "1640814929d4a3c77a",
