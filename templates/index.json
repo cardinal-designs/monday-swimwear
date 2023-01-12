@@ -78,24 +78,23 @@
     },
     "1640811405c1297562": {
       "type": "link-blocks",
-      "disabled": true,
       "blocks": {
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/L1_9149e6ac-1dfe-4884-b00e-bd1928c424e3.jpg",
-            "text": "SUMMER IN COLOR",
-            "link_label": "SHOP SUMMER '22",
-            "link": "shopify:\/\/collections\/summer-22"
+            "text": "",
+            "link_label": "SHOP TOPS",
+            "link": "shopify:\/\/collections\/tops"
           }
         },
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L2_28f661bd-980b-4400-8760-86778f3f1a5c.jpg",
-            "text": "TEXTURES YOU CAN FEEL",
-            "link_label": "SHOP TEXTURED FABRICS",
-            "link": "shopify:\/\/collections\/textured-fabrics"
+            "image": "shopify:\/\/shop_images\/2_4ae9994f-28fc-4199-a673-a303c50a0d02.jpg",
+            "text": "",
+            "link_label": "SHOP BOTTOMS",
+            "link": "shopify:\/\/collections\/bottoms"
           }
         }
       },
