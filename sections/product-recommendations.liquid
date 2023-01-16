@@ -9,27 +9,27 @@
 <noscript>{{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}</noscript>
 
 <product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
-  {% if recommendations.performed and recommendations.products_count > 0 %}
-    <h2 class="product-recommendations__heading sh4">
-      Recommended
-      <div class="glow"></div>
-      {{ section.settings.heading | escape }}
-    </h2>
-    <ul class="product-recommendations__grid swiper list-unstyled" role="list">
-      <div class="swiper-wrapper">
-        {% for recommendation in recommendations.products %}
-          <li class="product-recommendations__item swiper-slide">
-            {% render 'product-card',
-              product_card_product: recommendation
-            %}
-          </li>
-        {% endfor %}
-      </div>
-      <div class="product-recommendations__scrollbar-wrapper">
-        <div class="swiper-scrollbar product-recommendations__scrollbar hide-desktop"></div>
-      </div>
-    </ul>
-  {% endif %}
+{% if recommendations.performed and recommendations.products_count > 0 %}
+  <h2 class="product-recommendations__heading sh4">
+    Recommended
+    <div class="glow"></div>
+    {{ section.settings.heading | escape }}
+  </h2>
+  <ul class="product-recommendations__grid swiper list-unstyled" role="list">
+    <div class="swiper-wrapper">
+      {% for recommendation in recommendations.products %}
+        <li class="product-recommendations__item swiper-slide">
+          {% render 'product-card',
+            product_card_product: recommendation
+          %}
+        </li>
+      {% endfor %}
+    </div>
+    <div class="product-recommendations__scrollbar-wrapper">
+      <div class="swiper-scrollbar product-recommendations__scrollbar hide-desktop"></div>
+    </div>
+  </ul>
+{% endif %}
 </product-recommendations>
 
 {% javascript %}

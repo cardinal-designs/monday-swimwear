@@ -489,6 +489,20 @@
     parent.classList.toggle('active');
     slideToggle(content, 300);
   });
+
+  // Zoom
+  initZoom();
+  window.addEventListener('resize', event => {
+    initZoom();
+  });
+
+  function initZoom() {
+    if (window.innerWidth < 769) {
+      $('.product__media').trigger('zoom.destroy');
+    } else {
+      $('.product__media').zoom({magnify: 1.5, url: $(this).data('fullsize')});
+    }
+  }
 {% endjavascript %}
 
 <script>
