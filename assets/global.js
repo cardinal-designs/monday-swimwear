@@ -1205,8 +1205,16 @@ if (!!document.getElementById('checkoutCheckbox')) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  let inventory = Number(document.getElementsByClassName('product-form__input-size:checked').dataset.inventory);
-  console.log('vv',inventory)
+  let inputs = Number(document.getElementsByClassName('product-form__input-size');
+  let inventory;
+
+  for(var i = 0, l = inputs.length; i < l; ++i) {
+    if(inputs[i].checked) {
+      inventory = inputs[i].dataset.inventory
+      break;
+    }
+  }
+  
   if (inventory > 0 && inventory < 5) {
     document.getElementById('almost-sold-out').style.display = "block";
   } else {
