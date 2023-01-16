@@ -789,3 +789,10 @@ variant-radios fieldset {
     margin: 0 10px;
   }
 }
+
+.almost-sold-out {
+  text-align: center;
+  padding: 10px;
+  background: var(--tan);
+  display: none;
+}

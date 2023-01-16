@@ -177,6 +177,7 @@
                           {% if option.name == 'Size' %}class="product-form__input-size"{% endif %}
                           name="{{ option.name }}"
                           value="{{ value | escape }}"
+                          data-inventory="{{ product.variants[forloop.index0].inventory_quantity }}"
                           {% if option.selected_value == value %}checked{% endif %}
                            form="{{ product_form_id }}"
                         >
@@ -332,6 +333,7 @@
                   </div>
               </button>
             </div>
+            <p id="almost-sold-out" class="detail-caps almost-sold-out">ALMOST SOLD OUT!</p>
 
             <div class="product-form__buttons">
               {%- if block.settings.show_dynamic_checkout -%}

@@ -574,6 +574,7 @@ class VariantSelects extends HTMLElement {
 
   updateInfoText(event) {
     let value = event.target.closest('input:checked').value;
+    let inventory = Number(event.target.closest('input:checked').dataset.inventory);
     const initialValue = event.target.closest('input:checked').value;
     const activeTexts = this.querySelectorAll('.product-form__input-active');
     const isSize = event.target.classList.contains('product-form__input-size');
@@ -622,6 +623,12 @@ class VariantSelects extends HTMLElement {
       
         default:
           value;
+      }
+
+      if (inventory > 0 && inventory < 5) {
+        document.getElementById('almost-sold-out').style.display = "block";
+      } else {
+        document.getElementById('almost-sold-out').style.display = "none";
       }
     }
 
@@ -1196,5 +1203,23 @@ if (!!document.getElementById('checkoutCheckbox')) {
     }
   })
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  let inputs = document.getElementsByClassName('product-form__input-size');
+  let inventory;
+
+  for(var i = 0, l = inputs.length; i < l; ++i) {
+    if(inputs[i].checked) {
+      inventory = inputs[i].dataset.inventory
+      break;
+    }
+  }
+  
+  if (inventory > 0 && inventory < 5) {
+    document.getElementById('almost-sold-out').style.display = "block";
+  } else {
+    document.getElementById('almost-sold-out').style.display = "none";
+  }
+});
 
 
