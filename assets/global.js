@@ -1204,11 +1204,5 @@ if (!!document.getElementById('checkoutCheckbox')) {
   })
 }
 
-document.getElementsByClassName("product-form__input-size").addEventListener("load", myFunction);
-
-function myFunction() {
-  let inventory = Number(('product-form__input-size input:checked').dataset.inventory);
-  console.log('loaded')
-}
 
 
