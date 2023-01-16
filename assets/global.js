@@ -1204,5 +1204,14 @@ if (!!document.getElementById('checkoutCheckbox')) {
   })
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  let inventory = Number(document.getElementsByClassName('product-form__input-size:checked').dataset.inventory);
+  console.log('vv',inventory)
+  if (inventory > 0 && inventory < 5) {
+    document.getElementById('almost-sold-out').style.display = "block";
+  } else {
+    document.getElementById('almost-sold-out').style.display = "none";
+  }
+});
 
 
