@@ -1207,16 +1207,13 @@ if (!!document.getElementById('checkoutCheckbox')) {
 document.addEventListener("DOMContentLoaded", function() {
   let inputs = document.getElementsByClassName('product-form__input-size');
   let inventory;
-  console.log('inpupts',inputs)
+
   for(var i = 0, l = inputs.length; i < l; ++i) {
-    console.log('v',inputs[i].checked)
     if(inputs[i].checked) {
       inventory = inputs[i].dataset.inventory
       break;
     }
   }
-
-  console.log('vac',inventory)
   
   if (inventory > 0 && inventory < 5) {
     document.getElementById('almost-sold-out').style.display = "block";
