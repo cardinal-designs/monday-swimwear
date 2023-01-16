@@ -625,17 +625,12 @@ class VariantSelects extends HTMLElement {
           value;
       }
 
-      if(isSize){
-        switch (inventory) {
-          case 'P':
-            value = 'Petite';
-            break;
-  
-        
-          default:
-            value;
-        }
+      if (inventory > 0 && inventory < 5) {
+        this.querySelectorAll('.almost-sold-out').style.display = "block";
+      } else {
+        this.querySelectorAll('.almost-sold-out').style.display = "none";
       }
+      
 
     }
 
