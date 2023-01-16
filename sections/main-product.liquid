@@ -177,6 +177,7 @@
                           {% if option.name == 'Size' %}class="product-form__input-size"{% endif %}
                           name="{{ option.name }}"
                           value="{{ value | escape }}"
+                          inventory="{{ product.variant[forloop.index0].inventory_quantity }}"
                           {% if option.selected_value == value %}checked{% endif %}
                            form="{{ product_form_id }}"
                         >
