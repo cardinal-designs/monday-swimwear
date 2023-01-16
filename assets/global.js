@@ -1214,6 +1214,8 @@ document.addEventListener("DOMContentLoaded", function() {
       break;
     }
   }
+
+  console.log('vac',inventory)
   
   if (inventory > 0 && inventory < 5) {
     document.getElementById('almost-sold-out').style.display = "block";
