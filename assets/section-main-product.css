@@ -366,6 +366,7 @@ variant-radios fieldset {
   height: 30px;
   width: 30px;
   margin: 5px 10px;
+  font-size: 11px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,7 +376,6 @@ variant-radios fieldset {
   background-size: cover;
   background-position: center;
   position: relative;
-  font-size: 12px;
   background-color: #F8F7F4;
 }
 
