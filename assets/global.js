@@ -579,7 +579,7 @@ class VariantSelects extends HTMLElement {
     const activeTexts = this.querySelectorAll('.product-form__input-active');
     const isSize = event.target.classList.contains('product-form__input-size');
     const isProductBar = event.target.classList.contains('is-product-bar');
-    console.log(inventory)
+    console.log('inventory',inventory)
     if (isSize) {
       switch (value) {
         case 'P':
