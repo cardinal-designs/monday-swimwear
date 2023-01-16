@@ -791,5 +791,6 @@ variant-radios fieldset {
 
 .almost-sold-out {
   text-align: center;
+  padding: 10px;
   background: var(--tan);
 }
