@@ -574,11 +574,12 @@ class VariantSelects extends HTMLElement {
 
   updateInfoText(event) {
     let value = event.target.closest('input:checked').value;
+    let inventory = event.target.closest('input:checked').dataset.inventory;
     const initialValue = event.target.closest('input:checked').value;
     const activeTexts = this.querySelectorAll('.product-form__input-active');
     const isSize = event.target.classList.contains('product-form__input-size');
     const isProductBar = event.target.classList.contains('is-product-bar');
-
+    console.log(inventory)
     if (isSize) {
       switch (value) {
         case 'P':
@@ -623,6 +624,7 @@ class VariantSelects extends HTMLElement {
         default:
           value;
       }
+
     }
 
     if (isProductBar) {
