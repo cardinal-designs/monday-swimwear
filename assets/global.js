@@ -624,6 +624,7 @@ class VariantSelects extends HTMLElement {
         default:
           value;
       }
+        console.log(document.getElementsByClassName('almost-sold-out'))
 
       if (inventory > 0 && inventory < 5) {
         document.getElementsByClassName('almost-sold-out').style.display = "block";
