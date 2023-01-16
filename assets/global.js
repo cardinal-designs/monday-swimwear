@@ -627,9 +627,9 @@ class VariantSelects extends HTMLElement {
         console.log('afaf',document.getElementsByClassName('almost-sold-out'))
 
       if (inventory > 0 && inventory < 5) {
-        document.getElementsByClassName('almost-sold-out').style.display = "block";
+        document.getElementById('almost-sold-out').style.display = "block";
       } else {
-        document.getElementsByClassName('almost-sold-out').style.display = "none";
+        document.getElementById('almost-sold-out').style.display = "none";
       }
       
 
