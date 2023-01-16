@@ -624,15 +624,12 @@ class VariantSelects extends HTMLElement {
         default:
           value;
       }
-        console.log('afaf',document.getElementsByClassName('almost-sold-out'))
 
       if (inventory > 0 && inventory < 5) {
         document.getElementById('almost-sold-out').style.display = "block";
       } else {
         document.getElementById('almost-sold-out').style.display = "none";
       }
-      
-
     }
 
     if (isProductBar) {
