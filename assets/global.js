@@ -1209,6 +1209,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let inventory;
 
   for(var i = 0, l = inputs.length; i < l; ++i) {
+    console.log('v',inputs[i].checked)
     if(inputs[i].checked) {
       inventory = inputs[i].dataset.inventory
       break;
