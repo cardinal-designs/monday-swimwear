@@ -574,7 +574,7 @@ class VariantSelects extends HTMLElement {
 
   updateInfoText(event) {
     let value = event.target.closest('input:checked').value;
-    let inventory = event.target.closest('input:checked');
+    let inventory = event.target.closest('input:checked').dataset.inventory;
     const initialValue = event.target.closest('input:checked').value;
     const activeTexts = this.querySelectorAll('.product-form__input-active');
     const isSize = event.target.classList.contains('product-form__input-size');
