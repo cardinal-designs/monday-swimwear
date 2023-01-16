@@ -793,4 +793,5 @@ variant-radios fieldset {
   text-align: center;
   padding: 10px;
   background: var(--tan);
+  display: none;
 }
