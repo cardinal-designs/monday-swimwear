@@ -369,6 +369,7 @@ variant-radios fieldset {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-shrink: 0;
   border-radius: 100%;
   background-size: cover;
