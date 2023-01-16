@@ -1205,7 +1205,7 @@ if (!!document.getElementById('checkoutCheckbox')) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  let inputs = Number(document.getElementsByClassName('product-form__input-size');
+  let inputs = Number(document.getElementsByClassName('product-form__input-size'));
   let inventory;
 
   for(var i = 0, l = inputs.length; i < l; ++i) {
