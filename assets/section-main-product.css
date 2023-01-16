@@ -788,3 +788,8 @@ variant-radios fieldset {
     margin: 0 10px;
   }
 }
+
+.almost-sold-out {
+  text-align: center;
+  background: var(--tan);
+}
