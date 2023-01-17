@@ -1693,7 +1693,7 @@ body {
 .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list-field-input {
   border: solid 1px #fff;
   font-family: Sunset Gothic,sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 2.24px;
@@ -1707,6 +1707,10 @@ body {
   height: 40px;
   border-radius: 0;
   margin-bottom: 10px;
+}
+.referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list-field-input::placeholder {
+  font-family: Sunset Gothic,sans-serif;
+  font-size: 14px;
 }
 @media (min-width: 480px) {
   .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list-field-input {
