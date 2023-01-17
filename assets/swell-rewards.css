@@ -175,7 +175,7 @@ body {
   cursor: pointer;
   border: 1px solid #fff;
   background-color: #fff;
-  font-family: 'Gibson';
+  font-family: Sunset Gothic,sans-serif;
   font-size: 12px;
   font-weight: 600;
   line-height: normal;
@@ -1956,7 +1956,7 @@ body {
   top: -50px;
 }
 .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-heading {
-  font-family: 'Gibson';
+  font-family: Sunset Gothic,sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: normal;
@@ -1974,7 +1974,7 @@ body {
   display: none;
 }
 .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-copy-link {
-  font-family: 'Gibson';
+  font-family: Sunset Gothic,sans-serif;
   font-size: 22px;
   font-weight: 600;
   line-height: normal;
@@ -2016,7 +2016,7 @@ body {
   color: #c78c7a;
 }
 .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-details {
-  font-family: 'Gibson';
+  font-family: Sunset Gothic,sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: normal;
@@ -2086,7 +2086,7 @@ body {
 /* Post Checkout Pop-up Code End */
 .swell-checkout-page .redeem-credits-title {
   display: block;
-  font-family: 'Gibson';
+  font-family: Sunset Gothic,sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -2132,7 +2132,7 @@ body {
   justify-content: space-between;
 }
 .swell-checkout-page .footer-holder .redeem-content {
-  font-family: 'Gibson';
+  font-family: Sunset Gothic,sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: normal;
