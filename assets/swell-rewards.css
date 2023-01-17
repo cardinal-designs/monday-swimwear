@@ -1663,7 +1663,7 @@ body {
 }
 .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-details {
   font-family: Sunset Gothic,sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: normal;
@@ -1671,12 +1671,6 @@ body {
   max-width: 300px;
   width: 100%;
   margin: 0 auto 25px;
-}
-@media (min-width: 480px) {
-  .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-details {
-    font-size: 19px;
-    max-width: 480px;
-  }
 }
 @media (min-width: 768px) {
   .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-details {
