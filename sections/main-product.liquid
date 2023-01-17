@@ -267,6 +267,8 @@
               </div>
             </div>
           {% endunless %}
+          <p id="almost-sold-out" class="detail-caps almost-sold-out">ALMOST SOLD OUT!</p>
+
 
           <div class="product-form__error-message-wrapper" role="alert" hidden>
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -333,7 +335,6 @@
                   </div>
               </button>
             </div>
-            <p id="almost-sold-out" class="detail-caps almost-sold-out">ALMOST SOLD OUT!</p>
 
             <div class="product-form__buttons">
               {%- if block.settings.show_dynamic_checkout -%}
