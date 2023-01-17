@@ -1593,7 +1593,7 @@ body {
   justify-content: center;
   width: 100%;
   margin: 0 auto;
-  background-color: #C78C7A;
+  background-color: #FAF5E1;
 }
 @media (min-width: 768px) {
   .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main {
@@ -1644,6 +1644,7 @@ body {
 .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-heading {
   font-family: Sunset Gothic,sans-serif;
   font-size: 30px;
+  color: black;
   font-weight: 500;
   line-height: normal;
   letter-spacing: normal;
@@ -2054,10 +2055,6 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 0 10px;
-}
-
-.swell-post-checkout-swimwear .swell-post-checkout-holder .swell-referral-content-main {
-  background-color: #FAF5E1;
 }
 .swell-post-checkout-swimwear .swell-post-checkout-holder .checkout-heading {
   position: relative;
