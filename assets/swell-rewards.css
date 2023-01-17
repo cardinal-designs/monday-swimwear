@@ -1725,13 +1725,11 @@ body {
 }
 .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list-submit {
   font-family: Sunset Gothic,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 2.24px;
   color: #fff;
-  border: 2px solid #fff;
-  background-color: transparent;
+  background-color: black;
   width: 100%;
   height: 40px;
   outline: 0;
