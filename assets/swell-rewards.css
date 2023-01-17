@@ -2044,7 +2044,6 @@ body {
   display: none;
   align-items: center;
   justify-content: center;
-  background-color: #FAF5E1;
 }
 .swell-post-checkout-swimwear .swell-post-checkout-holder {
   max-width: 650px;
@@ -2055,6 +2054,10 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 0 10px;
+}
+
+.swell-post-checkout-swimwear .swell-post-checkout-holder .swell-referral-content-main {
+  background-color: #FAF5E1;
 }
 .swell-post-checkout-swimwear .swell-post-checkout-holder .checkout-heading {
   position: relative;
