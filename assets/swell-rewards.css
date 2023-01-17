@@ -2042,6 +2042,7 @@ body {
   display: none;
   align-items: center;
   justify-content: center;
+  background-color: #FAF5E1;
 }
 .swell-post-checkout-swimwear .swell-post-checkout-holder {
   max-width: 650px;
@@ -2057,9 +2058,10 @@ body {
   position: relative;
 }
 .swell-post-checkout-swimwear .swell-post-checkout-holder .checkout-heading .swell-post-checkout-heading {
-  font-family: 'Gibson';
+  font-family: Sunset Gothic,sans-serif;
+  font-style: normal;
+  font-weight: 600;
   font-size: 22px;
-  font-weight: 500;
   line-height: normal;
   letter-spacing: normal;
   color: #fff;
