@@ -403,7 +403,7 @@ variant-radios fieldset {
 }
 
 .product-form__button-wrapper {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
 }
 
@@ -795,4 +795,5 @@ variant-radios fieldset {
   padding: 10px;
   background: var(--tan);
   display: none;
+  margin-bottom: 0;
 }

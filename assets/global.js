@@ -625,7 +625,7 @@ class VariantSelects extends HTMLElement {
           value;
       }
 
-      if (inventory > 0 && inventory < 5) {
+      if (inventory > 0 && inventory <= 10) {
         document.getElementById('almost-sold-out').style.display = "block";
       } else {
         document.getElementById('almost-sold-out').style.display = "none";
@@ -1215,7 +1215,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
   
-  if (inventory > 0 && inventory < 5) {
+  if (inventory > 0 && inventory <= 10) {
     document.getElementById('almost-sold-out').style.display = "block";
   } else {
     document.getElementById('almost-sold-out').style.display = "none";

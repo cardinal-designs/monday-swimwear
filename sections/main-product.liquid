@@ -268,6 +268,7 @@
             </div>
           {% endunless %}
 
+
           <div class="product-form__error-message-wrapper" role="alert" hidden>
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
               <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
@@ -277,6 +278,7 @@
             </svg>
             <span class="product-form__error-message"></span>
           </div>
+          <p id="almost-sold-out" class="detail-caps almost-sold-out">ALMOST SOLD OUT!</p>
 
           {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
             <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -333,7 +335,6 @@
                   </div>
               </button>
             </div>
-            <p id="almost-sold-out" class="detail-caps almost-sold-out">ALMOST SOLD OUT!</p>
 
             <div class="product-form__buttons">
               {%- if block.settings.show_dynamic_checkout -%}
