@@ -1644,11 +1644,10 @@ body {
 .referral-section .swell-container .swell-referral .swell-referral-content-container .swell-referral-content-main .swell-referral-heading {
   font-family: Sunset Gothic,sans-serif;
   font-size: 30px;
-  color: black;
   font-weight: 500;
   line-height: normal;
   letter-spacing: normal;
-  color: #fff;
+  color: #000;
   margin: 0 auto 5px;
   text-transform: capitalize;
 }
@@ -1666,10 +1665,9 @@ body {
   font-family: Sunset Gothic,sans-serif;
   font-size: 12px;
   font-weight: 500;
-  color: black;
   line-height: normal;
   letter-spacing: normal;
-  color: #fff;
+  color: #000;
   max-width: 300px;
   width: 100%;
   margin: 0 auto 25px;
