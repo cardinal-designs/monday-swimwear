@@ -54,8 +54,6 @@
         margin-bottom: 0 !important;
       }
     </style>
-
-    {% comment %}{{ 'swell-rewards.css' | asset_url | stylesheet_tag }}{% endcomment %}
   
     {{ skip_to_content_link }}
 
@@ -107,14 +105,7 @@
     <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript"></script> 
     <!-- /PASSPORT BREAKOUT SCRIPT -->
     
-    {{ 'swell-rewards.js' | asset_url | script_tag }}
-
     {% include 'checkout-scripts' %}
-
-    {% comment %}
-    {% include 'swell-checkout' %}
-    {% include 'swell-post-checkout' %}
-    {% endcomment %}
 
     <div class="yotpo-widget-instance" data-yotpo-instance-id="173414"></div>
     
