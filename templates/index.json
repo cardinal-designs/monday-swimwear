@@ -39,6 +39,7 @@
     },
     "164081090579915a8a": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "text": "Major discounts 👀  Our end of the year sale ends Jan 20! No code necessary, prices reflected at checkout.",
         "wide": true,
@@ -110,12 +111,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/upto-web_56660b93-c893-442c-add2-e099bdb83331.png",
-        "mobile_image": "shopify:\/\/shop_images\/upto-mob_7ecef97d-7471-4c7d-85cf-6c14a72b2207.png",
+        "image": "shopify:\/\/shop_images\/Alt_8d732b72-bd54-4a8a-b3a6-7077c52277b5.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Alt-mobile.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "start saving",
-        "link": "shopify:\/\/collections\/up-to-70-off-sale"
+        "link_label": "shop accessories",
+        "link": "shopify:\/\/collections\/beachwear-accessories"
       }
     },
     "1640812146b4d73cae": {
