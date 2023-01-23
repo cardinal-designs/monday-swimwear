@@ -50,10 +50,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+        "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "bridal-collection"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -62,17 +62,17 @@
             "collection": "the-signature-collection-1"
           }
         },
-        "944498a4-3695-48f6-9a89-0208d09aab7b": {
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
-            "collection": "monday-beachwear"
+            "collection": "beachwear-accessories"
           }
         }
       },
       "block_order": [
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "944498a4-3695-48f6-9a89-0208d09aab7b",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "944498a4-3695-48f6-9a89-0208d09aab7b"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
       }
