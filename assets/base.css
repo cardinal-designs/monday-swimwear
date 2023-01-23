@@ -2547,3 +2547,20 @@ header-drawer {
   letter-spacing: .02em;
 }
 
+.yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile .yotpo-tile-box .yotpo-email-view .yotpo-referral-widget-form .yotpo-action-button-widget .yotpo-button-style {
+  border-radius: 0;
+  padding: 16px 50px;
+  font-size: 16px;
+  line-height: 1;
+  background: black !important;
+  color: #fff !important;
+  border: 1px solid black !important;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+}
+
+.yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile .yotpo-tile-box .yotpo-email-view .yotpo-referral-widget-form .yotpo-action-button-widget .yotpo-button-style .yopto-widget-button-text {
+  font-weight: 800 !important;
+  font-family: Neue Haas Unica Pro,sans-serif !important;
+}
