@@ -2539,3 +2539,11 @@ header-drawer {
   padding-bottom: 20px;
 }
 
+.yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile .yotpo-tile-box .yotpo-email-view .yotpo-description-text {
+  font-family: Neue Haas Unica Pro,sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: .02em;
+}
+
