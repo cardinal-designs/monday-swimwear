@@ -126,8 +126,8 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_dad1568d-ca9d-4e1f-b1bf-a657abfc3451.jpg",
-            "text": "Vacation Essentials",
-            "link_label": "Shop Now",
+            "text": "Back in Stock",
+            "link_label": "Shop the Restock",
             "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         },
@@ -144,7 +144,7 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_c73823dd-c26b-4c88-a211-d0e79cbb72cf.jpg",
-            "text": "Winter Escape",
+            "text": "Honeymoon Essentials",
             "link_label": "Shop Ivory",
             "link": "shopify:\/\/collections\/ivory"
           }
