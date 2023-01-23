@@ -2558,9 +2558,17 @@ header-drawer {
   cursor: pointer;
   width: auto;
   height: auto;
+  transition: border .35s ease-in-out,color .35s ease-in-out,background .35s ease-in-out;
+  -webkit-transition: border .35s ease-in-out,color .35s ease-in-out,background .35s ease-in-out;
 }
 
 .yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile .yotpo-tile-box .yotpo-email-view .yotpo-referral-widget-form .yotpo-action-button-widget .yotpo-button-style .yopto-widget-button-text {
   font-weight: 800 !important;
   font-family: Neue Haas Unica Pro,sans-serif !important;
+}
+
+.yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile .yotpo-tile-box .yotpo-email-view .yotpo-referral-widget-form .yotpo-action-button-widget .yotpo-button-style:hover {
+  background: transparent !important;
+  border-color: #000 !important;
+  color: #000 !important;
 }
