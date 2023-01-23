@@ -2533,5 +2533,9 @@ header-drawer {
   padding-bottom: 25px;
 }
 
-
+.yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile .yotpo-tile-box .yotpo-email-view .yotpo-title-text {
+  font-family: Sunset Gothic,sans-serif !important;
+  font-weight: 600 !important;
+  padding-bottom: 20px;
+}
 
