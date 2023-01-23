@@ -122,13 +122,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c73823dd-c26b-4c88-a211-d0e79cbb72cf.jpg",
-            "text": "Winter Escape",
-            "link_label": "Shop Ivory",
-            "link": "shopify:\/\/collections\/ivory"
+            "image": "shopify:\/\/shop_images\/3_dad1568d-ca9d-4e1f-b1bf-a657abfc3451.jpg",
+            "text": "Vacation Essentials",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -140,20 +140,20 @@
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_dad1568d-ca9d-4e1f-b1bf-a657abfc3451.jpg",
-            "text": "Must-have Prints",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/prints"
+            "image": "shopify:\/\/shop_images\/2_c73823dd-c26b-4c88-a211-d0e79cbb72cf.jpg",
+            "text": "Winter Escape",
+            "link_label": "Shop Ivory",
+            "link": "shopify:\/\/collections\/ivory"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
