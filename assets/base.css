@@ -2524,6 +2524,14 @@ header-drawer {
   
 }
 
+.yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile {
+  min-height: 535px;
+}
+
+.yotpo-loyalty-popup-overlay .yotpo-tile-wrapper .yotpo-tile .yotpo-tile-box .yotpo-email-view .yotpo-header-text {
+  font-family: Tobias,sans-serif !important;
+  padding-bottom: 25px;
+}
 
 
 
