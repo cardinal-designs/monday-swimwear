@@ -16,6 +16,32 @@
     {{ checkout_scripts }}
     
     <style>
+      
+      @font-face {
+        font-family: 'Sunset Gothic';
+        src: url('{{ "Sunset-Gothic-Medium-Pro.woff2" | asset_url }}') format('woff2'),
+             url('{{ "Sunset-Gothic-Medium-Pro.woff" | asset_url }}') format('woff');
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      /* Tobias - Thin */
+      @font-face {
+        font-family: 'Tobias';
+        src: url('{{ "Tobias-Thin.woff2" | asset_url }}') format('woff2'),
+             url('{{ "Tobias-Thin.woff" | asset_url }}') format('woff');
+        font-style: normal;
+        font-weight: 200;
+      }
+
+      /* Neue Haas Unica Pro */
+      @font-face {
+        font-family: 'Neue Haas Unica Pro';
+        src: url('{{ "Neue-Haas-Unica-Pro.ttf" | asset_url }}');
+        font-style: normal;
+        font-weight: 400;
+      }
+      
       .logo__image {
         max-width: 320px;
       }
