@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}"><head>
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
@@ -7,7 +9,7 @@
     <title>{{ page_title }}</title>
 
     <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
-    </head>
+  </head>
   <body>
     {{ content_for_header }}
 
@@ -55,7 +57,7 @@
       }
     </style>
 
-    {% comment %}{{ 'swell-rewards.css' | asset_url | stylesheet_tag }}{% endcomment %}
+    {{ 'swell-rewards.css' | asset_url | stylesheet_tag }}
   
     {{ skip_to_content_link }}
 
@@ -107,14 +109,12 @@
     <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript"></script> 
     <!-- /PASSPORT BREAKOUT SCRIPT -->
 
-    {% comment %}{{ 'swell-rewards.js' | asset_url | script_tag }}{% endcomment %}
+    {{ 'swell-rewards.js' | asset_url | script_tag }}
 
     {% include 'checkout-scripts' %}
 
-    {% comment %}
     {% include 'swell-checkout' %}
     {% include 'swell-post-checkout' %}
-    {% endcomment %}
 
     {% comment %}
     <div class="yotpo-widget-instance" data-yotpo-instance-id="173414"></div>
