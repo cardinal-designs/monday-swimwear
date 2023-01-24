@@ -2352,6 +2352,7 @@
           },
           "06ea453a-75f1-4191-a3d1-0d8bc35661d7": {
             "type": "faq_item",
+            "disabled": true,
             "settings": {
               "title": "What is your Black Friday \/ Cyber Monday return policy?",
               "answer": "<p>All orders placed with any of our Black Friday \/ Cyber Monday discount codes are only eligible for a return for store credit, no exchanges or refunds. If you purchase an item that is marked as final sale, the item is not eligible for <em><strong>any <\/strong><\/em>form of a return. We do not offer price adjustments for any previous orders.<\/p>"
