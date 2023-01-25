@@ -114,7 +114,7 @@
     {% include 'checkout-scripts' %}
 
     {% include 'swell-checkout' %}
-    {% include 'swell-post-checkout' %}
+    {% comment %}{% include 'swell-post-checkout' %}{% endcomment %}
     
     {% assign finalSaleTaggedProducts = blank %}
     {% for item in checkout.line_items %}
