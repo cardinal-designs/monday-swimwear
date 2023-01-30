@@ -2322,6 +2322,23 @@
               "fit_tip": "",
               "shop_link": ""
             }
+          },
+          "59d4f2d9-c9a0-4142-93e4-bde12bab7a91": {
+            "type": "beachwear",
+            "settings": {
+              "title": "The Pacific Beach Shirt",
+              "short_title": "Pacific Beach Shirt",
+              "short_description": "",
+              "description": "Our Pacific Beach Shirt was made to be an essential for your wardrobe. Designed in our crinkle fabric, this relaxed button-up features shell buttons, collared neckline, and short sleeves. Pair with our Belize Pant for the perfect sunny day look.",
+              "highlights": "Collar, short sleeve, center front buttons, unlined, sheer",
+              "fit": "Relaxed \/ True to size",
+              "padding": "",
+              "coverage": "",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
           }
         },
         "block_order": [
@@ -2357,7 +2374,8 @@
           "4c1ea451-452e-47c6-a184-6c0ba2a5b1b8",
           "ff502580-41e7-4745-b4d2-c0a5e4f6482a",
           "19deef62-adc0-441d-b400-f92ec75069d9",
-          "600377c2-51b4-443c-a41f-2bc39a2216fa"
+          "600377c2-51b4-443c-a41f-2bc39a2216fa",
+          "59d4f2d9-c9a0-4142-93e4-bde12bab7a91"
         ],
         "settings": {
         }
