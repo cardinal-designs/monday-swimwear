@@ -2046,6 +2046,26 @@
               "shop_link": "shopify:\/\/products\/noosa-top-white"
             }
           },
+          "59d4f2d9-c9a0-4142-93e4-bde12bab7a91": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Pacific-Beach-Shirt---Ivory-Crinkle.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Pacific-Beach-Shirt---Ivory-Crinkle_aa49d15c-c70c-4949-8397-a55bfd858cab.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Pacific-Beach-Shirt---Ivory-Crinkle-2.jpg",
+              "title": "The Pacific Beach Shirt",
+              "short_title": "Pacific Beach Shirt",
+              "short_description": "",
+              "description": "Our Pacific Beach Shirt was made to be an essential for your wardrobe. Designed in our crinkle fabric, this relaxed button-up features shell buttons, collared neckline, and short sleeves. Pair with our Belize Pant for the perfect sunny day look.",
+              "highlights": "Collar, short sleeve, center front buttons, unlined, sheer",
+              "fit": "Relaxed \/ True to size",
+              "padding": "",
+              "coverage": "",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": ""
+            }
+          },
           "bfdd3e62-c0e1-4d31-b145-d9479c8ac746": {
             "type": "beachwear",
             "disabled": true,
@@ -2322,23 +2342,6 @@
               "fit_tip": "",
               "shop_link": ""
             }
-          },
-          "59d4f2d9-c9a0-4142-93e4-bde12bab7a91": {
-            "type": "beachwear",
-            "settings": {
-              "title": "The Pacific Beach Shirt",
-              "short_title": "Pacific Beach Shirt",
-              "short_description": "",
-              "description": "Our Pacific Beach Shirt was made to be an essential for your wardrobe. Designed in our crinkle fabric, this relaxed button-up features shell buttons, collared neckline, and short sleeves. Pair with our Belize Pant for the perfect sunny day look.",
-              "highlights": "Collar, short sleeve, center front buttons, unlined, sheer",
-              "fit": "Relaxed \/ True to size",
-              "padding": "",
-              "coverage": "",
-              "style": "",
-              "fabric": "",
-              "fit_tip": "",
-              "shop_link": ""
-            }
           }
         },
         "block_order": [
@@ -2361,6 +2364,7 @@
           "d0c2b7c4-ed5b-4b87-bb8e-89376ad741cc",
           "048bb95d-0316-4e1d-acee-7bcfd387710d",
           "3f453058-40bc-4f5e-a324-ead7f42ec609",
+          "59d4f2d9-c9a0-4142-93e4-bde12bab7a91",
           "bfdd3e62-c0e1-4d31-b145-d9479c8ac746",
           "16f5af57-578b-4066-a0b7-0376bd0d88ae",
           "fdca6529-e0bc-4511-a9fe-9c5bfecede32",
@@ -2374,8 +2378,7 @@
           "4c1ea451-452e-47c6-a184-6c0ba2a5b1b8",
           "ff502580-41e7-4745-b4d2-c0a5e4f6482a",
           "19deef62-adc0-441d-b400-f92ec75069d9",
-          "600377c2-51b4-443c-a41f-2bc39a2216fa",
-          "59d4f2d9-c9a0-4142-93e4-bde12bab7a91"
+          "600377c2-51b4-443c-a41f-2bc39a2216fa"
         ],
         "settings": {
         }
