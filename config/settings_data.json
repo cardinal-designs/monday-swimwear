@@ -2147,6 +2147,7 @@
           },
           "70d799fe-8892-4cf9-8952-ac8083fc5019": {
             "type": "beachwear",
+            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/San-Diego-Top.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/San-Diego-Top-Fit-Guide.jpg",
