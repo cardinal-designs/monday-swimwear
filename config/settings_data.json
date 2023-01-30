@@ -2302,6 +2302,26 @@
               "fit_tip": "",
               "shop_link": ""
             }
+          },
+          "ddf9c538-73d3-405d-8ca7-3f1f4f5bf49c": {
+            "type": "beachwear",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Belize-Pant---Ivory.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Belize-Pant---Ivory-3.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Belize-Pant---Ivory-2.jpg",
+              "title": "The Belize Pant",
+              "short_title": "Belize Pant",
+              "short_description": "",
+              "description": "Simple and chic, the Belize Pant is the perfect beach pant you've been searching for. Designed in our light weight linen rayon, this pant features an adjustable elastic drawstring waist, that allows you to wear this pant low on your hips or high on your waist. Pair with the Rio Top for an effortless look.",
+              "highlights": "Adjustable elastic drawstring waist, pull on, adjustable desired coverage, unlined,sheer",
+              "fit": "True to size",
+              "padding": "",
+              "coverage": "",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/belize-pant"
+            }
           }
         },
         "block_order": [
@@ -2336,7 +2356,8 @@
           "4c1ea451-452e-47c6-a184-6c0ba2a5b1b8",
           "ff502580-41e7-4745-b4d2-c0a5e4f6482a",
           "19deef62-adc0-441d-b400-f92ec75069d9",
-          "600377c2-51b4-443c-a41f-2bc39a2216fa"
+          "600377c2-51b4-443c-a41f-2bc39a2216fa",
+          "ddf9c538-73d3-405d-8ca7-3f1f4f5bf49c"
         ],
         "settings": {
         }
