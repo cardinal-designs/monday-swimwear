@@ -2523,7 +2523,8 @@ header-drawer {
 }
 
 /*================ Four Sixty (PDP - In Real Life) ================*/
-.foursixty-section .fs-slider-prev-button {
+.foursixty-section .fs-slider-prev-button,
+.foursixty-section .fs-slider-next-button{
   -webkit-transition: opacity 0.25s;
   opacity: 1;
 }
