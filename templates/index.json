@@ -143,10 +143,10 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c73823dd-c26b-4c88-a211-d0e79cbb72cf.jpg",
-            "text": "Honeymoon Essentials",
-            "link_label": "Shop Ivory",
-            "link": "shopify:\/\/collections\/ivory"
+            "image": "shopify:\/\/shop_images\/3_32858a10-9f2f-4ef1-8dca-7c0d8be79a88.jpg",
+            "text": "Luxe Knits",
+            "link_label": "Shop Knitwear",
+            "link": "shopify:\/\/collections\/knitwear"
           }
         }
       },
