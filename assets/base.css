@@ -2524,14 +2524,14 @@ header-drawer {
 
 /*================ Four Sixty (PDP - In Real Life) ================*/
 .foursixty-section .fs-slider-prev-button {
-  opacity: 1;
-  z-index: 10000;
-  background-color: rgba(255, 255, 255, 0.85);
+  opacity: 1 !important;
+  z-index: 10000 !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.foursixty-section .real-life .fs-slider-next-button {
-  opacity: 1;
-  z-index: 10000;
-  background-color: rgba(255, 255, 255, 0.85);
+.foursixty-section .fs-slider-next-button {
+  opacity: 1 !important;
+  z-index: 10000 !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
