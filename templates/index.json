@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/beachwear-web2.png",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_a960bb52-4ef4-4cb3-b139-f3db27294c95.jpg",
+        "image": "shopify:\/\/shop_images\/springforward-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/springforward-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -125,7 +125,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_dad1568d-ca9d-4e1f-b1bf-a657abfc3451.jpg",
+            "image": "shopify:\/\/shop_images\/1_c66e223f-06de-4bad-8c90-f5bdebabcd56.jpg",
             "text": "Back in Stock",
             "link_label": "Shop the Restock",
             "link": "shopify:\/\/collections\/the-signature-collection-1"
