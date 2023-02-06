@@ -50,6 +50,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        },
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
           "settings": {
@@ -70,6 +76,7 @@
         }
       },
       "block_order": [
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "944498a4-3695-48f6-9a89-0208d09aab7b",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
@@ -112,11 +119,11 @@
       "type": "editorial-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/beachwear-web2.png",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_a960bb52-4ef4-4cb3-b139-f3db27294c95.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rio-Top---Ivory-1.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "shop accessories",
-        "link": "shopify:\/\/collections\/beachwear-accessories"
+        "link_label": "shop beachwear",
+        "link": "shopify:\/\/collections\/monday-beachwear"
       }
     },
     "1640812146b4d73cae": {
