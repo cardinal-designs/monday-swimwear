@@ -24,10 +24,34 @@
       </div>
       <div class="fit-size-chart__charts">
 
-        {% render 'fit-chart-one-pieces' %}
-        {% render 'fit-chart-tops' %}
-        {% render 'fit-chart-bottoms' %}
-        {% render 'fit-chart-beachwear' %}
+
+        <div class="fit-size-chart__chart" data-tab="one-piece">
+          <h4 class="fit-size-chart__current-country">One Piece Size Chart</h4>
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'one-piece' %}
+          </div>
+        </div>
+
+        <div class="fit-size-chart__chart active" data-tab="tops">
+          <h4 class="fit-size-chart__current-country">Top Size Chart</h4>
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'top' %}
+          </div>
+        </div>
+
+        <div class="fit-size-chart__chart" data-tab="bottoms">
+          <h4 class="fit-size-chart__current-country">Bottom Size Chart</h4>
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'bottom' %}
+          </div>
+        </div>
+
+        <div class="fit-size-chart__chart" data-tab="beachwear">
+          <h4 class="fit-size-chart__current-country">Beachwear Size Chart</h4>
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'beachwear' %}
+          </div>
+        </div>
 
       </div>
     </div>
@@ -47,46 +71,6 @@
 
       document.querySelector('.fit-size-chart__chart.active').classList.remove('active');
       document.querySelector(`.fit-size-chart__chart[data-tab="${tab}"]`).classList.add('active');
-    });
-  });
-
-  // Country tabs
-  const countryTabs = document.querySelectorAll('.fit-size-chart__chart-tab');
-
-  countryTabs.forEach(countryTab => {
-    countryTab.addEventListener('click', event => {
-      const tabs = event.currentTarget.parentElement.querySelectorAll('.fit-size-chart__chart-tab');
-
-      if (window.innerWidth < 769 && event.currentTarget.classList.contains('active')) {
-
-        event.currentTarget.parentElement.classList.add('open');
-        tabs.forEach(tab => {
-          tab.style.display = 'flex';
-        });
-      } else {
-        const tab = event.currentTarget.dataset.tab;
-        const chartContainer = event.currentTarget.closest('.fit-size-chart__chart');
-
-        chartContainer.querySelector('.fit-size-chart__chart-tab.active').classList.remove('active');
-        event.currentTarget.classList.add('active');
-
-        chartContainer.querySelector('.fit-size-chart__chart-container.active').classList.remove('active');
-        chartContainer.querySelector(`.fit-size-chart__chart-container[data-tab="${tab}"]`).classList.add('active');
-
-        if (window.innerWidth < 769) {
-          event.currentTarget.parentElement.classList.remove('open');
-          tabs.forEach(tab => {
-            console.log(tab)
-            if (!tab.classList.contains('active')) {
-              tab.style.display = 'none';
-            }
-          });
-        } else {
-          const incomingText = event.currentTarget.textContent;
-          
-          event.currentTarget.parentElement.previousElementSibling.textContent = incomingText;
-        }
-      }
     });
   });
 {% endjavascript %}
