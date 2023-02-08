@@ -4,17 +4,17 @@
       <div class="fit-size-chart__measurements">
         <div class="fit-size-chart__measurements-container">
           <p class="detail-caps">Measurements</p>
-          <button class="fit-size-chart__tab active" data-tab="one-piece">
-            {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
-            <p class="body-large">One Pieces</p>
-          </button>
-          <button class="fit-size-chart__tab" data-tab="tops">
+          <button class="fit-size-chart__tab active" data-tab="tops">
             {% render 'lazy-image' image: section.settings.tops_image, fade: true %}
             <p class="body-large">Tops</p>
           </button>
           <button class="fit-size-chart__tab" data-tab="bottoms">
             {% render 'lazy-image' image: section.settings.bottoms_image, fade: true %}
             <p class="body-large">Bottoms</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="one-piece">
+            {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
+            <p class="body-large">One Pieces</p>
           </button>
           <button class="fit-size-chart__tab" data-tab="beachwear">
             {% render 'lazy-image' image: section.settings.beachwear_image, fade: true %}
@@ -23,14 +23,6 @@
         </div>
       </div>
       <div class="fit-size-chart__charts">
-
-
-        <div class="fit-size-chart__chart" data-tab="one-piece">
-          <h4 class="fit-size-chart__current-country">One Piece Size Chart</h4>
-          <div class="fit-size-chart__chart-wrapper no-scrollbar">
-            {% render 'size-chart' type: 'one-piece' %}
-          </div>
-        </div>
 
         <div class="fit-size-chart__chart active" data-tab="tops">
           <h4 class="fit-size-chart__current-country">Top Size Chart</h4>
@@ -43,6 +35,13 @@
           <h4 class="fit-size-chart__current-country">Bottom Size Chart</h4>
           <div class="fit-size-chart__chart-wrapper no-scrollbar">
             {% render 'size-chart' type: 'bottom' %}
+          </div>
+        </div>
+        
+        <div class="fit-size-chart__chart" data-tab="one-piece">
+          <h4 class="fit-size-chart__current-country">One Piece Size Chart</h4>
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'one-piece' %}
           </div>
         </div>
 
