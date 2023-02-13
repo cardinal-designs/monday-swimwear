@@ -219,6 +219,11 @@
   text-align: right;
 }
 
+.fit-size-chart__arrow svg {
+  width: 20px;
+  height: auto;
+}
+
 @media screen and (max-width: 1700px) {
   .fit-guide-section {
     height: unset;
