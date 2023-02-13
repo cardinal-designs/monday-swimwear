@@ -265,9 +265,9 @@
       "fit-guide-size-chart": {
         "type": "fit-guide-size-chart",
         "settings": {
-          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
-          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
           "tops_image": "shopify:\/\/shop_images\/fit-guide-tops.png",
+          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
+          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
           "beachwear_image": "shopify:\/\/shop_images\/fit-guide-beachwear.png",
           "disclaimer": "We provide a range of bra sizes for each Monday top size. If you are between sizes - for our underwire tops we recommend sizing down, for all other tops you can size up or down based on preferred coverage. For example, Natasha is a 34D and wears an S in some tops and an M in others. If your size is not accounted for in our chart, or it you are uncertain what size to order, please reach out to <a href=\"mailto:customerservice@mondayswimwear.com\">customerservice@mondayswimwear.com<\/a> and we will be happy to help you to select a size!"
         }
@@ -3090,9 +3090,9 @@
       "fit-guide-tabs": {
         "type": "fit-guide-tabs",
         "settings": {
-          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
-          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
           "tops_image": "shopify:\/\/shop_images\/fit-guide-tops.png",
+          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
+          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
           "beachwear_image": "shopify:\/\/shop_images\/fit-guide-beachwear.png"
         }
       }

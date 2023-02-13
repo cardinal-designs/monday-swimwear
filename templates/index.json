@@ -118,12 +118,13 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/beachwear-web2.png",
-        "mobile_image": "shopify:\/\/shop_images\/Rio-Top---Ivory-1.jpg",
-        "left_text": "",
+        "image": "shopify:\/\/shop_images\/Alt_d6285760-811f-4ee8-b3fb-2ecd9be9f7f8.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE_c638865b-79aa-483a-a9ba-506dffb85915.jpg",
+        "left_text": "... COMING SOON",
         "right_text": "",
-        "link_label": "shop beachwear",
-        "link": "shopify:\/\/collections\/monday-beachwear"
+        "link_label": "",
+        "link": "",
+        "logo": "shopify:\/\/shop_images\/Alt_d6285760-811f-4ee8-b3fb-2ecd9be9f7f8.jpg"
       }
     },
     "1640812146b4d73cae": {
