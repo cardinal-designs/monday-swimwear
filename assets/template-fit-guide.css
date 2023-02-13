@@ -385,6 +385,7 @@
 }
 
 .fit-size-chart__measurements {
+  margin-top: 30px;
   display: flex;
 }
 
@@ -500,6 +501,7 @@
   }
   
   .fit-size-chart__measurements {
+    margin: 0;
     justify-content: center;
   }
 
