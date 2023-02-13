@@ -499,6 +499,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
+    align-items: baseline;
   }
 
   .fit-size-chart__measurements-container .detail-caps {
