@@ -481,6 +481,15 @@
   margin: 30px 0 0;
 }
 
+.fit-size-chart__arrow {
+  text-align: right;
+}
+
+.fit-size-chart__arrow svg {
+  width: 20px;
+  height: auto;
+}
+
 @media only screen and (max-width: 768px) {
   .fit-size-chart {
     margin: 20px 0 40px;
