@@ -215,6 +215,10 @@
   opacity: 1;
 }
 
+.fit-size-chart__arrow {
+  text-align: right;
+}
+
 @media screen and (max-width: 1700px) {
   .fit-guide-section {
     height: unset;
