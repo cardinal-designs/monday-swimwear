@@ -503,8 +503,7 @@
   }
 
   .fit-size-chart__measurements-container .detail-caps {
-    grid-column: span 4;
-    text-align: center;
+    display: none;
   }
 
   .fit-size-chart__tab {
