@@ -132,25 +132,25 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_c66e223f-06de-4bad-8c90-f5bdebabcd56.jpg",
-            "text": "Back in Stock",
-            "link_label": "Shop the Restock",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "image": "shopify:\/\/shop_images\/Marina-Bucket-Hat---Terry.jpg",
+            "text": "Soft & Plush",
+            "link_label": "Shop the Terry Collection",
+            "link": "shopify:\/\/collections\/the-terry-collection"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_806b17d5-39bc-4154-bf5b-65d639fc0711.jpg",
-            "text": "Keeping Covered",
-            "link_label": "Shop Beachwear",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "image": "shopify:\/\/shop_images\/Staniel-Cay-Comb---Tortoise.jpg",
+            "text": "Daily Essentials",
+            "link_label": "Shop Accessories",
+            "link": "shopify:\/\/collections\/beachwear-accessories"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_32858a10-9f2f-4ef1-8dca-7c0d8be79a88.jpg",
+            "image": "shopify:\/\/shop_images\/Newport-Dress-2.jpg",
             "text": "Luxe Knits",
             "link_label": "Shop Knitwear",
             "link": "shopify:\/\/collections\/knitwear"
