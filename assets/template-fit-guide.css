@@ -19,7 +19,7 @@
 
 .fit-guide-header__tabs {
   max-width: 830px;
-  margin: 0 auto;
+  margin: 60px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
