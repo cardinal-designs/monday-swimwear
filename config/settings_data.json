@@ -259,11 +259,7 @@
         "type": "fit-guide-header",
         "settings": {
           "title": "Forever About Fit",
-          "text": "Monday Swimwear understands that all bodies are unique and our mission is to create suits that celebrate all different body types and let individuality shine. That’s why we obsess about fit and don’t overlook a single detail. Click to see our fit guide and recommendations so you can find your perfect fit!",
-          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
-          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
-          "tops_image": "shopify:\/\/shop_images\/fit-guide-tops.png",
-          "beachwear_image": "shopify:\/\/shop_images\/fit-guide-beachwear.png"
+          "text": "Monday Swimwear understands that all bodies are unique and our mission is to create suits that celebrate all different body types and let individuality shine. That’s why we obsess about fit and don’t overlook a single detail. Click to see our fit guide and recommendations so you can find your perfect fit!"
         }
       },
       "fit-guide-size-chart": {
@@ -3089,6 +3085,12 @@
         "type": "main-collection-product-grid",
         "settings": {
           "products_per_page": 24
+        }
+      },
+      "fit-guide-tabs": {
+        "type": "fit-guide-tabs",
+        "settings": {
+          "one_pieces_image": "shopify:\/\/shop_images\/Montego-Dress---Pearl-Shimmer-2.jpg"
         }
       }
     },
