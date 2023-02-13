@@ -494,6 +494,7 @@
   }
 
   .fit-size-chart__measurements-container {
+    width: 100%;
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
