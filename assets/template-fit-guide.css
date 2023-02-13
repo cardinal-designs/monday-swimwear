@@ -377,8 +377,8 @@
 .fit-size-chart {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-top: 2px solid #FAF5E1;
-  border-bottom: 2px solid #FAF5E1;
+  border-top: 3px solid #FAF5E1;
+  border-bottom: 3px solid #FAF5E1;
 }
 
 .fit-size-chart__container {
