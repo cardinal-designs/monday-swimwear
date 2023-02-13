@@ -495,13 +495,14 @@
 
   .fit-size-chart__measurements-container {
     margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
   }
 
   .fit-size-chart__measurements-container .detail-caps {
-    grid-column: span 4;
+    width: 100%;
     text-align: center;
   }
 
