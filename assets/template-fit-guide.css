@@ -517,6 +517,11 @@
     opacity: 1;
   }
 
+  .fit-size-chart__tab .aspect-ratio {
+    height: 40px;
+    width: 27px!important;
+  }
+
   .fit-size-chart__tab p {
     margin: 6px 0 0;
     font-family: 'Neue Haas Unica Pro', sans-serif;
