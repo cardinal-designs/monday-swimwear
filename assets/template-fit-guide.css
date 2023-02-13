@@ -80,6 +80,7 @@
   }
 
   .fit-guide-header__tabs {
+    margin: 80px auto 30px;
     gap: 10px;
   }
 
