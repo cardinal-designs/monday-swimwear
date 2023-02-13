@@ -3090,7 +3090,10 @@
       "fit-guide-tabs": {
         "type": "fit-guide-tabs",
         "settings": {
-          "one_pieces_image": "shopify:\/\/shop_images\/Montego-Dress---Pearl-Shimmer-2.jpg"
+          "one_pieces_image": "shopify:\/\/shop_images\/fit-guide-one-pieces.png",
+          "bottoms_image": "shopify:\/\/shop_images\/fit-guide-bottoms.png",
+          "tops_image": "shopify:\/\/shop_images\/fit-guide-tops.png",
+          "beachwear_image": "shopify:\/\/shop_images\/fit-guide-beachwear.png"
         }
       }
     },
