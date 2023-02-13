@@ -4,7 +4,7 @@
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{{ 'component-pdp-size-chart.css' | asset_url | stylesheet_tag }}
+{{ 'component-size-chart.css' | asset_url | stylesheet_tag }}
 
 {% assign picker_type = 'button' %}
 
@@ -256,17 +256,19 @@
             <p class="detail">{{ product.metafields.pdp_extras.size_note | newline_to_br }}</p>
           </div>
 	      {% endif %}		
-          {% unless product.type == 'Gift Cards' or product.type == 'Gift Card' %}
+
+        <button class="product__size-chart js-open-chart sh5">Size Chart +</button>
+          {% comment %} {% unless product.type == 'Gift Cards' or product.type == 'Gift Card' %}
             <div class="size-chart-dropdown">
               <button class="size-chart-dropdown__header">
                 <p class="sh5">size chart</p>
                 <div class="size-chart-dropdown__control"></div>
               </button>
               <div class="size-chart-dropdown__content">
-                {% render 'pdp-size-chart' %}
+                {% render 'size-chart' %}
               </div>
             </div>
-          {% endunless %}
+          {% endunless %} {% endcomment %}
 
 
           <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -422,6 +424,26 @@
   </div>
 </section>
 
+<div class="size-chart">
+  <button class="size-chart__overlay js-close-size-chart"></button>
+  <div class="size-chart__container">
+    <button class="size-chart__close js-close-size-chart">{% render 'icon-close' %}</button>
+    <h2 class="size-chart__title h5">Size Chart</h2>
+    <div class="size-chart__wrapper no-scrollbar">
+      {% if product.tags contains 'Swim Tops' %}
+        {% render 'size-chart' type: 'top' %}
+      {% elsif product.tags contains 'Swim Bottom' %}
+        {% render 'size-chart' type: 'bottom' %}
+      {% elsif product.tags contains 'Swim One Piece' %}
+        {% render 'size-chart' type: 'one-piece' %}
+      {% elsif product.tags contains 'Beachwear' %}
+        {% render 'size-chart' type: 'beachwear' %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
 {% javascript %}
   // Product sliders 
   const productThumbsSlider = new Swiper('.product__thumbnail-list', {
@@ -483,14 +505,20 @@
   });
 
   // Size chart dropdown
-  const sizeChartButton = document.querySelector('.size-chart-dropdown__header');
+  const sizeChart = document.querySelector('.size-chart');
+  const sizeChartButton = document.querySelector('.product__size-chart');
 
   sizeChartButton.addEventListener('click', event => {
-    const parent = event.currentTarget.parentElement;
-    const content = parent.querySelector('.size-chart-dropdown__content');
+    sizeChart.classList.add('is-visible');
+    this.body.classList.add('scroll-lock');
+  });
 
-    parent.classList.toggle('active');
-    slideToggle(content, 300);
+  const closeSizeChartButtons = document.querySelectorAll('.js-close-size-chart');
+  closeSizeChartButtons.forEach(button => {
+    button.addEventListener('click', event => {
+      sizeChart.classList.remove('is-visible');
+      this.body.classList.remove('scroll-lock');
+    });
   });
 
   // Zoom

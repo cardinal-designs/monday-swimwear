@@ -1,0 +1,95 @@
+.size-chart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.size-chart.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.size-chart__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4);
+}
+
+.size-chart__container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 30px;
+  background-color: var(--bone);
+  position: relative;
+}
+
+.size-chart__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.size-chart__title {
+  margin: 0 0 30px;
+  text-align: center;
+  font-size: 38px;
+}
+
+.size-chart__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.size-chart__table th {
+  padding-bottom: 15px;
+  border: 0;
+  color: #0006;
+  border-bottom: 1px solid var(--tan);
+}
+
+.size-chart__table td {
+  padding: 15px;
+  border: 0;
+  text-align: center;
+  border-bottom: 1px solid var(--tan);
+}
+
+@media screen and (max-width: 768px) {
+  .size-chart__container {
+    padding: 20px 20px 30px;
+  }
+
+  .size-chart__title {
+    font-size: 26px;
+  }
+
+  .size-chart__wrapper {
+    margin: 0 -20px;
+    padding: 0 20px;
+    overflow-x: scroll;
+  }
+
+  .size-chart__table {
+    white-space: nowrap;
+  }
+
+  .size-chart__table th {
+    padding: 0 15px 10px;
+  }
+
+  .size-chart__table td {
+    padding: 10px 15px;
+  }
+}

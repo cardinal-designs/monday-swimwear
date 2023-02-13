@@ -4,41 +4,8 @@
       <h2>{{ section.settings.title }}</h2>
       <p class="body-small">{{ section.settings.text }}</p>
     </div>
-    <div class="fit-guide-header__tabs">
-      <button class="fit-guide-header__tab active" data-tab="one-pieces">
-        {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
-        <p class="sh1">One Pieces</p>
-      </button>
-      <button class="fit-guide-header__tab" data-tab="tops">
-        {% render 'lazy-image' image: section.settings.tops_image, fade: true %}
-        <p class="sh1">Tops</p>
-      </button>
-      <button class="fit-guide-header__tab" data-tab="bottoms">
-        {% render 'lazy-image' image: section.settings.bottoms_image, fade: true %}
-        <p class="sh1">Bottoms</p>
-      </button>
-      <button class="fit-guide-header__tab" data-tab="beachwear">
-        {% render 'lazy-image' image: section.settings.beachwear_image, fade: true %}
-        <p class="sh1">Beachwear</p>
-      </button>
-    </div>
   </div>
 </div>
-
-{% javascript %}
-  const tabs = document.querySelectorAll('.fit-guide-header__tab');
-  tabs.forEach(tab => {
-    tab.addEventListener('click', event => {
-      const tab = event.currentTarget.dataset.tab;
-
-      document.querySelector('.fit-guide-header__tab.active').classList.remove('active');
-      event.currentTarget.classList.add('active');
-
-      document.querySelector('.fit-guide.active').classList.remove('active');
-      document.querySelector(`.fit-guide[data-tab="${tab}"]`).classList.add('active');
-    })
-  });
-{% endjavascript %}
 
 {% schema %}
   {
@@ -53,26 +20,6 @@
         "type": "textarea",
         "id": "text",
         "label": "Text"
-      },
-      {
-        "type": "image_picker",
-        "id": "one_pieces_image",
-        "label": "One Pieces Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "bottoms_image",
-        "label": "Bottoms Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "tops_image",
-        "label": "Tops Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "beachwear_image",
-        "label": "Beachwear Image"
       }
     ],
     "presets": [

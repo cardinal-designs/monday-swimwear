@@ -402,6 +402,10 @@ variant-radios fieldset {
   border-color: rgba(0, 0, 0, .2);
 }
 
+.product__size-chart {
+  margin-top: 10px;
+}
+
 .product-form__button-wrapper {
   margin-top: 20px;
   display: flex;
