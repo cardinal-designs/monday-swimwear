@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ocean-green-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/ocean-mob-update.png",
+        "image": "shopify:\/\/shop_images\/geofuch-web2_720.png",
+        "mobile_image": "shopify:\/\/shop_images\/geofuch-mob2.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -84,42 +84,11 @@
       "settings": {
       }
     },
-    "1640811405c1297562": {
-      "type": "link-blocks",
-      "blocks": {
-        "d029689e-51e9-4bab-918a-a703bb5724d6": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_7081a4eb-4e52-48b1-992e-ffa7d5022fa0.jpg",
-            "text": "",
-            "link_label": "SHOP TOPS",
-            "link": "shopify:\/\/collections\/tops"
-          }
-        },
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_4ae9994f-28fc-4199-a673-a303c50a0d02.jpg",
-            "text": "",
-            "link_label": "SHOP BOTTOMS",
-            "link": "shopify:\/\/collections\/bottoms"
-          }
-        }
-      },
-      "block_order": [
-        "d029689e-51e9-4bab-918a-a703bb5724d6",
-        "643e0732-83e9-4986-9865-1f1ee99fda72"
-      ],
-      "settings": {
-        "text_style": "overlay",
-        "slider_on_mobile": false
-      }
-    },
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled-3_8d0fbd0c-3c80-44b8-8ed1-dcd910b55480.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_c638865b-79aa-483a-a9ba-506dffb85915.jpg",
+        "image": "shopify:\/\/shop_images\/1_982fc7c1-f937-42cd-b473-80117b70970a.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_5fadf0db-568f-4d6f-af3f-e9a2efe5a6b2.jpg",
         "left_text": "",
         "right_text": "",
         "link_label": "",
@@ -166,6 +135,37 @@
       "settings": {
         "text_style": "underneath",
         "slider_on_mobile": true
+      }
+    },
+    "1640811405c1297562": {
+      "type": "link-blocks",
+      "blocks": {
+        "d029689e-51e9-4bab-918a-a703bb5724d6": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_7081a4eb-4e52-48b1-992e-ffa7d5022fa0.jpg",
+            "text": "",
+            "link_label": "SHOP TOPS",
+            "link": "shopify:\/\/collections\/tops"
+          }
+        },
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_4ae9994f-28fc-4199-a673-a303c50a0d02.jpg",
+            "text": "",
+            "link_label": "SHOP BOTTOMS",
+            "link": "shopify:\/\/collections\/bottoms"
+          }
+        }
+      },
+      "block_order": [
+        "d029689e-51e9-4bab-918a-a703bb5724d6",
+        "643e0732-83e9-4986-9865-1f1ee99fda72"
+      ],
+      "settings": {
+        "text_style": "overlay",
+        "slider_on_mobile": false
       }
     },
     "16408186509f925b52": {
@@ -278,9 +278,9 @@
     "1657215750b8e1724d",
     "164081090579915a8a",
     "16407502469f0e5f45",
-    "1640811405c1297562",
     "16408101574f5b391b",
     "1640812146b4d73cae",
+    "1640811405c1297562",
     "16408186509f925b52",
     "1640814929d4a3c77a",
     "164124814754670aef",
