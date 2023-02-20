@@ -91,8 +91,8 @@
         "mobile_image": "shopify:\/\/shop_images\/2_5fadf0db-568f-4d6f-af3f-e9a2efe5a6b2.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "",
-        "link": "",
+        "link_label": "shop now",
+        "link": "shopify:\/\/collections\/fuchsia-geo",
         "logo": "shopify:\/\/shop_images\/Alt_d6285760-811f-4ee8-b3fb-2ecd9be9f7f8.jpg"
       }
     },
