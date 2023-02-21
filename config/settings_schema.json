@@ -25,6 +25,21 @@
     ]
   },
   {
+    "name": "Product Page",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "swimwear_image",
+        "label": "Swimwear Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "beachwear_image",
+        "label": "Beachwear Image"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.social-media.name",
     "settings": [
       {
