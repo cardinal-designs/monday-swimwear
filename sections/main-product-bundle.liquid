@@ -244,7 +244,7 @@
             </div>
 
             {% if product.metafields.custom.bundle_sold_out %}
-              <button type="submit" class="button button--full" disabled>Sold Out</button>
+              <button type="submit" class="button button--full sold-out" disabled>Sold Out</button>
             {% else %}
               {% if only_default_variant_count == bundle_count %}
                  <button type="submit" class="button button--full">Add to Cart</button>
