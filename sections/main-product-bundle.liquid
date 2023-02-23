@@ -243,10 +243,14 @@
               </div>
             </div>
 
-            {% if only_default_variant_count == bundle_count %}
-               <button type="submit" class="button button--full">Add to Cart</button>
+            {% if product.metafields.custom.bundle_sold_out %}
+              <button type="submit" class="button button--full" disabled>Sold Out</button>
             {% else %}
-              <button type="submit" class="button button--full" disabled {{ only_default_variant_count }} {{ bundle_count }}>Select Your Sizes</button>
+              {% if only_default_variant_count == bundle_count %}
+                 <button type="submit" class="button button--full">Add to Cart</button>
+              {% else %}
+                <button type="submit" class="button button--full" disabled {{ only_default_variant_count }} {{ bundle_count }}>Select Your Sizes</button>
+              {% endif %}
             {% endif %}
 
           </form>
