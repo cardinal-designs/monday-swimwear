@@ -18,9 +18,7 @@ class ProductBundle extends HTMLElement {
   onVariantChange() {
     const totalSelected = this.getSelectedVariants().length;
 
-    console.log(this.atcButton.classList.contains('sold-out'))
-
-    if (this.totalProducts == totalSelected) {
+    if (this.totalProducts == totalSelected && !this.atcButton.classList.contains('sold-out')) {
       this.atcButton.innerHTML = 'Add To Cart';
       this.atcButton.removeAttribute('disabled');
 
