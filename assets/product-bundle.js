@@ -17,7 +17,8 @@ class ProductBundle extends HTMLElement {
 
   onVariantChange() {
     const totalSelected = this.getSelectedVariants().length;
-    console.log(this.totalProducts, totalSelected)
+
+    console.log(this.atcButton.classList.contains('sold-out'))
 
     if (this.totalProducts == totalSelected) {
       this.atcButton.innerHTML = 'Add To Cart';
@@ -79,15 +80,11 @@ class ProductBundle extends HTMLElement {
       }
     });
 
-  
-
     const body = JSON.stringify({
       items: items,
       sections: this.getSectionsToRender().map((section) => section.section),
       sections_url: window.location.pathname
     });
-
-    console.log(body)
 
     fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
       .then((response) => response.json())
