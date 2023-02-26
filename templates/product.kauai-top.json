@@ -16,41 +16,11 @@
       "settings": {
         "title": "In Real Life"
       }
-    },
-    "1642702250db612244": {
-      "type": "fit-guide",
-      "blocks": {
-        "d23066f0-85fa-465e-ba20-432d714ec220": {
-          "type": "fit",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ANTIGUA_TOP_ALT_-_BLACK.jpg",
-            "title": "The Antigua Top",
-            "short_title": "Antigua Top",
-            "short_description": "Chic,Modern,Sporty",
-            "description": "The Antigua top brings us back to 90's Cindy Crawford in editorial covers. The asymmetrical style has dual details with the 1-shoulder scoop and the other is strapless. This flattering silhouette has a little more support than our Costa Rica bandeau with the same gold hardware. Side boning to keep its shape, removable adjustable strap and soft-tie back closure.",
-            "fit": "Designed to best fit cup sizes A-G",
-            "padding": "Yes, removable padding",
-            "coverage": "",
-            "style": "Bandeau",
-            "fabric": "",
-            "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/antigua-top-black"
-          }
-        }
-      },
-      "block_order": [
-        "d23066f0-85fa-465e-ba20-432d714ec220"
-      ],
-      "settings": {
-        "offset_text": true,
-        "use_page_width": true
-      }
     }
   },
   "order": [
     "main",
     "16426285735ee00f29",
-    "164253095353d35284",
-    "1642702250db612244"
+    "164253095353d35284"
   ]
 }
