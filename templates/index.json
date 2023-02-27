@@ -4,7 +4,7 @@
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/1_16c318f3-fc3c-4dba-a1a8-5e0cdfe4cc61.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_d1665857-fc89-40a3-a217-4f0403f30025.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/winterescape1.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -88,7 +88,7 @@
       "type": "editorial-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/ALT-1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/ALT_76566bad-0d13-429e-9173-5d2e8a095d19.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/sunkissed2.png",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
