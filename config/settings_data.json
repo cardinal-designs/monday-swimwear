@@ -33,8 +33,9 @@
         "blocks": {
           "0fbb415b-cafc-41d0-8585-1dea3aebfdfe": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "text": "⭐️ SHIPPING WILL BE PAUSED 3\/1 - 3\/4 & WILL RESUME ON 3\/6 ⭐️"
+              "text": "⭐️ SHIPPING WILL BE PAUSED 3\/14-3\/18 & WILL RESUME ON 3\/20 ⭐️"
             }
           },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
