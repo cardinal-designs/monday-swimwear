@@ -31,6 +31,12 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "0fbb415b-cafc-41d0-8585-1dea3aebfdfe": {
+            "type": "announcement",
+            "settings": {
+              "text": "SHIPPING WILL BE PAUSED 2\/28 - 3\/5 & WILL RESUME ON 3\/6."
+            }
+          },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
             "settings": {
@@ -45,6 +51,7 @@
           }
         },
         "block_order": [
+          "0fbb415b-cafc-41d0-8585-1dea3aebfdfe",
           "9e9ecc40-4b57-4047-b32f-6330f3026efb",
           "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2"
         ],
