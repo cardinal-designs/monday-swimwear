@@ -21,6 +21,18 @@
     "16432137026d4e6bd7": {
       "type": "initiatives-image-text",
       "blocks": {
+        "39ebb8e9-f346-4d35-948b-d76410c2605e": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "reversed": false,
+            "image": "shopify:\/\/shop_images\/1_1caf5b71-4ea8-4edb-b297-cb8abbe53b36.jpg",
+            "title": " The Surfrider LA Chapter",
+            "text": "For every Dream Blue piece ordered, 15% of the proceeds will go to The Surfrider LA Chapter, a nonprofit environmental organization that works to protect and preserve the world’s oceans, waves and beaches.",
+            "button_label": "Learn More",
+            "button_link": "https:\/\/la.surfrider.org"
+          }
+        },
         "44ccbf6c-bdfe-4a1e-8184-7de6997c2999": {
           "type": "block",
           "settings": {
@@ -177,6 +189,7 @@
         }
       },
       "block_order": [
+        "39ebb8e9-f346-4d35-948b-d76410c2605e",
         "44ccbf6c-bdfe-4a1e-8184-7de6997c2999",
         "ec9080fc-cf85-41ad-bb60-809cee08ea92",
         "7ecb2b61-08d3-424f-b1c1-bf60e340639a",
