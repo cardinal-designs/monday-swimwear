@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_16c318f3-fc3c-4dba-a1a8-5e0cdfe4cc61.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/winterescape1.png",
+        "image": "shopify:\/\/shop_images\/dreamblue-web3.png",
+        "mobile_image": "shopify:\/\/shop_images\/dreamblue-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -87,12 +87,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ALT-1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/sunkissed2.png",
+        "image": "shopify:\/\/shop_images\/2_f3439f4d-abde-4e08-8bdf-0a32c92c2716.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/springforward-mob.png",
         "left_text": "",
         "right_text": "",
         "link_label": "shop now",
-        "link": "shopify:\/\/collections\/sun-kissed-shimmer"
+        "link": "shopify:\/\/collections\/lush-floral"
       }
     },
     "1640812146b4d73cae": {
