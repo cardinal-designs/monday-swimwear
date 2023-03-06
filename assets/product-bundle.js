@@ -66,6 +66,15 @@ class ProductBundle extends HTMLElement {
             "_beachBundle" : bundleId
           }
         })
+      } else if (this.dataset.handle == 'devins-dream-blue-bundle') {
+        items.push({
+          id: variant,
+          quantity: 1,
+          properties: {
+            "Bundle": this.title,
+            "_dreamBundle" : bundleId
+          }
+        })
       } else {
         items.push({
           id: variant,
