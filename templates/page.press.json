@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "0de33acb-2a24-4125-8314-b1b1f30d0a0e": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "logo": "",
+            "text": "\"The Best Vacation Swimwear According to Your Destination\"",
+            "date": "FEBRUARY 2023",
+            "link": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/a42995500\/best-vacation-swimwear\/"
+          }
+        },
         "9d9bbe15-479a-42d2-92cf-c979411269e6": {
           "type": "block",
           "settings": {
@@ -188,6 +198,7 @@
         }
       },
       "block_order": [
+        "0de33acb-2a24-4125-8314-b1b1f30d0a0e",
         "9d9bbe15-479a-42d2-92cf-c979411269e6",
         "e2c83908-2e4d-43a3-8454-a475fcb0787d",
         "4a9fd056-80e8-482d-a618-3f8aa3da6ec2",
