@@ -76,6 +76,16 @@
             "link": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/a42995500\/best-vacation-swimwear\/"
           }
         },
+        "a131762c-68a5-4bd9-b00a-7e8d4e2df9de": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/ELLE_Magazine_Logo.png",
+            "text": "\"Looking for ultra-comfortable swimwear that makes you feel confident basking in the sun? Look no further; Monday Swimwear has you covered. The brand features size-inclusive styles with cup sizes made to fit up to an E or F cup. You’ll find minimalist designs to hold onto forever.\"",
+            "date": "FEBRUARY 2023",
+            "link": "https:\/\/www.elle.com\/fashion\/shopping\/g28053\/swimwear-designers-instagram-bikini\/"
+          }
+        },
         "9d9bbe15-479a-42d2-92cf-c979411269e6": {
           "type": "block",
           "settings": {
@@ -199,6 +209,7 @@
       },
       "block_order": [
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e",
+        "a131762c-68a5-4bd9-b00a-7e8d4e2df9de",
         "9d9bbe15-479a-42d2-92cf-c979411269e6",
         "e2c83908-2e4d-43a3-8454-a475fcb0787d",
         "4a9fd056-80e8-482d-a618-3f8aa3da6ec2",
