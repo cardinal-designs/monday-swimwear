@@ -2947,12 +2947,6 @@
               "title": "Lay your suit flat to dry in the shade on a towel and use caution to never ring out the fabric or hang it, which could cause stretching and wear to the delicate fabric."
             }
           },
-          "fb85ae04-7a9f-4384-a574-a9364f7b441e": {
-            "type": "tip",
-            "settings": {
-              "title": ""
-            }
-          },
           "088cbc2b-af49-4eb1-9a5c-b822c1ced8a9": {
             "type": "tip",
             "settings": {
@@ -2975,7 +2969,6 @@
         "block_order": [
           "ec54d3e9-61e4-429c-9da0-a7e1e19e8c9d",
           "08ea98c2-3d86-4f98-9c7b-961e0b9305a6",
-          "fb85ae04-7a9f-4384-a574-a9364f7b441e",
           "088cbc2b-af49-4eb1-9a5c-b822c1ced8a9",
           "d6ac4b67-4f21-464a-a69f-1064bde9f583",
           "88611512-3655-498c-b6de-d2e7460b471d"
