@@ -329,7 +329,7 @@
       <div class="page-width">
         <div class="header__search-container">
           {% if settings.ss_enable %}
-            <form action="/test" method="get" role="search" class="header__search-form">
+            <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search" class="header__search-form">
               <div class="header__search-group">
                 <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore />
                 <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
