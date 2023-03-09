@@ -68,9 +68,9 @@
       "blocks": {
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e": {
           "type": "block",
-          "disabled": true,
           "settings": {
             "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/unnamed.png",
             "text": "\"The Best Vacation Swimwear According to Your Destination\"",
             "date": "FEBRUARY 2023",
             "link": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/a42995500\/best-vacation-swimwear\/"
