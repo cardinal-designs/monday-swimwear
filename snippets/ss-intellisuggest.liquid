@@ -5,7 +5,7 @@
 		var ss_site_id = '{{ settings.ss_site_id }}';
  
 		try {
-			{% if template == 'product' %}
+			{% if template contains 'product' %}
 				var product_code = '{{ product.variants[0].sku }}';
 				IntelliSuggest.init({siteId: ss_site_id, context: 'Product/' + product_code, seed: product_code});
 				IntelliSuggest.viewItem({sku:product_code});
