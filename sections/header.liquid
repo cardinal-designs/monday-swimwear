@@ -19,16 +19,28 @@
           <div class="menu-drawer__inner-container">
             <div class="menu-drawer__header">
               <div class="mobile-search">
-                <form action="/search" method="get" role="search" class="header__search-form">
-                  <div class="header__search-group">
-                    <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
-                    <input type="hidden" name="options[prefix]" value="last">
-                    <input type="hidden" name="type" value="product" />
-                    <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
-                      {% render 'icon-search' %}
-                    </button>
-                  </div>
-                </form>
+                {% if settings.ss_enable %}
+                  <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search" class="header__search-form">
+                    <div class="header__search-group">
+                      <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore>
+                      <input type="hidden" name="options[prefix]" value="last">
+                      <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
+                        {% render 'icon-search' %}
+                      </button>
+                    </div>
+                  </form>
+                {% else %}
+                  <form action="/search" method="get" role="search" class="header__search-form">
+                    <div class="header__search-group">
+                      <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
+                      <input type="hidden" name="options[prefix]" value="last">
+                      <input type="hidden" name="type" value="product" />
+                      <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
+                        {% render 'icon-search' %}
+                      </button>
+                    </div>
+                  </form>
+                {% endif %}
               </div>
               <button class="js-close-menu header__icon header__icon--close" aria-label="Menu">
                 {% render 'icon-close' %}
