@@ -8,6 +8,11 @@
   {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   <div id="searchspring-content"></div>
+  <style>
+    #searchspring-content {
+      min-height: 800px;
+    }
+  </style>
 {% else %}
   {% assign active_tags = '' %}
   
