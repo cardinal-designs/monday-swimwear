@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "9a3d3999-e32c-43b6-912a-222b3559c92a": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "logo": "",
+            "text": "",
+            "date": "MARCH 2023",
+            "link": "https:\/\/www.lofficielusa.com\/fashion\/tiny-bikinis-mirco-swimwear-to-buy-this-summer"
+          }
+        },
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e": {
           "type": "block",
           "settings": {
@@ -218,6 +228,7 @@
         }
       },
       "block_order": [
+        "9a3d3999-e32c-43b6-912a-222b3559c92a",
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e",
         "a131762c-68a5-4bd9-b00a-7e8d4e2df9de",
         "9d9bbe15-479a-42d2-92cf-c979411269e6",
