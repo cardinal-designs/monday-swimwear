@@ -183,31 +183,31 @@
       console.log('Script')
 
       if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
-        document.addEventListener("DOMContentLoaded", function(event) {
-          Shopify = window.Shopify || {};
-          Shopify.checkoutScripts = CheckoutScripts();
-          let checkout = Shopify.checkoutScripts;
-            checkout.checkForConsentNeeded();
+        // document.addEventListener("DOMContentLoaded", function(event) {
+        // });
+        Shopify = window.Shopify || {};
+        Shopify.checkoutScripts = CheckoutScripts();
+        let checkout = Shopify.checkoutScripts;
+          checkout.checkForConsentNeeded();
+          checkout.onConsentChange();
+          checkout.checkContinueStatus();
+       
+        const observedEl = document.querySelector(".main__content");
+        const observer = new MutationObserver(mutationRecords => {
+          if(!document.querySelector(".consent-wrapper")){
+            // checkout.checkForConsentNeeded();
             checkout.onConsentChange();
-            checkout.checkContinueStatus();
-         
-          const observedEl = document.querySelector(".main__content");
-          const observer = new MutationObserver(mutationRecords => {
-            if(!document.querySelector(".consent-wrapper")){
-              // checkout.checkForConsentNeeded();
-              checkout.onConsentChange();
-             }
-            checkout.checkContinueStatus();
-          })
-    
-          observer.observe(observedEl, {subtree: true, childList: true});
-          // setTimeout(function() {}, 3000)
-        });
+           }
+          checkout.checkContinueStatus();
+        })
+  
+        observer.observe(observedEl, {subtree: true, childList: true});
+        // setTimeout(function() {}, 3000)
       } else if (Shopify.Checkout.OrderStatus) {
-        document.addEventListener("DOMContentLoaded", function(event) {
+        // document.addEventListener("DOMContentLoaded", function(event) {
+        // });
           Shopify.checkoutScripts = CheckoutScripts();
           let checkout = Shopify.checkoutScripts;
-        });
       }
 
       
