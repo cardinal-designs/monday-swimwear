@@ -166,8 +166,8 @@
 
           checkContinueStatus();
         });
-        // checkbox.checked = true;
-        // checkbox.dispatchEvent(new Event('change'));
+        checkbox.checked = true;
+        checkbox.dispatchEvent(new Event('change'));
       }
     }
 
@@ -180,7 +180,6 @@
 
   (function($) {
     $(document).on("page:load page:change", function() {
-      console.log('Script')
 
       if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
         // document.addEventListener("DOMContentLoaded", function(event) {
