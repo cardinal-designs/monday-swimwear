@@ -71,7 +71,7 @@
           "disabled": true,
           "settings": {
             "logo": "",
-            "text": "",
+            "text": "\"The Micro Bikini Trend is Back\"",
             "date": "MARCH 2023",
             "link": "https:\/\/www.lofficielusa.com\/fashion\/tiny-bikinis-mirco-swimwear-to-buy-this-summer"
           }
@@ -101,7 +101,7 @@
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/CNN_LOGO-removebg-preview.png",
-            "text": "\"Monday Swimwear never disappoints. One reviewer shares that this “accentuates the right places and somehow makes the undesirable parts look good” — although we hope you feel empowered to love all parts of you!\"",
+            "text": "\"40 one-piece swimsuits to wear this summer\"",
             "date": "Sept 2022",
             "link": "https:\/\/www.cnn.com\/cnn-underscored\/fashion\/best-one-piece-swimsuits"
           }
@@ -121,7 +121,7 @@
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/NYLON_Logo.png",
-            "text": "\"Founded by Natasha Oakley and Devin Brugman, Monday Swimwear’s latest presentation showcased the brand’s elevated twist on construction and body-inclusive pieces....The model casting was a huge plus for the runway show, too, featuring a slew of new faces, curvy models, and Rihanna-inspired maternity ‘fits.\"",
+            "text": "\"7 EMERGING DESIGNERS TO KNOW FROM PARAISO’S 2022 MIAMI SWIM WEEK\"",
             "date": "JULY 2022",
             "link": "https:\/\/www.nylon.com\/fashion\/emerging-designers-paraiso-2022-miami-swim-week"
           }
@@ -168,6 +168,7 @@
         },
         "505098ab-c169-42c4-9c4c-81c3756929eb": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/Unknown.png",
@@ -191,7 +192,7 @@
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/elle-australia-vector-logo.png",
-            "text": "\"Brainchild of the ultimate cool girls, Tash Oakley and Devon Windsor, Monday Swimwear are the masters of sexy, flattering styles that are practically made for the 'gram, with sizes going up to an F cup.\"",
+            "text": "\"Call Off The Search, We've Found The Best Swimwear Brands For Big Boobs\"",
             "date": "JAN 2022",
             "link": "https:\/\/www.elle.com.au\/fashion\/best-swimwear-brands-big-boobs-19423"
           }
