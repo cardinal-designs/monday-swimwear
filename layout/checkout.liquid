@@ -154,9 +154,12 @@
 
       (function($) {
         $(document).on("page:load page:change", function() {
-          console.log('hiiii')
-          if (Shopify.Checkout.step === "contact_information") {
-            // Add content
+          if (Shopify.Checkout.step === "payment_method") {
+            let checkbox = document.querySelector('[name="consentRequired"]')
+            if(checkbox){
+              checkbox.checked = true;
+              checkbox.dispatchEvent(new Event('change'));
+            }
           }
         });
       })(Checkout.$);
