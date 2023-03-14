@@ -155,7 +155,8 @@
       (function($) {
         $(document).on("page:load page:change", function() {
           if (Shopify.Checkout.step === "payment_method") {
-            let checkbox = document.querySelector('[name="consentRequired"]')
+            let checkbox = document.querySelector('[name="consentRequired"]');
+            
             if(checkbox){
             console.log('hiii',checkbox)
               checkbox.checked = true;
