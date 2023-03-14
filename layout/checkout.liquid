@@ -150,6 +150,18 @@
       $(document).on("page:load page:change", function() {
         FinalSaleLabel();
       });
+
+
+      (function($) {
+        $(document).on("page:load page:change", function() {
+          console.log('hiiii')
+          if (Shopify.Checkout.step === "contact_information") {
+            // Add content
+          }
+        });
+      })(Checkout.$);
+
+      
     </script>
     <style>
       .label {
