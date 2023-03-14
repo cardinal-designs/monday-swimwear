@@ -66,14 +66,14 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
-        "9a3d3999-e32c-43b6-912a-222b3559c92a": {
+        "6e93c751-34e1-48b2-b05d-df4bac7f4c99": {
           "type": "block",
-          "disabled": true,
           "settings": {
             "logo": "",
-            "text": "\"The Micro Bikini Trend is Back\"",
-            "date": "MARCH 2023",
-            "link": "https:\/\/www.lofficielusa.com\/fashion\/tiny-bikinis-mirco-swimwear-to-buy-this-summer"
+            "logo_img": "shopify:\/\/shop_images\/1200px-VOGUE_revista_-_logo.png",
+            "text": "\"From Island Hopping to Poolside Cocktails, Monday Swimwear Has the Suit of the Season\"",
+            "date": "READ MORE",
+            "link": "https:\/\/www.vogue.com\/sponsored\/article\/monday-swimwear-is-the-suit-of-the-season"
           }
         },
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e": {
@@ -86,6 +86,16 @@
             "link": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/a42995500\/best-vacation-swimwear\/"
           }
         },
+        "3cdcbc26-b2da-461f-912c-09be3d6ababc": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/Vanity_Fair_Logo.png",
+            "text": "\"21 Best Swimsuit Brands to Shop for the Summer 2022 Season\"",
+            "date": "READ MORE",
+            "link": "https:\/\/www.vanityfair.com\/style\/2022\/05\/21-best-swimsuit-brands-to-shop-for-the-summer-2022-season"
+          }
+        },
         "a131762c-68a5-4bd9-b00a-7e8d4e2df9de": {
           "type": "block",
           "settings": {
@@ -94,6 +104,16 @@
             "text": "\"48 Luxury Swimwear Brands That Deserve a Spot on Your Instagram Grid\"",
             "date": "read more",
             "link": "https:\/\/www.elle.com\/fashion\/shopping\/g28053\/swimwear-designers-instagram-bikini\/"
+          }
+        },
+        "9a3d3999-e32c-43b6-912a-222b3559c92a": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "logo": "",
+            "text": "\"The Micro Bikini Trend is Back\"",
+            "date": "MARCH 2023",
+            "link": "https:\/\/www.lofficielusa.com\/fashion\/tiny-bikinis-mirco-swimwear-to-buy-this-summer"
           }
         },
         "9d9bbe15-479a-42d2-92cf-c979411269e6": {
@@ -156,16 +176,6 @@
             "link": "https:\/\/sheerluxe.com\/fashion\/stylish-supportive-swimwear-bigger-busts"
           }
         },
-        "3cdcbc26-b2da-461f-912c-09be3d6ababc": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/Vanity_Fair_Logo.png",
-            "text": "\"21 Best Swimsuit Brands to Shop for the Summer 2022 Season\"",
-            "date": "READ MORE",
-            "link": "https:\/\/www.vanityfair.com\/style\/2022\/05\/21-best-swimsuit-brands-to-shop-for-the-summer-2022-season"
-          }
-        },
         "505098ab-c169-42c4-9c4c-81c3756929eb": {
           "type": "block",
           "disabled": true,
@@ -175,16 +185,6 @@
             "text": "\"Have Big Boobs? These Bathing Suits Will Keep You Supported All Summer Long\"",
             "date": "April 2022",
             "link": "https:\/\/theeverygirl.com\/best-bathing-suits-for-big-boobs\/"
-          }
-        },
-        "6e93c751-34e1-48b2-b05d-df4bac7f4c99": {
-          "type": "block",
-          "settings": {
-            "logo": "",
-            "logo_img": "shopify:\/\/shop_images\/1200px-VOGUE_revista_-_logo.png",
-            "text": "\"From Island Hopping to Poolside Cocktails, Monday Swimwear Has the Suit of the Season\"",
-            "date": "READ MORE",
-            "link": "https:\/\/www.vogue.com\/sponsored\/article\/monday-swimwear-is-the-suit-of-the-season"
           }
         },
         "f6365442-2f02-469f-a572-bcc13a4b0ab9": {
@@ -229,18 +229,18 @@
         }
       },
       "block_order": [
-        "9a3d3999-e32c-43b6-912a-222b3559c92a",
+        "6e93c751-34e1-48b2-b05d-df4bac7f4c99",
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e",
+        "3cdcbc26-b2da-461f-912c-09be3d6ababc",
         "a131762c-68a5-4bd9-b00a-7e8d4e2df9de",
+        "9a3d3999-e32c-43b6-912a-222b3559c92a",
         "9d9bbe15-479a-42d2-92cf-c979411269e6",
         "e2c83908-2e4d-43a3-8454-a475fcb0787d",
         "4a9fd056-80e8-482d-a618-3f8aa3da6ec2",
         "bf1b01b5-9c80-4dd4-852a-fa3c2acee2e0",
         "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5",
         "38c526bd-4666-495a-907a-38cf1a9bafc0",
-        "3cdcbc26-b2da-461f-912c-09be3d6ababc",
         "505098ab-c169-42c4-9c4c-81c3756929eb",
-        "6e93c751-34e1-48b2-b05d-df4bac7f4c99",
         "f6365442-2f02-469f-a572-bcc13a4b0ab9",
         "e02a1edd-a10b-4c55-af8d-c4a1119a2d4b",
         "6917545b-14b1-4ef1-a682-48b0fd1cf274",
