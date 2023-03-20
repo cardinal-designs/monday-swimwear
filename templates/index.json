@@ -3,7 +3,7 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/dreamblue-web3.png",
+        "image": "shopify:\/\/shop_images\/1_dfb8a69f-07bf-4639-b6ba-689ae24e18f2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/dreamblue-mob.png",
         "text": "",
         "text_color": "#ffffff",
@@ -52,6 +52,7 @@
       "blocks": {
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "eco-friendly-fabrics"
           }
@@ -98,13 +99,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marina-Bucket-Hat---Terry.jpg",
-            "text": "Soft & Plush",
-            "link_label": "Shop the Terry Collection",
-            "link": "shopify:\/\/collections\/the-terry-collection"
+            "image": "shopify:\/\/shop_images\/Newport-Dress-2.jpg",
+            "text": "Luxe Knits",
+            "link_label": "Shop Knitwear",
+            "link": "shopify:\/\/collections\/knitwear"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -116,20 +117,20 @@
             "link": "shopify:\/\/collections\/beachwear-accessories"
           }
         },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Newport-Dress-2.jpg",
-            "text": "Luxe Knits",
-            "link_label": "Shop Knitwear",
-            "link": "shopify:\/\/collections\/knitwear"
+            "image": "shopify:\/\/shop_images\/Marina-Bucket-Hat---Terry.jpg",
+            "text": "Soft & Plush",
+            "link_label": "Shop the Terry Collection",
+            "link": "shopify:\/\/collections\/the-terry-collection"
           }
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
