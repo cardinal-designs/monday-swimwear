@@ -3,7 +3,7 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_dfb8a69f-07bf-4639-b6ba-689ae24e18f2.jpg",
+        "image": "shopify:\/\/shop_images\/1_18614874-916e-4c0c-9098-36a2d6a34acf.jpg",
         "mobile_image": "shopify:\/\/shop_images\/dreamblue-mob.png",
         "text": "",
         "text_color": "#ffffff",
@@ -59,6 +59,7 @@
         },
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "bridal-collection"
           }
