@@ -100,15 +100,6 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_e799788f-3148-4bcc-887d-971ce4499b3a.jpg",
-            "text": "Luxe Knits",
-            "link_label": "Shop Knitwear",
-            "link": "shopify:\/\/collections\/knitwear"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
@@ -121,17 +112,26 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marina-Bucket-Hat---Terry.jpg",
-            "text": "Soft & Plush",
-            "link_label": "Shop the Terry Collection",
-            "link": "shopify:\/\/collections\/the-terry-collection"
+            "image": "shopify:\/\/shop_images\/3_8e78d4fb-580e-4da8-b76c-6d4c18dcef06.jpg",
+            "text": "Crochet Details",
+            "link_label": "Shop Ivory Crochet",
+            "link": "shopify:\/\/collections\/ivory-crochet"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_e799788f-3148-4bcc-887d-971ce4499b3a.jpg",
+            "text": "Luxe Knits",
+            "link_label": "Shop Knitwear",
+            "link": "shopify:\/\/collections\/knitwear"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
