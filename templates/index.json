@@ -3,7 +3,7 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ivorycrochet-web-update1.png",
+        "image": "shopify:\/\/shop_images\/ivorycrochet-web-update4.png",
         "mobile_image": "shopify:\/\/shop_images\/ivorycrochet-mob-update2.png",
         "text": "",
         "text_color": "#ffffff",
@@ -52,9 +52,8 @@
       "blocks": {
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": "eco-friendly-fabrics"
+            "collection": "the-festival-collection"
           }
         },
         "944498a4-3695-48f6-9a89-0208d09aab7b": {
