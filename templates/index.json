@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_18614874-916e-4c0c-9098-36a2d6a34acf.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/3_d693c5ed-8fdc-4b35-bc43-da7e4fbe644f.jpg",
+        "image": "shopify:\/\/shop_images\/ivorycrochet-web-update1.png",
+        "mobile_image": "shopify:\/\/shop_images\/ivorycrochet-mob-update2.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -89,12 +89,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/coming-soon-web-edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/coming-soon-mob-edit.png",
+        "image": "shopify:\/\/shop_images\/1_18614874-916e-4c0c-9098-36a2d6a34acf.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/3_d693c5ed-8fdc-4b35-bc43-da7e4fbe644f.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "",
-        "link": ""
+        "link_label": "sun kissed shimmer",
+        "link": "shopify:\/\/collections\/sun-kissed-shimmer"
       }
     },
     "1640812146b4d73cae": {
