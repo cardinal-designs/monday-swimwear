@@ -2538,5 +2538,23 @@ header-drawer {
 /*================ Search Spring ================*/
 .ss__autocomplete--target .ss__autocomplete {
   width: 100%;
-  padding: 0 40px;
+  padding: 0 120px;
+}
+
+@media screen and (max-width: 1600px) {
+  .ss__autocomplete--target .ss__autocomplete  {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .ss__autocomplete--target .ss__autocomplete  {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ss__autocomplete--target .ss__autocomplete  {
+    padding: 0 10px;
+  }
 }
