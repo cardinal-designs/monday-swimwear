@@ -34,7 +34,7 @@
           {% endif %}
           {% endfor %}
         </a>
-        {% if product_card_product.variants.size > 0 or product_card_product.tags contains 'restocking' or product_card_product.tags contains 'Coming Soon' %}
+        {% if product_card_product.variants.size > 0 or product_card_product.tags contains 'Coming Soon' %}
         {% comment %} Check if using collection to determine swatches or using product variants {% endcomment %}
           {% assign use_collection_for_swatches = false %}
           {% assign collection_for_swatches = '' %}
