@@ -338,6 +338,26 @@
               "shop_link": "shopify:\/\/collections\/shop-by-style-bahamas-one-piece"
             }
           },
+          "878ab549-68c5-43cd-933b-7e46bba323b4": {
+            "type": "one_piece",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/CLOVELLY-ONE-PIECE---BLACK-REC_02.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Clovelly-One-Piece---Black.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Clovelly-One-Piece---Black-2.jpg",
+              "title": "The Clovelly One Piece",
+              "short_title": "Clovelly One Piece",
+              "short_description": "Sleek,Feminine,Supportive",
+              "description": "The Clovelly One Piece is guarenteed make you look and feel your best. With its underwire support, open back detail, adjustability and high leg cut, this figure flattering one piece is nothing short of perfection. We love this piece under the Belize Pant or La Jolla Short.",
+              "highlights": "Underwire cups, open back detail w\/ back tie closure, adjustable shoulder straps, high leg, cheeky coverage",
+              "fit": "Designed to best fit cup sizes A-E",
+              "padding": "No",
+              "coverage": "Cheeky",
+              "style": "Supportive",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/clovelly-one-piece"
+            }
+          },
           "689219e6-a008-47ac-9927-252b2d15e9d6": {
             "type": "one_piece",
             "settings": {
@@ -522,6 +542,7 @@
         "block_order": [
           "03ef7265-56d4-4558-bb44-6fc473f24067",
           "e25aa9b6-d166-4d1a-b4bc-bf3bfbf50651",
+          "878ab549-68c5-43cd-933b-7e46bba323b4",
           "689219e6-a008-47ac-9927-252b2d15e9d6",
           "ab74d75e-a266-47e3-97f9-3ee491028e51",
           "0252e8b0-d725-41bf-ad37-f1c03032121b",
@@ -755,6 +776,26 @@
               "fabric": "",
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-isla-mujeres"
+            }
+          },
+          "3961f63a-027d-4914-b7aa-50fc2e6f645e": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/KAUAI-BOTTOM---BLACK-REC.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Kauai-Set---Black-1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Kauai-Set---Black-2_49471aa2-b8a3-4a91-9678-25dc370e9d90.jpg",
+              "title": "The Kauai Bottom",
+              "short_title": "Kauai Bottom",
+              "short_description": "",
+              "description": "This simple yet cheeky bikini is all you'll want this summer! The Kauai Bottom is your classic bikini bottom that features thin straps, a flattering shape and cheeky coverage for the perfect tan.",
+              "highlights": "Thin waistband",
+              "fit": "",
+              "padding": "",
+              "coverage": "High Leg \/ Cheeky",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/kauai-bottom"
             }
           },
           "862fd382-ca17-44b4-afd6-18c003ac9af5": {
@@ -1036,26 +1077,6 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-tulum-bottom"
             }
-          },
-          "3961f63a-027d-4914-b7aa-50fc2e6f645e": {
-            "type": "bottom",
-            "settings": {
-              "flat_image": "shopify:\/\/shop_images\/KAUAI-BOTTOM---BLACK-REC.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/Kauai-Set---Black-1.jpg",
-              "lifestyle_image2": "shopify:\/\/shop_images\/Kauai-Set---Black-2_49471aa2-b8a3-4a91-9678-25dc370e9d90.jpg",
-              "title": "The Kauai Bottom",
-              "short_title": "Kauai Bottom",
-              "short_description": "",
-              "description": "This simple yet cheeky bikini is all you'll want this summer! The Kauai Bottom is your classic bikini bottom that features thin straps, a flattering shape and cheeky coverage for the perfect tan.",
-              "highlights": "Thin waistband",
-              "fit": "",
-              "padding": "",
-              "coverage": "High Leg \/ Cheeky",
-              "style": "",
-              "fabric": "",
-              "fit_tip": "",
-              "shop_link": "shopify:\/\/collections\/kauai-bottom"
-            }
           }
         },
         "block_order": [
@@ -1070,6 +1091,7 @@
           "85767612-329b-4409-9c42-d4c0ebf47a95",
           "22e7314f-1694-4ac5-a040-5fb554e5b65a",
           "56f44aff-4d5b-48c7-9711-f10dab98374c",
+          "3961f63a-027d-4914-b7aa-50fc2e6f645e",
           "862fd382-ca17-44b4-afd6-18c003ac9af5",
           "ce3ec260-5b8d-44f6-9440-299bfda6b5ac",
           "e6c34dc0-c473-4734-967e-0e941c782f77",
@@ -1083,8 +1105,7 @@
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7",
           "4198cbe8-da95-4c39-b1ff-b5c042b4b767",
           "50917c6a-4369-447a-b962-017a811c3759",
-          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97",
-          "3961f63a-027d-4914-b7aa-50fc2e6f645e"
+          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97"
         ],
         "settings": {
         }
