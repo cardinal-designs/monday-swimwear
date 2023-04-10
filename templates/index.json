@@ -53,14 +53,7 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "summer-23"
-          }
-        },
-        "944498a4-3695-48f6-9a89-0208d09aab7b": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "bridal-collection"
+            "collection": "lemongrass-crinkle"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -78,7 +71,6 @@
       },
       "block_order": [
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
-        "944498a4-3695-48f6-9a89-0208d09aab7b",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
