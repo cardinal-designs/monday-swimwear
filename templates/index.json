@@ -179,50 +179,50 @@
             "short_title": "Malibu Top",
             "short_description": "Lift, Support, Feminine",
             "description": "Chic and supportive, the Malibu Top is perfect for your weekend getaway! With its shirred cups and straps and supportive underwire, this top will give you all the feminine touches you desire.",
-            "fit": "Designed to best fit cup sizes A-G.",
+            "fit": "Designed to best fit cup sizes A-G",
             "padding": "No",
             "coverage": "",
             "style": "Underwire \/ Highly Supportive",
             "fabric": "",
             "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/capri-top-black",
-            "explore_link": "shopify:\/\/products\/capri-top-black"
+            "shop_link": "shopify:\/\/products\/malibu-top-black",
+            "explore_link": "shopify:\/\/collections\/malibu-top"
           }
         },
         "57463eab-fe10-4bbe-97f0-49cb87347475": {
           "type": "fit",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PalominoBottom-Black.png",
-            "title": "The Palomino Bottom",
-            "short_title": "Palomino Bottom",
+            "image": "shopify:\/\/shop_images\/IMG_0381.jpg",
+            "title": "The Byron Bottom",
+            "short_title": "Byron Bottom",
             "short_description": "",
-            "description": "If you love the Palma Bottom, you'll need the Palomino Bottom. Featuring a high waist and high leg this tie side bottom is perfect for that 90's iconic look.",
+            "description": "Believe us when we tell you that the Byron Bottom will be the staple bottom in your swimwear collection. With a mid-rise fit and cheeky coverage, this swim bottom is extremely flattering and reassuringly comfortable.",
             "fit": "Available in sizes P-VVV",
             "padding": "",
-            "coverage": "High Waisted \/ High Leg \/Minimal",
+            "coverage": "Cheeky",
             "style": "",
             "fabric": "",
             "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/palomino-bottom-black",
-            "explore_link": "shopify:\/\/products\/palomino-bottom-black"
+            "shop_link": "shopify:\/\/collections\/byron-bottom",
+            "explore_link": "shopify:\/\/products\/byron-bottom-black"
           }
         },
         "37be9d4e-ad65-4a18-88ca-dca968d4542e": {
           "type": "fit",
           "settings": {
             "image": "shopify:\/\/shop_images\/Whitehaven-One-Piece.jpg",
-            "title": "The Whitehaven One Piece",
-            "short_title": "Whitehaven One Piece",
-            "short_description": "Feminine,Sophisticated,Chic",
-            "description": "The Whitehaven One Piece is an all-around must have! Its chic neckline, low back and adjustable waist ties instantly elevates your look. We love this one piece as a bodysuit under the Tahiti, Hampton or Monaco Pant for a beach to dinner set.",
+            "title": "The Clovelly One Piece",
+            "short_title": "Clovelly One Piece",
+            "short_description": "Sleek, Feminine, Supportive",
+            "description": "The Clovelly One Piece is guarenteed make you look and feel your best. With its underwire support, open back detail, adjustability and high leg cut, this figure flattering one piece is nothing short of perfection. We love this piece under the Belize Pant or La Jolla Short.",
             "fit": "Designed to best fit cup sizes A-E.",
             "padding": "No",
-            "coverage": "Moderate and minimal",
+            "coverage": "Cheeky",
             "style": "",
             "fabric": "",
             "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/whitehaven-one-piece-black",
-            "explore_link": "shopify:\/\/products\/whitehaven-one-piece-black"
+            "shop_link": "shopify:\/\/products\/clovelly-one-piece-black",
+            "explore_link": "shopify:\/\/collections\/clovelly-one-piece"
           }
         }
       },
