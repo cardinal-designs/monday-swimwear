@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/dreamblue-web3.png",
-        "mobile_image": "shopify:\/\/shop_images\/dreamblue-mob.png",
+        "image": "shopify:\/\/shop_images\/summer-web1.png",
+        "mobile_image": "shopify:\/\/shop_images\/summer-mob1.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -53,13 +53,7 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "eco-friendly-fabrics"
-          }
-        },
-        "944498a4-3695-48f6-9a89-0208d09aab7b": {
-          "type": "collection",
-          "settings": {
-            "collection": "bridal-collection"
+            "collection": "summer-23"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -73,13 +67,20 @@
           "settings": {
             "collection": "beachwear-accessories"
           }
+        },
+        "944498a4-3695-48f6-9a89-0208d09aab7b": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "bridal-collection"
+          }
         }
       },
       "block_order": [
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
-        "944498a4-3695-48f6-9a89-0208d09aab7b",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "944498a4-3695-48f6-9a89-0208d09aab7b"
       ],
       "settings": {
       }
@@ -101,28 +102,28 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marina-Bucket-Hat---Terry.jpg",
-            "text": "Soft & Plush",
-            "link_label": "Shop the Terry Collection",
-            "link": "shopify:\/\/collections\/the-terry-collection"
+            "image": "shopify:\/\/shop_images\/4_e17487d9-cac3-4878-b43e-a0bbf6ef30d7.jpg",
+            "text": "Chili Pepper",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/chili-pepper"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Staniel-Cay-Comb---Tortoise.jpg",
-            "text": "Daily Essentials",
-            "link_label": "Shop Accessories",
-            "link": "shopify:\/\/collections\/beachwear-accessories"
+            "image": "shopify:\/\/shop_images\/2_eccd76ef-bed9-479c-be56-ec273ffd279f.jpg",
+            "text": "Lemongrass Crinkle",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/lemongrass-crinkle"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Newport-Dress-2.jpg",
-            "text": "Luxe Knits",
-            "link_label": "Shop Knitwear",
-            "link": "shopify:\/\/collections\/knitwear"
+            "image": "shopify:\/\/shop_images\/Set-1.jpg",
+            "text": "Island Aura",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/island-aura"
           }
         }
       },
