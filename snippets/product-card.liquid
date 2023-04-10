@@ -2,7 +2,7 @@
 
 <product-card data="{{product_card_product.variants[0].available | json}}" data-product-id="{{ product_card_product.id }}">
   <div class="product-card" tabindex="-1">
-    <div class="product-card__inner" data-helloooo>
+    <div class="product-card__inner">
       <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
         <div class="product-card__image" data-url="{{ product_card_product.media[1] | img_url }}">
           {% render 'lazy-image' image: product_card_product.featured_media, fade: true, classes: 'initial-image' %}
