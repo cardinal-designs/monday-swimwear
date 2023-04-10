@@ -797,6 +797,26 @@
               "shop_link": "shopify:\/\/products\/le-marais-bottom-black-sig"
             }
           },
+          "e6c34dc0-c473-4734-967e-0e941c782f77": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Malta-Bottom---Black.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Malta-Bottom---Black-1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Malta-Bottom---Black-2.jpg",
+              "title": "The Malta Bottom",
+              "short_title": "Malta Bottom",
+              "short_description": "",
+              "description": "Show off your figure in the Malta Bottom. Flaunting an adjustable high leg silhouette, this bikini bottom will keep eyes on you with the strappy details and minimal back coverage.",
+              "highlights": "Double side straps, hiigh leg, minimal bottom coverage",
+              "fit": "",
+              "padding": "",
+              "coverage": "High Leg \/ Minimal",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/malta-bottom"
+            }
+          },
           "b3e14f3e-c578-4023-a1ec-1846ea20cf6c": {
             "type": "bottom",
             "settings": {
@@ -1016,26 +1036,6 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-tulum-bottom"
             }
-          },
-          "e6c34dc0-c473-4734-967e-0e941c782f77": {
-            "type": "bottom",
-            "settings": {
-              "flat_image": "shopify:\/\/shop_images\/Malta-Bottom---Black.jpg",
-              "lifestyle_image": "shopify:\/\/shop_images\/Malta-Bottom---Black-1.jpg",
-              "lifestyle_image2": "shopify:\/\/shop_images\/Malta-Bottom---Black-2.jpg",
-              "title": "The Malta Bottom",
-              "short_title": "Malta Bottom",
-              "short_description": "",
-              "description": "Show off your figure in the Malta Bottom. Flaunting an adjustable high leg silhouette, this bikini bottom will keep eyes on you with the strappy details and minimal back coverage.",
-              "highlights": "Double side straps, hiigh leg, minimal bottom coverage",
-              "fit": "",
-              "padding": "",
-              "coverage": "High Leg \/ Minimal",
-              "style": "",
-              "fabric": "",
-              "fit_tip": "",
-              "shop_link": "shopify:\/\/collections\/malta-bottom"
-            }
           }
         },
         "block_order": [
@@ -1052,6 +1052,7 @@
           "56f44aff-4d5b-48c7-9711-f10dab98374c",
           "862fd382-ca17-44b4-afd6-18c003ac9af5",
           "ce3ec260-5b8d-44f6-9440-299bfda6b5ac",
+          "e6c34dc0-c473-4734-967e-0e941c782f77",
           "b3e14f3e-c578-4023-a1ec-1846ea20cf6c",
           "678c6af8-5cf8-4bcf-a201-85fb07a13af2",
           "1cb8461a-0a93-4b6a-9848-27e48cde44dc",
@@ -1062,8 +1063,7 @@
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7",
           "4198cbe8-da95-4c39-b1ff-b5c042b4b767",
           "50917c6a-4369-447a-b962-017a811c3759",
-          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97",
-          "e6c34dc0-c473-4734-967e-0e941c782f77"
+          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97"
         ],
         "settings": {
         }
