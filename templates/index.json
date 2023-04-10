@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ivory-crochet-web_f2a857a6-6a04-418a-badc-a4b1b17e79d7.png",
-        "mobile_image": "shopify:\/\/shop_images\/ivory-crochet-web2.png",
+        "image": "shopify:\/\/shop_images\/summer-web1.png",
+        "mobile_image": "shopify:\/\/shop_images\/summer-mob1.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -121,10 +121,10 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_e799788f-3148-4bcc-887d-971ce4499b3a.jpg",
-            "text": "Luxe Knits",
-            "link_label": "Shop Knitwear",
-            "link": "shopify:\/\/collections\/knitwear"
+            "image": "shopify:\/\/shop_images\/Set-1.jpg",
+            "text": "Island Aura",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/island-aura"
           }
         }
       },
