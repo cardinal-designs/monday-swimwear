@@ -1036,6 +1036,26 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-tulum-bottom"
             }
+          },
+          "3961f63a-027d-4914-b7aa-50fc2e6f645e": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/KAUAI-BOTTOM---BLACK-REC.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Kauai-Set---Black-1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Kauai-Set---Black-2_49471aa2-b8a3-4a91-9678-25dc370e9d90.jpg",
+              "title": "The Kauai Bottom",
+              "short_title": "Kauai Bottom",
+              "short_description": "",
+              "description": "This simple yet cheeky bikini is all you'll want this summer! The Kauai Bottom is your classic bikini bottom that features thin straps, a flattering shape and cheeky coverage for the perfect tan.",
+              "highlights": "Thin waistband",
+              "fit": "",
+              "padding": "",
+              "coverage": "High Leg \/ Cheeky",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/kauai-bottom"
+            }
           }
         },
         "block_order": [
@@ -1063,7 +1083,8 @@
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7",
           "4198cbe8-da95-4c39-b1ff-b5c042b4b767",
           "50917c6a-4369-447a-b962-017a811c3759",
-          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97"
+          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97",
+          "3961f63a-027d-4914-b7aa-50fc2e6f645e"
         ],
         "settings": {
         }
