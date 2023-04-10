@@ -1370,6 +1370,26 @@
               "shop_link": "shopify:\/\/collections\/shop-the-jamaica"
             }
           },
+          "45487f61-ef5f-4455-a889-c470ff9e11fc": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Kauai-Top---Black.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Kauai-Set---Black-1.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Kauai-Set---Black-2_49471aa2-b8a3-4a91-9678-25dc370e9d90.jpg",
+              "title": "The Kauai Top",
+              "short_title": "Kauai Top",
+              "short_description": "Sleek, Chic, Minimal",
+              "description": "We love a good triangle bikini and we've given this style a chic upgrade. Featuring tall triangle cups and thin shoulder straps, the Kauai Top ensures the perfect fit with the adjustable back ties and cups.",
+              "highlights": "Adjustable cups, adjustable shoulder straps and back tie closure with gold hardware",
+              "fit": "Designed to best fit cup sizes A-D",
+              "padding": "No",
+              "coverage": "",
+              "style": "Triangle, Minimal, Supportive",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/kauai-top"
+            }
+          },
           "79870e93-a2a3-4f15-9552-1b6afb5155a1": {
             "type": "top",
             "settings": {
@@ -1646,6 +1666,7 @@
           "11d9390a-4833-48e1-8254-d92ed1b19251",
           "38c2a835-0b7e-4e26-8d5c-ec7e07724229",
           "6e8f9b18-bf32-44df-9b9b-60b64b233009",
+          "45487f61-ef5f-4455-a889-c470ff9e11fc",
           "79870e93-a2a3-4f15-9552-1b6afb5155a1",
           "10be6300-a7cd-44c3-864a-c47c0b129ad6",
           "01310aa3-4f9d-4ec6-82a1-1fa4f34e8d32",
