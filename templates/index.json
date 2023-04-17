@@ -99,6 +99,15 @@
     "1640811405c1297562": {
       "type": "link-blocks",
       "blocks": {
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_789cfeb4-a676-4794-9dea-206560a2c318.jpg",
+            "text": "",
+            "link_label": "SHOP THE COLLECTION",
+            "link": "shopify:\/\/collections\/ivory-crochet"
+          }
+        },
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
           "settings": {
@@ -107,20 +116,11 @@
             "link_label": "SHOP THE COLLECTION",
             "link": "shopify:\/\/collections\/knitwear"
           }
-        },
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_670449c5-d76b-4f71-b32f-fb135e946678.jpg",
-            "text": "",
-            "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/sun-kissed-shimmer"
-          }
         }
       },
       "block_order": [
-        "d029689e-51e9-4bab-918a-a703bb5724d6",
-        "643e0732-83e9-4986-9865-1f1ee99fda72"
+        "643e0732-83e9-4986-9865-1f1ee99fda72",
+        "d029689e-51e9-4bab-918a-a703bb5724d6"
       ],
       "settings": {
         "text_style": "overlay",
