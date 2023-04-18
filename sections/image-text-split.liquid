@@ -1,0 +1,93 @@
+{{ 'section-image-text-split.css' | asset_url | stylesheet_tag }}
+
+<section class="image-text-split">
+  <div class="page-width">
+    <div class="image-text-split__container">
+      <div class="image-text-split__content">
+        <div class="image-text-split__content-container">
+          <p class="image-text-split__subtitle detail">{{ section.settings.subtitle }}</p>
+          <h2 class="image-text-split__title h1 h1-small">{{ section.settings.title }}</h2>
+          <p class="image-text-split__text body-small">{{ section.settings.text }}</p>
+          {% if section.settings.link_1_label != blank %}
+            <div class="image-text-split__links">
+              {% if section.settings.link_1_label != blank or section.settings.link_2_label != blank %}
+                <a href="{{ section.settings.link_1 }}" class="text-link">{{ section.settings.link_1_label }}</a>
+              {% endif %}
+              {% if section.settings.link_2_label != blank %}
+                <a href="{{ section.settings.link_2 }}" class="text-link">{{ section.settings.link_2_label }}</a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="image-text-split__image">
+        {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Image / Text Split",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "header",
+        "content": "Links"
+      },
+      {
+        "type": "text",
+        "id": "link_1_label",
+        "label": "Link 1 Label"
+      },
+      {
+        "type": "url",
+        "id": "link_1",
+        "label": "Link 1"
+      },
+      {
+        "type": "text",
+        "id": "link_2_label",
+        "label": "Link 2 Label"
+      },
+      {
+        "type": "url",
+        "id": "link_2",
+        "label": "Link 2"
+      },
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image / Text Split"
+      }
+    ]
+  }
+{% endschema %}
