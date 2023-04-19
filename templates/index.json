@@ -50,16 +50,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "lemongrass-crinkle"
-          }
-        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory-crochet"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -68,18 +68,19 @@
             "collection": "beachwear-accessories"
           }
         },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
+          "disabled": true,
           "settings": {
-            "collection": "ivory-crochet"
+            "collection": "lemongrass-crinkle"
           }
         }
       },
       "block_order": [
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "bf612915-d86f-40f2-817f-6322dada207b",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
       ],
       "settings": {
       }
@@ -96,16 +97,56 @@
         "link": "shopify:\/\/collections\/sun-kissed-shimmer"
       }
     },
+    "1640811405c1297562": {
+      "type": "link-blocks",
+      "blocks": {
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_789cfeb4-a676-4794-9dea-206560a2c318.jpg",
+            "text": "",
+            "link_label": "SHOP THE COLLECTION",
+            "link": "shopify:\/\/collections\/ivory-crochet"
+          }
+        },
+        "d029689e-51e9-4bab-918a-a703bb5724d6": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_aa02c70d-d9a2-4b9d-bf09-fcb7f24b17aa.jpg",
+            "text": "",
+            "link_label": "SHOP THE COLLECTION",
+            "link": "shopify:\/\/collections\/knitwear"
+          }
+        }
+      },
+      "block_order": [
+        "643e0732-83e9-4986-9865-1f1ee99fda72",
+        "d029689e-51e9-4bab-918a-a703bb5724d6"
+      ],
+      "settings": {
+        "text_style": "overlay",
+        "slider_on_mobile": false
+      }
+    },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Set-1.jpg",
+            "text": "Island Aura",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/island-aura"
+          }
+        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_e17487d9-cac3-4878-b43e-a0bbf6ef30d7.jpg",
-            "text": "Chili Pepper",
+            "image": "shopify:\/\/shop_images\/Image_-_2023-04-18T090203.351.jpg",
+            "text": "The Terry Collection",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/chili-pepper"
+            "link": "shopify:\/\/collections\/the-terry-collection"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -116,56 +157,16 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/lemongrass-crinkle"
           }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Set-1.jpg",
-            "text": "Island Aura",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/island-aura"
-          }
         }
       },
       "block_order": [
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
         "slider_on_mobile": true
-      }
-    },
-    "1640811405c1297562": {
-      "type": "link-blocks",
-      "blocks": {
-        "d029689e-51e9-4bab-918a-a703bb5724d6": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_7b965690-8b86-43a4-bbcc-f4821993df7f.jpg",
-            "text": "",
-            "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/fuchsia-geo"
-          }
-        },
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_670449c5-d76b-4f71-b32f-fb135e946678.jpg",
-            "text": "",
-            "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/sun-kissed-shimmer"
-          }
-        }
-      },
-      "block_order": [
-        "d029689e-51e9-4bab-918a-a703bb5724d6",
-        "643e0732-83e9-4986-9865-1f1ee99fda72"
-      ],
-      "settings": {
-        "text_style": "overlay",
-        "slider_on_mobile": false
       }
     },
     "16408186509f925b52": {
@@ -279,8 +280,8 @@
     "164081090579915a8a",
     "16407502469f0e5f45",
     "16408101574f5b391b",
-    "1640812146b4d73cae",
     "1640811405c1297562",
+    "1640812146b4d73cae",
     "16408186509f925b52",
     "1640814929d4a3c77a",
     "164124814754670aef",
