@@ -86,6 +86,30 @@
       "cart-drawer": {
         "type": "cart-drawer",
         "blocks": {
+          "ce35da39-8666-4078-8a2b-f96324678747": {
+            "type": "upsell",
+            "settings": {
+              "product": "mare-towel-terry"
+            }
+          },
+          "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86": {
+            "type": "upsell",
+            "settings": {
+              "product": "lake-como-woven-bag-large"
+            }
+          },
+          "c53f4786-5fa6-4c8f-b227-d7914b83b00d": {
+            "type": "upsell",
+            "settings": {
+              "product": "saint-jean-bucket-hat"
+            }
+          },
+          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
+            "type": "upsell",
+            "settings": {
+              "product": "almafi-sarong-black"
+            }
+          },
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd": {
             "type": "upsell",
             "settings": {
@@ -103,41 +127,16 @@
             "settings": {
               "product": "obsession-belt"
             }
-          },
-          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
-            "type": "upsell",
-            "settings": {
-              "product": "almafi-sarong-black"
-            }
-          },
-          "ce35da39-8666-4078-8a2b-f96324678747": {
-            "type": "upsell",
-            "settings": {
-              "product": "st-tropez-sarong-white-crinkle-linen"
-            }
-          },
-          "c53f4786-5fa6-4c8f-b227-d7914b83b00d": {
-            "type": "upsell",
-            "disabled": true,
-            "settings": {
-              "product": "exuma-hat"
-            }
-          },
-          "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86": {
-            "type": "upsell",
-            "settings": {
-              "product": "lake-como-woven-bag-large"
-            }
           }
         },
         "block_order": [
+          "ce35da39-8666-4078-8a2b-f96324678747",
+          "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86",
+          "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
+          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd",
           "179ec68a-9604-4dfe-9a08-c0e685271c72",
-          "b998258a-f74b-489f-88ac-d2845f748e54",
-          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
-          "ce35da39-8666-4078-8a2b-f96324678747",
-          "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
-          "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86"
+          "b998258a-f74b-489f-88ac-d2845f748e54"
         ],
         "settings": {
           "cart_title": "Your Cart",
