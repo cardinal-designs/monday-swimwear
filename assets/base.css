@@ -21,6 +21,11 @@ html.no-js .no-js-hidden {
   display: none !important;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
 .page-wrapper {
   width: 100%;
 /*   max-width: 1990px; */
@@ -221,9 +226,15 @@ h1,
   text-transform: uppercase;
 }
 
+.h1-small {
+  font-size: 60px;
+  line-height: 1;
+}
+
 @media only screen and (max-width: 768px) {
   h1,
-  .h1 {
+  .h1,
+  .h1-small {
     font-size: 50px;
   }
 }
@@ -318,7 +329,7 @@ h4,
 }
 
 .sh3 {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -334,7 +345,7 @@ h4,
 }
 
 .sh4 {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -354,7 +365,7 @@ h4,
 
 p,
 .body {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -371,7 +382,7 @@ p,
 }
 
 .body-small {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -380,7 +391,7 @@ p,
 }
 
 .body-large {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -396,7 +407,7 @@ p,
 }
 
 .btn {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -414,7 +425,7 @@ p,
 }
 
 .caption-neue {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -424,7 +435,7 @@ p,
 }
 
 .detail {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -433,7 +444,7 @@ p,
 }
 
 .detail-caps {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -443,7 +454,7 @@ p,
 }
 
 .link {
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -473,7 +484,7 @@ blockquote {
 .shopify-challenge__button,
 .customer button {
   padding: 16px 50px 18px;
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -579,10 +590,10 @@ blockquote {
 .text-link {
   padding-bottom: 11px;
   display: inline-block;
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
   color: currentColor;
   position: relative;
@@ -1842,7 +1853,7 @@ header-drawer {
   padding: 0 0 8px;
   border: 0;
   font-size: 14px;
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   letter-spacing: 0.02em;
   line-height: 150%;
   background: #F2F0E8 !important;
@@ -1853,7 +1864,7 @@ header-drawer {
   padding: 0 0 10px;
   border: 0;
   font-size: 14px;
-  font-family: 'Neue Haas Unica Pro', sans-serif;
+  font-family: 'ABC Favorit', sans-serif;
   letter-spacing: 0.02em;
   line-height: 150%;
   opacity: 0.4;
@@ -2421,7 +2432,7 @@ header-drawer {
 
 .wk-grid__item .wk-product-title,
 .wk-grid__item .wk-product-price * {
-  font-family: Neue Haas Unica Pro,sans-serif;
+  font-family: 'ABC Favorit' ,sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2450,7 +2461,7 @@ header-drawer {
   border: 0;
   padding: 14px 16px;
   appearance: none;
-  font-family: Neue Haas Unica Pro,sans-serif;
+  font-family: 'ABC Favorit' ,sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2461,7 +2472,7 @@ header-drawer {
 /*================ Klaviyo Form ================*/
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input,
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input:not([type]) {
-  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-family: 'ABC Favorit' ,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -2470,7 +2481,7 @@ header-drawer {
 }
 
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input[type=email] {
-  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-family: 'ABC Favorit' ,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -2483,7 +2494,7 @@ header-drawer {
 }
 
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input[type=email]::placeholder {
-  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-family: 'ABC Favorit' ,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -2493,7 +2504,7 @@ header-drawer {
 
 .page-my-monday-size .kl-private-reset-css-Xuajs1 button:not(#downshift-0-toggle-button,#downshift-1-toggle-button,#downshift-2-toggle-button,#downshift-3-toggle-button) {
   padding: 16px 50px 20px !important;
-  font-family: 'Neue Haas Unica Pro', sans-serif !important;
+  font-family: 'ABC Favorit', sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -2506,7 +2517,7 @@ header-drawer {
 }
 
 .page-my-monday-size .kl-private-reset-css-Xuajs1 p {
-  font-family: Neue Haas Unica Pro,sans-serif !important;
+  font-family: 'ABC Favorit' ,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
