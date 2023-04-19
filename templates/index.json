@@ -131,13 +131,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_e17487d9-cac3-4878-b43e-a0bbf6ef30d7.jpg",
-            "text": "Chili Pepper",
+            "image": "shopify:\/\/shop_images\/Set-1.jpg",
+            "text": "Island Aura",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/chili-pepper"
+            "link": "shopify:\/\/collections\/island-aura"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -149,20 +149,20 @@
             "link": "shopify:\/\/collections\/lemongrass-crinkle"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Set-1.jpg",
-            "text": "Island Aura",
+            "image": "shopify:\/\/shop_images\/Image_-_2023-04-18T090203.351.jpg",
+            "text": "The Terry Collection",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/island-aura"
+            "link": "shopify:\/\/collections\/the-terry-collection"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
