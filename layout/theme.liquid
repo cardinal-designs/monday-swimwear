@@ -64,8 +64,17 @@
 
       /* Neue Haas Unica Pro */
       @font-face {
-        font-family: 'Neue Haas Unica Pro';
+        font-family: 'Neue-Haas-Unica-Pro';
         src: url('{{ "Neue-Haas-Unica-Pro.ttf" | asset_url }}');
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      /* ABC Favorit */
+      @font-face {
+        font-family: 'ABC Favorit';
+        src: url('{{ "ABCFavoritVariable.woff2" | asset_url }}') format('woff2'),
+             url('{{ "ABCFavoritVariable.woff" | asset_url }}') format('woff');
         font-style: normal;
         font-weight: 400;
       }
@@ -233,7 +242,7 @@
           button_label: "Notify me when available",
           subscription_success_label: "You're in! We'll let you know when it's back.",
           footer_content: '',
-          additional_styles: "@font-face { font-family: 'Sunset Gothic'; src: url('https://cdn.shopify.com/s/files/1/2352/6823/t/190/assets/Sunset-Gothic-Medium-Pro.woff2?v=9070755342421520439') format('woff2')} @font-face {font-family: 'Neue Haas Unica Pro'; src: url('https://cdn.shopify.com/s/files/1/2352/6823/t/190/assets/Neue-Haas-Unica-Pro.ttf?v=5830122166257606258');} .modal-title {font-family: Sunset Gothic,sans-serif; font-style: normal; font-weight: 600;} p, input, select, button {font-family: 'Neue Haas Unica Pro';}",
+          additional_styles: "@font-face { font-family: 'Sunset Gothic'; src: url('https://cdn.shopify.com/s/files/1/2352/6823/t/255/assets/ABCFavoritVariable.woff') format('woff2')} @font-face {font-family: 'ABC Favorit'; src: url('https://cdn.shopify.com/s/files/1/2352/6823/t/190/assets/Neue-Haas-Unica-Pro.ttf?v=5830122166257606258');} .modal-title {font-family: Sunset Gothic,sans-serif; font-style: normal; font-weight: 600;} p, input, select, button {font-family: 'ABC Favorit';}",
           drop_background_color: "#000",
           background_color: "#fff",
           text_color: "#222",
