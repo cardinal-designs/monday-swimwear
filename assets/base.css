@@ -627,6 +627,12 @@ blockquote {
   right: 30%
 }
 
+@media screen and (max-width: 768px) {
+  .text-link {
+    text-size: 14px;
+  }
+}
+
 /* component-form */
 .field__input,
 .select__select,
