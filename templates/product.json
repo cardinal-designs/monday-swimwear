@@ -3,6 +3,8 @@
     "main": {
       "type": "main-product",
       "settings": {
+        "swimwear_image": "shopify:\/\/shop_images\/fitguide-swim.jpg",
+        "beachwear_image": "shopify:\/\/shop_images\/beachwear-fitguide.jpg"
       }
     },
     "16426285735ee00f29": {
