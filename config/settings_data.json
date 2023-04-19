@@ -3297,7 +3297,7 @@
               "subtitle": "See Us In Person",
               "title": "Schedule a Fitting",
               "link_label": "Book Your Appointment",
-              "link": ""
+              "link": "https:\/\/calendly.com\/grove-popup-appointments\/15min"
             }
           }
         },
@@ -3316,15 +3316,16 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T105644.691.jpg",
               "location": "Los Angeles",
-              "name": "Dundas West",
-              "details": "906 Dundas Street W\n+1 (123) 456-7890",
-              "hours": "M-F:  11am - 8pm\nSat + Sun: 11am - 6pm",
+              "name": "The Grove - Pop Up at The Park",
+              "details": "189 The Grove Dr\nLos Angeles, CA 90036\nUnited States",
+              "hours": "Mon - Thurs: 10AM-9PM\nFri + Sat: 10AM-10PM\nSunday: 11AM-8PM",
               "link_label": "View Store",
-              "link": ""
+              "link": "https:\/\/mondayswimwear.com\/pages\/the-grove-pop-up"
             }
           },
           "5bc4989e-9ba0-4d43-8e1d-13c203824c4a": {
             "type": "store",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T112727.728.jpg",
               "location": "Los Angeles",
@@ -3337,6 +3338,7 @@
           },
           "302901c1-02fd-4ffb-8f8b-bce4f94e1030": {
             "type": "store",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T112732.262.jpg",
               "location": "Los Angeles",
@@ -3352,6 +3354,9 @@
           "c021bb55-986c-4212-ac05-6bae43af0566",
           "5bc4989e-9ba0-4d43-8e1d-13c203824c4a",
           "302901c1-02fd-4ffb-8f8b-bce4f94e1030"
+        ],
+        "custom_css": [
+
         ],
         "settings": {
           "title": "Our Stores"
@@ -3397,15 +3402,15 @@
           "cb4675d1-4159-4013-9c38-b0bcb6972a45": {
             "type": "block",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est.<\/p>"
+              "title": "Where is the pop-up located?",
+              "answer": "<p>The Pop Up at the Park will be located by the Nordstrom courtyard entrance. If lost, please visit the concierge at the parking structure by the restrooms.<\/p>"
             }
           },
           "09c36e9c-80a5-4d31-b0d5-2e9478b8167b": {
             "type": "block",
             "settings": {
-              "title": "Lorem ipsum dolor sit amet?",
-              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est.<\/p>"
+              "title": "Can I return an online order at the pop-up?",
+              "answer": "<p>We're so sorry your online order wasn't the perfect fit. Unfortunately due to the limited space, we are not accepting online order returns or exchanges at our pop-up location. Should you need further assistance, please email us at <strong>customerservice@mondayswimwear.com<\/strong> or you can process a return by using <a href=\"https:\/\/returns.mondayswimwear.com\/#\/\" target=\"_blank\" title=\"https:\/\/returns.mondayswimwear.com\/#\/\">this link<\/a>.<\/p>"
             }
           },
           "0df26741-10e8-4831-a106-4df302e26b3b": {
