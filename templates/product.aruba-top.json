@@ -22,6 +22,7 @@
       "blocks": {
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ARUBA_TOP_-_BLACK.jpg",
             "title": "The Aruba Top",

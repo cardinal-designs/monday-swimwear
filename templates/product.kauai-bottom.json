@@ -16,11 +16,19 @@
       "settings": {
         "title": "In Real Life"
       }
+    },
+    "c669fe99-2b75-4cff-9d5b-b94eb6bcf918": {
+      "type": "nosto-recommendations",
+      "settings": {
+        "label": "",
+        "custom_html": ""
+      }
     }
   },
   "order": [
     "main",
     "16426285735ee00f29",
-    "164253095353d35284"
+    "164253095353d35284",
+    "c669fe99-2b75-4cff-9d5b-b94eb6bcf918"
   ]
 }

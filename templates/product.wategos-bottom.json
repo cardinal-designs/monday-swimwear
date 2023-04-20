@@ -11,6 +11,12 @@
         "title": ""
       }
     },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
     "1653534017550c282b": {
       "type": "fit-guide",
       "disabled": true,
@@ -18,18 +24,12 @@
         "offset_text": false,
         "use_page_width": false
       }
-    },
-    "164253095353d35284": {
-      "type": "in-real-life",
-      "settings": {
-        "title": "In Real Life"
-      }
     }
   },
   "order": [
     "main",
     "16426285735ee00f29",
-    "1653534017550c282b",
-    "164253095353d35284"
+    "164253095353d35284",
+    "1653534017550c282b"
   ]
 }

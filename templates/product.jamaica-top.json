@@ -20,10 +20,13 @@
     "16462581317fc2b4a0": {
       "type": "nosto-recommendations",
       "settings": {
+        "label": "",
+        "custom_html": ""
       }
     },
     "1642702250db612244": {
       "type": "fit-guide",
+      "disabled": true,
       "blocks": {
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
