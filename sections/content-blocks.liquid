@@ -158,7 +158,6 @@
           </div>
         </div>
       {% elsif block.type == 'featured_product' %}
-        {% assign current_product = all_products[block.settings.product] %}
         <div class="content-blocks__item content-blocks__product" {{ block.shopify_attributes }}>
           <div class="content-blocks__product-image">
             {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
@@ -171,13 +170,13 @@
             <div class="content-blocks__product-container">
               <div class="content-blocks__product-container-image">
                 <div class="content-blocks__product-container-tag detail-caps">{{ block.settings.product_tag }}</div>
-                {% render 'lazy-image' image: current_product.featured_image, fade: true, classes: 'img-fill' %}
+                {% render 'lazy-image' image: block.settings.product_image, fade: true, classes: 'img-fill' %}
               </div>
               <div class="content-blocks__product-container-text">
-                <p class="body-small">{{ current_product.title }}</p>
-                <p class="body-small">{{ current_product.price | money_without_trailing_zeros }}</p>
+                <p class="body-small">{{ block.settings.product_title }}</p>
+                <p class="body-small">{{ block.settings.product_price | money_without_trailing_zeros }}</p>
               </div>
-              <a href="{{ current_product.url }}" class="button button--full">Shop Now</a>
+              <a href="{{ block.settings.product_button_link }}" class="button button--full">{{ block.settings.product_button_label }}</a>
             </div>
           </div>
         </div>
@@ -518,14 +517,34 @@
             "content": "Product"
           },
           {
-            "type": "product",
-            "id": "product",
-            "label": "Product"
+            "type": "image_picker",
+            "id": "product_image",
+            "label": "Product Image"
           },
           {
             "type": "text",
             "id": "product_tag",
             "label": "Product Tag"
+          },
+          {
+            "type": "text",
+            "id": "product_title",
+            "label": "Product Title"
+          },
+          {
+            "type": "text",
+            "id": "product_price",
+            "label": "Product Price"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button Label"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
           }
         ]
       },
