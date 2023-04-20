@@ -64,8 +64,12 @@
             "image": "shopify:\/\/shop_images\/Screen-Shot-2023-04-19-at-12.40.37-PM2.jpg",
             "overlay_title": "Exclusive Early access",
             "overlay_text": "Shop the Navy Shimmer Collection 5 days early. Only available at The Grove and on the Shop App.",
-            "product": "staniel-cay-hair-clip-set",
-            "product_tag": "Online only on The shop APP"
+            "product_image": "shopify:\/\/shop_images\/Screen-Shot-2023-04-19-at-12.40.37-PM1.jpg",
+            "product_tag": "Online only on The shop APP",
+            "product_title": "The Navy Shimmer Collection",
+            "product_price": "",
+            "button_label": "Shop Now",
+            "button_link": ""
           }
         },
         "63834ad5-2180-4875-a1db-503925235c99": {
