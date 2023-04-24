@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/summer-web1.png",
-        "mobile_image": "shopify:\/\/shop_images\/summer-mob1.png",
+        "image": "shopify:\/\/shop_images\/twotone4-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE_cc4318bc-e8bc-4086-907d-c49c605d1771.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -50,6 +50,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-23"
+          }
+        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
@@ -67,20 +73,13 @@
           "settings": {
             "collection": "beachwear-accessories"
           }
-        },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "lemongrass-crinkle"
-          }
         }
       },
       "block_order": [
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
       }
@@ -103,19 +102,19 @@
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_789cfeb4-a676-4794-9dea-206560a2c318.jpg",
+            "image": "shopify:\/\/shop_images\/ALT-2_a4764d50-f320-4f15-b171-cec123e9b3c7.jpg",
             "text": "",
             "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/ivory-crochet"
+            "link": "shopify:\/\/collections\/island-aura"
           }
         },
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_aa02c70d-d9a2-4b9d-bf09-fcb7f24b17aa.jpg",
+            "image": "shopify:\/\/shop_images\/3_440de489-1db4-47e6-ad74-31bed43c63fa.jpg",
             "text": "",
             "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/knitwear"
+            "link": "shopify:\/\/collections\/lemongrass-crinkle"
           }
         }
       },
@@ -134,8 +133,8 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Set-1.jpg",
-            "text": "Island Aura",
+            "image": "shopify:\/\/shop_images\/1_f9a03077-5e83-4fe4-b37c-e07c1416d070.jpg",
+            "text": "Husk",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/island-aura"
           }
@@ -143,19 +142,19 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_-_2023-04-18T090203.351.jpg",
-            "text": "The Terry Collection",
+            "image": "shopify:\/\/shop_images\/2_655b6859-30e3-4887-9424-1fc791e060d4.jpg",
+            "text": "Ivory Crochet",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-terry-collection"
+            "link": "shopify:\/\/collections\/ivory-crochet"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_eccd76ef-bed9-479c-be56-ec273ffd279f.jpg",
-            "text": "Lemongrass Crinkle",
+            "image": "shopify:\/\/shop_images\/5_e9d8bd5f-e637-4a45-9d13-37dcafc337f7.jpg",
+            "text": "Ivory Black",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/lemongrass-crinkle"
+            "link": "shopify:\/\/collections\/ivory-black"
           }
         }
       },
