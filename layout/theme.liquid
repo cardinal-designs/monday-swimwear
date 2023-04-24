@@ -137,8 +137,9 @@
   {% if settings.ss_enable %}
     {% render 'ss-script' %}
   {% endif %}
-  
+  {% comment %}
   {% include "globale-js.liquid" %}
+  {% endcomment %}
 </head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
