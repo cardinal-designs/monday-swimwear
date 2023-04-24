@@ -30,7 +30,7 @@ GLBE_PARAMS = {
         shop: "{{ shop.permanent_domain}}",        
         culture: "{{ locale }}",   
         merchantId: "1260",   
-        operatedCountries: [],   
+        operatedCountries: ["AW"],   
         isOperatedCountry: () => GLBE_PARAMS.operatedCountries.indexOf(GLBE_PARAMS.shippingCountry) > -1,   
         checkoutId: Shopify.Checkout.token,   
         amount: {{ checkout.total_price }},  
@@ -39,6 +39,6 @@ GLBE_PARAMS = {
 };     
 </script> 
 
-{% if "" contains shipping_country_code %} 
+{% if "AW" contains shipping_country_code %} 
 <script src = "https://webservices.global-e.com/scripts/platforms/shopify/checkout.js" ></script>  
 {% endif %}
