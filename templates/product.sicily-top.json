@@ -11,6 +11,13 @@
         "title": ""
       }
     },
+    "796cabde-1b30-4471-a2bd-b79debc1dcd3": {
+      "type": "nosto-recommendations",
+      "settings": {
+        "label": "",
+        "custom_html": ""
+      }
+    },
     "164253095353d35284": {
       "type": "in-real-life",
       "settings": {
@@ -22,6 +29,7 @@
       "blocks": {
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/SICILY_TOP_-_BLACK.jpg",
             "title": "The Sicily Top",
@@ -51,6 +59,7 @@
   "order": [
     "main",
     "16426285735ee00f29",
+    "796cabde-1b30-4471-a2bd-b79debc1dcd3",
     "164253095353d35284",
     "1642702250db612244"
   ]
