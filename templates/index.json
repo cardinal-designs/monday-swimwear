@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/twotone4-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_cc4318bc-e8bc-4086-907d-c49c605d1771.jpg",
+        "image": "shopify:\/\/shop_images\/ALT-1_230aaa22-bc6b-4a96-84dd-d930f0b4010b.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ALT-2_9ab8829d-7928-48fb-b679-45d495faec90.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -53,7 +53,7 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "ivory-black"
+            "collection": "husk"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -130,13 +130,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_f9a03077-5e83-4fe4-b37c-e07c1416d070.jpg",
-            "text": "Husk",
+            "image": "shopify:\/\/shop_images\/5_e9d8bd5f-e637-4a45-9d13-37dcafc337f7.jpg",
+            "text": "Ivory Black",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/husk"
+            "link": "shopify:\/\/collections\/ivory-black"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -148,20 +148,20 @@
             "link": "shopify:\/\/collections\/ivory-crochet"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_e9d8bd5f-e637-4a45-9d13-37dcafc337f7.jpg",
-            "text": "Ivory Black",
+            "image": "shopify:\/\/shop_images\/1_f9a03077-5e83-4fe4-b37c-e07c1416d070.jpg",
+            "text": "Husk",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/ivory-black"
+            "link": "shopify:\/\/collections\/husk"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
