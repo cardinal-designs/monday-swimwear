@@ -3222,13 +3222,6 @@
 
     ],
     "blocks": {
-      "8133853093390032344": {
-        "type": "shopify:\/\/apps\/visual-quiz-builder\/blocks\/app-embed\/82108934-e042-4d36-9032-f4f6674fae34",
-        "disabled": true,
-        "settings": {
-          "render": "shadow"
-        }
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
