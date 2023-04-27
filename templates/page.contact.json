@@ -3,18 +3,18 @@
     "headline": {
       "type": "contact-headline",
       "blocks": {
-        "7114362b-e669-4fc8-b885-3736c137103e": {
-          "type": "link",
-          "settings": {
-            "link_text": "Fit Tips",
-            "url": "shopify:\/\/pages\/care-tips"
-          }
-        },
         "a91615ac-98db-4989-ad72-439ad69a8d9b": {
           "type": "link",
           "settings": {
             "link_text": "Fit Guide",
             "url": "shopify:\/\/pages\/fit-guide"
+          }
+        },
+        "7114362b-e669-4fc8-b885-3736c137103e": {
+          "type": "link",
+          "settings": {
+            "link_text": "Care Tips",
+            "url": "shopify:\/\/pages\/care-tips"
           }
         },
         "0985426f-439f-457a-a7ef-10b1709404a5": {
@@ -26,8 +26,8 @@
         }
       },
       "block_order": [
-        "7114362b-e669-4fc8-b885-3736c137103e",
         "a91615ac-98db-4989-ad72-439ad69a8d9b",
+        "7114362b-e669-4fc8-b885-3736c137103e",
         "0985426f-439f-457a-a7ef-10b1709404a5"
       ],
       "settings": {
