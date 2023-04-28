@@ -267,9 +267,10 @@
         console.log('atc button disabled');
         if (!document.querySelector(".klaviyo-bis-trigger")) {
           console.log('bis trigger not on page');
-          document.querySelector('.product-form__submit.button.button--full.button--primary').removeAttribute('disabled');
-          document.querySelector('.product-form__submit.button.button--full.button--primary').classList.add(".klaviyo-bis-trigger");
-          
+          var klAnchor = document.createElement('a');
+          klAnchor.href = '#';
+          klAnchor.classList.add('btn', 'klaviyo-bis-trigger');
+          document.getElementById('product-form-template--14762506223652__main').appendChild(klAnchor);
         };
       };
       
