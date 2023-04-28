@@ -262,11 +262,8 @@
 {% if product %}
   <script type="text/javascript">
     setTimeout(function() {
-      console.log('product page');
       if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
-        console.log('atc button disabled');
         if (!document.querySelector(".klaviyo-bis-trigger")) {
-          console.log('bis trigger not on page');
           var klAnchor = document.createElement('a');
           klAnchor.href = '#';
           klAnchor.classList.add('button', 'button--full', 'klaviyo-bis-trigger');
