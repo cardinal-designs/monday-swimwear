@@ -265,7 +265,10 @@
       console.log('product page');
       if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
         console.log('atc button disabled');
-      }
+        if (!document.querySelector(".klaviyo-bis-trigger")) {
+          console.log('bis trigger not on page');
+        };
+      };
       
       // if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
       //   if (document.querySelector(".klaviyo-bis-trigger")) {
