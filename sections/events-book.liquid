@@ -2,7 +2,7 @@
   <h2 class="event-title sh3">{{ section.settings.title }}</h2>
   <div class="events-book__blocks">
     {% for block in section.blocks %}
-      <a href="{{ section.settings.link }}" class="events-book__block" {{ block.shopify_attributes }}>
+      <a href="{{ block.settings.link }}" class="events-book__block" {{ block.shopify_attributes }}>
         <div class="events-book__block-content fade-in-up">
           {% if block.settings.subtitle != blank %}
             <p class="events-book__subtitle detail">{{ block.settings.subtitle }}</p>
