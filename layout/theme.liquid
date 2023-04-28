@@ -262,19 +262,22 @@
 {% if product %}
   <script type="text/javascript">
     setTimeout(function() {
-      if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
-        if (document.querySelector(".klaviyo-bis-trigger")) {
-          document.querySelector(".klaviyo-bis-trigger").remove();
-        }
-        var klAnchor = document.createElement('a');
-        klAnchor.href = '#';
-        klAnchor.classList.add('btn', 'klaviyo-bis-trigger');
+      console.log('product page');
+
+      
+      // if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
+      //   if (document.querySelector(".klaviyo-bis-trigger")) {
+      //     document.querySelector(".klaviyo-bis-trigger").remove();
+      //   }
+        // var klAnchor = document.createElement('a');
+        // klAnchor.href = '#';
+        // klAnchor.classList.add('btn', 'klaviyo-bis-trigger');
         // klAnchor.style.textAlign = 'center';
         // klAnchor.style.margin = '18px';
         // klAnchor.style.width = '85%';
         // klAnchor.textContent = 'Avísame cuando esté disponible';
-        document.getElementById('product-form-template--14762506223652__main').appendChild(klAnchor);
-      }
+        // document.getElementById('product-form-template--14762506223652__main').appendChild(klAnchor);
+      // }
     }, 1000)
   </script>
 {%  endif %}
