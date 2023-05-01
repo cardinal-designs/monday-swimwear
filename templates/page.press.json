@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "7bf06bf7-083f-4ca1-ab58-ef30d8914539": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "logo": "",
+            "text": "\"26 Best Swimsuit Brands\"",
+            "date": "READ MORE",
+            "link": "https:\/\/www.glamour.com\/story\/best-swimsuit-brands"
+          }
+        },
         "6e93c751-34e1-48b2-b05d-df4bac7f4c99": {
           "type": "block",
           "settings": {
@@ -229,6 +239,7 @@
         }
       },
       "block_order": [
+        "7bf06bf7-083f-4ca1-ab58-ef30d8914539",
         "6e93c751-34e1-48b2-b05d-df4bac7f4c99",
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e",
         "3cdcbc26-b2da-461f-912c-09be3d6ababc",
