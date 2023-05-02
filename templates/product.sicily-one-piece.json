@@ -11,6 +11,13 @@
         "title": ""
       }
     },
+    "ab5a9e69-b061-42cf-b0ea-358972aa26d9": {
+      "type": "nosto-recommendations",
+      "settings": {
+        "label": "",
+        "custom_html": ""
+      }
+    },
     "164253095353d35284": {
       "type": "in-real-life",
       "settings": {
@@ -19,6 +26,7 @@
     },
     "1642702250db612244": {
       "type": "fit-guide",
+      "disabled": true,
       "blocks": {
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
@@ -51,6 +59,7 @@
   "order": [
     "main",
     "16426285735ee00f29",
+    "ab5a9e69-b061-42cf-b0ea-358972aa26d9",
     "164253095353d35284",
     "1642702250db612244"
   ]

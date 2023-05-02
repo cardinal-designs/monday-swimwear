@@ -205,7 +205,7 @@
 }
 
 klarna-placement p {
-  font-family: 'ABC Favorit', sans-serif !important;
+  font-family: Neue Haas Unica Pro,sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 14px !important;
@@ -579,7 +579,7 @@ variant-radios fieldset {
 .product__dropdown-content .rte h4,
 .product__dropdown-content .rte h5,
 .product__dropdown-content .rte h6 {
-  font-family: 'ABC Favorit', sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -589,7 +589,7 @@ variant-radios fieldset {
 }
 
 .product__dropdown-content .rte p {
-  font-family: 'ABC Favorit', sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -599,7 +599,7 @@ variant-radios fieldset {
   
 .product__dropdown-content .rte span,
 .product__dropdown-content .rte div {
-  font-family: 'ABC Favorit', sans-serif;
+  font-family: 'Neue Haas Unica Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

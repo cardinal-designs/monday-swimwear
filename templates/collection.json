@@ -25,7 +25,7 @@
           "type": "filter_category",
           "settings": {
             "title": "Color",
-            "filters": "Black,Black Chevron,Burnt Orange,Cantaloupe Crinkle,Cerulean Blue,Chili Pepper,Cloud,Cobalt,Creme,Cyan,Gold Shimmer,Jacquard,Dark Jaguar,Dream Blue,Dream Blue Wide Rib,Fuchsia Geo,Island Aura,Ivory,Ivory Crochet,Ivory Swirl,Jade Jacquard,Jaguar,Lemongrass Crinkle,Lush Floral,Ocean Green,Olive Green,Olive Green Crinkle,Pear,Pear Wide Rib,Pearl Shimmer,Petite Fleur,Sand,Sangria Crinkle,Sea Glass,Sea Jacquard,Shaded Oak,Snake,Straw, Sun Kissed,Sun Kissed Crinkle,Sun Kissed Shimmer,Sunset Tie Dye,Vanilla Chevron,White,Zebra"
+            "filters": "Black,Black Chevron,Burnt Orange,Cantaloupe Crinkle,Cerulean Blue,Chili Pepper,Cloud,Cobalt,,Gold Shimmer,Dream Blue,Dream Blue Wide Rib,Fuchsia Geo,Island Aura,Ivory,Ivory Crochet,Ivory Swirl,Jaguar,Lemongrass Crinkle,Lush Floral,Ocean Green,Olive Green,Olive Green Crinkle,Pear,Pear Wide Rib,Pearl Shimmer,Petite Fleur,Sand,Sangria Crinkle,Sea Glass,Sea Jacquard,Shaded Oak,Snake,Straw, Sun Kissed,Sun Kissed Crinkle,Sun Kissed Shimmer,Sunset Tie Dye,Vanilla Chevron,White,Zebra"
           }
         },
         "117d4bde-f25c-4a9a-8d12-3978feae7f74": {
@@ -39,7 +39,7 @@
           "type": "filter_category",
           "settings": {
             "title": "Fit",
-            "filters": "Triangle,Underwire,Minimal,Cheeky,Moderate,High Waisted"
+            "filters": "Triangle,Underwire,Supportive,Minimal,Cheeky,Moderate,High Waisted"
           }
         }
       },

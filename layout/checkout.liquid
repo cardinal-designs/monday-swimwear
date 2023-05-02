@@ -9,7 +9,9 @@
     <title>{{ page_title }}</title>
 
     <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
-  </head>
+  
+  {% include "globale-checkout-css" %}
+</head>
   <body>
     {{ content_for_header }}
 
@@ -162,5 +164,8 @@
         border-radius: 4px;
       }
     </style>
-  </body>
+  {% comment %}
+  {% include "globale-checkout-js" %}
+  {% endcomment %}
+</body>
 </html>

@@ -139,8 +139,6 @@
     }
   },
   "order": [
-    "header",
-    "ea8e8464-94ae-4b2a-b9ae-8c48d7fb8706",
-    "cb3ff6e1-da58-4115-834f-324c2082ae23"
+    "main"
   ]
 }

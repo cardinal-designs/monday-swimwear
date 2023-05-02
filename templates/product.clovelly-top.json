@@ -19,6 +19,7 @@
     },
     "1642702250db612244": {
       "type": "fit-guide",
+      "disabled": true,
       "blocks": {
         "d23066f0-85fa-465e-ba20-432d714ec220": {
           "type": "fit",
@@ -34,7 +35,8 @@
             "style": "Underwire \/ Supportive",
             "fabric": "",
             "fit_tip": "",
-            "shop_link": "shopify:\/\/products\/clovelly-top-black-sig"
+            "shop_link": "shopify:\/\/products\/clovelly-top-black-sig",
+            "explore_link": ""
           }
         }
       },

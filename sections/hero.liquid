@@ -2,11 +2,9 @@
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="hero hero--{{ section.settings.content_position }} hero--{{ section.settings.text_size }}">
-  {% if section.settings.overlay_link %}
-    <a href="{{ section.settings.button_link }}" class="hero-overlay__link">
-      <span class="visually-hidden">{{shop.name}}</span>
-    </a>
-  {% endif %}
+  {% if section.settings.overlay_link %}<a href="{{ section.settings.button_link }}" class="hero-overlay__link">
+    <span class="visually-hidden">{{shop.name}}</span>
+  </a>{% endif %}
   {% if section.settings.mobile_image != blank %}
     {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
     {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
@@ -18,7 +16,7 @@
       {% if section.settings.text != blank %}
       <div class="hero__text">
         {% if section.settings.text_size == 'small' %}
-          <div class="glow"></div>
+        <div class="glow"></div>
           <p class="btn" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</p>
         {% else %}
           <h2 class="h1" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</h2>
@@ -63,7 +61,7 @@
         "type": "color",
         "id": "text_color",
         "label": "Text Color",
-        "default": "#FFFFFF"
+		"default": "#FFFFFF"
       },
       {
         "type": "select",
