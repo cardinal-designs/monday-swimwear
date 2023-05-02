@@ -1,0 +1,25 @@
+{{ 'template-events.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'events.js' | asset_url }}" defer="defer"></script>
+
+<div class="page-width">
+  <div class="events-wrapper">
+    <h1 class="events-header__title">Events</h1>
+
+    <div class="events-header__navigation-wrapper no-scrollbar">
+      <div class="events-header__navigation">
+        <button class="events-header__navigation-item body" data-section="book">Book</button>
+        <button class="events-header__navigation-item body" data-section="services">Services</button>
+        <button class="events-header__navigation-item body" data-section="stores">Stores</button>
+        <button class="events-header__navigation-item body" data-section="events">Events</button>
+        <button class="events-header__navigation-item body" data-section="faqs">FAQs</button>
+      </div>
+    </div>
+
+    {% section 'events-header' %}
+    {% section 'events-book' %}
+    {% section 'events-services' %}
+    {% section 'events-stores' %}
+    {% section 'events-happening' %}
+    {% section 'events-faqs' %}
+  </div>
+</div>
