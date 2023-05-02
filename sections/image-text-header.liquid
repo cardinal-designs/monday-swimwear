@@ -1,0 +1,41 @@
+{{ 'section-image-text-header.css' | asset_url | stylesheet_tag }}
+
+<div class="image-text-header">
+  <div class="page-width">
+    <div class="image-text-header__content">
+      <p class="image-text-header__subtitle caption-neue">{{ section.settings.subtitle }}</p>
+      <h1 class="image-text-header__title h1-small">{{ section.settings.title }}</h1>
+    </div>
+  </div>
+  <div class="image-text-header__image">
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Image / Text Header",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image / Text Header"
+      }
+    ]
+  }
+{% endschema %}
