@@ -68,9 +68,9 @@
       "blocks": {
         "7bf06bf7-083f-4ca1-ab58-ef30d8914539": {
           "type": "block",
-          "disabled": true,
           "settings": {
             "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/Glamour-Logo-768x432.png",
             "text": "\"26 Best Swimsuit Brands\"",
             "date": "READ MORE",
             "link": "https:\/\/www.glamour.com\/story\/best-swimsuit-brands"
