@@ -3427,6 +3427,13 @@
       "events-faqs": {
         "type": "events-faqs",
         "blocks": {
+          "0df26741-10e8-4831-a106-4df302e26b3b": {
+            "type": "block",
+            "settings": {
+              "title": "Is the pop-up appointment only?",
+              "answer": "<p>No, but due to the high volume of traffic we expect to receive, we strongly suggest making an appointment\/reservation through our link <a href=\"https:\/\/calendly.com\/grove-popup-appointments\/15min?month=2023-05\" target=\"_blank\">here<\/a>. Please note, each appointment\/reservation is for 1 person only. If you are bringing a friend, please have them make an appointment too. We look forward to helping you find your perfect fit!<\/p>"
+            }
+          },
           "cb4675d1-4159-4013-9c38-b0bcb6972a45": {
             "type": "block",
             "settings": {
@@ -3439,13 +3446,6 @@
             "settings": {
               "title": "Can I return an online order at the pop-up?",
               "answer": "<p>We're so sorry your online order wasn't the perfect fit. Unfortunately due to the limited space, we are not accepting online order returns or exchanges at our pop-up location. Should you need further assistance, please email us at <strong>customerservice@mondayswimwear.com<\/strong> or you can process a return by using <a href=\"https:\/\/returns.mondayswimwear.com\/#\/\" target=\"_blank\" title=\"https:\/\/returns.mondayswimwear.com\/#\/\">this link<\/a>.<\/p>"
-            }
-          },
-          "0df26741-10e8-4831-a106-4df302e26b3b": {
-            "type": "block",
-            "settings": {
-              "title": "Question 3",
-              "answer": "<p>Answer 3<\/p>"
             }
           },
           "bfc5da75-949f-43a2-87e4-f8e29fe52547": {
@@ -3464,9 +3464,9 @@
           }
         },
         "block_order": [
+          "0df26741-10e8-4831-a106-4df302e26b3b",
           "cb4675d1-4159-4013-9c38-b0bcb6972a45",
           "09c36e9c-80a5-4d31-b0d5-2e9478b8167b",
-          "0df26741-10e8-4831-a106-4df302e26b3b",
           "bfc5da75-949f-43a2-87e4-f8e29fe52547",
           "9eea2140-ed46-4fbf-b738-065d8b7b27bb"
         ],
