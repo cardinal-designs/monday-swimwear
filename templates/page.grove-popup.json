@@ -90,6 +90,7 @@
         },
         "bab6cb84-53b1-4f35-ae09-44de8f6a6033": {
           "type": "slideshow",
+          "disabled": true,
           "settings": {
             "image_1": "shopify:\/\/shop_images\/Image_-_2023-04-11T105644.691.jpg",
             "image_2": "shopify:\/\/shop_images\/Center_e1abdbb0-f443-43c5-807d-9b66ffd9a802_1296x_1.jpg",
