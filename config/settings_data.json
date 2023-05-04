@@ -3282,8 +3282,8 @@
             "type": "block",
             "settings": {
               "subtitle": "Find Your Perfect Fit",
-              "title": "Book A Fitting",
-              "link_label": "Book",
+              "title": "Reserve Your Spot",
+              "link_label": "Book Appointment",
               "link": "https:\/\/calendly.com\/grove-popup-appointments\/15min"
             }
           },
@@ -3292,16 +3292,16 @@
             "settings": {
               "subtitle": "The Grove - Pop Up at The Park",
               "title": "Check Hours",
-              "link_label": "Learn More",
+              "link_label": "See Hours & Location",
               "link": "https:\/\/mondayswimwear.com\/pages\/the-grove-pop-up"
             }
           },
           "ad4cfde8-b975-459c-9f5a-06e315ff3f97": {
             "type": "block",
             "settings": {
-              "subtitle": "May 29 - June 26, 2023 | Los Angeles",
-              "title": "Upcoming Events",
-              "link_label": "Learn More",
+              "subtitle": "Experiences",
+              "title": "Events & Exclusives",
+              "link_label": "Get The Details",
               "link": ""
             }
           }
