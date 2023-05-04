@@ -3269,10 +3269,10 @@
           "title": "Events",
           "banner_image": "shopify:\/\/shop_images\/2_eef8d6d6-3bf3-44ae-b443-ed69f09fd6c2.jpg",
           "banner_mobile_image": "shopify:\/\/shop_images\/Image_-_2023-04-11T100522.404.jpg",
-          "banner_subtitle": "Sept 2020, New York City",
-          "banner_title": "Miami Swim Week",
+          "banner_subtitle": "May 31 - June 24",
+          "banner_title": "Monday Swimwear at The Grove",
           "banner_link_label": "Learn More",
-          "banner_link": ""
+          "banner_link": "shopify:\/\/pages\/the-grove-pop-up"
         }
       },
       "events-book": {
@@ -3431,7 +3431,7 @@
             "type": "block",
             "settings": {
               "title": "Is the pop-up appointment only?",
-              "answer": "<p>No, but due to the high volume of traffic we expect to receive, we strongly suggest making an appointment\/reservation through our link <a href=\"https:\/\/calendly.com\/grove-popup-appointments\/15min?month=2023-05\" target=\"_blank\">here<\/a>. Please note, each appointment\/reservation is for 1 person only. If you are bringing a friend, please have them make an appointment too. We look forward to helping you find your perfect fit!<\/p>"
+              "answer": "<p>No, but due to the high volume of traffic we expect to receive, we strongly suggest making an appointment\/reservation through our link <a href=\"https:\/\/calendly.com\/grove-popup-appointments\/15min?month=2023-05\" target=\"_blank\"><strong>here<\/strong><\/a>. Please note, each appointment\/reservation is for 1 person only. If you are bringing a friend, please have them make an appointment too. We look forward to helping you find your perfect fit!<\/p>"
             }
           },
           "cb4675d1-4159-4013-9c38-b0bcb6972a45": {
