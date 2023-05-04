@@ -3397,10 +3397,10 @@
             "type": "event",
             "settings": {
               "image": "shopify:\/\/shop_images\/1_0cc65edd-4d06-42f8-ad1b-d49273c49bc6.jpg",
-              "date": "Sept 2020, New York City",
-              "title": "Miami Swim Week",
+              "date": "May 31 - June 4",
+              "title": "Navy Shimmer Early Access",
               "text": "Monday is designed especially for the stylish girl who is minimalistic, confident, and carefree. Whether she’s lying on the beach in the tropics soaking up the sun, sitting poolside with her friends, or swimming in the ocean.",
-              "link_label": "Learn More",
+              "link_label": "Get Navy Shimmer on the Shop app.",
               "link": ""
             }
           },
@@ -3409,16 +3409,27 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T130833.891.jpg",
               "date": "Sept 2020, New York City",
-              "title": "Miami Swim Week",
+              "title": "Free Gift with Purchase",
               "text": "Monday is designed especially for the stylish girl who is minimalistic, confident, and carefree. Whether she’s lying on the beach in the tropics soaking up the sun, sitting poolside with her friends, or swimming in the ocean.",
-              "link_label": "Learn More",
+              "link_label": "",
+              "link": ""
+            }
+          },
+          "82e26521-2245-4c03-8cf4-344d21255d58": {
+            "type": "event",
+            "settings": {
+              "date": "",
+              "title": "Sip & Shop by 1800 Tequila",
+              "text": "",
+              "link_label": "",
               "link": ""
             }
           }
         },
         "block_order": [
           "4c63a5ad-e875-4de2-b0b6-d0bacc3461bb",
-          "39013843-8f24-4bbe-9550-4de67fff1322"
+          "39013843-8f24-4bbe-9550-4de67fff1322",
+          "82e26521-2245-4c03-8cf4-344d21255d58"
         ],
         "settings": {
           "title": "Exclusives & Events"
