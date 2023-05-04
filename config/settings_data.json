@@ -3300,7 +3300,7 @@
             "type": "block",
             "settings": {
               "subtitle": "Experiences",
-              "title": "Events & Exclusives",
+              "title": "Exclusives & Events",
               "link_label": "Get The Details",
               "link": ""
             }
@@ -3421,7 +3421,7 @@
           "39013843-8f24-4bbe-9550-4de67fff1322"
         ],
         "settings": {
-          "title": "Events Happening"
+          "title": "Exclusives & Events"
         }
       },
       "events-faqs": {
