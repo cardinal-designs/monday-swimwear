@@ -246,24 +246,30 @@
           <div class="content-blocks__partners-grid">
             {% if block.settings.logo_1 != blank %}
               <div class="content-blocks__partner">
-                <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_1 }}px">
-                  {% render 'lazy-image' image: block.settings.logo_1, fade: true, classes: 'img-fill' %}
+                <div class="content-blocks__partner-image-wrapper">
+                  <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_1 }}px">
+                    {% render 'lazy-image' image: block.settings.logo_1, fade: true, classes: 'img-fill' %}
+                  </div>
                 </div>
                 <p class="content-blocks__partner-text body-small">{{ block.settings.text_1 }}</p>
               </div>
             {% endif %}
             {% if block.settings.logo_2 != blank %}
               <div class="content-blocks__partner">
-                <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_2 }}px">
-                  {% render 'lazy-image' image: block.settings.logo_2, fade: true, classes: 'img-fill' %}
+                <div class="content-blocks__partner-image-wrapper">
+                  <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_2 }}px">
+                    {% render 'lazy-image' image: block.settings.logo_2, fade: true, classes: 'img-fill' %}
+                  </div>
                 </div>
                 <p class="content-blocks__partner-text body-small">{{ block.settings.text_2 }}</p>
               </div>
             {% endif %}
             {% if block.settings.logo_3 != blank %}
               <div class="content-blocks__partner">
-                <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_3 }}px">
-                  {% render 'lazy-image' image: block.settings.logo_3, fade: true, classes: 'img-fill' %}
+                <div class="content-blocks__partner-image-wrapper">
+                  <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_3 }}px">
+                    {% render 'lazy-image' image: block.settings.logo_3, fade: true, classes: 'img-fill' %}
+                  </div>
                 </div>
                 <p class="content-blocks__partner-text body-small">{{ block.settings.text_3 }}</p>
               </div>
