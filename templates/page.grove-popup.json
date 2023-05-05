@@ -5,7 +5,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T105644.691.jpg",
         "subtitle": "May 31 - June 24  |  los angeles",
-        "title": "The Grove Pop Up"
+        "title": "The Grove Pop Up",
+        "button_label": "Button",
+        "button_link": ""
       }
     },
     "ea8e8464-94ae-4b2a-b9ae-8c48d7fb8706": {
