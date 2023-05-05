@@ -39,6 +39,14 @@
             "text_alignment": "left"
           }
         },
+        "3fa28e76-13d7-4be6-af13-a0ed8a62cab4": {
+          "type": "cta",
+          "settings": {
+            "cta_label": "Book Your Appointment",
+            "cta_link": "",
+            "cta_type": "button"
+          }
+        },
         "24e7ace9-4dc6-4892-b2c0-38e795f186a6": {
           "type": "social",
           "settings": {
@@ -116,6 +124,7 @@
         "ca504577-e9fd-4175-8f14-050695b438b9",
         "e1978367-3531-41e3-a33d-88633d2fd359",
         "a8c2a716-60f6-4dff-a265-fd575fdf26a4",
+        "3fa28e76-13d7-4be6-af13-a0ed8a62cab4",
         "24e7ace9-4dc6-4892-b2c0-38e795f186a6",
         "52458f6f-ebe4-4f63-8a85-6709cd7016e4",
         "1e4c36dc-cc51-4ba3-a596-4e592eea29ac",
