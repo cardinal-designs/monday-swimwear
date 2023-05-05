@@ -246,7 +246,7 @@
           <div class="content-blocks__partners-grid">
             {% if block.settings.logo_1 != blank %}
               <div class="content-blocks__partner">
-                <div class="content-blocks__partner-image">
+                <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_1 }}px">
                   {% render 'lazy-image' image: block.settings.logo_1, fade: true, classes: 'img-fill' %}
                 </div>
                 <p class="content-blocks__partner-text body-small">{{ block.settings.text_1 }}</p>
@@ -254,7 +254,7 @@
             {% endif %}
             {% if block.settings.logo_2 != blank %}
               <div class="content-blocks__partner">
-                <div class="content-blocks__partner-image">
+                <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_2 }}px">
                   {% render 'lazy-image' image: block.settings.logo_2, fade: true, classes: 'img-fill' %}
                 </div>
                 <p class="content-blocks__partner-text body-small">{{ block.settings.text_2 }}</p>
@@ -262,7 +262,7 @@
             {% endif %}
             {% if block.settings.logo_3 != blank %}
               <div class="content-blocks__partner">
-                <div class="content-blocks__partner-image">
+                <div class="content-blocks__partner-image" style="max-height: {{ block.settings.height_3 }}px">
                   {% render 'lazy-image' image: block.settings.logo_3, fade: true, classes: 'img-fill' %}
                 </div>
                 <p class="content-blocks__partner-text body-small">{{ block.settings.text_3 }}</p>
@@ -635,6 +635,16 @@
             "label": "Logo 1"
           },
           {
+            "type": "range",
+            "id": "height_1",
+            "min": 20,
+            "max": 40,
+            "step": 1,
+            "unit": "px",
+            "label": "Logo 1 Height",
+            "default": 25
+          },
+          {
             "type": "textarea",
             "id": "text_1",
             "label": "Text 1"
@@ -645,6 +655,16 @@
             "label": "Logo 2"
           },
           {
+            "type": "range",
+            "id": "height_2",
+            "min": 20,
+            "max": 40,
+            "step": 1,
+            "unit": "px",
+            "label": "Logo 2 Height",
+            "default": 25
+          },
+          {
             "type": "textarea",
             "id": "text_2",
             "label": "Text 2"
@@ -653,6 +673,16 @@
             "type": "image_picker",
             "id": "logo_3",
             "label": "Logo 3"
+          },
+          {
+            "type": "range",
+            "id": "height_3",
+            "min": 20,
+            "max": 40,
+            "step": 1,
+            "unit": "px",
+            "label": "Logo 3 Height",
+            "default": 25
           },
           {
             "type": "textarea",
