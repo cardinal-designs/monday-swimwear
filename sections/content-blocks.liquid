@@ -17,6 +17,14 @@
               <p class="content-blocks__text h4">{{ block.settings.text | newline_to_br }}</p>
           {% endcase %}
         </div>
+      {% elsif block.type == 'text' %}
+        <div class="content-blocks__item content-blocks__cta" {{ block.shopify_attributes }}>
+          {% if block.settings.cta_type == 'text' %}
+            <a class="text-link" href="{{ block.settings.cta_link }}">{{ block.settings.cta_label }}</a>
+          {% else %}
+            <a class="button" href="{{ block.settings.cta_link }}">{{ block.settings.cta_label }}</a>
+          {% endif %}
+        </div>
       {% elsif block.type == 'single_image' %}
         <div class="content-blocks__item content-blocks__single-image-block" {{ block.shopify_attributes }}>
           <div class="content-blocks__single-image">
@@ -373,6 +381,38 @@
               }
             ],
             "default": "left"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "name": "CTA",
+        "settings": [
+          {
+            "type": "text",
+            "id": "cta_label",
+            "label": "CTA Label"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA Link"
+          },
+          {
+            "type": "select",
+            "id": "cta_type",
+            "label": "CTA Type",
+            "options": [
+              {
+                "value": "text",
+                "label": "Text"
+              },
+              {
+                "value": "button",
+                "label": "Button"
+              }
+            ],
+            "default": "button"
           }
         ]
       },
