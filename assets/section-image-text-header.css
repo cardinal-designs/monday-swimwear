@@ -24,6 +24,10 @@
   margin: 0;
 }
 
+.image-text-header__button {
+  margin-top: 40px;
+}
+
 .image-text-header__image {
   position: absolute;
   top: 0;
