@@ -50,6 +50,11 @@
   }
 }
 
+/* Button */
+.content-blocks__cta {
+  text-align: center;
+}
+
 /* Single Image */
 .content-blocks__single-image-block {
   max-width: 1130px;
