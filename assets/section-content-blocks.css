@@ -381,8 +381,15 @@
   text-align: center;
 }
 
-.content-blocks__partner-image {
+.content-blocks__partner-image-wrapper {
   height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-blocks__partner-image {
+  max-height: 100%;
   width: 100%;
   position: relative;
 }
