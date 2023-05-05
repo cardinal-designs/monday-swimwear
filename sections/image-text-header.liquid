@@ -5,6 +5,9 @@
     <div class="image-text-header__content">
       <p class="image-text-header__subtitle caption-neue">{{ section.settings.subtitle }}</p>
       <h1 class="image-text-header__title h1-small">{{ section.settings.title }}</h1>
+      {% if section.settings.button_label != blank %}
+        <a class="image-text-header__button button" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+      {% endif %}
     </div>
   </div>
   <div class="image-text-header__image">
@@ -30,6 +33,16 @@
         "type": "text",
         "id": "title",
         "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
       }
     ],
     "presets": [
