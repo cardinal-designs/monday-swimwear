@@ -5,7 +5,7 @@
     <div class="image-text-header__content">
       <p class="image-text-header__subtitle caption-neue">{{ section.settings.subtitle }}</p>
       <h1 class="image-text-header__title h1-small">{{ section.settings.title }}</h1>
-      {% if section.settings.link != blank %}
+      {% if section.settings.link_label != blank %}
         <a class="image-text-header__link text-link" href="{{ section.settings.link }}">{{ section.settings.link_label }}</a>
       {% endif %}
     </div>
