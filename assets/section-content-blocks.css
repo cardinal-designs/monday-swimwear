@@ -382,7 +382,7 @@
 }
 
 .content-blocks__partner-image {
-  height: 25px;
+  height: 45px;
   width: 100%;
   position: relative;
 }
@@ -392,7 +392,7 @@
 }
 
 .content-blocks__partner-text {
-  margin: 36px 0 0;
+  margin: 15px 0 0;
 }
 
 @media only screen and (max-width: 768px) {
