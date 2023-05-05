@@ -44,7 +44,7 @@
           "settings": {
             "cta_label": "Book Your Appointment",
             "cta_link": "",
-            "cta_type": "button"
+            "cta_type": "text"
           }
         },
         "24e7ace9-4dc6-4892-b2c0-38e795f186a6": {
