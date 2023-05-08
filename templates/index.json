@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_d2e55311-8def-4a65-beb4-a587e37d8206.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_16d2dbe5-573c-47df-89dc-52474f9e5e20.jpg",
+        "image": "shopify:\/\/shop_images\/WEB-MAIN.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE_e3fd0855-db8e-436f-9647-bcafe4e767bf.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -53,7 +53,7 @@
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "capri-wave"
+            "collection": "pearl-shimmer"
           }
         },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
@@ -96,6 +96,47 @@
         "link": "shopify:\/\/collections\/sun-kissed-shimmer"
       }
     },
+    "1640812146b4d73cae": {
+      "type": "link-blocks",
+      "blocks": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_655b6859-30e3-4887-9424-1fc791e060d4.jpg",
+            "text": "Bride to Be",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/bridal-collection"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_e9d8bd5f-e637-4a45-9d13-37dcafc337f7.jpg",
+            "text": "Signature Styles",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_d12a3857-e4c3-4835-be10-3978ae4aa5c9.jpg",
+            "text": "Prints",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/prints"
+          }
+        }
+      },
+      "block_order": [
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
+      ],
+      "settings": {
+        "text_style": "underneath",
+        "slider_on_mobile": true
+      }
+    },
     "1640811405c1297562": {
       "type": "link-blocks",
       "blocks": {
@@ -125,47 +166,6 @@
       "settings": {
         "text_style": "overlay",
         "slider_on_mobile": false
-      }
-    },
-    "1640812146b4d73cae": {
-      "type": "link-blocks",
-      "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_e9d8bd5f-e637-4a45-9d13-37dcafc337f7.jpg",
-            "text": "Ivory Black",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/ivory-black"
-          }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_655b6859-30e3-4887-9424-1fc791e060d4.jpg",
-            "text": "Ivory Crochet",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/ivory-crochet"
-          }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_f9a03077-5e83-4fe4-b37c-e07c1416d070.jpg",
-            "text": "Husk",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/husk"
-          }
-        }
-      },
-      "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
-      ],
-      "settings": {
-        "text_style": "underneath",
-        "slider_on_mobile": true
       }
     },
     "16408186509f925b52": {
@@ -279,8 +279,8 @@
     "164081090579915a8a",
     "16407502469f0e5f45",
     "16408101574f5b391b",
-    "1640811405c1297562",
     "1640812146b4d73cae",
+    "1640811405c1297562",
     "16408186509f925b52",
     "1640814929d4a3c77a",
     "164124814754670aef",

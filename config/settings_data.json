@@ -31,12 +31,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "3fac8c13-4d46-4094-b5db-36259bb07a60": {
-            "type": "announcement",
-            "settings": {
-              "text": "SAVE THE DATE 5\/8 🗓  LIMITED RESTOCK PEARL SHIMMER STYLES  💫"
-            }
-          },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
             "settings": {
@@ -51,7 +45,6 @@
           }
         },
         "block_order": [
-          "3fac8c13-4d46-4094-b5db-36259bb07a60",
           "9e9ecc40-4b57-4047-b32f-6330f3026efb",
           "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2"
         ],
