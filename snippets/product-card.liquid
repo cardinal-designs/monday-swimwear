@@ -20,7 +20,7 @@
           {% endfor %}
 
             {% for current_product in collection_for_swatches.products %}
-            <div data-button="{{ forloop.index }}" class="product-card__button">
+            <div data-button="{{ current_product.title }}" class="product-card__button">
               <div class="button button--white">
                 {% for variant in current_product.variants %}
                   <span data-name="{{ variant.title }}" data-id="{{variant.id}}">{{ variant.option2 }}</span>
