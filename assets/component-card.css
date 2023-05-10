@@ -134,8 +134,9 @@
     transform: translateY(0);
   }
 
-  .product-card__quick-add:hover + .variant-buttons_hover > .product-card__button.active {
+  .product-card__quick-add:hover + .variant-buttons_hover .product-card__button.active {
     opacity: 1;
+    z-index: 99999999;
     transform: translateY(0);
   }
   
