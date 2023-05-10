@@ -19,13 +19,11 @@
             {% endif %}
           {% endfor %}
 
-          
-
             {% for current_product in collection_for_swatches.products %}
-            <div class="product-card__button">
+            <div style="{% if forloop.index != 1 %}display: none;{% endif %}" data-button="{{ forloop.index }}" class="product-card__button">
               <div class="button button--white">
                 {% for variant in current_product.variants %}
-                  {{ variant.title }}
+                  <p data-id="{{variant.id}}">{{ variant.title }}</p>
                 {% endfor %}
               </div>
             </div>
