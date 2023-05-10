@@ -837,8 +837,9 @@ class ProductCard extends HTMLElement {
 
   updateVariants(swatch) {
     const variant = swatch.dataset.variant;
-    console.log('a', variant)
-    
+    for (let i = 0; i < variant.length; i++) {
+      console.log('b',variant[i].title)
+    }
   }
 
   updateImages(swatch) {
