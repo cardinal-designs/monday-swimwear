@@ -18,9 +18,8 @@
               {% assign collection_for_swatches = collections[collection_handle] %}
             {% endif %}
           {% endfor %}
-
-           <div class="product-card__quick-add hide-mobile"><p>Quick Add</p></div>
             <div class="variant-buttons_hover">
+             <p>Quick Add</p>
             {% for current_product in collection_for_swatches.products %}
             <div style="{% if current_product.title == product_card_product.title %}display: block;{% else %}display: none;{% endif %}" data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
               <div class="button button--white">
