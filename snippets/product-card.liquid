@@ -9,23 +9,24 @@
           {% if product_card_product.media[1] != blank %}
             {% render 'lazy-image' image: product_card_product.media[1], fade: true, classes: 'hover-image' %}
           {% endif %}
-        
+
+          {% assign collection_for_swatches = '' %}
+          {% for tag in product_card_product.tags %}
+            {% if tag contains 'group_' %}
+              {% assign split_tag = tag | split: '_' %}
+              {% assign collection_handle = split_tag[1] | handleize %}
+              {% assign collection_for_swatches = collections[collection_handle] %}
+            {% endif %}
+          {% endfor %}
+
+          
           <div class="product-card__button">
             <div class="button button--white">
-              {% comment %}
-              {% for option in product_card_product.options_with_values %}
-                {% if option.name == 'Size' %}
-                  {% for option in option.values %}
-                    
-                    {{ option }}
-                  {% endfor %}
-                {% endif %} 
+            {% for current_product in collection_for_swatches.products %}
+              {% for variant in current_product.variants %}
+                {{ variant.title }}
               {% endfor %}
-              {% endcomment %}
-
-              {% for variant in product_card_product.variants %}
-{{ variant.title }}
-              {% endfor %}
+            {% endfor %}
             </div>
           </div>
    
