@@ -14,7 +14,9 @@
             <div class="button button--white">
               {% for option in product_card_product.options_with_values %}
                 {% if option.name == 'Size' %}
-                 {{ option.values[0] }}
+                  {% for option in option.values %}
+                 {{ option }}
+                    {% endfor %}
                 {% endif %}
               {% endfor %}
             </div>
