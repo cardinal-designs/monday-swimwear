@@ -125,7 +125,7 @@
 
 @media screen and (min-width: 769px) {
 
-  .hover_quick-add {
+  .hover__quick-add {
     display: block;
   }
 
@@ -136,6 +136,11 @@
     width: calc(100% - 20px);
     background: white;
   }
+
+  .variant-buttons_hover:hover .hover__quick-add {
+    display: none;
+  }
+  
 /*   .product-card:hover .variant-buttons_hover {
     opacity: 1;
     z-index: 9;
