@@ -2580,3 +2580,10 @@ header-drawer {
   padding-left: 2px;
   padding-right: 2px;
 }
+
+.product-card__quick-add {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
