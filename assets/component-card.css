@@ -127,6 +127,7 @@
 
   .hover__quick-add {
     display: block;
+    text-align: center;
   }
   
   .variant-buttons_hover {
