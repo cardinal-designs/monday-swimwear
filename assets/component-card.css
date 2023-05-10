@@ -119,6 +119,7 @@
   width: calc(100% - 20px);
   background-color: white;
   text-align: center;
+  opacity: 0;
 }
 
 @media screen and (min-width: 769px) {
