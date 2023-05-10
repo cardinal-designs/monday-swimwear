@@ -129,17 +129,17 @@
     display: block;
   }
   
-  .product-card:hover .variant-buttons_hover {
+  .variant-buttons_hover {
     display: none;
   } 
 
-  
   .product-card:hover .variant-buttons_hover {
     position: absolute;
     bottom: 10px;
     left: 10px;
     width: calc(100% - 20px);
     background: white;
+    display: block;
   }
 /* 
   .product-card:hover .variant-buttons_hover:hover {
