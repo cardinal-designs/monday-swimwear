@@ -152,19 +152,7 @@
   .variant-buttons_hover:hover .product-card__button.active {
     display: block;
     opacity: 1;
-    line
   }
-/* 
-  .product-card:hover .variant-buttons_hover:hover {
-    opacity: 0;
-    z-index: -1
-  }
-
-  .product-card__quick-add:hover + .variant-buttons_hover .product-card__button.active,
-  .product-card__quick-add p:hover + .variant-buttons_hover .product-card__button.active {
-    opacity: 1 !important;
-    z-index: 999999999;
-  }  */
 }
 
 @media screen and (max-width: 768px) {
