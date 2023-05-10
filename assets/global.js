@@ -836,9 +836,8 @@ class ProductCard extends HTMLElement {
   }
 
   updateVariants(swatch) {
-    const image = swatch.dataset.image;
-    const hoverImage = swatch.dataset.hover;
-    const available = swatch.dataset.available;
+    const variant = swatch.dataset.variant;
+    console.log('a', variant)
     
   }
 

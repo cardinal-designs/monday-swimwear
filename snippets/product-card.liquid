@@ -146,7 +146,7 @@
                       {% assign product_image = product_card_product.featured_image | img_url: '600x' %}
                     {% endif %}
 
-                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-url="{{ variant.url | within: collection }}">
+                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-variant="{{ variant| within: collection }}" data-url="{{ variant.url | within: collection }}">
                       <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                       <span class="visually-hidden">{{ value }}</span>
                     </button>
