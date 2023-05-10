@@ -20,15 +20,17 @@
           {% endfor %}
 
           
-          <div class="product-card__button">
-            <div class="button button--white">
+
             {% for current_product in collection_for_swatches.products %}
-              {% for variant in current_product.variants %}
-                {{ variant.title }}
-              {% endfor %}
-            {% endfor %}
+            <div class="product-card__button">
+              <div class="button button--white">
+                {% for variant in current_product.variants %}
+                  {{ variant.title }}
+                {% endfor %}
+              </div>
             </div>
-          </div>
+            {% endfor %}
+ 
    
         </div>
         <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
