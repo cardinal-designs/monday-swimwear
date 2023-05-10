@@ -129,7 +129,8 @@
     z-index: 9;
   }
 
-  .product-card:hover .product-card__quick-add:hover {
+  .product-card:hover .product-card__quick-add:hover,
+ .product-card:hover .product-card__quick-add p:hover {
     opacity: 0;
     z-index: -1
   }
