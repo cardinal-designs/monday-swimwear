@@ -20,14 +20,14 @@
           {% endfor %}
 
            <div class="product-card__quick-add hide-mobile">
-              <div class="">
+              <div class="button button--white">
                 Quick Add
               </div>
             </div>
             <div class="variant-buttons_hover">
             {% for current_product in collection_for_swatches.products %}
             <div style="{% if current_product.title == product_card_product.title %}display: block;{% else %}display: none;{% endif %}" data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
-              <div class="">
+              <div class="button button--white">
                 {% for variant in current_product.variants %}
                   {% if variant.available %}
                     <span class="js-add-to-cart" data-id="{{variant.id}}">{{ variant.option2 }}</span>
