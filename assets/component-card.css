@@ -18,7 +18,7 @@
 .product-card__button {
   position: absolute;
   right: 10px;
-  bottom: 10px;
+  bottom: 15px;
   left: 10px;
   opacity: 0;
   transform: translateY(5px);
