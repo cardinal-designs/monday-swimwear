@@ -124,13 +124,12 @@
 }
 
 @media screen and (min-width: 769px) {
-  .product-card:hover .product-card__quick-add {
+  .product-card:hover .variant-buttons_hover {
     opacity: 1;
     z-index: 9;
   }
 
-  .product-card:hover .product-card__quick-add:hover,
- .product-card:hover .product-card__quick-add p:hover {
+  .product-card:hover .variant-buttons_hover:hover {
     opacity: 0;
     z-index: -1
   }
@@ -140,11 +139,6 @@
     opacity: 1 !important;
     z-index: 999999999;
   }
-  
-/*   .product-card:hover .product-card__button {
-    opacity: 1;
-    transform: translateY(0);
-  } */
 }
 
 @media screen and (max-width: 768px) {
