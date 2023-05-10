@@ -14,7 +14,7 @@
             <div class="button button--white">
               {% for option in product_card_product.options_with_values %}
                 {% if option.name == 'Size' %}
-                  {% assign color = option.values[0] %}
+                  {{ option }}
                 {% endif %}
               {% endfor %}
             </div>
