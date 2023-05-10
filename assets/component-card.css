@@ -124,18 +124,14 @@
 }
 
 @media screen and (min-width: 769px) {
-  .product-card:hover .product-card__button .button:hover {
-    background: white;
-    border-color: white;
-    color: black;
-    
-  }
-
   .product-card:hover .product-card__quick-add {
     opacity: 1;
     transform: translateY(0);
     z-index: 9;
-    
+  }
+
+  .product-card:hover .product-card__quick-add .button:hover {
+    border: none !important;
   }
 
   .product-card__quick-add .button:hover + .variant-buttons_hover .product-card__button.active {
