@@ -12,12 +12,19 @@
         
           <div class="product-card__button">
             <div class="button button--white">
+              {% comment %}
               {% for option in product_card_product.options_with_values %}
                 {% if option.name == 'Size' %}
                   {% for option in option.values %}
-                 {{ option }}
-                    {% endfor %}
-                {% endif %}
+                    
+                    {{ option }}
+                  {% endfor %}
+                {% endif %} 
+              {% endfor %}
+              {% endcomment %}
+
+              {% for variant in product_card_product.variants %}
+{{ variant.title }}
               {% endfor %}
             </div>
           </div>
