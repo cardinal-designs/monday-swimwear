@@ -138,7 +138,7 @@
     
   }
 
-  .product-card__quick-add:hover + .variant-buttons_hover .product-card__button.active {
+  .product-card__quick-add .button:hover + .variant-buttons_hover .product-card__button.active {
     opacity: 1 !important;
   }
   
