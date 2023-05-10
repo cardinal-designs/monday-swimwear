@@ -2582,11 +2582,11 @@ header-drawer {
 }
 
 .product-card__quick-add {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-    width: calc(100% - 20px);
-    background-color: white;
-    text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  background-color: white;
+  text-align: center;
 }
