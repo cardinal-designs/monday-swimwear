@@ -12,7 +12,7 @@
         
           <div class="product-card__button">
             <div class="button button--white">
-              {% for option in current_product.options_with_values %}
+              {% for option in product_card_product.options_with_values %}
                 {% if option.name == 'Size' %}
                   {% assign color = option.values[0] %}
                 {% endif %}
