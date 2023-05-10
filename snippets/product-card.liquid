@@ -13,9 +13,9 @@
           <div class="product-card__button">
             <div class="button button--white">
               {% for variant in product_card_product.variants %}
-                {{ variant | json }}
+               
                 {% for option in variant %}
-                {{ option.option }}
+                {{ option.options }}
                   {% endfor %}
                 {% endfor %}
             </div>
