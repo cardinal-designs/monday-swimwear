@@ -839,6 +839,7 @@ class ProductCard extends HTMLElement {
   updateVariants(swatch) {
     const variant = swatch.dataset.title;
     this.quickAdd.forEach(button => {
+      console.log('a')
       if(button.dataset.title == variant) {
         button.style.display = "block"
       } else {
