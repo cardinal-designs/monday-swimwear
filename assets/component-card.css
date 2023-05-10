@@ -124,7 +124,11 @@
 }
 
 @media screen and (min-width: 769px) {
-  .product-card:hover .variant-buttons_hover {
+
+  .hover_quick-add {
+    display: block;
+  }
+/*   .product-card:hover .variant-buttons_hover {
     opacity: 1;
     z-index: 9;
   }
@@ -138,7 +142,7 @@
   .product-card__quick-add p:hover + .variant-buttons_hover .product-card__button.active {
     opacity: 1 !important;
     z-index: 999999999;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
