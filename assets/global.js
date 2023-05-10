@@ -823,6 +823,7 @@ class ProductCard extends HTMLElement {
       this.updateTitle(swatch);
       this.updateLinks(swatch);
       this.updatePrice(swatch);
+      this.updateVariants(swatch);
     }
   }
 
@@ -832,6 +833,13 @@ class ProductCard extends HTMLElement {
     });
 
     swatch.classList.add('active');
+  }
+
+  updateVariants(swatch) {
+    const image = swatch.dataset.image;
+    const hoverImage = swatch.dataset.hover;
+    const available = swatch.dataset.available;
+    
   }
 
   updateImages(swatch) {
