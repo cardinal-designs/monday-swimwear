@@ -152,6 +152,7 @@
   .variant-buttons_hover:hover .product-card__button.active {
     display: block;
     opacity: 1;
+    line
   }
 /* 
   .product-card:hover .variant-buttons_hover:hover {
