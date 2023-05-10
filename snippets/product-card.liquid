@@ -22,7 +22,7 @@
              <p class="hover__quick-add">Quick Add</p>
             {% for current_product in collection_for_swatches.products %}
             <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
-              <div class="button button--white">
+              <div class="">
                 {% for variant in current_product.variants %}
                   {% if variant.available %}
                     <span class="js-add-to-cart" data-id="{{variant.id}}">{{ variant.option2 }}</span>
