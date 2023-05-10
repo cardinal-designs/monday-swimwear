@@ -841,8 +841,10 @@ class ProductCard extends HTMLElement {
     this.quickAdd.forEach(button => {
       if(button.dataset.button == variant) {
         button.style.display = "block"
+        button.classList.add('active');
       } else {
         button.style.display = "none"
+        button.classList.remove('active');
       }
     });
   }
