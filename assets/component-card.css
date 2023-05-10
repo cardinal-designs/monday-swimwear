@@ -138,8 +138,9 @@
     
   }
 
-  .product-card:hover .product-card__quick-add .button:hover + .variant-buttons_hover .product-card__button.active {
+  .product-card__quick-add .button:hover + .variant-buttons_hover .product-card__button.active {
     opacity: 1 !important;
+    z-index: 999999999;
   }
   
 /*   .product-card:hover .product-card__button {
