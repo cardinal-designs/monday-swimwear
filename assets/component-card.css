@@ -100,6 +100,27 @@
   opacity: 1;
 }
 
+.sold-out-swatch {
+  opacity: 0.5;
+  text-decoration: line-through;
+  pointer-events: none;
+}
+
+.product-card__button span {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.product-card__quick-add {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  background-color: white;
+  text-align: center;
+}
+
 @media screen and (min-width: 769px) {
   .product-card:hover .product-card__button .button:hover {
     background: white;
