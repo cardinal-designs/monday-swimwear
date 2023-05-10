@@ -20,10 +20,10 @@
           {% endfor %}
 
             {% for current_product in collection_for_swatches.products %}
-            <div data-button="{{ current_product.title }}" class="product-card__button">
+            <div style="{% if current_product.title == product_card_product.title %}display: block;{% else %}display: none;{% endif %}" data-button="{{ current_product.title }}" class="product-card__button">
               <div class="button button--white">
                 {% for variant in current_product.variants %}
-                  <span data-name="{{ variant.title }}" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                  <span data-id="{{variant.id}}">{{ variant.option2 }}</span>
                 {% endfor %}
               </div>
             </div>
