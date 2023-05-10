@@ -120,6 +120,7 @@
   background-color: white;
   text-align: center;
   opacity: 0;
+  z-index: 99;
 }
 
 @media screen and (min-width: 769px) {
@@ -139,7 +140,6 @@
 
   .product-card__quick-add:hover + .variant-buttons_hover .product-card__button.active {
     opacity: 1 !important;
-    z-index: 99;
   }
   
 /*   .product-card:hover .product-card__button {
