@@ -24,7 +24,7 @@
                 Quick Add
               </div>
             </div>
-
+            <div class="variant-buttons_hover">
             {% for current_product in collection_for_swatches.products %}
             <div style="{% if current_product.title == product_card_product.title %}display: block;{% else %}display: none;{% endif %}" data-button="{{ current_product.title }}" class="product-card__button">
               <div class="button button--white">
@@ -38,7 +38,7 @@
               </div>
             </div>
             {% endfor %}
- 
+            </div>
    
         </div>
         <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
