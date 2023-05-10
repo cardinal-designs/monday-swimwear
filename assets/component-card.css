@@ -128,6 +128,14 @@
   .hover_quick-add {
     display: block;
   }
+
+  .variant-buttons_hover {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    background: white;
+  }
 /*   .product-card:hover .variant-buttons_hover {
     opacity: 1;
     z-index: 9;
