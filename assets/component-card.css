@@ -142,6 +142,15 @@
     background: white;
     display: block;
   }
+
+  .variant-buttons_hover:hover {
+    opacity: 0;
+  }
+
+  .variant-buttons_hover:hover .product-card__button.active {
+    display: block;
+    opacity: 1;
+  }
 /* 
   .product-card:hover .variant-buttons_hover:hover {
     opacity: 0;
