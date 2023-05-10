@@ -107,12 +107,12 @@
 }
 
 .product-card__button span {
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .product-card__button {
-  padding: 16px 50px 18px;
+  padding: 16px 20px 18px;
   margin: 0;
   text-align: center;
 }
