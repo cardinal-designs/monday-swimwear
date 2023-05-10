@@ -2587,6 +2587,6 @@ header-drawer {
     bottom: 10px;
     left: 10px;
     width: calc(100% - 20px);
-    background-color: red;
+    background-color: white;
     text-align: center;
 }
