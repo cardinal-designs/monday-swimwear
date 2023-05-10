@@ -2569,3 +2569,14 @@ header-drawer {
     padding: 0;
   }
 }
+
+.sold-out-swatch {
+  opacity: 0.5;
+  text-decoration: line-through;
+  pointer-events: none;
+}
+
+.product-card__button span {
+  padding-left: 2px;
+  padding-right: 2px;
+}
