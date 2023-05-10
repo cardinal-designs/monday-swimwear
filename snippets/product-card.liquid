@@ -12,11 +12,10 @@
         
           <div class="product-card__button">
             <div class="button button--white">
+             {{ product_card_product.variants[0] | json }}
               {% for variant in product_card_product.variants %}
                
-                {% for option in variant %}
-                {{ option.options }}
-                  {% endfor %}
+          
                 {% endfor %}
             </div>
           </div>
