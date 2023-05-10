@@ -124,12 +124,12 @@
 }
 
 @media screen and (min-width: 769px) {
-  .product-card:hover .product-card__button .button:hover {
+/*   .product-card:hover .product-card__button .button:hover {
     background: white;
     border-color: white;
     color: black;
     
-  }
+  } */
 
   .product-card:hover .product-card__quick-add {
     opacity: 1;
