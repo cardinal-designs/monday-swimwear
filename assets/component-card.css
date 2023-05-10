@@ -135,7 +135,8 @@
     z-index: -1
   }
 
-  .product-card__quick-add:hover + .variant-buttons_hover .product-card__button.active {
+  .product-card__quick-add:hover + .variant-buttons_hover .product-card__button.active,
+  .product-card__quick-add p:hover + .variant-buttons_hover .product-card__button.active {
     opacity: 1 !important;
     z-index: 999999999;
   }
