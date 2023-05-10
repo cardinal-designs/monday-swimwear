@@ -114,6 +114,7 @@
 .product-card__button {
   padding: 16px 50px 18px;
   margin: 0;
+  text-align: center;
 }
 
 .product-card__quick-add {
