@@ -204,7 +204,8 @@
   margin-bottom: 10px;
 }
 
-.product .wk-button--add {
+.product .wk-button {
+  width: 100% !important;
   margin-top: 0 !important;
 }
 
