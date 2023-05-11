@@ -204,6 +204,10 @@
   margin-bottom: 10px;
 }
 
+.product .wk-button--add {
+  margin-top: 0 !important;
+}
+
 klarna-placement p {
   font-family: 'ABC Favorit', sans-serif !important;
   font-style: normal !important;
