@@ -205,6 +205,22 @@
       );
     }
   );
+
+  // Wishlist button on homepage
+  
+  WishlistKing.observe(
+    {
+      selector: "product-card[data-product-id]",
+      template: "index",
+    },
+    (target) => {
+      target.find('.product-card__inner').append(
+        WishlistKing.createComponent("wishlist-button-floating", {
+          id: target.container.getAttribute("data-product-id"),
+        })
+      );
+    }
+  );
   
 
   // Wishlist page
