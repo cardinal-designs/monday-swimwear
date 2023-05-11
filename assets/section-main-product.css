@@ -412,6 +412,7 @@ variant-radios fieldset {
 
 .product-form__button-wrapper {
   margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
 }
 
