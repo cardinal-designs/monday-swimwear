@@ -3,7 +3,7 @@
     "header": {
       "type": "image-text-header",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T105644.691.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_8887.jpg",
         "subtitle": "May 31 - June 24  |  Los Angeles",
         "title": "The Grove Pop Up",
         "link_label": "Book Your Appointment",
@@ -113,10 +113,10 @@
             "title": "Our Partners",
             "logo_1": "shopify:\/\/shop_images\/powered-by-shopify_2b1475de-fb4b-4288-9d0c-3cccf90aaf3e.png",
             "height_1": 30,
-            "text_1": "Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.",
+            "text_1": "",
             "logo_2": "shopify:\/\/shop_images\/Screen-Shot-2023-05-04-at-12.13.53-PM.png",
             "height_2": 35,
-            "text_2": "Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.",
+            "text_2": "",
             "height_3": 23,
             "text_3": ""
           }
@@ -140,6 +140,7 @@
     },
     "cb3ff6e1-da58-4115-834f-324c2082ae23": {
       "type": "image-text-split",
+      "disabled": true,
       "settings": {
         "subtitle": "JUNE 8 - JUNE 19",
         "title": "Free Vacation",
