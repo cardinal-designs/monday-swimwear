@@ -204,6 +204,11 @@
   margin-bottom: 10px;
 }
 
+.product .wk-button {
+  width: 100% !important;
+  margin-top: 0 !important;
+}
+
 klarna-placement p {
   font-family: 'ABC Favorit', sans-serif !important;
   font-style: normal !important;
@@ -408,6 +413,7 @@ variant-radios fieldset {
 
 .product-form__button-wrapper {
   margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
 }
 

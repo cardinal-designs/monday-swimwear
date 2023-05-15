@@ -357,12 +357,23 @@
         {% endfor %}
 
         <div class="product__dropdowns">
-          <div class="product__dropdown active">
+          <div class="product__dropdown active hide-mobile">
             <button class="product__dropdown-header">
               <p class="body-small">Description</p>
               <div class="product__dropdown-control"></div>
             </button>
             <div class="product__dropdown-content" style="display: block; box-sizing: border-box;">
+              <div class="rte">
+                {{ product.description }}
+              </div>
+            </div>
+          </div>
+          <div class="product__dropdown hide-desktop">
+            <button class="product__dropdown-header">
+              <p class="body-small">Description</p>
+              <div class="product__dropdown-control"></div>
+            </button>
+            <div class="product__dropdown-content">
               <div class="rte">
                 {{ product.description }}
               </div>

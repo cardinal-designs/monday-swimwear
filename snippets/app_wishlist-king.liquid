@@ -177,7 +177,7 @@
   
   WishlistKing.observe(
     {
-      selector: "form[action='{{ routes.cart_add_url }}']",
+      selector: ".product__price",
       template: "product",
     },
     (target) => {
@@ -196,6 +196,22 @@
     {
       selector: "product-card[data-product-id]",
       template: "collection",
+    },
+    (target) => {
+      target.find('.product-card__inner').append(
+        WishlistKing.createComponent("wishlist-button-floating", {
+          id: target.container.getAttribute("data-product-id"),
+        })
+      );
+    }
+  );
+
+  // Wishlist button on homepage
+  
+  WishlistKing.observe(
+    {
+      selector: "product-card[data-product-id]",
+      template: "home",
     },
     (target) => {
       target.find('.product-card__inner').append(
