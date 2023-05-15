@@ -107,15 +107,6 @@
             "link": "shopify:\/\/collections\/prints"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_e9d8bd5f-e637-4a45-9d13-37dcafc337f7.jpg",
-            "text": "Signature Styles",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
@@ -124,12 +115,21 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/bridal-collection"
           }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_23c33925-cd75-4981-917c-6807f7cb1c04.jpg",
+            "text": "Signature Styles",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
+          }
         }
       },
       "block_order": [
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
