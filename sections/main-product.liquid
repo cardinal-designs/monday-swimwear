@@ -90,6 +90,7 @@
           </div>
           {% endif %}
 
+          {% comment %}
           <!-- Placement v2 -->
           <klarna-placement
             data-key="credit-promotion-badge"
@@ -97,6 +98,7 @@
             data-purchase-amount=""
           ></klarna-placement>
           <!-- end Placement -->
+          {% endcomment %}
         </div>
 
         {% comment %}
@@ -344,16 +346,16 @@
               {%- endif -%}
             </div>
           {%- endform -%}
+                
+        </product-form>
 
-          <!-- Placement v2 -->
+        <!-- Placement v2 -->
           <klarna-placement
             data-key="credit-promotion-badge"
             data-locale="en-US"
             data-purchase-amount=""
           ></klarna-placement>
           <!-- end Placement -->
-                
-        </product-form>
 
         {% if product.metafields.my_fields.shipping_notice != blank %}
           <p class="product__shipping-notice detail">{{ product.metafields.my_fields.shipping_notice }}</p>
