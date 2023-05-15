@@ -344,6 +344,15 @@
               {%- endif -%}
             </div>
           {%- endform -%}
+
+          <!-- Placement v2 -->
+          <klarna-placement
+            data-key="credit-promotion-badge"
+            data-locale="en-US"
+            data-purchase-amount=""
+          ></klarna-placement>
+          <!-- end Placement -->
+                
         </product-form>
 
         {% if product.metafields.my_fields.shipping_notice != blank %}
