@@ -3314,7 +3314,7 @@
           "2ce76ce7-ef29-45e5-99ad-2e627adcef11": {
             "type": "service",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T105644.691.jpg",
+              "image": "shopify:\/\/shop_images\/IMG_8886.jpg",
               "subtitle": "Reserve Your Spot & Guarantee Store Entry",
               "title": "Schedule a Fitting",
               "link_label": "Book Your Appointment",
@@ -3335,7 +3335,7 @@
           "c021bb55-986c-4212-ac05-6bae43af0566": {
             "type": "store",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Alt-2_74f3d9eb-26e2-424f-81e9-4901576aa744.jpg",
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2023-05-15_at_10.11.18_AM.jpg",
               "location": "Los Angeles",
               "name": "The Grove - Pop Up near The Park",
               "details": "189 The Grove Drive \nLos Angeles, CA 90036 \nUnited States",
@@ -3399,6 +3399,7 @@
           },
           "39013843-8f24-4bbe-9550-4de67fff1322": {
             "type": "event",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Image_-_2023-04-11T130833.891.jpg",
               "date": "Sept 2020, New York City",
@@ -3410,6 +3411,7 @@
           },
           "82e26521-2245-4c03-8cf4-344d21255d58": {
             "type": "event",
+            "disabled": true,
             "settings": {
               "date": "",
               "title": "Sip & Shop by 1800 Tequila",
@@ -3454,6 +3456,7 @@
           },
           "bfc5da75-949f-43a2-87e4-f8e29fe52547": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "title": "Question 4",
               "answer": "<p>Answer 4<\/p>"
@@ -3461,6 +3464,7 @@
           },
           "9eea2140-ed46-4fbf-b738-065d8b7b27bb": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "title": "Question 5",
               "answer": "<p>Answer 5<\/p>"
