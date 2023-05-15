@@ -798,6 +798,7 @@ class ProductCard extends HTMLElement {
   constructor() {
     super();
     this.swatches = this.querySelectorAll('.product-card__swatch');
+    this.quickAdd = this.querySelectorAll('.product-card__button');
     this.cardImage = this.querySelector('.product-card__image .initial-image img');
     this.cardHoverImage = this.querySelector('.product-card__image .hover-image img');
     this.productTitle = this.querySelector('.product-card__title');
@@ -823,6 +824,7 @@ class ProductCard extends HTMLElement {
       this.updateTitle(swatch);
       this.updateLinks(swatch);
       this.updatePrice(swatch);
+      this.updateVariants(swatch);
     }
   }
 
@@ -832,6 +834,19 @@ class ProductCard extends HTMLElement {
     });
 
     swatch.classList.add('active');
+  }
+
+  updateVariants(swatch) {
+    const variant = swatch.dataset.title;
+    this.quickAdd.forEach(button => {
+      if(button.dataset.button == variant) {
+        button.style.display = "block"
+        button.classList.add('active');
+      } else {
+        button.style.display = "none"
+        button.classList.remove('active');
+      }
+    });
   }
 
   updateImages(swatch) {

@@ -9,11 +9,32 @@
           {% if product_card_product.media[1] != blank %}
             {% render 'lazy-image' image: product_card_product.media[1], fade: true, classes: 'hover-image' %}
           {% endif %}
-          {% comment %}
-          <div class="product-card__button">
-            <div class="button button--white">Quick View</div>
-          </div>
-          {% endcomment %}
+
+          {% assign collection_for_swatches = '' %}
+          {% for tag in product_card_product.tags %}
+            {% if tag contains 'group_' %}
+              {% assign split_tag = tag | split: '_' %}
+              {% assign collection_handle = split_tag[1] | handleize %}
+              {% assign collection_for_swatches = collections[collection_handle] %}
+            {% endif %}
+          {% endfor %}
+            <div class="variant-buttons_hover">
+             <p class="hover__quick-add">Quick Add</p>
+            {% for current_product in collection_for_swatches.products %}
+            <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
+              <div class="">
+                {% for variant in current_product.variants %}
+                  {% if variant.available %}
+                    <span class="js-add-to-cart" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                  {% else %}
+                    <span class="sold-out-swatch" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+            </div>
+   
         </div>
         <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
       </a>
@@ -65,7 +86,7 @@
                   {% capture current_product_price %}
                     {% render 'price', product: current_product, price_class: 'product-card__price body-small' %}
                   {% endcapture %}
-                  <button aria-label="{{ current_product.title }}" class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{ current_product.available }}" data-price="{{ current_product.price }}" data-compare-price="{{ current_product.compare_at_price }}" data-currency="{{ shop.currency }}"">
+                  <button aria-label="{{ current_product.title }}" class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-variant="{{ current_product }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{ current_product.available }}" data-price="{{ current_product.price }}" data-compare-price="{{ current_product.compare_at_price }}" data-currency="{{ shop.currency }}"">
                     <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                     <span class="visually-hidden">{{ value }}</span>
                   </button>
@@ -85,7 +106,7 @@
                     {% render 'price', product: current_product, price_class: 'product-card__price body-small' %}
                   {% endcapture %}
 
-                  <button  aria-label="{{ current_product.title }}" class="product-card__swatch" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{current_product.available}}" data-price="{{ current_product.price }}" data-compare-price="{{ current_product.compare_at_price }}" data-currency="{{ shop.currency }}">
+                  <button  aria-label="{{ current_product.title }}" class="product-card__swatch" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-variant="{{ current_product }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{current_product.available}}" data-price="{{ current_product.price }}" data-compare-price="{{ current_product.compare_at_price }}" data-currency="{{ shop.currency }}">
                     <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                     <span class="visually-hidden">{{ value }}</span>
                   </button>
@@ -131,7 +152,7 @@
                       {% assign product_image = product_card_product.featured_image | img_url: '600x' %}
                     {% endif %}
 
-                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-url="{{ variant.url | within: collection }}">
+                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-variant="{{ variant }}" data-url="{{ variant.url | within: collection }}">
                       <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
                       <span class="visually-hidden">{{ value }}</span>
                     </button>
