@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/5_63570c11-9680-4996-ae97-1ecdff4be3ed.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE_e3fd0855-db8e-436f-9647-bcafe4e767bf.jpg",
+        "image": "shopify:\/\/shop_images\/3_1c7f8bcd-a1de-43eb-82e5-4895e3e79c39.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE_227a18a4-1362-446b-9ff9-e1115cdb8e8e.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -53,19 +53,19 @@
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "pearl-shimmer"
-          }
-        },
-        "bf612915-d86f-40f2-817f-6322dada207b": {
-          "type": "collection",
-          "settings": {
-            "collection": "black-crinkle"
+            "collection": "ride-the-wave-crochet"
           }
         },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
             "collection": "husk"
+          }
+        },
+        "bf612915-d86f-40f2-817f-6322dada207b": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-crinkle"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -77,8 +77,8 @@
       },
       "block_order": [
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "bf612915-d86f-40f2-817f-6322dada207b",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
@@ -86,26 +86,25 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_18614874-916e-4c0c-9098-36a2d6a34acf.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/3_d693c5ed-8fdc-4b35-bc43-da7e4fbe644f.jpg",
+        "image": "shopify:\/\/shop_images\/Accessories.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/1_9d7f3bc6-0743-4111-827e-cde33d6c8e56.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "sun kissed shimmer",
-        "link": "shopify:\/\/collections\/sun-kissed-shimmer"
+        "link_label": "shop beach bags",
+        "link": "shopify:\/\/collections\/beachwear-accessories"
       }
     },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_655b6859-30e3-4887-9424-1fc791e060d4.jpg",
-            "text": "Bride to Be",
+            "image": "shopify:\/\/shop_images\/1_d12a3857-e4c3-4835-be10-3978ae4aa5c9.jpg",
+            "text": "Prints",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/bridal-collection"
+            "link": "shopify:\/\/collections\/prints"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -117,20 +116,20 @@
             "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_d12a3857-e4c3-4835-be10-3978ae4aa5c9.jpg",
-            "text": "Prints",
+            "image": "shopify:\/\/shop_images\/2_2b3f5d42-a07b-4474-8fad-e85e7950e68f.jpg",
+            "text": "Bride to Be",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/prints"
+            "link": "shopify:\/\/collections\/bridal-collection"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
