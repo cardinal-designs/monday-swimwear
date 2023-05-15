@@ -24,6 +24,7 @@
         },
         "e1978367-3531-41e3-a33d-88633d2fd359": {
           "type": "double_image",
+          "disabled": true,
           "settings": {
             "image_1": "shopify:\/\/shop_images\/Image_-_2023-04-12T170343.536.jpg",
             "video_1": "shopify:\/\/files\/videos\/b7705303b99b4170af603cb08c09b728.HD-1080p-7.2Mbps.mp4",
@@ -32,6 +33,7 @@
         },
         "a8c2a716-60f6-4dff-a265-fd575fdf26a4": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "QUOTE FROM TASH & DEVIN?",
@@ -49,6 +51,7 @@
         },
         "24e7ace9-4dc6-4892-b2c0-38e795f186a6": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "title": "This Week on Socials",
             "image_1": "shopify:\/\/shop_images\/Image_-_2023-04-18T090203.351.jpg",
@@ -61,6 +64,7 @@
         },
         "52458f6f-ebe4-4f63-8a85-6709cd7016e4": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vel eu malesuada et malesuada amet. Netus ut quisque felis, viverra et mollis. Justo malesuada eget neque sed dictum cras habitasse. In ullamcorper non a cras feugiat cum sit non.”",
@@ -70,6 +74,7 @@
         },
         "1e4c36dc-cc51-4ba3-a596-4e592eea29ac": {
           "type": "featured_product",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen-Shot-2023-04-19-at-12.40.37-PM2.jpg",
             "overlay_title": "Exclusive Early access",
@@ -84,6 +89,7 @@
         },
         "63834ad5-2180-4875-a1db-503925235c99": {
           "type": "single_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_2023-04-18T102258.454.jpg",
             "video": "shopify:\/\/files\/videos\/b7705303b99b4170af603cb08c09b728.HD-1080p-7.2Mbps.mp4"
@@ -91,6 +97,7 @@
         },
         "961bfe9a-e45c-4d48-a430-ac4063058033": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "Monday mamas know that when it comes to support — alright just doesn’t cut it. Our maternity lines are designed for and by moms-to-be.",
