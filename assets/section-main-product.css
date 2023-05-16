@@ -324,7 +324,6 @@ klarna-placement p {
 /* Product form */
 .product-form {
   display: block;
-  margin-top: 20px;
 }
 
 .product-form__error-message-wrapper:not([hidden]) {
@@ -442,6 +441,10 @@ variant-radios fieldset {
 .product__final-sale {
   margin-top: 20px;
   color: #EB5757;
+}
+
+#dropahint {
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 850px) {
