@@ -45,7 +45,7 @@
           "type": "cta",
           "settings": {
             "cta_label": "Book Your Appointment",
-            "cta_link": "",
+            "cta_link": "https:\/\/calendly.com\/grove-popup-appointments\/30min-fit-session",
             "cta_type": "text"
           }
         },
