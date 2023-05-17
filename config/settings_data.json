@@ -3463,10 +3463,9 @@
           },
           "bfc5da75-949f-43a2-87e4-f8e29fe52547": {
             "type": "block",
-            "disabled": true,
             "settings": {
-              "title": "Question 4",
-              "answer": "<p>Answer 4<\/p>"
+              "title": "Can you use discount codes in store?",
+              "answer": "<p>Yes, if you have one, we can apply it to your purchase.<\/p>"
             }
           },
           "9eea2140-ed46-4fbf-b738-065d8b7b27bb": {
