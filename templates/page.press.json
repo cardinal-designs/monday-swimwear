@@ -66,6 +66,17 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "13c2cda0-8100-46ed-9802-adbe2c2002d7": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/The-Wall-Street-Journal-logo.png",
+            "text": "",
+            "date": "READ MORE",
+            "link": ""
+          }
+        },
         "7bf06bf7-083f-4ca1-ab58-ef30d8914539": {
           "type": "block",
           "settings": {
@@ -168,6 +179,7 @@
         },
         "b6463c0a-5986-48c0-ae9c-9d1e8b2b34c5": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/whowhatwear-logo.png",
@@ -239,6 +251,7 @@
         }
       },
       "block_order": [
+        "13c2cda0-8100-46ed-9802-adbe2c2002d7",
         "7bf06bf7-083f-4ca1-ab58-ef30d8914539",
         "6e93c751-34e1-48b2-b05d-df4bac7f4c99",
         "0de33acb-2a24-4125-8314-b1b1f30d0a0e",
