@@ -68,13 +68,12 @@
       "blocks": {
         "13c2cda0-8100-46ed-9802-adbe2c2002d7": {
           "type": "block",
-          "disabled": true,
           "settings": {
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/The-Wall-Street-Journal-logo.png",
-            "text": "",
+            "text": "\"Martha Stewart on Becoming Sports Illustrated’s Oldest Swimsuit Cover Model\"",
             "date": "READ MORE",
-            "link": ""
+            "link": "https:\/\/www.wsj.com\/articles\/martha-stewart-sports-illustrated-swimsuit-cover-24a66e56"
           }
         },
         "7bf06bf7-083f-4ca1-ab58-ef30d8914539": {
