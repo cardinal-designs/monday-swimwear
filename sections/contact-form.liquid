@@ -6,7 +6,9 @@
       <h2 class="title sh1">{{ section.settings.heading_text | escape }}</h2>
       <p class="body-small subtitle">{{ section.settings.subtitle }}</p>
     </div>
-  
+
+    <div data-gorgias-contact-form="container"></div>
+    
     {%- form 'contact', id: 'ContactForm', class: 'form' -%}
       {%- if form.posted_successfully? -%}
         <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
@@ -95,6 +97,8 @@
     </div> 
   </div>
 </div>
+
+<script defer src="https://contact.gorgias.help/api/contact-forms/loader.js?uid=jppnyvoo&locale=en-US" data-gorgias-contact-form="script"></script>
 
 {% schema %}
   {
