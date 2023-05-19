@@ -129,6 +129,10 @@
   z-index: 99;
 }
 
+.variant-buttons_hover {
+  display: none;
+}
+
 @media screen and (min-width: 769px) {
 
   .hover__quick-add {
