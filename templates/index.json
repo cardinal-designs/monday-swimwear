@@ -98,6 +98,15 @@
     "1640811405c1297562": {
       "type": "link-blocks",
       "blocks": {
+        "d029689e-51e9-4bab-918a-a703bb5724d6": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_11a741da-30ed-4d20-93a9-3efad13ab276.jpg",
+            "text": "",
+            "link_label": "SHOP THE COLLECTION",
+            "link": "shopify:\/\/collections\/chili-pepper"
+          }
+        },
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
           "type": "link_block",
           "settings": {
@@ -106,20 +115,11 @@
             "link_label": "SHOP THE COLLECTION",
             "link": "shopify:\/\/collections\/island-aura"
           }
-        },
-        "d029689e-51e9-4bab-918a-a703bb5724d6": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_440de489-1db4-47e6-ad74-31bed43c63fa.jpg",
-            "text": "",
-            "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/lemongrass-crinkle"
-          }
         }
       },
       "block_order": [
-        "643e0732-83e9-4986-9865-1f1ee99fda72",
-        "d029689e-51e9-4bab-918a-a703bb5724d6"
+        "d029689e-51e9-4bab-918a-a703bb5724d6",
+        "643e0732-83e9-4986-9865-1f1ee99fda72"
       ],
       "settings": {
         "text_style": "overlay",
