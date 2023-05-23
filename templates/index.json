@@ -65,13 +65,13 @@
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "fuchsia-berry-shimmer"
+            "collection": "island-aura"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
-            "collection": "ride-the-wave-crochet"
+            "collection": "the-signature-collection-1"
           }
         }
       },
@@ -110,10 +110,10 @@
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ALT-2_a4764d50-f320-4f15-b171-cec123e9b3c7.jpg",
+            "image": "shopify:\/\/shop_images\/2_231ace47-e01b-4863-8b39-c4d7b967f07e.jpg",
             "text": "",
             "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/island-aura"
+            "link": "shopify:\/\/collections\/fuchsia-berry-shimmer"
           }
         }
       },
