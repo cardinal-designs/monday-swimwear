@@ -39,27 +39,26 @@
     },
     "164081090579915a8a": {
       "type": "text",
-      "disabled": true,
       "settings": {
-        "text": "Major discounts 👀  Our end of the year sale ends Jan 20! No code necessary, prices reflected at checkout.",
+        "text": "The Earth gives us so much, it’s time to give back. Which is why we'll be donating some of the proceeds from The Jungle Collection to a non-profit focused on reforestation. For every Jungle order placed, one tree will be planted. Made from recycled materials, Jungle is directly inspired by nature’s beautiful hues. Together, we can help restore some of the planet’s magic.",
         "wide": true,
-        "add_glow": true,
+        "add_glow": false,
         "link": "shopify:\/\/collections\/up-to-70-off-sale"
       }
     },
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "bird-of-paradise"
-          }
-        },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
             "collection": "jungle"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "bird-of-paradise"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -76,8 +75,8 @@
         }
       },
       "block_order": [
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
