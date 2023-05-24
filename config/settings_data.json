@@ -2525,6 +2525,14 @@
               "title": "Returns & Exchanges"
             }
           },
+          "1c5cf602-eef6-4a64-8a9e-67926875a5c2": {
+            "type": "faq_item",
+            "disabled": true,
+            "settings": {
+              "title": "What is your Memorial Return Policy?",
+              "answer": "<p>If you purchase an order using our<strong> LONGWEEKEND20 <\/strong>code, the purchase can only be returned for a store credit, no exchanges or refunds.<\/p>"
+            }
+          },
           "06ea453a-75f1-4191-a3d1-0d8bc35661d7": {
             "type": "faq_item",
             "disabled": true,
@@ -2797,6 +2805,7 @@
         },
         "block_order": [
           "6a39d5b6-0a91-404d-a30d-0619a2cb800f",
+          "1c5cf602-eef6-4a64-8a9e-67926875a5c2",
           "06ea453a-75f1-4191-a3d1-0d8bc35661d7",
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6",
           "911fbafc-5e0f-4618-9f58-af0126a0a664",
