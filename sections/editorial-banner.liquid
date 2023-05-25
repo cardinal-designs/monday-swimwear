@@ -2,7 +2,7 @@
 
 <div class="editorial-banner">
   <div class="page-width">
-    <a href="{{ section.settings.link }}">
+    <a href="{{ section.settings.link }}" aria-label="{{ section.settings.link_label }}">
       <div class="editorial-banner__container">
         {% if section.settings.mobile_image != blank %}
           {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
