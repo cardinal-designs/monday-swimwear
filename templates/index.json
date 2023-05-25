@@ -3,7 +3,7 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BIRD_JUNGLE-web8.png",
+        "image": "shopify:\/\/shop_images\/1_fcbbfb3d-799f-466f-90fc-38951af7818a.jpg",
         "mobile_image": "shopify:\/\/shop_images\/BIRD_JUNGLE-mob1.png",
         "text": "",
         "text_color": "#ffffff",
@@ -40,7 +40,7 @@
     "164081090579915a8a": {
       "type": "text",
       "settings": {
-        "text": "The Earth gives us so much, it’s time to give back. Which is why we'll be donating some of the proceeds from The Jungle Collection to a non-profit focused on reforestation. For every Jungle order placed, one tree will be planted. Made from recycled materials, Jungle is directly inspired by nature’s beautiful hues. Together, we can help restore some of the planet’s magic.",
+        "text": "Take 20% off site wide with code, LONGWEEKEND20.",
         "wide": true,
         "add_glow": false,
         "link": "shopify:\/\/collections\/jungle"
@@ -49,16 +49,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "jungle"
-          }
-        },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
             "collection": "bird-of-paradise"
+          }
+        },
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+          "type": "collection",
+          "settings": {
+            "collection": "jungle"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -75,8 +75,8 @@
         }
       },
       "block_order": [
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
