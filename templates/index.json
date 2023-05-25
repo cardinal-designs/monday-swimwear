@@ -9,7 +9,7 @@
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-left",
-        "button_label": "SHOP NEW ARRIVALS",
+        "button_label": "SHOP SUMMER '23",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
