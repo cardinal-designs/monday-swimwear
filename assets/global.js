@@ -1231,9 +1231,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   
   if (inventory > 0 && inventory <= 10) {
-    document.getElementById('almost-sold-out').style.display = "block";
+    if(document.getElementById('almost-sold-out')) document.getElementById('almost-sold-out').style.display = "block";
   } else {
-    document.getElementById('almost-sold-out').style.display = "none";
+    if(document.getElementById('almost-sold-out')) document.getElementById('almost-sold-out').style.display = "none";
   }
 });
 

@@ -212,14 +212,14 @@
                                 <ul class="header__mega-menu-group-links" role="list">
                                   {% for grandchild_link in child_link.links %}
                                     <li>
-                                      <a href="{{ grandchild_link.url }}" class="body">{{ grandchild_link.title }}</a>
+                                      <a href="{{ grandchild_link.url }}" class="body" aria-label="{{ grandchild_link.title }}">{{ grandchild_link.title }}</a>
                                     </li>
                                   {% endfor %}
                                 </ul>
                               </div>
                             {% endfor %}
                           </div>
-                          <a href="{{ block.settings.shop_all_link }}" class="button button--bone">Shop All</a>
+                          <a href="{{ block.settings.shop_all_link }}" aria-label="shop all" class="button button--bone">Shop All</a>
                         </div>
                       </div>
                       {% if block.settings.image != blank %}
