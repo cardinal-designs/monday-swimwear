@@ -6,20 +6,20 @@
       {% if section.settings.slider_on_mobile %}<div class="swiper-wrapper">{% endif %} 
       {% for block in section.blocks %}
         <div class="link-blocks__item{% if section.settings.slider_on_mobile %} swiper-slide{% endif %}" {{ block.shopify_attributes }}>
-          <a href="{{ block.settings.link }}">
+          <a href="{{ block.settings.link }}" aria-label="image-{{ block.settings.text }}">
             {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
           </a>
           <div class="link-blocks__item-content">
             {% if section.settings.text_style == 'overlay' %}
-              <a href="{{ block.settings.link }}">
+              <a href="{{ block.settings.link }}" aria-label="{{ block.settings.text }}">
                 <h2 class="sh1">{{ block.settings.text }}</h2>
               </a>
             {% else %}
-              <a href="{{ block.settings.link }}">
+              <a href="{{ block.settings.link }}" aria-label="{{ block.settings.text }}">
                 <h2 class="h4">{{ block.settings.text }}</h2>
               </a>
             {% endif %}
-            <a href="{{ block.settings.link }}" class="text-link">{{ block.settings.link_label }}</a>
+            <a href="{{ block.settings.link }}" class="text-link" aria-label="{{ block.settings.link_label }}">{{ block.settings.link_label }}</a>
           </div>
         </div>
       {% endfor %}
