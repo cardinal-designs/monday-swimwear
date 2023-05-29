@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/website-jungle.png",
-        "mobile_image": "shopify:\/\/shop_images\/BIRD_JUNGLE-mob1.png",
+        "image": "shopify:\/\/shop_images\/twotone3-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/twotone1-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -49,10 +49,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
-            "collection": "bird-of-paradise"
+            "collection": "ivory-black"
           }
         },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
@@ -61,24 +61,24 @@
             "collection": "jungle"
           }
         },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "bird-of-paradise"
+          }
+        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "island-aura"
           }
-        },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-signature-collection-1"
-          }
         }
       },
       "block_order": [
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
-        "bf612915-d86f-40f2-817f-6322dada207b",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
+        "bf612915-d86f-40f2-817f-6322dada207b"
       ],
       "settings": {
       }
