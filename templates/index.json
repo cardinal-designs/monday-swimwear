@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/twotone3-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/twotone1-mob.png",
+        "image": "shopify:\/\/shop_images\/WEB_f1abd65e-d359-4833-a231-a36ba2232441.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Untitled-3_9b45e38f-c02a-4bc2-960c-074b95cbbd8d.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -39,6 +39,7 @@
     },
     "164081090579915a8a": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "text": "Take 20% off site wide with code, LONGWEEKEND20 *terms & conditions apply.",
         "wide": true,
@@ -52,7 +53,7 @@
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
-            "collection": "ivory-black"
+            "collection": "citrus-crochet"
           }
         },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
@@ -81,6 +82,47 @@
         "bf612915-d86f-40f2-817f-6322dada207b"
       ],
       "settings": {
+      }
+    },
+    "1640812146b4d73cae": {
+      "type": "link-blocks",
+      "blocks": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_f2d4a765-b735-4aff-818a-1b132279dd90.jpg",
+            "text": "Signature Restock",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_d12a3857-e4c3-4835-be10-3978ae4aa5c9.jpg",
+            "text": "Prints",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/prints"
+          }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_2b3f5d42-a07b-4474-8fad-e85e7950e68f.jpg",
+            "text": "Bride to Be",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/bridal-collection"
+          }
+        }
+      },
+      "block_order": [
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+      ],
+      "settings": {
+        "text_style": "underneath",
+        "slider_on_mobile": true
       }
     },
     "16408101574f5b391b": {
@@ -123,47 +165,6 @@
       "settings": {
         "text_style": "overlay",
         "slider_on_mobile": false
-      }
-    },
-    "1640812146b4d73cae": {
-      "type": "link-blocks",
-      "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_23c33925-cd75-4981-917c-6807f7cb1c04.jpg",
-            "text": "Signature Styles",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
-          }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_2b3f5d42-a07b-4474-8fad-e85e7950e68f.jpg",
-            "text": "Bride to Be",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/bridal-collection"
-          }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_d12a3857-e4c3-4835-be10-3978ae4aa5c9.jpg",
-            "text": "Prints",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/prints"
-          }
-        }
-      },
-      "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
-      ],
-      "settings": {
-        "text_style": "underneath",
-        "slider_on_mobile": true
       }
     },
     "16408186509f925b52": {
@@ -276,9 +277,9 @@
     "1657215750b8e1724d",
     "164081090579915a8a",
     "16407502469f0e5f45",
+    "1640812146b4d73cae",
     "16408101574f5b391b",
     "1640811405c1297562",
-    "1640812146b4d73cae",
     "16408186509f925b52",
     "1640814929d4a3c77a",
     "164124814754670aef",
