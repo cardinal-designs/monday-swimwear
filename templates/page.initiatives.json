@@ -21,6 +21,17 @@
     "16432137026d4e6bd7": {
       "type": "initiatives-image-text",
       "blocks": {
+        "f6cf5b57-495c-4abc-bfff-635a57b5536b": {
+          "type": "block",
+          "settings": {
+            "reversed": false,
+            "image": "shopify:\/\/shop_images\/1_8a4f884a-82df-4872-9b1f-8dd16fa5938b.jpg",
+            "title": "One Tree Planted",
+            "text": "Styles that gives back! With every Jungle set sold, we're planting trees for a greener future with One Tree Planted.",
+            "button_label": "Learn More",
+            "button_link": "https:\/\/onetreeplanted.org\/pages\/about-us"
+          }
+        },
         "39ebb8e9-f346-4d35-948b-d76410c2605e": {
           "type": "block",
           "settings": {
@@ -188,6 +199,7 @@
         }
       },
       "block_order": [
+        "f6cf5b57-495c-4abc-bfff-635a57b5536b",
         "39ebb8e9-f346-4d35-948b-d76410c2605e",
         "44ccbf6c-bdfe-4a1e-8184-7de6997c2999",
         "ec9080fc-cf85-41ad-bb60-809cee08ea92",
