@@ -21,6 +21,17 @@
     "16432137026d4e6bd7": {
       "type": "initiatives-image-text",
       "blocks": {
+        "af1c2b41-a213-46bc-8ef1-5fd46c6d2832": {
+          "type": "block",
+          "settings": {
+            "reversed": true,
+            "image": "shopify:\/\/shop_images\/2_4e4f2df6-47aa-49c8-8194-c98d0e44ae9b.jpg",
+            "title": "The Flaviana Matata Foundation",
+            "text": "15% of orders placed from our Citrus Crochet Collection will go directly to The Flaviana Matata Foundation.<br><br>\n\nThe Flaviana Matata Foundation is a non-profit organization which serves as a platform to inspire, empower, and support girl to unleash their potential and achieve their dream lives. The Foundation aims to provide educational opportunities to young girls in Tanzania through scholarships, infrastructure, mentorship, and job and entrepreneurial skills training.",
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.flavianamatatafoundation.org\/copy-of-our-story"
+          }
+        },
         "f6cf5b57-495c-4abc-bfff-635a57b5536b": {
           "type": "block",
           "settings": {
@@ -35,7 +46,7 @@
         "39ebb8e9-f346-4d35-948b-d76410c2605e": {
           "type": "block",
           "settings": {
-            "reversed": false,
+            "reversed": true,
             "image": "shopify:\/\/shop_images\/1_1caf5b71-4ea8-4edb-b297-cb8abbe53b36.jpg",
             "title": " The Surfrider LA Chapter",
             "text": "For every Dream Blue piece ordered, 15% of the proceeds will go to The Surfrider LA Chapter, a nonprofit environmental organization that works to protect and preserve the world’s oceans, waves and beaches.",
@@ -199,6 +210,7 @@
         }
       },
       "block_order": [
+        "af1c2b41-a213-46bc-8ef1-5fd46c6d2832",
         "f6cf5b57-495c-4abc-bfff-635a57b5536b",
         "39ebb8e9-f346-4d35-948b-d76410c2605e",
         "44ccbf6c-bdfe-4a1e-8184-7de6997c2999",
