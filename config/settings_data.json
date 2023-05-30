@@ -33,20 +33,19 @@
         "blocks": {
           "0b56e1e3-e7b8-4aed-b385-258a62e98bab": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "20% OFF SITE WIDE - CODE: LONGWEEKEND20"
             }
           },
           "9e9ecc40-4b57-4047-b32f-6330f3026efb": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "FREE SHIPPING ON US ORDERS OVER $200 📦"
             }
           },
           "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "BUY NOW, SAVE LATER W\/ KLARNA 🛒"
             }
