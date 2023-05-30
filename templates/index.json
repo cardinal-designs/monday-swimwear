@@ -84,6 +84,48 @@
       "settings": {
       }
     },
+    "1640811405c1297562": {
+      "type": "link-blocks",
+      "blocks": {
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_231ace47-e01b-4863-8b39-c4d7b967f07e.jpg",
+            "text": "",
+            "link_label": "SHOP THE COLLECTION",
+            "link": "shopify:\/\/collections\/fuchsia-berry-shimmer"
+          }
+        },
+        "d029689e-51e9-4bab-918a-a703bb5724d6": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_728e5e73-4ffc-47fc-ae72-1ab18c706a9e.jpg",
+            "text": "",
+            "link_label": "SHOP THE COLLECTION",
+            "link": "shopify:\/\/collections\/ride-the-wave-crochet"
+          }
+        }
+      },
+      "block_order": [
+        "643e0732-83e9-4986-9865-1f1ee99fda72",
+        "d029689e-51e9-4bab-918a-a703bb5724d6"
+      ],
+      "settings": {
+        "text_style": "overlay",
+        "slider_on_mobile": false
+      }
+    },
+    "16408101574f5b391b": {
+      "type": "editorial-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Accessories.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/1_9d7f3bc6-0743-4111-827e-cde33d6c8e56.jpg",
+        "left_text": "",
+        "right_text": "",
+        "link_label": "shop beach bags",
+        "link": "shopify:\/\/collections\/beachwear-accessories"
+      }
+    },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
@@ -123,48 +165,6 @@
       "settings": {
         "text_style": "underneath",
         "slider_on_mobile": true
-      }
-    },
-    "16408101574f5b391b": {
-      "type": "editorial-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Accessories.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1_9d7f3bc6-0743-4111-827e-cde33d6c8e56.jpg",
-        "left_text": "",
-        "right_text": "",
-        "link_label": "shop beach bags",
-        "link": "shopify:\/\/collections\/beachwear-accessories"
-      }
-    },
-    "1640811405c1297562": {
-      "type": "link-blocks",
-      "blocks": {
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_231ace47-e01b-4863-8b39-c4d7b967f07e.jpg",
-            "text": "",
-            "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/fuchsia-berry-shimmer"
-          }
-        },
-        "d029689e-51e9-4bab-918a-a703bb5724d6": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_728e5e73-4ffc-47fc-ae72-1ab18c706a9e.jpg",
-            "text": "",
-            "link_label": "SHOP THE COLLECTION",
-            "link": "shopify:\/\/collections\/ride-the-wave-crochet"
-          }
-        }
-      },
-      "block_order": [
-        "643e0732-83e9-4986-9865-1f1ee99fda72",
-        "d029689e-51e9-4bab-918a-a703bb5724d6"
-      ],
-      "settings": {
-        "text_style": "overlay",
-        "slider_on_mobile": false
       }
     },
     "16408186509f925b52": {
@@ -277,9 +277,9 @@
     "1657215750b8e1724d",
     "164081090579915a8a",
     "16407502469f0e5f45",
-    "1640812146b4d73cae",
-    "16408101574f5b391b",
     "1640811405c1297562",
+    "16408101574f5b391b",
+    "1640812146b4d73cae",
     "16408186509f925b52",
     "1640814929d4a3c77a",
     "164124814754670aef",
