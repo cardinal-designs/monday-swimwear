@@ -30,7 +30,9 @@
 
   .tolstoy-hero-video {
       width: 100%;
+      {% if videoLink  %}
       cursor: pointer;
+       {% endif %}
       height: auto;
   }
 
@@ -39,7 +41,6 @@
           aspect-ratio: {{ desktopAspectRatio }};
       }
   }
-
 
   @media (max-width: 575px) {
       .tolstoy-hero-video {
@@ -50,39 +51,50 @@
 </style>
 
 <div
-  alt="tolstoy-hero-video"
-  tabindex="0"
-  aria-label="Tolstoy hero video button"
-  class="tolstoy-hero-video-container"
-  role="button"
-  onclick="window.open("{{ videoLink }}", {% if isOpenInNewTab %}"_blank"{% else %}"_self"{% endif %});"
+  alt='tolstoy-hero-video'
+  tabindex='0'
+  aria-label='Tolstoy hero video button'
+  class='tolstoy-hero-video-container'
+  role='button'
+  id='tolstoy-hero-video-container-{{ publishId }}'
+  onclick="window.open('{{ videoLink }}', {% if isOpenInNewTab %}'_blank'{% else %}'_self'{% endif %});"
 >
   <video
-    class="tolstoy-hero-video tolstoy-hero-video-mobile"
-    id="tolstoy-hero-video-{{ publishId }}"
-    poster="https://dev-api.gotolstoy.com/shopify/get-hero?mobile={{mobilePosterSrc}}&desktop={{desktopPosterSrc}}"
+    class='tolstoy-hero-video'
+      id='tolstoy-hero-video-{{ publishId }}'
     loop
     playsinline
-    aria-label="Hero Video"
+    aria-label='Hero Video'
     disablePictureInPicture
     disableRemotePlayback
     muted
     autoplay
     preload="auto"
-  >
-    <source
-      type="video/mp4"
-      src="https://dev-api.gotolstoy.com/shopify/get-hero?mobile={{mobileVideoSrc}}&desktop={{desktopVideoSrc}}"
-    >
-  </video>
+  ></video>
 </div>
 
 <script>
   function startHeroVideo() {
-    const publishId = "{{ publishId }}";
+    const publishId = '{{ publishId }}';
+    const isMobile = window.innerWidth <= 450;
+
     if (!publishId || publishId === "publishId") {
       return;
     }
+
+      const startVideo =()=>{
+        const videoTag = document.getElementById("tolstoy-hero-video-{{ publishId }}");
+
+        if (isMobile){
+        videoTag.poster = '{{ mobilePosterSrc }}';
+        videoTag.src = '{{ mobileVideoSrc }}';
+        }else{
+        videoTag.poster = '{{ desktopPosterSrc }}';
+        videoTag.src = '{{ desktopVideoSrc }}';
+        }
+    }
+
+    startVideo();
 
     const uuidv4 = () =>
       "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, c => {
@@ -136,7 +148,7 @@
     const sendEvent = (anonymousId, sessionId) => eventName => {
       try {
         const params = createEvent(eventName, anonymousId, sessionId);
-        fetch("https://dev-api.gotolstoy.com/events/complete-event", {
+        fetch("https://api.gotolstoy.com/events/complete-event", {
           method: "POST",
           headers: {
             Accept: "application/json",
@@ -155,8 +167,8 @@
     const sendEventWithParams = sendEvent(anonymousId, sessionId);
 
     const videoTag = document.getElementById("tolstoy-hero-video-{{ publishId }}");
-    videoTag.addEventListener("click", () => sendEventWithParams("pageView"), { once: true });
-    window.addEventListener("load", () => sendEventWithParams("clickCta"), { once: true });
+    videoTag.addEventListener("click", () => sendEventWithParams("clickCta"), { once: true });
+    window.addEventListener("load", () => sendEventWithParams("pageView"), { once: true });
   }
 
   startHeroVideo();
