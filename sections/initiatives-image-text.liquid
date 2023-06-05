@@ -1,0 +1,75 @@
+{{ 'section-initiatives-image-text.css' | asset_url | stylesheet_tag }}
+
+<div class="initiatives-image-text">
+  <div class="page-width">
+    {% for block in section.blocks %}
+      <div class="initiatives-image-text__item{% if block.settings.reversed %} reversed{% endif %}">
+        <div class="initiatives-image-text__item-image">
+          <div class="initiatives-image-text__item-image-container">
+            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+          </div>
+        </div>
+        <div class="initiatives-image-text__item-content">
+          <div class="initiatives-image-text__item-content-container">
+            <h2>{{ block.settings.title }}</h2>
+            <p class="body-small">{{ block.settings.text }}</p>
+            <a href="{{ block.settings.button_link }}" target="_blank" class="button button--bone">{{ block.settings.button_label }}</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Initiatives Image / Text",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "reversed",
+            "label": "Reversed Layout"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button Label",
+            "default": "Learn More"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Initiatives Image / Text"
+      }
+    ]
+  }
+{% endschema %}

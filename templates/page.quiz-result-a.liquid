@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @font-face {
+        font-family: "linotype";
+        src: url("https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/fonts/Linotype%20-%20Neue%20Haas%20Unica%20Pro.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "tobias";
+        src: url("https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/fonts/Tobias-Thin.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "sunset";
+        src: url("https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/fonts/sunset-gothic-medium-pro.otf")
+          format("truetype");
+      }
+
+      .linotype {
+        font-family: "linotype", sans-serif;
+      }
+      .tobias {
+        font-family: "tobias", sans-serif;
+      }
+      .sunset {
+        font-family: "sunset", sans-serif;
+      }
+
+      .container {
+        /* position: absolute; */
+        /* width: 1441px; */
+        /* height: 300px; */
+        left: 1440px;
+        /* top: 6px; */
+      }
+      .color-primary {
+        background-color: #000000;
+      }
+      .center-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center-text {
+        text-align: center;
+      }
+
+      .header-content {
+        background: #faf5e1;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 30vh;
+      }
+      .dot {
+        margin-top: unset !important;
+        margin-bottom: unset !important;
+        height: 100px;
+        width: 100px;
+        border: 0.01px solid rgba(0, 0, 0, 0.8);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .middle-text {
+        font-style: normal;
+        font-weight: 200;
+        font-size: 49.3333px;
+        line-height: 123%;
+
+        /* identical to box height, or 61px */
+        text-align: center;
+        letter-spacing: -0.04em;
+
+        color: #000000;
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+      }
+      .img {
+        height: 100px;
+        width: auto;
+      }
+      .category-title {
+        margin: 5px auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 142.5%;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      .category-sub-title {
+        margin-bottom: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 170%;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      .custom-btn {
+        padding: 10px;
+        gap: 20px;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+      }
+      .custom-btn:hover {
+        border: 0.01px solid rgba(0, 0, 0, 0.8);
+      }
+
+      .custom-btn:active {
+        background: #f2f0e8;
+        border: none;
+      }
+
+      .img-item {
+        width: auto;
+        height: 420px;
+        object-fit: cover;
+      }
+      .itm-main-title {
+        margin-top: 10px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 180%;
+        letter-spacing: 0.02em;
+        color: #000000;
+      }
+      .itm-sub-title {
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 100%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      .custom-padding {
+        padding: 10px;
+      }
+      .title-decoration {
+        text-transform: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="header-content">
+        <h1 class="tobias title-decoration">Find the Perfect Fit</h1>
+        <p class="linotype">Your Fit Quiz Results</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- BEGIN OF ITEM ROW -->
+      <div class="row">
+        <div class="col-3 column justify-content-center align-items-center">
+          <div class="img-wrapper-category">
+            <img
+              class="img"
+              src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/recom-top.png"
+              alt=""
+            />
+          </div>
+          <div class="category-title sunset">top</div>
+          <div class="category-sub-title linotype">recommended size</div>
+          <div class="dot middle-text tobias">VV</div>
+        </div>
+
+        <div class="col-9">
+          <div class="row">
+            <!-- BEGIN OF ITEM SET -->
+
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/1.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/2.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/3.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+
+            <!-- END OF ITEM SET -->
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM ROW -->
+
+      <!-- BEGIN OF ITEM ROW -->
+      <div class="row">
+        <div class="col-3 column justify-content-center align-items-center">
+          <div class="img-wrapper-category">
+            <img
+              class="img"
+              src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/recom-bottom.png"
+              alt=""
+            />
+          </div>
+          <div class="category-title sunset">bottom</div>
+          <div class="category-sub-title linotype">recommended size</div>
+          <div class="dot middle-text tobias">M</div>
+        </div>
+
+        <div class="col-9">
+          <div class="row">
+            <!-- BEGIN OF ITEM SET -->
+
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/1.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/2.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/3.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+
+            <!-- END OF ITEM SET -->
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM ROW -->
+
+      <!-- BEGIN OF ITEM ROW -->
+      <div class="row">
+        <div class="col-3 column justify-content-center align-items-center">
+          <div class="img-wrapper-category">
+            <img
+              class="img"
+              src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/recom-last.png"
+              alt=""
+            />
+          </div>
+          <div class="category-title sunset">one-piece</div>
+          <div class="category-sub-title linotype">recommended size</div>
+          <div class="dot middle-text tobias">V</div>
+        </div>
+
+        <div class="col-9">
+          <div class="row">
+            <!-- BEGIN OF ITEM SET -->
+
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/1.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/2.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4 custom-padding">
+              <button class="custom-btn">
+                <div class="btn-area">
+                  <div class="img-wrapper-item">
+                    <img
+                      src="https://quizzes-assets.nyc3.digitaloceanspaces.com/monday-swim.myshopify.com/images/resultpage-images/3.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="itm-main-title linotype">Clovelly Top</div>
+                  <div class="itm-sub-title linotype">sexy sporty chic</div>
+                </div>
+              </button>
+            </div>
+
+            <!-- END OF ITEM SET -->
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM ROW -->
+    </div>
+  </body>
+</html>

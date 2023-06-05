@@ -1,0 +1,30 @@
+{% case value %}
+  {% when 'P' %}
+    Petite
+  {% when 'S' %}
+    Small
+  {% when 'M' %}
+    Medium
+  {% when 'L' %}
+    Large
+  {% when 'V' %}
+    Voluptuous
+  {% when 'VV' %}
+    Very Voluptuous
+  {% when 'VVV' %}
+    Very Very Voluptuous
+  {% when 'OS' %}
+    One Size
+  {% when 'O/S' %}
+    One Size
+  {% when 'P/S' %}
+    Petite / Small
+  {% when 'S/M' %}
+    Small / Medium
+  {% when 'M/L' %}
+    Medium / Large
+  {% when 'L/V' %}
+    Large / Voluptuous
+  {% else %}
+    {{ value }}
+{% endcase %}

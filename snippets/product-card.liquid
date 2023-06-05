@@ -1,0 +1,175 @@
+{{ 'component-rating.css' | asset_url | stylesheet_tag }}
+
+<product-card data="{{product_card_product.variants[0].available | json}}" data-product-id="{{ product_card_product.id }}">
+  <div class="product-card" tabindex="-1">
+    <div class="product-card__inner">
+      <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
+        <div class="product-card__image" data-url="{{ product_card_product.media[1] | img_url }}">
+          {% render 'lazy-image' image: product_card_product.featured_media, fade: true, classes: 'initial-image' %}
+          {% if product_card_product.media[1] != blank %}
+            {% render 'lazy-image' image: product_card_product.media[1], fade: true, classes: 'hover-image' %}
+          {% endif %}
+
+          {% assign collection_for_swatches = '' %}
+          {% for tag in product_card_product.tags %}
+            {% if tag contains 'group_' %}
+              {% assign split_tag = tag | split: '_' %}
+              {% assign collection_handle = split_tag[1] | handleize %}
+              {% assign collection_for_swatches = collections[collection_handle] %}
+            {% endif %}
+          {% endfor %}
+            <div class="variant-buttons_hover">
+             <p class="hover__quick-add">Quick Add</p>
+            {% for current_product in collection_for_swatches.products %}
+            <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
+              <div class="">
+                {% for variant in current_product.variants %}
+                  {% if variant.available %}
+                    <span class="js-add-to-cart" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                  {% else %}
+                    <span class="sold-out-swatch" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+            </div>
+   
+        </div>
+        <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
+      </a>
+
+      <div class="product-card__content">
+        <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
+          <div class="product-card__header">
+            <h2 class="product-card__title body-small">
+              {{ product_card_product.title }}
+            </h2>
+            <span class="product-card__price-container">
+              {% render 'price', product: product_card_product, price_class: 'product-card__price body-small' %}
+            </span>
+          </div>
+          {% for tag in product_card_product.tags %}
+            {% if tag contains 'Eco-Friendly' %}
+              <p class="detail-caps">Eco-Friendly</p>
+            {% endif %}
+          {% endfor %}
+        </a>
+        {% if product_card_product.variants.size > 0 or product_card_product.tags contains 'Coming Soon' %}
+        {% comment %} Check if using collection to determine swatches or using product variants {% endcomment %}
+          {% assign use_collection_for_swatches = false %}
+          {% assign collection_for_swatches = '' %}
+          {% for tag in product_card_product.tags %}
+            {% if tag contains 'group_' %}
+              {% assign use_collection_for_swatches = true %}
+
+              {% assign split_tag = tag | split: '_' %}
+              {% assign collection_handle = split_tag[1] | handleize %}
+              {% assign collection_for_swatches = collections[collection_handle] %}
+            {% endif %}
+          {% endfor %}
+
+          {% if use_collection_for_swatches %}
+            {% comment %} Using collection for swatches {% endcomment %}
+            {% assign swatch_count = 0 %}
+            <div class="product-card__swatches">
+              {% comment %} Display product card product first {% endcomment %}
+              {% for current_product in collection_for_swatches.products %}
+                {% if product_card_product.handle == current_product.handle %}
+              	  {% for option in current_product.options_with_values %}
+              		{% if option.name == 'Color' %}
+              		  {% assign color = option.values[0] %}
+                    {% endif %}
+                  {% endfor %}
+                  {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                  {% assign color_swatch_image = images[color_swatch_name] %}
+                  {% capture current_product_price %}
+                    {% render 'price', product: current_product, price_class: 'product-card__price body-small' %}
+                  {% endcapture %}
+                  <button aria-label="{{ current_product.title }}" class="product-card__swatch active" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-variant="{{ current_product }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{ current_product.available }}" data-price="{{ current_product.price }}" data-compare-price="{{ current_product.compare_at_price }}" data-currency="{{ shop.currency }}"">
+                    <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                    <span class="visually-hidden">{{ value }}</span>
+                  </button>
+                {% endif %}
+              {% endfor %}
+              {% comment %} Display the rest of the swatches excluding current product {% endcomment %}
+              {% for current_product in collection_for_swatches.products %}
+                {% unless product_card_product.handle == current_product.handle %}
+              	  {% for option in current_product.options_with_values %}
+              		{% if option.name == 'Color' %}
+              		  {% assign color = option.values[0] %}
+                    {% endif %}
+                  {% endfor %}
+                  {% assign color_swatch_name = color | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                  {% assign color_swatch_image = images[color_swatch_name] %}
+                  {% capture current_product_price %}
+                    {% render 'price', product: current_product, price_class: 'product-card__price body-small' %}
+                  {% endcapture %}
+
+                  <button  aria-label="{{ current_product.title }}" class="product-card__swatch" data-image="{{ current_product.featured_image | img_url: '600x' }}" data-variant="{{ current_product }}" data-hover="{{ current_product.media[1] | img_url: '600x' }}" data-title="{{ current_product.title }}" data-url="{{ current_product.url  | within: collection }}" data-available="{{current_product.available}}" data-price="{{ current_product.price }}" data-compare-price="{{ current_product.compare_at_price }}" data-currency="{{ shop.currency }}">
+                    <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                    <span class="visually-hidden">{{ value }}</span>
+                  </button>
+                  {% assign swatch_count = swatch_count | plus: 1 %}
+                {% endunless %}
+              {% endfor %}
+              {% if swatch_count > 8 %}
+                <svg class="hide-desktop" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                  <path d="M4.48518 3.51483H8V4.49865H4.48518V8H3.51482V4.49865H0V3.51483H3.51482V0H4.48518V3.51483Z" fill="black"/>
+                </svg>
+              {% endif %}
+            </div>
+          {% else %}
+            {% comment %} Using product variants {% endcomment %}
+            {% assign swatch_count = 0 %}
+            <div class="product-card__swatches">
+              {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
+              {% for option in product_card_product.options_with_values %}
+                {% assign downcase_option = option.name | downcase %}
+
+                {% comment %} If option is color {% endcomment %}
+                {% if color_label contains downcase_option %}
+                  {% assign variant_option = 'option' | append: forloop.index %}
+
+                  {% for value in option.values %}
+                    {% assign downcase_value = value | downcase %}
+                    {% capture color_id %}{{ section.id }}-{{ product.id }}-{{ forloop.index }}{% endcapture %}
+
+                    {% comment %} Find variants for each color {% endcomment %}
+                    {% for variant in product_card_product.variants %}
+                      {% if variant[variant_option] == value %}
+                        {% assign variant_for_value = variant %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+
+                    {% comment %} Get image {% endcomment %}
+                    {% assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg' %}
+                    {% assign color_swatch_image = images[color_swatch_name] %}
+
+                    {% assign product_image = variant.featured_image | img_url: '600x' %}
+                    {% if variant.featured_image == blank %}
+                      {% assign product_image = product_card_product.featured_image | img_url: '600x' %}
+                    {% endif %}
+
+                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-variant="{{ variant }}" data-url="{{ variant.url | within: collection }}">
+                      <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                      <span class="visually-hidden">{{ value }}</span>
+                    </button>
+                    {% assign swatch_count = swatch_count | plus: 1 %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+              {% if swatch_count > 8 %}
+                <svg class="hide-desktop" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                  <path d="M4.48518 3.51483H8V4.49865H4.48518V8H3.51482V4.49865H0V3.51483H3.51482V0H4.48518V3.51483Z" fill="black"/>
+                </svg>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endif %}
+
+      </div>
+    </div>
+  {% render 'preorder-now-collection-item', product: product %}</div>
+</product-card>

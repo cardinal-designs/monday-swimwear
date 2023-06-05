@@ -1,0 +1,111 @@
+<div class="fit-size-chart">
+  <div class="page-width">
+    <div class="fit-size-chart__container">
+      <div class="fit-size-chart__measurements">
+        <div class="fit-size-chart__measurements-container">
+          <p class="detail-caps">Measurements</p>
+          <button class="fit-size-chart__tab active" data-tab="tops">
+            {% render 'lazy-image' image: section.settings.tops_image, fade: true %}
+            <p class="body-large">Tops</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="bottoms">
+            {% render 'lazy-image' image: section.settings.bottoms_image, fade: true %}
+            <p class="body-large">Bottoms</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="one-piece">
+            {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
+            <p class="body-large">One Pieces</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="beachwear">
+            {% render 'lazy-image' image: section.settings.beachwear_image, fade: true %}
+            <p class="body-large">Beachwear</p>
+          </button>
+        </div>
+      </div>
+      <div class="fit-size-chart__charts">
+
+        <div class="fit-size-chart__chart active" data-tab="tops">
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'top' %}
+          </div>
+        </div>
+
+        <div class="fit-size-chart__chart" data-tab="bottoms">
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'bottom' %}
+          </div>
+        </div>
+        
+        <div class="fit-size-chart__chart" data-tab="one-piece">
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'one-piece' %}
+          </div>
+        </div>
+
+        <div class="fit-size-chart__chart" data-tab="beachwear">
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'beachwear' %}
+          </div>
+        </div>
+        
+        <div class="fit-size-chart__arrow">
+          {% render 'icon-arrow-right' %}
+        </div>
+
+        <p class="fit-size-chart__disclaimer detail">{{ section.settings.disclaimer }}</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  // Fit tabs
+  const fitTabs = document.querySelectorAll('.fit-size-chart__tab');
+
+  fitTabs.forEach(fitTab => {
+    fitTab.addEventListener('click', event => {
+      const tab = event.currentTarget.dataset.tab;
+
+      document.querySelector('.fit-size-chart__tab.active').classList.remove('active');
+      event.currentTarget.classList.add('active');
+
+      document.querySelector('.fit-size-chart__chart.active').classList.remove('active');
+      document.querySelector(`.fit-size-chart__chart[data-tab="${tab}"]`).classList.add('active');
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Fit Guide Size Chart",
+    "settings": [
+      
+      {
+        "type": "image_picker",
+        "id": "tops_image",
+        "label": "Tops Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "bottoms_image",
+        "label": "Bottoms Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "one_pieces_image",
+        "label": "One Pieces Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "beachwear_image",
+        "label": "Beachwear Image"
+      },
+      {
+        "type": "textarea",
+        "id": "disclaimer",
+        "label": "Disclaimer"
+      }
+    ]
+  }
+{% endschema %}

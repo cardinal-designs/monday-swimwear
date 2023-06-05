@@ -1,0 +1,107 @@
+#recover,
+#recover + div {
+  display: none;
+}
+
+#recover:target {
+  display: block;
+}
+
+#recover:target + div {
+  display: block;
+}
+
+#recover:target ~ #login,
+#recover:target ~ #login + div {
+  display: none;
+}
+
+#recover {
+  margin-top: 196px;
+}
+
+.template-login .login-wrapper {
+  margin: 0 auto;
+  max-width: 670px;
+}
+
+.template-login .title {
+  margin: 150px 0 0 0;
+  text-transform: capitalize;
+}
+
+.template-login label {
+  opacity: 0.4;
+}
+
+.template-login input {
+  border-bottom: 1px solid #000000!important;
+  padding: 14px 0!important;
+}
+
+.template-login input.body-large::placeholder {
+  opacity: 0.5;
+}
+
+.template-login .description {
+  margin: 40px 0 0 0;
+}
+
+.template-login .field {
+  margin-top: 40px;
+}
+
+.template-login .btn-group {
+  margin: 40px 0 50px 0;
+}
+
+.template-login .login-link {
+  margin-top: 10px;
+}
+
+.template-login .lens {
+  background: #FFFF50;
+  filter: blur(80px);
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #recover {
+    margin-top: 95px;
+  }
+
+  .template-login .login-wrapper {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .template-login .title {
+    margin-top: 70px;
+  }
+
+  .template-login label {
+    font-size: 11px;
+  }
+
+  .template-login input {
+    font-size: 16px;
+  }
+
+  .template-login .btn-group {
+    margin-bottom: 6px;
+  }
+
+  .template-login .login-link {
+    margin-top: 20px;
+  }
+
+  .template-login .lens {
+    filter: blur(40px);
+    height: 120px;
+    width: 120px;
+    top: 40px;
+  }
+}

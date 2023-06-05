@@ -1,0 +1,11 @@
+.about-text {
+  margin: 50px 0;
+}
+
+.about-text__container {
+  max-width: 1130px;
+}
+
+.about-text__container h2 {
+  margin: 0;
+}

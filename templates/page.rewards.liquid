@@ -1,0 +1,155 @@
+<div class="yotpo-widget-instance" data-yotpo-instance-id="141520"></div>
+
+<section class="swell-faq">
+	<h2>Ready to Join</h2>
+	<ul class="swell-faq-list">
+        <li>
+        </li>
+      
+		<li>
+			<span class="swell-faq-text">How do I join Monday Rewards?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">It’s easy - simply sign up here. After that, every order you place will go towards your Reward status. Your tier will upgrade automatically once you reach those lifetime spends.</p>
+		</li>
+
+		<li>
+			<span class="swell-faq-text">What do I get for joining?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">All members will receive an annual gift from us on their birthday. As you shop more, you’ll earn more rewards.</p>
+		</li>
+      
+      
+        <li>
+			<span class="swell-faq-text">What does “lifetime spend” mean?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">Your lifetime spend is the total amount of money you’ve spent with Monday, excluding any discounts or refunds. After you unlock a new tier, all you have to do to maintain your status is to spend $50 in the following 12 months.</p>
+		</li>
+      
+      
+        <li>
+			<span class="swell-faq-text">What’s the birthday gift?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">Like all the best gifts, this one is a surprise. But here’s a little hint: it could be a discount, a freebie, or something just for you.</p>
+		</li>
+      
+      
+        <li>
+			<span class="swell-faq-text">Can I use all my referral credits at once?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">Yes! You can use your credits however you like. Spend them all at once or spread them out over a few purchases. You’ll have the option when checking out.</p>
+		</li>
+      
+      
+        <li>
+			<span class="swell-faq-text">How do I get my benefits?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">All you have to do is shop! Any rewards or benefits will be automatically applied to your account.</p>
+		</li>
+      
+        <li>
+			<span class="swell-faq-text">Will my past purchases count towards my Monday Rewards?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">The last 12 months of spend from 4/21/2019 will count towards your tier status.</p>
+		</li>
+
+
+      <li>
+			<span class="swell-faq-text">Does my rewards discount make my order final sale?</span><span class="swell-faq-load-more">+</span>
+			<p class="swell-faq-explanation">No, the rewards discount that is automatically applied to each order does not make your purchase final sale.</p>
+		</li>
+      
+	</ul>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+
+    
+  
+  $('.swell-faq-list li').click(function(e){
+      e.preventDefault();
+      $(this).find('.swell-faq-explanation').toggleClass('swell-faq-show swell-faq-hide');
+    	
+    
+    if($(this).find('.swell-faq-explanation').css('display')=="none"){
+      $(this).find('.swell-faq-load-more').text('+');
+    }
+    else{
+      $(this).find('.swell-faq-load-more').text('-');
+    }
+    
+  });
+  
+</script>
+
+
+<style>
+  
+  .swell-faq {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    background: #F2F0E8;
+}
+
+.swell-faq h2 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.swell-faq h2:after {
+    content: "Want discounts, gifts, and exclusive early access? All you have to do is shop.";
+    display: block;
+    padding-top: 10px;
+    font-family: 'ABC Favorit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+
+.swell-faq-list {
+    width: 80%;
+    padding-bottom: 60px;
+}
+
+.swell-faq-explanation {
+    text-align: left;
+    display: none;
+    width: 100%;
+}
+
+.swell-faq-text {
+    font-weight: 200;
+}
+
+.swell-faq-load-more {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.swell-faq-list li {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 2rem 0;
+    font-size: 16px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+  
+  .swell-faq-list li:hover {
+    background: rgba(255,255,255, .3);
+}
+  
+.swell-faq-show{
+ display: block; 
+}
+  
+  .swell-faq-hide{
+ display: block; 
+}
+  
+</style>

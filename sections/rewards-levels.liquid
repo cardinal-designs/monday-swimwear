@@ -1,0 +1,73 @@
+<div class="rewards-levels">
+  <div class="page-width">
+    <div class="rewards-levels__container swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="rewards-levels__item swiper-slide">
+            <p class="sh2">{{ block.settings.level }}</p>
+            <h2>{{ block.settings.title }}</h2>
+            <p class="body-small">{{ block.settings.text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="rewards-levels__pagination swiper-pagination hide-desktop"></div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const rewardsLevelsSlider = new Swiper('.rewards-levels__container', {
+    slidesPerView: 1.9,
+    loop: false,
+    spaceBetween: 20,
+    watchOverflow: true,
+    allowTouchMove: true,
+    centeredSlides: true,
+    loop: true,
+    speed: 400,
+    pagination: {
+      el: '.rewards-levels__pagination'
+    },
+    breakpoints: {
+      769: {
+        slidesPerView: 3,
+        spaceBetween: 60,
+        allowTouchMove: false,
+        freeMode: false,
+        centeredSlides: false
+      }
+    }
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Rewards Levels",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "level",
+        "name": "Level",
+        "settings": [
+          {
+            "type": "text",
+            "id": "level",
+            "label": "Level"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

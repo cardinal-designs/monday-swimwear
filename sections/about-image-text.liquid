@@ -1,0 +1,77 @@
+{{ 'section-about-image-text.css' | asset_url | stylesheet_tag }}
+
+<div class="about-image-text">
+  <div class="page-width">
+    {% for block in section.blocks %}
+      <div class="about-image-text__item{% if block.settings.reversed %} reversed{% endif %}">
+        <div class="about-image-text__item-image">
+          <div class="about-image-text__item-image-container">
+            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+          </div>
+          {% if block.settings.show_glow %}
+            <div class="about-image-text__glow"></div>
+          {% endif %}
+        </div>
+        <div class="about-image-text__item-content{% if block.settings.bottom_align_text %} bottom-align{% endif %}">
+          <div class="about-image-text__item-content-container">
+            <p class="body-small">{{ block.settings.text_1 }}</p>
+            {% if block.settings.text_2 != blank %}
+              <p class="body-small">{{ block.settings.text_2 }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Image / Text",
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "reversed",
+            "label": "Reversed Layout"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_glow",
+            "label": "Show Glow"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "text_1",
+            "label": "Text 1"
+          },
+          {
+            "type": "textarea",
+            "id": "text_2",
+            "label": "Text 2"
+          },
+          {
+            "type": "checkbox",
+            "id": "bottom_align_text",
+            "label": "Bottom Align Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "About Image / Text"
+      }
+    ]
+  }
+{% endschema %}

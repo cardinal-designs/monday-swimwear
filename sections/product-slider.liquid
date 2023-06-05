@@ -1,0 +1,147 @@
+{{ 'section-product-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
+<div class="product-slider">
+  <div class="page-width">
+    <div class="product-slider__header fade-in-up">
+      <div class="product-slider__navigation">
+        {% for block in section.blocks %}
+          {% assign current_collection = collections[block.settings.collection] %}
+          <button class="product-slider__navigation-item sh2{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">{{ current_collection.title }}</button>
+        {% endfor %}
+      </div>
+      <div class="product-slider__arrows">
+        {% for block in section.blocks %}
+          {% assign current_collection = collections[block.settings.collection] %}
+          <div class="product-slider__arrows-wrapper{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
+            <button id="collection--{{ current_collection.handle }}-arrow-left" class="swiper-button swiper-button-prev">
+              {% render 'icon-arrow-left' %}
+            </button>
+            <button id="collection--{{ current_collection.handle }}-arrow-right" class="swiper-button swiper-button-next">
+              {% render 'icon-arrow-right' %}
+            </button>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="product-slider__collections">
+      {% for block in section.blocks %}
+        {% assign current_collection = collections[block.settings.collection] %}
+        <div id="collection--{{ current_collection.handle }}" class="product-slider__collection swiper{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
+          <div class="swiper-wrapper">
+            {% for current_product in current_collection.products limit: 12 %}
+              <div class="product-slider__item swiper-slide fade-in-up">
+                {% render 'product-card',
+                  product_card_product: current_product,
+                  show_secondary_image: true
+                %}
+              </div>
+            {% endfor %}
+          </div>
+          <div class="product-slider__scrollbar-wrapper">
+            <div id="collection--{{ current_collection.handle }}-scrollbar" class="swiper-scrollbar hide-desktop"></div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  var productSliders = [];
+  [...document.querySelectorAll('.product-slider__collection')].forEach((el, i) => {
+    var handle = '#collection--' + el.dataset.collection;
+
+    productSliders[i] = new Swiper(handle, {
+      slidesPerView: 1,
+      loop: false,
+      spaceBetween: 20,
+      watchOverflow: true,
+      allowTouchMove: true,
+      speed: 400,
+      freeMode: true,
+      navigation: {
+        prevEl: handle + '-arrow-left',
+        nextEl: handle + '-arrow-right'
+      },
+      scrollbar: {
+        el: handle + '-scrollbar',
+        draggable: true
+      },
+      breakpoints: {
+        1: {
+          spaceBetween: 10,
+          slidesPerView: 1.5
+        },
+        601: {
+          spaceBetween: 10,
+          slidesPerView: 2
+        },
+        769: {
+          slidesPerView: 2.5,
+          allowTouchMove: false,
+          freeMode: false
+        },
+        1051: {
+          slidesPerView: 3,
+          allowTouchMove: false,
+          freeMode: false
+        },
+        1200: {
+          slidesPerView: 4,
+          allowTouchMove: false,
+          freeMode: false
+        }
+      }
+    });
+  });
+
+  // Tab change
+  [...document.querySelectorAll('.product-slider__navigation-item')].forEach((el, i) => {
+    el.addEventListener('click', event => {
+      const el = event.target;
+      const collection = el.dataset.collection;
+
+      if (!el.classList.contains('active')) {
+        document.querySelector('.product-slider__navigation-item.active').classList.remove('active');
+        el.classList.add('active');
+
+        document.querySelector('.product-slider__arrows-wrapper.active').classList.remove('active');
+        document.querySelector(`.product-slider__arrows-wrapper[data-collection="${collection}"]`).classList.add('active'); 
+
+        document.querySelector('.product-slider__collection.active').classList.remove('active');
+        document.querySelector(`.product-slider__collection[data-collection="${collection}"]`).classList.add('active'); 
+      }
+    }); 
+  });
+
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Product Slider",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "collection",
+        "name": "Collection",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Slider"
+      }
+    ]
+  }
+{% endschema %}

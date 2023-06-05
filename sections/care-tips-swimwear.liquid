@@ -1,0 +1,71 @@
+<div class="care-tips-swimwear">
+  <h2 class="h1">Swim<span>wear</span></h2>
+  <div class="page-width">
+    <div class="care-tips-swimwear__container">
+      <div class="care-tips-swimwear__content">
+        <div class="care-tips-swimwear__content-container">
+          {% for block in section.blocks limit: 3 %}
+            <div class="care-tips-swimwear__tip">
+              <h4>Tip No. {{ forloop.index }}</h4>
+              <p class="body-small">{{ block.settings.title }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="care-tips-swimwear__image">
+        <div class="care-tips-swimwear__image-container">
+          {% render 'lazy-image' image: section.settings.image_1, fade: true, classes: 'img-fill' %}
+        </div>
+      </div>
+    </div>
+    <div class="care-tips-swimwear__container reversed">
+      <div class="care-tips-swimwear__content">
+        <div class="care-tips-swimwear__content-container">
+          {% for block in section.blocks offset: 3 %}
+            <div class="care-tips-swimwear__tip">
+              <h4>Tip No. {{ forloop.index | plus: 3 }}</h4>
+              <p class="body-small">{{ block.settings.title }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="care-tips-swimwear__image">
+        <div class="care-tips-swimwear__image-container">
+          {% render 'lazy-image' image: section.settings.image_2, fade: true, classes: 'img-fill' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Care Tips - Swimwear",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Image 2"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tip",
+        "name": "Tip",
+        "limit": 6,
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Tip"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,157 @@
+
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="hero hero--{{ section.settings.content_position }} hero--{{ section.settings.text_size }}">
+  {% if section.settings.overlay_link %}<a href="{{ section.settings.button_link }}" class="hero-overlay__link">
+    <span class="visually-hidden">{{shop.name}}</span>
+  </a>{% endif %}
+  {% if section.settings.mobile_image != blank %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+  {% else %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+  {% endif %}
+  <div class="page-width">
+    <div class="hero__container">
+      {% if section.settings.text != blank %}
+      <div class="hero__text">
+        {% if section.settings.text_size == 'small' %}
+        <div class="glow"></div>
+          <p class="btn" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</p>
+        {% else %}
+          <h2 class="h1" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</h2>
+        {% endif %}
+      </div>
+      {% endif %}
+      <div class="hero__button">
+        <a href="{{ section.settings.button_link }}" class="button button--white">{{ section.settings.button_label }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Images"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+		"default": "#FFFFFF"
+      },
+      {
+        "type": "select",
+        "id": "text_size",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          }
+        ],
+        "default": "small",
+        "label": "Text Size"
+      },
+      {
+        "type": "select",
+        "id": "content_position",
+        "options": [
+          {
+            "value": "top-left",
+            "label": "Top Left"
+          },
+          {
+            "value": "top-center",
+            "label": "Top Center"
+          },
+          {
+            "value": "top-right",
+            "label": "Top Right"
+          },
+          {
+            "value": "center-left",
+            "label": "Center Left"
+          },
+          {
+            "value": "center-center",
+            "label": "Center Center"
+          },
+          {
+            "value": "center-right",
+            "label": "Center Right"
+          },
+          {
+            "value": "bottom-left",
+            "label": "Bottom Left"
+          },
+          {
+            "value": "bottom-center",
+            "label": "Bottom Center"
+          },
+          {
+            "value": "bottom-right",
+            "label": "Bottom Right"
+          },
+          {
+            "value": "bottom-split",
+            "label": "Bottom Split"
+          }
+        ],
+        "default": "bottom-split",
+        "label": "Content Position"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "checkbox",
+        "id": "overlay_link",
+        "label": "(Optional) Hero Overlay Link",
+		"default": false
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero"
+      }
+    ]
+  }
+{% endschema %}
