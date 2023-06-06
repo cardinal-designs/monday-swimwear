@@ -1,4 +1,4 @@
-{% if section.settings.show_announcement %}
+{% unless section.settings.hide_announcement == true %}
 <div class="announcement-bar">
   <div class="page-width">
     <div class="announcement-bar__wrapper">
@@ -22,7 +22,7 @@
     </div>
   </div>
 </div>
-{% endif %}
+{% endunless %}
 
 {% style %}
   .announcement-bar {
@@ -58,8 +58,8 @@
   "settings": [
     {
       "type": "checkbox",
-      "id": "show_announcement",
-      "label": "Show announcement bar?"
+      "id": "hide_announcement",
+      "label": "Hide announcement bar?"
     },
     {
       "type": "color",
