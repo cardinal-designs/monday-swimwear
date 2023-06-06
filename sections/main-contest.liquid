@@ -1,0 +1,70 @@
+{{ 'section-main-contest.css' | asset_url | stylesheet_tag }}
+
+<div class="contest">
+  <div class="page-width">
+    <div class="contest__container">
+      <div class="contest__image">
+        {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+      </div>
+      <div class="contest__content">
+        <div class="contest__content-container">
+          <h2 class="contest__title h3">{{ section.settings.title }}</h2>
+          <p class="contest__text body-small">{{ section.settings.text | newline_to_br }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contest__form">
+    <div class="page-width">
+      <div class="contest__form-container">
+        <h3 class="contest__form-title h4">{{ section.settings.form_title }}</h3>
+        {{ section.settings.contest_form }}
+        <div class="contest__form-terms body-small">{{ section.settings.terms_text }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Contest",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "form_title",
+        "label": "Form Title"
+      },
+      {
+        "type": "textarea",
+        "id": "contest_form",
+        "label": "Contest Form",
+        "info": "Copy and paste this from Hulk Form Builder"
+      },
+      {
+        "type": "richtext",
+        "id": "terms_text",
+        "label": "Terms Text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Contest"
+      }
+    ]
+  }
+{% endschema %}
