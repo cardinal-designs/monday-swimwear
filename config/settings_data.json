@@ -57,7 +57,7 @@
           "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2"
         ],
         "settings": {
-          "hide_announcement": true,
+          "show_announcement": false,
           "background_color": "#000000",
           "text_color": "#ffffff"
         }
@@ -618,7 +618,6 @@
           },
           "9668bf65-68e7-41df-ad1e-4efe07e57ae6": {
             "type": "bottom",
-            "disabled": true,
             "settings": {
               "flat_image": "shopify:\/\/shop_images\/ARGENTINA_BOTTOM_-_BLACK_1.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Image_80.jpg",
