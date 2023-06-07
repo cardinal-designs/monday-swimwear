@@ -57,7 +57,7 @@
           "5eadfe7e-ffd6-4ea7-bfe9-980bf0f97ae2"
         ],
         "settings": {
-          "show_announcement": false,
+          "show_announcement": true,
           "background_color": "#000000",
           "text_color": "#ffffff"
         }

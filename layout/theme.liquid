@@ -153,6 +153,7 @@
 </head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
+    
     <script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} {% if product.first_available_variant.price %}window.KlarnaThemeGlobals.data_purchase_amount = {{ product.first_available_variant.price }};{% endif %}window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
 
     <div class="page-wrapper">
@@ -161,8 +162,9 @@
       </a>
 
       <div class="page-overlay"></div>
-
-      {% section 'announcement-bar' %}
+      {% if localization.country.name == 'United States' %}
+        {% section 'announcement-bar' %}
+      {% endif %}
       {% section 'header' %}
 
       {%- if template != 'cart' -%}
