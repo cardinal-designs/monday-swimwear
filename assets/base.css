@@ -2600,7 +2600,9 @@ header-drawer {
     left: 38px;
     top: 12px;
   }
+}
 
+@media screen and (max-width: 500px) {
   .disclosure__button {
      max-width: 60px;
     font-size: 10px;
