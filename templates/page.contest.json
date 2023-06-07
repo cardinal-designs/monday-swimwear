@@ -3,12 +3,12 @@
     "main": {
       "type": "main-contest",
       "settings": {
-        "image": "shopify:\/\/shop_images\/351793402_642704014460098_125281391433116983_n.jpg",
-        "title": "Contest Template",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco.\n\n- Ut enim ad minim veniam\n- Tempor incididunt ut labore\n- Lorem ipsum dolor sit amet",
-        "form_title": "Lorem Ipsum",
+        "image": "shopify:\/\/shop_images\/VillaFlorimar_Pool1_-_Villa_Florimar_-_Bali_-_Indonesia.jpg",
+        "title": "the golden vacation giveaway",
+        "text": "To celebrate our pop-up at The Grove, we’re partnering with The Luxe Nomad to giveaway the vacation of all vacations. One lucky winner and a friend of their choosing will experience Bali in luxury for 5 nights in their own private villa, decked out on Monday head-to-toe looks, and free roundtrip flights. \n\nOpen to US residents, aged 18+. Enter below.",
+        "form_title": "ENTER FOR YOUR CHANCE TO WIN",
         "contest_form": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"janvVo8dnlO7wVVqBS8ddw\"><\/div>",
-        "terms_text": "<p>By submitting to this contest, you agree to all <a href=\"#\" title=\"#\">terms & conditions<\/a>.<\/p>"
+        "terms_text": "<p>By submitting to this contest, you agree to all <a href=\"https:\/\/mondayswimwear.com\/pages\/the-golden-vacation-giveaway\" title=\"https:\/\/mondayswimwear.com\/pages\/the-golden-vacation-giveaway\">terms & conditions<\/a>.<\/p>"
       }
     }
   },

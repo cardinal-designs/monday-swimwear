@@ -2568,4 +2568,53 @@ header-drawer {
   .ss__autocomplete--target .ss__autocomplete  {
     padding: 0;
   }
+
+  .wk-link.wk-link--empty {
+    display: none;
+  }
+
+  .desktop-country-switcher {
+    position: absolute;
+    left: 38px;
+    top: 21px;
+  }
 }
+
+/*================ Mobile header edits ================*/
+
+.desktop-country-switcher {
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .wk-link.wk-link--empty {
+    display: none;
+  }
+
+  #shopify-section-header:not(.scrolled) .disclosure__button {
+    color: black !important;
+  }
+
+  .desktop-country-switcher {
+    position: absolute;
+    left: 38px;
+    top: 19px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .disclosure__button {
+    max-width: 60px;
+    font-size: 10px;
+  }
+
+  .desktop-country-switcher {
+    top: 12px;
+    left: 27px;
+  }
+}
+
+
+
+
+
