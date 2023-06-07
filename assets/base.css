@@ -2592,7 +2592,7 @@ header-drawer {
   }
 
   #shopify-section-header:not(.scrolled) .disclosure__button {
-    color: black;
+    color: black !important;
   }
 
   .desktop-country-switcher {
