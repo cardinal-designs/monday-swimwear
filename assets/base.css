@@ -2598,14 +2598,18 @@ header-drawer {
   .desktop-country-switcher {
     position: absolute;
     left: 38px;
-    top: 12px;
+    top: 19px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .disclosure__button {
-     max-width: 60px;
+    max-width: 60px;
     font-size: 10px;
+  }
+
+  .desktop-country-switcher {
+    top: 12px;
   }
 }
 
