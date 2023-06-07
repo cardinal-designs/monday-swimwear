@@ -2569,6 +2569,10 @@ header-drawer {
     padding: 0;
   }
 
+  .wk-link.wk-link--empty {
+    display: none;
+  }
+
   .desktop-country-switcher {
     position: absolute;
     left: 38px;
