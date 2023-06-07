@@ -2568,4 +2568,13 @@ header-drawer {
   .ss__autocomplete--target .ss__autocomplete  {
     padding: 0;
   }
+
+  .desktop-country-switcher {
+    position: absolute;
+    left: 38px;
+    top: 21px;
+  }
 }
+
+
+
