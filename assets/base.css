@@ -2598,7 +2598,12 @@ header-drawer {
   .desktop-country-switcher {
     position: absolute;
     left: 38px;
-    top: 21px;
+    top: 12px;
+  }
+
+  .disclosure__button {
+     max-width: 60px;
+    font-size: 7px;
   }
 }
 
