@@ -162,7 +162,7 @@
       </a>
 {{ localization.country.name }}
       <div class="page-overlay"></div>
-      {% if localization.available_countries contains 'United States' %}
+      {% if localization.country.name == 'United States' %}
         {% section 'announcement-bar' %}
       {% endif %}
       {% section 'header' %}
