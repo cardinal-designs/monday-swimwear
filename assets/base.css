@@ -2591,6 +2591,10 @@ header-drawer {
     display: none;
   }
 
+  #shopify-section-header:not(.scrolled) .disclosure__button {
+    color: black;
+  }
+
   .desktop-country-switcher {
     position: absolute;
     left: 38px;
