@@ -1377,17 +1377,6 @@ deferred-media {
   -webkit-transition: border .2s ease-in-out, color .2s ease-in-out, background .2s ease-in-out;
 } 
 
-@media screen and (min-width: 769px) {
-  .template-index #shopify-section-header:hover  {
-    background: white;
-    border-color: #F2F2F2;
-  }
-
-  .template-index #MainContent {
-    margin-top: -65px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   #shopify-section-header {
     border: 0;
