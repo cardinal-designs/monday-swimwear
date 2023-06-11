@@ -1441,25 +1441,6 @@ deferred-media {
   -webkit-transition: color .3s ease;
 }
 
-@media screen and (min-width: 769px) {
-  .template-index #shopify-section-header:not(.scrolled) .header__svg-logo svg {
-    color: white;
-  }
-
-  .template-index #shopify-section-header:not(.scrolled):hover .header__icon svg path,
-  .template-index #shopify-section-header .header__icon svg {
-    stroke: black;
-  }
-
-  .template-index #shopify-section-header:not(.scrolled) .header__icon svg path {
-    stroke: white;
-  }
-
-  .template-index #shopify-section-header:hover .header__svg-logo svg {
-    color: black;
-  }
-}
-
 /* Navigation */
 .header__menu {
   margin-left: -15px;
