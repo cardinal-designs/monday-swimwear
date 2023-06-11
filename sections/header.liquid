@@ -410,6 +410,29 @@
 {%- endif -%}
 {% endcomment %}
 
+{% if section.settings.transparent_header %}
+<style>
+  @media screen and (min-width: 769px) {
+    .template-index #shopify-section-header:not(.scrolled) .header__svg-logo svg {
+      color: white;
+    }
+  
+    .template-index #shopify-section-header:not(.scrolled):hover .header__icon svg path,
+    .template-index #shopify-section-header .header__icon svg {
+      stroke: black;
+    }
+  
+    .template-index #shopify-section-header:not(.scrolled) .header__icon svg path {
+      stroke: white;
+    }
+  
+    .template-index #shopify-section-header:hover .header__svg-logo svg {
+      color: black;
+    }
+}
+</style>
+{% endif %}
+
 {% javascript %}
   // Transparent header on scroll
   const header =  document.getElementById('shopify-section-header');
@@ -468,6 +491,12 @@
 {
   "name": "Header",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "transparent_header",
+      "label": "Enable transparent header",
+      "default": true
+    },
     {
       "type": "textarea",
       "id": "svg_logo",
