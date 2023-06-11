@@ -1571,16 +1571,6 @@ deferred-media {
   vertical-align: middle;
 }
 
-@media screen and (min-width: 769px) {
-  .template-index #shopify-section-header:not(.scrolled) .header__icon {
-    color: white;
-  }
-
-  .template-index #shopify-section-header:hover .header__icon {
-    color: black;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .header__icon {
     padding: 5px;
