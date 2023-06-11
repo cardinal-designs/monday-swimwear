@@ -2530,7 +2530,7 @@ header-drawer {
 }
 
 .desktop-country-switcher .disclosure__button {
-  color: black;
+  color: black !important;
 }
 
 @media screen and (max-width: 768px) {
