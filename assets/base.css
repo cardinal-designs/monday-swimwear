@@ -2529,6 +2529,10 @@ header-drawer {
   align-self: center;
 }
 
+.desktop-country-switcher .disclosure__button {
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   .wk-link.wk-link--empty {
     display: none;
