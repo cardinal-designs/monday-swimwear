@@ -1378,11 +1378,6 @@ deferred-media {
 } 
 
 @media screen and (min-width: 769px) {
-  .template-index #shopify-section-header:not(.scrolled) {
-    background: transparent;
-    border: transparent;
-  }
-
   .template-index #shopify-section-header:hover  {
     background: white;
     border-color: #F2F2F2;
