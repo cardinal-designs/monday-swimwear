@@ -1466,14 +1466,6 @@ deferred-media {
   font-size: 14px;
 }
 
-.template-index #shopify-section-header:not(.scrolled) .header__menu-item {
-  color: white;
-}
-
-.template-index #shopify-section-header:hover .header__menu-item {
-  color: black;
-}
-
 .header__menu-item--has-dropdown {
   display: flex;
   align-items: center;
