@@ -2065,6 +2065,10 @@ header-drawer {
   position: relative;
 }
 
+.header__menu-item--has-dropdown span {
+  padding-top: 3px;
+}
+
 .header__menu-item--has-dropdown::after {
   content: "";
   width: 18px;
