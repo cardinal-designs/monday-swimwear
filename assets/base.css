@@ -1502,6 +1502,12 @@ deferred-media {
   -webkit-transform: rotate(180deg);
 }
 
+@media screen and (max-width: 1225px) {
+  .header__menu-item {
+    padding: 0 5px;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .header__menu {
     display: none;
