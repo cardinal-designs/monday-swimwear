@@ -2536,6 +2536,7 @@
           },
           "1c5cf602-eef6-4a64-8a9e-67926875a5c2": {
             "type": "faq_item",
+            "disabled": true,
             "settings": {
               "title": "What is your Memorial Return Policy?",
               "answer": "<p>If you purchase an order using our<strong> LONGWEEKEND20 <\/strong>code, the purchase can only be returned for a store credit, no exchanges or refunds. Price adjustments cannot be made to previous orders.<\/p>"
