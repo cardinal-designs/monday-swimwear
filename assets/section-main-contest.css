@@ -28,6 +28,10 @@
   margin: 0;
 }
 
+.contest__text a {
+  text-decoration: underline;
+}
+
 .contest__form {
   padding: 60px 0;
   background-color: var(--bone);
