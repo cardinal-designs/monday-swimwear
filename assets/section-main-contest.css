@@ -12,6 +12,15 @@
 
 .contest__image-item {
   width: 100%;
+  position: relative;
+}
+
+.contest__image-item-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .swiper-pagination-bullet {
