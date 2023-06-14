@@ -16,10 +16,11 @@
 
 .swiper-pagination-bullet {
   background: var(--bone);
+ opacity: 0.7;
 }
 
 .swiper-pagination-bullet-active {
- opacity: 0.7;
+ opacity: 1;
 }
 
 .contest__content {
