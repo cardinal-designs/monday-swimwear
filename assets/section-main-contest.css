@@ -15,11 +15,11 @@
 }
 
 .swiper-pagination-bullet {
-  background: var(--sand);
+  background: var(--bone);
 }
 
 .swiper-pagination-bullet-active {
-  
+ opacity: 0.7;
 }
 
 .contest__content {
