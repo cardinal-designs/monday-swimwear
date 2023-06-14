@@ -6,8 +6,12 @@
 }
 
 .contest__image-item-wrapper {
-  padding-bottom: 125%;
+  padding-bottom: 100%;
   position: relative;
+}
+
+.contest__image-item {
+  width: 100%;
 }
 
 .contest__content {
