@@ -5,6 +5,10 @@
   gap: 60px;
 }
 
+.contest__container * {
+  min-width: 0;
+}
+
 .contest__image-item-wrapper {
   padding-bottom: 100%;
   position: relative;
