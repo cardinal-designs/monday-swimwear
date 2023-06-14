@@ -5,7 +5,7 @@
   gap: 60px;
 }
 
-.contest__image {
+.contest__image-item-wrapper {
   padding-bottom: 125%;
   position: relative;
 }
