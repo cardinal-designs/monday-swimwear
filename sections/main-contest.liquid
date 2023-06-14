@@ -9,7 +9,7 @@
             {% for block in section.blocks %}
               <div class="contest__image-item" {{ block.shopify_attributes }}>
                 <div class="contest__image-item-wrapper">
-                  {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+                  {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
                 </div>
               </div>
             {% endfor %}
@@ -82,6 +82,19 @@
         "type": "richtext",
         "id": "terms_text",
         "label": "Terms Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
       }
     ],
     "presets": [
