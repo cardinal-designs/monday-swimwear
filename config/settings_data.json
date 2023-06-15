@@ -2712,6 +2712,7 @@
           },
           "f4b4e342-a7da-4378-a231-74f0565c142c": {
             "type": "faq_item",
+            "disabled": true,
             "settings": {
               "title": "Will I have to pay taxes\/duties in my home country?",
               "answer": "<p>All international packages may be subject to taxes and duties. If you select the Passport Shipping option, this charge is calculated and shown in your total shipping price at checkout, and you will not have to pay anything on receipt of your parcel. If you select any shipping option other than Passport Shipping, your local customs office will assess the customs duties and fees and notify you of this additional charge by email, phone, or physical notice. The amount of the charge is completely at the discretion of one’s local government.<\/p><p>We are legally required to claim the full retail value price of products purchased and our shipping system automatically enters this information into the customs documents it creates.<\/p><p>Please note: If you used a discount on your order, your customs office assesses taxes based on the original retail price. <\/p><p><em>Monday Swimwear is not held responsible nor can refund\/reimburse for any taxes or duties charged by the customer’s local government. Any fees of this nature are the sole responsibility of the purchaser.<\/em><\/p><p><em>We are unable to offer a refund for taxes\/duties.<\/em><\/p>"
@@ -2727,6 +2728,7 @@
           },
           "aae2bfa3-2a24-49c3-b989-ea76777ee5c4": {
             "type": "faq_item",
+            "disabled": true,
             "settings": {
               "title": "Can my order be shipped DDU (Delivered Duty Unpaid)?",
               "answer": "<p>Some countries allow or require orders to be shipped DDU, these will be visible to your at time of checkout. Please note, we are unable to guarantee the cost of fees upon delivery. Duties and taxes are non-refundable.<\/p>"
@@ -2734,6 +2736,7 @@
           },
           "4571dc2f-cde2-4333-9d02-e8d0d9f5ad1d": {
             "type": "faq_item",
+            "disabled": true,
             "settings": {
               "title": "I purchased my items with a discount code, why was I charged duties on the full retail value?",
               "answer": "<p>We are legally required to claim the full retail value of products purchased and our shipping system automatically enters this information into the customs documents it creates.<\/p><p>Some countries have an easy process for applying for a refund of overpaid duties when you show proof of any discount applied to your purchase.<\/p><p>Please check with your local customs agency for details of any duty refund program in your region.<\/p><p>Canadian customers can use the request form found <a href=\"https:\/\/www.cbsa-asfc.gc.ca\/publications\/forms-formulaires\/b2g-eng.html\" target=\"_blank\" title=\"https:\/\/www.cbsa-asfc.gc.ca\/publications\/forms-formulaires\/b2g-eng.html\"><strong>here.<\/strong><\/a><\/p>"
