@@ -86,6 +86,7 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/7_9bcde1b9-fd67-4fa6-82ec-30afa43eb9a1.jpg",
         "mobile_image": "shopify:\/\/shop_images\/6_56df98ab-6f94-459f-a305-a136aaebbad4.jpg",
@@ -101,16 +102,16 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_81045ccd-df46-49d1-9207-5e753071ce33.jpg",
-            "text": "Jungle",
+            "image": "shopify:\/\/shop_images\/Navy-Shimmer.jpg",
+            "text": "Navy Shimmer",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/jungle"
+            "link": "shopify:\/\/collections\/navy-shimmer"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bridal.jpg",
+            "image": "shopify:\/\/shop_images\/5_06fae15a-547f-47a0-9eed-42c0c27d670b.jpg",
             "text": "Bridal",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/bridal-collection"
