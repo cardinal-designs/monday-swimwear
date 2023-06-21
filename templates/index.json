@@ -99,15 +99,6 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Navy-Shimmer.jpg",
-            "text": "Navy Shimmer",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/navy-shimmer"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -125,12 +116,21 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/ride-the-wave-crochet"
           }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Navy-Shimmer.jpg",
+            "text": "Navy Shimmer",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/navy-shimmer"
+          }
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
