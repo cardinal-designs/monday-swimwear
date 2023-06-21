@@ -86,14 +86,13 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/7_9bcde1b9-fd67-4fa6-82ec-30afa43eb9a1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/6_56df98ab-6f94-459f-a305-a136aaebbad4.jpg",
+        "image": "shopify:\/\/shop_images\/000011360009.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/000011310009.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "SHOP NAVY SHIMMER",
-        "link": "shopify:\/\/collections\/navy-shimmer"
+        "link_label": "FIND YOUR VACATION LOOK",
+        "link": "shopify:\/\/collections\/new-arrivals"
       }
     },
     "1640812146b4d73cae": {
