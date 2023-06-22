@@ -2573,6 +2573,16 @@ header-drawer {
     display: grid;
     height: auto;
   }
+
+  .yotpo-widget-referral-widget .yotpo-background .yotpo-left-align-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .yotpo-widget-referral-widget .yotpo-tile-wrapper {
+    
+  }
 }
 
 
