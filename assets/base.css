@@ -2567,7 +2567,12 @@ header-drawer {
   }
 }
 
-
-
+/*================ Refer Page ================*/
+@media screen and (max-width: 768px) {
+  .yotpo-widget-referral-widget .yotpo-background.yotpo-left-align-background {
+    display: grid;
+    height: auto;
+  }
+}
 
 
