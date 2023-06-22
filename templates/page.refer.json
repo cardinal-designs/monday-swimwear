@@ -3,7 +3,8 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "show_header": false
+        "show_header": false,
+        "full_width": true
       }
     }
   },
