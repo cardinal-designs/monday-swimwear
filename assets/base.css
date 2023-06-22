@@ -2571,7 +2571,7 @@ header-drawer {
 @media screen and (max-width: 768px) {
   .yotpo-widget-referral-widget .yotpo-background.yotpo-left-align-background {
     display: grid;
-    height: auto;
+    height: auto !important;
   }
 
   .yotpo-widget-referral-widget .yotpo-background .yotpo-left-align-image {
