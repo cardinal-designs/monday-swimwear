@@ -4,7 +4,7 @@
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="main-page {% if section.settings.full_width %}{% else %}page-width page-width--narrow{% endif %}">
+<div class="main-page {% if section.settings.full_width %}{% else %}page-width page-width--narrow{% endif %}" {% if section.settings.full_width %}style="padding:0"{% endif %}>
   {% if section.settings.show_header %}
     <h1 class="main-page-title page-title">
       {{ page.title | escape }}
