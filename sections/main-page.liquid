@@ -6,9 +6,9 @@
 
 <div class="main-page page-width page-width--narrow">
   {% if section.settings.show_header %}
-  <h1 class="main-page-title page-title">
-    {{ page.title | escape }}
-  </h1>
+    <h1 class="main-page-title page-title">
+      {{ page.title | escape }}
+    </h1>
   {% endif %}
   <div class="rte">
     {{ page.content }}
@@ -19,6 +19,14 @@
   {
     "name": "t:sections.main-page.name",
     "tag": "section",
-    "class": "spaced-section"
+    "class": "spaced-section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_header",
+        "label": "Show page header?",
+        "default": true
+      }
+    ]
   }
 {% endschema %}
