@@ -5,9 +5,11 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div class="main-page page-width page-width--narrow">
+  {% if section.settings.show_header %}
   <h1 class="main-page-title page-title">
     {{ page.title | escape }}
   </h1>
+  {% endif %}
   <div class="rte">
     {{ page.content }}
   </div>
