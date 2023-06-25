@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_bc66100a-da31-461c-8c86-df93a5cc7aad.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_0be0523d-1fc3-458b-ba27-580e9b12302c.jpg",
+        "image": "shopify:\/\/shop_images\/GEO-WEB1.png",
+        "mobile_image": "shopify:\/\/shop_images\/MOB1_5f48c8a8-c4d9-413c-9d9c-44a91c475324.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-left",
         "button_label": "START SHOPPING",
-        "button_link": "shopify:\/\/collections\/knitwear",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
     },
@@ -37,18 +37,15 @@
         "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/eZNpqsZDx2k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
       }
     },
-    "164081090579915a8a": {
-      "type": "text",
-      "settings": {
-        "text": "Get 2-DAY free shipping w\/ code: SUMMERSUN. Valid June 22 - June 30th for US orders over $240USD.",
-        "wide": true,
-        "add_glow": false,
-        "link": "https:\/\/mondayswimwear.com\/pages\/faqs"
-      }
-    },
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+          "type": "collection",
+          "settings": {
+            "collection": "husk-geo"
+          }
+        },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
@@ -61,12 +58,6 @@
             "collection": "dream-blue"
           }
         },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "black-crinkle"
-          }
-        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
@@ -75,12 +66,21 @@
         }
       },
       "block_order": [
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "bf612915-d86f-40f2-817f-6322dada207b"
       ],
       "settings": {
+      }
+    },
+    "164081090579915a8a": {
+      "type": "text",
+      "settings": {
+        "text": "Get 2-DAY free shipping w\/ code: SUMMERSUN. Valid June 22 - June 30th for US orders over $240USD.",
+        "wide": true,
+        "add_glow": false,
+        "link": "https:\/\/mondayswimwear.com\/pages\/faqs"
       }
     },
     "16408101574f5b391b": {
@@ -138,15 +138,6 @@
     "1640811405c1297562": {
       "type": "link-blocks",
       "blocks": {
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01_14b8bad4-2932-4714-9141-a82550378091.jpg",
-            "text": "",
-            "link_label": "SHOP BEACHWEAR FAVORITES",
-            "link": "shopify:\/\/collections\/monday-beachwear"
-          }
-        },
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
           "settings": {
@@ -155,11 +146,20 @@
             "link_label": "SHOP CITRUS CROCHET",
             "link": "shopify:\/\/collections\/citrus-crochet"
           }
+        },
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01_14b8bad4-2932-4714-9141-a82550378091.jpg",
+            "text": "",
+            "link_label": "SHOP BEACHWEAR FAVORITES",
+            "link": "shopify:\/\/collections\/monday-beachwear"
+          }
         }
       },
       "block_order": [
-        "643e0732-83e9-4986-9865-1f1ee99fda72",
-        "d029689e-51e9-4bab-918a-a703bb5724d6"
+        "d029689e-51e9-4bab-918a-a703bb5724d6",
+        "643e0732-83e9-4986-9865-1f1ee99fda72"
       ],
       "settings": {
         "text_style": "overlay",
@@ -274,8 +274,8 @@
     "1660324166f7286707",
     "1640133702b1b204aa",
     "1657215750b8e1724d",
-    "164081090579915a8a",
     "16407502469f0e5f45",
+    "164081090579915a8a",
     "16408101574f5b391b",
     "1640812146b4d73cae",
     "1640811405c1297562",
