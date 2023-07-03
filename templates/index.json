@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/GEO-WEB1.png",
-        "mobile_image": "shopify:\/\/shop_images\/MOB1_5f48c8a8-c4d9-413c-9d9c-44a91c475324.png",
+        "image": "shopify:\/\/shop_images\/1_42a30ed5-4866-4aaf-abe2-86c3bac5f15a.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_9eadf655-066c-414d-b125-9ebe08714db4.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -129,13 +129,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_06fae15a-547f-47a0-9eed-42c0c27d670b.jpg",
-            "text": "Bridal",
+            "image": "shopify:\/\/shop_images\/Navy-Shimmer.jpg",
+            "text": "Navy Shimmer",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/bridal-collection"
+            "link": "shopify:\/\/collections\/navy-shimmer"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -147,20 +147,20 @@
             "link": "shopify:\/\/collections\/ride-the-wave-crochet"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Navy-Shimmer.jpg",
-            "text": "Navy Shimmer",
+            "image": "shopify:\/\/shop_images\/5_06fae15a-547f-47a0-9eed-42c0c27d670b.jpg",
+            "text": "Bridal",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/navy-shimmer"
+            "link": "shopify:\/\/collections\/bridal-collection"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
