@@ -129,6 +129,15 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_06fae15a-547f-47a0-9eed-42c0c27d670b.jpg",
+            "text": "Bridal",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/bridal-collection"
+          }
+        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
@@ -146,21 +155,12 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/ride-the-wave-crochet"
           }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_06fae15a-547f-47a0-9eed-42c0c27d670b.jpg",
-            "text": "Bridal",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/bridal-collection"
-          }
         }
       },
       "block_order": [
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
