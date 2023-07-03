@@ -138,6 +138,15 @@
             "link": "shopify:\/\/collections\/bridal-collection"
           }
         },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUSK.jpg",
+            "text": "Prints",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/prints"
+          }
+        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
@@ -146,21 +155,12 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/navy-shimmer"
           }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_8ca844a5-44d8-4e0e-a7db-7f36c4bea8b7.jpg",
-            "text": "Ride the Wave",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/ride-the-wave-crochet"
-          }
         }
       },
       "block_order": [
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
