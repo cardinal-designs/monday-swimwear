@@ -285,6 +285,19 @@ class CollectionFilters extends HTMLElement {
         this.getSectionsToRender().forEach((section => {
             document.getElementById(section.id).innerHTML = new DOMParser().parseFromString(html, 'text/html').getElementById(section.id).innerHTML;
         }));
+
+        const categoryClearButtons = document.querySelectorAll('.category-clear-wrapper')
+        if(categoryClearButtons) {
+          categoryClearButtons.forEach( b => {
+            document.getElementById(b.id).innerHTML = new DOMParser().parseFromString(html, 'text/html').getElementById(b.id).innerHTML;
+          })
+
+          const newButtons = this.querySelectorAll('.collection-filters__clear');
+          newButtons.forEach(b => {
+            b.addEventListener('click', this.clearByCategory.bind(this, b));
+          })
+          
+        }
       
         this.disableLoading();
       })

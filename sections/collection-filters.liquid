@@ -81,9 +81,23 @@
                   <div class="page-width">
                     <p class="collection-filters__dropdown-title detail-caps hide-mobile">By {{ block.settings.title }}</p>
                     <div class="collection-filters__dropdown-container">
-                      <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
+                      <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize }}">
                         {% assign tag_list = block.settings.filters | split: ',' %}
-                        {% assign category_has_active_filters = false %}
+                        <div class='category-clear-wrapper' id="category-clear-{{ block.settings.title | handleize }}">
+                          {% assign category_has_active_filters = false %}
+                          {% for category_tag in tag_list %}
+                            {% assign active_tags_split = active_tags | split: '+' %}
+                            {% assign category_tag_handle = category_tag | handleize %}
+  
+                            {% if active_tags_split contains category_tag_handle %}
+                              {% assign category_has_active_filters = true %}
+                              {% break %}
+                            {% endif %}
+                          {% endfor %}
+                          {% if category_has_active_filters %}
+                            <button class="collection-filters__clear text-link hide-desktop" style="order: -1" data-category="{{ block.settings.title | handleize }}">Clear all</button>
+                          {% endif %}
+                        </div>
                         {% for category_tag in tag_list %}
                           {% assign active_tags_split = active_tags | split: '+' %}
                           {% assign category_tag_handle = category_tag | handleize %}
@@ -110,9 +124,6 @@
                             </button>
                         	{% endif %}
                         {% endfor %}
-                        {% if category_has_active_filters %}
-                          <button class="collection-filters__clear text-link hide-desktop" style="order: -1" data-category="{{ block.settings.title | handleize }}">Clear all</button>
-                        {% endif %}
                       </div>
                       <div class="collection-filters__dropdown-buttons hide-mobile">
                         <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>

@@ -415,7 +415,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    position: fixed;
+    position: sticky;
     bottom: 20px;
     width: calc(100% - 20px);
   }
