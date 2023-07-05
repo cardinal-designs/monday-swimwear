@@ -20,23 +20,60 @@
     <div class="collection-filters__container page-width">
   
       <div class="collection-filters__mobile-buttons hide-desktop">
-        <button class="collection-filters__mobile-button body open-filters">Filter&nbsp;&nbsp;&nbsp;+</button>
-        <button class="collection-filters__mobile-button body open-sort">Sort&nbsp;&nbsp;&nbsp;+</button>
+        {% comment %} <button class="collection-filters__mobile-button body open-filters">Filter&nbsp;&nbsp;&nbsp;+</button>
+        <button class="collection-filters__mobile-button body open-sort">Sort&nbsp;&nbsp;&nbsp;+</button> {% endcomment %}
+
+        {% for block in section.blocks %}
+          {% if block.type == 'filter_category' %}
+            <div class="collection-filters__mobile-item">
+              <button class="collection-filters__mobile-button body open-filters" data-open-filter-category="{{ block.settings.title | handleize }}">
+                {{ block.settings.title }}
+                {% render 'icon-caret' %}                
+              </button>
+            </div>
+          {% endif %}
+        {% endfor %}
+
+        <button class="collection-filters__mobile-button body open-sort">
+          Sort
+          {% render 'icon-caret' %}
+        </button>
       </div>
   
-      <div class="collection-filters__left">
+      <div class="collection-filters__left" id="FilterList">
         <div class="collection-filters__categories">
           <p class="collection-filters__title detail-caps hide-mobile">Filters</p>
           <div class="collection-filters__mobile-title hide-desktop">
-            <p class="body-large">Filters</p>
+            <p class="body-large"><span id='ActiveFilterCount'>({{ current_tags | size}})</span> Filter Selected</p>
             <button class="collection-filters__close">{% render 'icon-close' %}</button>
           </div>
+
+          <div class="collection-filters__active-tags hide-desktop" id="CollectionFilterActiveTagsMobile">
+            {% if active_tags != blank %}
+              {% for tag in current_tags %}
+                {% assign tag_as_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle %}
+                <div class="collection-filters__active-tag caption-neue" data-value="{{ tag_as_handle }}">
+                  {{ tag }}
+                  <button class="collection-filters__active-tag-remove">
+                    {% render 'icon-close-small' %}
+                  </button>
+                </div>
+              {% endfor %}
+              <button class="collection-filters__clear-all text-link" >
+                Clear all
+              </button>
+            {% endif %}
+          </div>
+
           {% for block in section.blocks %}
             {% if block.type == 'filter_category' %}
-              <div class="collection-filters__item">
+              <div class="collection-filters__item" data-filter-category={{ block.settings.title | handleize }}>
                 <button class="collection-filters__button body">
                   {{ block.settings.title }}
-                  {% render 'icon-caret' %}
+                  {% comment %} {% render 'icon-caret' %} {% endcomment %}
+                  <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.04582 5.34465L5.04582 9.29883L3.93901 9.29883L3.93902 5.34465L-2.2056e-07 5.34465L-1.72843e-07 4.25301L3.93902 4.25301L3.93902 0.298828L5.04582 0.298828L5.04582 4.25301L9 4.25301L9 5.34465L5.04582 5.34465Z" fill="black"/>
+                    </svg>                    
                 </button>
                 <div class="collection-filters__dropdown">
                   <div class="page-width">
@@ -44,9 +81,14 @@
                     <div class="collection-filters__dropdown-container">
                       <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize}}">
                         {% assign tag_list = block.settings.filters | split: ',' %}
+                        {% assign category_has_active_filters = false %}
                         {% for category_tag in tag_list %}
                           {% assign active_tags_split = active_tags | split: '+' %}
                           {% assign category_tag_handle = category_tag | handleize %}
+
+                          {% if active_tags_split contains category_tag_handle %}
+                            {% assign category_has_active_filters = true %}
+                          {% endif %}
                         
                         	{% assign downcase_category = block.settings.title | handleize %}
                           {% if downcase_category == 'color' %}
@@ -66,6 +108,9 @@
                             </button>
                         	{% endif %}
                         {% endfor %}
+                        {% if category_has_active_filters %}
+                          <button class="collection-filters__clear text-link" style="order: -1" data-category="{{ block.settings.title | handleize }}">Clear all</button>
+                        {% endif %}
                       </div>
                       <div class="collection-filters__dropdown-buttons hide-mobile">
                         <button class="collection-filters__apply button button--bone" data-category="{{ block.settings.title | handleize }}">Apply Filter</button>
@@ -78,8 +123,8 @@
             {% endif %}
           {% endfor %}
           <div class="collection-filters__mobile-actions hide-desktop">
+            <button class="collection-filters__apply body">Apply Filters <span id='ActiveFilterCountButton'>({{ current_tags | size}})</span></button>
             <button class="collection-filters__clear-all body">Clear</button>
-            <button class="collection-filters__apply body">Apply Filters</button>
           </div>
         </div>
         <div class="collection-filters__active-tags" id="CollectionFilterActiveTags">
@@ -93,6 +138,10 @@
                 </button>
               </div>
             {% endfor %}
+
+            <button class="collection-filters__clear-all text-link" >
+              Clear all
+            </button>
           {% endif %}
         </div>
       </div>

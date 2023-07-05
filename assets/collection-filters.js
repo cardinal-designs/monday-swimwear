@@ -84,9 +84,11 @@ class CollectionFilters extends HTMLElement {
     });
 
     // Mobile Filter Open
-    this.querySelector('.open-filters').addEventListener('click', () => {
-      this.openMobileFilters();
-    });
+    this.querySelectorAll('.open-filters').forEach( o => {
+      o.addEventListener('click', (e) => {
+        this.openMobileFilters(e);
+      });
+    })
 
     // Mobile Sort Open
     this.querySelector('.open-sort').addEventListener('click', () => {
@@ -117,14 +119,31 @@ class CollectionFilters extends HTMLElement {
     }
   }
 
-  openMobileFilters() {
+  openMobileFilters(e) {
     const closeFilterContainer = document.querySelector('.collection-filters__close');
 
+    const button = e.target
+    const category = button.dataset.openFilterCategory
+
+    const dropdown = document.querySelector(`.collection-filters__item[data-filter-category="${ category }"]`)
+
+
+    // open menu
     this.mobileFilterContainer.classList.add('active');
     this.overlay.classList.add('active');
     this.overlay.addEventListener('click', () => {
       this.closeMobileFilters();
     });
+
+    // find current open dropdown
+    const activeItem = document.querySelector('.collection-filters__item.active');
+
+    // Toggle dropdowns
+    if (activeItem) {
+      activeItem.classList.remove('active');
+    }
+    dropdown.classList.add('active');
+
     closeFilterContainer.addEventListener('click', () => {
       this.closeMobileFilters();
     });
@@ -215,7 +234,7 @@ class CollectionFilters extends HTMLElement {
 
   clearAllFilters() {
     this.temporaryTags = [];
-    document.querySelector('.collection-filters__categories.active').classList.remove('active');
+    document.querySelector('.collection-filters__categories.active')?.classList.remove('active');
 
     this.updateActiveButtons();
     this.applyFilters();
@@ -283,7 +302,16 @@ class CollectionFilters extends HTMLElement {
         id: 'CollectionFilterActiveTags'
       },
       {
+        id: 'CollectionFilterActiveTagsMobile'
+      },
+      {
         id: 'CollectionFilterProductTotal'
+      },
+      {
+        id: 'ActiveFilterCount'
+      },
+      {
+        id: 'ActiveFilterCountButton'
       }
     ]
   }
