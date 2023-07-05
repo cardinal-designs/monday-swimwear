@@ -293,6 +293,10 @@
 
   .collection-filters__container {
     margin: 0;
+    z-index: 2;
+  }
+
+  .collection-filters__overlay.active + .collection-filters__container {
     z-index: 5;
   }
 

@@ -70,10 +70,12 @@
               <div class="collection-filters__item" data-filter-category={{ block.settings.title | handleize }}>
                 <button class="collection-filters__button body">
                   {{ block.settings.title }}
-                  {% comment %} {% render 'icon-caret' %} {% endcomment %}
-                  <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <span class='hide-mobile'>{% render 'icon-caret' %}</span>
+                  <span class="hide-desktop">
+                    <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.04582 5.34465L5.04582 9.29883L3.93901 9.29883L3.93902 5.34465L-2.2056e-07 5.34465L-1.72843e-07 4.25301L3.93902 4.25301L3.93902 0.298828L5.04582 0.298828L5.04582 4.25301L9 4.25301L9 5.34465L5.04582 5.34465Z" fill="black"/>
-                    </svg>                    
+                    </svg> 
+                  </span>                   
                 </button>
                 <div class="collection-filters__dropdown">
                   <div class="page-width">
@@ -109,7 +111,7 @@
                         	{% endif %}
                         {% endfor %}
                         {% if category_has_active_filters %}
-                          <button class="collection-filters__clear text-link" style="order: -1" data-category="{{ block.settings.title | handleize }}">Clear all</button>
+                          <button class="collection-filters__clear text-link hide-desktop" style="order: -1" data-category="{{ block.settings.title | handleize }}">Clear all</button>
                         {% endif %}
                       </div>
                       <div class="collection-filters__dropdown-buttons hide-mobile">
