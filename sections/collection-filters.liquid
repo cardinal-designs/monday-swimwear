@@ -81,8 +81,7 @@
                   <div class="page-width">
                     <p class="collection-filters__dropdown-title detail-caps hide-mobile">By {{ block.settings.title }}</p>
                     <div class="collection-filters__dropdown-container">
-                      <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize }}">
-                        {% assign tag_list = block.settings.filters | split: ',' %}
+                      {% assign tag_list = block.settings.filters | split: ',' %}
                         <div class='category-clear-wrapper hide-desktop' id="category-clear-{{ block.settings.title | handleize }}">
                           {% assign category_has_active_filters = false %}
                           {% for category_tag in tag_list %}
@@ -95,9 +94,11 @@
                             {% endif %}
                           {% endfor %}
                           {% if category_has_active_filters %}
-                            <button class="collection-filters__clear text-link hide-desktop" style="order: -1" data-category="{{ block.settings.title | handleize }}">Clear all</button>
+                            <button class="collection-filters__clear collection-filters__category-clear text-link hide-desktop" style="order: -1" data-category="{{ block.settings.title | handleize }}">Clear all</button>
                           {% endif %}
                         </div>
+
+                      <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize }}">
                         {% for category_tag in tag_list %}
                           {% assign active_tags_split = active_tags | split: '+' %}
                           {% assign category_tag_handle = category_tag | handleize %}
@@ -160,7 +161,7 @@
       </div>
   
       <div class="collection-filters__right">
-        <div class="collection-filters__total" id="CollectionFilterProductTotal">
+        <div class="collection-filters__total hide-mobile" id="CollectionFilterProductTotal">
           <p class="detail-caps">{{ collection.products_count }} Product{% if collection.products_count != 1 %}s{% endif %}</p>
         </div>
         <div class="collection-filters__sorting">
