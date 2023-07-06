@@ -152,8 +152,8 @@
 
 /* Swatch */
 .collection-filters__tag-radio-color {
-  height: 20px;
-  width: 20px;
+  height: 14px;
+  width: 14px;
   margin-right: 20px;
   border-radius: 100%;
   background-size: cover;
@@ -257,6 +257,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .collection-filters__left {
+    width: 100%;
+  }
   .collection-filter-section {
     margin-top: 30px;
     position: unset;
@@ -385,20 +388,35 @@
     grid-template-columns: 1fr;
   }
 
+  /* Swatch */
+.collection-filters__tag-radio-color {
+  height: 14px;
+  width: 14px;
+}
+
+.collection-filters__tag-radio-color::after {
+  height: 20px;
+  width: 20px;
+}
+
   .radio-button {
     text-align: left;
   }
 
+  .radio-button__indicator {
+    margin-right: 13px;
+  }
+
   .radio-button__indicator::before {
-    height: 22px;
-    width: 22px;
+    height: 14px;
+    width: 14px;
     background: #F8F7F4;
     border: 1px solid transparent;
   }
 
   .radio-button__indicator::after {
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 14px;
     border: 0;
   }
 
@@ -439,10 +457,16 @@
 
   .collection-filters__active-tags {
     padding-left: 1px;
+    overflow-x: scroll;
   }
 
   .collection-filters__active-tag {
     font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .collection-filters__clear-all {
+    white-space: nowrap;
   }
 
   .collection-filters__right {

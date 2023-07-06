@@ -108,14 +108,14 @@ class CollectionFilters extends HTMLElement {
     // Toggle dropdowns
     if (parent.classList.contains('active')) {
       parent.classList.remove('active');
-      this.overlay.classList.remove('active');
+      // this.overlay.classList.remove('active');
     } else {
       if (activeItem) {
         activeItem.classList.remove('active');
       }
 
       parent.classList.add('active');
-      this.overlay.classList.add('active');
+      // this.overlay.classList.add('active');
     }
   }
 
@@ -297,6 +297,13 @@ class CollectionFilters extends HTMLElement {
             b.addEventListener('click', this.clearByCategory.bind(this, b));
           })
           
+        }
+
+        const clearAllButtons = this.querySelectorAll('.collection-filters__clear-all');
+        if( clearAllButtons ) {
+          clearAllButtons.forEach(b => {
+            b.addEventListener('click', this.clearAllFilters.bind(this, b));
+          })
         }
       
         this.disableLoading();

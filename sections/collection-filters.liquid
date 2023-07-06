@@ -48,7 +48,7 @@
             <button class="collection-filters__close">{% render 'icon-close' %}</button>
           </div>
 
-          <div class="collection-filters__active-tags hide-desktop" id="CollectionFilterActiveTagsMobile">
+          <div class="collection-filters__active-tags no-scrollbar hide-desktop" id="CollectionFilterActiveTagsMobile">
             {% if active_tags != blank %}
               {% for tag in current_tags %}
                 {% assign tag_as_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle %}
@@ -136,11 +136,11 @@
             {% endif %}
           {% endfor %}
           <div class="collection-filters__mobile-actions hide-desktop">
-            <button class="collection-filters__apply body">Apply Filters <span id='ActiveFilterCountButton'>({{ current_tags | size}})</span></button>
+            <button class="collection-filters__apply body">Apply Filters <span id='ActiveFilterCountButton'>({{ current_tags | size }})</span></button>
             <button class="collection-filters__clear-all body">Clear</button>
           </div>
         </div>
-        <div class="collection-filters__active-tags" id="CollectionFilterActiveTags">
+        <div class="collection-filters__active-tags no-scrollbar" id="CollectionFilterActiveTags">
           {% if active_tags != blank %}
             {% for tag in current_tags %}
               {% assign tag_as_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle %}
