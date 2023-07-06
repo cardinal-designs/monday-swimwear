@@ -83,7 +83,7 @@
                     <div class="collection-filters__dropdown-container">
                       <div class="collection-filters__dropdown-list" data-category="{{ block.settings.title | handleize }}">
                         {% assign tag_list = block.settings.filters | split: ',' %}
-                        <div class='category-clear-wrapper' id="category-clear-{{ block.settings.title | handleize }}">
+                        <div class='category-clear-wrapper hide-desktop' id="category-clear-{{ block.settings.title | handleize }}">
                           {% assign category_has_active_filters = false %}
                           {% for category_tag in tag_list %}
                             {% assign active_tags_split = active_tags | split: '+' %}
