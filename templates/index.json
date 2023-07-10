@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/WEB_af41589e-e397-42c2-97af-7cd71775c1ac.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_cbc89d47-9bc6-4251-9fb2-aab9988b88a7.jpg",
+        "image": "shopify:\/\/shop_images\/violet4.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob4.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,7 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "ivory"
+            "collection": "violet-crinkle"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -101,7 +101,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_06fae15a-547f-47a0-9eed-42c0c27d670b.jpg",
+            "image": "shopify:\/\/shop_images\/1_816e743a-0af6-4676-847e-bf2f038a0977.jpg",
             "text": "Bridal",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/bridal-collection"
