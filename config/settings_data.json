@@ -2675,13 +2675,6 @@
               "answer": "<p>We ship all international packages via Passport Shipping that is then delivered to you through your local carrier. The shipping cost can vary depending on your location. Once you have entered in your location through our checkout page, the shipping fee will be displayed with any custom and duty tax prior to finalizing your order. Due to your location, shipping fees vary. <\/p>"
             }
           },
-          "151ba9d4-246c-47c9-b91a-1aeb7aedff39": {
-            "type": "faq_item",
-            "settings": {
-              "title": "If I am an Australian customer, when will my order arrive?",
-              "answer": "<p>All expedited and ground shipping can incur carrier delays that will extend this transit time.<\/p><p>Please note: We do not ship and\/or deliver on weekends & some orders will require a signature. Please allow up to 2 days for your order to be dispatched. All orders received after 1:00 PM on Friday will be shipped the following Monday.<\/p>"
-            }
-          },
           "88f56e8e-a3b5-49d2-839e-84b901721f26": {
             "type": "faq_item",
             "settings": {
@@ -2799,6 +2792,7 @@
           },
           "251481f5-9731-462c-838d-78c656ecb189": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "Covid-19 FAQ"
             }
@@ -2840,7 +2834,6 @@
           "4d9c999e-8bf1-4332-b76b-b809eca5a61d",
           "fded6e81-13b9-4516-a4c8-47e8bb750f35",
           "df013a2a-941c-4b98-a6fe-5dc38bef8d80",
-          "151ba9d4-246c-47c9-b91a-1aeb7aedff39",
           "88f56e8e-a3b5-49d2-839e-84b901721f26",
           "ef040c43-1bc8-4f62-8800-6911e5f13bba",
           "fe55f69b-f633-40c6-a327-3675e17b77fc",
