@@ -2679,14 +2679,14 @@
             "type": "faq_item",
             "settings": {
               "title": "If I am an Australian customer, when will my order arrive?",
-              "answer": "<p>We offer free express shipping for all AU orders over $300AUD\/$200USD.<\/p><p>All expedited and ground shipping can incur carrier delays that will extend this transit time.<\/p>"
+              "answer": "<p>All expedited and ground shipping can incur carrier delays that will extend this transit time.<\/p><p>Please note: We do not ship and\/or deliver on weekends & some orders will require a signature. Please allow up to 2 days for your order to be dispatched. All orders received after 1:00 PM on Friday will be shipped the following Monday.<\/p>"
             }
           },
           "88f56e8e-a3b5-49d2-839e-84b901721f26": {
             "type": "faq_item",
             "settings": {
               "title": "If I am an international customer, when will my order arrive?",
-              "answer": "<p>Once your order has been shipped, we ask for 2-12 business days for delivery. Please note, packages are subject to carrier delays and all international packages will incur taxes by their local government.<\/p>"
+              "answer": "<p>Once your order has been shipped, we ask for 2-12 business days for delivery. Please note, packages are subject to carrier delays and all international packages will incur taxes by their local government.<\/p><p>Please note: We do not ship and\/or deliver on weekends & some orders will require a signature. Please allow up to 2 days for your order to be dispatched. All orders received after 1:00 PM on Friday will be shipped the following Monday.<\/p>"
             }
           },
           "ef040c43-1bc8-4f62-8800-6911e5f13bba": {
