@@ -52,24 +52,24 @@
             "collection": "the-signature-collection-1"
           }
         },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "knitwear"
-          }
-        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "beachwear-accessories"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "knitwear"
           }
         }
       },
       "block_order": [
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "bf612915-d86f-40f2-817f-6322dada207b"
+        "bf612915-d86f-40f2-817f-6322dada207b",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
       }
