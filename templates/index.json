@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/violet4.png",
-        "mobile_image": "shopify:\/\/shop_images\/mob4.png",
+        "image": "shopify:\/\/shop_images\/web11.png",
+        "mobile_image": "shopify:\/\/shop_images\/MATERNITY-MOB.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,7 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "violet-crinkle"
+            "collection": "monday-maternity"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -76,7 +76,6 @@
     },
     "164081090579915a8a": {
       "type": "text",
-      "disabled": true,
       "settings": {
         "text": "For every Monday Maternity purchase placed from July 17 - Aug 16, will be donating 15% of our sales to Ovarian Cancer Research Foundation (OCRF).",
         "wide": true,
@@ -98,6 +97,15 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/347148749_698126548742389_6905507686044675817_n.jpg",
+            "text": "Fuchsia Berry Shimmer",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/fuchsia-berry-shimmer"
+          }
+        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -110,26 +118,17 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HUSK.jpg",
-            "text": "Prints",
+            "image": "shopify:\/\/shop_images\/349004039_772563807693704_4811084254914016398_n.jpg",
+            "text": "Ride the Wave Crochet",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/prints"
-          }
-        },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Navy-Shimmer.jpg",
-            "text": "Navy Shimmer",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/navy-shimmer"
+            "link": "shopify:\/\/collections\/ride-the-wave-crochet"
           }
         }
       },
       "block_order": [
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
