@@ -83,15 +83,35 @@
         "link": "shopify:\/\/collections\/monday-maternity"
       }
     },
-    "16408101574f5b391b": {
-      "type": "editorial-banner",
+    "1640811405c1297562": {
+      "type": "link-blocks",
+      "blocks": {
+        "d029689e-51e9-4bab-918a-a703bb5724d6": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_d81ff00e-3d9a-4e73-8532-a5b211e1aa42.jpg",
+            "text": "",
+            "link_label": "SHOP CITRUS CROCHET",
+            "link": "shopify:\/\/collections\/citrus-crochet"
+          }
+        },
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01_14b8bad4-2932-4714-9141-a82550378091.jpg",
+            "text": "",
+            "link_label": "SHOP BEACHWEAR FAVORITES",
+            "link": "shopify:\/\/collections\/monday-beachwear"
+          }
+        }
+      },
+      "block_order": [
+        "d029689e-51e9-4bab-918a-a703bb5724d6",
+        "643e0732-83e9-4986-9865-1f1ee99fda72"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/000011360009.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/000011310009.jpg",
-        "left_text": "",
-        "right_text": "",
-        "link_label": "FIND YOUR VACATION LOOK",
-        "link": "shopify:\/\/collections\/monday-beachwear"
+        "text_style": "overlay",
+        "slider_on_mobile": false
       }
     },
     "1640812146b4d73cae": {
@@ -135,35 +155,15 @@
         "slider_on_mobile": true
       }
     },
-    "1640811405c1297562": {
-      "type": "link-blocks",
-      "blocks": {
-        "d029689e-51e9-4bab-918a-a703bb5724d6": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02_d81ff00e-3d9a-4e73-8532-a5b211e1aa42.jpg",
-            "text": "",
-            "link_label": "SHOP CITRUS CROCHET",
-            "link": "shopify:\/\/collections\/citrus-crochet"
-          }
-        },
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01_14b8bad4-2932-4714-9141-a82550378091.jpg",
-            "text": "",
-            "link_label": "SHOP BEACHWEAR FAVORITES",
-            "link": "shopify:\/\/collections\/monday-beachwear"
-          }
-        }
-      },
-      "block_order": [
-        "d029689e-51e9-4bab-918a-a703bb5724d6",
-        "643e0732-83e9-4986-9865-1f1ee99fda72"
-      ],
+    "16408101574f5b391b": {
+      "type": "editorial-banner",
       "settings": {
-        "text_style": "overlay",
-        "slider_on_mobile": false
+        "image": "shopify:\/\/shop_images\/000011360009.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/000011310009.jpg",
+        "left_text": "",
+        "right_text": "",
+        "link_label": "FIND YOUR VACATION LOOK",
+        "link": "shopify:\/\/collections\/monday-beachwear"
       }
     },
     "16408186509f925b52": {
@@ -276,9 +276,9 @@
     "1657215750b8e1724d",
     "16407502469f0e5f45",
     "164081090579915a8a",
-    "16408101574f5b391b",
-    "1640812146b4d73cae",
     "1640811405c1297562",
+    "1640812146b4d73cae",
+    "16408101574f5b391b",
     "16408186509f925b52",
     "1640814929d4a3c77a",
     "164124814754670aef",
