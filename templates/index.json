@@ -37,6 +37,15 @@
         "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/eZNpqsZDx2k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
       }
     },
+    "164081090579915a8a": {
+      "type": "text",
+      "settings": {
+        "text": "For every Monday Maternity purchase placed from July 17 - Aug 16, will be donating 15% of our sales to Ovarian Cancer Research Foundation (OCRF).",
+        "wide": true,
+        "add_glow": false,
+        "link": "shopify:\/\/collections\/monday-maternity"
+      }
+    },
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
@@ -72,15 +81,6 @@
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
-      }
-    },
-    "164081090579915a8a": {
-      "type": "text",
-      "settings": {
-        "text": "For every Monday Maternity purchase placed from July 17 - Aug 16, will be donating 15% of our sales to Ovarian Cancer Research Foundation (OCRF).",
-        "wide": true,
-        "add_glow": false,
-        "link": "shopify:\/\/collections\/monday-maternity"
       }
     },
     "1640811405c1297562": {
@@ -274,8 +274,8 @@
     "1660324166f7286707",
     "1640133702b1b204aa",
     "1657215750b8e1724d",
-    "16407502469f0e5f45",
     "164081090579915a8a",
+    "16407502469f0e5f45",
     "1640811405c1297562",
     "1640812146b4d73cae",
     "16408101574f5b391b",
