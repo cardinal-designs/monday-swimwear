@@ -2422,6 +2422,12 @@ header-drawer {
   letter-spacing: .02em;
 }
 
+@media screen and (max-width: 768px) {
+  .header .wk-icon {
+    display: none !important;
+  }
+}
+
 /*================ Klaviyo Form ================*/
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input,
 .page-my-monday-size .kl-private-reset-css-Xuajs1 input:not([type]) {
