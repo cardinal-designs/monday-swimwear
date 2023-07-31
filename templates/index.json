@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_7bde03de-8cf8-4db2-b50c-431294940d70.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/3_d1e98e57-af03-4391-be16-53f591267726.jpg",
+        "image": "shopify:\/\/shop_images\/web4_64d85e68-42b2-4a32-9d61-36cabf3572c3.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob-FINAL.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_label": "START SHOPPING",
-        "button_link": "shopify:\/\/collections\/bridal-collection",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
     },
@@ -40,16 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory-crochet"
+          }
+        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "black-crinkle"
-          }
-        },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
-          "type": "collection",
-          "settings": {
-            "collection": "capri-wave"
           }
         },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
@@ -66,8 +66,8 @@
         }
       },
       "block_order": [
-        "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "bf612915-d86f-40f2-817f-6322dada207b",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
@@ -76,6 +76,7 @@
     },
     "164081090579915a8a": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "text": "For every Monday Maternity purchase placed from July 17 - Aug 16, we will be donating 15% of our sales to the Ovarian Cancer Research Foundation (OCRF).",
         "wide": true,
@@ -86,26 +87,17 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/web11.png",
-        "mobile_image": "shopify:\/\/shop_images\/MATERNITY-MOB.png",
+        "image": "shopify:\/\/shop_images\/1_7bde03de-8cf8-4db2-b50c-431294940d70.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/3_d1e98e57-af03-4391-be16-53f591267726.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "MADE FOR YOU",
-        "link": "shopify:\/\/collections\/monday-maternity"
+        "link_label": "BRIDAL COLLECTION",
+        "link": "shopify:\/\/collections\/bridal-collection"
       }
     },
     "1640811405c1297562": {
       "type": "link-blocks",
       "blocks": {
-        "643e0732-83e9-4986-9865-1f1ee99fda72": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_472d224d-a8ac-4cfb-b16c-365bfb6e7287.jpg",
-            "text": "",
-            "link_label": "SIGNATURE STYLES",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
-          }
-        },
         "d029689e-51e9-4bab-918a-a703bb5724d6": {
           "type": "link_block",
           "settings": {
@@ -114,11 +106,20 @@
             "link_label": "PACK YOUR BAGS | SHOP ACCESSORIES",
             "link": "shopify:\/\/collections\/beachwear-accessories"
           }
+        },
+        "643e0732-83e9-4986-9865-1f1ee99fda72": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_472d224d-a8ac-4cfb-b16c-365bfb6e7287.jpg",
+            "text": "",
+            "link_label": "SIGNATURE STYLES",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
+          }
         }
       },
       "block_order": [
-        "643e0732-83e9-4986-9865-1f1ee99fda72",
-        "d029689e-51e9-4bab-918a-a703bb5724d6"
+        "d029689e-51e9-4bab-918a-a703bb5724d6",
+        "643e0732-83e9-4986-9865-1f1ee99fda72"
       ],
       "settings": {
         "text_style": "overlay",
@@ -140,10 +141,10 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_816e743a-0af6-4676-847e-bf2f038a0977.jpg",
-            "text": "Bridal",
+            "image": "shopify:\/\/shop_images\/7_37b71320-c303-43af-bac5-1769f8d7f9e1.jpg",
+            "text": "Monday Maternity",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/bridal-collection"
+            "link": "shopify:\/\/collections\/monday-maternity"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
