@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/web4_64d85e68-42b2-4a32-9d61-36cabf3572c3.png",
-        "mobile_image": "shopify:\/\/shop_images\/mob-FINAL.png",
+        "image": "shopify:\/\/shop_images\/1_d8ee8021-5672-41b6-b3ed-3249292873c2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_a336ed80-b087-47d5-a865-737ef954db03.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_label": "START SHOPPING",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
         "overlay_link": true
       }
     },
@@ -43,7 +43,7 @@
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "black-crinkle"
+            "collection": "beachwear-accessories"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -54,7 +54,6 @@
         },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "navy-shimmer"
           }
@@ -104,17 +103,17 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1_743a1046-23d1-4d77-a50e-5c7391a998fd.jpg",
             "text": "",
-            "link_label": "PACK YOUR BAGS | SHOP ACCESSORIES",
+            "link_label": "GOOD BAGGAGE | SHOP ACCESSORIES",
             "link": "shopify:\/\/collections\/beachwear-accessories"
           }
         },
         "643e0732-83e9-4986-9865-1f1ee99fda72": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_472d224d-a8ac-4cfb-b16c-365bfb6e7287.jpg",
+            "image": "shopify:\/\/shop_images\/1_3e533d27-c10b-477b-bd7a-b2c5f1783866.jpg",
             "text": "",
-            "link_label": "SIGNATURE STYLES",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "link_label": "CITRUS CROCHET",
+            "link": "shopify:\/\/collections\/citrus-crochet"
           }
         }
       },
