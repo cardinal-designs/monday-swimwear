@@ -102,16 +102,28 @@
               "product": "mare-towel-terry"
             }
           },
+          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776": {
+            "type": "upsell",
+            "settings": {
+              "product": "st-tropez-sarong-white-crinkle-linen"
+            }
+          },
           "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86": {
             "type": "upsell",
             "settings": {
               "product": "lake-como-woven-bag-small"
             }
           },
+          "b998258a-f74b-489f-88ac-d2845f748e54": {
+            "type": "upsell",
+            "settings": {
+              "product": "acklins-mirror-ivory-swirl"
+            }
+          },
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd": {
             "type": "upsell",
             "settings": {
-              "product": "staniel-cay-hair-clip-set"
+              "product": "angel-cay-hair-clip-set"
             }
           },
           "179ec68a-9604-4dfe-9a08-c0e685271c72": {
@@ -129,31 +141,19 @@
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
             "type": "upsell",
             "settings": {
-              "product": "st-tropez-sarong-black"
-            }
-          },
-          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776": {
-            "type": "upsell",
-            "settings": {
-              "product": "st-tropez-sarong-white-crinkle-linen"
-            }
-          },
-          "b998258a-f74b-489f-88ac-d2845f748e54": {
-            "type": "upsell",
-            "settings": {
-              "product": "obsession-belt"
+              "product": "barcelona-tunic-black"
             }
           }
         },
         "block_order": [
           "ce35da39-8666-4078-8a2b-f96324678747",
+          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776",
           "3f8b3e2c-72dd-4aa3-820b-82029b6a0e86",
+          "b998258a-f74b-489f-88ac-d2845f748e54",
           "30e48b86-9f28-4754-9ce0-023d9fdca5bd",
           "179ec68a-9604-4dfe-9a08-c0e685271c72",
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
-          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
-          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776",
-          "b998258a-f74b-489f-88ac-d2845f748e54"
+          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5"
         ],
         "settings": {
           "cart_title": "Your Cart",
