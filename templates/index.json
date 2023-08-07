@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_d8ee8021-5672-41b6-b3ed-3249292873c2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_a336ed80-b087-47d5-a865-737ef954db03.jpg",
+        "image": "shopify:\/\/shop_images\/1_0fe32b1c-1622-4823-bd3e-e944a5826a34.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/1_0fe32b1c-1622-4823-bd3e-e944a5826a34.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_label": "START SHOPPING",
-        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
+        "button_link": "shopify:\/\/collections\/beachwear-accessories",
         "overlay_link": true
       }
     },
@@ -43,13 +43,13 @@
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "the-signature-collection-1"
           }
         },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "island-aura"
+            "collection": "bird-of-paradise"
           }
         },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
@@ -58,18 +58,18 @@
             "collection": "navy-shimmer"
           }
         },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
-            "collection": "bird-of-paradise"
+            "collection": "island-aura"
           }
         }
       },
       "block_order": [
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
       }
