@@ -56,8 +56,7 @@
         "settings": {
           "announcement": "Free Shipping On $100+",
           "right_links_dropdown": "help",
-          "right_link_dropdown_label": "Help",
-          "enable_search": true
+          "right_link_dropdown_label": "Help"
         }
       },
       "header": {

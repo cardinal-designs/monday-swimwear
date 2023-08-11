@@ -56,34 +56,20 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "dadcc81c-bd47-4dbf-a565-ebbd1e435485": {
-          "type": "fit_tip_card",
-          "disabled": true,
+        "5448aae7-83fe-46c0-8efb-f9ff6204a729": {
+          "type": "body_card",
           "settings": {
-            "collection": "shop-all",
+            "collection": "monday-beachwear",
             "position": 5,
-            "background_color": "#c1d7ec",
-            "title": "The Isla Mujeres",
-            "image": "shopify:\/\/shop_images\/ISLA_MUJERES_BOTTOM_-_BLACK_6cb1e1ef-964e-4aa7-923c-de93fdf30e00.jpg",
-            "make_transparent": true,
-            "tip": "Adjustable in all the right places for the perfect fit!"
-          }
-        },
-        "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa": {
-          "type": "lifestyle_card",
-          "disabled": true,
-          "settings": {
-            "collection": "shop-all",
-            "position": 10,
-            "image": "shopify:\/\/shop_images\/Collection-Image.jpg",
-            "top_text": "",
-            "bottom_text": ""
+            "image": "shopify:\/\/shop_images\/Group_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_15.jpg",
+            "text": "Introducing—\nEssential Classics",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "dadcc81c-bd47-4dbf-a565-ebbd1e435485",
-        "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa"
+        "5448aae7-83fe-46c0-8efb-f9ff6204a729"
       ],
       "settings": {
         "products_per_page": 48
