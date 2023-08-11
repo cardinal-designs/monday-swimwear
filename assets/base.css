@@ -1658,7 +1658,7 @@ deferred-media {
   vertical-align: middle;
 }
 
-.header .header__icon,
+.header .header__icon--cart,
 .header .wk-link {
   display: none;
 }
@@ -1668,6 +1668,10 @@ deferred-media {
     padding: 5px;
     height: unset;
     width: unset;
+  }
+
+  .header .header__icon--cart {
+    display: block;
   }
 
   .header__icon--cart {
