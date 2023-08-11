@@ -131,23 +131,6 @@
   ],
   "blocks": [
     {
-      "type": "filter_category",
-      "name": "Filter Category",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Category Title"
-        },
-        {
-          "type": "textarea",
-          "id": "filters",
-          "label": "Tag Filters",
-          "info": "Separate each tag with a comma and no spaces. The tag should be written exactly as is in the product admin page."
-        }
-      ]
-    },
-    {
       "type": "fit_tip_card",
       "name": "Fit Tip Card",
       "settings": [
@@ -227,6 +210,47 @@
           "type": "text",
           "id": "bottom_text",
           "label": "Bottom Text"
+        }
+      ]
+    },
+    {
+      "type": "body_card",
+      "name": "Body Card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection",
+          "info": "Choose the collection this card will be displayed on."
+        },
+        {
+          "type": "range",
+          "id": "position",
+          "min": 1,
+          "max": 24,
+          "step": 1,
+          "label": "Grid Item Position",
+          "default": 1
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile Image"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }

@@ -1215,7 +1215,7 @@ deferred-media {
 }
 
 /*================ Header ================*/
-#shopify-section-header {
+.shopify-section-header {
   z-index: 3;
 }
 
@@ -1228,7 +1228,7 @@ deferred-media {
   transform: translateY(-100%);
 }
 
-#shopify-section-header.animate {
+.shopify-section-header.animate {
   transition: transform 0.15s ease-out;
 }
 

@@ -22,7 +22,7 @@
                 {% if settings.ss_enable %}
                   <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search" class="header__search-form">
                     <div class="header__search-group">
-                      <input class="header__search-input-mobile" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore>
+                      <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore>
                       <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
                         {% render 'icon-search' %}
                       </button>
@@ -31,7 +31,7 @@
                 {% else %}
                   <form action="/search" method="get" role="search" class="header__search-form">
                     <div class="header__search-group">
-                      <input class="header__search-input-mobile" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
+                      <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
                       <input type="hidden" name="options[prefix]" value="last">
                       <input type="hidden" name="type" value="product" />
                       <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
@@ -260,7 +260,7 @@
     {% endif %}
 
     {% if template != 'cart' %}
-      <button class="js-open-cart header__icon header__icon--cart" id="cart-icon-bubble-header" aria-label="Open Cart Drawer">
+      <button class="js-open-cart header__icon header__icon--cart" id="cart-icon-bubble" aria-label="Open Cart Drawer">
         {% render 'icon-cart' %}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
@@ -273,7 +273,7 @@
         {%- endif -%}
       </button>
     {% else %}
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart" id="cart-icon-bubble-header">
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart" id="cart-icon-bubble">
         {%- render 'icon-cart' -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
@@ -293,7 +293,7 @@
      </div>
     
   </div>
-
+  
   <div class="header__search">
     <div class="page-width">
       <div class="header__search-container">
@@ -465,7 +465,7 @@
   
 
   openSearch.addEventListener('click', () => {
-    console.log('asdlfkjhas')
+    console.log('asdlfkjhas');
     if (search.classList.contains('is-visible')) {
       search.classList.remove('is-visible');
     } else {
@@ -484,7 +484,7 @@
 
 {% schema %}
 {
-  "name": "Header",
+  "name": "Body - Header",
   "class": "shopify-section-header",
   "settings": [
     {

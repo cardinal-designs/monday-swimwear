@@ -1,0 +1,292 @@
+/*============================================================================
+  General
+==============================================================================*/
+/*================ Colors ================*/
+:root {
+  --body-brown-1: #EFE9E2;
+  --body-brown-2: #BBB2A7;
+  --body-brown-3: #9A8474;
+  --body-green-1: #EFF3DA;
+  --body-green-2: #D8F353;
+}
+
+/*================ Text ================*/
+* {
+  font-family: 'elza-text', sans-serif !important;
+}
+
+h1,
+.h1 {
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 36px;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  h2,
+  .h2 {
+    font-size: 30px;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  h3,
+  .h3 {
+    font-size: 20px;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.06;
+  letter-spacing: 0;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  h4,
+  .h4 {
+    font-size: 20px;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.06;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  h5,
+  .h5 {
+    font-size: 24px;
+  }
+}
+
+.sh1 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.015em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .sh1 {
+    font-size: 20px;
+  }
+}
+
+.sh2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.015em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .sh2 {
+    font-size: 20px;
+  }
+}
+
+.sh3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .sh3 {
+    font-size: 16px;
+  }
+}
+
+.sh4 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+.body-small,
+.body-1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.body-2 {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .body-2 {
+    font-size: 12px;
+  }
+}
+
+.body-3 {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.body-4 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.caption {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.btn {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: unset;
+}
+
+.tag {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+/*================ Components ================*/
+/* Button */
+.button {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: unset;
+  background-color: black;
+  border: 0;
+  color: white;
+}
+
+.button:hover {
+  background-color: var(--body-green-2) !important;
+  color: black !important;
+}
+
+/*================ Legal Popup ================*/
+.legal-popup__close.button {
+  background: white;
+  color: black;
+}
+
+/*============================================================================
+  Header
+==============================================================================*/
+/*================ Announcement Bar ================*/
+.announcement-bar {
+  background-color: #F8F7F4;
+}
+
+.announcement-bar__tab.active {
+  background-color: var(--body-green-1);
+}
+
+/*================ Header ================*/
+.header__menu-item,
+.desktop-country-switcher .disclosure__button {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.header__menu-list--submenu:hover .header__menu-item--has-dropdown::after {
+  background: var(--body-green-2);
+}
+
+.header__search.is-visible,
+.header__search-input {
+  background: #F8F7F4;
+}
+
+@media screen and (max-width: 768px) {
+  .shopify-section-header {
+    /* box-shadow: 0px 0px 10px var(--body-green-2); */
+  }
+}

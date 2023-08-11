@@ -212,3 +212,105 @@
     font-size: 40px;
   }
 }
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+/*================ Header ================*/
+.monday-body .collection-header {
+  margin: 0;
+  padding: 80px 0;
+  background-color: var(--body-brown-2);
+  color: white;
+  text-align: center;
+}
+
+.monday-body .collection-header__container h2 {
+  font-family: 'elza-text', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.06;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .monday-body .collection-header {
+    padding: 60px 0 50px;
+  }
+}
+
+/*================ Filters ================*/
+.monday-body .collection-filter-section {
+  margin-top: 0;
+}
+
+.monday-body .radio-button__indicator::before {
+  background: var(--body-brown-1);
+}
+
+.monday-body .collection-filters__title,
+.monday-body .collection-filters__dropdown-title,
+.monday-body .collection-filters__total p,
+.monday-body .collection-filters__active-tag {
+  font-family: 'elza-text', sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.monday-body .collection-filters__button,
+.monday-body .collection-filters__tag,
+.monday-body .collection-filters__sort,
+.monday-body .collection-filters__mobile-button {
+  font-family: 'elza-text', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.monday-body .collection-filters__active-tag {
+  background: var(--body-brown-1);
+}
+
+.monday-body .collection-filters__dropdown-list {
+  gap: 20px 25px;
+}
+
+.monday-body .collection-filters__clear {
+  background: var(--body-brown-1);
+  color: black
+}
+
+@media screen and (max-width: 768px) {
+  .monday-body .collection-filters__container {
+    padding-top: 0;
+  }
+
+  .monday-body .collection-filters__right {
+    display: none;
+  }
+
+  .monday-body .collection-filters__mobile-buttons {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    gap: 0;
+  }
+
+  .monday-body .collection-filters__mobile-button {
+    margin: 10px 0;
+    padding: 4px 0;
+    background-color: transparent;
+  }
+
+  .monday-body .collection-filters__mobile-button:first-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,3 +1,18 @@
+{% assign monday_body = false %}
+{% if page.handle != blank  %}
+  {% if page.metafields.custom.monday_body == true %}
+    {% assign monday_body = true %}
+  {% endif %}
+{% elsif product.handle != blank  %}
+  {% if product.metafields.custom.monday_body == true %}
+    {% assign monday_body = true %}
+  {% endif %}
+{% elsif collection.handle != blank  %}
+  {% if collection.metafields.custom.monday_body == true %}
+    {% assign monday_body = true %}
+  {% endif %}
+{% endif %}
+
 <!doctype html>  
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
@@ -141,6 +156,12 @@
      <link rel="preload" href="{{ 'base.css' | asset_url  }}" as="style">
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
+    {% if monday_body %}
+      <link rel="stylesheet" href="https://use.typekit.net/etr7yuj.css">
+      <link rel="preload" href="{{ 'monday-body-base.css' | asset_url  }}" as="style">
+      {{ 'monday-body-base.css' | asset_url | stylesheet_tag }}
+    {% endif %}
+
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
 
@@ -152,7 +173,7 @@
   
 </head>
 
-  <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
+  <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
     
     <script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} {% if product.first_available_variant.price %}window.KlarnaThemeGlobals.data_purchase_amount = {{ product.first_available_variant.price }};{% endif %}window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
 
@@ -165,7 +186,12 @@
       {% if localization.country.name == 'United States' %}
         {% section 'announcement-bar' %}
       {% endif %}
-      {% section 'header' %}
+
+      {% if monday_body %}
+        {% section 'body-header' %}
+      {% else %}
+        {% section 'header' %}
+      {% endif %}
 
       {%- if template != 'cart' -%}
         {% section 'cart-drawer' %}
@@ -271,24 +297,24 @@
       {% render 'ss-intellisuggest' %}
     {% endif %}
 
-{% if product %}
-  <script type="text/javascript">
-    setTimeout(function() {
-      if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
-        if (!document.querySelector(".klaviyo-bis-trigger")) {
-          var klAnchor = document.createElement('a');
-          klAnchor.href = '#';
-          klAnchor.classList.add('button', 'button--full', 'klaviyo-bis-trigger');
-          document.querySelector('.product-form__button-wrapper').appendChild(klAnchor);
-          klAnchor.textContent = 'Notify Me When Available';
-          document.querySelector('.product-form__submit.button.button--full.button--primary').remove();
-          
-        };
-      };
-    }, 1000)
-  </script>
-{%  endif %}
-    <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#000005', triggerColor : '#000000', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 25, triggerOffsetY : 25, mobile : { triggerSize : 'medium', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 28, triggerOffsetY : 25, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script> 
+    {% if product %}
+      <script type="text/javascript">
+        setTimeout(function() {
+          if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
+            if (!document.querySelector(".klaviyo-bis-trigger")) {
+              var klAnchor = document.createElement('a');
+              klAnchor.href = '#';
+              klAnchor.classList.add('button', 'button--full', 'klaviyo-bis-trigger');
+              document.querySelector('.product-form__button-wrapper').appendChild(klAnchor);
+              klAnchor.textContent = 'Notify Me When Available';
+              document.querySelector('.product-form__submit.button.button--full.button--primary').remove();
+              
+            };
+          };
+        }, 1000)
+      </script>
+    {% endif %}
 
+    <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#000005', triggerColor : '#000000', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 25, triggerOffsetY : 25, mobile : { triggerSize : 'medium', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 28, triggerOffsetY : 25, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script> 
   </body>
 </html>
