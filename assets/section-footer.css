@@ -276,3 +276,33 @@
   font-weight: 400 !important;
   line-height: 1.2 !important;
 }
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+/*================ Fonts ================*/
+
+/*================ Colors ================*/
+.monday-body .footer__content-credits a {
+  background-color: var(--body-green-1);
+}
+
+.monday-body .footer__info {
+  background-color: var(--body-brown-1);
+}
+
+.monday-body .footer__info-wrapper a {
+  color: black !important;
+}
+
+/*================ Klaviyo ================*/
+.monday-body .footer .kl-private-reset-css-Xuajs1 input[type='email'],
+.monday-body .footer .kl-private-reset-css-Xuajs1 input[type='email']::placeholder {
+  font-family: 'elza-text', sans-serif !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0.02em !important;
+  text-transform: unset !important;
+}

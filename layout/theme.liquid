@@ -201,7 +201,11 @@
         {{ content_for_layout }}
       </main>
 
-      {% section 'footer' %}
+      {% if monday_body %}
+        {% section 'body-footer' %}
+      {% else %}
+        {% section 'footer' %}
+      {% endif %}
 
       {% section 'legal-popup' %}
 
