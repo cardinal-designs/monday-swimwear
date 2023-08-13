@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_0fe32b1c-1622-4823-bd3e-e944a5826a34.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_c74a0b47-ee81-4ff0-927c-4745895423e5.jpg",
+        "image": "shopify:\/\/shop_images\/2_06ec71ab-594e-498f-8551-6a50c4a15831.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/1_edaf35ca-85c6-476c-80ef-ed08b1295db4.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
-        "content_position": "bottom-center",
-        "button_label": "START SHOPPING",
-        "button_link": "shopify:\/\/collections\/beachwear-accessories",
+        "content_position": "bottom-left",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify:\/\/collections\/ivory-black",
         "overlay_link": true
       }
     },
@@ -40,6 +40,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": "beachwear-accessories"
+          }
+        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
@@ -57,19 +63,13 @@
           "settings": {
             "collection": "navy-shimmer"
           }
-        },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
-          "type": "collection",
-          "settings": {
-            "collection": "island-aura"
-          }
         }
       },
       "block_order": [
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
       }
