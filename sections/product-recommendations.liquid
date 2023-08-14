@@ -11,9 +11,9 @@
 <product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
 {% if recommendations.performed and recommendations.products_count > 0 %}
   <h2 class="product-recommendations__heading sh4">
-    Recommended
+    <span>Recommended</span>
     <div class="glow"></div>
-    {{ section.settings.heading | escape }}
+    <span>{{ section.settings.heading | escape }}</span>
   </h2>
   <ul class="product-recommendations__grid swiper list-unstyled" role="list">
     <div class="swiper-wrapper">
