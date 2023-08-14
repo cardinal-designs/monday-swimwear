@@ -73,5 +73,9 @@
   background-color: var(--body-green-2);
 }
 
-
+@media only screen and (max-width: 768px) {
+  .monday-body .product-recommendations__heading {
+    font-size: 16px;
+  }
+}
 
