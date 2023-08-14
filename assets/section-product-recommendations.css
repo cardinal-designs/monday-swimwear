@@ -67,6 +67,9 @@
   text-transform: unset;
 }
 
+.monday-body .product-recommendations__heading .glow {
+  background-color: var(--body-green-2);
+}
 
 
 
