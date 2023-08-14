@@ -53,3 +53,14 @@
     margin: 0 10px;
   }
 }
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+.monday-body .product-recommendations__heading {
+  
+}
+
+.monday-body .product-recommendations__heading span:first-child {
+  display: none;
+}
