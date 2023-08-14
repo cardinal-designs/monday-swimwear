@@ -68,6 +68,8 @@
 }
 
 .monday-body .product-recommendations__heading .glow {
+  height: 18px;
+  width: 15px;
   background-color: var(--body-green-2);
 }
 
