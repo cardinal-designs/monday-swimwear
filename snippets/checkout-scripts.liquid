@@ -1,6 +1,7 @@
 <style>
-  button.disabled, button[disabled='true'] {
-    opacity: .5;
+  button.disabled,
+  button[disabled='true'] {
+    opacity: 0.5;
   }
 
   .consent-wrapper {
@@ -10,7 +11,7 @@
   .consent-wrapper:nth-child(2) {
     display: none;
   }
-  
+
   .consent-wrapper a {
     text-transform: capitalize;
     text-decoration: underline;
@@ -29,7 +30,7 @@
     align-items: center;
     flex-direction: row-reverse;
   }
-  
+
   .consent-wrapper .checkbox-wrapper.consent label[for='consent-checkbox'] {
     padding: 0 0.75em 0 0;
     color: black;
@@ -37,55 +38,54 @@
   }
 </style>
 <script type="application/javascript">
-
   const CheckoutScripts = () => {
     const selectors = {
       submitButton: 'continue_button',
       returnButton: 'step__footer__previous-link',
       stepSections: 'section--billing-address',
       firstStep: '[data-customer-information-form="true"]',
-    }
+    };
 
-    const checkForConsentNeeded  = () => {
+    const checkForConsentNeeded = () => {
       const stepSection = document.getElementsByClassName(selectors.stepSections);
       const firstStep = document.getElementsByTagName('form')[0].dataset.customerInformationForm;
-      if(!document.getElementById('consent-checkbox')){
+      if (!document.getElementById('consent-checkbox')) {
         let checkbox = createCheckboxMarkup();
-          stepSection[0].appendChild(checkbox);
-          if(localStorage.getItem("consentStatus") ){
-            document.getElementById('consent-checkbox').checked = true
-          } else {
-            document.getElementById('consent-checkbox').checked = false
-          }
+        stepSection[0].appendChild(checkbox);
+        if (localStorage.getItem('consentStatus')) {
+          // document.getElementById('consent-checkbox').checked = true
+        } else {
+          document.getElementById('consent-checkbox').checked = false;
+        }
       }
 
       checkContinueStatus();
-    }
+    };
 
     const checkContinueStatus = () => {
-      if((localStorage.getItem("consentStatus")) || (localStorage.getItem("consentStatus")) ) {
+      if (localStorage.getItem('consentStatus') || localStorage.getItem('consentStatus')) {
         enableSubmitButton();
       } else {
         disableSubmitButton();
       }
-    }
+    };
 
     const disableSubmitButton = () => {
       let button = document.getElementById(selectors.submitButton);
-      
+
       if (button) {
         button.setAttribute('disabled', true);
         button.classList.add('disabled');
       }
-    }
+    };
 
     const enableSubmitButton = () => {
       let button = document.getElementById(selectors.submitButton);
-      if(button) {
-       button.removeAttribute('disabled');
-       button.classList.remove('disabled');     
+      if (button) {
+        button.removeAttribute('disabled');
+        button.classList.remove('disabled');
       }
-    }
+    };
 
     const createCheckboxMarkup = () => {
       const consentWrapper = document.createElement('div');
@@ -98,11 +98,14 @@
       const refundPolicy = document.createElement('a');
       const productConsent = document.createElement('a');
       const termsText = document.createTextNode('terms of service');
-      const termsLink = document.querySelector('.policy-list__item [data-modal="policy-terms-of-service"]').getAttribute('href');
+      const termsLink = document
+        .querySelector('.policy-list__item [data-modal="policy-terms-of-service"]')
+        .getAttribute('href');
       const refundText = document.createTextNode('refund policy');
-      const refundLink = document.querySelector('.policy-list__item [data-modal="policy-refund-policy"]').getAttribute('href');
-      const labelText = document.createTextNode(`{{ settings.consent-pre-link}}`);
-
+      const refundLink = document
+        .querySelector('.policy-list__item [data-modal="policy-refund-policy"]')
+        .getAttribute('href');
+      const labelText = document.createTextNode(`{{ settings.consent-pre-link }}`);
       // termsOfService.href = '{{ settings.consent-terms-link }}';
       termsOfService.setAttribute('aria-haspopup', 'dialog');
       termsOfService.setAttribute('data-modal', 'policy-terms-of-service');
@@ -119,15 +122,15 @@
       refundPolicy.setAttribute('data-close-text', 'Close');
       refundPolicy.setAttribute('data-iframe', 'true');
       refundPolicy.setAttribute('href', refundLink);
-      refundPolicy.appendChild(refundText)
+      refundPolicy.appendChild(refundText);
 
       consentCheckboxWrapper.classList.add('checkbox-wrapper');
       consentCheckboxWrapper.classList.add('consent');
 
       checkbox.setAttribute('id', 'consent-checkbox');
-      checkbox.setAttribute('name', "consentRequired");
-      checkbox.setAttribute('type', "checkbox");
-      checkbox.setAttribute('value', "0");
+      checkbox.setAttribute('name', 'consentRequired');
+      checkbox.setAttribute('type', 'checkbox');
+      checkbox.setAttribute('value', '0');
       checkbox.classList.add('input-checkbox');
 
       consentLabel.htmlFor = 'consent-checkbox';
@@ -144,73 +147,68 @@
 
       consentCheckboxWrapper.appendChild(checkboxDiv);
 
-      consentWrapper.classList.add('consent-wrapper')
+      consentWrapper.classList.add('consent-wrapper');
       consentWrapper.appendChild(consentHeadline);
       consentWrapper.appendChild(consentCheckboxWrapper);
 
       return consentWrapper;
-    }
+    };
 
     const onConsentChange = () => {
       let checkbox = document.getElementById('consent-checkbox');
 
       if (checkbox) {
-        checkbox.addEventListener('change', function(event) {
+        checkbox.addEventListener('change', function (event) {
           let isChecked = event.target.checked;
           if (isChecked) {
-            localStorage.setItem("consentStatus", true)
+            localStorage.setItem('consentStatus', true);
           } else if (isChecked === false) {
-            localStorage.removeItem("consentStatus")
+            localStorage.removeItem('consentStatus');
           }
 
           checkContinueStatus();
         });
-        checkbox.checked = true;
-        checkbox.dispatchEvent(new Event('change'));
+        //checkbox.checked = true;
+        //checkbox.dispatchEvent(new Event('change'));
       }
-    }
+    };
 
     return {
       checkForConsentNeeded: checkForConsentNeeded,
       onConsentChange: onConsentChange,
       checkContinueStatus: checkContinueStatus,
-    }
-  }
+    };
+  };
 
-  (function($) {
-    $(document).on("page:load page:change", function() {
-
-      if(!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
+  (function ($) {
+    $(document).on('page:load page:change', function () {
+      if (!Shopify.Checkout.OrderStatus && Shopify.Checkout.step == 'payment_method') {
         // document.addEventListener("DOMContentLoaded", function(event) {
         // });
         Shopify = window.Shopify || {};
         Shopify.checkoutScripts = CheckoutScripts();
         let checkout = Shopify.checkoutScripts;
-          checkout.checkForConsentNeeded();
-          checkout.onConsentChange();
-          checkout.checkContinueStatus();
-       
-        const observedEl = document.querySelector(".main__content");
-        const observer = new MutationObserver(mutationRecords => {
-          if(!document.querySelector(".consent-wrapper")){
+        checkout.checkForConsentNeeded();
+        checkout.onConsentChange();
+        checkout.checkContinueStatus();
+
+        const observedEl = document.querySelector('.main__content');
+        const observer = new MutationObserver((mutationRecords) => {
+          if (!document.querySelector('.consent-wrapper')) {
             // checkout.checkForConsentNeeded();
             checkout.onConsentChange();
-           }
+          }
           checkout.checkContinueStatus();
-        })
-  
-        observer.observe(observedEl, {subtree: true, childList: true});
+        });
+
+        observer.observe(observedEl, { subtree: true, childList: true });
         // setTimeout(function() {}, 3000)
       } else if (Shopify.Checkout.OrderStatus) {
         // document.addEventListener("DOMContentLoaded", function(event) {
         // });
-          Shopify.checkoutScripts = CheckoutScripts();
-          let checkout = Shopify.checkoutScripts;
+        Shopify.checkoutScripts = CheckoutScripts();
+        let checkout = Shopify.checkoutScripts;
       }
-
-      
     });
   })(Checkout.$);
-
-
 </script>
