@@ -37,6 +37,10 @@
     background: transparent;
   }
 
+  .real-life .foursixty-section .fs-slider-next-button {
+    z-index: 2 !important;
+  }
+
   @media only screen and (max-width: 768px) {
     .real-life {
       margin: 60px 0;
@@ -66,6 +70,32 @@
     .real-life .fs-slider-next-button .fs-arrow, .real-life .fs-slider-prev-button .fs-arrow {
       stroke: white;
       stroke-width: 2px;
+    }
+  }
+
+  /*============================================================================
+    Monday Body
+  ==============================================================================*/
+  .monday-body .real-life {
+    margin: 0;
+    padding: 60px 0;
+    background-color: #FAF9F6;
+  }
+
+  .monday-body .real-life .fstitle { 
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: 0.015em;
+    text-transform: unset;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .monday-body .real-life .fstitle { 
+      margin-bottom: 20px;
+      font-size: 20px;
     }
   }
 {% endstylesheet %}

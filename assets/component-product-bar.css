@@ -303,3 +303,42 @@
     width: 100%;
   }
 }
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+.monday-body .product-bar__title .sh1,
+.monday-body .product-form__submit,
+.monday-body .product-bar .product__swatch span,
+.monday-body .product-bar .product-form__input-button-wrapper p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.monday-body .product-form__submit .product-form__glow {
+  height: 6px;
+  width: 6px;
+  background: var(--body-green-2);
+  filter: blur(0);
+  -webkit-filter: blur(0);
+}
+
+.monday-body .product-bar__form .form__label {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  opacity: 1;
+  color: black;
+}
+
+.monday-body .product-form__input-active-size-bubble {
+  color: white;
+  background-color: black;
+}
