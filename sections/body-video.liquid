@@ -1,0 +1,53 @@
+{{ 'section-body-video.css' | asset_url | stylesheet_tag }}
+
+<div class="body-video">
+  <div class="page-width">
+    <h2 class="body-video__title sh1">{{ section.settings.title }}</h2>
+    <div class="body-video__container">
+      {{ section.settings.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
+      <button class="body-video__cover">
+        {% render 'lazy-image' image: section.settings.cover_image, fade: true, classes: 'img-fill' %}
+        <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M30.5726 61.1451C47.4573 61.1451 61.1451 47.4573 61.1451 30.5726C61.1451 13.6878 47.4573 0 30.5726 0C13.6878 0 0 13.6878 0 30.5726C0 47.4573 13.6878 61.1451 30.5726 61.1451ZM25.627 39.1385L40.4637 30.5726L25.627 22.0066V39.1385Z" fill="white"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const cover = document.querySelector('.body-video__cover');
+  cover.addEventListener('click', event => {
+    const video = event.currentTarget.parentElement.querySelector('video');
+    cover.classList.add('faded');
+    video.play();
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Body - Video",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video"
+      },
+      {
+        "type": "image_picker",
+        "id": "cover_image",
+        "label": "Cover Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Body - Video"
+      }
+    ]
+  }
+{% endschema %}

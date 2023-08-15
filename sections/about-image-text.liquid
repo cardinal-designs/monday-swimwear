@@ -3,7 +3,7 @@
 <div class="about-image-text">
   <div class="page-width">
     {% for block in section.blocks %}
-      <div class="about-image-text__item{% if block.settings.reversed %} reversed{% endif %}">
+      <div class="about-image-text__item{% if block.settings.reversed %} reversed{% endif %}{% if block.settings.reversed_mobile %} mobile-reversed{% endif %}">
         <div class="about-image-text__item-image">
           <div class="about-image-text__item-image-container">
             {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
@@ -39,6 +39,11 @@
             "type": "checkbox",
             "id": "reversed",
             "label": "Reversed Layout"
+          },
+          {
+            "type": "checkbox",
+            "id": "reversed_mobile",
+            "label": "Reversed Layout Mobile"
           },
           {
             "type": "checkbox",
