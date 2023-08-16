@@ -3548,6 +3548,183 @@
           "newsletter_heading": "Move With Monday",
           "show_social": true
         }
+      },
+      "body-events-header": {
+        "type": "body-events-header",
+        "settings": {
+          "title": "",
+          "banner_image": "shopify:\/\/shop_images\/Rectangle_18.jpg",
+          "banner_mobile_image": "shopify:\/\/shop_images\/Rectangle_19.jpg",
+          "banner_subtitle": "Sept 2020, New York City",
+          "banner_title": "Miami Swim Week",
+          "banner_link_label": "Learn More",
+          "banner_link": ""
+        }
+      },
+      "body-events-book": {
+        "type": "body-events-book",
+        "blocks": {
+          "0fbecf87-1de2-4a92-be66-6b3b0bbaf91d": {
+            "type": "block",
+            "settings": {
+              "subtitle": "Sept 2020, New York City",
+              "title": "Miami Swim Week",
+              "link_label": "Learn More",
+              "link": ""
+            }
+          },
+          "c469f478-bd1f-4420-80d7-8a3eb7f17dfb": {
+            "type": "block",
+            "settings": {
+              "subtitle": "Sept 2020, New York City",
+              "title": "Check Hours",
+              "link_label": "Learn More",
+              "link": ""
+            }
+          },
+          "5cd89042-6152-40b8-b055-bb5a1d74f03e": {
+            "type": "block",
+            "settings": {
+              "subtitle": "Sept 2020, New York City",
+              "title": "Upcoming Events",
+              "link_label": "Learn More",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "0fbecf87-1de2-4a92-be66-6b3b0bbaf91d",
+          "c469f478-bd1f-4420-80d7-8a3eb7f17dfb",
+          "5cd89042-6152-40b8-b055-bb5a1d74f03e"
+        ],
+        "settings": {
+          "title": "Book"
+        }
+      },
+      "body-events-services": {
+        "type": "body-events-services",
+        "blocks": {
+          "a88901db-31db-45cf-8f9f-0861e5c17a15": {
+            "type": "service",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Image_44.jpg",
+              "subtitle": "See us in Person",
+              "title": "Book a Fitting",
+              "link_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "a88901db-31db-45cf-8f9f-0861e5c17a15"
+        ],
+        "settings": {
+          "title": "Our Services"
+        }
+      },
+      "body-events-stores": {
+        "type": "body-events-stores",
+        "blocks": {
+          "9c68f0c3-e88e-468b-ac11-52a85817deff": {
+            "type": "store",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Image_45.jpg",
+              "location": "Los Angeles",
+              "name": "Dundas West",
+              "details": "906 Dundas Street W\n+1 (123) 456-7890",
+              "hours": "M-F:  11am - 8pm\nSat + Sun: 11am - 6pm",
+              "link_label": "View Store",
+              "link": ""
+            }
+          },
+          "7786a7c8-9392-45d0-8dda-48c36ea98a4b": {
+            "type": "store",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Image_46.jpg",
+              "location": "Los Angeles",
+              "name": "Dundas West",
+              "details": "906 Dundas Street W\n+1 (123) 456-7890",
+              "hours": "M-F: 11am - 8pm\nSat + Sun: 11am - 6pm",
+              "link_label": "View Store",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "9c68f0c3-e88e-468b-ac11-52a85817deff",
+          "7786a7c8-9392-45d0-8dda-48c36ea98a4b"
+        ],
+        "settings": {
+          "title": "Our Stores"
+        }
+      },
+      "body-events-happening": {
+        "type": "body-events-happening",
+        "blocks": {
+          "4b5dd048-61f7-4cfb-8fa2-683266ca84d4": {
+            "type": "event",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Image_47.jpg",
+              "date": "Los Angeles",
+              "title": "Miami Swim Week",
+              "text": "Lorem ipsum dolor sit amet consectetur. Vestibulum consequat commodo sem enim risus et ultricies et. Vel fermentum eget tortor donec enim enim quis volutpat id. Enim varius imperdiet facilisis pellentesque.",
+              "link_label": "Read More",
+              "link": ""
+            }
+          },
+          "71b21907-e4a2-4b7c-bba6-48f9353861ae": {
+            "type": "event",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Image_48.jpg",
+              "date": "Los Angeles",
+              "title": "Miami Swim Week",
+              "text": "Lorem ipsum dolor sit amet consectetur. Vestibulum consequat commodo sem enim risus et ultricies et. Vel fermentum eget tortor donec enim enim quis volutpat id. Enim varius imperdiet facilisis pellentesque.",
+              "link_label": "Read More",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "4b5dd048-61f7-4cfb-8fa2-683266ca84d4",
+          "71b21907-e4a2-4b7c-bba6-48f9353861ae"
+        ],
+        "settings": {
+          "title": "Happenings"
+        }
+      },
+      "body-events-faqs": {
+        "type": "body-events-faqs",
+        "blocks": {
+          "bd7ff7be-f14a-4e01-8157-9f889a88017b": {
+            "type": "block",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet?",
+              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est.<\/p>"
+            }
+          },
+          "0537743b-cd6d-4903-8981-76af89d9a004": {
+            "type": "block",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet?",
+              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est.<\/p>"
+            }
+          },
+          "10da460c-8dbe-446c-b9e6-771684c915ac": {
+            "type": "block",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet?",
+              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nam vitae lacus lectus. Nibh facilisi vel aliquet ultrices sit. Odio euismod congue volutpat, quis aenean molestie. Non sed mattis enim in eu lobortis a gravida. Quis velit consectetur magna egestas tellus non orci orci. Dolor, ipsum, tellus nisl gravida eget nibh tellus amet. Nulla risus turpis odio amet, ut vitae bibendum sed nisl. Et aenean odio etiam ipsum rutrum est.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "bd7ff7be-f14a-4e01-8157-9f889a88017b",
+          "0537743b-cd6d-4903-8981-76af89d9a004",
+          "10da460c-8dbe-446c-b9e6-771684c915ac"
+        ],
+        "settings": {
+          "title": "FAQs"
+        }
       }
     },
     "content_for_index": [

@@ -1,0 +1,74 @@
+<section class="events-happening event-block" data-section="events">
+  <h2 class="event-title sh2">{{ section.settings.title }}</h2>
+  <div class="events-happening__container">
+    {% for block in section.blocks %}
+      <div class="events-happening__item">
+        <div class="events-happening__image">
+          {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+        </div>
+        <div class="events-happening__content">
+          <div class="events-happening__content-container fade-in-up">
+            <p class="events-happening__date caption">{{ block.settings.date }}</p>
+            <h3 class="events-happening__title sh2">{{ block.settings.title }}</h3>
+            <p class="events-happening__text body-2">{{ block.settings.text }}</p>
+            {% if block.settings.link_label != blank %}
+              <a href="{{ block.settings.link }}" class="events-happening__link text-link">{{ block.settings.link_label }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Body - Events Happening",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Events Happening"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "event",
+        "name": "Event",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "date",
+            "label": "Date"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "text",
+            "id": "link_label",
+            "label": "Link Label"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

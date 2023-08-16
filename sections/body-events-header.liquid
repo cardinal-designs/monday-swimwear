@@ -1,0 +1,83 @@
+<a href="{{ section.settings.banner_link }}" class="events-header__banner">
+  {% if section.settings.banner_mobile_image != blank %}
+    {% render 'lazy-image' image: section.settings.banner_image, fade: true, classes: 'img-fill hide-mobile' %}
+    {% render 'lazy-image' image: section.settings.banner_mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+  {% else %}
+    {% render 'lazy-image' image: section.settings.banner_image, fade: true, classes: 'img-fill' %}
+  {% endif %}
+  <div class="events-header__banner-content fade-in-up">
+    {% if section.settings.banner_subtitle != blank %}
+      <p class="events-header__banner-subtitle caption">{{ section.settings.banner_subtitle }}</p>
+    {% endif %}
+    {% if section.settings.banner_title != blank %}
+      <h2 class="events-header__banner-title h2">{{ section.settings.banner_title }}</h2>
+    {% endif %}
+    {% if section.settings.banner_link_label != blank %}
+      <button class="events-header__banner-link text-link">{{ section.settings.banner_link_label }}</button>
+    {% endif %}
+  </div>
+</a>
+
+{% schema %}
+  {
+    "name": "Body - Events Header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Header"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "header",
+        "content": "Banner"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_mobile_image",
+        "label": "Banner Mobile Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_subtitle",
+        "label": "Banner Subtitle"
+      },
+      {
+        "type": "text",
+        "id": "banner_title",
+        "label": "Banner Title"
+      },
+      {
+        "type": "text",
+        "id": "banner_link_label",
+        "label": "Banner Link Label"
+      },
+      {
+        "type": "url",
+        "id": "banner_link",
+        "label": "Banner Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "nav_item",
+        "name": "Nav Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
