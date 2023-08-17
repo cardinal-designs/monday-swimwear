@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_06ec71ab-594e-498f-8551-6a50c4a15831.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1_edaf35ca-85c6-476c-80ef-ed08b1295db4.jpg",
+        "image": "shopify:\/\/shop_images\/web4.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob1_6428f329-f10b-4042-8a42-aed27dfd41e6.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,7 @@
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "ivory-black"
+            "collection": "black-crinkle"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
