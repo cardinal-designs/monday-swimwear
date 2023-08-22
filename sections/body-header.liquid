@@ -369,64 +369,69 @@
 {%- endif -%}
 {% endcomment %}
 
-{% if section.settings.transparent_header %}
+{% assign transparent_header = false %}
+{% if page.handle == 'monday-body' or page.handle == 'body-about-us' %}
+  {% assign transparent_header = true %}
+{% endif %}
+
+{% if transparent_header %}
 <style>
   @media screen and (min-width: 769px) {
-    .template-index .shopify-section-header:not(.scrolled) {
+    .shopify-section-header:not(.scrolled) {
       background: transparent;
       border: transparent;
     }
 
-    .template-index .shopify-section-header:hover  {
+    .shopify-section-header:hover  {
       background: white;
       border-color: #F2F2F2;
     }
   
-    .template-index #MainContent {
-      margin-top: -65px;
+    #MainContent {
+      margin-top: -64px;
     }
     
-    .template-index .shopify-section-header:not(.scrolled) .header__svg-logo svg {
+    .shopify-section-header:not(.scrolled) .header__svg-logo svg {
       color: white;
     }
   
-    .template-index .shopify-section-header:not(.scrolled):hover .header__icon svg path,
-    .template-index .shopify-section-header .header__icon svg {
+    .shopify-section-header:not(.scrolled):hover .header__icon svg path,
+    .shopify-section-header .header__icon svg {
       stroke: black;
     }
   
-    .template-index .shopify-section-header:not(.scrolled) .header__icon svg path {
+    .shopify-section-header:not(.scrolled) .header__icon svg path {
       stroke: white;
     }
   
-    .template-index .shopify-section-header:hover .header__svg-logo svg {
+    .shopify-section-header:hover .header__svg-logo svg {
       color: black;
     }
   }
 
-  .template-index .shopify-section-header:not(.scrolled) .header__menu-item {
+  .shopify-section-header:not(.scrolled) .header__menu-item {
     color: white;
   }
   
-  .template-index .shopify-section-header:hover .header__menu-item {
+  .shopify-section-header:hover .header__menu-item {
     color: black;
   }
 
   @media screen and (min-width: 769px) {
-    .template-index .shopify-section-header:not(.scrolled) .header__icon {
+    .shopify-section-header:not(.scrolled) .header__icon {
       color: white;
     }
   
-    .template-index .shopify-section-header:hover .header__icon {
+    .shopify-section-header:hover .header__icon {
       color: black;
     }
   }
 
-  .template-index .shopify-section-header:not(.scrolled) .wk-icon__svg {
+  .shopify-section-header:not(.scrolled) .wk-icon__svg {
     stroke: white !important;
   }
 
-  .template-index .shopify-section-header:not(.scrolled) .disclosure__button {
+  .shopify-section-header:not(.scrolled) .disclosure__button {
     color: white !important;
   }
 </style>

@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.body-image-text-banner--large {
+  min-height: 500px;
+  align-items: flex-start;
+}
+
 .body-image-text-banner .page-width {
   width: 100%;
   display: flex;

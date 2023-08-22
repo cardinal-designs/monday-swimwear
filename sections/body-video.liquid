@@ -2,8 +2,8 @@
 
 <div class="body-video">
   <div class="page-width">
-    <h2 class="body-video__title sh1">{{ section.settings.title }}</h2>
-    <div class="body-video__container">
+    <h2 class="body-video__title sh1 fade-in-up">{{ section.settings.title }}</h2>
+    <div class="body-video__container fade-in-up">
       {{ section.settings.video | video_tag: autoplay: false, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
       <button class="body-video__cover">
         {% render 'lazy-image' image: section.settings.cover_image, fade: true, classes: 'img-fill' %}

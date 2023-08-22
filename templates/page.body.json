@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "main": {
+      "type": "body-hero",
+      "settings": {
+        "layout": "full",
+        "image": "shopify:\/\/shop_images\/Image_49.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Image_50.jpg",
+        "subtitle": "Every Body is a Monday Body",
+        "title": "Introducing Monday Body",
+        "button_label": "Shop New Arrivals",
+        "button_link": ""
+      }
+    },
+    "5226b9f2-5319-4123-8208-701823acaaaa": {
+      "type": "body-featured-collection",
+      "blocks": {
+        "3b43e28f-6d9d-48de-8b70-428d017e8d99": {
+          "type": "link",
+          "settings": {
+            "title": "New Arrivals",
+            "link": ""
+          }
+        },
+        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
+          "type": "link",
+          "settings": {
+            "title": "Sets",
+            "link": ""
+          }
+        },
+        "c1f64361-f86a-42b3-917d-0eff2ac9311d": {
+          "type": "link",
+          "settings": {
+            "title": "Shop All",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b43e28f-6d9d-48de-8b70-428d017e8d99",
+        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9",
+        "c1f64361-f86a-42b3-917d-0eff2ac9311d"
+      ],
+      "settings": {
+        "title": "Lounge essentials for any kind of movement.",
+        "products": [
+          "antigua-monday-cap-white",
+          "antigua-monday-cap-black",
+          "hamptons-dress-husk-crochet",
+          "almafi-sarong-black"
+        ],
+        "image": "shopify:\/\/shop_images\/Image_51.jpg",
+        "text_1": "Get Monday",
+        "text_2": "Ready"
+      }
+    },
+    "635ff124-63e6-45d6-bcb9-6bdb30de0929": {
+      "type": "body-text-buttons",
+      "blocks": {
+        "35c83083-4988-4b36-a6e5-5d710f995fd7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Best Sellers",
+            "button_link": ""
+          }
+        },
+        "6c173b61-db74-455f-945e-8133931a472d": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop New Arrivals",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "35c83083-4988-4b36-a6e5-5d710f995fd7",
+        "6c173b61-db74-455f-945e-8133931a472d"
+      ],
+      "settings": {
+        "text": "Monday is designed especially for \nthe stylish woman who is \nminimalistic, independent, and motivated."
+      }
+    },
+    "9391d348-ff6a-43ba-a74c-23aeca4fc41d": {
+      "type": "body-content-slider",
+      "blocks": {
+        "8e1972bc-5b3e-40f9-9906-f711c791649e": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24.jpg",
+            "image_caption": "<p>Devin In <a href=\"\/products\/antigua-monday-cap-black\" title=\"Antigua Monday Cap - Black\">The Tash Top<\/a><\/p>",
+            "title": "The it-girl—\nour summer capsule",
+            "text": "An essential mode of achieving this is ensuring their designs are based off timeless pieces they know will compliment and flatter the female form, as opposed to recreating size-specific, temporary trends.",
+            "button_label": "Shop Summer Edit",
+            "button_link": ""
+          }
+        },
+        "1ecbf218-8471-457a-9c60-58c0199f3bd0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_51.jpg",
+            "image_caption": "",
+            "title": "The it-girl—\nour summer capsule",
+            "text": "An essential mode of achieving this is ensuring their designs are based off timeless pieces they know will compliment and flatter the female form, as opposed to recreating size-specific, temporary trends.",
+            "button_label": "Shop All",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8e1972bc-5b3e-40f9-9906-f711c791649e",
+        "1ecbf218-8471-457a-9c60-58c0199f3bd0"
+      ],
+      "settings": {
+      }
+    },
+    "8222a001-2c98-41d9-b358-90938e713902": {
+      "type": "body-product-slider",
+      "settings": {
+        "title": "Explore Best Sellers",
+        "text": "Every body is a Monday Body",
+        "collection": "monday-beachwear"
+      }
+    },
+    "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
+      "type": "body-image-text-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_22.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_23.jpg",
+        "section_size": "large",
+        "content_position": "left",
+        "text": "Introducing—\nEssential Classics",
+        "button_label": "Shop the Edit",
+        "button_link": ""
+      }
+    },
+    "2e292e74-3650-4541-a5ee-97da8f358f0a": {
+      "type": "body-categories",
+      "blocks": {
+        "228154d8-da02-4a47-bdfb-eddec1bf3051": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_51.jpg",
+            "title": "New In",
+            "link": ""
+          }
+        },
+        "553d10dc-6642-4b1c-815d-95677cea6218": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_20.jpg",
+            "title": "Sets",
+            "link": ""
+          }
+        },
+        "8f087094-f3ad-4736-93d9-157a37f38591": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_21.jpg",
+            "title": "About",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "228154d8-da02-4a47-bdfb-eddec1bf3051",
+        "553d10dc-6642-4b1c-815d-95677cea6218",
+        "8f087094-f3ad-4736-93d9-157a37f38591"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5226b9f2-5319-4123-8208-701823acaaaa",
+    "635ff124-63e6-45d6-bcb9-6bdb30de0929",
+    "9391d348-ff6a-43ba-a74c-23aeca4fc41d",
+    "8222a001-2c98-41d9-b358-90938e713902",
+    "03602058-ccae-4fa9-916e-2dc87c0edbc7",
+    "2e292e74-3650-4541-a5ee-97da8f358f0a"
+  ]
+}

@@ -1325,6 +1325,8 @@ deferred-media {
 
 .announcement-bar__text p {
   margin: 0;
+  padding-bottom: 3px;
+  font-size: 12px;
 }
 
 .announcement-bar__tab.active {
