@@ -170,7 +170,7 @@
         const footerElement = document.querySelector('.step__footer');
         // const footerdisableButton = footerElement.children('button.disabled');
         const footerdisableButton = footerElement.querySelectorAll('button');
-        let disableButton = footerdisableButton.getAttribute("disable");
+        const disableButton = footerdisableButton.getAttribute("disable");
         console.log('disableButton',disableButton);
         let appendHtml = "<span>I agree to the </span>";
         let requiredHtml = "<b>Required</b>";
