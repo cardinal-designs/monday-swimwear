@@ -60,7 +60,6 @@
       }
 
       checkContinueStatus();
-      checkPayNowDisabled();
     };
 
     const checkContinueStatus = () => {
@@ -89,11 +88,6 @@
         button.removeAttribute('disabled');
         button.classList.remove('disabled');
       }
-    };
-
-    const checkPayNowDisabled = () => {
-      let button = document.getElementById(selectors.submitButton);
-      console.log(button.querySelector('.step__footer__continue-btn'))
     };
 
     const createCheckboxMarkup = () => {
