@@ -185,7 +185,11 @@
 
 
         if(document.querySelector('#continue_button').classList.contains('disabled')){
-          
+          document.querySelector('#continue_button').classList.add('hidden');
+          document.querySelector('#continue_button_clone').classList.remove('hidden');
+        }else{
+          document.querySelector('#continue_button').classList.remove('hidden');
+          document.querySelector('#continue_button_clone').classList.add('hidden');
         }
 
       }
