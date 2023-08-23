@@ -174,10 +174,11 @@
             getButtonParent = document.querySelector('[data-step-footer] .shown-if-js')
             appendHtml = "<span>I agree to the </span>",
             requiredHtml = "<b>Required</b>",
-            sliderDiv = document.createElement('span');
+            sliderDiv = document.createElement('span'),
+            sliderOuter = document.querySelector('.slider--outer');
+        
         sliderDiv.classList.add("slider");
         checkboxElement.closest("div").classList.add("slider--outer");
-        const sliderOuter = document.querySelector('.slider--outer');
         checkboxElement.appendChild(sliderDiv);
         sliderOuter.insertAdjacentHTML('afterbegin', requiredHtml);
         checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
