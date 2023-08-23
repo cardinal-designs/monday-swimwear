@@ -60,10 +60,7 @@
       }
 
       checkContinueStatus();
-      setTimeout(function(){
       checkPayNowDisabled();
-        
-      },500)
     };
 
     const checkContinueStatus = () => {
@@ -95,19 +92,7 @@
     };
 
     const checkPayNowDisabled = () => {
-    let checkboxElement = document.querySelector('.checkbox_label'),
-        footerElement = document.querySelector('.step__footer'),
-        sliderOuter = document.querySelector('.slider--outer'),
-        appendHtml = "<span>I agree to the </span>",
-        requiredHtml = "<b>Required</b>",
-        sliderDiv = document.createElement('span');
-console.log(sliderOuter)
-      
-    sliderDiv.classList.add("slider");
-    checkboxElement.closest("div").classList.add("slider--outer");
-    checkboxElement.appendChild(sliderDiv);
-    sliderOuter.insertAdjacentHTML('afterbegin', requiredHtml);
-    checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
+      console.log('')
     };
 
     const createCheckboxMarkup = () => {
