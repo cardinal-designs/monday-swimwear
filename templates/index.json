@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/web4.png",
-        "mobile_image": "shopify:\/\/shop_images\/mob1_6428f329-f10b-4042-8a42-aed27dfd41e6.png",
+        "image": "shopify:\/\/shop_images\/web-sale.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob-sale.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-left",
-        "button_label": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_label": "START SHOPPING",
+        "button_link": "shopify:\/\/collections\/summer-23-sale",
         "overlay_link": true
       }
     },
@@ -61,7 +61,7 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "bird-of-paradise"
+            "collection": "knitwear"
           }
         }
       },
@@ -87,12 +87,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_7bde03de-8cf8-4db2-b50c-431294940d70.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/3_d1e98e57-af03-4391-be16-53f591267726.jpg",
+        "image": "shopify:\/\/shop_images\/60-web2.png",
+        "mobile_image": "shopify:\/\/shop_images\/60-mob.png",
         "left_text": "",
         "right_text": "",
-        "link_label": "BRIDAL COLLECTION",
-        "link": "shopify:\/\/collections\/bridal-collection"
+        "link_label": "HURR, ALMOST SOLD OUT",
+        "link": "shopify:\/\/collections\/shop-60-off-styles"
       }
     },
     "1640811405c1297562": {
@@ -121,6 +121,7 @@
         "d029689e-51e9-4bab-918a-a703bb5724d6",
         "643e0732-83e9-4986-9865-1f1ee99fda72"
       ],
+      "disabled": true,
       "settings": {
         "text_style": "overlay",
         "slider_on_mobile": false
