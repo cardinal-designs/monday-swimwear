@@ -168,10 +168,11 @@
       function ToggleSlider() {
         const checkboxElement = document.querySelector('.checkbox_label');
         const footerElement = document.querySelector('.step__footer');
-        // const footerdisableButton = footerElement.children('button.disabled');
         const footerdisableButton = footerElement.querySelectorAll('button');
         const disableButton = footerdisableButton.getAttribute("disable");
+        
         console.log('disableButton',disableButton);
+        
         let appendHtml = "<span>I agree to the </span>";
         let requiredHtml = "<b>Required</b>";
         const sliderDiv = document.createElement('span');
