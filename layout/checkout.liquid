@@ -169,6 +169,7 @@
         const existingElement = document.getElementById('consent-checkbox');
         const newDiv = document.createElement('span');
         newDiv.classList.add("slider");
+        newDiv.parent.add("slider--outer");
         existingElement.insertAdjacentElement('afterend', newDiv);
       }
       
