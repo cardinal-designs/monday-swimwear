@@ -92,7 +92,8 @@
     };
 
     const checkPayNowDisabled = () => {
-      document.querySelector(selectors.submitButton)
+      let button = document.getElementById(selectors.submitButton);
+      console.og(button.querySelector('.step__footer__continue-btn'))
     };
 
     const createCheckboxMarkup = () => {
