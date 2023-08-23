@@ -174,11 +174,10 @@
             getButtonParent = document.querySelector('[data-step-footer] .shown-if-js')
             appendHtml = "<span>I agree to the </span>",
             requiredHtml = "<b>Required</b>",
-            sliderDiv = document.createElement('span'),
-            sliderOuter = document.querySelector('.slider--outer');
-        
+            sliderDiv = document.createElement('span');
         sliderDiv.classList.add("slider");
         checkboxElement.closest("div").classList.add("slider--outer");
+        const sliderOuter = document.querySelector('.slider--outer');
         checkboxElement.appendChild(sliderDiv);
         sliderOuter.insertAdjacentHTML('afterbegin', requiredHtml);
         checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
@@ -190,7 +189,7 @@
           document.querySelector('#continue_button_clone').classList.remove('hidden');
           document.querySelector('#continue_button_clone').addEventListener('click',function(ele){
             document.querySelector('.slider--outer b').style.display = 'block';
-          });
+          })
         }else{
           document.querySelector('#continue_button').classList.remove('hidden');
           document.querySelector('#continue_button_clone').classList.add('hidden');
