@@ -166,20 +166,20 @@
       }
 
       function ToggleSlider() {
-        const checkboxElement = document.querySelector('.checkbox_label');
-        const footerElement = document.querySelector('.step__footer');
-        const footerdisableButton = footerElement.querySelectorAll('button')[0];
-        const disableButton = footerdisableButton.getAttribute("disabled");
+        // let checkboxElement = document.querySelector('.checkbox_label'),
+        //     footerElement = document.querySelector('.step__footer'),
+        //     footerdisableButton = footerElement.querySelectorAll('button')[0],
+        //     disableButton = footerdisableButton.getAttribute("disabled");
       
-        let appendHtml = "<span>I agree to the </span>";
-        let requiredHtml = "<b>Required</b>";
-        const sliderDiv = document.createElement('span');
-        sliderDiv.classList.add("slider");
-        checkboxElement.closest("div").classList.add("slider--outer");
-        const sliderOuter = document.querySelector('.slider--outer');
-        checkboxElement.appendChild(sliderDiv);
-        sliderOuter.insertAdjacentHTML('afterbegin', requiredHtml);
-        checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
+        // let appendHtml = "<span>I agree to the </span>",
+        //     requiredHtml = "<b>Required</b>",
+        //     sliderDiv = document.createElement('span');
+        // sliderDiv.classList.add("slider");
+        // checkboxElement.closest("div").classList.add("slider--outer");
+        // const sliderOuter = document.querySelector('.slider--outer');
+        // checkboxElement.appendChild(sliderDiv);
+        // sliderOuter.insertAdjacentHTML('afterbegin', requiredHtml);
+        // checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
       }
       
       $(document).on("page:load page:change", function() {
