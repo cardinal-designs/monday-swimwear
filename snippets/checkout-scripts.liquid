@@ -82,7 +82,9 @@
     const enableSubmitButton = () => {
       let button = document.getElementById(selectors.submitButton);
       if (button) {
-        
+        if(document.querySelector('.slider--outer b')) {
+          document.querySelector('.slider--outer b').style.display = 'none';
+        }
         button.removeAttribute('disabled');
         button.classList.remove('disabled');
       }
