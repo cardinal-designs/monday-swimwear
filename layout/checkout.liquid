@@ -170,7 +170,7 @@
             footerElement = document.querySelector('.step__footer'),
             footerdisableButton = footerElement.querySelectorAll('button')[0],
             disableButton = footerdisableButton.getAttribute("disabled"),
-            cloneButtonHtml = `<button name="button" type="button" id="continue_button_clone" class="step__footer__continue-btn btn disabled" aria-busy="false" disabled="true"><span class="btn__content" data-continue-button-content="true">Pay now</span><svg class="icon-svg icon-svg--size-18 btn__spinner icon-svg--spinner-button" aria-hidden="true" focusable="false"> <use xlink:href="#spinner-button"></use> </svg></button>`,
+            cloneButtonHtml = `<button name="button" type="button" id="continue_button_clone" class="step__footer__continue-btn btn disabled" aria-busy="false"><span class="btn__content" data-continue-button-content="true">Pay now</span><svg class="icon-svg icon-svg--size-18 btn__spinner icon-svg--spinner-button" aria-hidden="true" focusable="false"> <use xlink:href="#spinner-button"></use> </svg></button>`,
             getButtonParent = document.querySelector('[data-step-footer] .shown-if-js')
             appendHtml = "<span>I agree to the </span>",
             requiredHtml = "<b>Required</b>",
