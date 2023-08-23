@@ -188,7 +188,7 @@
           document.querySelector('#continue_button').classList.add('hidden');
           document.querySelector('#continue_button_clone').classList.remove('hidden');
           document.querySelector('#continue_button_clone').addEventListener('click',function(ele){
-            console.log(ele.target)
+            console.log(ele.currentTarget)
           })
         }else{
           document.querySelector('#continue_button').classList.remove('hidden');
