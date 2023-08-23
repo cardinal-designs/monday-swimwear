@@ -73,7 +73,7 @@
     const disableSubmitButton = () => {
       let button = document.getElementById(selectors.submitButton);
       if (button) {
-        console.log(button)
+        
         button.setAttribute('disabled', true);
         button.classList.add('disabled');
       }
@@ -82,7 +82,7 @@
     const enableSubmitButton = () => {
       let button = document.getElementById(selectors.submitButton);
       if (button) {
-        console.log(button)
+        
         button.removeAttribute('disabled');
         button.classList.remove('disabled');
       }
