@@ -168,9 +168,20 @@
         FinalSaleLabel();
       });
       
-      var slider = document.createElement("span");
-      var element = document.getElementById("consent-checkbox");
-      element.insertAdjacentHTML("afterend", slider);
+      // var slider = document.createElement("span");
+      // var element = document.getElementById("consent-checkbox");
+      // element.insertAdjacentHTML("afterend", slider);
+
+      // Select the existing element
+      const existingElement = document.querySelector('#consent-checkbox');
+      
+      // Create a new <div> element
+      const newDiv = document.createElement('span');
+      newDiv.textContent = 'This is a new div element';
+      
+      // Insert the new <div> after the existing element
+      existingElement.insertAdjacentElement('afterend', newDiv);
+
       
     </script>
     <style>
