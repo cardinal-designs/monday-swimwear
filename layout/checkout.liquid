@@ -167,11 +167,12 @@
       
       function ToggleSlider() {
         const existingElement = document.querySelector('.checkbox_label');
+        console.log('existingElement',existingElement)
         const newDiv = document.createElement('span');
         newDiv.classList.add("slider");
         existingElement.closest("div").classList.add("slider--outer");
         existingElement.appendChild(newDiv);
-        existingElement.appendChild("I agree to the ");
+        // existingElement.appendChild("I agree to the ");
       }
       
       $(document).on("page:load page:change", function() {
