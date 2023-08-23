@@ -192,7 +192,7 @@
           })
         }else{
           document.querySelector('#continue_button').classList.remove('hidden');
-          document.querySelector('#continue_button_clone').classList.add('hidden');
+         if(document.querySelector('#continue_button_clone')) document.querySelector('#continue_button_clone').classList.add('hidden');
         }
 
       }
