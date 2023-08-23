@@ -183,7 +183,10 @@
         checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
         getButtonParent.insertAdjacentHTML('afterbegin', cloneButtonHtml);
 
-console.log(document.querySelector('#continue_button_clone'))
+
+        if(document.querySelector('#continue_button').contains('disabled')){
+          console.log(document.querySelector('#continue_button_clone'))
+        }
 
       }
       
