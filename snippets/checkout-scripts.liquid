@@ -76,7 +76,7 @@
         button.setAttribute('disabled', true);
         button.classList.add('disabled');
         document.querySelector('#continue_button').classList.add('hidden');
-        document.querySelector('#continue_button_clone').classList.remove('hidden');
+        if(document.querySelector('#continue_button_clone')) document.querySelector('#continue_button_clone').classList.remove('hidden');
       }
     };
 
@@ -89,7 +89,7 @@
         button.removeAttribute('disabled');
         button.classList.remove('disabled');
         document.querySelector('#continue_button').classList.remove('hidden');
-        document.querySelector('#continue_button_clone').classList.add('hidden');
+        if(document.querySelector('#continue_button_clone')) document.querySelector('#continue_button_clone').classList.add('hidden');
       }
     };
 
