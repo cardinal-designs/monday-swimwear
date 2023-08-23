@@ -166,7 +166,7 @@
       }
       
       function ToggleSlider() {
-        const existingElement = document.getElementById('consent-checkbox');
+        const existingElement = document.querySelector('.checkbox_label');
         const newDiv = document.createElement('span');
         newDiv.classList.add("slider");
         existingElement.closest("div").classList.add("slider--outer");
