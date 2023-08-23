@@ -169,9 +169,10 @@
         let checkboxElement = document.querySelector('.checkbox_label'),
             footerElement = document.querySelector('.step__footer'),
             footerdisableButton = footerElement.querySelectorAll('button')[0],
-            disableButton = footerdisableButton.getAttribute("disabled");
-      
-        let appendHtml = "<span>I agree to the </span>",
+            disableButton = footerdisableButton.getAttribute("disabled"),
+            cloneButtonHtml = `<button name="button" type="submit" id="continue_button" class="step__footer__continue-btn btn disabled" aria-busy="false" disabled="true"><span class="btn__content" data-continue-button-content="true">Pay now</span><svg class="icon-svg icon-svg--size-18 btn__spinner icon-svg--spinner-button" aria-hidden="true" focusable="false"> <use xlink:href="#spinner-button"></use> </svg></button>`,
+            getButtonParent = document.querySelector('[data-step-footer]')
+            appendHtml = "<span>I agree to the </span>",
             requiredHtml = "<b>Required</b>",
             sliderDiv = document.createElement('span');
         sliderDiv.classList.add("slider");
@@ -180,6 +181,7 @@
         checkboxElement.appendChild(sliderDiv);
         sliderOuter.insertAdjacentHTML('afterbegin', requiredHtml);
         checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
+        getButtonParent.insertAdjacentHTML('afterbegin', cloneButtonHtml);
       }
       
       $(document).on("page:load page:change", function() {
