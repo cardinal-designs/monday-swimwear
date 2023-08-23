@@ -170,7 +170,7 @@
         const newDiv = document.createElement('span');
         newDiv.classList.add("slider");
         existingElement.closest("div").classList.add("slider--outer");
-        existingElement.insertAdjacentElement('afterend', newDiv);
+        existingElement.appendChild(newDiv);
       }
       
       $(document).on("page:load page:change", function() {
