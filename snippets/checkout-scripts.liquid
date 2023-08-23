@@ -60,7 +60,10 @@
       }
 
       checkContinueStatus();
+      setTimeout(function(){
       checkPayNowDisabled();
+        
+      },500)
     };
 
     const checkContinueStatus = () => {
