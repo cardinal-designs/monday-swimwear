@@ -430,6 +430,17 @@
               </div>
             </div>
           {% endif %}
+          {% if product.metafields.custom.care_instructions != blank %}
+            <div class="product__dropdown">
+              <button class="product__dropdown-header">
+                <p class="body-small">Care Instructions</p>
+                <div class="product__dropdown-control"></div>
+              </button>
+              <div class="product__dropdown-content">
+                <p class="body-small">{{ product.metafields.custom.care_instructions | newline_to_br }}</p>
+              </div>
+            </div>
+          {% endif %}
         </div>
 
       </div>
