@@ -190,6 +190,9 @@
         } else {
           document.querySelector('#continue_button').classList.remove('hidden');
          if(document.querySelector('#continue_button_clone')) document.querySelector('#continue_button_clone').classList.add('hidden');
+          document.querySelector('#continue_button_clone').addEventListener('click',function(ele){
+            document.querySelector('.slider--outer b').style.display = 'block';
+          })
         }
 
       }
