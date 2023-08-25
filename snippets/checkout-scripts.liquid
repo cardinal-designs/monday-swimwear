@@ -72,18 +72,24 @@
 
     const disableSubmitButton = () => {
       let button = document.getElementById(selectors.submitButton);
-
       if (button) {
         button.setAttribute('disabled', true);
         button.classList.add('disabled');
+        document.querySelector('#continue_button').classList.add('hidden');
+        if(document.querySelector('#continue_button_clone')) document.querySelector('#continue_button_clone').classList.remove('hidden');
       }
     };
 
     const enableSubmitButton = () => {
       let button = document.getElementById(selectors.submitButton);
       if (button) {
+        if(document.querySelector('.slider--outer b')) {
+          document.querySelector('.slider--outer b').style.display = 'none';
+        }
         button.removeAttribute('disabled');
         button.classList.remove('disabled');
+        document.querySelector('#continue_button').classList.remove('hidden');
+        if(document.querySelector('#continue_button_clone')) document.querySelector('#continue_button_clone').classList.add('hidden');
       }
     };
 
