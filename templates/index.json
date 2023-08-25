@@ -133,19 +133,10 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/349004039_772563807693704_4811084254914016398_n.jpg",
-            "text": "Ride the Wave Crochet",
+            "image": "shopify:\/\/shop_images\/1_0052d635-e9bd-4d2b-a3b5-c2231be6d70b.jpg",
+            "text": "Everyday Classics",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/ride-the-wave-crochet"
-          }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7_37b71320-c303-43af-bac5-1769f8d7f9e1.jpg",
-            "text": "Monday Maternity",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-maternity"
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -156,12 +147,21 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/one-pieces"
           }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_37b71320-c303-43af-bac5-1769f8d7f9e1.jpg",
+            "text": "Monday Maternity",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/monday-maternity"
+          }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
