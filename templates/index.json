@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/web-sale.png",
-        "mobile_image": "shopify:\/\/shop_images\/mob-sale.png",
+        "image": "shopify:\/\/shop_images\/WEB-1_1e66c793-1ecb-40ca-9419-fd645f0bfc1d.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE_02065288-99cd-442b-9f68-3ade56ad286b.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,10 +40,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+        "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "black-crinkle"
+            "collection": "the-signature-collection-1"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -52,24 +52,24 @@
             "collection": "beachwear-accessories"
           }
         },
-        "bf612915-d86f-40f2-817f-6322dada207b": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-signature-collection-1"
-          }
-        },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
             "collection": "knitwear"
           }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-crinkle"
+          }
         }
       },
       "block_order": [
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
       }
