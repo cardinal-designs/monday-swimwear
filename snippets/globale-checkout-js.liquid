@@ -29,25 +29,6 @@
   {% endif %}
 {% endfor %}
 {% if found %}
-    <script>   
-    GLBE_PARAMS = {  
-            environment: "webservices.global-e.com",   
-            siteId: "7ce243a1e1a2",   
-            isTokenEnabled: "true", 
-            billingCountry: "{{ billing_country_code }}",  
-            shippingCountry: "{{ shipping_country_code }}",    
-            shippingStateCode: "{{ shipping_state_code }}", 
-            shop: "{{ shop.permanent_domain}}",        
-            culture: "{{ locale }}",   
-            merchantId: "1260",   
-            operatedCountries: [],   
-            isOperatedCountry: () => GLBE_PARAMS.operatedCountries.indexOf(GLBE_PARAMS.shippingCountry) > -1,   
-            checkoutId: Shopify.Checkout.token,   
-            amount: {{ checkout.total_price }},  
-            integrationAppUrl: "https://crossborder-integration.global-e.com/",
-            suppressNativeAmazonPay: "true"
-    };     
-    </script> 
 {% else %}
     <script>   
     GLBE_PARAMS = {  
