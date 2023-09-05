@@ -2591,4 +2591,8 @@ header-drawer {
   }
 }
 
+/*================ Currency Selector Dropdown ================*/
+.desktop-country-switcher .CountryList {
+  right: 0;
+}
 
