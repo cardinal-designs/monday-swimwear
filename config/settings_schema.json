@@ -39,7 +39,7 @@
       },
       {
         "type": "textarea",
-        "id": "shipping_retunrs",
+        "id": "shipping_returns",
         "label": "Product Dropdown - Shipping & Returns"
       }
     ]
