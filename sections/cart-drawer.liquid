@@ -64,8 +64,8 @@
               <a href="/checkout" id="cart-checkout-button" class="cart-checkout-button inactive button button--full" name="checkout" form="cart">{{ 'sections.cart.checkout' | t }}</a>
               <h6 class="cart-drawer__taxes body-small">{{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}</h6>
               {% if localization.country.iso_code == 'GB' %}
-                <p class="cart-drawer__taxes body-small">Free express shipping and returns </p>
-                <p class="cart-drawer__taxes body-small">Duties and taxes included</p>
+                <p class="body-small" style="text-align: center; margin-top: 3px;">Free express shipping and returns </p>
+                <p class="body-small" style="text-align: center; margin-top: 3px;">Duties and taxes included</p>
               {% endif %}
             </div>
           {%- endif -%}
