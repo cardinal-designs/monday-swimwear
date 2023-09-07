@@ -2570,13 +2570,6 @@
               "answer": "<p>We recommend to always receive a receipt when dropping off your return. We do not recommend placing your return in a dropbox. If your return is lost and you have no proof of the return being sent out, we are unable to process your return.<\/p>"
             }
           },
-          "0f759d4f-a44b-4ca6-957d-23121564dac4": {
-            "type": "faq_item",
-            "settings": {
-              "title": "How do I return if I am an international customer?",
-              "answer": "<p>We are sorry to hear you are needing to return! Please <a href=\"https:\/\/web.global-e.com\/Returns\/Portal\/mZhz\" title=\"https:\/\/web.global-e.com\/Returns\/Portal\/mZhz\"><strong>use this link<\/strong><\/a> to start your return.<\/p>"
-            }
-          },
           "3896c75f-a8d8-450f-b92c-420fc4056f91": {
             "type": "faq_item",
             "settings": {
@@ -2818,7 +2811,6 @@
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6",
           "911fbafc-5e0f-4618-9f58-af0126a0a664",
           "755defbc-be9d-447a-8a4e-bfabc87541d6",
-          "0f759d4f-a44b-4ca6-957d-23121564dac4",
           "3896c75f-a8d8-450f-b92c-420fc4056f91",
           "d91f11be-c1e1-431c-98e1-15dd64466611",
           "65e8243e-6d00-40ec-be71-ebe7901b79be",
