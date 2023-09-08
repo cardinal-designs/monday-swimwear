@@ -34,6 +34,7 @@
         "blocks": {
           "0b56e1e3-e7b8-4aed-b385-258a62e98bab": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "END OF SUMMER SALE HAS STARTED 🛒 🌟"
             }

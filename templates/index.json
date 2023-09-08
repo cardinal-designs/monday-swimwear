@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/web-sale-test.png",
-        "mobile_image": "shopify:\/\/shop_images\/MOB-UPDATED.png",
+        "image": "shopify:\/\/shop_images\/WEB.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobile_3022e7a9-7ef2-49ca-848d-37c8064edc1c.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,13 @@
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "sarong"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-crinkle"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -57,19 +63,13 @@
           "settings": {
             "collection": "knitwear"
           }
-        },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "black-crinkle"
-          }
         }
       },
       "block_order": [
         "bf612915-d86f-40f2-817f-6322dada207b",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
       ],
       "settings": {
       }
@@ -86,6 +86,7 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/50_70web.png",
         "mobile_image": "shopify:\/\/shop_images\/mob-edit.png",
