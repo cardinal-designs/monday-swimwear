@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_d8ee8021-5672-41b6-b3ed-3249292873c2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_a336ed80-b087-47d5-a865-737ef954db03.jpg",
+        "image": "shopify:\/\/shop_images\/maternity-web2.png",
+        "mobile_image": "shopify:\/\/shop_images\/maternity-mob2.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-left",
         "button_label": "START SHOPPING",
-        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
+        "button_link": "shopify:\/\/collections\/monday-maternity",
         "overlay_link": true
       }
     },
@@ -131,13 +131,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_0052d635-e9bd-4d2b-a3b5-c2231be6d70b.jpg",
-            "text": "Everyday Classics",
+            "image": "shopify:\/\/shop_images\/3_2b7516ff-32f6-42fa-8cfd-cdd4f06240be.jpg",
+            "text": "Monday Maternity",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "link": "shopify:\/\/collections\/monday-maternity"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -149,20 +149,20 @@
             "link": "shopify:\/\/collections\/one-pieces"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_37b71320-c303-43af-bac5-1769f8d7f9e1.jpg",
-            "text": "Monday Maternity",
+            "image": "shopify:\/\/shop_images\/1_0052d635-e9bd-4d2b-a3b5-c2231be6d70b.jpg",
+            "text": "Everyday Classics",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-maternity"
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
