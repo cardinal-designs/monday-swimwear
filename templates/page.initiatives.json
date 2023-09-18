@@ -21,6 +21,17 @@
     "16432137026d4e6bd7": {
       "type": "initiatives-image-text",
       "blocks": {
+        "f0b56d44-de86-4ff3-80a1-db6b466b1f19": {
+          "type": "block",
+          "settings": {
+            "reversed": false,
+            "image": "shopify:\/\/shop_images\/1_268fa0ef-1b5a-474f-8cb6-fa5b60720b3e.jpg",
+            "title": "The Ovarian Cancer Research Foundation (OCRF)",
+            "text": "15% of sales from orders placed through Sept 18 - Oct 18, 2023 from our Maternity collection will be donated to The Ovarian Cancer Research Foundation (OCRF).\n<br>\n<br>\nThe OCRF prioritizes investing as much as possible into ovarian cancer research projects that align with their research priorities and will have the greatest impact for the greatest number of women and girls. Their role is to fill the funding gap left by a history of underfunding in the ovarian cancer research sector, whilst advocating for uplift in both government and philanthropic funding to achieve a stepped change in survival outcomes for ovarian cancer.",
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.ocrf.com.au\/about-us"
+          }
+        },
         "3a1d5ed5-07f5-41a1-9c1d-8dcd98ebe5fe": {
           "type": "block",
           "settings": {
@@ -210,6 +221,7 @@
         }
       },
       "block_order": [
+        "f0b56d44-de86-4ff3-80a1-db6b466b1f19",
         "3a1d5ed5-07f5-41a1-9c1d-8dcd98ebe5fe",
         "f6cf5b57-495c-4abc-bfff-635a57b5536b",
         "39ebb8e9-f346-4d35-948b-d76410c2605e",
