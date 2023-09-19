@@ -296,7 +296,7 @@
   }
 
   .monday-body .collection-filters__right {
-    display: none;
+    /* display: none; */
   }
 
   .monday-body .collection-filters__mobile-buttons {
