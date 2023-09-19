@@ -299,6 +299,10 @@
     /* display: none; */
   }
 
+  .collection-filters__total {
+    display: none;
+  }
+
   .monday-body .collection-filters__mobile-buttons {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     gap: 0;
