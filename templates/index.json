@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/maternity-web2.png",
-        "mobile_image": "shopify:\/\/shop_images\/maternity-mob2.png",
+        "image": "shopify:\/\/shop_images\/cozy-web2.png",
+        "mobile_image": "shopify:\/\/shop_images\/cozy-mob3.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,16 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "bf612915-d86f-40f2-817f-6322dada207b": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-signature-collection-1"
-          }
-        },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
             "collection": "knitwear"
+          }
+        },
+        "bf612915-d86f-40f2-817f-6322dada207b": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -66,8 +66,8 @@
         }
       },
       "block_order": [
-        "bf612915-d86f-40f2-817f-6322dada207b",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "bf612915-d86f-40f2-817f-6322dada207b",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
