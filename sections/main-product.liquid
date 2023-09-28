@@ -378,7 +378,13 @@
           </div>
           <div class="product__dropdown hide-desktop">
             <button class="product__dropdown-header">
-              <p class="body-small">Description</p>
+              <p class="body-small">
+                {% if product.metafields.custom.monday_body == true %}
+                  Features
+                {% else %}
+                  Description
+                {% endif %}
+              </p>
               <div class="product__dropdown-control"></div>
             </button>
             <div class="product__dropdown-content">
