@@ -173,6 +173,11 @@
         "type": "textarea",
         "id": "fit_note",
         "label": "Product Fit & Size Note"
+      },
+      {
+        "type": "textarea",
+        "id": "body_fit_note",
+        "label": "Monday Body Product Fit & Size Note"
       }
     ]
   },
