@@ -1,1 +1,26 @@
-{"sections":{"main":{"type":"main-product","settings":{}},"16426285735ee00f29":{"type":"product-bar","settings":{"title":""}}},"order":["main","16426285735ee00f29"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "aa2ac3bb-a957-4081-9be6-9e6c64284d94": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aa2ac3bb-a957-4081-9be6-9e6c64284d94",
+    "16426285735ee00f29"
+  ]
+}
