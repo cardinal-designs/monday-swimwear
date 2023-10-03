@@ -6,9 +6,9 @@
         "layout": "full",
         "image": "shopify:\/\/shop_images\/1_1e19fde5-9451-4bc4-bdcf-03bc2ebbd4f6.jpg",
         "subtitle": "",
-        "title": "",
-        "button_label": "Shop New Arrivals",
-        "button_link": ""
+        "title": "only the best for your body",
+        "button_label": "Shop Monday Body",
+        "button_link": "shopify:\/\/collections\/monday-body"
       }
     },
     "5226b9f2-5319-4123-8208-701823acaaaa": {
@@ -42,7 +42,7 @@
         "c1f64361-f86a-42b3-917d-0eff2ac9311d"
       ],
       "settings": {
-        "title": "Lounge essentials for any kind of movement.",
+        "title": "Essentials for any kind of movement.",
         "products": [
           "antigua-monday-cap-white",
           "antigua-monday-cap-black",
