@@ -4,8 +4,7 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/230929_Monday_Swim_14_0838.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_14_0780.jpg",
+        "image": "shopify:\/\/shop_images\/1_1e19fde5-9451-4bc4-bdcf-03bc2ebbd4f6.jpg",
         "subtitle": "",
         "title": "",
         "button_label": "Shop New Arrivals",
@@ -50,7 +49,7 @@
           "hamptons-dress-husk-crochet",
           "almafi-sarong-black"
         ],
-        "image": "shopify:\/\/shop_images\/230929_Monday_Swim_04_0259.jpg",
+        "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
         "text_1": "move in monday",
         "text_2": ""
       }
@@ -125,8 +124,8 @@
     "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
       "type": "body-image-text-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/230929_Monday_Swim_61_3160.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_60_3145.jpg",
+        "image": "shopify:\/\/shop_images\/7_f4c90498-b27a-493d-ac51-576f8c380dfe.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_58_2978.jpg",
         "section_size": "large",
         "content_position": "left",
         "text": "",
@@ -140,7 +139,7 @@
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/230929_Monday_Swim_32_1684.jpg",
+            "image": "shopify:\/\/shop_images\/shorts.jpg",
             "title": "Shorts",
             "link": "shopify:\/\/collections\/monday-body-shorts"
           }
@@ -148,7 +147,7 @@
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/230929_Monday_Swim_07_0468.jpg",
+            "image": "shopify:\/\/shop_images\/Tops_55c45482-2d07-4e34-afd6-43674bfa6369.jpg",
             "title": "Tops",
             "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
           }
@@ -156,7 +155,7 @@
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/230929_Monday_Swim_13_0744.jpg",
+            "image": "shopify:\/\/shop_images\/l_98f9a278-3044-4217-9746-af2112da5d9a.jpg",
             "title": "Leggings",
             "link": "shopify:\/\/collections\/monday-body-leggings"
           }
