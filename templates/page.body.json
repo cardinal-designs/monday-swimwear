@@ -4,10 +4,10 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/Image_49.jpg",
+        "image": "shopify:\/\/shop_images\/Group_2175.png",
         "mobile_image": "shopify:\/\/shop_images\/Image_50.jpg",
-        "subtitle": "Every Body is a Monday Body",
-        "title": "Introducing Monday Body",
+        "subtitle": "",
+        "title": "",
         "button_label": "Shop New Arrivals",
         "button_link": ""
       }
@@ -125,12 +125,12 @@
     "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
       "type": "body-image-text-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_22.jpg",
+        "image": "shopify:\/\/shop_images\/Group_2181.png",
         "mobile_image": "shopify:\/\/shop_images\/Rectangle_23.jpg",
         "section_size": "large",
         "content_position": "left",
-        "text": "Introducing—\nEssential Classics",
-        "button_label": "Shop the Edit",
+        "text": "",
+        "button_label": "",
         "button_link": ""
       }
     },
