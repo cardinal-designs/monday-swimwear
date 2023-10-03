@@ -895,6 +895,6 @@ variant-radios fieldset {
   line-height: 1.65;
 }
 
-.monday-body #dropahint #dropahint-cta a {
+.monday-body #dropahint #dropahint-cta #u_body a {
   background: #EFF3DA !important;
 }
