@@ -35,8 +35,16 @@
             "filters": "P,S,M,L,V,VV,VVV,OS,P\/S,M\/L,S\/M,L\/V,V\/VV"
           }
         },
+        "74b450a9-2cb0-427f-8408-0c2c61ddf5c5": {
+          "type": "filter_category",
+          "settings": {
+            "title": "Fabric",
+            "filters": "Recycled Jersey,Recycled Rib"
+          }
+        },
         "4802a76d-c48c-4206-968b-2d7341f784cd": {
           "type": "filter_category",
+          "disabled": true,
           "settings": {
             "title": "Fit",
             "filters": "Triangle,Underwire,Supportive,Minimal,Cheeky,Moderate,High Waisted"
@@ -47,6 +55,7 @@
         "27cfdb60-012e-4ea5-b1af-606afdc76a15",
         "8a83884e-ac94-4475-959e-f30b73e1b9fd",
         "117d4bde-f25c-4a9a-8d12-3978feae7f74",
+        "74b450a9-2cb0-427f-8408-0c2c61ddf5c5",
         "4802a76d-c48c-4206-968b-2d7341f784cd"
       ],
       "settings": {
