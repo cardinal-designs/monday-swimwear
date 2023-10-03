@@ -12,50 +12,6 @@
         "button_link": "shopify:\/\/collections\/monday-body"
       }
     },
-    "5226b9f2-5319-4123-8208-701823acaaaa": {
-      "type": "body-featured-collection",
-      "blocks": {
-        "3b43e28f-6d9d-48de-8b70-428d017e8d99": {
-          "type": "link",
-          "settings": {
-            "title": "Bras + Tops",
-            "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
-          }
-        },
-        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "title": "Sets",
-            "link": ""
-          }
-        },
-        "c1f64361-f86a-42b3-917d-0eff2ac9311d": {
-          "type": "link",
-          "settings": {
-            "title": "Shop All",
-            "link": "shopify:\/\/collections\/monday-body"
-          }
-        }
-      },
-      "block_order": [
-        "3b43e28f-6d9d-48de-8b70-428d017e8d99",
-        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9",
-        "c1f64361-f86a-42b3-917d-0eff2ac9311d"
-      ],
-      "settings": {
-        "title": "Activewear designed to meet your needs.",
-        "products": [
-          "olympic-tank-black",
-          "acadia-long-legging-black",
-          "antigua-monday-cap-black",
-          "antigua-monday-cap-white"
-        ],
-        "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
-        "text_1": "move in monday",
-        "text_2": ""
-      }
-    },
     "635ff124-63e6-45d6-bcb9-6bdb30de0929": {
       "type": "body-text-buttons",
       "blocks": {
@@ -112,15 +68,8 @@
         "8e1972bc-5b3e-40f9-9906-f711c791649e",
         "1ecbf218-8471-457a-9c60-58c0199f3bd0"
       ],
+      "disabled": true,
       "settings": {
-      }
-    },
-    "8222a001-2c98-41d9-b358-90938e713902": {
-      "type": "body-product-slider",
-      "settings": {
-        "title": "Explore Best Sellers",
-        "text": "Every body is a Monday Body",
-        "collection": "monday-beachwear"
       }
     },
     "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
@@ -133,6 +82,14 @@
         "text": "",
         "button_label": "FORM & FUNCTION",
         "button_link": "shopify:\/\/collections\/monday-body-shorts-and-leggings"
+      }
+    },
+    "8222a001-2c98-41d9-b358-90938e713902": {
+      "type": "body-product-slider",
+      "settings": {
+        "title": "Explore Best Sellers",
+        "text": "Every body is a Monday Body",
+        "collection": "monday-beachwear"
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
@@ -170,15 +127,59 @@
       ],
       "settings": {
       }
+    },
+    "5226b9f2-5319-4123-8208-701823acaaaa": {
+      "type": "body-featured-collection",
+      "blocks": {
+        "3b43e28f-6d9d-48de-8b70-428d017e8d99": {
+          "type": "link",
+          "settings": {
+            "title": "Bras + Tops",
+            "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
+          }
+        },
+        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "title": "Sets",
+            "link": ""
+          }
+        },
+        "c1f64361-f86a-42b3-917d-0eff2ac9311d": {
+          "type": "link",
+          "settings": {
+            "title": "Shop All",
+            "link": "shopify:\/\/collections\/monday-body"
+          }
+        }
+      },
+      "block_order": [
+        "3b43e28f-6d9d-48de-8b70-428d017e8d99",
+        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9",
+        "c1f64361-f86a-42b3-917d-0eff2ac9311d"
+      ],
+      "settings": {
+        "title": "Activewear designed to meet your needs.",
+        "products": [
+          "olympic-tank-black",
+          "acadia-long-legging-black",
+          "antigua-monday-cap-black",
+          "antigua-monday-cap-white"
+        ],
+        "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
+        "text_1": "move in monday",
+        "text_2": ""
+      }
     }
   },
   "order": [
     "main",
-    "5226b9f2-5319-4123-8208-701823acaaaa",
     "635ff124-63e6-45d6-bcb9-6bdb30de0929",
     "9391d348-ff6a-43ba-a74c-23aeca4fc41d",
-    "8222a001-2c98-41d9-b358-90938e713902",
     "03602058-ccae-4fa9-916e-2dc87c0edbc7",
-    "2e292e74-3650-4541-a5ee-97da8f358f0a"
+    "8222a001-2c98-41d9-b358-90938e713902",
+    "2e292e74-3650-4541-a5ee-97da8f358f0a",
+    "5226b9f2-5319-4123-8208-701823acaaaa"
   ]
 }
