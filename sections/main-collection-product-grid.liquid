@@ -89,11 +89,15 @@
                     {% assign position = block.settings.position %}
                     {% if position == current_loop %}
                       <li class="product-grid__body-card">
-                        {% if block.settings.mobile_image != blank %}
-                          {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
-                          {% render 'lazy-image' image: block.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+                        {% if block.settings.video != blank %}
+                          {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
                         {% else %}
-                          {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                          {% if block.settings.mobile_image != blank %}
+                            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+                            {% render 'lazy-image' image: block.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+                          {% else %}
+                            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                          {% endif %}
                         {% endif %}
                         <div class="product-grid__body-card-text">
                           <h2 class="sh2">{{ block.settings.text }}</h2>
