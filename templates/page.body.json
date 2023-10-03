@@ -17,8 +17,8 @@
         "3b43e28f-6d9d-48de-8b70-428d017e8d99": {
           "type": "link",
           "settings": {
-            "title": "Tops",
-            "link": "shopify:\/\/collections\/monday-body-tops"
+            "title": "Bras + Tops",
+            "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
           }
         },
         "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
@@ -60,14 +60,14 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Best Sellers",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/monday-body"
           }
         },
         "6c173b61-db74-455f-945e-8133931a472d": {
           "type": "button",
           "settings": {
             "button_label": "Shop New Arrivals",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/monday-body-new-arrivals"
           }
         }
       },
