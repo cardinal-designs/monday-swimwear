@@ -8,7 +8,11 @@
           {% for block in section.blocks %}
             <div class="body-content-slider__image swiper-slide" {{ block.shopify_attributes }}>
               <div class="body-content-slider__image-wrapper">
-                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                {% if block.settings.video != blank %}
+                  {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
+                {% else %}
+                  {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                {% endif %}
                 {% if block.settings.image_caption != blank %}
                   <div class="body-content-slider__image-caption caption">{{ block.settings.image_caption }}</div>
                 {% endif %}
@@ -100,6 +104,11 @@
             "type": "image_picker",
             "id": "image",
             "label": "Image"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
           },
           {
             "type": "richtext",
