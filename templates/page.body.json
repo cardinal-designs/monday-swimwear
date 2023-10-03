@@ -139,6 +139,13 @@
             "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
           }
         },
+        "c1f64361-f86a-42b3-917d-0eff2ac9311d": {
+          "type": "link",
+          "settings": {
+            "title": "Shop All",
+            "link": "shopify:\/\/collections\/monday-body"
+          }
+        },
         "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
           "type": "link",
           "disabled": true,
@@ -146,27 +153,20 @@
             "title": "Sets",
             "link": ""
           }
-        },
-        "c1f64361-f86a-42b3-917d-0eff2ac9311d": {
-          "type": "link",
-          "settings": {
-            "title": "Shop All",
-            "link": "shopify:\/\/collections\/monday-body"
-          }
         }
       },
       "block_order": [
         "3b43e28f-6d9d-48de-8b70-428d017e8d99",
-        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9",
-        "c1f64361-f86a-42b3-917d-0eff2ac9311d"
+        "c1f64361-f86a-42b3-917d-0eff2ac9311d",
+        "ab52e1b5-aa42-4277-abcb-8053dc7f88f9"
       ],
       "settings": {
         "title": "Activewear designed to meet your needs.",
         "products": [
-          "olympic-tank-black",
-          "acadia-long-legging-black",
-          "antigua-monday-cap-black",
-          "antigua-monday-cap-white"
+          "acklins-mirror-ivory-swirl",
+          "acklins-mirror-tortoise",
+          "acqua-tote-bag-husk",
+          "acqua-tote-bag-terry"
         ],
         "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
         "text_1": "move in monday",
@@ -175,6 +175,7 @@
     },
     "378f8bcc-8310-4139-a1cf-71b6272c8169": {
       "type": "instagram",
+      "disabled": true,
       "settings": {
         "left_text": "",
         "right_text": ""
