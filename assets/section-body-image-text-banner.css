@@ -27,36 +27,15 @@
   display: flex;
 }
 
-.body-image-text-banner--top-center .page-width {
-  justify-content: center;
-  text-align: center;
-}
-
-.body-image-text-banner--top-right .page-width {
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.body-image-text-banner--center .page-width {
-  justify-content: center;
-  text-align: center;
-}
-
-.body-image-text-banner--center-right .page-width {
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.body-image-text-banner--bottom-left .page-width {
-  justify-content: center;
-  text-align: center;
-}
-
+.body-image-text-banner--top-center .page-width,
+.body-image-text-banner--center .page-width,
 .body-image-text-banner--bottom-center .page-width {
   justify-content: center;
   text-align: center;
 }
 
+.body-image-text-banner--top-right .page-width,
+.body-image-text-banner--center-right .page-width,
 .body-image-text-banner--bottom-right .page-width {
   justify-content: flex-end;
   text-align: right;
