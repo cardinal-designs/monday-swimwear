@@ -50,9 +50,9 @@
           "hamptons-dress-husk-crochet",
           "almafi-sarong-black"
         ],
-        "image": "shopify:\/\/shop_images\/Image_51.jpg",
-        "text_1": "Get Monday",
-        "text_2": "Ready"
+        "image": "shopify:\/\/shop_images\/230929_Monday_Swim_14_0780.jpg",
+        "text_1": "move in monday",
+        "text_2": ""
       }
     },
     "635ff124-63e6-45d6-bcb9-6bdb30de0929": {
@@ -87,7 +87,7 @@
         "8e1972bc-5b3e-40f9-9906-f711c791649e": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_24.jpg",
+            "image": "shopify:\/\/shop_images\/DSCF1469.jpg",
             "image_caption": "<p>Devin In <a href=\"\/products\/antigua-monday-cap-black\" title=\"Antigua Monday Cap - Black\">The Tash Top<\/a><\/p>",
             "title": "The it-girl—\nour summer capsule",
             "text": "An essential mode of achieving this is ensuring their designs are based off timeless pieces they know will compliment and flatter the female form, as opposed to recreating size-specific, temporary trends.",
@@ -125,46 +125,46 @@
     "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
       "type": "body-image-text-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_2181.png",
-        "mobile_image": "shopify:\/\/shop_images\/Rectangle_23.jpg",
+        "image": "shopify:\/\/shop_images\/230929_Monday_Swim_61_3160.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_60_3145.jpg",
         "section_size": "large",
         "content_position": "left",
         "text": "",
-        "button_label": "",
+        "button_label": "FORM & FUNCTION",
         "button_link": ""
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
-        "228154d8-da02-4a47-bdfb-eddec1bf3051": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Image_51.jpg",
-            "title": "New In",
-            "link": ""
-          }
-        },
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_20.jpg",
-            "title": "Sets",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/230929_Monday_Swim_32_1684.jpg",
+            "title": "Shorts",
+            "link": "shopify:\/\/collections\/monday-body-shorts"
+          }
+        },
+        "228154d8-da02-4a47-bdfb-eddec1bf3051": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/230929_Monday_Swim_07_0468.jpg",
+            "title": "Tops",
+            "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
           }
         },
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_21.jpg",
-            "title": "About",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/230929_Monday_Swim_13_0744.jpg",
+            "title": "Leggings",
+            "link": "shopify:\/\/collections\/monday-body-leggings"
           }
         }
       },
       "block_order": [
-        "228154d8-da02-4a47-bdfb-eddec1bf3051",
         "553d10dc-6642-4b1c-815d-95677cea6218",
+        "228154d8-da02-4a47-bdfb-eddec1bf3051",
         "8f087094-f3ad-4736-93d9-157a37f38591"
       ],
       "settings": {
