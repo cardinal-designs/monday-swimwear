@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+.body-image-text-banner--bottom-left,
+.body-image-text-banner--bottom-center,
+.body-image-text-banner--bottom-right {
+  align-items: flex-end;
+}
+
 .body-image-text-banner--large {
   min-height: 500px;
   align-items: flex-start;
@@ -37,6 +43,21 @@
 }
 
 .body-image-text-banner--center-right .page-width {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.body-image-text-banner--bottom-left .page-width {
+  justify-content: center;
+  text-align: center;
+}
+
+.body-image-text-banner--bottom-center .page-width {
+  justify-content: center;
+  text-align: center;
+}
+
+.body-image-text-banner--bottom-right .page-width {
   justify-content: flex-end;
   text-align: right;
 }
