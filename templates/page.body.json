@@ -46,8 +46,10 @@
       "settings": {
         "title": "Activewear designed to meet your needs.",
         "products": [
-          "antigua-monday-cap-white",
-          "antigua-monday-cap-black"
+          "olympic-tank-black",
+          "acadia-long-legging-black",
+          "antigua-monday-cap-black",
+          "antigua-monday-cap-white"
         ],
         "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
         "text_1": "move in monday",
@@ -127,10 +129,10 @@
         "image": "shopify:\/\/shop_images\/7_f4c90498-b27a-493d-ac51-576f8c380dfe.jpg",
         "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_58_2978.jpg",
         "section_size": "large",
-        "content_position": "center",
+        "content_position": "bottom-center",
         "text": "",
         "button_label": "FORM & FUNCTION",
-        "button_link": ""
+        "button_link": "shopify:\/\/collections\/monday-body-shorts-and-leggings"
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
