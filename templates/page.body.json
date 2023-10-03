@@ -17,6 +17,7 @@
       "blocks": {
         "35c83083-4988-4b36-a6e5-5d710f995fd7": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Shop Best Sellers",
             "button_link": "shopify:\/\/collections\/monday-body"
