@@ -894,3 +894,7 @@ variant-radios fieldset {
 .monday-body .product__dropdown-content .body-small {
   line-height: 1.65;
 }
+
+.monday-body .a.v-size-width.v-line-height.v-padding.v-button-colors.v-border.v-border-radius.v-font-family.v-font-size.v-font-weight {
+  background: #EFF3DA !important;
+}
