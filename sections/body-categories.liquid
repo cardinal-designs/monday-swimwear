@@ -5,7 +5,11 @@
     <div class="body-categories__container">
       {% for block in section.blocks %}
         <a href="{{ block.settings.link }}" class="body-categories__block fade-in-up" {{ block.shopify_attributes }}>
-          {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+          {% if block.settings.video != blank %}
+            {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
+          {% else %}
+            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+          {% endif %}
           <h2 class="body-categories__block-title h2">{{ block.settings.title }}</h2>
         </a>
       {% endfor %}
@@ -28,6 +32,11 @@
             "type": "image_picker",
             "id": "image",
             "label": "Image"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
           },
           {
             "type": "text",
