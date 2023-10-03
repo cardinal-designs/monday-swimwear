@@ -17,12 +17,13 @@
         "3b43e28f-6d9d-48de-8b70-428d017e8d99": {
           "type": "link",
           "settings": {
-            "title": "New Arrivals",
-            "link": ""
+            "title": "Tops",
+            "link": "shopify:\/\/collections\/monday-body-tops"
           }
         },
         "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "title": "Sets",
             "link": ""
@@ -32,7 +33,7 @@
           "type": "link",
           "settings": {
             "title": "Shop All",
-            "link": ""
+            "link": "shopify:\/\/collections\/monday-body"
           }
         }
       },
@@ -95,7 +96,7 @@
         "1ecbf218-8471-457a-9c60-58c0199f3bd0": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_51.jpg",
+            "image": "shopify:\/\/shop_images\/2_01b35f32-72f3-4185-908d-5f1599a817db.jpg",
             "image_caption": "",
             "title": "The it-girl uniform",
             "text": "Go to pieces for all day wear. Stylish, comfortable, and flattering. These are designed to take you from class to wherever your day takes you.",
