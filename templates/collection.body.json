@@ -77,9 +77,11 @@
     },
     "fcd4feb4-0ea0-4bb8-a059-89c84b2396b9": {
       "type": "body-image-text-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Vector.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Vector_1.jpg",
+        "section_size": "small",
         "content_position": "left",
         "text": "Introducing—\nEssential Classics",
         "button_label": "Explore the Fit Guide",
