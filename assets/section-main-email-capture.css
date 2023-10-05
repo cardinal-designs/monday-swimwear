@@ -5,7 +5,8 @@
 }
 
 .email-capture {
-  margin: 100px 0;
+  min-height: 100dvh;
+  margin: 40px 0;
 }
 
 .email-capture__svg {
