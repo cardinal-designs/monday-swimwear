@@ -9,6 +9,10 @@
   margin: 40px 0;
 }
 
+.email-capture .page-width {
+  height: 100%;
+}
+
 .email-capture__svg {
   margin: 0 auto 60px;
   display: block;
