@@ -17,6 +17,10 @@
   align-items: flex-end;
 }
 
+.body-image-text-banner--large {
+  min-height: 500px;
+}
+
 .body-image-text-banner .page-width {
   width: 100%;
   display: flex;
@@ -49,6 +53,15 @@
 .body-image-text-banner--center .body-image-text-banner__text {
   margin-left: auto;
   margin-right: auto;
+}
+
+.body-image-text-banner__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
 }
 
 @media screen and (max-width: 768px) {
