@@ -11,7 +11,7 @@
 }
 
 .email-capture .page-width {
-  height: 100%;
+  height: auto;
 }
 
 .email-capture__svg {
