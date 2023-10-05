@@ -41,10 +41,13 @@
 
 @media screen and (max-width: 1024x) {
   .email-capture__container {
-    gap: 60px;
+    gap: 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
-
+  .email-capture__container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
