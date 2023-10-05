@@ -2,3 +2,38 @@
 #shopify-section-body-footer {
   display: none !important;
 }
+
+.email-capture {
+  margin: 100px 0;
+}
+
+.email-capture__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.email-capture__image {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.email-capture__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-capture__content-container {
+  max-width: 500px;
+  width: 100%;
+}
+
+.email-capture__title {
+  margin: 0 0 20px;
+}
+
+.email-capture__text {
+  margin: 0 0 30px;
+}
