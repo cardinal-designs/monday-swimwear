@@ -38,3 +38,13 @@
 .email-capture__text {
   margin: 0 0 30px;
 }
+
+@media screen and (max-width: 1024x) {
+  .email-capture__container {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
