@@ -1,4 +1,4 @@
-.shopify-section-header,
-.shopify-section-footer {
+#shopify-section-body-header,
+#shopify-section-body-footer {
   display: none !important;
 }
