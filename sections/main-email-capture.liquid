@@ -1,12 +1,45 @@
+{{ 'section-main-email-capture.css' | asset_url | stylesheet_tag }}
+
+<div class="email-capture">
+  <div class="page-width">
+    <div class="email-capture__container">
+      <div class="email-capture__image">
+        {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+      </div>
+      <div class="email-capture__content">
+        <div class="email-capture__content">
+          {% if section.settings.title != blank %}
+            <h4 class="email-capture__title">{{ section.settings.title }}</h4>
+          {% endif %}
+          {% if section.settings.text != blank %}
+            <p class="email-capture__text body-sm">{{ section.settings.text | newline_to_br }}</p>
+          {% endif %}
+          <div class="klaviyo-form-SJSUh8"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Email Capture",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
