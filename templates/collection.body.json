@@ -18,7 +18,7 @@
           "type": "filter_category",
           "settings": {
             "title": "Category",
-            "filters": "Swim Tops,Swim Bottom,One Piece,Beachwear, Accessories"
+            "filters": "Swim Tops,Swim Bottom,One Piece,Beachwear, Accessories,Activewear"
           }
         },
         "8a83884e-ac94-4475-959e-f30b73e1b9fd": {
@@ -94,7 +94,8 @@
         "content_position": "left",
         "text": "Introducing—\nEssential Classics",
         "button_label": "Explore the Fit Guide",
-        "button_link": ""
+        "button_link": "",
+        "make_section_clickable": false
       }
     },
     "1650914085930480e5": {
