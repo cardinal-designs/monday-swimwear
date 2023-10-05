@@ -8,6 +8,11 @@
   margin: 100px 0;
 }
 
+.email-capture__svg {
+  margin: 0 auto 60px;
+  display: block;
+}
+
 .email-capture__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
