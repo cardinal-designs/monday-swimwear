@@ -6,7 +6,8 @@
 
 .email-capture {
   min-height: 100dvh;
-  margin: 40px 0;
+  padding: 40px 0;
+  display: flex;
 }
 
 .email-capture .page-width {
