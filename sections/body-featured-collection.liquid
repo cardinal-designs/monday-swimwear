@@ -15,11 +15,15 @@
     </div>
     <div class="body-collection__container fade-in-up">
       <div class="body-collection__image-container">
-        <div class="body-collection__image">
-          {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+        <a href="{{ section.settings.image_link }}" class="body-collection__image">
+          {% if section.settings.video != blank %}
+            {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
+          {% else %}
+            {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+          {% endif %}
           <p class="body-collection__image-text body-collection__image-text--1 h1">{{ section.settings.text_1 }}</p>
           <p class="body-collection__image-text body-collection__image-text--2 h1">{{ section.settings.text_2 }}</p>
-        </div>
+        </a>
       </div>
       <div class="body-collection__products">
         {% for product in section.settings.products %}
@@ -50,6 +54,16 @@
         "type": "image_picker",
         "id": "image",
         "label": "Image"
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video"
+      },
+      {
+        "type": "url",
+        "id": "image_link",
+        "label": "Image Link"
       },
       {
         "type": "text",
