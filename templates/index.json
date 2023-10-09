@@ -136,7 +136,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/383849190_868067781592754_5424332746345605521_n.jpg",
             "text": "Comfy & Cozy",
-            "link_label": "Shop Now",
+            "link_label": "Shop Knitwear",
             "link": "shopify:\/\/collections\/knitwear"
           }
         },
@@ -145,7 +145,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3_2b7516ff-32f6-42fa-8cfd-cdd4f06240be.jpg",
             "text": "Monday Maternity",
-            "link_label": "Shop Now",
+            "link_label": "Shop Maternity",
             "link": "shopify:\/\/collections\/monday-maternity"
           }
         },
@@ -154,7 +154,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/OP_deb7a292-909c-4e99-b4a8-557be7eb3a59.jpg",
             "text": "Swim One Pieces",
-            "link_label": "Shop Now",
+            "link_label": "Shop One Pieces",
             "link": "shopify:\/\/collections\/one-pieces"
           }
         }
