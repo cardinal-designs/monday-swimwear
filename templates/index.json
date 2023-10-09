@@ -3,13 +3,13 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/twotone3-web_fb0afaaf-54a9-4bb3-a8c7-29c0d84c9d31.png",
-        "mobile_image": "shopify:\/\/shop_images\/twotone1-mob_49882e52-d6a1-45c5-bc66-98eb158f514d.png",
+        "image": "shopify:\/\/shop_images\/Group_2194.png",
+        "mobile_image": "shopify:\/\/shop_images\/Group_2200.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-left",
-        "button_label": "START SHOPPING",
+        "button_label": "SHOP RESORT '24",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
@@ -43,19 +43,19 @@
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "ivory-black"
-          }
-        },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "knitwear"
+            "collection": "copper-rib"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
+          }
+        },
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-premium-rib-collection"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -67,8 +67,8 @@
       },
       "block_order": [
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "bf612915-d86f-40f2-817f-6322dada207b",
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
@@ -140,15 +140,6 @@
             "link": "shopify:\/\/collections\/knitwear"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/OP_deb7a292-909c-4e99-b4a8-557be7eb3a59.jpg",
-            "text": "Swim One Pieces",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/one-pieces"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -157,12 +148,21 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-maternity"
           }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP_deb7a292-909c-4e99-b4a8-557be7eb3a59.jpg",
+            "text": "Swim One Pieces",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/one-pieces"
+          }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
