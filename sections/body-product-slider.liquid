@@ -28,6 +28,7 @@
           </div>
         {% endfor %}
       </div>
+      <div class="body-product-slider__slider-pagination swiper-pagination hide-desktop"></div>
     </div>
     <p class="body-product-slider__text tag hide-desktop">{{ section.settings.text }}</p>
   </div>
@@ -45,6 +46,9 @@
     navigation: {
       prevEl: '.body-product-slider .swiper-button-prev',
       nextEl: '.body-product-slider .swiper-button-next'
+    },
+    pagination: {
+      el: '.body-product-slider__slider-pagination'
     },
     breakpoints: {
       1: {
