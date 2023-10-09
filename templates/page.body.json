@@ -181,14 +181,6 @@
         "left_text": "",
         "right_text": ""
       }
-    },
-    "1eda7426-e5bb-46d1-b8e5-12ed029c7011": {
-      "type": "body-product-slider",
-      "settings": {
-        "title": "",
-        "text": "testing",
-        "collection": "argentina-bottom"
-      }
     }
   },
   "order": [
@@ -199,7 +191,6 @@
     "8222a001-2c98-41d9-b358-90938e713902",
     "2e292e74-3650-4541-a5ee-97da8f358f0a",
     "5226b9f2-5319-4123-8208-701823acaaaa",
-    "378f8bcc-8310-4139-a1cf-71b6272c8169",
-    "1eda7426-e5bb-46d1-b8e5-12ed029c7011"
+    "378f8bcc-8310-4139-a1cf-71b6272c8169"
   ]
 }
