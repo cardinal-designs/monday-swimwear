@@ -1429,12 +1429,13 @@ deferred-media {
 
 .announcement-bar__tab-container {
   position: relative;
+  display: flex;
 }
 
 .announcement-bar__tab.active .announcement-bar__tab-container::after {
   content: '';
   position: absolute;
-  bottom: -3px;
+  bottom: -4px;
   left: 0;
   right: 0;
   border-bottom: 1.5px solid white;
