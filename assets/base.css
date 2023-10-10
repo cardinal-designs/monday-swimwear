@@ -1394,35 +1394,14 @@ deferred-media {
   }
 }
 
-/* #shopify-section-announcement-bar {
-  position: relative;
-  z-index: 4;
+/* New edits */
+.announcement-bar {
+  background-color: black;
+  color: white;
 }
 
-.announcement-bar__wrapper {
-  margin: 0 -5px;
-  display: flex;
-  align-items: center;
-}
 
-.announcement-bar__slider .swiper-wrapper {
-  align-items: center;
-}
-
-.announcement-bar__wrapper .swiper-button {
-  padding: 5px;
-}
-
-.announcement-bar__item {
-  padding: 6px 0 9px;
-  display: block;
-  text-align: center;
-}
-
-.announcement-bar__item p {
-  margin: 0;
-}
-
+/* 
 @media screen and (max-width: 768px) {
   .announcement-bar__item p {
     font-size: 12px;
