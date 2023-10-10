@@ -45,6 +45,10 @@
   color: white;
 }
 
+.body-image-text-banner__subtitle {
+  margin: 0 0 30px;
+}
+
 .body-image-text-banner__text {
   max-width: 315px;
   margin: 0 0 35px;
