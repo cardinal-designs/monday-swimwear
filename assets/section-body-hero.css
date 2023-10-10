@@ -16,16 +16,60 @@
   height: auto;
   padding: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   z-index: 2;
+}
+
+.body-hero__content--top-left {
+  text-align: left;
+}
+
+.body-hero__content--top-center {
+  justify-content: center;
+  text-align: center;
+}
+
+.body-hero__content--top-right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.body-hero__content--center-left {
+  align-items: center;
+  text-align: center;
+}
+
+.body-hero__content--center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.body-hero__content--center {
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+.body-hero__content--bottom-left {
+  align-items: flex-end;
+}
+
+.body-hero__content--bottom-center {
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.body-hero__content--bottom-right {
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
 }
 
 .body-hero__content-container {
   max-width: 635px;
   width: 100%;
-  text-align: center;
   color: white;
 }
 
