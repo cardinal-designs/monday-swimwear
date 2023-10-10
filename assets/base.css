@@ -1434,10 +1434,10 @@ deferred-media {
 .announcement-bar__tab.active .announcement-bar__tab-container::after {
   content: '';
   position: absolute;
-  bottom: -4px;
+  bottom: -3px;
   left: 0;
   right: 0;
-  border-bottom: 2px solid white;
+  border-bottom: 1.5px solid white;
 }
 
 
