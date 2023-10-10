@@ -1400,6 +1400,9 @@ deferred-media {
   color: white;
 }
 
+.announcement-bar .header__menu-list--submenu svg {
+  color: white;
+}
 
 /* 
 @media screen and (max-width: 768px) {
