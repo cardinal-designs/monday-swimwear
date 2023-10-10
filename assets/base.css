@@ -1400,7 +1400,9 @@ deferred-media {
   color: white;
 }
 
-.announcement-bar .header__icon--search {
+.announcement-bar .header__icon--search,
+.announcement-bar .header__icon--account,
+.announcement-bar .header__icon--cart {
   color: white !important;
 }
 
