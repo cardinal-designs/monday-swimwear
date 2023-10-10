@@ -1401,7 +1401,7 @@ deferred-media {
 }
 
 .announcement-bar .header__menu-list--submenu svg {
-  color: white;
+  color: white !important;
 }
 
 /* 
