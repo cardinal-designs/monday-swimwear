@@ -18,7 +18,11 @@
     <div class="announcement-bar__wrapper">
       <div class="announcement-bar__switch">
         {% for block in section.blocks %}
-          <a href="{{ block.settings.home_link }}" class="announcement-bar__tab{% if block.settings.monday_body and monday_body %} active{% elsif block.settings.monday_body == false and monday_body == false %} active{% endif %}">{{ block.settings.logo_svg }}</a>
+          <a href="{{ block.settings.home_link }}" class="announcement-bar__tab{% if block.settings.monday_body and monday_body %} active{% elsif block.settings.monday_body == false and monday_body == false %} active{% endif %}">
+          <div class="announcement-bar__tab-container">
+            {{ block.settings.logo_svg }}
+          </div>
+          </a>
         {% endfor %}
       </div>
       <div class="announcement-bar__text">
