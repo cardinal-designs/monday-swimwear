@@ -1406,6 +1406,10 @@ deferred-media {
   color: white !important;
 }
 
+.announcement-bar__tab.active {
+  background: none;
+}
+
 /* 
 @media screen and (max-width: 768px) {
   .announcement-bar__item p {
