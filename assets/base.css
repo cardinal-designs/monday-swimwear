@@ -1396,7 +1396,7 @@ deferred-media {
 
 /* New edits */
 .announcement-bar {
-  background-color: black;
+  background-color: black !important;
   color: white;
 }
 
@@ -1420,7 +1420,7 @@ deferred-media {
 }
 
 .announcement-bar__tab.active {
-  background: none;
+  background: none !important;
 }
 
 .announcement-bar__tab svg {
