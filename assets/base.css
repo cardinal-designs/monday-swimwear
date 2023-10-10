@@ -1410,6 +1410,21 @@ deferred-media {
   background: none;
 }
 
+.announcement-bar__tab svg {
+  position: relative;
+  color: white;
+}
+
+.announcement-bar__tab svg::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  border: 2px solid white;
+}
+
+
 /* 
 @media screen and (max-width: 768px) {
   .announcement-bar__item p {
