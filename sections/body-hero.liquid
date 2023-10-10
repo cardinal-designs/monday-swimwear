@@ -1,7 +1,7 @@
 {{ 'section-body-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="body-hero{% if section.settings.layout == 'split' %} body-hero--split{% endif %}">
-  <div class="body-hero__content">
+  <div class="body-hero__content body-hero__content--{{ section.settings.content_position }}">
     <div class="body-hero__content-container fade-in-up">
       <p class="body-hero__subtitle tag">{{ section.settings.subtitle }}</p>
       <h2 class="body-hero__title h1">{{ section.settings.title }}</h2>
@@ -47,6 +47,50 @@
         "type": "image_picker",
         "id": "mobile_image",
         "label": "Mobile Image"
+      },
+      {
+        "type": "select",
+        "id": "content_position",
+        "label": "Content Position",
+        "options": [
+          {
+            "value": "top-left",
+            "label": "Top Left"
+          },
+          {
+            "value": "top-center",
+            "label": "Top Center"
+          },
+          {
+            "value": "top-right",
+            "label": "Top Right"
+          },
+          {
+            "value": "center-left",
+            "label": "Center Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "center-right",
+            "label": "Center Right"
+          },
+          {
+            "value": "bottom-left",
+            "label": "Bottom Left"
+          },
+          {
+            "value": "bottom-center",
+            "label": "Bottom Center"
+          },
+          {
+            "value": "bottom-right",
+            "label": "Bottom Right"
+          }
+        ],
+        "default": "center"
       },
       {
         "type": "text",
