@@ -1411,11 +1411,14 @@ deferred-media {
 }
 
 .announcement-bar__tab svg {
-  position: relative;
   color: white;
 }
 
-.announcement-bar__tab svg::after {
+.announcement-bar__tab-container {
+  position: relative;
+}
+
+.announcement-bar__tab-container::after {
   content: '';
   position: absolute;
   bottom: -5px;
