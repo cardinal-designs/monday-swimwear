@@ -1547,7 +1547,7 @@ deferred-media {
 .header__menu-item--has-dropdown {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
   position: relative;
   cursor: pointer;
 }
@@ -1555,7 +1555,7 @@ deferred-media {
 .header__menu-item--has-dropdown svg {
   width: 10px;
   height: auto;
-  margin-top: 5px;
+  margin-top: 4px;
   transition: transform .3s ease;
   -webkit-transition: -webkit-transform .3s ease;
 }
