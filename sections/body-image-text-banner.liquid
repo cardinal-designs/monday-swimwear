@@ -9,6 +9,9 @@
   {% endif %}
   <div class="page-width">
     <div class="body-image-text-banner__content fade-in-up">
+      {% if section.settings.subtitle != blank %}
+        <p class="body-image-text-banner__subtitle tag">{{ section.settings.subtitle }}</p>
+      {% endif %}
       <p class="body-image-text-banner__text sh2">{{ section.settings.text | newline_to_br }}</p>
       {% if section.settings.button_label != blank and section.settings.make_section_clickable == false %}
         <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
