@@ -263,6 +263,11 @@ h5,
   Header
 ==============================================================================*/
 /*================ Announcement Bar ================*/
+#shopify-section-announcement-bar {
+  position: relative;
+  z-index: 3;
+}
+
 .announcement-bar {
   background-color: #F8F7F4;
 }
