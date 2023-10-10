@@ -1406,6 +1406,19 @@ deferred-media {
   color: white !important;
 }
 
+.announcement-bar__tab {
+  position: relative;
+}
+
+.announcement-bar__tab {
+  content: '';
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  right: 0;
+  border-right: 0.5px solid white;
+}
+
 .announcement-bar__tab.active {
   background: none;
 }
