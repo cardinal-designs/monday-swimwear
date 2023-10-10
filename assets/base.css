@@ -1547,14 +1547,15 @@ deferred-media {
 .header__menu-item--has-dropdown {
   display: flex;
   align-items: center;
+  gap: 10px;
   position: relative;
   cursor: pointer;
 }
 
-.header__menu-item--has-dropdown .icon-caret {
+.header__menu-item--has-dropdown svg {
   width: 10px;
   height: auto;
-  margin-left: 10px;
+  margin-top: 5px;
   transition: transform .3s ease;
   -webkit-transition: -webkit-transform .3s ease;
 }
