@@ -1410,7 +1410,7 @@ deferred-media {
   position: relative;
 }
 
-.announcement-bar__tab {
+.announcement-bar__tab:first-child::after {
   content: '';
   position: absolute;
   top: 4px;
