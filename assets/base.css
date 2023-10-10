@@ -1562,13 +1562,13 @@ deferred-media {
 }
 
 .header__submenu {
-  min-width: 150px;
+  min-width: 200px;
   margin: 20px 0 0;
-  padding: 20px;
+  padding: 40px 20px 20px 40px;
   position: absolute;
   list-style: none;
   background: white;
-  border: 1px solid black;
+  border: 0;
   z-index: 3;
   opacity: 0;
   visibility: hidden;
