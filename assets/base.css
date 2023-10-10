@@ -1421,10 +1421,10 @@ deferred-media {
 .announcement-bar__tab-container::after {
   content: '';
   position: absolute;
-  bottom: -5px;
+  bottom: -4px;
   left: 0;
   right: 0;
-  border: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 
