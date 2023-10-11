@@ -6,6 +6,7 @@
         "layout": "full",
         "image": "shopify:\/\/shop_images\/Group_2199.png",
         "mobile_image": "shopify:\/\/shop_images\/Group_2211.png",
+        "content_position": "center",
         "subtitle": "",
         "title": "",
         "button_label": "Now Available",
@@ -80,6 +81,7 @@
         "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_58_2978.jpg",
         "section_size": "large",
         "content_position": "bottom-center",
+        "subtitle": "",
         "text": "",
         "button_label": "FORM & FUNCTION",
         "button_link": "shopify:\/\/collections\/monday-body-shorts-and-leggings",
@@ -164,8 +166,8 @@
       "settings": {
         "title": "Activewear designed to meet your needs.",
         "products": [
-          "acqua-tote-bag-terry",
-          "acqua-tote-bag-husk"
+          "antigua-monday-cap-black",
+          "antigua-monday-cap-white"
         ],
         "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
         "video": "shopify:\/\/files\/videos\/export_1696620131782.mov",
