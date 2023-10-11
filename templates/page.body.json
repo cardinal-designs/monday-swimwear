@@ -77,13 +77,13 @@
     "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
       "type": "body-image-text-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/7_f4c90498-b27a-493d-ac51-576f8c380dfe.jpg",
+        "image": "shopify:\/\/shop_images\/horizontal-web-test2.png",
         "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_58_2978.jpg",
         "section_size": "large",
         "content_position": "bottom-center",
         "subtitle": "",
-        "text": "",
-        "button_label": "FORM & FUNCTION",
+        "text": "FORM & FUNCTION",
+        "button_label": "",
         "button_link": "shopify:\/\/collections\/monday-body-shorts-and-leggings",
         "make_section_clickable": false
       }
