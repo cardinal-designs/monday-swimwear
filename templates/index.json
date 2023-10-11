@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_0fe32b1c-1622-4823-bd3e-e944a5826a34.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_c74a0b47-ee81-4ff0-927c-4745895423e5.jpg",
+        "image": "shopify:\/\/shop_images\/Group_2194.png",
+        "mobile_image": "shopify:\/\/shop_images\/Group_2200.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,34 +40,34 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+          "type": "collection",
+          "settings": {
+            "collection": "copper-rib"
+          }
+        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
           }
         },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "bird-of-paradise"
-          }
-        },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "navy-shimmer"
+            "collection": "the-premium-rib-collection"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
-            "collection": "island-aura"
+            "collection": "beachwear-accessories"
           }
         }
       },
       "block_order": [
-        "bf612915-d86f-40f2-817f-6322dada207b",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "bf612915-d86f-40f2-817f-6322dada207b",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
@@ -86,6 +86,7 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1_7bde03de-8cf8-4db2-b50c-431294940d70.jpg",
         "mobile_image": "shopify:\/\/shop_images\/3_d1e98e57-af03-4391-be16-53f591267726.jpg",
@@ -121,6 +122,7 @@
         "d029689e-51e9-4bab-918a-a703bb5724d6",
         "643e0732-83e9-4986-9865-1f1ee99fda72"
       ],
+      "disabled": true,
       "settings": {
         "text_style": "overlay",
         "slider_on_mobile": false
@@ -129,37 +131,37 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/349004039_772563807693704_4811084254914016398_n.jpg",
-            "text": "Ride the Wave Crochet",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/ride-the-wave-crochet"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_37b71320-c303-43af-bac5-1769f8d7f9e1.jpg",
+            "image": "shopify:\/\/shop_images\/maternity.jpg",
             "text": "Monday Maternity",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-maternity"
           }
         },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Istanbul-Top---Ivory-Rib_97a012bf-354d-4ba8-b23b-4661cd4293c9.jpg",
+            "text": "Comfy & Cozy",
+            "link_label": "Shop Knitwear",
+            "link": "shopify:\/\/collections\/knitwear"
+          }
+        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/347148749_698126548742389_6905507686044675817_n.jpg",
-            "text": "Fuchsia Berry Shimmer",
+            "image": "shopify:\/\/shop_images\/Two-Tone.jpg",
+            "text": "Two Tone",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/fuchsia-berry-shimmer"
+            "link": "shopify:\/\/collections\/ivory-black"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
