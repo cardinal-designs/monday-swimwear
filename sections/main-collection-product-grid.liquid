@@ -7,7 +7,33 @@
 {% if settings.ss_enable %}
   {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-  <div id="searchspring-content"></div>
+  <div id="searchspring-content">
+    <div id="searchspring-collection-blocks">
+       {% assign paginate_num = 16 %}
+        {% if template contains 'paginate' or template contains 'collection' %}
+          {% assign paginate_num = settings.products_count %}
+        {% endif %}
+
+        {% paginate collection.products by paginate_num %}
+           {% for block in section.blocks %}
+            <li class="product-grid__body-card" data-position="{{ block.settings.position }}">
+              {% if block.settings.mobile_image != blank %}
+                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+                {% render 'lazy-image' image: block.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+              {% else %}
+                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+              {% endif %}
+              <div class="product-grid__body-card-text">
+                <h2 class="sh2">{{ block.settings.text }}</h2>
+              </div>
+              {% if block.settings.link %}
+                <a href="{{ block.settings.link }}" class="product-grid__body-card-link"></a>
+              {% endif %}
+            </li>
+           {% endfor %}
+        {% endpaginate %}
+    </div>
+  </div>
   <style>
     #searchspring-content {
       min-height: 800px;
