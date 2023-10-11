@@ -140,29 +140,29 @@
             "link": "shopify:\/\/collections\/knitwear"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_2b7516ff-32f6-42fa-8cfd-cdd4f06240be.jpg",
-            "text": "Monday Maternity",
-            "link_label": "Shop Maternity",
-            "link": "shopify:\/\/collections\/monday-maternity"
-          }
-        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OP_deb7a292-909c-4e99-b4a8-557be7eb3a59.jpg",
-            "text": "Swim One Pieces",
-            "link_label": "Shop One Pieces",
-            "link": "shopify:\/\/collections\/one-pieces"
+            "image": "shopify:\/\/shop_images\/Two-Tone.jpg",
+            "text": "Back in Stock",
+            "link_label": "Shop the Restock",
+            "link": "shopify:\/\/collections\/ivory-black"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maternity.jpg",
+            "text": "Monday Maternity",
+            "link_label": "Shop Maternity",
+            "link": "shopify:\/\/collections\/monday-maternity"
           }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
