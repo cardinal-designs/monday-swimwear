@@ -131,15 +131,6 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maternity.jpg",
-            "text": "Monday Maternity",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-maternity"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
@@ -157,12 +148,21 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/ivory-black"
           }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maternity.jpg",
+            "text": "Monday Maternity",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/monday-maternity"
+          }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
