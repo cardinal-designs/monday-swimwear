@@ -144,8 +144,8 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Two-Tone.jpg",
-            "text": "Two Tone",
-            "link_label": "Shop Now",
+            "text": "Back in Stock",
+            "link_label": "Shop Ivory\/Black",
             "link": "shopify:\/\/collections\/ivory-black"
           }
         },
