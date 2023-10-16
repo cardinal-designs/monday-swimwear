@@ -55,6 +55,11 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
         id: 'cart-icon-bubble',
         section: 'cart-icon-bubble',
         selector: '.shopify-section'
+      },
+      {
+        id: 'cart-icon-bubble-header',
+        section: 'cart-icon-bubble',
+        selector: '.shopify-section'
       }
     ];
   }

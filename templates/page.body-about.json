@@ -1,12 +1,118 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "682aa3a5-ddfb-43f7-8fdc-6fedf137efbb": {
+      "type": "body-page-header",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Image_41_18bfef8e-fddc-4b33-a9af-54fe8efb559e.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Image_42.jpg",
+        "text_1": "THIS IS OUR",
+        "text_2": "STORY"
+      }
+    },
+    "1643216769ed065e51": {
+      "type": "about-text",
+      "settings": {
+        "text": "Monday Swimwear is known for its iconic feminine designs, immaculate fit, soft-to-touch feel and enduring quality - all of which are the brand’s top priorities when adding any new pieces to the range."
+      }
+    },
+    "16432178692b4faad7": {
+      "type": "about-image-text",
+      "blocks": {
+        "b27610ba-6b6f-4fcb-b193-b3a81ae8fd45": {
+          "type": "block",
+          "settings": {
+            "reversed": true,
+            "reversed_mobile": false,
+            "show_glow": false,
+            "image": "shopify:\/\/shop_images\/Image.png",
+            "text_1": "Monday Swimwear founders, Natasha Oakley and Devin Brugman, are known as “swimwear connoisseurs” to many, but more noticeably for their strong advocacy of body positivity. Acting as inspiration to millions of women across the world, Natasha and Devin created Monday Swimwear as a continuation of their goal to instill confidence and power within their female audience. \n<br><br>\nAn essential mode of achieving this is ensuring their designs are based off timeless pieces they know will compliment and flatter the female form, as opposed to recreating size-specific, temporary trends.",
+            "text_2": "Monday is designed especially for the stylish girl who is minimalistic, confident, and carefree. Whether she’s lying on the beach in the tropics soaking up the sun, sitting poolside with her friends, or swimming in the ocean, she’s happy and glowing because she feels comfortable and confident in her own skin.",
+            "bottom_align_text": false
+          }
+        }
+      },
+      "block_order": [
+        "b27610ba-6b6f-4fcb-b193-b3a81ae8fd45"
+      ],
+      "settings": {
+      }
+    },
+    "bdf7c767-e34d-4dd3-a307-81eafd07e35f": {
+      "type": "body-video",
+      "settings": {
+        "title": "Watch",
+        "video": "shopify:\/\/files\/videos\/tolstoy_18cb04a3-b3e6-4fc3-9644-4e2fa399ad61.mp4",
+        "cover_image": "shopify:\/\/shop_images\/Image_43.jpg"
+      }
+    },
+    "877d436f-3435-4f7a-b57e-5c3bda600285": {
+      "type": "about-image-text",
+      "blocks": {
+        "5f78c905-6e32-4aa4-9d87-cfa4ff0eef55": {
+          "type": "block",
+          "settings": {
+            "reversed": false,
+            "reversed_mobile": true,
+            "show_glow": false,
+            "image": "shopify:\/\/shop_images\/Rectangle_17.jpg",
+            "text_1": "Monday Swimwear founders, Natasha Oakley and Devin Brugman, are known as “swimwear connoisseurs” to many, but more noticeably for their strong advocacy of body positivity. Acting as inspiration to millions of women across the world, Natasha and Devin created Monday Swimwear as a continuation of their goal to instill confidence and power within their female audience. \n<br><br>\nAn essential mode of achieving this is ensuring their designs are based off timeless pieces they know will compliment and flatter the female form, as opposed to recreating size-specific, temporary trends.",
+            "text_2": "",
+            "bottom_align_text": true
+          }
+        }
+      },
+      "block_order": [
+        "5f78c905-6e32-4aa4-9d87-cfa4ff0eef55"
+      ],
+      "settings": {
+      }
+    },
+    "ccc3e247-98fa-4863-8a26-eeb9cf580f51": {
+      "type": "body-text-buttons",
+      "blocks": {
+        "1517784b-0cbe-4579-8043-a35176247c4b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Best Sellers",
+            "button_link": ""
+          }
+        },
+        "43e9489d-0a63-4c2a-8a12-c457e5041277": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop New Arrivals",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1517784b-0cbe-4579-8043-a35176247c4b",
+        "43e9489d-0a63-4c2a-8a12-c457e5041277"
+      ],
+      "settings": {
+        "text": "Monday is designed especially for \nthe stylish woman who is \nminimalistic, independent, and motivated."
+      }
+    },
+    "ed4400f5-3cf6-4b98-ac79-27c52abca8ee": {
+      "type": "body-product-grid",
+      "settings": {
+        "title": "Find the Perfect Accessory",
+        "products": [
+          "acqua-tote-bag-husk",
+          "acqua-tote-bag-terry",
+          "almafi-sarong-ivory",
+          "almafi-sarong-black"
+        ]
       }
     }
   },
   "order": [
-    "main"
+    "682aa3a5-ddfb-43f7-8fdc-6fedf137efbb",
+    "1643216769ed065e51",
+    "16432178692b4faad7",
+    "bdf7c767-e34d-4dd3-a307-81eafd07e35f",
+    "877d436f-3435-4f7a-b57e-5c3bda600285",
+    "ccc3e247-98fa-4863-8a26-eeb9cf580f51",
+    "ed4400f5-3cf6-4b98-ac79-27c52abca8ee"
   ]
 }

@@ -790,6 +790,11 @@ function atcGetSectionsToRender() {
       id: 'cart-icon-bubble',
       section: 'cart-icon-bubble',
       selector: '.shopify-section'
+    },
+    {
+      id: 'cart-icon-bubble-header',
+      section: 'cart-icon-bubble',
+      selector: '.shopify-section'
     }
   ];
 }
@@ -1202,8 +1207,7 @@ showBackMobile.forEach(function(suit) {
 
 
 focusMethod = function getFocus() {
-  console.log('fire',document.getElementsByClassName("header__search-input"))
-  document.getElementsByClassName("header__search-input").focus();
+  document.querySelector('.header__search-input').focus();
 }
 
 if (!!document.getElementById('checkoutCheckbox')) {

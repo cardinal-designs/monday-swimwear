@@ -366,7 +366,13 @@
         <div class="product__dropdowns">
           <div class="product__dropdown active hide-mobile">
             <button class="product__dropdown-header">
-              <p class="body-small">Description</p>
+              <p class="body-small">
+                {% if product.metafields.custom.monday_body == true %}
+                  Features
+                {% else %}
+                  Description
+                {% endif %}
+              </p>
               <div class="product__dropdown-control"></div>
             </button>
             <div class="product__dropdown-content" style="display: block; box-sizing: border-box;">
@@ -377,7 +383,13 @@
           </div>
           <div class="product__dropdown hide-desktop">
             <button class="product__dropdown-header">
-              <p class="body-small">Description</p>
+              <p class="body-small">
+                {% if product.metafields.custom.monday_body == true %}
+                  Features
+                {% else %}
+                  Description
+                {% endif %}
+              </p>
               <div class="product__dropdown-control"></div>
             </button>
             <div class="product__dropdown-content">
@@ -410,17 +422,45 @@
             </div>
           {% endif %}
           {% endcomment %}
-          {% if settings.fit_note != blank or product.metafields.pdp_extras.size_fit != blank %}
+          {% if product.metafields.custom.monday_body == true %}
+            {% if settings.body_fit_note != blank or product.metafields.pdp_extras.size_fit != blank %}
+              <div class="product__dropdown">
+                <button class="product__dropdown-header">
+                  <p class="body-small">Fit & Sizing</p>
+                  <div class="product__dropdown-control"></div>
+                </button>
+                <div class="product__dropdown-content">
+                  {% if product.metafields.pdp_extras.size_fit != blank %}
+                    <p class="body-small">{{ product.metafields.pdp_extras.size_fit | newline_to_br }}</p>
+                  {% endif %}
+                    <p class="body-small">{{ settings.body_fit_note | newline_to_br }}</p>
+                </div>
+              </div>
+            {% endif %}
+          {% else %}
+            {% if settings.fit_note != blank or product.metafields.pdp_extras.size_fit != blank %}
+              <div class="product__dropdown">
+                <button class="product__dropdown-header">
+                  <p class="body-small">Fit & Sizing</p>
+                  <div class="product__dropdown-control"></div>
+                </button>
+                <div class="product__dropdown-content">
+                  {% if product.metafields.pdp_extras.size_fit != blank %}
+                    <p class="body-small">{{ product.metafields.pdp_extras.size_fit | newline_to_br }}</p>
+                  {% endif %}
+                    <p class="body-small">{{ settings.fit_note | newline_to_br }}</p>
+                </div>
+              </div>
+            {% endif %}
+          {% endif %}
+          {% if product.metafields.custom.care_instructions != blank %}
             <div class="product__dropdown">
               <button class="product__dropdown-header">
-                <p class="body-small">Fit & Sizing</p>
+                <p class="body-small">Care Instructions</p>
                 <div class="product__dropdown-control"></div>
               </button>
               <div class="product__dropdown-content">
-                {% if product.metafields.pdp_extras.size_fit != blank %}
-                  <p class="body-small">{{ product.metafields.pdp_extras.size_fit | newline_to_br }}</p>
-                {% endif %}
-                  <p class="body-small">{{ settings.fit_note | newline_to_br }}</p>
+                <p class="body-small">{{ product.metafields.custom.care_instructions | newline_to_br }}</p>
               </div>
             </div>
           {% endif %}

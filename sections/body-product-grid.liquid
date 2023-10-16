@@ -1,0 +1,81 @@
+{{ 'section-body-product-grid.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
+<div class="body-product-grid">
+  <div class="page-width">
+    <h2 class="body-product-grid__title sh3 fade-in-up">
+      <div class="body-product-grid__glow"></div>
+      <span>{{ section.settings.title }}</span>
+    </h2>
+    <div class="body-product-grid__slider swiper fade-in-up">
+      <div class="swiper-wrapper">
+        {% for product in section.settings.products %}
+          <div class="body-product-grid__slide swiper-slide">
+            {% render 'product-card' product_card_product: product, show_secondary_image: true %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const productGridSlider = new Swiper('.body-product-grid__slider', {
+    slidesPerView: 1,
+    loop: false,
+    spaceBetween: 20,
+    watchOverflow: true,
+    allowTouchMove: true,
+    speed: 400, 
+    freeMode: true,
+    breakpoints: {
+      1: {
+          spaceBetween: 10,
+          slidesPerView: 1.5
+        },
+        601: {
+          spaceBetween: 10,
+          slidesPerView: 2
+        },
+        769: {
+          slidesPerView: 2.5,
+          allowTouchMove: false,
+          freeMode: false
+        },
+        1051: {
+          slidesPerView: 3,
+          allowTouchMove: false,
+          freeMode: false
+        },
+        1200: {
+          slidesPerView: 4,
+          allowTouchMove: false,
+          freeMode: false
+        }
+    }
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Body - Product Grid",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "product_list",
+        "id": "products",
+        "label": "Products"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Body - Product Grid"
+      }
+    ]
+  }
+{% endschema %}

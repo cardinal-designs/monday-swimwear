@@ -448,3 +448,107 @@
 .events-faqs__container {
   border-top: 1px solid #F8F7F4;
 }
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+/*================ Title ================*/
+.monday-body .event-title {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .monday-body .event-title {
+    font-size: 20px;
+  }
+}
+
+/*================ Title ================*/
+.monday-body .events-header__title {
+  margin: 0;
+  padding: 80px 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #FBFBF9;
+}
+
+@media screen and (max-width: 768px) {
+  .monday-body .events-header__title {
+    padding: 45px 0;
+    font-size: 34px;
+  }
+}
+
+/*================ Navigation ================*/
+.monday-body .events-header__navigation-wrapper {
+  padding-top: 30px;
+}
+
+.monday-body .events-header__navigation-item::before {
+  background-color: var(--body-green-2);
+}
+
+@media screen and (max-width: 768px) {
+  .monday-body .events-header__navigation-wrapper {
+    padding: 20px 20px 10px;
+  }
+
+  .monday-body .events-header__navigation-item {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+/*================ Header ================*/
+.monday-body .events-header__banner-title {
+  text-transform: uppercase;
+}
+
+.monday-body .events-header__banner-link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: unset;
+}
+
+/*================ Book ================*/
+.monday-body .events-book__block {
+  background-color: var(--body-green-1);
+}
+
+.monday-body .events-book__title {
+  font-weight: 300;
+}
+
+.monday-body .events-book__link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: unset;
+}
+
+/*================ Services ================*/
+.monday-body .events-services__title {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .monday-body .events-services__title {
+    font-size: 20px;
+  }
+}
+
+/*================ Stores ================*/
+.monday-body .events-stores__name {
+  font-weight: 300;
+}
+
+/*================ Happenings ================*/
+.monday-body .events-happening__title { 
+  font-weight: 300;
+}

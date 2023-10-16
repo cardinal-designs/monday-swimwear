@@ -8,7 +8,7 @@
     "header": {
       "type": "collection-header",
       "settings": {
-        "text": "We're on vacation all year long."
+        "text": ""
       }
     },
     "filters": {
@@ -18,7 +18,7 @@
           "type": "filter_category",
           "settings": {
             "title": "Category",
-            "filters": "Swim Tops,Swim Bottom,One Piece,Beachwear, Accessories"
+            "filters": "Swim Tops,Swim Bottom,One Piece,Beachwear, Accessories,Activewear"
           }
         },
         "8a83884e-ac94-4475-959e-f30b73e1b9fd": {
@@ -35,8 +35,16 @@
             "filters": "P,S,M,L,V,VV,VVV,OS,P\/S,M\/L,S\/M,L\/V,V\/VV"
           }
         },
+        "74b450a9-2cb0-427f-8408-0c2c61ddf5c5": {
+          "type": "filter_category",
+          "settings": {
+            "title": "Fabric",
+            "filters": "Recycled Jersey,Recycled Rib"
+          }
+        },
         "4802a76d-c48c-4206-968b-2d7341f784cd": {
           "type": "filter_category",
+          "disabled": true,
           "settings": {
             "title": "Fit",
             "filters": "Triangle,Underwire,Supportive,Minimal,Cheeky,Moderate,High Waisted"
@@ -47,6 +55,7 @@
         "27cfdb60-012e-4ea5-b1af-606afdc76a15",
         "8a83884e-ac94-4475-959e-f30b73e1b9fd",
         "117d4bde-f25c-4a9a-8d12-3978feae7f74",
+        "74b450a9-2cb0-427f-8408-0c2c61ddf5c5",
         "4802a76d-c48c-4206-968b-2d7341f784cd"
       ],
       "settings": {
@@ -56,45 +65,37 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "dadcc81c-bd47-4dbf-a565-ebbd1e435485": {
-          "type": "fit_tip_card",
-          "disabled": true,
+        "5448aae7-83fe-46c0-8efb-f9ff6204a729": {
+          "type": "body_card",
           "settings": {
-            "collection": "shop-all",
+            "collection": "monday-beachwear",
             "position": 5,
-            "background_color": "#c1d7ec",
-            "title": "The Isla Mujeres",
-            "image": "shopify:\/\/shop_images\/ISLA_MUJERES_BOTTOM_-_BLACK_6cb1e1ef-964e-4aa7-923c-de93fdf30e00.jpg",
-            "make_transparent": true,
-            "tip": "Adjustable in all the right places for the perfect fit!"
-          }
-        },
-        "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa": {
-          "type": "lifestyle_card",
-          "disabled": true,
-          "settings": {
-            "collection": "shop-all",
-            "position": 10,
-            "image": "shopify:\/\/shop_images\/Collection-Image.jpg",
-            "top_text": "",
-            "bottom_text": ""
+            "image": "shopify:\/\/shop_images\/1_b8eb1559-9e4b-4eac-8c89-c03d372c9c08.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_b8eb1559-9e4b-4eac-8c89-c03d372c9c08.jpg",
+            "text": "Introducing—\nEssential Classics",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "dadcc81c-bd47-4dbf-a565-ebbd1e435485",
-        "7a0c876f-3814-45d8-ba3b-aaa4adf9f0fa"
+        "5448aae7-83fe-46c0-8efb-f9ff6204a729"
       ],
       "settings": {
         "products_per_page": 48
       }
     },
-    "banner": {
-      "type": "text-banner",
+    "fcd4feb4-0ea0-4bb8-a059-89c84b2396b9": {
+      "type": "body-image-text-banner",
+      "disabled": true,
       "settings": {
-        "text": "Let’s find your perfect fit.",
+        "image": "shopify:\/\/shop_images\/Vector.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Vector_1.jpg",
+        "section_size": "small",
+        "content_position": "left",
+        "text": "Introducing—\nEssential Classics",
         "button_label": "Explore the Fit Guide",
-        "button_link": "shopify:\/\/pages\/fit-guide"
+        "button_link": "",
+        "make_section_clickable": false
       }
     },
     "1650914085930480e5": {
@@ -115,7 +116,7 @@
     "header",
     "filters",
     "product-grid",
-    "banner",
+    "fcd4feb4-0ea0-4bb8-a059-89c84b2396b9",
     "1650914085930480e5",
     "nosto_collection_append"
   ]

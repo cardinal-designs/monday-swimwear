@@ -812,3 +812,89 @@ variant-radios fieldset {
   display: none;
   margin-bottom: 0;
 }
+
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+.monday-body .product {
+  margin-bottom: 60px;
+}
+
+.monday-body .product__title {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.015em;
+  text-transform: unset;
+}
+
+.monday-body .product__info-wrapper .form__label {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  opacity: 1;
+  color: black;
+}
+
+.monday-body .product__active-color,
+.monday-body .product-form__input-active {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
+.monday-body .product__size-chart {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+  border-top: 1px solid #F8F7F4;
+}
+
+.monday-body .product__price,
+.monday-body .product__swatches,
+.monday-body .product__dropdown {
+  border-color: #F8F7F4;
+}
+
+.monday-body .product-form__button-wrapper .quantity {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.monday-body #dropahint .hvr-fade {
+  background-color: var(--body-brown-1) !important;
+  border: 0 !important;
+}
+
+.monday-body .product__dropdown-header p {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.monday-body .product__dropdown-content .body-small {
+  line-height: 1.65;
+}
+
+.monday-body #dropahint #dropahint-cta #u_body a {
+  background: #EFF3DA !important;
+}

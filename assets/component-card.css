@@ -16,6 +16,7 @@
 }
 
 .product-card__button {
+  padding: 17px 20px;
   position: absolute;
   right: 10px;
   bottom: 15px;
@@ -139,7 +140,7 @@
   .hover__quick-add {
     display: block;
     text-align: center;
-    padding: 16px 50px 18px;
+    padding: 17px 20px;
     margin: 0;
   }
   
@@ -219,4 +220,17 @@
   .swiper .product-card:hover .product-card__image .aspect-ratio + .aspect-ratio {
     opacity: 0;
   }
+}
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+.monday-body .hover__quick-add {
+  background-color: black;
+  color: white;
+}
+
+.monday-body .product-card__button {
+  background-color: black;
+  color: white;
 }

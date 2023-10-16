@@ -17,6 +17,52 @@
         "title": "In Real Life"
       }
     },
+    "83300eaf-f29d-4f12-b724-97ebd4a39c2b": {
+      "type": "press-cards",
+      "blocks": {
+        "643f7503-9429-412f-86aa-a907cb708ad5": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Vector_7.svg",
+            "title": "“Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.”",
+            "date": "Sept 2020"
+          }
+        },
+        "c990444b-e27c-4c6c-930d-13df8872e5a4": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Vector_7.svg",
+            "title": "“Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.”",
+            "date": "Sept 2020"
+          }
+        },
+        "4880e6c7-3e8f-4a46-a550-5e2143ee9fdd": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Vector_7.svg",
+            "title": "“Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.”",
+            "date": "Sept 2020"
+          }
+        },
+        "f7fa7d4e-57db-4365-8978-137469fb0afc": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Vector_7.svg",
+            "title": "“Monday Swimwear makes suits that are oh-so-comfortable and ultra soft. What’s more, they’re designed to last.”",
+            "date": "Sept 2020"
+          }
+        }
+      },
+      "block_order": [
+        "643f7503-9429-412f-86aa-a907cb708ad5",
+        "c990444b-e27c-4c6c-930d-13df8872e5a4",
+        "4880e6c7-3e8f-4a46-a550-5e2143ee9fdd",
+        "f7fa7d4e-57db-4365-8978-137469fb0afc"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
     "1650913168c87f151f": {
       "type": "nosto-recommendations",
       "settings": {
@@ -28,44 +74,14 @@
       "type": "nosto-product",
       "settings": {
       }
-    },
-    "1653533601c1ff3a8b": {
-      "type": "fit-guide",
-      "blocks": {
-        "48c45190-8ecd-42e3-9a50-2e79eebe20d6": {
-          "type": "fit",
-          "settings": {
-            "title": "The",
-            "short_title": "",
-            "short_description": "",
-            "description": "",
-            "fit": "",
-            "padding": "",
-            "coverage": "",
-            "style": "",
-            "fabric": "",
-            "fit_tip": "",
-            "shop_link": "",
-            "explore_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "48c45190-8ecd-42e3-9a50-2e79eebe20d6"
-      ],
-      "disabled": true,
-      "settings": {
-        "offset_text": false,
-        "use_page_width": false
-      }
     }
   },
   "order": [
     "main",
     "16426285735ee00f29",
     "164253095353d35284",
+    "83300eaf-f29d-4f12-b724-97ebd4a39c2b",
     "1650913168c87f151f",
-    "nosto_product",
-    "1653533601c1ff3a8b"
+    "nosto_product"
   ]
 }

@@ -53,3 +53,29 @@
     margin: 0 10px;
   }
 }
+
+/*============================================================================
+  Monday Body
+==============================================================================*/
+.monday-body .product-recommendations__heading {
+  justify-content: flex-start;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: unset;
+}
+
+.monday-body .product-recommendations__heading .glow {
+  height: 18px;
+  width: 15px;
+  background-color: var(--body-green-2);
+}
+
+@media only screen and (max-width: 768px) {
+  .monday-body .product-recommendations__heading {
+    font-size: 16px;
+  }
+}
+

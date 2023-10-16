@@ -7,7 +7,33 @@
 {% if settings.ss_enable %}
   {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-  <div id="searchspring-content"></div>
+  <div id="searchspring-content">
+    <div id="searchspring-collection-blocks">
+       {% assign paginate_num = 16 %}
+        {% if template contains 'paginate' or template contains 'collection' %}
+          {% assign paginate_num = settings.products_count %}
+        {% endif %}
+
+        {% paginate collection.products by paginate_num %}
+           {% for block in section.blocks %}
+            <li class="product-grid__body-card" data-position="{{ block.settings.position }}">
+              {% if block.settings.mobile_image != blank %}
+                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+                {% render 'lazy-image' image: block.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+              {% else %}
+                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+              {% endif %}
+              <div class="product-grid__body-card-text">
+                <h2 class="sh2">{{ block.settings.text }}</h2>
+              </div>
+              {% if block.settings.link %}
+                <a href="{{ block.settings.link }}" class="product-grid__body-card-link"></a>
+              {% endif %}
+            </li>
+           {% endfor %}
+        {% endpaginate %}
+    </div>
+  </div>
   <style>
     #searchspring-content {
       min-height: 800px;
@@ -85,6 +111,29 @@
                       </li>
                     {% endif %}
                   {% endif %}
+                  {% if block.type == 'body_card' %}
+                    {% assign position = block.settings.position %}
+                    {% if position == current_loop %}
+                      <li class="product-grid__body-card">
+                        {% if block.settings.video != blank %}
+                          {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
+                        {% else %}
+                          {% if block.settings.mobile_image != blank %}
+                            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+                            {% render 'lazy-image' image: block.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+                          {% else %}
+                            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                          {% endif %}
+                        {% endif %}
+                        <div class="product-grid__body-card-text">
+                          <h2 class="sh2">{{ block.settings.text }}</h2>
+                        </div>
+                        {% if block.settings.link %}
+                          <a href="{{ block.settings.link }}" class="product-grid__body-card-link"></a>
+                        {% endif %}
+                      </li>
+                    {% endif %}
+                  {% endif %}
                 {% endfor %}
               {% endif %}
   
@@ -130,23 +179,6 @@
     }
   ],
   "blocks": [
-    {
-      "type": "filter_category",
-      "name": "Filter Category",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Category Title"
-        },
-        {
-          "type": "textarea",
-          "id": "filters",
-          "label": "Tag Filters",
-          "info": "Separate each tag with a comma and no spaces. The tag should be written exactly as is in the product admin page."
-        }
-      ]
-    },
     {
       "type": "fit_tip_card",
       "name": "Fit Tip Card",
@@ -227,6 +259,52 @@
           "type": "text",
           "id": "bottom_text",
           "label": "Bottom Text"
+        }
+      ]
+    },
+    {
+      "type": "body_card",
+      "name": "Body Card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection",
+          "info": "Choose the collection this card will be displayed on."
+        },
+        {
+          "type": "range",
+          "id": "position",
+          "min": 1,
+          "max": 24,
+          "step": 1,
+          "label": "Grid Item Position",
+          "default": 1
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }

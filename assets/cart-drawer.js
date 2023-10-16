@@ -64,8 +64,10 @@ class CartDrawer extends HTMLElement {
     this.body = document.body;
     this.drawer = document.getElementById('cart-drawer');
     
-    this.cartButton = document.querySelector('.js-open-cart');
-    this.cartButton.addEventListener('click', this.handleCartClick.bind(this));
+    this.cartButton = document.querySelectorAll('.js-open-cart');
+    this.cartButton.forEach(btn => {
+      btn.addEventListener('click', this.handleCartClick.bind(this));
+    })
 
     this.closeIcon = document.getElementById('cart-drawer__close');
     this.closeIcon.addEventListener('click', this.close.bind(this));
@@ -151,6 +153,11 @@ class CartDrawer extends HTMLElement {
       },
       {
         id: 'cart-icon-bubble',
+        section: 'cart-icon-bubble',
+        selector: '.shopify-section'
+      },
+      {
+        id: 'cart-icon-bubble-header',
         section: 'cart-icon-bubble',
         selector: '.shopify-section'
       }
