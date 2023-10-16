@@ -250,7 +250,10 @@
           </div>
 	      {% endif %}		
 
-        <button class="product__size-chart js-open-chart sh5">Size Chart +</button>
+          {% unless product.metafields.custom.monday_body == true %}
+            <button class="product__size-chart js-open-chart sh5">Size Chart +</button>
+          {% endunless %}
+          
           {% comment %} {% unless product.type == 'Gift Cards' or product.type == 'Gift Card' %}
             <div class="size-chart-dropdown">
               <button class="size-chart-dropdown__header">
