@@ -102,7 +102,7 @@
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_eabfd653-6ce2-44c5-9634-38163834a9e9.jpg",
+            "image": "shopify:\/\/shop_images\/shorts.png",
             "title": "Shorts",
             "link": "shopify:\/\/collections\/monday-body-shorts"
           }
@@ -110,7 +110,7 @@
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/440-500-2.png",
+            "image": "shopify:\/\/shop_images\/tops.png",
             "title": "Tops",
             "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
           }
@@ -118,7 +118,7 @@
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/440-500-test.png",
+            "image": "shopify:\/\/shop_images\/leggings.png",
             "title": "Leggings",
             "link": "shopify:\/\/collections\/monday-body-leggings"
           }
