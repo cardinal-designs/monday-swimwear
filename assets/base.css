@@ -1494,7 +1494,6 @@ deferred-media {
 @media screen and (max-width: 768px) {
   .shopify-section-header {
     border: 0;
-    /* box-shadow: 0px 0px 10px var(--yellow); */
   }
 }
 
@@ -2726,4 +2725,8 @@ header-drawer {
   }
 }
 
+/*================ Currency Selector Dropdown ================*/
+.desktop-country-switcher .CountryList {
+  right: 0;
+}
 

@@ -18,7 +18,7 @@
   <head>
     {% include 'shop-sheriff-amp' %}
     {% include 'kiwiSizing' %}
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
@@ -169,8 +169,10 @@
     {% render 'ss-script' %}
   {% endif %}
   
-  {% include "globale-js.liquid" %}
   
+  
+
+  {% include "globale-js" %}
 </head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">

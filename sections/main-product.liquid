@@ -264,6 +264,11 @@
           {% endunless %} {% endcomment %}
 
 
+          {% if localization.country.iso_code == 'GB' %}
+            <p class="body-small" style="margin: 12px 0 0;">Free express shipping and returns</p>
+            <p class="body-small" style="margin: 0;">Duties and taxes included</p>
+          {% endif %}
+          
           <div class="product-form__error-message-wrapper" role="alert" hidden>
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
               <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
@@ -459,14 +464,25 @@
               </div>
             </div>
           {% endif %}
-          {% if product.metafields.pdp_extras.shipping_returns != blank %}
+          {% if product.metafields.custom.care_instructions != blank %}
+            <div class="product__dropdown">
+              <button class="product__dropdown-header">
+                <p class="body-small">Care Instructions</p>
+                <div class="product__dropdown-control"></div>
+              </button>
+              <div class="product__dropdown-content">
+                <p class="body-small">{{ product.metafields.custom.care_instructions | newline_to_br }}</p>
+              </div>
+            </div>
+          {% endif %}
+          {% if settings.shipping_returns != blank %}
             <div class="product__dropdown">
               <button class="product__dropdown-header">
                 <p class="body-small">Shipping & Returns</p>
                 <div class="product__dropdown-control"></div>
               </button>
               <div class="product__dropdown-content">
-                <p class="body-small">{{ product.metafields.pdp_extras.shipping_returns | newline_to_br }}</p>
+                <p class="body-small">{{ settings.shipping_returns }}</p>
               </div>
             </div>
           {% endif %}

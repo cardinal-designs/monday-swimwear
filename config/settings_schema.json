@@ -36,6 +36,11 @@
         "type": "image_picker",
         "id": "beachwear_image",
         "label": "Beachwear Image"
+      },
+      {
+        "type": "textarea",
+        "id": "shipping_returns",
+        "label": "Product Dropdown - Shipping & Returns"
       }
     ]
   },

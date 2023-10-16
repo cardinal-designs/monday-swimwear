@@ -164,13 +164,49 @@
           })
         }
       }
+
+      function ToggleSlider() {
+        let checkboxElement = document.querySelector('.checkbox_label'),
+            footerElement = document.querySelector('.step__footer'),
+            cloneButtonHtml = `<button name="button" type="button" id="continue_button_clone" class="step__footer__continue-btn-- btn disabled" aria-busy="false"><span class="btn__content" data-continue-button-content="true">Pay now</span><svg class="icon-svg icon-svg--size-18 btn__spinner icon-svg--spinner-button" aria-hidden="true" focusable="false"> <use xlink:href="#spinner-button"></use> </svg></button>`,
+            getButtonParent = document.querySelector('[data-step-footer] .shown-if-js')
+            appendHtml = "<span>I agree to the </span>",
+            requiredHtml = "<b>Required</b>",
+            sliderDiv = document.createElement('span');
+        sliderDiv.classList.add("slider");
+        checkboxElement.closest("div").classList.add("slider--outer");
+        const sliderOuter = document.querySelector('.slider--outer');
+        checkboxElement.appendChild(sliderDiv);
+        sliderOuter.insertAdjacentHTML('afterbegin', requiredHtml);
+        checkboxElement.insertAdjacentHTML('afterbegin', appendHtml);
+        getButtonParent.insertAdjacentHTML('afterbegin', cloneButtonHtml);
+
+        if(document.querySelector('#continue_button').classList.contains('disabled')){
+          document.querySelector('#continue_button').classList.add('hidden');
+          document.querySelector('#continue_button_clone').classList.remove('hidden');
+          document.querySelector('#continue_button_clone').addEventListener('click',function(ele){
+            document.querySelector('.slider--outer b').style.display = 'block';
+          });
+        } else {
+          document.querySelector('#continue_button').classList.remove('hidden');
+         if(document.querySelector('#continue_button_clone')){
+           document.querySelector('#continue_button_clone').classList.add('hidden');
+          document.querySelector('#continue_button_clone').addEventListener('click',function(ele){
+            document.querySelector('.slider--outer b').style.display = 'block';
+          });
+         } 
+        }
+
+      }
+      
       $(document).on("page:load page:change", function() {
         FinalSaleLabel();
+        ToggleSlider();
       });
-
       
     </script>
     <style>
+      
       .label {
         background-color: rgba(109,108,104,0.11);
         color: #30302e;
@@ -178,9 +214,80 @@
         padding: 3px 10px;
         border-radius: 4px;
       }
+      
+      .checkbox-wrapper.consent {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+      }
+
+      .consent-wrapper .checkbox-wrapper.consent label[for='consent-checkbox'] {
+        position: relative;
+        padding-right: 0px;
+      }
+
+      .consent-wrapper .checkbox-wrapper.consent > .slider--outer {
+        margin-bottom: 20px;
+      }
+
+      .slider--outer b {
+        position: absolute;
+        right: 0;
+        bottom: -5px;
+        font-weight: normal;
+        color: red;
+        display: none;
+      }
+      
+      .checkbox-wrapper.consent input {
+        opacity: 0;
+        z-index: 10;
+        height: 23px;
+        width: 45px;
+        order: 2;
+        margin-right: 10px;
+      }
+      
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        height: 23px;
+        width: 45px;
+        left: -55px;
+        background-color: #d9d9d9;
+        transition: .4s;
+        border-radius: 34px;
+        top: -3px;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 19px;
+        width: 19px;
+        left: 2px;
+        top: 2px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+      }
+
+      input:checked+ label .slider {
+        background-color: black;
+      }
+
+      input:checked+ label .slider:before {
+        transform: translateX(22px);
+      }
+      
+      .checkbox-wrapper.consent input[type=checkbox]:checked {
+        
+      }
+      
     </style>
   
-  {% include "globale-checkout-js" %}
+    {% include "globale-checkout-js" %}
   
-</body>
+  </body>
 </html>
