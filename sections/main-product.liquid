@@ -113,6 +113,7 @@
             {% endif %}
           {% endfor %}
 
+          <div data-collection="{{ collection_handle }}"></div>
           {% if use_collection_for_swatches %}
             <div class="product__collection-colors">
               <legend class="form__label detail-caps">Color <span class="product-form__input-active hide-desktop">{{ product.metafields.nosto.color }}</span></legend>
