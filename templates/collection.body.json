@@ -71,7 +71,8 @@
             "collection": "monday-beachwear",
             "position": 5,
             "image": "shopify:\/\/shop_images\/1_b8eb1559-9e4b-4eac-8c89-c03d372c9c08.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_b8eb1559-9e4b-4eac-8c89-c03d372c9c08.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2_db47676d-4205-40a9-a997-23cf3ba48c20.jpg",
+            "video": "shopify:\/\/files\/videos\/1DBD76A2-2F9A-4BC0-81BD-E341C6D9575F.medium.MP4",
             "text": "Introducing—\nEssential Classics",
             "link": ""
           }
@@ -92,6 +93,7 @@
         "mobile_image": "shopify:\/\/shop_images\/Vector_1.jpg",
         "section_size": "small",
         "content_position": "left",
+        "subtitle": "",
         "text": "Introducing—\nEssential Classics",
         "button_label": "Explore the Fit Guide",
         "button_link": "",
