@@ -3,13 +3,13 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_2194.png",
-        "mobile_image": "shopify:\/\/shop_images\/Group_2200.png",
+        "image": "shopify:\/\/shop_images\/1_28da387c-fa4c-4ad0-a66f-ec2b3371304d.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_083da7f0-93c8-4533-b47e-3aa357450123.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-left",
-        "button_label": "SHOP RESORT '24",
+        "button_label": "SHOP NOW",
         "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
