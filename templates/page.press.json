@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "ecfcb09b-237b-4bcb-9cd3-b62bc147d638": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/wwd-logo.png",
+            "text": "\"Monday Swimwear Expands Into Activewear\"",
+            "date": "READ MORE",
+            "link": "https:\/\/wwd.com\/fashion-news\/fashion-scoops\/monday-swimwear-workout-activewear-1235881591\/"
+          }
+        },
         "a5fd7668-6cb0-4b4b-9c81-dbfd4cd49ad8": {
           "type": "block",
           "settings": {
@@ -260,6 +270,7 @@
         }
       },
       "block_order": [
+        "ecfcb09b-237b-4bcb-9cd3-b62bc147d638",
         "a5fd7668-6cb0-4b4b-9c81-dbfd4cd49ad8",
         "13c2cda0-8100-46ed-9802-adbe2c2002d7",
         "7bf06bf7-083f-4ca1-ab58-ef30d8914539",
