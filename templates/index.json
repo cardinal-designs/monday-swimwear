@@ -152,10 +152,10 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/maternity.jpg",
-            "text": "Monday Maternity",
-            "link_label": "Shop Maternity",
-            "link": "shopify:\/\/collections\/monday-maternity"
+            "image": "shopify:\/\/shop_images\/1_5d5fed73-b3a1-4c08-a68b-a0cda52c8b78.jpg",
+            "text": "Make a Move",
+            "link_label": "Monday Body",
+            "link": "shopify:\/\/collections\/monday-body"
           }
         }
       },
