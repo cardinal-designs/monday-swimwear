@@ -131,13 +131,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/386239042_685977243498301_2247666339819055891_n.jpg",
-            "text": "Comfy & Cozy",
-            "link_label": "Shop Knitwear",
-            "link": "shopify:\/\/collections\/knitwear"
+            "image": "shopify:\/\/shop_images\/1_5d5fed73-b3a1-4c08-a68b-a0cda52c8b78.jpg",
+            "text": "Make a Move",
+            "link_label": "Monday Body",
+            "link": "shopify:\/\/collections\/monday-body"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -149,20 +149,20 @@
             "link": "shopify:\/\/collections\/ivory-black"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_5d5fed73-b3a1-4c08-a68b-a0cda52c8b78.jpg",
-            "text": "Make a Move",
-            "link_label": "Monday Body",
-            "link": "shopify:\/\/collections\/monday-body"
+            "image": "shopify:\/\/shop_images\/386239042_685977243498301_2247666339819055891_n.jpg",
+            "text": "Comfy & Cozy",
+            "link_label": "Shop Knitwear",
+            "link": "shopify:\/\/collections\/knitwear"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
