@@ -2532,6 +2532,7 @@
           },
           "1c5cf602-eef6-4a64-8a9e-67926875a5c2": {
             "type": "faq_item",
+            "disabled": true,
             "settings": {
               "title": "End of Summer '23 Sale Policy:",
               "answer": "<p>By purchasing products from our end of season sale at 30%+ off, you agree to the return policy being stored credit only. Anything noted\/listed as <strong>FINAL SALE<\/strong> is not eligible for a store credit or refund. Price adjustments cannot be made to previous orders.<\/p>"
@@ -2556,7 +2557,7 @@
             "type": "faq_item",
             "settings": {
               "title": "I am an international customer, what is your return policy?",
-              "answer": "<p>We happily accept returns in original condition (unused, unworn, and unaltered) with tags and liners attached for a refund back to the original payment method for the <em>item <\/em>returned. <strong>We do not refund back shipping, taxes, or duties and we do not cover the return postage fees. <\/strong>If there is an active sale or marked down items, please refer to our sale return policy. All return requests must be made within 30 days after the date of delivery. The refund will be processed within 14 business days from the date of the returned package.<\/p><p>All Emma Pills items are final sale. Items that are purchased on sale are final sale. They cannot be returned or exchanged, and no exceptions will be made for any fit or sizing issues.<\/p><p>If you are needing to begin your return, please <a href=\"https:\/\/returns.mondayswimwear.com\/#\/\" title=\"https:\/\/returns.mondayswimwear.com\/#\/\"><strong>use this link<\/strong><\/a>.<\/p>"
+              "answer": "<p>This policy applies to any location outside of the US. We happily accept returns in original condition (unused, unworn, and unaltered) with tags and liners attached for a refund back to the original payment method for the <em>item <\/em>returned. <strong>We do not refund back shipping, taxes, or duties and we do not cover the return postage fees. <\/strong>If there is an active sale or marked down items, please refer to our sale return policy. All return requests must be made within 30 days after the date of delivery. The refund will be processed within 14 business days from the date of the returned package.<\/p><p>All Emma Pills items are final sale. Items that are purchased on sale are final sale. They cannot be returned or exchanged, and no exceptions will be made for any fit or sizing issues.<\/p><p>If you are needing to begin your return, please <a href=\"https:\/\/returns.mondayswimwear.com\/#\/\" title=\"https:\/\/returns.mondayswimwear.com\/#\/\"><strong>use this link<\/strong><\/a>.<\/p>"
             }
           },
           "755defbc-be9d-447a-8a4e-bfabc87541d6": {
