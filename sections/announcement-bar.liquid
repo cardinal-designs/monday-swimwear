@@ -13,87 +13,89 @@
   {% endif %}
 {% endif %}
 
-<div class="announcement-bar">
-  <div class="page-width">
-    <div class="announcement-bar__wrapper">
-      <div class="announcement-bar__switch">
-        {% for block in section.blocks %}
-          <a href="{{ block.settings.home_link }}" class="announcement-bar__tab{% if block.settings.monday_body and monday_body %} active{% elsif block.settings.monday_body == false and monday_body == false %} active{% endif %}">
-          <div class="announcement-bar__tab-container">
-            {{ block.settings.logo_svg }}
-          </div>
-          </a>
-        {% endfor %}
-      </div>
-      <div class="announcement-bar__text">
-        <p class="body-small">{{ section.settings.announcement }}</p>
-      </div>
-      <div class="announcement-bar__nav">
-
-        {% if section.settings.right_links_dropdown != blank %}
-          {% assign right_dropdown_menu = linklists[section.settings.right_links_dropdown] %}
-          <div {% if section.settings.right_links_dropdown != blank %}class="header__menu-list--submenu"{% endif %}>
-            <div class="header__menu-item header__menu-item--has-dropdown btn">
-              <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ section.settings.right_link_dropdown_label }}</span>
+<div id="geFSBContainer">
+  <div class="announcement-bar">
+    <div class="page-width">
+      <div class="announcement-bar__wrapper">
+        <div class="announcement-bar__switch">
+          {% for block in section.blocks %}
+            <a href="{{ block.settings.home_link }}" class="announcement-bar__tab{% if block.settings.monday_body and monday_body %} active{% elsif block.settings.monday_body == false and monday_body == false %} active{% endif %}">
+            <div class="announcement-bar__tab-container">
+              {{ block.settings.logo_svg }}
             </div>
-            <ul class="header__submenu" role="list" tabindex="-1">
-              {%- for childlink in right_dropdown_menu.links -%}
-                <li>
-                  <a {% if childlink.title == 'Help' %}href="#"{% else %}href="{{ childlink.url }}"{% endif %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %} {% if childlink.title == 'Help' %}header__submenu-item--gray{% endif %}  {% if childlink.title contains 'Contact' %}header__submenu-item--indent{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                    {{ childlink.title | escape }}
-                  </a>
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        {% endif %}
-
-        <button class="js-open-search header__icon header__icon--search hide-mobile" onclick="focusMethod()" aria-label="Open Search Bar">
-          {% render 'icon-search' %}
-        </button>
-    
-        {%- if shop.customer_accounts_enabled -%}
-          <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account">
-            {% render 'icon-account' %}
-            <span class="visually-hidden">
-              {%- liquid
-                if customer
-                  echo 'customer.account_fallback' | t
-                else
-                  echo 'customer.log_in' | t
-                endif
-              -%}
-            </span>
-          </a>
-        {%- endif -%}
-    
-        {% if template != 'cart' %}
-          <button class="js-open-cart header__icon header__icon--cart" id="cart-icon-bubble" aria-label="Open Cart Drawer">
-            {% render 'icon-cart' %}
-            <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
-            {%- if cart != empty -%}
-              <div class="cart-count-bubble">
-                {%- if cart.item_count < 100 -%}
-                  <span aria-hidden="true">{{ cart.item_count }}</span>
-                {%- endif -%}
-                <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+            </a>
+          {% endfor %}
+        </div>
+        <div class="announcement-bar__text">
+          <p class="body-small">{{ section.settings.announcement }}</p>
+        </div>
+        <div class="announcement-bar__nav">
+  
+          {% if section.settings.right_links_dropdown != blank %}
+            {% assign right_dropdown_menu = linklists[section.settings.right_links_dropdown] %}
+            <div {% if section.settings.right_links_dropdown != blank %}class="header__menu-list--submenu"{% endif %}>
+              <div class="header__menu-item header__menu-item--has-dropdown btn">
+                <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ section.settings.right_link_dropdown_label }}</span>
               </div>
-            {%- endif -%}
+              <ul class="header__submenu" role="list" tabindex="-1">
+                {%- for childlink in right_dropdown_menu.links -%}
+                  <li>
+                    <a {% if childlink.title == 'Help' %}href="#"{% else %}href="{{ childlink.url }}"{% endif %} class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %} {% if childlink.title == 'Help' %}header__submenu-item--gray{% endif %}  {% if childlink.title contains 'Contact' %}header__submenu-item--indent{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                      {{ childlink.title | escape }}
+                    </a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            </div>
+          {% endif %}
+  
+          <button class="js-open-search header__icon header__icon--search hide-mobile" onclick="focusMethod()" aria-label="Open Search Bar">
+            {% render 'icon-search' %}
           </button>
-        {% else %}
-          <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart" id="cart-icon-bubble">
-            {%- render 'icon-cart' -%}
-            <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
-            {%- if cart != empty -%}
-              <div class="cart-count-bubble">
-                {%- if cart.item_count < 100 -%}
-                  <span aria-hidden="true">{{ cart.item_count }}</span>
-                {%- endif -%}
-                <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
-              </div>
-            {%- endif -%}
-          </a>
-        {% endif %}
+      
+          {%- if shop.customer_accounts_enabled -%}
+            <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account">
+              {% render 'icon-account' %}
+              <span class="visually-hidden">
+                {%- liquid
+                  if customer
+                    echo 'customer.account_fallback' | t
+                  else
+                    echo 'customer.log_in' | t
+                  endif
+                -%}
+              </span>
+            </a>
+          {%- endif -%}
+      
+          {% if template != 'cart' %}
+            <button class="js-open-cart header__icon header__icon--cart" id="cart-icon-bubble" aria-label="Open Cart Drawer">
+              {% render 'icon-cart' %}
+              <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
+              {%- if cart != empty -%}
+                <div class="cart-count-bubble">
+                  {%- if cart.item_count < 100 -%}
+                    <span aria-hidden="true">{{ cart.item_count }}</span>
+                  {%- endif -%}
+                  <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+                </div>
+              {%- endif -%}
+            </button>
+          {% else %}
+            <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart" id="cart-icon-bubble">
+              {%- render 'icon-cart' -%}
+              <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
+              {%- if cart != empty -%}
+                <div class="cart-count-bubble">
+                  {%- if cart.item_count < 100 -%}
+                    <span aria-hidden="true">{{ cart.item_count }}</span>
+                  {%- endif -%}
+                  <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+                </div>
+              {%- endif -%}
+            </a>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
