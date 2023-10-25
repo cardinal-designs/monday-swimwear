@@ -130,6 +130,15 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_62081255-5240-4046-be11-59768d394efe.jpg",
+            "text": "Comfy & Cozy",
+            "link_label": "Shop Knitwear",
+            "link": "shopify:\/\/collections\/knitwear"
+          }
+        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -147,21 +156,12 @@
             "link_label": "Shop the Restock",
             "link": "shopify:\/\/collections\/ivory-black"
           }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/386239042_685977243498301_2247666339819055891_n.jpg",
-            "text": "Comfy & Cozy",
-            "link_label": "Shop Knitwear",
-            "link": "shopify:\/\/collections\/knitwear"
-          }
         }
       },
       "block_order": [
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
