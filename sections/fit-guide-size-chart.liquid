@@ -20,6 +20,14 @@
             {% render 'lazy-image' image: section.settings.beachwear_image, fade: true %}
             <p class="body-large">Beachwear</p>
           </button>
+          <button class="fit-size-chart__tab" data-tab="bras">
+            {% render 'lazy-image' image: section.settings.bras_image, fade: true %}
+            <p class="body-large">Bras</p>
+          </button>
+          <button class="fit-size-chart__tab" data-tab="shorts-leggings">
+            {% render 'lazy-image' image: section.settings.shorts_leggings_image, fade: true %}
+            <p class="body-large">Shorts/Leggings</p>
+          </button>
         </div>
       </div>
       <div class="fit-size-chart__charts">
@@ -47,8 +55,20 @@
             {% render 'size-chart' type: 'beachwear' %}
           </div>
         </div>
+
+        <div class="fit-size-chart__chart" data-tab="bras">
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'top' %}
+          </div>
+        </div>
+
+        <div class="fit-size-chart__chart" data-tab="shorts-leggings">
+          <div class="fit-size-chart__chart-wrapper no-scrollbar">
+            {% render 'size-chart' type: 'bottom' %}
+          </div>
+        </div>
         
-        <div class="fit-size-chart__arrow">
+        <div class="fit-size-chart__arrow hidden">
           {% render 'icon-arrow-right' %}
         </div>
 
