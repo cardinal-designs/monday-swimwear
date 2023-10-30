@@ -513,6 +513,8 @@
           {{ settings.swimwear_image | image_url: width: 900 | image_tag: loading: 'lazy' }}
         {% elsif product.tags contains 'Beachwear' %}
           {{ settings.beachwear_image | image_url: width: 900 | image_tag: loading: 'lazy' }}
+        {% elsif product.tags contains 'Activewear' %}
+          {{ settings.activewear_image | image_url: width: 900 | image_tag: loading: 'lazy' }}
         {% endif %}
       </div>
     </div>
