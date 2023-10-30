@@ -21,6 +21,17 @@
     "16432137026d4e6bd7": {
       "type": "initiatives-image-text",
       "blocks": {
+        "02c4255c-0477-4a86-b141-444b43bab914": {
+          "type": "block",
+          "settings": {
+            "reversed": true,
+            "image": "shopify:\/\/shop_images\/4_00f25ed6-e324-4747-8738-9e97329d0072.jpg",
+            "title": "Panthera",
+            "text": "Now through the end of 2024, 10% of sales from our Marbled Jaguar collection will go to Panthera, a nonprofit devoted exclusively to the conservation of the world’s 40 species of wild cats and the vast ecosystems they inhabit.<br><br>\n\nWith their supporters around the world, they inform the public about the plight of wild cats, work closely with communities living alongside these iconic species, protect wild cats and their prey from poaching, fight the illegal wildlife trade and safeguard the precious landscapes wild cats need to survive.",
+            "button_label": "Learn More",
+            "button_link": "https:\/\/panthera.org\/who-we-are"
+          }
+        },
         "f0b56d44-de86-4ff3-80a1-db6b466b1f19": {
           "type": "block",
           "settings": {
@@ -221,6 +232,7 @@
         }
       },
       "block_order": [
+        "02c4255c-0477-4a86-b141-444b43bab914",
         "f0b56d44-de86-4ff3-80a1-db6b466b1f19",
         "3a1d5ed5-07f5-41a1-9c1d-8dcd98ebe5fe",
         "f6cf5b57-495c-4abc-bfff-635a57b5536b",
