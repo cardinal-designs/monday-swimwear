@@ -38,6 +38,11 @@
         "label": "Beachwear Image"
       },
       {
+        "type": "image_picker",
+        "id": "activewear_image",
+        "label": "Activewear Image"
+      },
+      {
         "type": "textarea",
         "id": "shipping_returns",
         "label": "Product Dropdown - Shipping & Returns"
