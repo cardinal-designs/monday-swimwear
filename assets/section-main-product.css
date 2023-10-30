@@ -854,7 +854,7 @@ variant-radios fieldset {
 
 .monday-body .product__size-chart {
   width: 100%;
-  margin-top: 0;
+  margin-top: 10px;
   padding-top: 20px;
   text-align: left;
   font-size: 14px;
