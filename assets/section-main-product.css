@@ -904,5 +904,5 @@ variant-radios fieldset {
 }
 
 .monday-body .size-chart__tab.active:before, .size-chart__tab.active:after {
-  border-color: black;
+  border-color: black !important;
 }
