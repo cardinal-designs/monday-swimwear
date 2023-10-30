@@ -902,3 +902,7 @@ variant-radios fieldset {
 .monday-body .size-chart__container {
   background-color: #faf9f6;
 }
+
+.monday-body .size-chart__tab.active:before, .size-chart__tab.active:after {
+  border-color: black;
+}
