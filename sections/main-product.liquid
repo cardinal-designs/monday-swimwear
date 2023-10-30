@@ -494,14 +494,14 @@
     </div>
     <div class="size-chart__content size-chart__content--chart active" data-tab="chart">
       <div class="size-chart__wrapper no-scrollbar">
-        {% if product.tags contains 'Swim Tops' or product.tags contains 'Bra' %}
+        {% if product.tags contains 'Beachwear' %}
+          {% render 'size-chart' type: 'beachwear' %}
+        {% elsif product.tags contains 'Swim Tops' or product.tags contains 'Bra' or product.tags contains 'Tops' %}
           {% render 'size-chart' type: 'top' %}
         {% elsif product.tags contains 'Swim Bottom' or product.tags contains 'Leggings' or product.tags contains 'Shorts' %}
           {% render 'size-chart' type: 'bottom' %}
         {% elsif product.tags contains 'Swim One Piece' %}
           {% render 'size-chart' type: 'one-piece' %}
-        {% elsif product.tags contains 'Beachwear' %}
-          {% render 'size-chart' type: 'beachwear' %}
         {% endif %}
       </div>
     </div>
