@@ -898,3 +898,7 @@ variant-radios fieldset {
 .monday-body #dropahint #dropahint-cta #u_body a {
   background: #EFF3DA !important;
 }
+
+.monday-body .size-chart__container {
+  background-color: #faf9f6;
+}
