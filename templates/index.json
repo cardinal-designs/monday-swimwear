@@ -86,13 +86,14 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_28da387c-fa4c-4ad0-a66f-ec2b3371304d.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_083da7f0-93c8-4533-b47e-3aa357450123.jpg",
+        "image": "shopify:\/\/shop_images\/3_1e68f761-0b23-481c-836c-c0046ab8713e.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_f071ddd4-9f94-4747-a813-ddca2d78561c.jpg",
         "left_text": "",
         "right_text": "",
-        "link_label": "FIND YOUR SET",
-        "link": "shopify:\/\/pages\/monday-body"
+        "link_label": "shop now",
+        "link": "https:\/\/mondayswimwear.com\/products\/montego-dress-white-tash-exclusive-wedding-dress"
       }
     },
     "1640811405c1297562": {
