@@ -7,22 +7,33 @@
 <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
 
 <header class="header header--{{ section.settings.logo_position }} page-width">
-
   {%- if section.settings.menu != blank -%}
     <header-drawer>
       <div class="menu-drawer-container">
         <button class="js-open-menu header__icon header__icon--menu" aria-label="Menu">
           {% render 'icon-hamburger' %}
         </button>
-        <div class="menu-drawer__overlay"></div> 
+        <div class="menu-drawer__overlay"></div>
         <div id="menu-drawer" class="menu-drawer" tabindex="-1" aria-hidden="true">
           <div class="menu-drawer__inner-container">
             <div class="menu-drawer__header">
               <div class="mobile-search">
                 {% if settings.ss_enable %}
-                  <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search" class="header__search-form">
+                  <form
+                    action="{{ collections[settings.ss_collection_handle].url }}"
+                    method="get"
+                    role="search"
+                    class="header__search-form"
+                  >
                     <div class="header__search-group">
-                      <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore>
+                      <input
+                        class="header__search-input"
+                        type="search"
+                        name="q"
+                        value="{{ search.terms | escape }}"
+                        placeholder="Search here..."
+                        isp_ignore
+                      >
                       <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
                         {% render 'icon-search' %}
                       </button>
@@ -31,9 +42,15 @@
                 {% else %}
                   <form action="/search" method="get" role="search" class="header__search-form">
                     <div class="header__search-group">
-                      <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
+                      <input
+                        class="header__search-input"
+                        type="search"
+                        name="q"
+                        value="{{ search.terms | escape }}"
+                        placeholder="Search here..."
+                      >
                       <input type="hidden" name="options[prefix]" value="last">
-                      <input type="hidden" name="type" value="product" />
+                      <input type="hidden" name="type" value="product">
                       <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
                         {% render 'icon-search' %}
                       </button>
@@ -60,36 +77,65 @@
                           {% endif %}
                         </div>
                         <div class="menu-drawer__submenu motion-reduce" tabindex="-1">
-                            <ul class="menu-drawer__menu menu-drawer__menu--middle list-menu list-unstyled" role="list" tabindex="-1">
-                              {%- for childlink in link.links -%}
-                                <li class="menu-drawer__menu-item--middle">
-                                  {%- if childlink.links == blank -%}
-                                    <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                      {{ childlink.title | escape }}
-                                    </a>
-                                  {%- else -%}
-                                    <button class="menu-drawer__menu-item link link--text list-menu__item">
-                                      {{ childlink.title | escape }}
-                                      <div class="menu-drawer__menu-control"></div>
-                                    </button>
-                                    <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu menu-drawer__submenu--bottom motion-reduce">
-                                      <ul class="menu-drawer__menu menu-drawer__menu--bottom list-menu list-unstyled" role="list" tabindex="-1">
-                                        {%- for grandchildlink in childlink.links -%}
-                                          <li class="menu-drawer__menu-item--bottom">
-                                            <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                              {{ grandchildlink.title | escape }}
-                                            </a>
-                                          </li>
-                                        {%- endfor -%}
-                                      </ul>
-                                    </div>
-                                  {%- endif -%}
-                                </li>
-                              {%- endfor -%}
-                            </ul>
+                          <ul
+                            class="menu-drawer__menu menu-drawer__menu--middle list-menu list-unstyled"
+                            role="list"
+                            tabindex="-1"
+                          >
+                            {%- for childlink in link.links -%}
+                              <li class="menu-drawer__menu-item--middle">
+                                {%- if childlink.links == blank -%}
+                                  <a
+                                    href="{{ childlink.url }}"
+                                    class="menu-drawer__menu-item link link--text list-menu__item{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                    {% if childlink.current %}
+                                      aria-current="page"
+                                    {% endif %}
+                                  >
+                                    {{ childlink.title | escape }}
+                                  </a>
+                                {%- else -%}
+                                  <button class="menu-drawer__menu-item link link--text list-menu__item">
+                                    {{ childlink.title | escape }}
+                                    <div class="menu-drawer__menu-control"></div>
+                                  </button>
+                                  <div
+                                    id="childlink-{{ childlink.title | escape }}"
+                                    class="menu-drawer__submenu menu-drawer__submenu--bottom motion-reduce"
+                                  >
+                                    <ul
+                                      class="menu-drawer__menu menu-drawer__menu--bottom list-menu list-unstyled"
+                                      role="list"
+                                      tabindex="-1"
+                                    >
+                                      {%- for grandchildlink in childlink.links -%}
+                                        <li class="menu-drawer__menu-item--bottom">
+                                          <a
+                                            href="{{ grandchildlink.url }}"
+                                            class="menu-drawer__menu-item link link--text list-menu__item{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                            {% if grandchildlink.current %}
+                                              aria-current="page"
+                                            {% endif %}
+                                          >
+                                            {{ grandchildlink.title | escape }}
+                                          </a>
+                                        </li>
+                                      {%- endfor -%}
+                                    </ul>
+                                  </div>
+                                {%- endif -%}
+                              </li>
+                            {%- endfor -%}
+                          </ul>
                         </div>
                       {%- else -%}
-                        <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text btn{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                        <a
+                          href="{{ link.url }}"
+                          class="menu-drawer__menu-item list-menu__item link link--text btn{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+                          {% if link.current %}
+                            aria-current="page"
+                          {% endif %}
+                        >
                           {% if link.title contains 'Shop All' %}
                             Shop
                             <a class="shop-all-link link" href="/collections/shop-all">Shop All</a>
@@ -102,7 +148,7 @@
                   {%- endfor -%}
                 </ul>
                 <div class="currency1 mobile-country-switcher">
-                          {%- render 'country-switcher' -%}
+                  {%- render 'country-switcher' -%}
                 </div>
               </nav>
             </div>
@@ -114,7 +160,10 @@
 
   <!-- Logo -->
   <div class="header__logo">
-    <a href="{% if section.settings.logo_link %}{{ section.settings.logo_link }}{% else %}{{ routes.root_url }}{% endif %}" class="header__logo-link">
+    <a
+      href="{% if section.settings.logo_link %}{{ section.settings.logo_link }}{% else %}{{ routes.root_url }}{% endif %}"
+      class="header__logo-link"
+    >
       <span class="visually-hidden">{{ shop.name }}</span>
       <div class="header__logo-wrapper">
         {%- if section.settings.svg_logo != blank -%}
@@ -124,7 +173,8 @@
         {%- else -%}
           {%- if section.settings.logo != blank -%}
             {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-            <img srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+            <img
+              srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
               src="{{ section.settings.logo | img_url: image_size }}"
               loading="lazy"
               class="header__heading-logo"
@@ -148,7 +198,7 @@
     @media screen and (max-width: 768px) {
       .header__logo {
         width: {{ section.settings.mobile_logo_width }}px;
-      } 
+      }
     }
   {% endstyle %}
 
@@ -157,44 +207,67 @@
     <nav class="header__menu">
       <ul class="header__menu-list" role="list">
         {%- for link in section.settings.menu.links -%}
-
           {%- assign downcased_link_title = link.title | downcase | strip -%}
           {%- assign mega_menu_names = '' -%}
-  
+
           {%- for block in section.blocks -%}
             {%- if block.type == 'mega_menu' -%}
               {%- assign trim_mega_menu_name = block.settings.title | strip -%}
               {%- assign mega_menu_names = mega_menu_names | append: trim_mega_menu_name | append: ',' -%}
             {%- endif -%}
           {%- endfor -%}
-  
+
           {%- assign mega_menu_names = mega_menu_names | downcase | split: ',' | compact -%}
-          
+
           {%- unless mega_menu_names contains downcased_link_title -%}
             <li>
               {%- if link.links != blank -%}
                 <div class="header__menu-item header__menu-item--has-dropdown btn">
-                  <span {% if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                  <span
+                    {% if link.child_active %}
+                      class="header__active-menu-item"
+                    {% endif %}
+                  >
+                    {{- link.title | escape -}}
+                  </span>
                   {% render 'icon-caret' %}
                 </div>
                 <ul class="header__submenu" role="list" tabindex="-1">
                   {%- for childlink in link.links -%}
                     <li>
-                      <a href="{% if childlink.url != blank %}{{ childlink.url }}{% else %}#{% endif %}" class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                      <a
+                        href="{% if childlink.url != blank %}{{ childlink.url }}{% else %}#{% endif %}"
+                        class="header__submenu-item{% if childlink.current %} header__submenu-item--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
                         {{ childlink.title | escape }}
                       </a>
                     </li>
                   {%- endfor -%}
                 </ul>
               {%- else -%}
-                <a href="{{ link.url }}" class="header__menu-item btn"{% if link.current %} aria-current="page"{% endif %}>
+                <a
+                  href="{{ link.url }}"
+                  class="header__menu-item btn"
+                  {% if link.current %}
+                    aria-current="page"
+                  {% endif %}
+                >
                   {{ link.title | escape }}
                 </a>
               {%- endif -%}
             </li>
           {%- else -%}
             <li class="header__mega-menu-wrapper">
-              <a href="{{ link.url }}" class="header__menu-item header__menu-item--mega btn"{% if link.current %} aria-current="page"{% endif %}>
+              <a
+                href="{{ link.url }}"
+                class="header__menu-item header__menu-item--mega btn"
+                {% if link.current %}
+                  aria-current="page"
+                {% endif %}
+              >
                 {{ link.title | escape }}
               </a>
 
@@ -202,7 +275,7 @@
                 {%- assign trim_mega_menu_name = block.settings.title | strip -%}
                 {%- assign downcased_mega_menu_name = trim_mega_menu_name | downcase -%}
                 {%- assign mega_menu_names = mega_menu_names | append: trim_mega_menu_name | append: ',' -%}
-                
+
                 {%- if downcased_mega_menu_name == downcased_link_title -%}
                   <div class="header__mega-menu-outer">
                     <div class="header__mega-menu">
@@ -215,21 +288,31 @@
                                 <ul class="header__mega-menu-group-links" role="list">
                                   {% for grandchild_link in child_link.links %}
                                     <li>
-                                      <a href="{{ grandchild_link.url }}" class="body" aria-label="{{ grandchild_link.title }}">{{ grandchild_link.title }}</a>
+                                      <a
+                                        href="{{ grandchild_link.url }}"
+                                        class="body"
+                                        aria-label="{{ grandchild_link.title }}"
+                                      >
+                                        {{- grandchild_link.title -}}
+                                      </a>
                                     </li>
                                   {% endfor %}
                                 </ul>
                               </div>
                             {% endfor %}
                           </div>
-                          <a href="{{ block.settings.shop_all_link }}" aria-label="shop all" class="button button--bone">Shop All</a>
+                          <a href="{{ block.settings.shop_all_link }}" aria-label="shop all" class="button button--bone"
+                            >Shop All</a
+                          >
                         </div>
                       </div>
                       {% if block.settings.image != blank %}
                         <div class="header__mega-menu-image">
-                          {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                          {% render 'lazy-image', image: block.settings.image, fade: true, classes: 'img-fill' %}
                           <div class="header__mega-menu-button">
-                            <a href="{{ block.settings.button_overlay_link }}" class="button button--white">{{ block.settings.button_overlay_label }}</a>
+                            <a href="{{ block.settings.button_overlay_link }}" class="button button--white">
+                              {{- block.settings.button_overlay_label -}}
+                            </a>
                           </div>
                         </div>
                       {% endif %}
@@ -251,7 +334,13 @@
       <ul class="header__offset-links" role="list">
         {% for link in section.settings.secondary_menu.links %}
           <li>
-            <a href="{{ link.url }}" class="header__menu-item btn"{% if link.current %} aria-current="page"{% endif %}>
+            <a
+              href="{{ link.url }}"
+              class="header__menu-item btn"
+              {% if link.current %}
+                aria-current="page"
+              {% endif %}
+            >
               {{ link.title }}
             </a>
           </li>
@@ -288,19 +377,30 @@
     {% endif %}
 
     <div class="currency1 desktop-country-switcher">
-        {% comment %}{% include 'new-currency-picker' %}{% endcomment %}
-        {%- render 'country-switcher' -%}
-     </div>
-    
+      {% comment %}{% include 'new-currency-picker' %}{% endcomment %}
+      {%- render 'country-switcher' -%}
+    </div>
   </div>
-  
+
   <div class="header__search">
     <div class="page-width">
       <div class="header__search-container">
         {% if settings.ss_enable %}
-          <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search" class="header__search-form">
+          <form
+            action="{{ collections[settings.ss_collection_handle].url }}"
+            method="get"
+            role="search"
+            class="header__search-form"
+          >
             <div class="header__search-group">
-              <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore />
+              <input
+                class="header__search-input"
+                type="search"
+                name="q"
+                value="{{ search.terms | escape }}"
+                placeholder="Search here..."
+                isp_ignore
+              >
               <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
                 {% render 'icon-search' %}
               </button>
@@ -309,9 +409,15 @@
         {% else %}
           <form action="/search" method="get" role="search" class="header__search-form">
             <div class="header__search-group">
-              <input class="header__search-input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." />
-              <input type="hidden" name="options[prefix]" value="last" />
-              <input type="hidden" name="type" value="product" /> 
+              <input
+                class="header__search-input"
+                type="search"
+                name="q"
+                value="{{ search.terms | escape }}"
+                placeholder="Search here..."
+              >
+              <input type="hidden" name="options[prefix]" value="last">
+              <input type="hidden" name="type" value="product">
               <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
                 {% render 'icon-search' %}
               </button>
@@ -325,7 +431,6 @@
     </div>
   </div>
 </header>
-
 
 <script type="application/ld+json">
   {
@@ -351,22 +456,22 @@
 </script>
 
 {% comment %}
-{%- if request.page_type == 'index' -%}
-  {% assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": {{ shop.name | json }},
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {{ potential_action_target | json }},
-        "query-input": "required name=search_term_string"
-      },
-      "url": {{ shop.url | append: page.url | json }}
-    }
-  </script>
-{%- endif -%}
+  {%- if request.page_type == 'index' -%}
+    {% assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" %}
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": {{ shop.name | json }},
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {{ potential_action_target | json }},
+          "query-input": "required name=search_term_string"
+        },
+        "url": {{ shop.url | append: page.url | json }}
+      }
+    </script>
+  {%- endif -%}
 {% endcomment %}
 
 {% assign transparent_header = false %}
@@ -375,66 +480,66 @@
 {% endif %}
 
 {% if transparent_header %}
-<style>
-  @media screen and (min-width: 769px) {
-    .shopify-section-header:not(.scrolled) {
-      background: transparent;
-      border: transparent;
+  <style>
+    @media screen and (min-width: 769px) {
+      .shopify-section-header:not(.scrolled) {
+        background: transparent;
+        border: transparent;
+      }
+
+      .shopify-section-header:hover  {
+        background: white;
+        border-color: #F2F2F2;
+      }
+
+      #MainContent {
+        margin-top: -64px;
+      }
+
+      .shopify-section-header:not(.scrolled) .header__svg-logo svg {
+        color: white;
+      }
+
+      .shopify-section-header:not(.scrolled):hover .header__icon svg path,
+      .shopify-section-header .header__icon svg {
+        stroke: black;
+      }
+
+      .shopify-section-header:not(.scrolled) .header__icon svg path {
+        stroke: white;
+      }
+
+      .shopify-section-header:hover .header__svg-logo svg {
+        color: black;
+      }
     }
 
-    .shopify-section-header:hover  {
-      background: white;
-      border-color: #F2F2F2;
-    }
-  
-    #MainContent {
-      margin-top: -64px;
-    }
-    
-    .shopify-section-header:not(.scrolled) .header__svg-logo svg {
+    .shopify-section-header:not(.scrolled) .header__menu-item {
       color: white;
     }
-  
-    .shopify-section-header:not(.scrolled):hover .header__icon svg path,
-    .shopify-section-header .header__icon svg {
-      stroke: black;
-    }
-  
-    .shopify-section-header:not(.scrolled) .header__icon svg path {
-      stroke: white;
-    }
-  
-    .shopify-section-header:hover .header__svg-logo svg {
+
+    .shopify-section-header:hover .header__menu-item {
       color: black;
     }
-  }
 
-  .shopify-section-header:not(.scrolled) .header__menu-item {
-    color: white;
-  }
-  
-  .shopify-section-header:hover .header__menu-item {
-    color: black;
-  }
+    @media screen and (min-width: 769px) {
+      .shopify-section-header:not(.scrolled) .header__icon {
+        color: white;
+      }
 
-  @media screen and (min-width: 769px) {
-    .shopify-section-header:not(.scrolled) .header__icon {
-      color: white;
+      .shopify-section-header:hover .header__icon {
+        color: black;
+      }
     }
-  
-    .shopify-section-header:hover .header__icon {
-      color: black;
+
+    .shopify-section-header:not(.scrolled) .wk-icon__svg {
+      stroke: white !important;
     }
-  }
 
-  .shopify-section-header:not(.scrolled) .wk-icon__svg {
-    stroke: white !important;
-  }
-
-  .shopify-section-header:not(.scrolled) .disclosure__button {
-    color: white !important;
-  }
-</style>
+    .shopify-section-header:not(.scrolled) .disclosure__button {
+      color: white !important;
+    }
+  </style>
 {% endif %}
 
 {% javascript %}
@@ -467,7 +572,7 @@
   const closeSearch = document.querySelector('.js-close-search');
   const search = document.querySelector('.header__search');
   const searchInput = document.querySelector('.header__search .header__search-input');
-  
+
 
   openSearch.addEventListener('click', () => {
     console.log('asdlfkjhas');
@@ -603,4 +708,3 @@
   ]
 }
 {% endschema %}
-{%- render 'country-switcher-global' -%}

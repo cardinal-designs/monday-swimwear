@@ -1,24 +1,24 @@
 {% assign monday_body = false %}
-{% if page.handle != blank  %}
+{% if page.handle != blank %}
   {% if page.metafields.custom.monday_body == true %}
     {% assign monday_body = true %}
   {% endif %}
-{% elsif product.handle != blank  %}
+{% elsif product.handle != blank %}
   {% if product.metafields.custom.monday_body == true %}
     {% assign monday_body = true %}
   {% endif %}
-{% elsif collection.handle != blank  %}
+{% elsif collection.handle != blank %}
   {% if collection.metafields.custom.monday_body == true %}
     {% assign monday_body = true %}
   {% endif %}
 {% endif %}
 
-<!doctype html>  
+<!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
     {% include 'shop-sheriff-amp' %}
     {% include 'kiwiSizing' %}
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
@@ -28,8 +28,14 @@
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
     {%- endif -%}
-    
-    <img alt="LCP" width="99999" height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">
+
+    <img
+      alt="LCP"
+      width="99999"
+      height="99999"
+      style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"
+      src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+"
+    >
 
     <title>
       {{ page_title }}
@@ -43,9 +49,9 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  
+
     <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'scroll-trigger.min.js' | asset_url }}" defer="defer"></script>
@@ -55,8 +61,7 @@
     <script src="{{ 'zoom.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'custom-scripts.js' | asset_url }}" defer="defer"></script>
-  
-        
+
     {{ content_for_header }}
 
     {% style %}
@@ -147,13 +152,13 @@
         background: none;
         -webkit-appearance: none;
         appearance: none;
-        cursor: pointer; 
+        cursor: pointer;
         color: {{ settings.text_color }};
       }
     {% endstyle %}
 
     {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-     <link rel="preload" href="{{ 'base.css' | asset_url  }}" as="style">
+    <link rel="preload" href="{{ 'base.css' | asset_url  }}" as="style">
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {% if monday_body %}
@@ -162,26 +167,27 @@
       {{ 'monday-body-base.css' | asset_url | stylesheet_tag }}
     {% endif %}
 
-    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
     <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
 
-  {% if settings.ss_enable %}
-    {% render 'ss-script' %}
-  {% endif %}
-  
-  
-  
+    {% if settings.ss_enable %}
+      {% render 'ss-script' %}
+    {% endif %}
 
-  {% include "globale-js" %}
-</head>
+    {% include 'globale-js' %}
+  </head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
-    
-    <script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} {% if product.first_available_variant.price %}window.KlarnaThemeGlobals.data_purchase_amount = {{ product.first_available_variant.price }};{% endif %}window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
+    {%- render 'country-switcher-global' -%}
+    <script>
+      window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} {% if product.first_available_variant.price %}window.KlarnaThemeGlobals.data_purchase_amount = {{ product.first_available_variant.price }};{% endif %}window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}
+    </script>
 
     <div class="page-wrapper">
       <a class="skip-to-content-link button visually-hidden" href="#MainContent">
-        {{ "accessibility.skip_to_text" | t }}
+        {{ 'accessibility.skip_to_text' | t }}
       </a>
 
       <div class="page-overlay"></div>
@@ -212,10 +218,11 @@
       <div class="credits">
         <div class="page-width">
           <div class="credits__container">
-            <p class="body-small">Design by <a href="https://www.lustre.nyc/" target="_blank">Lustre</a>&nbsp;&nbsp;/&nbsp;&nbsp;Development by <a href="https://cardinalco.agency/" target="_blank">Cardinal & Co.</a></p>
-            <button class="credits__close button button--white-ghost">
-              Close
-            </button>
+            <p class="body-small">
+              Design by <a href="https://www.lustre.nyc/" target="_blank">Lustre</a>&nbsp;&nbsp;/&nbsp;&nbsp;Development
+              by <a href="https://cardinalco.agency/" target="_blank">Cardinal & Co.</a>
+            </p>
+            <button class="credits__close button button--white-ghost">Close</button>
           </div>
         </div>
       </div>
@@ -249,12 +256,15 @@
       }
     </script>
 
-    
-    {% comment %}Gorgias Script{% endcomment %} 
-    <script id="gorgias-chat-widget-install">!function(_){_.GORGIAS_CHAT_APP_ID="7623",_.GORGIAS_CHAT_BASE_URL="us-east1-898b.production.gorgias.chat",_.GORGIAS_API_BASE_URL="config.gorgias.chat";var e=new XMLHttpRequest;e.open("GET","https://config.gorgias.chat/applications/7623",!0),e.onload=function(t){if(4===e.readyState)if(200===e.status){var n=JSON.parse(e.responseText);if(!n.application||!n.bundleVersion)throw new Error("Missing fields in the response body - https://config.gorgias.chat/applications/7623");if(_.GORGIAS_CHAT_APP=n.application,_.GORGIAS_CHAT_BUNDLE_VERSION=n.bundleVersion,n&&n.texts&&(_.GORGIAS_CHAT_TEXTS=n.texts),n&&n.sspTexts&&(_.GORGIAS_CHAT_SELF_SERVICE_PORTAL_TEXTS=n.sspTexts),!document.getElementById("gorgias-chat-container")){var o=document.createElement("div");o.id="gorgias-chat-container",document.body.appendChild(o);var r=document.createElement("script");r.setAttribute("defer",!0),r.src="https://client-builds.production.gorgias.chat/{bundleVersion}/static/js/main.js".replace("{bundleVersion}",n.bundleVersion),document.body.appendChild(r)}}else console.error("Failed request GET - https://config.gorgias.chat/applications/7623")},e.onerror=function(_){console.error(_)},e.send()}(window||{});</script>
+    {% comment %}Gorgias Script{% endcomment %}
+    <script id="gorgias-chat-widget-install">
+      !function(_){_.GORGIAS_CHAT_APP_ID="7623",_.GORGIAS_CHAT_BASE_URL="us-east1-898b.production.gorgias.chat",_.GORGIAS_API_BASE_URL="config.gorgias.chat";var e=new XMLHttpRequest;e.open("GET","https://config.gorgias.chat/applications/7623",!0),e.onload=function(t){if(4===e.readyState)if(200===e.status){var n=JSON.parse(e.responseText);if(!n.application||!n.bundleVersion)throw new Error("Missing fields in the response body - https://config.gorgias.chat/applications/7623");if(_.GORGIAS_CHAT_APP=n.application,_.GORGIAS_CHAT_BUNDLE_VERSION=n.bundleVersion,n&&n.texts&&(_.GORGIAS_CHAT_TEXTS=n.texts),n&&n.sspTexts&&(_.GORGIAS_CHAT_SELF_SERVICE_PORTAL_TEXTS=n.sspTexts),!document.getElementById("gorgias-chat-container")){var o=document.createElement("div");o.id="gorgias-chat-container",document.body.appendChild(o);var r=document.createElement("script");r.setAttribute("defer",!0),r.src="https://client-builds.production.gorgias.chat/{bundleVersion}/static/js/main.js".replace("{bundleVersion}",n.bundleVersion),document.body.appendChild(r)}}else console.error("Failed request GET - https://config.gorgias.chat/applications/7623")},e.onerror=function(_){console.error(_)},e.send()}(window||{});
+    </script>
 
     {% comment %}AccessiBe Script{% endcomment %}
-    <script>(function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : true, hideTrigger : true, language : 'en', position : 'left', leadColor : '#af6148', triggerColor : '#af6148', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());</script>
+    <script>
+      (function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : true, hideTrigger : true, language : 'en', position : 'left', leadColor : '#af6148', triggerColor : '#af6148', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());
+    </script>
 
     <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
     <script>
@@ -263,7 +273,7 @@
         account: "HxZwzm",
         platform: "shopify"
       });
-      klaviyo.enable("backinstock",{ 
+      klaviyo.enable("backinstock",{
         trigger: {
           product_page_text: "Notify Me When Available",
           product_page_class: "button button--full",
@@ -292,7 +302,12 @@
         }
       });
     </script>
-    <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HxZwzm" defer="defer"></script>
+    <script
+      async
+      type="text/javascript"
+      src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HxZwzm"
+      defer="defer"
+    ></script>
     <script src="https://cdn.attn.tv/mondayswimwear/dtag.js" defer="defer"></script>
     {% render 'preorder-now' %}
     {% render 'nosto-tagging' %}
@@ -312,13 +327,15 @@
               document.querySelector('.product-form__button-wrapper').appendChild(klAnchor);
               klAnchor.textContent = 'Notify Me When Available';
               document.querySelector('.product-form__submit.button.button--full.button--primary').remove();
-              
+
             };
           };
         }, 1000)
       </script>
     {% endif %}
 
-    <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#000005', triggerColor : '#000000', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 25, triggerOffsetY : 25, mobile : { triggerSize : 'medium', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 28, triggerOffsetY : 25, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script> 
+    <script>
+      (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#000005', triggerColor : '#000000', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 25, triggerOffsetY : 25, mobile : { triggerSize : 'medium', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 28, triggerOffsetY : 25, triggerRadius : '50%' } }); }; h.appendChild(s); })();
+    </script>
   </body>
 </html>
