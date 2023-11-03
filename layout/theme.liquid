@@ -177,7 +177,9 @@
     {% endif %}
 
     {% include 'globale-js' %}
-  </head>
+  
+  {% include "globale-js" %}
+</head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
     <script>
