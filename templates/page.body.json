@@ -4,9 +4,9 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/Group_2199.png",
-        "mobile_image": "shopify:\/\/shop_images\/Group_2211.png",
-        "content_position": "center",
+        "image": "shopify:\/\/shop_images\/web1.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob1_13024107-1296-4fe3-9f00-b476ccc52671.png",
+        "content_position": "bottom-center",
         "subtitle": "",
         "title": "",
         "button_label": "Now Available",
