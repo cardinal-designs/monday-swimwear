@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_be170a67-6778-4da3-97a0-64877cf6686d.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/3_ad47cb1d-56de-4d8a-9ac0-e6d45f75676d.jpg",
+        "image": "shopify:\/\/shop_images\/1_6c4c4e58-1923-427d-803f-eb493113d6d0.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_6ba9d784-dfa7-4132-ac62-8c6b0dae806f.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,19 +43,19 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "marbled-jaguar"
+            "collection": "ivory-crinkle"
           }
         },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "vivid-moss-crinkle"
+            "collection": "sea-mist-crinkle"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
-            "collection": "bridal-collection"
+            "collection": "ivory-sea-mist"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -133,10 +133,10 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_62081255-5240-4046-be11-59768d394efe.jpg",
-            "text": "Comfy & Cozy",
-            "link_label": "Shop Knitwear",
-            "link": "shopify:\/\/collections\/knitwear"
+            "image": "shopify:\/\/shop_images\/Monday_D5_247.jpg",
+            "text": "Vivid Moss Crinkle",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/vivid-moss-crinkle"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
