@@ -231,6 +231,7 @@
         "57463eab-fe10-4bbe-97f0-49cb87347475",
         "37be9d4e-ad65-4a18-88ca-dca968d4542e"
       ],
+      "disabled": true,
       "settings": {
         "offset_text": false,
         "use_page_width": false
