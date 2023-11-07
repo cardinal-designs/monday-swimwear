@@ -7,14 +7,6 @@
     {% render 'lazy-image' image: section.settings.bottoms_image, fade: true %}
     <p class="sh1">Bottoms</p>
   </button>
-  <button class="fit-guide-header__tab" data-tab="one-pieces">
-    {% render 'lazy-image' image: section.settings.one_pieces_image, fade: true %}
-    <p class="sh1">One Pieces</p>
-  </button>
-  <button class="fit-guide-header__tab" data-tab="beachwear">
-    {% render 'lazy-image' image: section.settings.beachwear_image, fade: true %}
-    <p class="sh1">Beachwear</p>
-  </button>
 </div>
 
 {% javascript %}
@@ -45,16 +37,6 @@
         "type": "image_picker",
         "id": "bottoms_image",
         "label": "Bottoms Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "one_pieces_image",
-        "label": "One Pieces Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "beachwear_image",
-        "label": "Beachwear Image"
       }
     ]
   }
