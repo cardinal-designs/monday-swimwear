@@ -3734,6 +3734,8 @@
       "fit-guide-tabs-body": {
         "type": "fit-guide-tabs-body",
         "settings": {
+          "tops_image": "shopify:\/\/shop_images\/fit-guide-bras.png",
+          "bottoms_image": "shopify:\/\/shop_images\/fi-guide-shorts-leggings.png"
         }
       },
       "fit-guide-tops-body": {
