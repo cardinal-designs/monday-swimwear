@@ -4,7 +4,7 @@
       <div class="fit-size-chart__measurements">
         <div class="fit-size-chart__measurements-container">
           <p class="detail-caps">Measurements</p>
-          <button class="fit-size-chart__tab" data-tab="bras">
+          <button class="fit-size-chart__tab active" data-tab="bras">
             {% render 'lazy-image' image: section.settings.bras_image, fade: true %}
             <p class="body">Bras</p>
           </button>
@@ -16,7 +16,7 @@
       </div>
       <div class="fit-size-chart__charts">
 
-        <div class="fit-size-chart__chart" data-tab="bras">
+        <div class="fit-size-chart__chart active" data-tab="bras">
           <div class="fit-size-chart__chart-wrapper no-scrollbar">
             {% render 'size-chart' type: 'top' %}
           </div>
