@@ -3715,6 +3715,53 @@
         "settings": {
           "title": "FAQs"
         }
+      },
+      "fit-guide-header-body": {
+        "type": "fit-guide-header-body",
+        "settings": {
+          "title": "",
+          "text": ""
+        }
+      },
+      "fit-guide-size-chart-body": {
+        "type": "fit-guide-size-chart-body",
+        "settings": {
+          "disclaimer": "Fit is the most important part of our process and because sizing and fit involve a variety of factors (such as, personal preference and body shapes), we want to be transparent that recommended sizing cannot guarantee the exact fit you’re looking for. If you have any questions, please contact our amazing customer service and fit specialist team who can assist you in finding the right size and style for you!\n<br><br>We provide a range of bra sizes for each Monday top size. If you are between sizes - for our underwire tops we recommend sizing down, for all other tops you can size up or down based on preferred coverage. For example, Natasha is a 34D and wears an S in some tops and an M in others. If your size is not accounted for in our chart, or it you are uncertain what size to order, please reach out to <a href=\"mailto:customerservice@mondayswimwear.com\">customerservice@mondayswimwear.com<\/a> and we will be happy to help you to select a size!"
+        }
+      },
+      "fit-guide-tabs-body": {
+        "type": "fit-guide-tabs-body",
+        "settings": {
+        }
+      },
+      "fit-guide-tops-body": {
+        "type": "fit-guide-tops-body",
+        "settings": {
+        }
+      },
+      "fit-guide-bottoms-body": {
+        "type": "fit-guide-bottoms-body",
+        "settings": {
+        }
+      },
+      "fit-guide-text-body": {
+        "type": "fit-guide-text-body",
+        "settings": {
+          "title": "",
+          "text": ""
+        }
+      },
+      "fit-guide-editorial-cta-body": {
+        "type": "fit-guide-editorial-cta-body",
+        "settings": {
+          "show_section": false,
+          "title": "",
+          "button_label": "",
+          "button_link": "",
+          "text_1": "",
+          "text_2": "",
+          "text_3": ""
+        }
       }
     },
     "content_for_index": [
