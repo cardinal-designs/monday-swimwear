@@ -783,6 +783,15 @@
 }
 
 /* Monday Body */
+.monday-body .fit-guide-header__text p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: unset;
+}
+
 .monday-body .fit-guide-header__tabs {
   max-width: 415px;
   grid-template-columns: 1fr 1fr;
