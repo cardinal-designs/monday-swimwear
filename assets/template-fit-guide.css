@@ -781,3 +781,9 @@
     display: flex;
   }
 }
+
+/* Monday Body */
+.monday-body .fit-guide-header__tabs {
+  max-width: 415px;
+  grid-template-columns: 1fr 1fr;
+}
