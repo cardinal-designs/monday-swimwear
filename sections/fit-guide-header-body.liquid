@@ -1,0 +1,31 @@
+<div class="fit-guide-header">
+  <div class="page-width">
+    <div class="fit-guide-header__text">
+      <h2>{{ section.settings.title }}</h2>
+      <p class="body-small">{{ section.settings.text }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Fit Guide Header",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Fit Guide Header"
+      }
+    ]
+  }
+{% endschema %}
