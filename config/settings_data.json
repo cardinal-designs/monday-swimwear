@@ -3766,6 +3766,12 @@
           "text_2": "",
           "text_3": ""
         }
+      },
+      "fit-guide-image": {
+        "type": "fit-guide-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/MB-figuide.png"
+        }
       }
     },
     "content_for_index": [
