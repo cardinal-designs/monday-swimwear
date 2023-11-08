@@ -142,18 +142,18 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_5d5fed73-b3a1-4c08-a68b-a0cda52c8b78.jpg",
+            "image": "shopify:\/\/shop_images\/1_27e24a9e-ba6f-4a52-b47e-b5ae2ac222b1.jpg",
             "text": "Make a Move",
-            "link_label": "Monday Body",
-            "link": "shopify:\/\/collections\/monday-body"
+            "link_label": "Shop the Restock",
+            "link": "https:\/\/mondayswimwear.com\/collections\/monday-body-bras"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_2f23332d-61ee-4d70-a3a0-3c8c98abf6bb.jpg",
-            "text": "Back in Stock",
-            "link_label": "Shop the Restock",
+            "text": "Ivory \/ Black",
+            "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/ivory-black"
           }
         }
