@@ -792,6 +792,10 @@
   text-transform: unset;
 }
 
+.monday-body .fit-size-chart__tab:before {
+  background-color: #EFF3DA;
+}
+
 .monday-body .fit-guide-header__tabs {
   max-width: 415px;
   grid-template-columns: 1fr 1fr;
