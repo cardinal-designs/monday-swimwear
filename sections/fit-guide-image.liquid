@@ -1,12 +1,20 @@
+<div class="fit-guide-image">
+  <div class="page-width">
+    <div class="fit-guide-image__container">
+      {% render 'lazy-image' image: section.settings.image, fade: true %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Fit Guide Image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Imaage"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}

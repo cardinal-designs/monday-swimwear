@@ -782,6 +782,15 @@
   }
 }
 
+/* Image */
+.fit-guide-image {
+  margin: 60px 0;
+}
+
+.fit-guide-image__container {
+  max-width: 500px;
+}
+
 /* Monday Body */
 .monday-body .fit-guide-header__text p {
   font-size: 13px;
