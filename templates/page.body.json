@@ -77,10 +77,10 @@
     "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
       "type": "body-image-text-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/horizontal-web-test2.png",
-        "mobile_image": "shopify:\/\/shop_images\/230929_Monday_Swim_58_2978.jpg",
+        "image": "shopify:\/\/shop_images\/2_b33fe849-0854-431c-9c10-6bb21e7cf73e.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Monday_D6_288.jpg",
         "section_size": "large",
-        "content_position": "bottom-center",
+        "content_position": "top-center",
         "subtitle": "",
         "text": "FORM & FUNCTION",
         "button_label": "",
