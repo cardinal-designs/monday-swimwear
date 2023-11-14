@@ -1,6 +1,7 @@
 {{ 'section-body-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="body-hero{% if section.settings.layout == 'split' %} body-hero--split{% endif %}">
+  {% if section.settings.full_link %}<a href="{{ section.settings.button_link }}"></a>{% endif %}
   <div class="page-width body-hero__content body-hero__content--{{ section.settings.content_position }}">
     <div class="body-hero__content-container fade-in-up">
       <p class="body-hero__subtitle tag">{{ section.settings.subtitle }}</p>
