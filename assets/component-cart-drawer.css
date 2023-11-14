@@ -179,10 +179,6 @@
     height: 30px;
     margin-bottom: 10px;
   }
-
-  .cart-drawer__item-quantity .quantity__button {
-    width: 10px;
-  }
 }
 
 /* Upsell */
