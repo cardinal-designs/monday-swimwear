@@ -61,7 +61,7 @@
 
     <div class="cart-drawer__item-bottom">
 
-      {% unless bundle_id %}
+      {% unless item.product.type == 'EcoCart' %}
         <div class="cart-drawer__item-quantity">
           <quantity-input class="quantity">
             <button class="quantity__button no-js-hidden" name="minus" type="button">
