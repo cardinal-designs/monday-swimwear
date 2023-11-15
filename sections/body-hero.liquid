@@ -1,6 +1,7 @@
 {{ 'section-body-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="body-hero{% if section.settings.layout == 'split' %} body-hero--split{% endif %}">
+  {% if section.settings.full_link %}<a class="body-hero-overlay__link" href="{{ section.settings.button_link }}"></a>{% endif %}
   <div class="page-width body-hero__content body-hero__content--{{ section.settings.content_position }}">
     <div class="body-hero__content-container fade-in-up">
       <p class="body-hero__subtitle tag">{{ section.settings.subtitle }}</p>
@@ -111,6 +112,11 @@
         "type": "url",
         "id": "button_link",
         "label": "Button Link"
+      },
+      {
+        "type": "checkbox",
+        "id": "full_link",
+        "label": "Hero fully clickable?"
       }
     ],
     "presets": [
