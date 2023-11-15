@@ -10,7 +10,8 @@
         "subtitle": "",
         "title": "",
         "button_label": "Now Available",
-        "button_link": "shopify:\/\/collections\/monday-body"
+        "button_link": "shopify:\/\/collections\/monday-body",
+        "full_link": true
       }
     },
     "635ff124-63e6-45d6-bcb9-6bdb30de0929": {
