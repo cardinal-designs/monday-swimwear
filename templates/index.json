@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_ca9d9b82-489e-4fc0-85d2-9a41f5c65ee4.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_d0376434-c2c2-4685-aa3f-92f293c1eab0.jpg",
+        "image": "shopify:\/\/shop_images\/4_b2f7f0c6-e5ca-4711-8389-8f079e8ed854.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_9cb25b19-893c-464a-b715-3d20390a8046.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,16 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "vivid-moss-crinkle"
-          }
-        },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
             "collection": "ivory-crinkle"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "vivid-moss-crinkle"
           }
         },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
@@ -66,8 +66,8 @@
         }
       },
       "block_order": [
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "bf612915-d86f-40f2-817f-6322dada207b"
       ],
@@ -77,7 +77,7 @@
     "164081090579915a8a": {
       "type": "text",
       "settings": {
-        "text": "Cyberweek starts now! Use code: CYBER30 to receive 30% off your order. Store credit returns only.",
+        "text": "Cyberweek starts now! Use code: CYBER40 to receive 40% off your order. Store credit returns only.",
         "wide": true,
         "add_glow": false,
         "link": "shopify:\/\/collections\/monday-maternity"
