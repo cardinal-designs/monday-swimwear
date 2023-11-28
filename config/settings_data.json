@@ -1027,6 +1027,26 @@
               "shop_link": "shopify:\/\/collections\/shop-by-style-seychelles"
             }
           },
+          "39665fc0-367c-4ea8-a694-18d758308cb7": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/SOMERSET-BOTTOM---IVORY-BLACK_95e4643d-8607-4b7f-a4fe-1b75a4c2f000.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/Lsom3_693617fa-36b3-46e2-a810-e44c6c556117.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/Lsom2_9c4b92f9-ea83-4e27-8a8a-be25fbe0dff3.jpg",
+              "title": "The Somerset Bottom",
+              "short_title": "Somerset Bottom",
+              "short_description": "",
+              "description": "The Somerset Bottom is our newest swim bottom! Flaunting a cheeky high leg coverage and binding detail along the leg and waist, the two tone design gives you a chic finish to a classic silhouette.",
+              "highlights": "High cut leg, mid-rise, binding detail along the legs and waist, cheeky bottom coverage",
+              "fit": "Available in sizes P-VV",
+              "padding": "",
+              "coverage": "High Leg \/ Cheeky",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "https:\/\/mondayswimwear.com\/products\/somerset-bottom-black"
+            }
+          },
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7": {
             "type": "bottom",
             "settings": {
@@ -1106,23 +1126,6 @@
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-tulum-bottom"
             }
-          },
-          "39665fc0-367c-4ea8-a694-18d758308cb7": {
-            "type": "bottom",
-            "settings": {
-              "title": "The Somerset Bottom",
-              "short_title": "Somerset Bottom",
-              "short_description": "",
-              "description": "The Somerset Bottom is our newest swim bottom! Flaunting a cheeky high leg coverage and binding detail along the leg and waist, the two tone design gives you a chic finish to a classic silhouette.",
-              "highlights": "High cut leg, mid-rise, binding detail along the legs and waist, cheeky bottom coverage",
-              "fit": "Available in sizes P-VV",
-              "padding": "",
-              "coverage": "High Leg \/ Cheeky",
-              "style": "",
-              "fabric": "",
-              "fit_tip": "",
-              "shop_link": "https:\/\/mondayswimwear.com\/products\/somerset-bottom-black"
-            }
           }
         },
         "block_order": [
@@ -1148,11 +1151,11 @@
           "73620f54-1142-497e-ae12-f04d2849b86d",
           "1438764c-b56e-47b5-8cdb-8801d2f10876",
           "451829e4-c761-453b-8c48-d1be554370d0",
+          "39665fc0-367c-4ea8-a694-18d758308cb7",
           "f2b10fc4-7ce3-4187-9356-7f6ed3f9d7e7",
           "4198cbe8-da95-4c39-b1ff-b5c042b4b767",
           "50917c6a-4369-447a-b962-017a811c3759",
-          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97",
-          "39665fc0-367c-4ea8-a694-18d758308cb7"
+          "14ddb791-3e55-44aa-96e8-2e0a32f0eb97"
         ],
         "settings": {
         }
