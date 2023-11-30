@@ -3,7 +3,7 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/50OFF.png",
+        "image": "shopify:\/\/shop_images\/1_a1b0a9ff-30c1-40e5-94bd-e10eac1b7344.jpg",
         "mobile_image": "shopify:\/\/shop_images\/2_487edc50-b490-4337-8225-84cd334d9559.jpg",
         "text": "",
         "text_color": "#ffffff",
@@ -76,6 +76,7 @@
     },
     "164081090579915a8a": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "text": "Cyber Monday ends soon! Use code: CYBER50 to receive 50% off your order. Store credit returns only.",
         "wide": true,
