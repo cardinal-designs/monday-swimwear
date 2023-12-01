@@ -98,22 +98,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Monday_D5_247.jpg",
-            "text": "Vivid Moss Crinkle",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/vivid-moss-crinkle"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_3e2fd547-9f3b-4140-9c3e-914c1a1df776.jpg",
-            "text": "Marbled Jaguar",
+            "image": "shopify:\/\/shop_images\/2_70fa8475-347d-4493-8640-287584de8192.jpg",
+            "text": "Ivory",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/marbled-jaguar"
+            "link": "shopify:\/\/collections\/ivory"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -124,12 +115,21 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/copper-rib"
           }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monday_D5_247.jpg",
+            "text": "Vivid Moss Crinkle",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/vivid-moss-crinkle"
+          }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
