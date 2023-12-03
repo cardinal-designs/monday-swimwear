@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/0_86914efc-d71b-419a-b1e7-2318b26bc2a0.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1_1c87e482-37f6-4569-a92c-f3e765d396aa.jpg",
+        "image": "shopify:\/\/shop_images\/web1_7cd974d5-c367-4809-9871-845f44f4711e.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob2.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,10 +40,22 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": "clementine-wide-rib"
+          }
+        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory-crinkle"
           }
         },
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
@@ -51,25 +63,13 @@
           "settings": {
             "collection": "marbled-jaguar"
           }
-        },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "vivid-moss-crinkle"
-          }
-        },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
-          "type": "collection",
-          "settings": {
-            "collection": "ivory-black"
-          }
         }
       },
       "block_order": [
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
       ],
       "settings": {
       }
@@ -119,10 +119,10 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Monday_D5_247.jpg",
-            "text": "Vivid Moss Crinkle",
+            "image": "shopify:\/\/shop_images\/3_a64f84bf-105c-465b-b202-6af309944a70.jpg",
+            "text": "The Signature Collection",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/vivid-moss-crinkle"
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         }
       },
