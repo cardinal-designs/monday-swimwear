@@ -56,6 +56,11 @@
   background: white;
 }
 
+.product__media-list .swiper-button svg {
+  width: 15px;
+  height: auto;
+}
+
 .product__media-list .swiper-button-prev {
   left: 0;
 }
