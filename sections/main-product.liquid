@@ -569,10 +569,9 @@
   });
 
   const productSlider = new Swiper('.product__media-list', {
-    slidesPerView: 1.2,
-    loop: false,
+    slidesPerView: 1,
+    loop: true,
     spaceBetween: 10,
-    freeMode: true,
     thumbs: {
       swiper: productThumbsSlider
     },
@@ -580,12 +579,14 @@
       el: '.product__media-scrollbar',
       draggable: true
     },
+    navigation: {
+      prevEl: '.product__media-list .swiper-button-prev',
+      nextEl: '.product__media-list .swiper-button-next'
+    },
     breakpoints: {
       851: {
         slidesPerView: 1,
         spaceBetween: 20,
-        loop: true,
-        freeMode: false
       }
     }
   });
