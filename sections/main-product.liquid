@@ -57,7 +57,16 @@
                 </li>
               {%- endfor -%}
             </div>
-            <div class="product__media-scrollbar-wrapper">
+            
+            <div class="swiper-button swiper-button-prev hide-desktop">
+              {% render 'icon-arrow-left' %}
+            </div>
+                  
+            <div class="swiper-button swiper-button-next hide-desktop">
+              {% render 'icon-arrow-right' %}
+            </div>
+                  
+            <div class="product__media-scrollbar-wrapper hidden">
               <div class="product__media-scrollbar swiper-scrollbar"></div>
             </div>
           </ul>
@@ -569,10 +578,9 @@
   });
 
   const productSlider = new Swiper('.product__media-list', {
-    slidesPerView: 1.2,
-    loop: false,
-    spaceBetween: 10,
-    freeMode: true,
+    slidesPerView: 1,
+    loop: true,
+    spaceBetween: 0,
     thumbs: {
       swiper: productThumbsSlider
     },
@@ -580,12 +588,14 @@
       el: '.product__media-scrollbar',
       draggable: true
     },
+    navigation: {
+      prevEl: '.product__media-list .swiper-button-prev',
+      nextEl: '.product__media-list .swiper-button-next'
+    },
     breakpoints: {
       851: {
         slidesPerView: 1,
         spaceBetween: 20,
-        loop: true,
-        freeMode: false
       }
     }
   });
@@ -600,7 +610,7 @@
 
       parent.classList.toggle('active');
       slideToggle(content, 300);
-    });
+    }); 
   });
 
   // Size chart dropdown
