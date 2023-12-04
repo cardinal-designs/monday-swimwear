@@ -172,10 +172,6 @@
 }
 
 @media screen and (max-width: 850px) {
-  .product-section {
-    overflow: hidden;
-  }
-
   .product__media-wrapper {
     display: block;
   }
@@ -185,7 +181,8 @@
   }
 
   .product__media-list  {
-    overflow: visible;
+    width: auto;
+    margin: 0 -10px;
   }
 
   .product__media-scrollbar-wrapper {
