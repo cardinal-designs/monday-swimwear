@@ -4,8 +4,8 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/website-final2.png",
-        "mobile_image": "shopify:\/\/shop_images\/3_fb148a65-dad9-4bcc-905d-53a7d7436720.jpg",
+        "image": "shopify:\/\/shop_images\/cliffsideweb6.png",
+        "mobile_image": "shopify:\/\/shop_images\/cliffsidemob5.png",
         "content_position": "bottom-center",
         "subtitle": "",
         "title": "",
@@ -167,13 +167,13 @@
       "settings": {
         "title": "Activewear designed to meet your needs.",
         "products": [
-          "the-tash-bra-ivory-black",
-          "acadia-legging-black",
-          "yosemite-top-black-rib",
-          "antigua-monday-cap-black"
+          "olympic-tank-cliffside",
+          "acadia-legging-cliffside",
+          "yosemite-top-cliffside-rib",
+          "antigua-monday-cap-cliffside"
         ],
         "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
-        "video": "shopify:\/\/files\/videos\/MONDAY-ACTIVE-01-V03.mp4",
+        "video": "shopify:\/\/files\/videos\/MONDAY-ACTIVE-03-V03.mp4",
         "image_link": "",
         "text_1": "move in monday",
         "text_2": ""
