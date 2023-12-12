@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "74e2b089-36f3-4356-b19e-311462fc500d": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/Fortune_magazine_logo_2016_svg.png",
+            "text": "\"9 sustainable apparel brands to shop this winter\"",
+            "date": "READ MORE",
+            "link": "https:\/\/fortune.com\/2023\/11\/19\/smarter-shopping-sustainable-clothing\/"
+          }
+        },
         "ecfcb09b-237b-4bcb-9cd3-b62bc147d638": {
           "type": "block",
           "settings": {
@@ -270,6 +280,7 @@
         }
       },
       "block_order": [
+        "74e2b089-36f3-4356-b19e-311462fc500d",
         "ecfcb09b-237b-4bcb-9cd3-b62bc147d638",
         "a5fd7668-6cb0-4b4b-9c81-dbfd4cd49ad8",
         "13c2cda0-8100-46ed-9802-adbe2c2002d7",
