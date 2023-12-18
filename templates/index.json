@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/web1_7cd974d5-c367-4809-9871-845f44f4711e.png",
-        "mobile_image": "shopify:\/\/shop_images\/2_ceafd51d-2c72-4fa1-a051-ae3686335f1b.jpg",
+        "image": "shopify:\/\/shop_images\/1_d800ec32-08d0-40d4-9c1a-fd0e8fe70b28.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2_0c6b9988-2c1b-4c2f-ba54-b5d47d1cf7bd.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,10 +40,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "clementine-wide-rib"
+            "collection": "marbled-jaguar"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -52,24 +52,24 @@
             "collection": "the-signature-collection-1"
           }
         },
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
+            "collection": "loungewear"
+          }
+        },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
             "collection": "ivory-crinkle"
           }
-        },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "marbled-jaguar"
-          }
         }
       },
       "block_order": [
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
       }
