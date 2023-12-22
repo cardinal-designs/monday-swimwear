@@ -120,9 +120,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Monday_D6_1943.jpg",
-            "text": "Copper Rib",
+            "text": "New to Sale",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/copper-rib"
+            "link": "shopify:\/\/collections\/new-to-sale"
           }
         }
       },
