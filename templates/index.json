@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_d800ec32-08d0-40d4-9c1a-fd0e8fe70b28.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2_0c6b9988-2c1b-4c2f-ba54-b5d47d1cf7bd.jpg",
+        "image": "shopify:\/\/shop_images\/guava-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob3_53c698fd-844d-4647-826f-713d55c21528.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,13 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
-            "collection": "marbled-jaguar"
+            "collection": "guava-wide-rib"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory-crinkle"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -57,19 +63,13 @@
           "settings": {
             "collection": "knitwear"
           }
-        },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "ivory-crinkle"
-          }
         }
       },
       "block_order": [
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
       ],
       "settings": {
       }
@@ -92,21 +92,12 @@
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/products\/clovelly-one-piece-ivory-black"
+        "link": "https:\/\/mondayswimwear.com\/collections\/the-clovelly-collection"
       }
     },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_70fa8475-347d-4493-8640-287584de8192.jpg",
-            "text": "Cozy Knitwear",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/knitwear"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
@@ -119,17 +110,26 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Monday_D6_1943.jpg",
-            "text": "New to Sale",
+            "image": "shopify:\/\/shop_images\/6_91e01146-5cf1-434c-80eb-de040b6b8e28.jpg",
+            "text": "Accessories",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/new-to-sale"
+            "link": "shopify:\/\/collections\/beachwear-accessories"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_70fa8475-347d-4493-8640-287584de8192.jpg",
+            "text": "Cozy Knitwear",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/knitwear"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
