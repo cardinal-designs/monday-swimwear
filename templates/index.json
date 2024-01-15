@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/guava-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/mob3_53c698fd-844d-4647-826f-713d55c21528.png",
+        "image": "shopify:\/\/shop_images\/FIELD-WEB.png",
+        "mobile_image": "shopify:\/\/shop_images\/FIELD-MOB2.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,6 +43,12 @@
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
           "type": "collection",
           "settings": {
+            "collection": "field-of-dreams"
+          }
+        },
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
+          "type": "collection",
+          "settings": {
             "collection": "guava-wide-rib"
           }
         },
@@ -57,19 +63,13 @@
           "settings": {
             "collection": "the-signature-collection-1"
           }
-        },
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
-          "type": "collection",
-          "settings": {
-            "collection": "knitwear"
-          }
         }
       },
       "block_order": [
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "bf612915-d86f-40f2-817f-6322dada207b",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+        "bf612915-d86f-40f2-817f-6322dada207b"
       ],
       "settings": {
       }
@@ -98,6 +98,24 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_283c6c81-7eeb-4c3d-95e9-12b8d366e976.jpg",
+            "text": "Guava Wide Rib",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/guava-wide-rib"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_f066fee6-a9a9-4eff-a33e-52ac888ceec2.jpg",
+            "text": "Clementine Wide Rib",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/clementine-wide-rib"
+          }
+        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
@@ -106,30 +124,12 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
-        },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/6_91e01146-5cf1-434c-80eb-de040b6b8e28.jpg",
-            "text": "Accessories",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/beachwear-accessories"
-          }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_70fa8475-347d-4493-8640-287584de8192.jpg",
-            "text": "Cozy Knitwear",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/knitwear"
-          }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
