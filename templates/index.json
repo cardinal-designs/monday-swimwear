@@ -98,15 +98,6 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_283c6c81-7eeb-4c3d-95e9-12b8d366e976.jpg",
-            "text": "Guava Wide Rib",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/guava-wide-rib"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -114,6 +105,15 @@
             "text": "Clementine Wide Rib",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/clementine-wide-rib"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_283c6c81-7eeb-4c3d-95e9-12b8d366e976.jpg",
+            "text": "Guava Wide Rib",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/guava-wide-rib"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -127,8 +127,8 @@
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
