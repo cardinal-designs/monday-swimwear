@@ -1,7 +1,22 @@
 {
   "sections": {
+    "hero_BFEinx": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/teaser-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/mob-teaser.png",
+        "text": "",
+        "text_color": "#ffffff",
+        "text_size": "small",
+        "content_position": "bottom-center",
+        "button_label": "COMING SOON",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "overlay_link": true
+      }
+    },
     "1660324166f7286707": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/FIELD-WEB.png",
         "mobile_image": "shopify:\/\/shop_images\/FIELD-MOB2.png",
@@ -274,6 +289,7 @@
     }
   },
   "order": [
+    "hero_BFEinx",
     "1660324166f7286707",
     "1640133702b1b204aa",
     "1657215750b8e1724d",
