@@ -1,0 +1,37 @@
+{{ 'section-about-founders.css' | asset_url | stylesheet_tag }}
+
+<div class="about-founders">
+  <div class="page-width">
+    <div class="about-founders__container">
+      <div class="about-founders__text">
+        <p class="body-small">{{ section.settings.text }}</p>
+      </div>
+      <div class="about-founders__image">
+        {% render 'lazy-image' image: section.settings.image, fade: true %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Founders",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "About Founders"
+      }
+    ]
+  }
+{% endschema %}

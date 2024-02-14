@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="main-page {% if section.settings.full_width %}{% else %}page-width page-width--narrow{% endif %}" {% if section.settings.full_width %}style="padding:0"{% endif %}>
+  {% if section.settings.show_header %}
+    <h1 class="main-page-title page-title">
+      {{ page.title | escape }}
+    </h1>
+  {% endif %}
+  <div class="rte">
+    {{ page.content }}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.main-page.name",
+    "tag": "section",
+    "class": "spaced-section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_header",
+        "label": "Show page header?",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Full width?",
+        "default": false
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,120 @@
+<div class="real-life">
+  <div class="page-width">
+    <div class="foursixty-section">
+      <div class="fstitle-wrapper">
+         <h2 class="fstitle h4">{{ section.settings.title }}</h2>
+      </div>
+    
+      <script
+        src="//foursixty.com/media/scripts/fs.slider.v2.5.js"
+        data-feed-id="monday-swimwear"
+        data-has-posts-selector="#foursixty-hideable-container"
+        data-open-links-in-same-page="false"
+        data-defer-image-loading="false"
+        data-theme="slider_v2_5"
+        data-cell-size="33.3334%"
+        data-for-url="true"
+        ></script>
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .real-life {
+    margin: 130px 0 110px;
+  }
+
+  .real-life .fstitle {
+    margin: 0 0 40px;
+    text-align: center;
+  }
+
+  .real-life .fs-entry-container {
+    margin: 0 10px;
+  }
+
+  .real-life .fs-slider-next-button {
+    background: transparent;
+  }
+
+  .real-life .foursixty-section .fs-slider-next-button {
+    z-index: 2 !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .real-life {
+      margin: 60px 0;
+    }
+
+    .real-life .page-width {
+      padding: 0;
+    }
+
+    .real-life .fstitle {
+      font-size: 34px !important;
+    }
+
+    .fs-mobile div.fs-entry-container {
+      width: calc(100% - 35px) !important;
+      padding-top: calc(100% - 35px) !important;
+    }
+
+    .real-life .fs-entry-container {
+      margin: 0 5px;
+    }
+
+    .real-life .fs-slider-next-button, .real-life .fs-slider-prev-button {
+      display: none !important;
+    }
+
+    .real-life .fs-slider-next-button .fs-arrow, .real-life .fs-slider-prev-button .fs-arrow {
+      stroke: white;
+      stroke-width: 2px;
+    }
+  }
+
+  /*============================================================================
+    Monday Body
+  ==============================================================================*/
+  .monday-body .real-life {
+    margin: 0;
+    padding: 60px 0;
+    background-color: #FAF9F6;
+  }
+
+  .monday-body .real-life .fstitle { 
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: 0.015em;
+    text-transform: unset;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .monday-body .real-life .fstitle { 
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+  {
+    "name": "In Real Life",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "In Real Life"
+      }
+    ],
+    "presets": [
+      {
+        "name": "In Real Life"
+      }
+    ]
+  }
+{% endschema %}

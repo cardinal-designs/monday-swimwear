@@ -1,0 +1,45 @@
+<div class="legal-popup" data-day="{% if section.settings.legal_popup_days != blank %} {{ section.settings.legal_popup_days }}{% else %}1{% endif %} ">
+  <div class="legal-popup__container">
+    <p class="body-small">{{ section.settings.text }}</p>
+    <button class="legal-popup__close button button--white-ghost">
+      Accept
+    </button>
+  </div>
+</div>
+
+{% javascript %}
+  const legalPopup = document.querySelector('.legal-popup');
+  const legalPopupClose = document.querySelector('.legal-popup__close');
+
+  if (getCookie('legalCookie')) {
+    legalPopup.classList.remove('is-visible');
+  } else {
+    legalPopup.classList.add('is-visible');
+  }
+
+  legalPopupClose.addEventListener('click', event => {
+    const day = legalPopup.dataset.day;
+
+    legalPopup.classList.remove('is-visible');
+    setCookie('legalCookie', true, day);
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Legal Popup",
+    "settings": [
+      {
+        "type": "text",
+        "id": "legal_popup_days",
+        "label": "Legal popup days",
+        "default": "4"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Legal text"
+      }
+    ]
+  }
+{% endschema %}

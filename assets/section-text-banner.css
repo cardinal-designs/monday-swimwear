@@ -1,0 +1,24 @@
+.text-banner {
+  padding: 100px 0;
+  background: var(--yellow-tint);
+}
+
+.text-banner__container {
+  text-align: center;
+}
+
+.text-banner__container h2 {
+  margin: 0 0 24px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .text-banner {
+    padding: 60px 0 50px;
+  }
+
+  .text-banner__container h2 {
+    margin-bottom: 30px;
+    font-size: 34px;
+  }
+}

@@ -1,0 +1,87 @@
+<div class="rewards-faq">
+  <div class="page-width">
+    <div class="rewards-faq__container">
+      <div class="rewards-faq__header">
+        <h2>{{ section.settings.title }}</h2>
+        <p class="body-large">{{ section.settings.text }}</p>
+        <div class="rewards-faq__buttons">
+          <a href="{{ section.settings.button_link }}" class="button button--white">{{ section.settings.button_label }}</a>
+          {% if section.settings.secondary_button_label != blank %}
+            <a href="{{ section.settings.secondary_button_link }}" class="button button--ghost">{{ section.settings.secondary_button_label }}</a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="rewards-faq__content">
+        {% for block in section.blocks %}
+          <div class="faq__item">
+            <button class="faq__item-question">
+              <p class="body">{{ block.settings.title }}</p>
+              <div class="faq__item-control"></div>
+            </button>
+            <div class="faq__item-answer">
+              <div class="faq__item-answer-container">
+                <p class="body-small">{{ block.settings.answer }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Rewards FAQ",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "secondary_button_label",
+        "label": "Secondary Button Label"
+      },
+      {
+        "type": "url",
+        "id": "secondary_button_link",
+        "label": "Secondary Button Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "faq_item",
+        "name": "FAQ Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Question"
+          },
+          {
+            "type": "textarea",
+            "id": "answer",
+            "label": "Answer"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

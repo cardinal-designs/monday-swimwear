@@ -1,0 +1,40 @@
+.about-founders {
+  margin: 120px 0;
+}
+
+.about-founders__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-founders__text {
+  padding-right: 40px;
+}
+
+.about-founders__text p {
+  max-width: 555px;
+  margin: 0;
+}
+
+.about-founders__image {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-founders__container {
+    display: block;
+  }
+
+  .about-founders__text {
+    padding: 0;
+  }
+
+  .about-founders__text p {
+    margin-bottom: 20px;
+  }
+
+  .about-founders__image {
+    padding-top: 0;
+    padding-left: 13%;
+  }
+}

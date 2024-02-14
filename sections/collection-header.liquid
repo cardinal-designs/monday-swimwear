@@ -1,0 +1,35 @@
+<div class="collection-header">
+  <div class="page-width">
+    <div class="collection-header__container">
+      <h2>{{ collection.title }}</h2>
+      {% if collection.metafields.custom.collection_header_description != blank %}
+      <p class="body-large">{{ collection.metafields.custom.collection_header_description }}</p>
+      {% else %}
+      <p class="body-large">{{ section.settings.text }}</p>
+      {% endif %}
+
+      {% if collection.metafields.custom.spotify_playlist != blank %}
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/{{ collection.metafields.custom.spotify_playlist }}?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Collection Header",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text",
+        "default": "We’re on vacation all year long."
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection Header"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,313 @@
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+
+{% if settings.ss_enable %}
+  {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
+  {{ 'component-rating.css' | asset_url | stylesheet_tag }}
+  <div id="searchspring-content">
+    <div id="searchspring-collection-blocks">
+       {% assign paginate_num = 16 %}
+        {% if template contains 'paginate' or template contains 'collection' %}
+          {% assign paginate_num = settings.products_count %}
+        {% endif %}
+
+        {% paginate collection.products by paginate_num %}
+           {% for block in section.blocks %}
+            <li class="product-grid__body-card" data-position="{{ block.settings.position }}">
+              {% if block.settings.mobile_image != blank %}
+                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+                {% render 'lazy-image' image: block.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+              {% else %}
+                {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+              {% endif %}
+              <div class="product-grid__body-card-text">
+                <h2 class="sh2">{{ block.settings.text }}</h2>
+              </div>
+              {% if block.settings.link %}
+                <a href="{{ block.settings.link }}" class="product-grid__body-card-link"></a>
+              {% endif %}
+            </li>
+           {% endfor %}
+        {% endpaginate %}
+    </div>
+  </div>
+  <style>
+    #searchspring-content {
+      min-height: 800px;
+    }
+  </style>
+{% else %}
+  {% assign active_tags = '' %}
+  
+  {% for tag in current_tags %}
+    {% assign tag_as_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle %}
+    {% assign active_tags = active_tags | append: tag_as_handle %}
+  
+    {% unless forloop.last %}
+      {% assign active_tags = active_tags | append: '+' %}
+    {% endunless %}
+  {% endfor %}
+  
+  <div id="ProductGridContainer" data-id="{{ section.id }}">
+    {%- paginate collection.products by section.settings.products_per_page -%}
+      {%- if collection.products.size == 0 -%}
+        <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
+          <div class="loading-overlay">
+            <div class="loading-overlay__spinner">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+              </svg>
+            </div>
+          </div>
+          <div class="title-wrapper center">
+            <p class="body-large title title--primary">
+              No products found.
+            </p>
+            <div class="collection--empty-buttons">
+              <a class="button collection-filters__clear" href="{{ collection.url }}">Change Filters</a>
+              <p>or</p>
+              <a class="button button--ghost" href="/collections/all-swimwear">Shop All</a>
+            </div>
+          </div>
+        </div>
+      {%- else -%}
+        <div class="collection page-width">
+          <div class="loading-overlay gradient"></div>
+  
+          <ul id="product-grid" data-id="{{ section.id }}" class="product-grid">
+            {%- for product in collection.products -%}
+              {% if active_tags == '' %}
+                {% assign current_loop = forloop.index %}
+                {% for block in section.blocks %}
+                  {% if block.type == 'fit_tip_card' %}
+                    {% assign current_collection = collections[block.settings.collection] %}
+                    {% assign position = block.settings.position %}
+                    {% if position == current_loop %}
+                      <li class="product-grid__tip-card" style="background-color: {{ block.settings.background_color }}">
+                        <h2 class="sh1">{{ block.settings.title }}</h2>
+                        <span class="{% if block.settings.make_transparent %} make-transparent{% endif %}">
+                          {% render 'lazy-image' image: block.settings.image, fade: true %}
+                        </span>
+                        <p class="product-grid__tip-btn caption-neue">Fit Tip</p>
+                        <p class="body">{{ block.settings.tip }}</p>
+                      </li>
+                    {% endif %}
+                  {% endif %}
+                  {% if block.type == 'lifestyle_card' %}
+                    {% assign current_collection = collections[block.settings.collection] %}
+                    {% assign position = block.settings.position %}
+                    {% if position == current_loop %}
+                      <li class="product-grid__lifestyle-card">
+                        {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                        <div class="product-grid__lifestyle-card-top">
+                          <h1>{{ block.settings.top_text }}</h1>
+                        </div>
+                        <div class="product-grid__lifestyle-card-bottom">
+                          <h1>{{ block.settings.bottom_text }}</h1>
+                        </div>
+                      </li>
+                    {% endif %}
+                  {% endif %}
+                  {% if block.type == 'body_card' %}
+                    {% assign position = block.settings.position %}
+                    {% if position == current_loop %}
+                      <li class="product-grid__body-card">
+                        {% if block.settings.video != blank %}
+                          {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
+                        {% else %}
+                          {% if block.settings.mobile_image != blank %}
+                            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+                            {% render 'lazy-image' image: block.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+                          {% else %}
+                            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                          {% endif %}
+                        {% endif %}
+                        <div class="product-grid__body-card-text">
+                          <h2 class="sh2">{{ block.settings.text }}</h2>
+                        </div>
+                        {% if block.settings.link %}
+                          <a href="{{ block.settings.link }}" class="product-grid__body-card-link"></a>
+                        {% endif %}
+                      </li>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+  
+              {% unless product.vendor == "EcoCart" %}
+                <li class="product-grid__item">
+                  {% render 'product-card',
+                    product_card_product: product,
+                    media_size: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    add_image_padding: section.settings.add_image_padding,
+                    show_vendor: section.settings.show_vendor,
+                    show_image_outline: section.settings.show_image_outline,
+                    show_rating: section.settings.show_rating
+                  %}
+                </li>
+              {% endunless %}
+            
+            {%- endfor -%}
+          </ul>
+  
+          {%- if paginate.pages > 1 -%}
+            {% render 'pagination', paginate: paginate, anchor: '' %}
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {%- endpaginate -%}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Collection",
+  "class": "collection-grid-section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "min": 8,
+      "max": 48,
+      "step": 2,
+      "default": 36,
+      "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "fit_tip_card",
+      "name": "Fit Tip Card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection",
+          "info": "Choose the collection this card will be displayed on."
+        },
+        {
+          "type": "range",
+          "id": "position",
+          "min": 1,
+          "max": 24,
+          "step": 1,
+          "label": "Grid Item Position",
+          "default": 1
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color",
+          "default": "#C1D7EC"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "make_transparent",
+          "label": "Make Transparent (Must have white background)"
+        },
+        {
+          "type": "textarea",
+          "id": "tip",
+          "label": "Tip Text"
+        }
+      ]
+    },
+    {
+      "type": "lifestyle_card",
+      "name": "Lifestyle Card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection",
+          "info": "Choose the collection this card will be displayed on."
+        },
+        {
+          "type": "range",
+          "id": "position",
+          "min": 1,
+          "max": 24,
+          "step": 1,
+          "label": "Grid Item Position",
+          "default": 1
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "top_text",
+          "label": "Top Text"
+        },
+        {
+          "type": "text",
+          "id": "bottom_text",
+          "label": "Bottom Text"
+        }
+      ]
+    },
+    {
+      "type": "body_card",
+      "name": "Body Card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection",
+          "info": "Choose the collection this card will be displayed on."
+        },
+        {
+          "type": "range",
+          "id": "position",
+          "min": 1,
+          "max": 24,
+          "step": 1,
+          "label": "Grid Item Position",
+          "default": 1
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

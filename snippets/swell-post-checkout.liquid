@@ -1,0 +1,40 @@
+ <script type="text/javascript">
+  $(document).ready(function() {
+
+    email = "";
+    var customerEmail = null;
+    var checkoutEmail = "{{checkout.email}}";
+    var email = null;
+    {% if customer %}
+    customerEmail = "{{customer.email}}";
+    {% endif %}
+    if(checkoutEmail && checkoutEmail.length > 0 && checkoutEmail.indexOf("@") >= 0){
+    email = checkoutEmail;
+    }
+    if(email === null && customerEmail !== null){
+    email = customerEmail;
+    }
+    $(".swell-referral").data("customer-email", email);
+  });
+</script>
+
+
+{% if checkout.order.created_at %}
+
+<div class="swell-reward-Mswimwear">
+  <div class="swell-post-checkout-swimwear">
+    <div class="swell-post-checkout-holder">
+      <div class="checkout-heading">
+        <span class="swell-referral-back-link"></span>
+        <h2 class="swell-post-checkout-heading">Thank You!</h2>
+      </div>
+        <div class="referral-section">
+          <div class="swell-container">
+            <div class="swell-referral"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+{% endif %}

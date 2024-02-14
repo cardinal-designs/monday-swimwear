@@ -1,0 +1,110 @@
+{{ 'section-body-product-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
+<div class="body-product-slider">
+  <div class="page-width">
+    <div class="body-product-slider__header fade-in-up">
+      <h2 class="body-product-slider__title sh3">{{ section.settings.title }}</h2>
+      <p class="body-product-slider__text tag hide-mobile">{{ section.settings.text }}</p>
+      <div class="body-product-slider__arrows hide-mobile">
+        <button class="swiper-button swiper-button-prev">
+          {% render 'icon-arrow-left' %}
+        </button>
+        <button class="swiper-button swiper-button-next">
+          {% render 'icon-arrow-right' %}
+        </button>
+      </div>
+    </div>
+    <div class="body-product-slider__slider swiper fade-in-up">
+      <div class="swiper-wrapper">
+        {% assign current_collection = collections[section.settings.collection] %}
+        {% for product in current_collection.products %}
+          <div class="body-product-slider__slide swiper-slide">
+            {% render 'product-card',
+                product_card_product: product,
+                show_secondary_image: true
+              %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="body-product-slider__scrollbar-wrapper">
+        <div class="body-product-slider__scrollbar swiper-scrollbar hide-desktop"></div> 
+      </div>
+    </div>
+    <p class="body-product-slider__text tag hide-desktop">{{ section.settings.text }}</p>
+  </div>
+</div>
+
+{% javascript %}
+  const productSlider = new Swiper('.body-product-slider__slider', {
+    slidesPerView: 1,
+    loop: false,
+    spaceBetween: 20,
+    watchOverflow: true,
+    allowTouchMove: true,
+    speed: 400, 
+    freeMode: true,
+    navigation: {
+      prevEl: '.body-product-slider .swiper-button-prev',
+      nextEl: '.body-product-slider .swiper-button-next'
+    },
+    scrollbar: {
+      el: '.body-product-slider__scrollbar', 
+      draggable: true
+    },
+    breakpoints: {
+      1: {
+        spaceBetween: 10,
+        slidesPerView: 1.5
+      },
+      601: {
+        spaceBetween: 10,
+        slidesPerView: 2
+      },
+      769: {
+        slidesPerView: 2.5,
+        allowTouchMove: false,
+        freeMode: false
+      },
+      1051: {
+        slidesPerView: 3,
+        allowTouchMove: false,
+        freeMode: false
+      },
+      1200: {
+        slidesPerView: 4,
+        allowTouchMove: false,
+        freeMode: false
+      }
+    }
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Body - Product Slider",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Body - Product Slider"
+      }
+    ]
+  }
+{% endschema %}

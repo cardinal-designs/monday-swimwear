@@ -1,0 +1,128 @@
+{{ 'section-body-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="body-hero{% if section.settings.layout == 'split' %} body-hero--split{% endif %}">
+  {% if section.settings.full_link %}<a class="body-hero-overlay__link" href="{{ section.settings.button_link }}"></a>{% endif %}
+  <div class="page-width body-hero__content body-hero__content--{{ section.settings.content_position }}">
+    <div class="body-hero__content-container fade-in-up">
+      <p class="body-hero__subtitle tag">{{ section.settings.subtitle }}</p>
+      <h2 class="body-hero__title h1">{{ section.settings.title }}</h2>
+      <a href="{{ section.settings.button_link }}" class="button button--light-green">{{ section.settings.button_label }}</a>
+    </div>
+  </div>
+  <div class="body-hero__image">
+    {% if section.settings.mobile_image != blank %}
+      {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+      {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+    {% else %}
+      {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Body - Hero",
+    "settings": [
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+          {
+            "value": "full",
+            "label": "Full"
+          },
+          {
+            "value": "split",
+            "label": "Split"
+          }
+        ],
+        "default": "full",
+        "label": "Layout"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "select",
+        "id": "content_position",
+        "label": "Content Position",
+        "options": [
+          {
+            "value": "top-left",
+            "label": "Top Left"
+          },
+          {
+            "value": "top-center",
+            "label": "Top Center"
+          },
+          {
+            "value": "top-right",
+            "label": "Top Right"
+          },
+          {
+            "value": "center-left",
+            "label": "Center Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "center-right",
+            "label": "Center Right"
+          },
+          {
+            "value": "bottom-left",
+            "label": "Bottom Left"
+          },
+          {
+            "value": "bottom-center",
+            "label": "Bottom Center"
+          },
+          {
+            "value": "bottom-right",
+            "label": "Bottom Right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "checkbox",
+        "id": "full_link",
+        "label": "Hero fully clickable?"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Body - Hero"
+      }
+    ]
+  }
+{% endschema %}

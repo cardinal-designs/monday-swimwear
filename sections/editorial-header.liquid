@@ -1,0 +1,82 @@
+{{ 'section-editorial-header.css' | asset_url | stylesheet_tag }}
+
+<div class="editorial-header">
+  {% if section.settings.mobile_image != blank %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+  {% else %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+  {% endif %}
+  {% if section.settings.text_1 != blank %}
+    <h2 class="editorial-header__text-1 h1">
+      <span>{{ section.settings.text_1 }}</span>
+    </h2>
+  {% endif %}
+  {% if section.settings.text_2 != blank %}
+    <h2 class="editorial-header__text-2 h1{% if section.settings.right_align %} right-align{% endif %}">
+      <span>{{ section.settings.text_2 }}</span>
+    </h2>
+  {% endif %}
+  {% if section.settings.text_3 != blank %}
+    <h2 class="editorial-header__text-3 h1">
+      <span>{{ section.settings.text_3 }}</span>
+    </h2>
+  {% endif %}
+</div>
+
+{% javascript %}
+  let editorialHeaderTL = gsap.timeline({ delay: .8 });
+
+  editorialHeaderTL
+  .from('.editorial-header .h1', {
+    height: 0,
+    duration: 1
+  }, '>')
+  .to('.editorial-header .h1', {
+    blur: 0,
+    duration: 1.2
+  }, '-=30%');
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Editorial Header",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "text",
+        "id": "text_1",
+        "label": "Text 1"
+      },
+      {
+        "type": "text",
+        "id": "text_2",
+        "label": "Text 2"
+      },
+      {
+        "type": "checkbox",
+        "id": "right_align",
+        "label": "Right Align"
+      },
+      {
+        "type": "text",
+        "id": "text_3",
+        "label": "Text 3"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Editorial Header"
+      }
+    ]
+  }
+{% endschema %}

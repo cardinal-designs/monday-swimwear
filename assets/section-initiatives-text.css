@@ -1,0 +1,27 @@
+.initiatives-text {
+  margin: 120px 0;
+}
+
+.initiatives-text__container {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.initiatives-text__container h3 {
+  margin: 0 0 30px;
+}
+
+.initiatives-text__container p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .initiatives-text {
+    margin: 40px 0;
+  }
+
+  .initiatives-text__container h3 {
+    margin: 0 0 20px;
+  }
+}

@@ -1,0 +1,26 @@
+<div class="fit-guide-text">
+  <div class="page-width">
+    <div class="fit-guide-text__container">
+      <h4>{{ section.settings.title }}</h4>
+      <p class="body-small">{{ section.settings.text }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Fit Guide Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,28 @@
+.main-page-title {
+  margin: 50px auto 60px;
+  text-align: center;
+}
+
+.page-placeholder-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-page, .main-page p, .main-page li, .main-page p {
+  font-family: 'ABC Favorit', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 768px) {
+  .main-page {
+    padding: 0 20px;
+  }
+
+  .main-page-title {
+    margin: 40px auto;
+  }
+}

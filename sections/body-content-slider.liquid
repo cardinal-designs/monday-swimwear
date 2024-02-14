@@ -1,0 +1,147 @@
+{{ 'section-body-content-slider.css' | asset_url | stylesheet_tag }}
+
+<div class="body-content-slider">
+  <div class="page-width">
+    <div class="body-content-slider__container">
+      <div class="body-content-slider__images swiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="body-content-slider__image swiper-slide" {{ block.shopify_attributes }}>
+              <div class="body-content-slider__image-wrapper">
+                {% if block.settings.video != blank %}
+                  {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill', image_size: '1440x' }}
+                {% else %}
+                  {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+                {% endif %}
+                {% if block.settings.image_caption != blank %}
+                  <div class="body-content-slider__image-caption caption">{{ block.settings.image_caption }}</div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="body-content-slider__content">
+        <div class="body-content-slider__content-slider swiper fade-in-up">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <div class="body-content-slider__block swiper-slide" {{ block.shopify_attributes }}>
+                <h2 class="body-content-slider__title">{{ block.settings.title | newline_to_br }}</h2>
+                <p class="body-content-slider__text body-1">{{ block.settings.text }}</p>
+                <a href="{{ block.settings.button_link }}" class="button">{{ block.settings.button_label }}</a>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="body-content-slider__arrows">
+            <button class="swiper-button swiper-button-prev">
+              {% render 'icon-arrow-left' %}
+            </button>
+            <button class="swiper-button swiper-button-next">
+              {% render 'icon-arrow-right' %}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  const bodyImageSlider = new Swiper('.body-content-slider__images', {
+    loop: true,
+    spaceBetween: 20,
+    effect: 'fade',
+    allowTouchMove: true,
+    speed: 600,
+    breakpoints: {
+      769: {
+        allowTouchMove: false,
+      }
+    }
+  });
+
+  const bodyContentSlider = new Swiper('.body-content-slider__content-slider', {
+    loop: true,
+    spaceBetween: 20,
+    allowTouchMove: true,
+    navigation: {
+      nextEl: '.body-content-slider__arrows .swiper-button-next',
+      prevEl: '.body-content-slider__arrows .swiper-button-prev',
+    },
+    breakpoints: {
+      769: {
+        allowTouchMove: false,
+      }
+    }
+  });
+
+  // Sync sliders
+  bodyImageSlider.on('slideChange', slider => {
+    let idx = slider.realIndex;
+
+    bodyContentSlider.slideToLoop(idx);
+  });
+
+  bodyContentSlider.on('slideChange', slider => {
+    let idx = slider.realIndex;
+
+    bodyImageSlider.slideToLoop(idx);
+  });
+{% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Body - Content Slider",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
+          },
+          {
+            "type": "richtext",
+            "id": "image_caption",
+            "label": "Image Caption"
+          },
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button Label"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Body - Content Slider"
+      }
+    ]
+  }
+{% endschema %}
