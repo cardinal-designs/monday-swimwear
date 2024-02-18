@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/cobalt-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/cobalt-mob.png",
+        "image": "shopify:\/\/shop_images\/coco-web2.png",
+        "mobile_image": "shopify:\/\/shop_images\/coco-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,7 @@
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "cobalt-crinkle"
+            "collection": "coco"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -52,24 +52,24 @@
             "collection": "the-signature-collection-1"
           }
         },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "champagne-shiny-jersey"
-          }
-        },
         "cbcac73e-0cff-4aef-920b-5d14d8c86d5d": {
           "type": "collection",
           "settings": {
             "collection": "bronze-shiny-jersey"
+          }
+        },
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
+          "type": "collection",
+          "settings": {
+            "collection": "champagne-shiny-jersey"
           }
         }
       },
       "block_order": [
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d",
-        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d"
+        "cbcac73e-0cff-4aef-920b-5d14d8c86d5d",
+        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
       ],
       "settings": {
       }
@@ -101,35 +101,35 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Monday_Dec_Day_228672.jpg",
-            "text": "Bronze Shiny Jersey",
+            "image": "shopify:\/\/shop_images\/14_ce3316a0-3776-4ebd-86c2-42ee42cbcb5c.jpg",
+            "text": "Beachwear Essentials",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/bronze-shiny-jersey"
-          }
-        },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/0_62b96e95-fb0c-4d52-ae41-b58224dfb127.jpg",
-            "text": "Shimmer & Shine",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/champagne-shiny-jersey"
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_743160e9-238a-45ef-ba88-2505964bdb4b.jpg",
-            "text": "Luxe Knitwear",
+            "image": "shopify:\/\/shop_images\/3_2240939a-60f2-414c-af8a-e32a68702435.jpg",
+            "text": "Signature Styles",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/knitwear"
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_eacf4469-db1e-4598-a1fb-4fe4e9361134.jpg",
+            "text": "Monday Body",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/monday-body"
           }
         }
       },
       "block_order": [
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
