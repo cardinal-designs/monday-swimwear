@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/coco-web2.png",
-        "mobile_image": "shopify:\/\/shop_images\/coco-mob.png",
+        "image": "shopify:\/\/shop_images\/cobalt-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/cobalt-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,7 @@
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
-            "collection": "coco"
+            "collection": "cobalt-crinkle"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -101,19 +101,10 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14_ce3316a0-3776-4ebd-86c2-42ee42cbcb5c.jpg",
-            "text": "Beachwear Essentials",
+            "image": "shopify:\/\/shop_images\/426680454_361193580134799_382688208695772279_n.jpg",
+            "text": "Shimmer & Shine",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-beachwear"
-          }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_2240939a-60f2-414c-af8a-e32a68702435.jpg",
-            "text": "Signature Styles",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "link": "shopify:\/\/collections\/champagne-shiny-jersey"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -124,12 +115,21 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-body"
           }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_b49dafd2-7c18-4168-9a24-3d6934f79052.jpg",
+            "text": "Luxe Knitwear",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/knitwear"
+          }
         }
       },
       "block_order": [
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
