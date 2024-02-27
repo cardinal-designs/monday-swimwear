@@ -87,24 +87,24 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/10YEAR-WEB.png",
-        "mobile_image": "shopify:\/\/shop_images\/IMG_5591.png",
+        "image": "shopify:\/\/shop_images\/coco-smallbanner-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/coco-lowbanner-mob2.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/the-10yr-collection"
+        "link": "shopify:\/\/collections\/coco"
       }
     },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14_ce3316a0-3776-4ebd-86c2-42ee42cbcb5c.jpg",
-            "text": "Beachwear Essentials",
+            "image": "shopify:\/\/shop_images\/4_eacf4469-db1e-4598-a1fb-4fe4e9361134.jpg",
+            "text": "Monday Body",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "link": "shopify:\/\/collections\/monday-body"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -116,20 +116,20 @@
             "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_eacf4469-db1e-4598-a1fb-4fe4e9361134.jpg",
-            "text": "Monday Body",
+            "image": "shopify:\/\/shop_images\/14_ce3316a0-3776-4ebd-86c2-42ee42cbcb5c.jpg",
+            "text": "Beachwear Essentials",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-body"
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
