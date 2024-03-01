@@ -19,6 +19,13 @@
   </div>
 </div>
 
+{% javascript %}
+  window.addEventListener("load", (event) => {
+    let count = document.getElementByClassName("fs-wrapper").childElementCount;
+    console.log(count)
+  })
+{% endjavascript %}
+
 {% stylesheet %}
   .real-life {
     margin: 130px 0 110px;
