@@ -22,7 +22,7 @@
 <script>
   window.addEventListener("load", (event) => {
     let count = !!document.getElementsByClassName("fs-has-posts")[0]
-    if(!count) {
+    if(count == false) {
       console.log('afaf')
       document.getElementsByClassName("real-life").style.display = 'none';
     }
