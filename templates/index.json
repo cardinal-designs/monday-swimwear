@@ -40,10 +40,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_yT9Mdt": {
+        "collection_Vgpgtw": {
           "type": "collection",
           "settings": {
-            "collection": "the-blue-denim-collection"
+            "collection": "blue-denim"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -66,7 +66,7 @@
         }
       },
       "block_order": [
-        "collection_yT9Mdt",
+        "collection_Vgpgtw",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
