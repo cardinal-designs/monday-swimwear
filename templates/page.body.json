@@ -100,14 +100,6 @@
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
-        "553d10dc-6642-4b1c-815d-95677cea6218": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_91a74a5e-caba-4c73-bdc7-c24efac03bbe.jpg",
-            "title": "Shorts",
-            "link": "shopify:\/\/collections\/monday-body-shorts"
-          }
-        },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
@@ -123,12 +115,20 @@
             "title": "Leggings",
             "link": "shopify:\/\/collections\/monday-body-leggings"
           }
+        },
+        "553d10dc-6642-4b1c-815d-95677cea6218": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_91a74a5e-caba-4c73-bdc7-c24efac03bbe.jpg",
+            "title": "Shorts",
+            "link": "shopify:\/\/collections\/monday-body-shorts"
+          }
         }
       },
       "block_order": [
-        "553d10dc-6642-4b1c-815d-95677cea6218",
         "228154d8-da02-4a47-bdfb-eddec1bf3051",
-        "8f087094-f3ad-4736-93d9-157a37f38591"
+        "8f087094-f3ad-4736-93d9-157a37f38591",
+        "553d10dc-6642-4b1c-815d-95677cea6218"
       ],
       "settings": {
       }
