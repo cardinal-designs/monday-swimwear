@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/denim-website.png",
-        "mobile_image": "shopify:\/\/shop_images\/mob-edit_05013f95-e653-4ea8-a4b3-57249b1fb01d.png",
+        "image": "shopify:\/\/shop_images\/twotone-web2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/twotone-mob4.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,16 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_Vgpgtw": {
-          "type": "collection",
-          "settings": {
-            "collection": "blue-denim"
-          }
-        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
+          }
+        },
+        "collection_Vgpgtw": {
+          "type": "collection",
+          "settings": {
+            "collection": "blue-denim"
           }
         },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
@@ -66,8 +66,8 @@
         }
       },
       "block_order": [
-        "collection_Vgpgtw",
         "bf612915-d86f-40f2-817f-6322dada207b",
+        "collection_Vgpgtw",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
       ],
