@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/twotone-web2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/twotone-mob4.jpg",
+        "image": "shopify:\/\/shop_images\/zest-web2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mob-edit-Recoveredzest-web1.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,10 +40,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "bf612915-d86f-40f2-817f-6322dada207b": {
+        "collection_jaMd7t": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "zest-wide-rib"
           }
         },
         "collection_Vgpgtw": {
@@ -52,24 +52,24 @@
             "collection": "blue-denim"
           }
         },
+        "bf612915-d86f-40f2-817f-6322dada207b": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
+          }
+        },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
             "collection": "coco"
           }
-        },
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d": {
-          "type": "collection",
-          "settings": {
-            "collection": "champagne-shiny-jersey"
-          }
         }
       },
       "block_order": [
-        "bf612915-d86f-40f2-817f-6322dada207b",
+        "collection_jaMd7t",
         "collection_Vgpgtw",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "96c85e24-5d55-4aa3-affc-d7f034ffc56d"
+        "bf612915-d86f-40f2-817f-6322dada207b",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
       }
