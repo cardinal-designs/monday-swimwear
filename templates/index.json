@@ -87,12 +87,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/coco-smallbanner-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/coco-lowbanner-mob2.png",
+        "image": "shopify:\/\/shop_images\/2_6076f73a-915b-44b2-a5d7-6c73a5b00f6f.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/8_4c784e4d-e716-4260-aa51-e4f1ff8fea08.jpg",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/coco"
+        "link": "shopify:\/\/collections\/blue-denim"
       }
     },
     "1640812146b4d73cae": {
@@ -101,35 +101,35 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_eacf4469-db1e-4598-a1fb-4fe4e9361134.jpg",
+            "image": "shopify:\/\/shop_images\/6_6014175a-94d7-424a-8f4b-612f2d0d18ee.jpg",
             "text": "Monday Body",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-body"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_8e4b936b-9c91-4435-82c5-b50d5f2ad55e.jpg",
-            "text": "Signature Styles",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14_ce3316a0-3776-4ebd-86c2-42ee42cbcb5c.jpg",
+            "image": "shopify:\/\/shop_images\/5_f6b239cc-debe-4e2d-b6d6-e0de54448949.jpg",
             "text": "Beachwear Essentials",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_1d8700d4-d7e9-4f43-a317-077348874aab.jpg",
+            "text": "Signature Styles",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         }
       },
       "block_order": [
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
