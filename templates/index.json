@@ -46,6 +46,12 @@
             "collection": "zest-wide-rib"
           }
         },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "guava-wide-rib"
+          }
+        },
         "collection_Vgpgtw": {
           "type": "collection",
           "settings": {
@@ -57,19 +63,13 @@
           "settings": {
             "collection": "the-signature-collection-1"
           }
-        },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "coco"
-          }
         }
       },
       "block_order": [
         "collection_jaMd7t",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "collection_Vgpgtw",
-        "bf612915-d86f-40f2-817f-6322dada207b",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
+        "bf612915-d86f-40f2-817f-6322dada207b"
       ],
       "settings": {
       }
