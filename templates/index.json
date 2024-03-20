@@ -87,7 +87,7 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_6076f73a-915b-44b2-a5d7-6c73a5b00f6f.jpg",
+        "image": "shopify:\/\/shop_images\/denim-lowerbannar-website.jpg",
         "mobile_image": "shopify:\/\/shop_images\/8_4c784e4d-e716-4260-aa51-e4f1ff8fea08.jpg",
         "left_text": "",
         "right_text": "",
@@ -98,13 +98,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_6014175a-94d7-424a-8f4b-612f2d0d18ee.jpg",
-            "text": "Monday Body",
+            "image": "shopify:\/\/shop_images\/0_7810781c-8e4d-481b-a901-0c6e345a0b6a.jpg",
+            "text": "Signature Styles",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-body"
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -116,20 +116,20 @@
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0_7810781c-8e4d-481b-a901-0c6e345a0b6a.jpg",
-            "text": "Signature Styles",
+            "image": "shopify:\/\/shop_images\/6_6014175a-94d7-424a-8f4b-612f2d0d18ee.jpg",
+            "text": "Monday Body",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "link": "shopify:\/\/collections\/monday-body"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
