@@ -4,12 +4,12 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/cliffside-mainbanner-web3.png",
-        "mobile_image": "shopify:\/\/shop_images\/griffith-mob.png",
+        "image": "shopify:\/\/shop_images\/zion-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/zion-mob1.png",
         "content_position": "bottom-center",
         "subtitle": "",
         "title": "",
-        "button_label": "New Arrivals",
+        "button_label": "Shop Now",
         "button_link": "shopify:\/\/collections\/monday-body",
         "full_link": true
       }
