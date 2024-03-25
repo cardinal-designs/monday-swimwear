@@ -98,15 +98,6 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_fd6baf5f-556a-4354-877b-ee12ef594aac.jpg",
-            "text": "Feeling Feline",
-            "link_label": "Marble Jaguar",
-            "link": "shopify:\/\/collections\/marbled-jaguar"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
@@ -114,6 +105,15 @@
             "text": "Beachwear Essentials",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_fd6baf5f-556a-4354-877b-ee12ef594aac.jpg",
+            "text": "Feeling Feline",
+            "link_label": "Marbled Jaguar",
+            "link": "shopify:\/\/collections\/marbled-jaguar"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -127,8 +127,8 @@
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
