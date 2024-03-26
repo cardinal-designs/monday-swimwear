@@ -808,6 +808,26 @@
               "shop_link": "shopify:\/\/collections\/shop-by-style-hanalei"
             }
           },
+          "bottom_gxmV9B": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HAVANA-BOTTOM---BLACK_e8252c16-d7ef-4df8-8f0f-992364045260.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/5_24222e38-0d62-4336-a78e-2227a2b657da.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/4_a66598de-9c99-407e-97f3-f268b6152a9a.jpg",
+              "title": "The Havana Thong",
+              "short_title": "Havana Thong",
+              "short_description": "",
+              "description": "The Havana Thong is an effortless swim bottom designed with adjustable side ties, eye-catching ring detailing, and minimal coverage.",
+              "highlights": "Adjustable side ties, ring detailing, minimal coverage",
+              "fit": "",
+              "padding": "",
+              "coverage": "Minimal",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/havana-thong"
+            }
+          },
           "56f44aff-4d5b-48c7-9711-f10dab98374c": {
             "type": "bottom",
             "settings": {
@@ -1160,6 +1180,7 @@
           "ef7ea90b-58eb-4ecb-9598-be8b40fad38b",
           "85767612-329b-4409-9c42-d4c0ebf47a95",
           "22e7314f-1694-4ac5-a040-5fb554e5b65a",
+          "bottom_gxmV9B",
           "56f44aff-4d5b-48c7-9711-f10dab98374c",
           "3961f63a-027d-4914-b7aa-50fc2e6f645e",
           "862fd382-ca17-44b4-afd6-18c003ac9af5",
