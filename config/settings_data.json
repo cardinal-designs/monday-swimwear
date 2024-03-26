@@ -1327,7 +1327,7 @@
           "fa47799a-74af-4308-a63c-8d16e2594cc5": {
             "type": "top",
             "settings": {
-              "flat_image": "shopify:\/\/shop_images\/Cala-Roja-Top.jpg",
+              "flat_image": "shopify:\/\/shop_images\/Cala-Roja-Top---Black_2a4f812b-1457-4c02-9320-64ad2ba9df58.jpg",
               "lifestyle_image": "shopify:\/\/shop_images\/Cala-Roja-Top---Black-3.jpg",
               "lifestyle_image2": "shopify:\/\/shop_images\/Cala-Roja-Top---Black-2.jpg",
               "title": "The Cala Roja Top",
@@ -1462,6 +1462,26 @@
               "fabric": "",
               "fit_tip": "",
               "shop_link": "shopify:\/\/collections\/shop-by-style-hanalei"
+            }
+          },
+          "top_MtQrE8": {
+            "type": "top",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/HAVANA-TOP---BLACK_4429f53b-53de-4fb9-8027-5260a6aa82d2.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/4_a66598de-9c99-407e-97f3-f268b6152a9a.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/5_24222e38-0d62-4336-a78e-2227a2b657da.jpg",
+              "title": "The Havana Top",
+              "short_title": "Havana Top",
+              "short_description": "Chic,Minimal,Sleek",
+              "description": "Dive into style with our chic Havana Top. This triangle top features a center front ring and a double underbust strap which makes up this stylish and sportive top. Pair this top with our new Havana Thong to complete the look.",
+              "highlights": "Adjustable cups and removable cups, adjustable shoulder straps and back tie closure with gold hardware, center ring detail",
+              "fit": "Designed to best fit cup sizes A-E",
+              "padding": "Yes, removable padding. Lined",
+              "coverage": "",
+              "style": "Triangle",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/havana-top"
             }
           },
           "top_TnLQ7z": {
@@ -1858,6 +1878,7 @@
           "415bfca0-18aa-4337-8b45-53cd9f5520e0",
           "412b26dd-9f87-4a2e-8359-46396a2acce7",
           "11d9390a-4833-48e1-8254-d92ed1b19251",
+          "top_MtQrE8",
           "top_TnLQ7z",
           "38c2a835-0b7e-4e26-8d5c-ec7e07724229",
           "6e8f9b18-bf32-44df-9b9b-60b64b233009",
