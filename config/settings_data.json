@@ -948,6 +948,26 @@
               "shop_link": "shopify:\/\/collections\/shop-by-style-maui-bottom"
             }
           },
+          "bottom_FpfeE3": {
+            "type": "bottom",
+            "settings": {
+              "flat_image": "shopify:\/\/shop_images\/Monday-Thong---Black_c50ae789-08f7-487e-ba0d-791dcee9cf31.jpg",
+              "lifestyle_image": "shopify:\/\/shop_images\/2_79055ee2-4052-49ad-9e0c-be6b77b504e7.jpg",
+              "lifestyle_image2": "shopify:\/\/shop_images\/1_f8c607af-cf93-4866-a16c-77dc54bece86.jpg",
+              "title": "The Monday Thong",
+              "short_title": "Monday Thong",
+              "short_description": "",
+              "description": "If you're looking for an eye catching bottom, the Monday Thong is the bottom for you! Our skimpiest bottom yet with the addition of our signature Monday hardware is a show stopping look paired with our Monday Top!",
+              "highlights": "Thin side straps, gold hardware detail, thong coverage",
+              "fit": "",
+              "padding": "",
+              "coverage": "Minimal",
+              "style": "",
+              "fabric": "",
+              "fit_tip": "",
+              "shop_link": "shopify:\/\/collections\/monday-thong"
+            }
+          },
           "678c6af8-5cf8-4bcf-a201-85fb07a13af2": {
             "type": "bottom",
             "settings": {
@@ -1187,6 +1207,7 @@
           "ce3ec260-5b8d-44f6-9440-299bfda6b5ac",
           "e6c34dc0-c473-4734-967e-0e941c782f77",
           "b3e14f3e-c578-4023-a1ec-1846ea20cf6c",
+          "bottom_FpfeE3",
           "678c6af8-5cf8-4bcf-a201-85fb07a13af2",
           "1cb8461a-0a93-4b6a-9848-27e48cde44dc",
           "b0125b9f-4c98-44f8-8b8d-148335524b5c",
