@@ -107,14 +107,6 @@
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
-        "link_block_y46hmT": {
-          "type": "link_block",
-          "settings": {
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
@@ -136,7 +128,6 @@
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "link_block_y46hmT",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
