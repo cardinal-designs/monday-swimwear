@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/denim-website.png",
-        "mobile_image": "shopify:\/\/shop_images\/mob-edit-bluedenim.png",
+        "image": "shopify:\/\/shop_images\/signature-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/signature-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -87,8 +87,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/clovelly-lowerbanner-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/clovelly-mob-edit.png",
+        "image": "shopify:\/\/shop_images\/petit-crochet.png",
+        "mobile_image": "shopify:\/\/shop_images\/knit-mobile.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
