@@ -40,16 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_LAhKxD": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-festival-edit"
+          }
+        },
         "collection_Vgpgtw": {
           "type": "collection",
           "settings": {
             "collection": "blue-denim"
-          }
-        },
-        "collection_jaMd7t": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-festival-collection"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -66,8 +66,8 @@
         }
       },
       "block_order": [
+        "collection_LAhKxD",
         "collection_Vgpgtw",
-        "collection_jaMd7t",
         "bf612915-d86f-40f2-817f-6322dada207b",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
