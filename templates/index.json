@@ -101,7 +101,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_bc4b4046-e607-45de-a3c5-6c57bef21fe8.jpg",
+            "image": "shopify:\/\/shop_images\/1_3171858a-79c4-4ea2-b725-615bc55d3a41.jpg",
             "text": "Beachwear Essentials",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
@@ -110,16 +110,16 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_fd6baf5f-556a-4354-877b-ee12ef594aac.jpg",
-            "text": "Feeling Feline",
-            "link_label": "Marbled Jaguar",
-            "link": "shopify:\/\/collections\/marbled-jaguar"
+            "image": "shopify:\/\/shop_images\/2_69fabefc-3233-437c-bcaa-e91d23afa785.jpg",
+            "text": "For Warm Weather",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/coco"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_b480bb26-b1bc-40d2-8f23-74c0e635e9a0.jpg",
+            "image": "shopify:\/\/shop_images\/3_a01732d6-8631-4f24-b05c-36e3bf57f27a.jpg",
             "text": "Monday Body",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-body"
