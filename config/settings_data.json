@@ -2876,6 +2876,33 @@
               "answer": "<p>We are legally required to claim the full retail value of products purchased and our shipping system automatically enters this information into the customs documents it creates.<\/p><p>Some countries have an easy process for applying for a refund of overpaid duties when you show proof of any discount applied to your purchase.<\/p><p>Please check with your local customs agency for details of any duty refund program in your region.<\/p><p>Canadian customers can use the request form found <a href=\"https:\/\/www.cbsa-asfc.gc.ca\/publications\/forms-formulaires\/b2g-eng.html\" target=\"_blank\" title=\"https:\/\/www.cbsa-asfc.gc.ca\/publications\/forms-formulaires\/b2g-eng.html\"><strong>here.<\/strong><\/a><\/p>"
             }
           },
+          "header_hkfMDd": {
+            "type": "header",
+            "settings": {
+              "title": "Route FAQ"
+            }
+          },
+          "faq_item_bqrzFV": {
+            "type": "faq_item",
+            "settings": {
+              "title": "What is Route?",
+              "answer": "<p>Route automatically connects to everything you’ve ordered from all your favorite retailers while allowing you to visually track your packages, anytime, anywhere. Add Route Package Protection at checkout with partnered merchants and unlock full package protection and seamless resolution for order issues.<\/p>"
+            }
+          },
+          "faq_item_CQNGdr": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How do I file a claim?",
+              "answer": "<p>Go to claims.route.com. Note: We refund the cost of the item(s) alone when approved. Shipping costs, taxes, and the Route premium are not included. Route also does not pay custom\/duty fees. <\/p>"
+            }
+          },
+          "faq_item_JaDR4B": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How can I track my deliveries on the Route mobile app?",
+              "answer": "<p>You can view your deliveries in the Route mobile app to get a real-time view of where all of your packages are. On the MAP screen, you can swipe through cards or zoom into the map to see where packages are in-transit. Tap on a card to open up the Order Details page.  You can also see a list view of all your packages on the Orders screen. From there, you can tap on orders to see the order details which will provide info around where your order is in transit. Download the Route app for the iOs on the Apple App Store or for Android on the Google Play Store.<\/p>"
+            }
+          },
           "ac8f65e4-2fb1-44fa-9c84-74c591614dbf": {
             "type": "header",
             "settings": {
@@ -2983,6 +3010,10 @@
           "59f035f9-62f7-42ec-8f86-eb674cd72862",
           "aae2bfa3-2a24-49c3-b989-ea76777ee5c4",
           "4571dc2f-cde2-4333-9d02-e8d0d9f5ad1d",
+          "header_hkfMDd",
+          "faq_item_bqrzFV",
+          "faq_item_CQNGdr",
+          "faq_item_JaDR4B",
           "ac8f65e4-2fb1-44fa-9c84-74c591614dbf",
           "3b9a00a1-c1ab-43cc-945c-5b6bd880f497",
           "dc819730-e6c2-4a57-b5a5-ed3701df45b4",
