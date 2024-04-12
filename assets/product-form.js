@@ -15,21 +15,39 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
     submitButton.setAttribute('disabled', true);
     submitButton.classList.add('loading');
 
-    const body = JSON.stringify({
-      ...JSON.parse(serializeForm(this.form)),
-      sections: this.getSectionsToRender().map((section) => section.section),
-      sections_url: window.location.pathname
-    });
+    // const body = JSON.stringify({
+    //   ...JSON.parse(serializeForm(this.form)),
+    //   sections: this.getSectionsToRender().map((section) => section.section),
+    //   sections_url: window.location.pathname
+    // });
 
-    fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
+    // fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
+    //   .then((response) => response.json())
+
+
+    //  USE new settings from dawn theme
+    const config = fetchConfig('javascript');
+    config.headers['X-Requested-With'] = 'XMLHttpRequest';
+    delete config.headers['Content-Type'];
+
+    const formData = new FormData(this.form);
+      formData.append(
+        'sections',
+        this.getSectionsToRender().map((section) => section.section)
+      );
+      formData.append('sections_url', window.location.pathname);
+    config.body = formData;
+
+    fetch(`${routes.cart_add_url}`, config)
       .then((response) => response.json())
       .then((parsedState) => {
 
         this.getSectionsToRender().forEach((section => {
-          const elementToReplace =
-            document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
 
-          elementToReplace.innerHTML =
+          const elementToReplace =
+            document.getElementById(section.id)?.querySelector(section.selector) || document.getElementById(section.id);
+         
+            elementToReplace.innerHTML =
             this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
 
         }));

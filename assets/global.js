@@ -746,13 +746,14 @@ const atcButtons = document.querySelectorAll('.js-add-to-cart');
 document.body.addEventListener('click', event => {
 	if (event.target.classList.contains('js-add-to-cart')) {
     event.preventDefault();
-
     const id = Number(event.target.dataset.id);
-
+    const isPreSalePresent = event.target.dataset?.isPreSale
+    const propertiesObj = isPreSalePresent === 'true' ? {properties: {_isPreSale: "true" }} : {}
     const body = JSON.stringify({
       items: [{
         id: id,
-        quantity: 1
+        quantity: 1,
+        ...propertiesObj
       }],
       sections: atcGetSectionsToRender().map((section) => section.section),
       sections_url: window.location.pathname
