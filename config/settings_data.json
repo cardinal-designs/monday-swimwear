@@ -3320,36 +3320,36 @@
       "care-tips-products": {
         "type": "care-tips-products",
         "blocks": {
-          "f25a3ba4-6651-4127-ae79-b6d977601df8": {
-            "type": "product",
-            "settings": {
-              "product": "almafi-sarong-black"
-            }
-          },
-          "f50ad5f5-e0ef-4a96-a466-e549c633bfdf": {
-            "type": "product",
-            "settings": {
-              "product": "barbados-bottom-black"
-            }
-          },
-          "6cdd23b6-cca7-4d47-9c3e-1c3d735a7f4e": {
-            "type": "product",
-            "settings": {
-              "product": "sicily-one-piece-black"
-            }
-          },
           "66b20cad-e1fa-416c-9877-0e84e8e8f676": {
             "type": "product",
             "settings": {
               "product": "clovelly-top-black-sig"
             }
+          },
+          "product_tx9dAT": {
+            "type": "product",
+            "settings": {
+              "product": "byron-bottom-black"
+            }
+          },
+          "6cdd23b6-cca7-4d47-9c3e-1c3d735a7f4e": {
+            "type": "product",
+            "settings": {
+              "product": "bahamas-one-piece-black-sig"
+            }
+          },
+          "f25a3ba4-6651-4127-ae79-b6d977601df8": {
+            "type": "product",
+            "settings": {
+              "product": "almafi-sarong-black"
+            }
           }
         },
         "block_order": [
-          "f25a3ba4-6651-4127-ae79-b6d977601df8",
-          "f50ad5f5-e0ef-4a96-a466-e549c633bfdf",
+          "66b20cad-e1fa-416c-9877-0e84e8e8f676",
+          "product_tx9dAT",
           "6cdd23b6-cca7-4d47-9c3e-1c3d735a7f4e",
-          "66b20cad-e1fa-416c-9877-0e84e8e8f676"
+          "f25a3ba4-6651-4127-ae79-b6d977601df8"
         ],
         "settings": {
           "text_left": "Recommended",
