@@ -233,6 +233,9 @@ const templates = [
           </div>
           {% endcomment %}
         </div>
+        {% if product.tags contains 'PRE-SALE' %}
+            <input id="isPreSale" type="hidden" name="properties[_isPreSale]" value="true"> 
+        {% endif %}
         <button type="submit" class="product-form__submit button button--full button--primary wk-atc" data-wk-add-to-cart="{{ product.wishlist_item_id }}" {% unless current_variant.available %}disabled{% endunless %}>
           {% if current_variant.available %}{{ locale.add_to_cart }}{% else %}{{ locale.sold_out }}{% endif %}
         </button>

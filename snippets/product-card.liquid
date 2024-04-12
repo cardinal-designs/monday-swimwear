@@ -11,11 +11,15 @@
           {% endif %}
 
           {% assign collection_for_swatches = '' %}
+          {% assign isPreSale = false %}
           {% for tag in product_card_product.tags %}
             {% if tag contains 'group_' %}
               {% assign split_tag = tag | split: '_' %}
               {% assign collection_handle = split_tag[1] | handleize %}
               {% assign collection_for_swatches = collections[collection_handle] %}
+            {% endif %}
+            {% if tag == 'PRE-SALE' %}
+              {% assign isPreSale = true %}
             {% endif %}
           {% endfor %}
             <div class="variant-buttons_hover">
@@ -25,7 +29,7 @@
               <div class="">
                 {% for variant in current_product.variants %}
                   {% if variant.available %}
-                    <span class="js-add-to-cart" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                    <span class="js-add-to-cart" data-id="{{variant.id}}" data-is-pre-sale="{%- if isPreSale -%}true{%- endif -%}">{{ variant.option2 }}</span>
                   {% else %}
                     <span class="sold-out-swatch" data-id="{{variant.id}}">{{ variant.option2 }}</span>
                   {% endif %}

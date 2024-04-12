@@ -31,7 +31,7 @@
                       <div class="cart-drawer__upsell-item">
                         <div class="cart-drawer__upsell-image">
                           {% render 'lazy-image' image: current_product, fade: true, classes: 'img-fill' %}
-                          <button class="cart-drawer__add-upsell js-add-to-cart" data-id="{{ current_product.variants[0].id }}"></button>
+                          <button class="cart-drawer__add-upsell js-add-to-cart" data-id="{{ current_product.variants[0].id }}" data-is-pre-sale="{%- if current_product.tags contains 'PRE-SALE' -%}true{%- endif -%}"></button>
                         </div>
                         <div class="cart-drawer__upsell-content">
                           <p class="body">{{ current_product.title }}</p>
