@@ -88,6 +88,7 @@
       "type": "editorial-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/cypress-lower.png",
+        "mobile_image": "shopify:\/\/shop_images\/2_84238350-6ef8-466d-827f-03019efa2414.jpg",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
