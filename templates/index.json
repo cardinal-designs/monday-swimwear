@@ -3,14 +3,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/signature-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/signature-mob.png",
+        "image": "shopify:\/\/shop_images\/huskgeo-web1.png",
+        "mobile_image": "shopify:\/\/shop_images\/1_79b54cca-e97a-4311-bc41-5beb9e0e0134.jpg",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_label": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
+        "button_link": "shopify:\/\/collections\/new-arrivals",
         "overlay_link": true
       }
     },
@@ -40,10 +40,22 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_Vgpgtw": {
+          "type": "collection",
+          "settings": {
+            "collection": "husk-geo"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "cypress"
+          }
+        },
         "collection_LAhKxD": {
           "type": "collection",
           "settings": {
-            "collection": "the-festival-edit"
+            "collection": "cypress-geo"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -51,25 +63,13 @@
           "settings": {
             "collection": "the-signature-collection-1"
           }
-        },
-        "collection_Vgpgtw": {
-          "type": "collection",
-          "settings": {
-            "collection": "blue-denim"
-          }
-        },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "true-white"
-          }
         }
       },
       "block_order": [
-        "collection_LAhKxD",
-        "bf612915-d86f-40f2-817f-6322dada207b",
         "collection_Vgpgtw",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
+        "collection_LAhKxD",
+        "bf612915-d86f-40f2-817f-6322dada207b"
       ],
       "settings": {
       }
@@ -87,12 +87,11 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/petit-crochet.png",
-        "mobile_image": "shopify:\/\/shop_images\/knit-mobile.png",
+        "image": "shopify:\/\/shop_images\/cypress-lower.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/knitwear"
+        "link": "shopify:\/\/collections\/shop-all"
       }
     },
     "1640812146b4d73cae": {
@@ -101,8 +100,8 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_3171858a-79c4-4ea2-b725-615bc55d3a41.jpg",
-            "text": "Beachwear Essentials",
+            "image": "shopify:\/\/shop_images\/0_ee16c0a9-3756-4e8b-bf6a-6966f7b2c207.jpg",
+            "text": "New Beachwar Styles",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
@@ -110,19 +109,19 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_69fabefc-3233-437c-bcaa-e91d23afa785.jpg",
+            "image": "shopify:\/\/shop_images\/0_48304e3c-91e0-45d4-894e-40a519233f93.jpg",
             "text": "For Warm Weather",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/coco"
+            "link": "shopify:\/\/collections\/new-arrivals"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_a01732d6-8631-4f24-b05c-36e3bf57f27a.jpg",
-            "text": "Monday Body",
+            "image": "shopify:\/\/shop_images\/1_09f7b926-6194-4b74-95af-4de3ca5fc549.jpg",
+            "text": "Vacation Dresses",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-body"
+            "link": "shopify:\/\/collections\/dresses"
           }
         }
       },
