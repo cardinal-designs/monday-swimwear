@@ -49,8 +49,13 @@
               {% endcomment %}
 
             {% else %}
-              {% if property.first == '_final_sale' or property.first == '_isPreSale' %}
+              {% if property.first == '_final_sale' %}
                 <p class="cart-drawer__item-option detail-caps">*{{ property.last }}</p>
+
+                PRE-SALE
+              {% endif %}
+              {% if property.first == '_isPreSale' %}
+                <p class="cart-drawer__item-option detail-caps">*PRE-SALE</p>
               {% endif %}
             {%- endif -%}
           {%- endfor -%}
