@@ -309,6 +309,10 @@
                 <input id="isPreSale" type="hidden" name="properties[_isPreSale]" value="true"> 
               {% endif %}
 
+            {% for tag in product.tags %}
+              {% assign handleTag = tag | handle %}
+            <input type="hidden" name="{{ handleTag }}" value="{{ handleTag }}">
+            {% endfor %}
             
             <div class="product-form__button-wrapper">
               <div class="product-form__input product-form__quantity">    
