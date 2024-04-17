@@ -30,6 +30,10 @@
                 {{ property.first }} <span>{{ property.last }}</span>
               </p>
 
+              {% if property.first == '_final_sale' %}
+                <p class="cart-drawer__item-option detail-caps">*{{ property.last }}</p>
+              {% endif %}
+              
               {% comment %}
                 <h6 class="cart-drawer__item-option caption">
                   {{ property.first }}:
