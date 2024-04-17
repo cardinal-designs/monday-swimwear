@@ -309,18 +309,6 @@
               {% if product.tags contains 'PRE-SALE' %}
                 <input id="isPreSale" type="hidden" name="properties[_isPreSale]" value="true"> 
               {% endif %}
-
-
-            {% comment %}
-            {% for tag in product.tags %}
-              {% assign handleTag = tag | handle %}
-              {% if handleTag == 'pre-sale' %}
-                <input type="hidden" class="testing" name="properties[PRE-SALE]" value="PRE-SALE">
-              {% elsif handleTag == 'final-sale' %}
-                <input type="hidden" class="testing" name="properties[FINAL SALE]" value="FINAL SALE">
-              {% endif %}
-            {% endfor %}
-            {% endcomment %}
           
             <div class="product-form__button-wrapper">
               <div class="product-form__input product-form__quantity">    
