@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/huskgeo-web1.png",
-        "mobile_image": "shopify:\/\/shop_images\/drop1-hero-edit.png",
+        "image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-banner-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-banner-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,7 +43,7 @@
         "collection_Vgpgtw": {
           "type": "collection",
           "settings": {
-            "collection": "husk-geo"
+            "collection": "pool-crinkle"
           }
         },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
@@ -87,8 +87,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/cypress-lower.png",
-        "mobile_image": "shopify:\/\/shop_images\/lower-banner-test3.png",
+        "image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-mobile.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -101,7 +101,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0_ee16c0a9-3756-4e8b-bf6a-6966f7b2c207.jpg",
+            "image": "shopify:\/\/shop_images\/CATD3.jpg",
             "text": "New Beachwar Styles",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
@@ -110,7 +110,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0_48304e3c-91e0-45d4-894e-40a519233f93.jpg",
+            "image": "shopify:\/\/shop_images\/FLOS.jpg",
             "text": "For Warm Weather",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/new-arrivals"
@@ -119,7 +119,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_09f7b926-6194-4b74-95af-4de3ca5fc549.jpg",
+            "image": "shopify:\/\/shop_images\/MALD3.jpg",
             "text": "Vacation Dresses",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/dresses"
