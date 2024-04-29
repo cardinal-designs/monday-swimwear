@@ -102,9 +102,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_339d0f13-021d-4b85-a35b-60bb91ea9ed3.jpg",
-            "text": "Essential Beachwear",
+            "text": "The Supportive Collection",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "link": "shopify:\/\/collections\/the-supportive-collection"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -120,9 +120,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_f3926e7c-0718-4bb3-80f0-4c6ac0a0f802.jpg",
-            "text": "Vacation Dresses",
+            "text": "Essential Beachwear",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/dresses"
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         }
       },
