@@ -111,9 +111,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_c40a7614-725f-42e4-a0b7-274d3e6f594f.jpg",
-            "text": "For Warm Weather",
+            "text": "Best Sellers",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/shop-all"
+            "link": "shopify:\/\/collections\/best-sellers"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
