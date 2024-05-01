@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/WEB.png",
-        "mobile_image": "shopify:\/\/shop_images\/MOBILE.png",
+        "image": "shopify:\/\/shop_images\/knit-web1.png",
+        "mobile_image": "shopify:\/\/shop_images\/knitwear-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,6 +40,18 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "bf612915-d86f-40f2-817f-6322dada207b": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
+          }
+        },
+        "collection_Vgpgtw": {
+          "type": "collection",
+          "settings": {
+            "collection": "knitwear"
+          }
+        },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
@@ -51,25 +63,13 @@
           "settings": {
             "collection": "turquoise-wide-rib"
           }
-        },
-        "collection_Vgpgtw": {
-          "type": "collection",
-          "settings": {
-            "collection": "pool-crinkle"
-          }
-        },
-        "bf612915-d86f-40f2-817f-6322dada207b": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-signature-collection-1"
-          }
         }
       },
       "block_order": [
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "collection_LAhKxD",
+        "bf612915-d86f-40f2-817f-6322dada207b",
         "collection_Vgpgtw",
-        "bf612915-d86f-40f2-817f-6322dada207b"
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
+        "collection_LAhKxD"
       ],
       "settings": {
       }
@@ -87,8 +87,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-mobile.png",
+        "image": "shopify:\/\/shop_images\/WEB.png",
+        "mobile_image": "shopify:\/\/shop_images\/MOBILE.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -101,7 +101,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_339d0f13-021d-4b85-a35b-60bb91ea9ed3.jpg",
+            "image": "shopify:\/\/shop_images\/6_4f22fb92-cd86-4085-8407-f434402b9919.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
@@ -110,7 +110,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_c40a7614-725f-42e4-a0b7-274d3e6f594f.jpg",
+            "image": "shopify:\/\/shop_images\/2_4e84ef5a-cd60-4088-b9c8-d2d3b71d443a.jpg",
             "text": "Best Sellers",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/best-sellers"
@@ -119,7 +119,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_f3926e7c-0718-4bb3-80f0-4c6ac0a0f802.jpg",
+            "image": "shopify:\/\/shop_images\/2_fef4b3e4-e54f-4da3-a382-bf6b8dcf98fd.jpg",
             "text": "Essential Beachwear",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
