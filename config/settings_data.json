@@ -2893,7 +2893,7 @@
             "type": "faq_item",
             "settings": {
               "title": "How do I file a claim?",
-              "answer": "<p>Go to claims.route.com. Note: We refund the cost of the item(s) alone when approved. Shipping costs, taxes, and the Route premium are not included. Route also does not pay custom\/duty fees. <\/p>"
+              "answer": "<p>Go to <a href=\"https:\/\/claims.route.com\" title=\"https:\/\/claims.route.com\"><strong>claims.route.com<\/strong><\/a>. Note: We refund the cost of the item(s) alone when approved. Shipping costs, taxes, and the Route premium are not included. Route also does not pay custom\/duty fees. <\/p>"
             }
           },
           "faq_item_JaDR4B": {
