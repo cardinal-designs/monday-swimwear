@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/knit-web1.png",
-        "mobile_image": "shopify:\/\/shop_images\/knitwear-mob.png",
+        "image": "shopify:\/\/shop_images\/sunlynx-web-edit2.png",
+        "mobile_image": "shopify:\/\/shop_images\/SU24_GEO_LYNX_MAIN_BANNER_MOB.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,16 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_Vgpgtw": {
+          "type": "collection",
+          "settings": {
+            "collection": "sun-lynx-geo"
+          }
+        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
-          }
-        },
-        "collection_Vgpgtw": {
-          "type": "collection",
-          "settings": {
-            "collection": "knitwear"
           }
         },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
@@ -66,8 +66,8 @@
         }
       },
       "block_order": [
-        "bf612915-d86f-40f2-817f-6322dada207b",
         "collection_Vgpgtw",
+        "bf612915-d86f-40f2-817f-6322dada207b",
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "collection_LAhKxD"
       ],
@@ -88,7 +88,7 @@
       "type": "editorial-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/WEB.png",
-        "mobile_image": "shopify:\/\/shop_images\/3_13867866-9494-4e09-9f44-9eb3372e98f0.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/SU24_Lake_Como_and_Turq-lowerbanner-mob.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -110,7 +110,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_4e84ef5a-cd60-4088-b9c8-d2d3b71d443a.jpg",
+            "image": "shopify:\/\/shop_images\/1_c050358a-bded-4cea-aee8-6f80cd2ee2eb.jpg",
             "text": "Best Sellers",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/best-sellers"
