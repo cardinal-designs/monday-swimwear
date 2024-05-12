@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/sunlynx-web-edit2.png",
-        "mobile_image": "shopify:\/\/shop_images\/SU24_GEO_LYNX_MAIN_BANNER_MOB.png",
+        "image": "shopify:\/\/shop_images\/two-tone-test.png",
+        "mobile_image": "shopify:\/\/shop_images\/two-tone-mob-test.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,10 +40,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_Vgpgtw": {
+        "collection_LAhKxD": {
           "type": "collection",
           "settings": {
-            "collection": "sun-lynx-geo"
+            "collection": "the-two-tone-collection"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -52,24 +52,24 @@
             "collection": "the-signature-collection-1"
           }
         },
+        "collection_Vgpgtw": {
+          "type": "collection",
+          "settings": {
+            "collection": "sun-lynx-geo"
+          }
+        },
         "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
           "type": "collection",
           "settings": {
             "collection": "lake-como-watercolor"
           }
-        },
-        "collection_LAhKxD": {
-          "type": "collection",
-          "settings": {
-            "collection": "turquoise-wide-rib"
-          }
         }
       },
       "block_order": [
-        "collection_Vgpgtw",
+        "collection_LAhKxD",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
-        "collection_LAhKxD"
+        "collection_Vgpgtw",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
       }
@@ -87,12 +87,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/WEB.png",
-        "mobile_image": "shopify:\/\/shop_images\/SU24_Lake_Como_and_Turq-lowerbanner-mob.png",
+        "image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-desktop_0c69b179-fcdf-4995-acf0-4b742759287e.png",
+        "mobile_image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-mobile_7c59017d-a1c3-466f-81c0-4b2a2d670018.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/shop-all"
+        "link": "shopify:\/\/collections\/monday-beachwear"
       }
     },
     "1640812146b4d73cae": {
@@ -101,7 +101,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_4f22fb92-cd86-4085-8407-f434402b9919.jpg",
+            "image": "shopify:\/\/shop_images\/1_a37f5437-ef79-4af3-bbed-747815214408.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
@@ -110,7 +110,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_c050358a-bded-4cea-aee8-6f80cd2ee2eb.jpg",
+            "image": "shopify:\/\/shop_images\/HavanaSet.jpg",
             "text": "Best Sellers",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/best-sellers"
@@ -119,7 +119,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_fef4b3e4-e54f-4da3-a382-bf6b8dcf98fd.jpg",
+            "image": "shopify:\/\/shop_images\/3_dbc6cc9e-2502-45f1-83b8-0b5a608a83e5.jpg",
             "text": "Essential Beachwear",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
