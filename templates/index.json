@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/two-tone-web-edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/two-tone-mob-edit.png",
+        "image": "shopify:\/\/shop_images\/chilli-pepper-desktop-test4.png",
+        "mobile_image": "shopify:\/\/shop_images\/chilli-pepper-mob-test1.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,6 +40,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "chili-pepper"
+          }
+        },
         "collection_LAhKxD": {
           "type": "collection",
           "settings": {
@@ -57,19 +63,13 @@
           "settings": {
             "collection": "sun-lynx-geo"
           }
-        },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "lake-como-watercolor"
-          }
         }
       },
       "block_order": [
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "collection_LAhKxD",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "collection_Vgpgtw",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
+        "collection_Vgpgtw"
       ],
       "settings": {
       }
@@ -87,8 +87,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-desktop_0c69b179-fcdf-4995-acf0-4b742759287e.png",
-        "mobile_image": "shopify:\/\/shop_images\/SU24_pool-crinkle-main-lower-mobile_7c59017d-a1c3-466f-81c0-4b2a2d670018.png",
+        "image": "shopify:\/\/shop_images\/two-tone-test.png",
+        "mobile_image": "shopify:\/\/shop_images\/two-tone-mob-edit.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -101,35 +101,35 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_a37f5437-ef79-4af3-bbed-747815214408.jpg",
+            "image": "shopify:\/\/shop_images\/1_883ec422-6c02-4a23-bc2b-eae252663e86.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HavanaSet.jpg",
-            "text": "Best Sellers",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/best-sellers"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_dbc6cc9e-2502-45f1-83b8-0b5a608a83e5.jpg",
+            "image": "shopify:\/\/shop_images\/3_2ddc2d0c-95da-4f92-94df-7e9f2732a1a0.jpg",
             "text": "Essential Beachwear",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_871b4e3d-51a0-4a96-94b4-7d7b6bface18.jpg",
+            "text": "Best Sellers",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/best-sellers"
           }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
