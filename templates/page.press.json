@@ -66,6 +66,16 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "block_qgiyPV": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "logo": "",
+            "text": "",
+            "date": "Read More",
+            "link": "https:\/\/swimsuit.si.com\/swimsuit\/model\/chanel-iman-2024-si-swimsuit-photos"
+          }
+        },
         "block_ETc4KR": {
           "type": "block",
           "settings": {
@@ -172,7 +182,7 @@
             "logo": "",
             "logo_img": "shopify:\/\/shop_images\/unnamed_4c7f4a5c-c658-42bd-aa17-977ceef06d65.png",
             "text": "\"The Micro Bikini Trend is Back\"",
-            "date": "MARCH 2023",
+            "date": "Read More",
             "link": "https:\/\/www.lofficielusa.com\/fashion\/tiny-bikinis-mirco-swimwear-to-buy-this-summer"
           }
         },
@@ -290,6 +300,7 @@
         }
       },
       "block_order": [
+        "block_qgiyPV",
         "block_ETc4KR",
         "74e2b089-36f3-4356-b19e-311462fc500d",
         "ecfcb09b-237b-4bcb-9cd3-b62bc147d638",
