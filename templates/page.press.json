@@ -68,10 +68,10 @@
       "blocks": {
         "block_qgiyPV": {
           "type": "block",
-          "disabled": true,
           "settings": {
             "logo": "",
-            "text": "",
+            "logo_img": "shopify:\/\/shop_images\/unnamed_c587a2f3-ed2b-44ae-9698-2b74633c72a7.png",
+            "text": "\"Chanel Iman: 2024 Belize\"",
             "date": "Read More",
             "link": "https:\/\/swimsuit.si.com\/swimsuit\/model\/chanel-iman-2024-si-swimsuit-photos"
           }
