@@ -1,8 +1,9 @@
 .hero {
-  height: 700px;
+  /* height: 700px; */
   position: relative;
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .hero .page-width {
