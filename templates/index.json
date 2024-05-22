@@ -5,6 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/CHILI-TEST.png",
         "mobile_image": "shopify:\/\/shop_images\/chilli-pepper-mob-test1.png",
+        "desktop_video": "shopify:\/\/files\/videos\/COBALT-WEB-TEST.mp4",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
