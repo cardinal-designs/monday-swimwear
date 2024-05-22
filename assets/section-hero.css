@@ -152,9 +152,9 @@
 } */
 
 @media screen and (max-width: 768px) {
-  .hero {
+  /* .hero {
     height: 620px;
-  }
+  } */
 
   .hero__container {
     max-width: 400px;
