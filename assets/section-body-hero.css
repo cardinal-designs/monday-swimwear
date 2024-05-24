@@ -97,6 +97,10 @@
   position: relative;
 }
 
+.body-hero--split .body-hero__image {
+  position: unset;
+}
+
 @media screen and (max-width: 1150px) {
   .body-hero--split .body-hero__title {
     font-size: 50px;
