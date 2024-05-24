@@ -97,7 +97,7 @@
   position: relative;
 }
 
-.body-hero--split .body-hero__image {
+.body-hero--split .body-hero__image img {
   position: unset;
 }
 
