@@ -1,9 +1,10 @@
 .body-hero {
-  min-height: 710px;
+  /* min-height: 710px; */
   height: 100%;
   display: flex;
   position: relative;
   background-color: var(--body-brown-2);
+  flex-wrap: wrap;
 }
 
 .body-hero .body-hero-overlay__link {
