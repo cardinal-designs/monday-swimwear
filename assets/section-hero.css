@@ -1,8 +1,9 @@
 .hero {
-  height: 700px;
+  /* height: 700px; */
   position: relative;
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .hero .page-width {
@@ -113,9 +114,11 @@
 }
 
 .hero.hero--bottom-center .page-width {
-  justify-content: center;
-  align-items: flex-end;
+  /* justify-content: center;
+  align-items: flex-end; */
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .hero.hero--bottom-right .page-width {
@@ -149,9 +152,9 @@
 } */
 
 @media screen and (max-width: 768px) {
-  .hero {
+  /* .hero {
     height: 620px;
-  }
+  } */
 
   .hero__container {
     max-width: 400px;

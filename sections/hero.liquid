@@ -8,17 +8,17 @@
   {% endif %}
 
   {% if section.settings.desktop_video != blank %}
-    {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill hero__video hide-mobile' }}
+    {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'hero__video hide-mobile' }}
   {% else %}
-    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'hide-mobile' %}
   {% endif %}
 
   {% if section.settings.mobile_video != blank %}
-    {{ section.settings.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill hero__video hide-desktop' }}
+    {{ section.settings.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'hero__video hide-desktop' }}
   {% elsif section.settings.desktop_video != blank %}
-   {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'img-fill hero__video hide-desktop' }}
+   {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'hero__video hide-desktop' }}
   {% else %}
-    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'hide-desktop' %}
   {% endif %}
   
   <div class="page-width">
