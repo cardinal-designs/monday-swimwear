@@ -11,10 +11,10 @@
   </div>
   <div class="body-hero__image">
     {% if section.settings.mobile_image != blank %}
-      {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill hide-mobile' %}
-      {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'img-fill hide-desktop' %}
+      {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'hide-mobile' %}
+      {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'hide-desktop' %}
     {% else %}
-      {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+      {% render 'lazy-image' image: section.settings.image, fade: true %}
     {% endif %}
   </div>
 </div>
