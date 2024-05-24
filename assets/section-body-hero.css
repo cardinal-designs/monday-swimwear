@@ -97,8 +97,8 @@
   position: relative;
 }
 
-.body-hero__image img {
-  position: unset;
+.body-hero__image img::before {
+  content: none;
 }
 
 @media screen and (max-width: 1150px) {
