@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/CHILI-TEST.png",
-        "mobile_image": "shopify:\/\/shop_images\/chilli-pepper-mob-test1.png",
+        "image": "shopify:\/\/shop_images\/peach-dragon-mango-main-mob.png",
+        "mobile_image": "shopify:\/\/shop_images\/SU24_peach-dragon-mango-main-desktop.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,36 +40,36 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "chili-pepper"
-          }
-        },
         "collection_LAhKxD": {
           "type": "collection",
           "settings": {
-            "collection": "the-two-tone-collection"
+            "collection": "mango"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "dragon-fruit"
           }
         },
         "collection_Vgpgtw": {
           "type": "collection",
           "settings": {
-            "collection": "sun-lynx-geo"
+            "collection": "summer-peach-crinkle"
+          }
+        },
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-two-tone-collection"
           }
         }
       },
       "block_order": [
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e",
         "collection_LAhKxD",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "collection_Vgpgtw"
+        "collection_Vgpgtw",
+        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
       ],
       "settings": {
       }
@@ -87,12 +87,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/two-tone-web-edit_1.png",
-        "mobile_image": "shopify:\/\/shop_images\/two-tone-mob-edit_1_a6fcc395-9167-4bcc-98c5-e0898a8b6148.png",
+        "image": "shopify:\/\/shop_images\/chilli-pepper-lower-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/chilli-pepper-lower-test1.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/monday-beachwear"
+        "link": "shopify:\/\/collections\/chili-pepper"
       }
     },
     "1640812146b4d73cae": {
@@ -101,10 +101,19 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_883ec422-6c02-4a23-bc2b-eae252663e86.jpg",
+            "image": "shopify:\/\/shop_images\/1_30163679-7047-4b67-87a0-aca93854afd9.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_4cf2de23-72eb-4f4b-a9f5-3c210fa0b632.jpg",
+            "text": "Best Sellers",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/best-sellers"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -115,21 +124,12 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
-        },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_871b4e3d-51a0-4a96-94b4-7d7b6bface18.jpg",
-            "text": "Best Sellers",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/best-sellers"
-          }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
