@@ -6,7 +6,7 @@
         "layout": "full",
         "image": "shopify:\/\/shop_images\/MB-web-test2.png",
         "mobile_image": "shopify:\/\/shop_images\/MB-mob-test2.png",
-        "content_position": "bottom-center",
+        "content_position": "center",
         "subtitle": "",
         "title": "",
         "button_label": "Shop Now",
