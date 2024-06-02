@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/peach-dragon-mango-main-mob.png",
-        "mobile_image": "shopify:\/\/shop_images\/SU24_peach-dragon-mango-main-desktop.png",
+        "image": "shopify:\/\/shop_images\/lynx-eggplant-web.png",
+        "mobile_image": "shopify:\/\/shop_images\/lynx-eggplant-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,10 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_LAhKxD": {
+        "collection_R4hinJ": {
           "type": "collection",
           "settings": {
-            "collection": "mango"
+            "collection": "geo-lynx"
+          }
+        },
+        "collection_e9hitP": {
+          "type": "collection",
+          "settings": {
+            "collection": "eggplant-wide-rib"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -52,24 +58,18 @@
             "collection": "dragon-fruit"
           }
         },
-        "collection_Vgpgtw": {
+        "collection_LAhKxD": {
           "type": "collection",
           "settings": {
-            "collection": "summer-peach-crinkle"
-          }
-        },
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-two-tone-collection"
+            "collection": "mango"
           }
         }
       },
       "block_order": [
-        "collection_LAhKxD",
+        "collection_R4hinJ",
+        "collection_e9hitP",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "collection_Vgpgtw",
-        "9b565c1d-5205-4f4f-91ce-1b78563c8d7e"
+        "collection_LAhKxD"
       ],
       "settings": {
       }
@@ -101,7 +101,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_30163679-7047-4b67-87a0-aca93854afd9.jpg",
+            "image": "shopify:\/\/shop_images\/1_b368993a-c436-47e4-8e6d-27dc0b534e52.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
@@ -110,7 +110,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_4cf2de23-72eb-4f4b-a9f5-3c210fa0b632.jpg",
+            "image": "shopify:\/\/shop_images\/2_0e16749a-c5c5-4abc-b24f-b9dabebe52aa.jpg",
             "text": "Best Sellers",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/best-sellers"
@@ -119,7 +119,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_2ddc2d0c-95da-4f92-94df-7e9f2732a1a0.jpg",
+            "image": "shopify:\/\/shop_images\/3_047792c3-dbe0-49bb-b560-cc17422252ad.jpg",
             "text": "Essential Beachwear",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
