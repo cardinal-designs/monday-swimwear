@@ -21,6 +21,16 @@
     "16432137026d4e6bd7": {
       "type": "initiatives-image-text",
       "blocks": {
+        "block_wPxaVR": {
+          "type": "block",
+          "settings": {
+            "reversed": true,
+            "title": "The Ovarian Cancer Research Foundation (OCRF)",
+            "text": "15% of sales from orders placed from June 2 2024, - July 2, 2024 from our Eggplant collection will be donated to The Ovarian Cancer Research Foundation (OCRF).<br><br>\n\nThe OCRF prioritizes investing as much as possible into ovarian cancer research projects that align with their research priorities and will have the greatest impact for the greatest number of women and girls. Their role is to fill the funding gap left by a history of underfunding in the ovarian cancer research sector, whilst advocating for uplift in both government and philanthropic funding to achieve a stepped change in survival outcomes for ovarian cancer.",
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/collections\/eggplant-wide-rib"
+          }
+        },
         "block_HMzxWh": {
           "type": "block",
           "settings": {
@@ -243,6 +253,7 @@
         }
       },
       "block_order": [
+        "block_wPxaVR",
         "block_HMzxWh",
         "02c4255c-0477-4a86-b141-444b43bab914",
         "f0b56d44-de86-4ff3-80a1-db6b466b1f19",
