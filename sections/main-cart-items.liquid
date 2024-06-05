@@ -96,7 +96,7 @@
 
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
-                          {%- if property.last != blank and property_first_char != '_' -%}
+                          {%- if property.last != blank and property_first_char != '_' and property.first == 'final_sale' -%}
                             <div class="product-option detail-caps">
                               {{ property.first }} <span>{{ property.last }}</span>
                             </div>
