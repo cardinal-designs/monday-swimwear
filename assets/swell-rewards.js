@@ -15,6 +15,7 @@
 
     function swell() {
       jQuery(document).ready(function($) {
+        console.log("testttttttt")
         $(document).on("swell:setup", function() {
           SwellConfig.Tier.initializeDummyTier();
           SwellConfig.Tier.initializeCustomTierProperties();

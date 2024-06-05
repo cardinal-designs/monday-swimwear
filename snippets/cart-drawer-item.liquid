@@ -25,7 +25,7 @@
         <div class="cart-drawer__item-variant">
           {%- if item.product.has_only_default_variant == false -%}
             {%- for option in item.options_with_values -%}
-              <p class="cart-drawer__item-option detail-caps">
+              <p class="cart-drawer__item-option 1111 detail-caps">
                 {{ option.name }}
                 <span>{{ option.value }}</span>
               </p>
@@ -33,8 +33,8 @@
           {%- endif -%}
           {%- for property in item.properties -%}
             {%- assign property_first_char = property.first | slice: 0 -%}
-            {%- if property.last != blank and property_first_char != '_' -%}
-              <p class="cart-drawer__item-option detail-caps">
+            {%- if property.last != blank and property_first_char != '_' and property.first != 'final_sale' -%}
+              <p class="cart-drawer__item-option 222 detail-caps">
                 {{ property.first }} <span>{{ property.last }}</span>
               </p>
               
@@ -51,12 +51,14 @@
                 </h6>
               {% endcomment %}
 
+            {% elsif property.last != blank and property.first == 'final_sale' %}
+              <p class="cart-drawer__item-option 444 detail-caps">*{{ property.last }}</p>
             {% else %}
               {% if property.first == '_final_sale' %}
-                <p class="cart-drawer__item-option detail-caps">*{{ property.last }}</p>
+                <p class="cart-drawer__item-option 444 detail-caps">*{{ property.last }}</p>
               {% endif %}
               {% if property.first == '_isPreSale' %}
-                <p class="cart-drawer__item-option detail-caps">*PRE-SALE</p>
+                <p class="cart-drawer__item-option 555 detail-caps">*PRE-SALE</p>
               {% endif %}
             {%- endif -%}
           {%- endfor -%}

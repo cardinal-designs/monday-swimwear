@@ -144,6 +144,7 @@
         {% endif %}
       {% endfor %}
     {% endfor %}
+
     <script type="text/javascript">
       var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
       function FinalSaleLabel(){
