@@ -52,9 +52,7 @@
               {% endcomment %}
 
             {% elsif property.last != blank and property.first == 'final_sale' %}
-              <p class="cart-drawer__item-option 333 detail-caps">
-                <span>{{ property.last }}</span>
-              </p>
+              <p class="cart-drawer__item-option 444 detail-caps">*{{ property.last }}</p>
             {% else %}
               {% comment %}
               {% if property.first == '_final_sale' %}
