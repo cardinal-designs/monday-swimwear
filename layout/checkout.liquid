@@ -134,11 +134,9 @@
     
     <script type="text/javascript">
 
-      (function($) {
-        $(document).on("page:load page:change", function() {
-          console.log("eggggggg");
-        });
-      })(Checkout.$);
+      $(document).on("page:load page:change", function() {
+        console.log("eggggggg");
+      });
       
       var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
       console.log("finalSaleProducts", finalSaleProducts);
