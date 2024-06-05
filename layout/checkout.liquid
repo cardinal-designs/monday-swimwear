@@ -146,7 +146,8 @@
     {% endfor %}
     <script type="text/javascript">
       var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
-      console.log("finalSaleProducts", finalSaleProducts)
+      console.log("finalSaleProducts", finalSaleProducts);
+      
       function FinalSaleLabel(){
         if(finalSaleProducts != 'null'){
           let splitProductId = finalSaleProducts.split(',');
