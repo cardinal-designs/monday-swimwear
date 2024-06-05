@@ -130,6 +130,13 @@
     {% endfor %}
     
     <script type="text/javascript">
+
+      (function($) {
+        $(document).on("page:load page:change", function() {
+          console.log("eggggggg");
+        });
+      })(Checkout.$);
+      
       var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
       console.log("finalSaleProducts", finalSaleProducts);
       
