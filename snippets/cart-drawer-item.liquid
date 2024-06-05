@@ -52,7 +52,10 @@
               {% endcomment %}
 
             {% else %}
+              {% comment %}
               {% if property.first == '_final_sale' %}
+              {% endcomment %}
+              {% if property.first == 'final_sale' %}
                 <p class="cart-drawer__item-option detail-caps">*{{ property.last }}</p>
               {% endif %}
               {% if property.first == '_isPreSale' %}
