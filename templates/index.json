@@ -98,13 +98,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_b368993a-c436-47e4-8e6d-27dc0b534e52.jpg",
-            "text": "The Supportive Collection",
+            "image": "shopify:\/\/shop_images\/1_8367a493-1963-4528-a8bb-633a4e682bd0.jpg",
+            "text": "Essential Beachwear",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-supportive-collection"
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -116,20 +116,20 @@
             "link": "shopify:\/\/collections\/best-sellers"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_047792c3-dbe0-49bb-b560-cc17422252ad.jpg",
-            "text": "Essential Beachwear",
+            "image": "shopify:\/\/shop_images\/1_b368993a-c436-47e4-8e6d-27dc0b534e52.jpg",
+            "text": "The Supportive Collection",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "link": "shopify:\/\/collections\/the-supportive-collection"
           }
         }
       },
       "block_order": [
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
