@@ -7,9 +7,9 @@
     <meta name="referrer" content="origin">
 
     <title>{{ page_title }}</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
-    
+  
     {% include "globale-checkout-css" %}
   </head>
   <body>
@@ -116,12 +116,23 @@
     </div>
 
     {{ tracking_code }}
+    
+    <!-- PASSPORT BREAKOUT SCRIPT --> 
+    <!-- EcoCart Carbon Offset -->
+    <script async="" src="https://d2v82nkpsxzrcr.cloudfront.net/ecocart.js?shop_name=monday-swim.myshopify.com"></script>
+    <!-- End EcoCart -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
+    <script src="https://api.passportshipping.com/external/shopify/themes/utils/utils.js?ts=1620030299559" type="text/javascript"></script> 
+    <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript"></script> 
+    <!-- /PASSPORT BREAKOUT SCRIPT -->
 
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
-    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    {{ 'swell-rewards.js' | asset_url | script_tag }}
 
+    {% include 'checkout-scripts' %}
 
+    {% include 'swell-checkout' %}
+    {% comment %}{% include 'swell-post-checkout' %}{% endcomment %}
+    
     {% assign finalSaleTaggedProducts = blank %}
     {% for item in checkout.line_items %}
       {% assign haveFinalSaleTag = false %}
@@ -133,18 +144,9 @@
         {% endif %}
       {% endfor %}
     {% endfor %}
-    
-    <script type="text/javascript">
 
-      (function($) {
-        $(document).on("page:load", function() {
-          console.log("eggggggg");
-        });
-      })(Checkout.$);
-      
+    <script type="text/javascript">
       var finalSaleProducts = `{{ finalSaleTaggedProducts | remove_first:',' | default:'null' }}`;
-      console.log("finalSaleProducts", finalSaleProducts);
-      
       function FinalSaleLabel(){
         if(finalSaleProducts != 'null'){
           let splitProductId = finalSaleProducts.split(',');
@@ -202,25 +204,8 @@
         FinalSaleLabel();
         ToggleSlider();
       });
-    
+      
     </script>
-    
-    <!-- PASSPORT BREAKOUT SCRIPT --> 
-    <!-- EcoCart Carbon Offset -->
-    <script async="" src="https://d2v82nkpsxzrcr.cloudfront.net/ecocart.js?shop_name=monday-swim.myshopify.com"></script>
-    <!-- End EcoCart -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>  -->
-    <script src="https://api.passportshipping.com/external/shopify/themes/utils/utils.js?ts=1620030299559" type="text/javascript"></script> 
-    <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript"></script> 
-    <!-- /PASSPORT BREAKOUT SCRIPT -->
-
-    {{ 'swell-rewards.js' | asset_url | script_tag }}
-
-    {% include 'checkout-scripts' %}
-
-    {% include 'swell-checkout' %}
-    {% comment %}{% include 'swell-post-checkout' %}{% endcomment %}
-    
     <style>
       
       .label {
