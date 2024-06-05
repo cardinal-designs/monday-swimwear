@@ -96,8 +96,8 @@
 
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
-                          {% assign prop_first_handle = property.first | handle %}
-                          {%- if property.last != blank and property_first_char != '_' and prop_first_handle == 'final_sale' -%}
+                          
+                          {%- if property.last != blank and property_first_char != '_' -%}
                             <div class="product-option detail-caps">
                               {{ property.first }} <span>{{ property.last }}</span>
                             </div>
@@ -121,7 +121,7 @@
                             {% if property.first == '_final_sale' %}
                             {% endcomment %}
                             {% if property.first == 'final_sale' %}
-                              <p class="cart-drawer__item-option detail-caps">*{{ property.last }}</p>
+                              <p class="cart-drawer__item-option detail-caps" {{ property.first }}>*{{ property.last }}</p>
                             {% endif %}
                             {% if property.first == '_isPreSale' %}
                               <p class="cart-drawer__item-option detail-caps">*PRE-SALE</p>
