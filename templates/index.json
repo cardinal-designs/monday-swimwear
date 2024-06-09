@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lynx-eggplant-web.png",
-        "mobile_image": "shopify:\/\/shop_images\/lynx-eggplant-mob.png",
+        "image": "shopify:\/\/shop_images\/boucle-main-test.png",
+        "mobile_image": "shopify:\/\/shop_images\/boucle-mob-test.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -40,16 +40,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_Qw6CiG": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory-boucle"
+          }
+        },
         "collection_R4hinJ": {
           "type": "collection",
           "settings": {
             "collection": "geo-lynx"
-          }
-        },
-        "collection_e9hitP": {
-          "type": "collection",
-          "settings": {
-            "collection": "eggplant-wide-rib"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -58,18 +58,18 @@
             "collection": "dragon-fruit"
           }
         },
-        "collection_LAhKxD": {
+        "collection_3hCPar": {
           "type": "collection",
           "settings": {
-            "collection": "mango"
+            "collection": "beachwear-accessories"
           }
         }
       },
       "block_order": [
+        "collection_Qw6CiG",
         "collection_R4hinJ",
-        "collection_e9hitP",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "collection_LAhKxD"
+        "collection_3hCPar"
       ],
       "settings": {
       }
@@ -87,8 +87,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/chilli-pepper-lower-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/chilli-pepper-lower-test1.png",
+        "image": "shopify:\/\/shop_images\/lower-banner-chili-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/lower-banner-chili-mob.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -101,7 +101,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_8367a493-1963-4528-a8bb-633a4e682bd0.jpg",
+            "image": "shopify:\/\/shop_images\/CALART-C_4059039e-4484-48e2-b3b8-fde235cc34a0.jpg",
             "text": "Essential Beachwear",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
@@ -110,7 +110,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_0e16749a-c5c5-4abc-b24f-b9dabebe52aa.jpg",
+            "image": "shopify:\/\/shop_images\/2_83ab6ee8-2431-4645-abb8-35fea2541527.jpg",
             "text": "Best Sellers",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/best-sellers"
@@ -119,17 +119,26 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_b368993a-c436-47e4-8e6d-27dc0b534e52.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled-1-Recovered.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
+          }
+        },
+        "link_block_jL3hq9": {
+          "type": "link_block",
+          "settings": {
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
         "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "link_block_jL3hq9"
       ],
       "settings": {
         "text_style": "underneath",
