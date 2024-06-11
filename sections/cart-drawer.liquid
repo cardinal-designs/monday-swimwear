@@ -61,6 +61,20 @@
                   </div>
                 </div>
               </div>
+              
+              <!-- Route Code Edited 06/10/2024 -->
+              <div class="route-div"></div> 
+              <style>
+                route-protect-widget:not([payer='no_coverage']) .pw-container::after {
+                   content:"By deselecting shipping protection, Monday Swimwear\A is not liable for lost, damaged, or stolen items.";
+                   white-space: pre-wrap;
+                   display: inline-block;
+                   text-align: right;
+                   font-size: 12px !important;
+                 }
+              </style>
+              <!-- Route Code End -->
+                           
               <a href="/checkout" id="cart-checkout-button" class="cart-checkout-button inactive button button--full" name="checkout" form="cart">{{ 'sections.cart.checkout' | t }}</a>
               {% if localization.country.iso_code == 'GB' %}
                 <p class="body-small" style="text-align: center; margin: 10px 0 0;">Free express shipping and returns</p>
