@@ -3,8 +3,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/boucle-main-test.png",
-        "mobile_image": "shopify:\/\/shop_images\/boucle-mob-test.png",
+        "image": "shopify:\/\/shop_images\/ibiza-desktop-final.png",
+        "mobile_image": "shopify:\/\/shop_images\/ibiza-mob-test.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -43,25 +43,25 @@
         "collection_Qw6CiG": {
           "type": "collection",
           "settings": {
-            "collection": "ivory-boucle"
+            "collection": "ibiza-blue"
           }
         },
         "collection_R4hinJ": {
           "type": "collection",
           "settings": {
-            "collection": "geo-lynx"
+            "collection": "honeydew-summer-plaid"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "dragon-fruit"
+            "collection": "raffia"
           }
         },
         "collection_3hCPar": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "dragon-fruit"
           }
         }
       },
@@ -87,24 +87,24 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lower-banner-chili-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/chili-pepper-lower-test.png",
+        "image": "shopify:\/\/shop_images\/REDUCED_size_true-white-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/true-white-mob3.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify:\/\/collections\/chili-pepper"
+        "link": "shopify:\/\/collections\/true-white"
       }
     },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-1-Recovered.jpg",
-            "text": "Essential Beachwear",
+            "image": "shopify:\/\/shop_images\/CALART-C_4059039e-4484-48e2-b3b8-fde235cc34a0.jpg",
+            "text": "The Supportive Collection",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/monday-beachwear"
+            "link": "shopify:\/\/collections\/the-supportive-collection"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -116,20 +116,20 @@
             "link": "shopify:\/\/collections\/best-sellers"
           }
         },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CALART-C_4059039e-4484-48e2-b3b8-fde235cc34a0.jpg",
-            "text": "The Supportive Collection",
+            "image": "shopify:\/\/shop_images\/Untitled-1-Recovered.jpg",
+            "text": "Essential Beachwear",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-supportive-collection"
+            "link": "shopify:\/\/collections\/monday-beachwear"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
