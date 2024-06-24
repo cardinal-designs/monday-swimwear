@@ -4,7 +4,7 @@
 
 {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
 
-<script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'cart-drawer.js' | asset_url }}" defer="async"></script>
 
 <header class="header header--{{ section.settings.logo_position }} page-width">
   {%- if section.settings.menu != blank -%}
