@@ -442,7 +442,7 @@
             </div>
           {% endif %}
           {% endcomment %}
-          {% unless product.tags contains 'accessories' %}
+          {% unless product.tags contains 'accessories' or product.tags contains 'Accessories' %}
             {% if product.metafields.custom.monday_body == true %}
               {% if settings.body_fit_note != blank or product.metafields.pdp_extras.size_fit != blank %}
                 <div class="product__dropdown">
