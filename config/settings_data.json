@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "swimwear_image": "shopify:\/\/shop_images\/IMG_0307.jpg",
@@ -99,6 +108,12 @@
               "product": "exuma-hat"
             }
           },
+          "upsell_EkzeFE": {
+            "type": "upsell",
+            "settings": {
+              "product": "es-vedra-sunglasses-black"
+            }
+          },
           "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776": {
             "type": "upsell",
             "settings": {
@@ -108,7 +123,7 @@
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
             "type": "upsell",
             "settings": {
-              "product": "barcelona-tunic-black"
+              "product": "barcelona-tunic-ivory"
             }
           },
           "179ec68a-9604-4dfe-9a08-c0e685271c72": {
@@ -117,16 +132,10 @@
               "product": "staniel-cay-comb-tortoise"
             }
           },
-          "30e48b86-9f28-4754-9ce0-023d9fdca5bd": {
-            "type": "upsell",
-            "settings": {
-              "product": "angel-cay-hair-clip-set"
-            }
-          },
           "b998258a-f74b-489f-88ac-d2845f748e54": {
             "type": "upsell",
             "settings": {
-              "product": "acklins-mirror-ivory-swirl"
+              "product": "acklins-mirror-tortoise"
             }
           },
           "ce35da39-8666-4078-8a2b-f96324678747": {
@@ -138,10 +147,10 @@
         },
         "block_order": [
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
+          "upsell_EkzeFE",
           "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776",
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
           "179ec68a-9604-4dfe-9a08-c0e685271c72",
-          "30e48b86-9f28-4754-9ce0-023d9fdca5bd",
           "b998258a-f74b-489f-88ac-d2845f748e54",
           "ce35da39-8666-4078-8a2b-f96324678747"
         ],
