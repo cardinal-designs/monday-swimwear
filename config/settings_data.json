@@ -102,22 +102,28 @@
       "cart-drawer": {
         "type": "cart-drawer",
         "blocks": {
-          "c53f4786-5fa6-4c8f-b227-d7914b83b00d": {
-            "type": "upsell",
-            "settings": {
-              "product": "exuma-hat"
-            }
-          },
           "upsell_EkzeFE": {
             "type": "upsell",
             "settings": {
               "product": "es-vedra-sunglasses-black"
             }
           },
-          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776": {
+          "upsell_ctGPrP": {
             "type": "upsell",
             "settings": {
-              "product": "st-tropez-sarong-white-crinkle-linen"
+              "product": "clovelly-one-piece-black"
+            }
+          },
+          "179ec68a-9604-4dfe-9a08-c0e685271c72": {
+            "type": "upsell",
+            "settings": {
+              "product": "valencia-bag-small"
+            }
+          },
+          "c53f4786-5fa6-4c8f-b227-d7914b83b00d": {
+            "type": "upsell",
+            "settings": {
+              "product": "exuma-hat"
             }
           },
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
@@ -126,32 +132,26 @@
               "product": "barcelona-tunic-ivory"
             }
           },
-          "179ec68a-9604-4dfe-9a08-c0e685271c72": {
+          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776": {
             "type": "upsell",
             "settings": {
-              "product": "staniel-cay-comb-tortoise"
-            }
-          },
-          "b998258a-f74b-489f-88ac-d2845f748e54": {
-            "type": "upsell",
-            "settings": {
-              "product": "acklins-mirror-tortoise"
+              "product": "st-tropez-sarong-white-crinkle-linen"
             }
           },
           "ce35da39-8666-4078-8a2b-f96324678747": {
             "type": "upsell",
             "settings": {
-              "product": "mare-towel-terry"
+              "product": "south-beach-sarong-black-crinkle"
             }
           }
         },
         "block_order": [
-          "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
           "upsell_EkzeFE",
-          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776",
-          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
+          "upsell_ctGPrP",
           "179ec68a-9604-4dfe-9a08-c0e685271c72",
-          "b998258a-f74b-489f-88ac-d2845f748e54",
+          "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
+          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
+          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776",
           "ce35da39-8666-4078-8a2b-f96324678747"
         ],
         "settings": {
