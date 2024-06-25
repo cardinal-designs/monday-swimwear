@@ -29,13 +29,13 @@
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
     {%- endif -%}
 
-    <img
+    {% comment %} <img
       alt="LCP"
       width="99999"
       height="99999"
       style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"
       src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+"
-    >
+    > {% endcomment %}
 
     <title>
       {{ page_title }}
@@ -49,20 +49,7 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'scroll-trigger.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'headroom.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'lazysizes.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'zoom.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'custom-scripts.js' | asset_url }}" defer="defer"></script>
-
-    {{ content_for_header }}
+ 
 
     {% style %}
       /* Sunset Gothic - Medium */
@@ -156,29 +143,47 @@
         color: {{ settings.text_color }};
       }
     {% endstyle %}
-
-    {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-    <link rel="preload" href="{{ 'base.css' | asset_url  }}" as="style">
-    {{ 'base.css' | asset_url | stylesheet_tag }}
-
+    <link
+      rel="stylesheet"
+      href="{{ 'swiper-bundle.min.css' | asset_url }}"
+      media="print"
+      onload="this.media='all'" />
+    <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
     {% if monday_body %}
-      <link rel="stylesheet" href="https://use.typekit.net/etr7yuj.css">
-      <link rel="preload" href="{{ 'monday-body-base.css' | asset_url  }}" as="style">
-      {{ 'monday-body-base.css' | asset_url | stylesheet_tag }}
+      <link rel="stylesheet" data-lazy-href="https://use.typekit.net/etr7yuj.css">
+      <link rel="preload" href="{{ 'monday-body-base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="{{ 'monday-body-base.css' | asset_url }}"></noscript>
     {% endif %}
-
+  
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
-    <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
+    <script data-lazy-src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
 
     {% if settings.ss_enable %}
       {% render 'ss-script' %}
     {% endif %}
 
-    {% include 'globale-js' %}
+    {% render 'globale-js' %}
+   
+    {% comment %} <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> {% endcomment %}
+    <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'gsap.min.js' | asset_url }}" defer="async"></script>
+    <script src="{{ 'scroll-trigger.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'headroom.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'lazysizes.min.js' | asset_url }}" defer="defer"></script>
+    {%- render 'optimization' -%}
+    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'zoom.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" defer="async"></script>
+    <script src="{{ 'custom-scripts.js' | asset_url }}" defer="defer"></script>
+
   
-  {% include "globale-js" %}
+
+    {%- assign content_for_header = content_for_header | replace: "window.addEventListener('load'", "window.addEventListener('load-head-scripts'" -%}
+    {{ content_for_header }}
 </head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
@@ -267,7 +272,7 @@
       (function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : true, hideTrigger : true, language : 'en', position : 'left', leadColor : '#af6148', triggerColor : '#af6148', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());
     </script>
 
-    <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+    <script data-lazy-src="https://a.klaviyo.com/media/js/onsite/onsite.js" defer></script>
     <script>
       var klaviyo = klaviyo || [];
       klaviyo.init({
@@ -306,10 +311,10 @@
     <script
       async
       type="text/javascript"
-      src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HxZwzm"
+      data-lazy-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HxZwzm"
       defer="defer"
     ></script>
-    <script src="https://cdn.attn.tv/mondayswimwear/dtag.js" defer="defer"></script>
+    <script data-lazy-src="https://cdn.attn.tv/mondayswimwear/dtag.js" defer="defer"></script>
     {% render 'preorder-now' %}
     {% render 'nosto-tagging' %}
     {% render 'app_wishlist-king' %}
@@ -335,6 +340,7 @@
       </script>
     {% endif %}
 
-    <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#000000', triggerColor : '#000000', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script>
+    {% comment %} <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#000000', triggerColor : '#000000', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script> {% endcomment %}
+    <script src="{{ 'optimization.js' | asset_url }}" defer></script>
   </body>
 </html>

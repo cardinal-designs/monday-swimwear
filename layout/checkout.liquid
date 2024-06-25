@@ -121,9 +121,9 @@
     <!-- EcoCart Carbon Offset -->
     <script async="" src="https://d2v82nkpsxzrcr.cloudfront.net/ecocart.js?shop_name=monday-swim.myshopify.com"></script>
     <!-- End EcoCart -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
-    <script src="https://api.passportshipping.com/external/shopify/themes/utils/utils.js?ts=1620030299559" type="text/javascript"></script> 
-    <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript"></script> 
+    {% comment %} <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>  {% endcomment %}
+    <script src="https://api.passportshipping.com/external/shopify/themes/utils/utils.js?ts=1620030299559" type="text/javascript" defer></script> 
+    <script src="https://api.passportshipping.com/external/shopify/themes/taxesAndDuties/taxesAndDuties.js?ts=1620030299559" type="text/javascript" defer></script> 
     <!-- /PASSPORT BREAKOUT SCRIPT -->
 
     {{ 'swell-rewards.js' | asset_url | script_tag }}
