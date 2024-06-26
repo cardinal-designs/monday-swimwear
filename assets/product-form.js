@@ -11,7 +11,7 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
     evt.preventDefault();
     
     const submitButton = this.querySelector('[type="submit"]');
-
+    if(!!submitButton) {
     submitButton.setAttribute('disabled', true);
     submitButton.classList.add('loading');
 
@@ -60,6 +60,7 @@ customElements.define('product-form', class ProductForm extends HTMLElement {
         submitButton.removeAttribute('disabled');
         this.cartDrawer.open();
       });
+    }
   }
 
   getSectionsToRender() {
