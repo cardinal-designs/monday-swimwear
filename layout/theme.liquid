@@ -327,8 +327,8 @@
         setTimeout(function() {
           if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
             if (!document.querySelector(".klaviyo-bis-trigger")) {
-              var klAnchor = document.createElement('a');
-              klAnchor.href = '#';
+              var klAnchor = document.createElement('button');
+              // klAnchor.href = '#';
               klAnchor.classList.add('button', 'button--full', 'klaviyo-bis-trigger');
               document.querySelector('.product-form__button-wrapper').appendChild(klAnchor);
               klAnchor.textContent = 'Notify Me When Available';
