@@ -272,7 +272,7 @@
       (function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : true, hideTrigger : true, language : 'en', position : 'left', leadColor : '#af6148', triggerColor : '#af6148', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());
     </script>
 
-    <script data-lazy-src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+    <script data-lazy-src="https://a.klaviyo.com/media/js/onsite/onsite.js" defer></script>
     <script>
       var klaviyo = klaviyo || [];
       klaviyo.init({
@@ -327,8 +327,8 @@
         setTimeout(function() {
           if (document.querySelector('.product-form__submit.button.button--full.button--primary').disabled) {
             if (!document.querySelector(".klaviyo-bis-trigger")) {
-              var klAnchor = document.createElement('button');
-              // klAnchor.href = '#';
+              var klAnchor = document.createElement('a');
+              klAnchor.href = '#';
               klAnchor.classList.add('button', 'button--full', 'klaviyo-bis-trigger');
               document.querySelector('.product-form__button-wrapper').appendChild(klAnchor);
               klAnchor.textContent = 'Notify Me When Available';
