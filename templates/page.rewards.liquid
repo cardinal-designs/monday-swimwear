@@ -58,22 +58,22 @@
 {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> {% endcomment %}
 
 <script>
-
+window.addEventListener("DOMContentLoaded", ()=>{
+  $('.swell-faq-list li').click(function(e){
+    e.preventDefault();
+    $(this).find('.swell-faq-explanation').toggleClass('swell-faq-show swell-faq-hide');
     
   
-  $('.swell-faq-list li').click(function(e){
-      e.preventDefault();
-      $(this).find('.swell-faq-explanation').toggleClass('swell-faq-show swell-faq-hide');
-    	
-    
-    if($(this).find('.swell-faq-explanation').css('display')=="none"){
-      $(this).find('.swell-faq-load-more').text('+');
-    }
-    else{
-      $(this).find('.swell-faq-load-more').text('-');
-    }
-    
-  });
+  if($(this).find('.swell-faq-explanation').css('display')=="none"){
+    $(this).find('.swell-faq-load-more').text('+');
+  }
+  else{
+    $(this).find('.swell-faq-load-more').text('-');
+  }
+  
+});
+})
+  
   
 </script>
 
