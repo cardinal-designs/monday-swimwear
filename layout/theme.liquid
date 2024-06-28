@@ -276,7 +276,8 @@
     {% endcomment %}
     <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
     <script>
-      var klaviyo = klaviyo || [];
+      window.addEventListener('lazy-scripts-loaded', () => {
+        window.klaviyo = klaviyo || [];
       klaviyo.init({
         account: "HxZwzm",
         platform: "shopify"
@@ -309,12 +310,12 @@
           success_text_color: "#1B9500"
         }
       });
+      });
+     
     </script>
     <script
-      async
       type="text/javascript"
       data-lazy-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HxZwzm"
-      defer="defer"
     ></script>
     <script data-lazy-src="https://cdn.attn.tv/mondayswimwear/dtag.js" defer="defer"></script>
     {% render 'preorder-now' %}
