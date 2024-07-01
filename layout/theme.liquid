@@ -176,15 +176,13 @@
     <script src="{{ 'global.js' | asset_url }}" defer="async"></script>
     <script src="{{ 'custom-scripts.js' | asset_url }}" defer="defer"></script>
 
-  
-
     {%- assign content_for_header = content_for_header | replace: "window.addEventListener('load'", "window.addEventListener('load-head-scripts'" -%}
     {{ content_for_header }}
 
     {% if settings.ss_enable %}
       {% render 'ss-script' %}
     {% endif %}
-</head>
+  </head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
     <script>
@@ -218,8 +216,6 @@
       {% else %}
         {% section 'footer' %}
       {% endif %}
-
-      {% section 'legal-popup' %}
 
       <div class="credits">
         <div class="page-width">
