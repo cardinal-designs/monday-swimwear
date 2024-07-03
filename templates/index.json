@@ -12,14 +12,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/sunglasses-main-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/sunglasses-main-mobile.png",
+        "image": "shopify:\/\/shop_images\/champagne-main-desktop-3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/champagne-mob_efc8a646-6496-4a69-856a-e43843c5a02d.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_label": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_link": "shopify:\/\/collections\/champagne-shiny-jersey",
         "overlay_link": true
       }
     },
@@ -49,10 +49,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_3hCPar": {
+        "collection_R4hinJ": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "champagne-shiny-jersey"
           }
         },
         "collection_Qw6CiG": {
@@ -67,18 +67,18 @@
             "collection": "raffia"
           }
         },
-        "collection_R4hinJ": {
+        "collection_3hCPar": {
           "type": "collection",
           "settings": {
-            "collection": "honeydew-summer-plaid"
+            "collection": "beachwear-accessories"
           }
         }
       },
       "block_order": [
-        "collection_3hCPar",
+        "collection_R4hinJ",
         "collection_Qw6CiG",
         "bf612915-d86f-40f2-817f-6322dada207b",
-        "collection_R4hinJ"
+        "collection_3hCPar"
       ],
       "settings": {
       }
@@ -96,8 +96,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lower_24c93e34-4704-488d-9c10-eb8e19992009.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/ibiza-lower-mobile.png",
+        "image": "shopify:\/\/shop_images\/sunglasses-lower-desktop-2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/sunglasses-lower-mob.jpg",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -110,7 +110,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_001cbf95-3732-4b33-87f3-9b349e000906.jpg",
+            "image": "shopify:\/\/shop_images\/3_9842cbeb-27bc-4a87-a5e1-ee180606b8d2.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
