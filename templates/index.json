@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/champagne-main-desktop-3.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/champagne-mob_efc8a646-6496-4a69-856a-e43843c5a02d.png",
+        "image": "shopify:\/\/shop_images\/geo-lynx-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/geo-lynx-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -52,19 +52,19 @@
         "collection_R4hinJ": {
           "type": "collection",
           "settings": {
-            "collection": "champagne-shiny-jersey"
+            "collection": "geo-lynx"
+          }
+        },
+        "bf612915-d86f-40f2-817f-6322dada207b": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
           }
         },
         "collection_Qw6CiG": {
           "type": "collection",
           "settings": {
             "collection": "ivory-boucle"
-          }
-        },
-        "bf612915-d86f-40f2-817f-6322dada207b": {
-          "type": "collection",
-          "settings": {
-            "collection": "raffia"
           }
         },
         "collection_3hCPar": {
@@ -76,8 +76,8 @@
       },
       "block_order": [
         "collection_R4hinJ",
-        "collection_Qw6CiG",
         "bf612915-d86f-40f2-817f-6322dada207b",
+        "collection_Qw6CiG",
         "collection_3hCPar"
       ],
       "settings": {
@@ -96,8 +96,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/sunglasses-lower-desktop-2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/sunglasses-lower-mob.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_6221.png",
+        "mobile_image": "shopify:\/\/shop_images\/clovelly-lower-mobile.jpg",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -110,7 +110,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_001cbf95-3732-4b33-87f3-9b349e000906.jpg",
+            "image": "shopify:\/\/shop_images\/1_19859947-3186-4ac3-9603-9c62c06e9136.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
@@ -119,7 +119,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_67f2cad7-9980-4134-90e9-5282c87ebb70.jpg",
+            "image": "shopify:\/\/shop_images\/2_5b56d5c2-c054-4050-9350-976a1823b398.jpg",
             "text": "New Signature Styles",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-signature-collection-1"
@@ -128,7 +128,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_9842cbeb-27bc-4a87-a5e1-ee180606b8d2.jpg",
+            "image": "shopify:\/\/shop_images\/1_207dd345-4f63-48e0-9d17-12c4fa8d50d8.jpg",
             "text": "Essential Beachwear",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
