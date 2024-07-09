@@ -107,13 +107,13 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_fe072707-8ece-4007-89c9-a54f2388def7.jpg",
-            "text": "New Signature Styles",
+            "image": "shopify:\/\/shop_images\/1_19859947-3186-4ac3-9603-9c62c06e9136.jpg",
+            "text": "The Supportive Collection",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "link": "shopify:\/\/collections\/the-supportive-collection"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -125,20 +125,20 @@
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
         },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_19859947-3186-4ac3-9603-9c62c06e9136.jpg",
-            "text": "The Supportive Collection",
+            "image": "shopify:\/\/shop_images\/2_fe072707-8ece-4007-89c9-a54f2388def7.jpg",
+            "text": "New Signature Styles",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-supportive-collection"
+            "link": "shopify:\/\/collections\/the-signature-collection-1"
           }
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
