@@ -1,11 +1,20 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/MB-web-test2.png",
-        "mobile_image": "shopify:\/\/shop_images\/MB-mob-test2.png",
+        "image": "shopify:\/\/shop_images\/evergreen.png",
+        "mobile_image": "shopify:\/\/shop_images\/evergreen-mobile.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
@@ -95,40 +104,40 @@
       "settings": {
         "title": "",
         "text": "Every body is a Monday Body",
-        "collection": "monday-body"
+        "collection": "monday-body-the-slate-collection"
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
-        "228154d8-da02-4a47-bdfb-eddec1bf3051": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_9c9861c2-cad9-485e-9f83-70fc657eff76.jpg",
-            "title": "Tops",
-            "link": "shopify:\/\/collections\/bras-tops"
-          }
-        },
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_afe5d4d8-43cb-4b20-a739-509e627cea1c.jpg",
+            "image": "shopify:\/\/shop_images\/MB7.jpg",
             "title": "Leggings",
             "link": "shopify:\/\/collections\/monday-body-leggings"
+          }
+        },
+        "228154d8-da02-4a47-bdfb-eddec1bf3051": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MB5.jpg",
+            "title": "Tops",
+            "link": "shopify:\/\/collections\/bras-tops"
           }
         },
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_91a74a5e-caba-4c73-bdc7-c24efac03bbe.jpg",
+            "image": "shopify:\/\/shop_images\/MB6_46e311aa-52cc-41da-9714-a7e49f698143.jpg",
             "title": "Shorts",
             "link": "shopify:\/\/collections\/monday-body-shorts"
           }
         }
       },
       "block_order": [
-        "228154d8-da02-4a47-bdfb-eddec1bf3051",
         "8f087094-f3ad-4736-93d9-157a37f38591",
+        "228154d8-da02-4a47-bdfb-eddec1bf3051",
         "553d10dc-6642-4b1c-815d-95677cea6218"
       ],
       "settings": {
@@ -173,8 +182,7 @@
           "joshua-tree-top-black-rib",
           "acadia-legging-black"
         ],
-        "image": "shopify:\/\/shop_images\/3_ee14a3a0-e2cd-4326-b73f-18669c838471.jpg",
-        "video": "shopify:\/\/files\/videos\/MONDAY-ACTIVE-10-V02.mp4",
+        "image": "shopify:\/\/shop_images\/iRvGVRUQ_1.jpg",
         "image_link": "",
         "text_1": "move in monday",
         "text_2": ""
