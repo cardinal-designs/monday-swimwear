@@ -76,6 +76,7 @@
       "blocks": {
         "5448aae7-83fe-46c0-8efb-f9ff6204a729": {
           "type": "body_card",
+          "disabled": true,
           "settings": {
             "collection": "monday-body",
             "position": 5,
