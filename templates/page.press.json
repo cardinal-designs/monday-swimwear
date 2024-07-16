@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -66,6 +75,26 @@
     "1643047767a53a7c5e": {
       "type": "press-section",
       "blocks": {
+        "block_WaAA3W": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/british-vogue-logo-643142F51E-seeklogo.com_358815e1-581f-4ad7-be63-d655671ccbf7.png",
+            "text": "\"30 Fuller Bust Swimwear Styles Chosen By A Size 32J Fashion Editor\"",
+            "date": "READ MORE",
+            "link": "https:\/\/www.vogue.co.uk\/fashion\/article\/swimwear-for-big-bust"
+          }
+        },
+        "block_EG4DPy": {
+          "type": "block",
+          "settings": {
+            "logo": "",
+            "logo_img": "shopify:\/\/shop_images\/unnamed_099dd749-27d4-4313-abf2-d143a5c63c83.png",
+            "text": "\"For sophisticated simplicity, Monday Swimwear’s mix and match designs are a chic way to tap into the trend.\"",
+            "date": "READ MORE",
+            "link": "https:\/\/www.marieclaire.co.uk\/fashion\/shopping\/matching-swimwear"
+          }
+        },
         "block_qgiyPV": {
           "type": "block",
           "settings": {
@@ -300,6 +329,8 @@
         }
       },
       "block_order": [
+        "block_WaAA3W",
+        "block_EG4DPy",
         "block_qgiyPV",
         "block_ETc4KR",
         "74e2b089-36f3-4356-b19e-311462fc500d",
