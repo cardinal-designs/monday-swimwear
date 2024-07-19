@@ -9,7 +9,8 @@
 
 {% if settings.ss_enable %}
   {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
-  {{ 'component-rating.css' | asset_url | stylesheet_tag }}
+  <link rel="stylesheet" href="{{ 'component-rating.css' | asset_url }}" media="print" onload="this.media='all'" />
+  {% comment %}{{ 'component-rating.css' | asset_url | stylesheet_tag }}{% endcomment %}
   <div id="searchspring-content">
     <div id="searchspring-collection-blocks">
        {% assign paginate_num = 16 %}
