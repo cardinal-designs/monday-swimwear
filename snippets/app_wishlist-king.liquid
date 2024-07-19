@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ 'app_wishlist-king_templates.css' | asset_url }}" />
+{{ 'app_wishlist-king_templates.css' | asset_url | stylesheet_tag: preload: true }}
 
 <style>
   .wk-link {
