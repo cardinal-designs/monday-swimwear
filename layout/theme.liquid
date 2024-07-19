@@ -154,6 +154,22 @@
     <script data-lazy-src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
 
     {% render 'globale-js' %}
+
+    {{ 'jquery.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'outline.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'gsap.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'scroll-trigger.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'headroom.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'lazysizes.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'preloader.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'bootstrap.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'preconnect_resources.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'lazy.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'swiper-bundle.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'zoom.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'global.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'custom-scripts.js' | asset_url | preload_tag: as: 'script' }}
+    
    
     {% comment %} <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> {% endcomment %}
     <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
