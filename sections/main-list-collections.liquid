@@ -1,5 +1,10 @@
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
+<link
+      rel="stylesheet"
+      href="{{ 'component-card.css' | asset_url }}"
+      media="print"
+      onload="this.media='all'" />
+{% comment %}{{ 'component-card.css' | asset_url | stylesheet_tag }}{% endcomment %}
+{% comment %} {{ 'section-collection-list.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
 <div class="page-width">
   <h1 class="title title--primary">{{ section.settings.title | escape }}</h1>
