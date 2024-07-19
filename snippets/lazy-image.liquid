@@ -1,6 +1,4 @@
-{% comment %}
-{%- capture supported_sizes -%}
-  {%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200,1400,1600,1800', image: image -%}{%- endcapture -%}
+{%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200,1400,1600,1800', image: image -%}{%- endcapture -%}
 {%- assign image_url = image | img_url: 'master' -%}
 {%- liquid
   if section.index > 1
@@ -10,15 +8,6 @@
   endif
 -%}
 <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
-  <img class="lazyload{% if blur %} lazyload--blur{% endif %}{% if fade %} lazyload--fade{% endif %}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ image.alt | escape }}" data-media-id="{{ image.id }}" width="auto" height="auto" loading="{{loading}}">
+  <img class="lazyload" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ image.alt | escape }}" data-media-id="{{ image.id }}" width="auto" height="auto" loading="{{loading}}">
 </div>
 
-{% endcomment %}
-
-{%- assign widths = '200,300,400,600,800,900,1000,1200,1400,1600,1800' -%}
-{%- capture image_classes -%}
-  {% unless loading_type == "eager" %} lazyload {% if blur %} lazyload--blur{% endif %}{% if fade %} lazyload--fade{% endif %} {% endunless %}
-{%- endcapture -%}
-<div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
-  {{ image | image_url: width: 1800 | image_tag: preload: true, widths: widths, class: image_classes }}
-</div>
