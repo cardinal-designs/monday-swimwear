@@ -1,10 +1,15 @@
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
-<link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'" />
 {% comment %}{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}{% endcomment %}
-<link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'" />
 {% comment %}{{ 'component-card.css' | asset_url | stylesheet_tag }}{% endcomment %}
-<link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'" />
 {% comment %}{{ 'component-price.css' | asset_url | stylesheet_tag }}{% endcomment %}
+
+
+<link rel="preload" href="{{ 'component-loading-overlay.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}"></noscript>
+<link rel="preload" href="{{ 'component-card.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}"></noscript>
+<link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}"></noscript>
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
 {% if settings.ss_enable %}
