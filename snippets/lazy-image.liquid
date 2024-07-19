@@ -1,4 +1,6 @@
-{%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200,1400,1600,1800', image: image -%}{%- endcapture -%}
+{% comment %}
+{%- capture supported_sizes -%}
+  {%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200,1400,1600,1800', image: image -%}{%- endcapture -%}
 {%- assign image_url = image | img_url: 'master' -%}
 {%- liquid
   if section.index > 1
@@ -11,3 +13,12 @@
   <img class="lazyload{% if blur %} lazyload--blur{% endif %}{% if fade %} lazyload--fade{% endif %}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ image.alt | escape }}" data-media-id="{{ image.id }}" width="auto" height="auto" loading="{{loading}}">
 </div>
 
+{% endcomment %}
+
+{%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+{%- assign widths = '200,300,400,600,800,900,1000,1200,1400,1600,1800' -%}
+{% capture image_classes %}
+  {{ section.settings.image }} background-media-text__icon lazyload
+{% endcapture %}
+
+{{ section.settings.image | image_url: width: 2400 | image_tag: class: image_classes | preload: true }}
