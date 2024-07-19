@@ -1,20 +1,8 @@
-{% comment %}{{ 'component-cart.css' | asset_url | stylesheet_tag }}
-{{ 'component-totals.css' | asset_url | stylesheet_tag }} 
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-discounts.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}{% endcomment %}
-
-<link rel="preload" href="{{ 'component-cart.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-totals.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-discounts.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-loading-overlay.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ 'component-cart.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-totals.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-discounts.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}"></noscript>
-
+{{ 'component-cart.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-totals.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-discounts.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag: preload: true }}
 
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
