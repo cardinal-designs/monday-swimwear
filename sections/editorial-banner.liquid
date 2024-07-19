@@ -1,5 +1,7 @@
 {% comment %}{{ 'section-editorial-banner.css' | asset_url | stylesheet_tag }}{% endcomment %}
-<link rel="stylesheet" href="{{ 'section-editorial-banner.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<link rel="preload" href="{{ 'section-editorial-banner.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'section-editorial-banner.css' | asset_url }}"></noscript>
 
 <div class="editorial-banner">
   <div class="page-width">
