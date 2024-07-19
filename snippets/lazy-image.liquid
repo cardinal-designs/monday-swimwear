@@ -15,10 +15,12 @@
 
 {% endcomment %}
 
-{%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
 {%- assign widths = '200,300,400,600,800,900,1000,1200,1400,1600,1800' -%}
 {% capture image_classes %}
   {{ section.settings.image }} background-media-text__icon lazyload
 {% endcapture %}
 
-{{ section.settings.image | image_url: width: 2400 | image_tag: class: image_classes | preload: true }}
+<div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
+  {{ section.settings.image | image_url: width: 1800 | image_tag: widths: widths, class: image_classes }}
+</div>

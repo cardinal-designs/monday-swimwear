@@ -1,10 +1,17 @@
 
-{{ 'section-featured-collection.css' | asset_url | stylesheet_tag }}
+{% comment %}{{ 'section-featured-collection.css' | asset_url | stylesheet_tag }}
 {{ 'section-product-slider.css' | asset_url | stylesheet_tag }}
-<link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'" />
-{% comment %}{{ 'component-card.css' | asset_url | stylesheet_tag }}{% endcomment %}
-<link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'" />
-{% comment %}{{ 'component-price.css' | asset_url | stylesheet_tag }}{% endcomment %}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}{% endcomment %}
+
+<link rel="preload" href="{{ 'section-featured-collection.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ 'section-product-slider.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ 'component-card.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'section-featured-collection.css' | asset_url }}"></noscript>
+<noscript><link rel="stylesheet" href="{{ 'section-product-slider.css' | asset_url }}"></noscript>
+<noscript><link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}"></noscript>
+<noscript><link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}"></noscript>
 
 {% assign current_collection = collections[section.settings.collection] %}
 
