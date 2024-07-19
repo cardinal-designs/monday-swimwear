@@ -17,5 +17,6 @@
 
 {%- assign widths = '200,300,400,600,800,900,1000,1200,1400,1600,1800' -%}
 <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
-  {{ image | image_url: width: 1800 | image_tag: widths: widths, class: image_classes }}
+  {{ product.featured_image | image_url: width: 1800 | image_tag: preload: true }}
+  {{ image | image_url: width: 1800 | image_tag: widths: widths, class: image_classes, loading: "eager", format: "webp" }}
 </div>
