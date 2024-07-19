@@ -28,5 +28,5 @@
 {% endcapture %}
 
 <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
-  {{ section.settings.image | image_url: width: 1800 | image_tag: widths: widths, class: image_classes }}
+  {{ image | image_url: width: 1800 | image_tag: widths: widths, class: image_classes }}
 </div>
