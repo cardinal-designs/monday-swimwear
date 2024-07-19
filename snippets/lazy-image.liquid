@@ -19,4 +19,6 @@
 <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
   {{ product.featured_image | image_url: width: 1800 | image_tag: preload: true }}
   {{ image | image_url: width: 1800 | image_tag: widths: widths, class: image_classes, loading: "eager", format: "webp" }}
+
+  {{ image | image_url: width: 1800 | image_tag: preload: true, widths: widths, class: image_classes, }}
 </div>
