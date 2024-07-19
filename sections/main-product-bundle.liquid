@@ -5,12 +5,12 @@
 {{ 'component-product-bundle.css' | asset_url | stylesheet_tag }}{% endcomment %}
 
 <link rel="preload" href="{{ 'section-main-product.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}"></noscript>
 <link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}"></noscript>
 <link rel="preload" href="{{ 'component-product-bundle.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ 'component-product-bundle.css' | asset_url }}"></noscript>
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}"></noscript>
+<noscript><link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}"></noscript>
+<noscript><link rel="stylesheet" href="{{ 'component-product-bundle.css' | asset_url }}"></noscript>
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'product-bundle.js' | asset_url }}" defer="defer"></script>
