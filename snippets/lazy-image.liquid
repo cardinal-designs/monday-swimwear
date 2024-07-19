@@ -14,11 +14,17 @@
 </div>
 
 {% endcomment %}
-
+{%- liquid
+  if section.index > 1
+    assign loading = "lazy"
+  else
+    assign loading = "eager"
+  endif
+-%}
 
 {%- assign widths = '200,300,400,600,800,900,1000,1200,1400,1600,1800' -%}
 {% capture image_classes %}
-  {{ section.settings.image }} background-media-text__icon lazyload
+  {% unless loading == "eager" %} lazyload {% if blur %} lazyload--blur{% endif %}{% if fade %} lazyload--fade{% endif %} {% endunless %}
 {% endcapture %}
 
 <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
