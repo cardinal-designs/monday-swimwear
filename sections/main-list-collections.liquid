@@ -1,8 +1,5 @@
-{% comment %}{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-collection-list.css' | asset_url | stylesheet_tag }} {% endcomment %}
-
-<link rel="preload" href="{{ 'component-card.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}"></noscript>
+{{ 'component-card.css' | asset_url | stylesheet_tag: preload: true }}
+{% comment %}{{ 'section-collection-list.css' | asset_url | stylesheet_tag: preload: true }}{% endcomment %}
 
 <div class="page-width">
   <h1 class="title title--primary">{{ section.settings.title | escape }}</h1>
