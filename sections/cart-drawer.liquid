@@ -1,5 +1,7 @@
-<link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'" />
 {% comment %}{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}{% endcomment %}
+
+<link rel="preload" href="{{ 'component-loading-overlay.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}"></noscript>
 
 <cart-drawer>
   <div class="cart-drawer" id="cart-drawer" aria-hidden="true" aria-modal="true" aria-label="Cart Drawer" role="dialog" tabindex="-1">
