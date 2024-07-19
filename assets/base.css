@@ -1389,6 +1389,7 @@ deferred-media {
 
   .announcement-bar__text p {
     font-size: 12px;
+    padding: 0;
   }
 
   .announcement-bar__nav {
