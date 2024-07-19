@@ -169,7 +169,6 @@
     {{ 'zoom.min.js' | asset_url | preload_tag: as: 'script' }}
     {{ 'global.js' | asset_url | preload_tag: as: 'script' }}
     {{ 'custom-scripts.js' | asset_url | preload_tag: as: 'script' }}
-    
    
     {% comment %} <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> {% endcomment %}
     <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
