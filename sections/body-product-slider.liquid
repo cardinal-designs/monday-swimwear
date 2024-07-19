@@ -1,7 +1,8 @@
 {{ 'section-body-product-slider.css' | asset_url | stylesheet_tag }}
 <link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'" />
 {% comment %}{{ 'component-card.css' | asset_url | stylesheet_tag }}{% endcomment %}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'" />
+{% comment %}{{ 'component-price.css' | asset_url | stylesheet_tag }}{% endcomment %}
 
 <div class="body-product-slider">
   <div class="page-width">
