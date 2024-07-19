@@ -1,13 +1,6 @@
-{% comment %}{{ 'section-body-product-grid.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}{% endcomment %}
-
-<link rel="preload" href="{{ 'section-body-product-grid.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-card.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ 'section-body-product-grid.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}"></noscript>
+{{ 'section-body-product-grid.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-card.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
 
 <div class="body-product-grid">
   <div class="page-width">
