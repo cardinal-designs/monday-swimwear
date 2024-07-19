@@ -10,7 +10,7 @@
   {% if section.settings.desktop_video != blank %}
     {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'hero__video hide-mobile' }}
   {% else %}
-    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'hide-mobile' %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'hide-mobile', loading_type: "eager" %}
   {% endif %}
 
   {% if section.settings.mobile_video != blank %}
@@ -18,7 +18,7 @@
   {% elsif section.settings.desktop_video != blank %}
    {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'hero__video hide-desktop' }}
   {% else %}
-    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'hide-desktop' %}
+    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'hide-desktop', loading_type: "eager" %}
   {% endif %}
   
   <div class="page-width">
