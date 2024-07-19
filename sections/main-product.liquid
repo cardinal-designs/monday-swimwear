@@ -3,7 +3,12 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+<link
+      rel="stylesheet"
+      href="{{ 'component-loading-overlay.css' | asset_url }}"
+      media="print"
+      onload="this.media='all'" />
+{% comment %}{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}{% endcomment %}
 {{ 'component-size-chart.css' | asset_url | stylesheet_tag }}
 
 {% assign picker_type = 'button' %}
