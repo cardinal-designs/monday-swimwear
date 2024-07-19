@@ -1,5 +1,5 @@
 
-{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+{{ 'section-hero.css' | asset_url | stylesheet_tag | preload_tag: true }}
 
 <div class="hero hero--{{ section.settings.content_position }} hero--{{ section.settings.text_size }}">
   {% if section.settings.overlay_link %}<a href="{{ section.settings.button_link }}" class="hero-overlay__link">
