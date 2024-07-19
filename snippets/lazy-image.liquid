@@ -15,14 +15,6 @@
 
 {% endcomment %}
 
-{%- liquid
-  if section.index > 1
-    assign loading = "lazy"
-  else
-    assign loading = "eager"
-  endif
--%}
-
 {%- assign widths = '200,300,400,600,800,900,1000,1200,1400,1600,1800' -%}
 {% capture image_classes %}
   {% unless loading_type == "eager" %} lazyload {% if blur %} lazyload--blur{% endif %}{% if fade %} lazyload--fade{% endif %} {% endunless %}
