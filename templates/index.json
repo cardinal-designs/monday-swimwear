@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/geo-lynx-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/geo-lynx-mob.png",
+        "image": "shopify:\/\/shop_images\/cobalt-crinkle-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/cobalt-crinkle-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -52,7 +52,7 @@
         "collection_R4hinJ": {
           "type": "collection",
           "settings": {
-            "collection": "geo-lynx"
+            "collection": "cobalt-crinkle"
           }
         },
         "bf612915-d86f-40f2-817f-6322dada207b": {
@@ -110,10 +110,19 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_fe072707-8ece-4007-89c9-a54f2388def7.jpg",
+            "image": "shopify:\/\/shop_images\/451436157_1178321700043929_5321810729409973187_n.jpg",
             "text": "New Signature Styles",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-signature-collection-1"
+          }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_c6a4ae41-57de-4a50-ac8b-4b3315a1bb58.jpg",
+            "text": "The Supportive Collection",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/the-supportive-collection"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
@@ -124,21 +133,12 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
           }
-        },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_19859947-3186-4ac3-9603-9c62c06e9136.jpg",
-            "text": "The Supportive Collection",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-supportive-collection"
-          }
         }
       },
       "block_order": [
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
