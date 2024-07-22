@@ -51,7 +51,7 @@
 }
 
 .product-card__swatches {
-  margin-left: 0;
+  margin-left: -7px;
   padding-top: 12px;
   display: flex;
   align-items: center;
@@ -59,14 +59,12 @@
 }
 
 .product-card__swatch {
-  padding: 0;
-  margin-right: 7px;
-  margin-bottom: 7px;
+  padding: 5px 7px;
 }
 
 .product-card__swatch-color {
-  height: 22px;
-  width: 22px;
+  height: 10px;
+  width: 10px;
   border: 0.5px solid #00000080;
   border-radius: 100%;
   position: relative;
@@ -76,8 +74,8 @@
 
 .product-card__swatch-color::after {
   content: '';
-  height: 29px;
-  width: 29px;
+  height: 16px;
+  width: 16px;
   border-radius: 100%;
   position: absolute;
   top: 50%;
@@ -193,7 +191,6 @@
   .product-card__swatch {
     padding: 4px;
     display: none;
-    margin-right: 0px;
   }
 
   .product-card__swatch:nth-child(1),
