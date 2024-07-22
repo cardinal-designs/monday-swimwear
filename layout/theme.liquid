@@ -161,10 +161,10 @@
     </script>
     <script data-lazy-src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
 
-    {% render 'globale-js' %}
+    
 
     {% comment %} Preload Render Blocking Resources -- Start {% endcomment %}
-
+    <link rel="preconnect" type="text/css" href="https://crossborder-integration.global-e.com/resources/css/1260/{{localization.country.iso_code}}" as="style">
     <link rel="preconnect" href="https://crossborder-integration.global-e.com" crossorigin>
     {{ 'preconnect_resources.js' | asset_url | preload_tag: as: "script" }}
     {{ 'component-collection-filters.css' | asset_url | preload_tag: as: "style" }}
@@ -176,9 +176,10 @@
     {{ 'section-footer.css' | asset_url | preload_tag: as: "style" }}
     {{ 'aplha.js' | asset_url | preload_tag: as: "script" }}
     {{ 'component-loading-overlay.css' | shopify_asset_url | preload_tag: as: "style" }}
-
     {% comment %} Preload Render Blocking Resources -- End {% endcomment %}
-   
+    
+    {% render 'globale-js' %}
+    
     <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'gsap.min.js' | asset_url }}" defer="async"></script>
