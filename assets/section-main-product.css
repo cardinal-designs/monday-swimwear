@@ -270,7 +270,7 @@ klarna-placement p {
 /* Product swatches */
 .product__swatches {
   position: relative;
-  margin: 0 0 20px 0;
+  margin: 0 0 20px -10px;
   padding-bottom: 20px;
   border-bottom: 1px solid #F8F7F4;
   display: flex;
@@ -289,7 +289,7 @@ klarna-placement p {
 }
 
 .product__swatch {
-  margin: 7px 20px 7px 0;
+  margin: 7px 10px;
 }
 
 .product__swatch-color {
@@ -322,10 +322,6 @@ klarna-placement p {
 
 .product__active-color {
   margin: 0 0 0 10px;
-}
-
-.product-card__swatches.nosto-swatches {
-  margin: 0 0 0 -8px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -933,22 +929,4 @@ variant-radios fieldset {
 .size-chart__tab:hover:before,
 .size-chart__tab:hover:after {
   border-color: black !important;
-}
-
-#productpage-nosto-above-irl-dynamic .product-card__swatch-color {
-  height: 22px !important;
-  width: 22px !important;
-}
-
-@media only screen and (max-width: 768px) {
-  #productpage-nosto-above-irl-dynamic .product-card__swatch-color {
-    height: 13px !important;
-    width: 13px !important;
-  }
-  #productpage-nosto-above-irl-dynamic .nosto-swatch {
-    padding: 5px 4px !important;
-  }
-  .product-card__swatches.nosto-swatches {
-    margin: 0 0 0 -4px;
-  }
 }
