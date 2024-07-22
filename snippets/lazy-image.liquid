@@ -12,8 +12,5 @@
 <link {% if loading == "eager" %} fetchpriority="high" {% endif %} rel="preload" href="{{ image_url }}" as="image" imagesrcset="{{ image_url | img_url: '200' }} 200w, {{ image_url | img_url: '300' }} 300w, {{ image_url | img_url: '400' }} 400w, {{ image_url | img_url: '600' }} 600w, {{ image_url | img_url: '800' }} 800w, {{ image_url | img_url: '900' }} 900w, {{ image_url | img_url: '1000' }} 1000w, {{ image_url | img_url: '1200' }} 1200w, {{ image_url | img_url: '1400' }} 1400w, {{ image_url | img_url: '1600' }} 1600w, {{ image_url | img_url: '1800' }} 1800w" imagesizes="auto">
 
 <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
-
-  {{ image | image_url: width: 1800 | image_tag: widths: '200,300,400,600,800,900,1000,1200,1400,1600,1800' }}
-  
-  
+  {{ image | image_url: width: 1800 | image_tag: widths: '200,300,400,600,800,900,1000,1200,1400,1600,1800', loading: loading }}
 </div>
