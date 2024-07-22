@@ -938,8 +938,8 @@ variant-radios fieldset {
 
 @media only screen and (max-width: 768px) {
   #productpage-nosto-above-irl-dynamic .product-card__swatch-color {
-    height: 14px !important;
-    width: 14px !important;
+    height: 13px !important;
+    width: 13px !important;
   }
   #productpage-nosto-above-irl-dynamic .nosto-swatch {
     padding: 5px 4px !important;
