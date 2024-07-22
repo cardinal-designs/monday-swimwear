@@ -940,5 +940,8 @@ variant-radios fieldset {
   #productpage-nosto-above-irl-dynamic .product-card__swatch-color {
     height: 14px !important;
     width: 14px !important;
+    }
+  #productpage-nosto-above-irl-dynamic .nosto-swatch {
+    padding: 5px 4px !important;
   }
 }
