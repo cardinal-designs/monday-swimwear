@@ -164,9 +164,9 @@
     {% render 'globale-js' %}
 
     {{ 'preconnect_resources.js' | asset_url | preload_tag: as: "script" }}
-    {{ 'component-collection-filters.css' | asset_url | preload_tag: as: "style" , onload="this.onload=null;this.rel='stylesheet'"}}
-    {{ 'section-hero.css' | asset_url | preload_tag: as: "style", onload="this.onload=null;this.rel='stylesheet'" }}
-    {{ 'app_wishlist-king_templates.css' | asset_url | preload_tag: as: "style", onload="this.onload=null;this.rel='stylesheet'" }}
+    {{ 'component-collection-filters.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'section-hero.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'app_wishlist-king_templates.css' | asset_url | preload_tag: as: "style" }}
    
     <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
