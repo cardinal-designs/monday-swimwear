@@ -17,7 +17,7 @@
   {% elsif section.settings.desktop_video != blank %}
    {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'hero__video hide-desktop' }}
   {% else %}
-    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'hide-desktop', loading_type: "eager" %}
+    {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'hide-desktop', loading_type: "no-lazy" %}
   {% endif %}
   
   <div class="page-width">
