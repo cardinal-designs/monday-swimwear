@@ -1,7 +1,7 @@
 {% if settings.ss_enable %}
   <div id="searchspring-toolbar"></div>
 {% else %}
-  {{ 'component-collection-filters.css' | asset_url | stylesheet_tag }}
+  {{ 'component-collection-filters.css' | asset_url | stylesheet_tag: preload: true  }}
   <script src="{{ 'collection-filters.js' | asset_url }}" defer="defer"></script>
   
   {% assign active_tags = '' %}
