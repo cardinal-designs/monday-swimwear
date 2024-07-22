@@ -1,5 +1,5 @@
 {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200,1400,1600,1800', image: image -%}{%- endcapture -%}
-{%- assign image_url = image | img_url: 'master' -%}
+{%- assign image_url = image | img_url: 'grande' -%}
 {%- liquid
   if section.index > 1
     assign loading = "lazy"
