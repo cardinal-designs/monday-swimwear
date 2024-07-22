@@ -935,3 +935,10 @@ variant-radios fieldset {
   height: 22px;
   width: 22px;
 }
+
+@media only screen and (max-width: 768px) {
+  #productpage-nosto-above-irl-dynamic .product-card__swatch-color {
+    height: 14px;
+    width: 14px;
+  }
+}
