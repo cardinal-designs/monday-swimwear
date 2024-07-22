@@ -930,3 +930,8 @@ variant-radios fieldset {
 .size-chart__tab:hover:after {
   border-color: black !important;
 }
+
+#productpage-nosto-above-irl-dynamic .product-card__swatch-color {
+  height: 22px;
+  width: 22px;
+}
