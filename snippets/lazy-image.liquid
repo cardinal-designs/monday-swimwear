@@ -13,7 +13,7 @@
   </div>
 {% else %}
 
-  {{ image | image_url: width: 600 | image_tag: preload: true }}
+  {{ image | image_url: width: 600 | preload_tag: as: 'image' }}
 
   <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
     <img class="" src="{{ image | image_url: width: 600 }}" loading="eager">
