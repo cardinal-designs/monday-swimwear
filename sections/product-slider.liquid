@@ -1,13 +1,6 @@
-{% comment %}{{ 'section-product-slider.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}{% endcomment %}
-
-<link rel="preload" href="{{ 'section-product-slider.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-card.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ 'section-product-slider.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}"></noscript>
-<noscript><link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}"></noscript>
+{{ 'section-product-slider.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-card.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
 
 <div class="product-slider">
   <div class="page-width">
@@ -22,10 +15,10 @@
         {% for block in section.blocks %}
           {% assign current_collection = collections[block.settings.collection] %}
           <div class="product-slider__arrows-wrapper{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
-            <button id="collection--{{ current_collection.handle }}-arrow-left" class="swiper-button swiper-button-prev">
+            <button id="collection--{{ current_collection.handle }}-arrow-left" class="swiper-button swiper-button-prev" aria-label="swiper button left">
               {% render 'icon-arrow-left' %}
             </button>
-            <button id="collection--{{ current_collection.handle }}-arrow-right" class="swiper-button swiper-button-next">
+            <button id="collection--{{ current_collection.handle }}-arrow-right" class="swiper-button swiper-button-next" aria-label="swiper button right">
               {% render 'icon-arrow-right' %}
             </button>
           </div>
