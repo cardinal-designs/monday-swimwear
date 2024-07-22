@@ -12,11 +12,9 @@
     <img class="lazyload{% if blur %} lazyload--blur{% endif %}{% if fade %} lazyload--fade{% endif %}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ image.alt | escape }}" data-media-id="{{ image.id }}" width="auto" height="auto" loading="{{loading}}">
   </div>
 {% else %}
-
-  {{ image | image_url: width: 600 | preload_tag: as: 'image' }}
-
   <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
-    <img class="" src="{{ image | image_url: width: 600 }}" loading="eager">
+    {{ image | image_url: width: 1800 | preload_tag: as: 'image' }}
+    {{ image | image_url: width: 1800 | image_tag: loading: "eager" }}
   </div>
   
 {% endif %}
