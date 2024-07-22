@@ -141,12 +141,12 @@
 
     
 
-    {{ 'jquery.min.js' asset_url | preload_tag: as: 'script' }}
-    {{ 'outline.js' asset_url | preload_tag: as: 'script' }}
-    {{ 'gsap.min.js' asset_url | preload_tag: as: 'script' }}
-    {{ 'scroll-trigger.min.js' asset_url | preload_tag: as: 'script' }}
-    {{ 'headroom.min.js' asset_url | preload_tag: as: 'script' }}
-    {{ 'lazysizes.min.js' asset_url | preload_tag: as: 'script' }}    
+    {{ 'jquery.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'outline.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'gsap.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'scroll-trigger.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'headroom.min.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'lazysizes.min.js' | asset_url | preload_tag: as: 'script' }}    
     
     {{ 'preloader.js' | asset_url | preload_tag: as: 'script' }}
     {{ 'bootstrap.js' | asset_url | preload_tag: as: 'script' }}
