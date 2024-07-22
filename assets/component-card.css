@@ -76,8 +76,8 @@
 
 .product-card__swatch-color::after {
   content: '';
-  height: 22px;
-  width: 22px;
+  height: 29px;
+  width: 29px;
   border-radius: 100%;
   position: absolute;
   top: 50%;
