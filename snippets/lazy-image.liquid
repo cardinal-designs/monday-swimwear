@@ -1,5 +1,3 @@
-{{ loading_type | json }}
-
 {% if loading_type != "no-lazy" %}
   {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200,1400,1600,1800', image: image -%}{%- endcapture -%}
   {%- assign image_url = image | img_url: 'master' -%}
