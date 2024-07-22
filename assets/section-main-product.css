@@ -305,8 +305,8 @@ klarna-placement p {
 
 .product__swatch-color::after {
   content: '';
-  height: 43px;
-  width: 43px;
+  height: 30px;
+  width: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
