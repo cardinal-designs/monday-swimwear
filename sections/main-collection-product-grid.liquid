@@ -1,12 +1,12 @@
-{{ 'template-collection.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+{{ 'template-collection.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-card.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag: preload: true }}
 
 {% if settings.ss_enable %}
-  {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
-  {{ 'component-rating.css' | asset_url | stylesheet_tag }}
+  {{ 'component-pagination.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'component-rating.css' | asset_url | stylesheet_tag: preload: true }}
   <div id="searchspring-content">
     <div id="searchspring-collection-blocks">
        {% assign paginate_num = 16 %}

@@ -1,10 +1,10 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
-{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-rte.css' | asset_url | stylesheet_tag }}
-{{ 'component-rating.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{{ 'component-size-chart.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-product.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-rte.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-rating.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-size-chart.css' | asset_url | stylesheet_tag: preload: true }}
 
 {% assign picker_type = 'button' %}
 

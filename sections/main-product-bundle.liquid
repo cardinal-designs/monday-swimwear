@@ -1,8 +1,8 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
-{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-pdp-size-chart.css' | asset_url | stylesheet_tag }}
-{{ 'component-product-bundle.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-product.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{% comment %}{{ 'component-pdp-size-chart.css' | asset_url | stylesheet_tag: preload: true }}{% endcomment %}
+{{ 'component-product-bundle.css' | asset_url | stylesheet_tag: preload: true }}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 

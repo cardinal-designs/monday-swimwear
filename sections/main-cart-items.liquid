@@ -1,8 +1,8 @@
-{{ 'component-cart.css' | asset_url | stylesheet_tag }}
-{{ 'component-totals.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-discounts.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-cart.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-totals.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-discounts.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag: preload: true }}
 
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 

@@ -29,14 +29,6 @@
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
     {%- endif -%}
 
-    {% comment %} <img
-      alt="LCP"
-      width="99999"
-      height="99999"
-      style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"
-      src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+"
-    > {% endcomment %}
-
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
@@ -161,9 +153,25 @@
     </script>
     <script data-lazy-src="https://cdn-widgetsrepository.yotpo.com/v1/loader/-5gOz8RpODzYo99FGIpnAQ" async></script>
 
+    {% comment %} Preload Render Blocking Resources -- Start {% endcomment %}
+    <link rel="preconnect" type="text/css" href="https://crossborder-integration.global-e.com/resources/css/1260/{{localization.country.iso_code}}" as="style">
+    <link rel="preconnect" href="https://crossborder-integration.global-e.com" crossorigin>
+    {{ 'preconnect_resources.js' | asset_url | preload_tag: as: "script" }}
+    {{ 'component-collection-filters.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'section-hero.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'preloader.js' | asset_url | preload_tag: as: "script" }}
+    {{ 'lazy.js' | asset_url | preload_tag: as: "script" }}
+    {{ 'component-cart-drawer.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'section-link-blocks.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'section-footer.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'aplha.js' | asset_url | preload_tag: as: "script" }}
+    {{ 'component-loading-overlay.css' | shopify_asset_url | preload_tag: as: "style" }}
+    {{ 'app_wishlist-king_templates.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'bootstrap.js' | asset_url | preload_tag: as: "script" }}
+    {% comment %} Preload Render Blocking Resources -- End {% endcomment %}
+    
     {% render 'globale-js' %}
-   
-    {% comment %} <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> {% endcomment %}
+    
     <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'gsap.min.js' | asset_url }}" defer="async"></script>
@@ -176,6 +184,7 @@
     <script src="{{ 'global.js' | asset_url }}" defer="async"></script>
     <script src="{{ 'custom-scripts.js' | asset_url }}" defer="defer"></script>
 
+
     {%- assign content_for_header = content_for_header | replace: "window.addEventListener('load'", "window.addEventListener('load-head-scripts'" -%}
     {{ content_for_header }}
 
@@ -185,6 +194,14 @@
   </head>
 
   <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
+    <img
+      alt="LCP"
+      width="99999"
+      height="99999"
+      style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"
+      src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+"
+    >
+
     <script>
       window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} {% if product.first_available_variant.price %}window.KlarnaThemeGlobals.data_purchase_amount = {{ product.first_available_variant.price }};{% endif %}window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}
     </script>
