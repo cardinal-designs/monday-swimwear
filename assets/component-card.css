@@ -59,7 +59,8 @@
 }
 
 .product-card__swatch {
-  padding: 5px 7px;
+  padding: 5px 0;
+  margin-right: 7px;
 }
 
 .product-card__swatch-color {
