@@ -193,7 +193,7 @@
   .product-card__swatch {
     padding: 4px;
     display: none;
-    margin-right: 3px;
+    margin-right: 0px;
   }
 
   .product-card__swatch:nth-child(1),
