@@ -305,8 +305,8 @@ klarna-placement p {
 
 .product__swatch-color::after {
   content: '';
-  height: 30px;
-  width: 30px;
+  height: 43px;
+  width: 43px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -322,6 +322,10 @@ klarna-placement p {
 
 .product__active-color {
   margin: 0 0 0 10px;
+}
+
+.product-card__swatches.nosto-swatches {
+  margin: 0 0 0 -8px;
 }
 
 @media only screen and (max-width: 768px) {
