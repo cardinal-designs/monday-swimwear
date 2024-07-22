@@ -166,7 +166,6 @@
     {% comment %} Preload Render Blocking Resources -- Start {% endcomment %}
 
     <link rel="preconnect" href="https://crossborder-integration.global-e.com" crossorigin>
-    
     {{ 'preconnect_resources.js' | asset_url | preload_tag: as: "script" }}
     {{ 'component-collection-filters.css' | asset_url | preload_tag: as: "style" }}
     {{ 'section-hero.css' | asset_url | preload_tag: as: "style" }}
