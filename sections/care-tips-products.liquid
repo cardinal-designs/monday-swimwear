@@ -1,6 +1,6 @@
-{{ 'section-product-slider.css' | asset_url | stylesheet_tag: preload: true }}
-{{ 'component-card.css' | asset_url | stylesheet_tag: preload: true }}
-{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'section-product-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 {% assign current_collection = collections[section.settings.collection] %}
 
