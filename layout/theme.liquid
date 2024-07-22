@@ -160,10 +160,12 @@
     {{ 'custom-scripts.js' | asset_url | preload_tag: as: 'script' }}
     
     <link rel="stylesheet" href="{{ 'swiper-bundle.min.css' | asset_url }}" media="print" onload="this.media='all'" />
+    {{ 'base.css' | asset_url | stylesheet_tag: preload: true }}
+    
     <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
     {% if monday_body %}
       <link rel="stylesheet" data-lazy-href="https://use.typekit.net/etr7yuj.css">
-      <link rel="preload" href="{{ 'monday-body-base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      {{ 'monday-body-base.css' | asset_url | stylesheet_tag: preload: true }}
       <noscript><link rel="stylesheet" href="{{ 'monday-body-base.css' | asset_url }}"></noscript>
     {% endif %}
   
