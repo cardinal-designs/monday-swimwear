@@ -166,7 +166,10 @@
     {{ 'preconnect_resources.js' | asset_url | preload_tag: as: "script" }}
     {{ 'component-collection-filters.css' | asset_url | preload_tag: as: "style" }}
     {{ 'section-hero.css' | asset_url | preload_tag: as: "style" }}
-    {{ 'app_wishlist-king_templates.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'preloader.js' | asset_url | preload_tag: as: "script" }}
+    {{ 'lazy.js' | asset_url | preload_tag: as: "script" }}
+    {{ 'component-cart-drawer.css' | asset_url | preload_tag: as: "style" }}
+    {{ 'section-link-blocks.css' | asset_url | preload_tag: as: "style" }}
    
     <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'outline.js' | asset_url }}" defer="defer"></script>
