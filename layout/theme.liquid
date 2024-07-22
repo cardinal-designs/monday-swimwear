@@ -174,7 +174,7 @@
     {{ 'section-footer.css' | asset_url | preload_tag: as: "style" }}
     {{ 'aplha.js' | asset_url | preload_tag: as: "script" }}
     {{ 'component-loading-overlay.css' | shopify_asset_url | preload_tag: as: "style" }}
-    {{ 'app_wishlist-king_templates.css' | shopify_asset_url | preload_tag: as: "style" }}
+    {{ 'app_wishlist-king_templates.css' | asset_url | preload_tag: as: "style" }}
     {% comment %} Preload Render Blocking Resources -- End {% endcomment %}
     
     {% render 'globale-js' %}
