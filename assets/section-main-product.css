@@ -270,7 +270,7 @@ klarna-placement p {
 /* Product swatches */
 .product__swatches {
   position: relative;
-  margin: 0 0 20px -10px;
+  margin: 0 0 20px 0;
   padding-bottom: 20px;
   border-bottom: 1px solid #F8F7F4;
   display: flex;
@@ -289,7 +289,7 @@ klarna-placement p {
 }
 
 .product__swatch {
-  margin: 7px 10px;
+  margin: 7px 20px 7px 0;
 }
 
 .product__swatch-color {
