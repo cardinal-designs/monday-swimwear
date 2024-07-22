@@ -14,7 +14,7 @@
 {% else %}
 
   <div class="aspect-ratio {{ classes }}" style="max-width: 100%; width: 100%; --aspect-ratio: {{ image.aspect_ratio }}">
-    <img class="" src="{{ image | img_url: 'master' }}">
+    <img class="" src="{{ image | img_url: 'master' }}" loading="eager">
   </div>
   
 {% endif %}
