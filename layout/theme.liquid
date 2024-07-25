@@ -1,7 +1,3 @@
-{%- comment %}<locksmith:5a44>{% endcomment -%}
-  {%- include 'locksmith' -%}
-{%- comment %}</locksmith:5a44>{% endcomment -%}
-
 {% assign monday_body = false %}
 {% if page.handle != blank %}
   {% if page.metafields.custom.monday_body == true %}
@@ -20,7 +16,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    {{ locksmith_initializations }}
     {% include 'shop-sheriff-amp' %}
     {% include 'kiwiSizing' %}
     <meta charset="utf-8">
@@ -42,10 +37,7 @@
     </title>
 
     {% if page_description %}
-      {%- comment %}<locksmith:4ee5>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
-        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-      {%- comment %}</locksmith:4ee5>{% endcomment -%}
+      <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
     {% render 'meta-tags' %}
