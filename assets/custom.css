@@ -1,8 +1,12 @@
+.locksmith-passcode-container {
+  height: 34vh;
+}
+
 .locksmith-passcode-container .locksmith-resource-form {
   text-align: center;
   margin-top: 80px;
 }
-
+ 
 .locksmith-resource-form  label {
   font-family: ABC Favorit, sans-serif;
   font-style: normal;
