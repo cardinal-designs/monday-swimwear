@@ -442,11 +442,5 @@
       "send_to_customer_service": "Send to customer service",
       "add_all_to_cart": "Add wishlist to cart"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }
