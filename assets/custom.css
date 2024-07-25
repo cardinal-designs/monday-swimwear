@@ -2,3 +2,12 @@
   text-align: center;
   margin-top: 80px;
 }
+
+.locksmith-resource-form  label {
+  font-family: ABC Favorit, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: .1em;
+}
