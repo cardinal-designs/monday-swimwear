@@ -7,13 +7,17 @@
   margin-top: 80px;
 }
  
-.locksmith-resource-form  label {
+.locksmith-resource-form label {
   font-family: ABC Favorit, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 1;
   letter-spacing: normal;
+}
+
+.locksmith-resource-form input:focus-visible {
+  outline: 0;
 }
 
 .locksmith-resource-form button {
