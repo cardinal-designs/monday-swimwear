@@ -155,6 +155,8 @@
       <link rel="preload" href="{{ 'monday-body-base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <noscript><link rel="stylesheet" href="{{ 'monday-body-base.css' | asset_url }}"></noscript>
     {% endif %}
+
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
   
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
