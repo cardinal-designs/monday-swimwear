@@ -1,6 +1,11 @@
+{%- comment %}<locksmith:b13b>{% endcomment -%}
+  {%- include 'locksmith' -%}
+{%- comment %}</locksmith:b13b>{% endcomment -%}
+
 <!doctype html>  
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    {{ locksmith_initializations }}
     {% include 'shop-sheriff-amp' %}
     {% include 'kiwiSizing' %}
     <meta charset="utf-8">
@@ -22,7 +27,10 @@
     </title>
 
     {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+      {%- comment %}<locksmith:a268>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
+        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
+      {%- comment %}</locksmith:a268>{% endcomment -%}
     {% endif %}
 
     {% render 'meta-tags' %}

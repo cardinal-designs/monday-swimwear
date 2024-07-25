@@ -23,7 +23,10 @@
     </title>
 
     {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+      {%- comment %}<locksmith:12e1>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
+        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
+      {%- comment %}</locksmith:12e1>{% endcomment -%}
     {% endif %}
 
     {% render 'meta-tags' %}
@@ -163,4 +166,3 @@
 
 </body>
 </html>
-
