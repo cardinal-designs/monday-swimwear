@@ -108,12 +108,6 @@
               "product": "es-vedra-sunglasses-black"
             }
           },
-          "upsell_ctGPrP": {
-            "type": "upsell",
-            "settings": {
-              "product": "clovelly-one-piece-black"
-            }
-          },
           "179ec68a-9604-4dfe-9a08-c0e685271c72": {
             "type": "upsell",
             "settings": {
@@ -124,6 +118,12 @@
             "type": "upsell",
             "settings": {
               "product": "exuma-hat"
+            }
+          },
+          "upsell_ctGPrP": {
+            "type": "upsell",
+            "settings": {
+              "product": "clovelly-one-piece-black"
             }
           },
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
@@ -141,15 +141,15 @@
           "ce35da39-8666-4078-8a2b-f96324678747": {
             "type": "upsell",
             "settings": {
-              "product": "south-beach-sarong-black-crinkle"
+              "product": "almafi-sarong-black"
             }
           }
         },
         "block_order": [
           "upsell_EkzeFE",
-          "upsell_ctGPrP",
           "179ec68a-9604-4dfe-9a08-c0e685271c72",
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
+          "upsell_ctGPrP",
           "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
           "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776",
           "ce35da39-8666-4078-8a2b-f96324678747"
