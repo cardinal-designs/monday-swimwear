@@ -260,6 +260,23 @@
     {% endif %}
 
     {% if template != 'cart' %}
+      {%- if shop.customer_accounts_enabled -%}
+        <a
+          href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
+          class="header__icon header__icon--account"
+        >
+          {% render 'icon-account' %}
+          <span class="visually-hidden">
+            {%- liquid
+              if customer
+                echo 'customer.account_fallback' | t
+              else
+                echo 'customer.log_in' | t
+              endif
+            -%}
+          </span>
+        </a>
+      {%- endif -%}
       <button class="js-open-cart header__icon header__icon--cart" id="cart-icon-bubble-header" aria-label="Open Cart Drawer">
         {% render 'icon-cart' %}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
