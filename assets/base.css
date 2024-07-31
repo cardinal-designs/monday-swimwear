@@ -104,6 +104,11 @@ html {
   display: none;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
 .list-unstyled {
   margin: 0;
   padding: 0;
