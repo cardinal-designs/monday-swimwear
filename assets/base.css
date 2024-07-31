@@ -105,8 +105,9 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
 }
 
 .list-unstyled {
