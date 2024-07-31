@@ -1691,7 +1691,7 @@ deferred-media {
 }
 
 .header .header__icon--cart,
-.header .wk-link {
+.header .wk-link, .header .icon-account  {
   display: none;
 }
 
@@ -1703,6 +1703,10 @@ deferred-media {
   }
 
   .header .header__icon--cart {
+    display: block;
+  }
+
+  .header .icon-account {
     display: block;
   }
 
