@@ -12,14 +12,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/cobalt-crinkle-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/cobalt-crinkle-mob.png",
+        "image": "shopify:\/\/shop_images\/signature-main-desktop1.png",
+        "mobile_image": "shopify:\/\/shop_images\/signature-main-mob.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_label": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/new-arrivals",
+        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
         "overlay_link": true
       }
     },
@@ -49,16 +49,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_R4hinJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "cobalt-crinkle"
-          }
-        },
         "bf612915-d86f-40f2-817f-6322dada207b": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "sarong"
+          }
+        },
+        "collection_3hCPar": {
+          "type": "collection",
+          "settings": {
+            "collection": "beachwear-accessories"
           }
         },
         "collection_Qw6CiG": {
@@ -67,18 +67,18 @@
             "collection": "ivory-boucle"
           }
         },
-        "collection_3hCPar": {
+        "collection_R4hinJ": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "cobalt-crinkle"
           }
         }
       },
       "block_order": [
-        "collection_R4hinJ",
         "bf612915-d86f-40f2-817f-6322dada207b",
+        "collection_3hCPar",
         "collection_Qw6CiG",
-        "collection_3hCPar"
+        "collection_R4hinJ"
       ],
       "settings": {
       }
