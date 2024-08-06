@@ -162,6 +162,10 @@ details[open] .modal-overlay::after {
   height: 25px;
 }
 
+#Search::-webkit-search-cancel-button {
+  display: none;
+}
+
 @keyframes animateMenuOpen {
   0% {
     opacity: 0;
