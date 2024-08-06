@@ -8,6 +8,14 @@
   {% render 'header-search', input_id: 'My-Id'%}
 {% endcomment %}
 
+<script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+ <link
+  rel="stylesheet"
+  href="{{ 'component-predictive-search.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+>
+
 <details-modal class="header__search">
   <details>
     <summary
@@ -76,13 +84,11 @@
               </button>
             </div>
   
-            {%- if settings.predictive_search_enabled -%}
-              <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
-                {%- render 'loading-spinner', class: 'predictive-search__loading-state' -%}
-              </div>
-  
-              <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
-            {%- endif -%}
+            <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+              {%- render 'loading-spinner', class: 'predictive-search__loading-state' -%}
+            </div>
+
+            <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
           </form>
         </predictive-search>
         <button
