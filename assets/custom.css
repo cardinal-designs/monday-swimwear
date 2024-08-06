@@ -129,7 +129,7 @@ details[open] .modal-overlay::after {
   background-color: transparent;
 }
 
-.search-modal__close-button .icon {
+.search-modal .icon {
   width: 1.7rem;
   height: 1.7rem;
 }
