@@ -108,6 +108,7 @@ details[open] .modal-overlay::after {
 .search-modal__form {
   width: 100%;
   position: relative;
+  display: inline-block;
 }
 
 .search-modal__close-button {
