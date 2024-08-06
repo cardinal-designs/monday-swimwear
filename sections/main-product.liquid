@@ -258,7 +258,13 @@
           <div class="size-note">
             <p class="detail">{{ product.metafields.pdp_extras.size_note | newline_to_br }}</p>
           </div>
-	      {% endif %}		
+	      {% endif %}
+
+          {% if product.metafields.custom.restock_note != blank %}
+          <div class="size-note">
+            <p class="detail">{{ product.metafields.custom.restock_note }}</p>
+          </div>
+	      {% endif %}
 
           <button class="product__size-chart js-open-chart sh5">Size Chart +</button>
           
