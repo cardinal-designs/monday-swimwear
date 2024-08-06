@@ -29,7 +29,7 @@
         tabindex="-1"
       >
         <predictive-search class="search-modal__form">
-          <form action="/collections/shop" method="get" role="search">
+          <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search">
             <input
               id="Search"
               type="search"
@@ -42,6 +42,7 @@
               aria-haspopup="listbox"
               aria-autocomplete="list"
               placeholder="Search"
+              isp_ignore
             >
             <input name="options[prefix]" type="hidden" value="last">
             <button class="search__button" aria-label="{{ 'general.search.search' | t }}">
