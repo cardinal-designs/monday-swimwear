@@ -34,7 +34,7 @@
   margin-top: 10px;
 }
 
-/* ======================== Mobile search css ========================= */
+/* ======================== Mobile search css start ========================= */
 
 .mobile__wrap {
   display: flex;
@@ -153,7 +153,7 @@ details[open] .modal-overlay::after {
   padding: 0;
 }
 
-.predictive-search-products li > a{
+.predictive-search-products li > a {
   display: flex;
   align-items: center;
 }
@@ -205,3 +205,5 @@ details[open] .modal-overlay::after {
   }
   
 }
+
+/* ======================== Mobile search css end ========================= */
