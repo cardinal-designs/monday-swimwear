@@ -157,7 +157,7 @@ details[open] .modal-overlay::after {
 
 @media screen and (min-width: 1150px) {
   
-  .mobile__search {
+  .mobile__wrap {
     display: none;
   }
   
