@@ -105,14 +105,6 @@ details[open] .modal-overlay::after {
   position: relative;
 }
 
-.search-modal__content-bottom {
-  bottom: calc((0 / 2));
-}
-
-.search-modal__content-top {
-  top: calc((0 / 2));
-}
-
 .search-modal__form {
   width: 100%;
   position: relative;
