@@ -29,7 +29,6 @@ class PredictiveSearch extends HTMLElement {
     }
 
     this.getSearchResults(searchTerm);
-    this.toggleResetButton();
   }
 
   getSearchResults(searchTerm) {
