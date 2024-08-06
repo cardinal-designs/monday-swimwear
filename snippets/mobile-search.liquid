@@ -26,7 +26,7 @@
         class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}"
         tabindex="-1"
       >
-        <predictive-search>
+        <predictive-search class="search-modal__form">
           <form action="{{ routes.search_url }}" method="get" role="search">
             <label for="Search">Search</label>
             <input
