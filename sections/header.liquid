@@ -9,7 +9,7 @@
 <header class="header header--{{ section.settings.logo_position }} page-width">
 
   <div class="mobile__search">
-    
+    {% render 'mobile-search', input_id: 'Search-In-Modal' %}
   </div>
 
   {%- if section.settings.menu != blank -%}
