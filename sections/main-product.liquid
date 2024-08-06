@@ -372,13 +372,14 @@
           
                 
         </product-form>
-                <!-- Placement v2 -->
-          <klarna-placement
-            data-key="credit-promotion-badge"
-            data-locale="en-US"
-            data-purchase-amount=""
-          ></klarna-placement>
-          <!-- end Placement -->
+        
+        <!-- Placement v2 -->
+        <klarna-placement
+          data-key="credit-promotion-badge"
+          data-locale="en-US"
+          data-purchase-amount=""
+        ></klarna-placement>
+        <!-- end Placement -->
 
         {% if product.metafields.my_fields.shipping_notice != blank %}
           <p class="product__shipping-notice detail">{{ product.metafields.my_fields.shipping_notice }}</p>
