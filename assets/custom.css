@@ -102,6 +102,7 @@ details[open] .modal-overlay::after {
   height: 100%;
   padding: 0 50px 20px 20px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .search-modal__form {
