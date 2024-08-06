@@ -154,6 +154,8 @@ details[open] .modal-overlay::after {
   line-height: 150%;
   background: #f2f0e8 !important;
   outline: none;
+  display: inline-block;
+  padding: 10px;
 }
 
 .search-modal__form .search__button {
