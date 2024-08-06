@@ -1700,6 +1700,7 @@ deferred-media {
     padding: 5px;
     height: unset;
     width: unset;
+    margin: 0 5px;
   }
 
   .header .header__icon--cart {
