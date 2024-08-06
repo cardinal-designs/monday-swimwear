@@ -129,7 +129,7 @@ details[open] .modal-overlay::after {
   background-color: transparent;
 }
 
-.search-modal__close-button .icon{
+.search-modal__close-button .icon {
   width: 1.7rem;
   height: 1.7rem;
 }
@@ -152,6 +152,13 @@ details[open] .modal-overlay::after {
   letter-spacing: .02em;
   line-height: 150%;
   background: #f2f0e8 !important;
+}
+
+.search-modal__form .search__button {
+  position: absolute;
+  right: 0;
+  width: 25px;
+  height: 25px;
 }
 
 @keyframes animateMenuOpen {
