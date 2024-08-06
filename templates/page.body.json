@@ -18,7 +18,7 @@
         "content_position": "center",
         "subtitle": "",
         "title": "",
-        "button_label": "Shop Now",
+        "button_label": "Shop New Arrivals",
         "button_link": "shopify:\/\/collections\/monday-body",
         "full_link": true
       }
@@ -26,14 +26,6 @@
     "635ff124-63e6-45d6-bcb9-6bdb30de0929": {
       "type": "body-text-buttons",
       "blocks": {
-        "35c83083-4988-4b36-a6e5-5d710f995fd7": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Shop Best Sellers",
-            "button_link": "shopify:\/\/collections\/monday-body"
-          }
-        },
         "6c173b61-db74-455f-945e-8133931a472d": {
           "type": "button",
           "settings": {
@@ -43,9 +35,9 @@
         }
       },
       "block_order": [
-        "35c83083-4988-4b36-a6e5-5d710f995fd7",
         "6c173b61-db74-455f-945e-8133931a472d"
       ],
+      "disabled": true,
       "settings": {
         "text": "Designed, tested, and perfected to have you feeling your most confident and supported in every move you make."
       }
@@ -101,9 +93,12 @@
     },
     "8222a001-2c98-41d9-b358-90938e713902": {
       "type": "body-product-slider",
+      "custom_css": [
+
+      ],
       "settings": {
-        "title": "",
-        "text": "Every body is a Monday Body",
+        "title": "Every body is a Monday Body",
+        "text": "",
         "collection": "monday-body-the-slate-collection"
       }
     },
@@ -175,7 +170,7 @@
         "ab52e1b5-aa42-4277-abcb-8053dc7f88f9"
       ],
       "settings": {
-        "title": "Activewear designed to meet your needs.",
+        "title": "",
         "products": [
           "zion-bra-black-ivory",
           "elysian-short-black",
@@ -183,7 +178,7 @@
           "zion-romper-black-ivory"
         ],
         "image": "shopify:\/\/shop_images\/iRvGVRUQ_1.jpg",
-        "image_link": "",
+        "image_link": "shopify:\/\/collections\/the-zion-collection",
         "text_1": "move in monday",
         "text_2": ""
       }
