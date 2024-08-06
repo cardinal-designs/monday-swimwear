@@ -17,6 +17,7 @@
         <div class="menu-drawer__overlay"></div> 
         <div id="menu-drawer" class="menu-drawer" tabindex="-1" aria-hidden="true">
           <div class="menu-drawer__inner-container">
+            {% comment %}
             <div class="menu-drawer__header">
               <div class="mobile-search">
                 {% if settings.ss_enable %}
@@ -45,6 +46,7 @@
                 {% render 'icon-close' %}
               </button>
             </div>
+            {% endcomment %}
             <div class="menu-drawer__navigation-container">
               <nav class="menu-drawer__navigation">
                 <ul class="menu-drawer__menu list-menu list-unstyled" role="list">
