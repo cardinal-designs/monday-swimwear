@@ -153,6 +153,11 @@ details[open] .modal-overlay::after {
   padding: 0;
 }
 
+.predictive-search-products li > a{
+  display: flex;
+  align-items: center;
+}
+
 .mobile__search #Search {
   width: 100%;
   padding: 0 0 8px;
