@@ -54,6 +54,11 @@
   align-items: center;
 }
 
+.mobile__search .header__icon .icon {
+  height: 25px;
+  width: 25px;
+}
+
 details[open] > .search-modal {
   opacity: 1;
   animation: animateMenuOpen .2s ease;
