@@ -347,6 +347,7 @@ klarna-placement p {
 /* Product form */
 .product-form {
   display: block;
+  margin-bottom: 20px;
 }
 
 .product-form__error-message-wrapper:not([hidden]) {
