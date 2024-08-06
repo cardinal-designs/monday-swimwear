@@ -152,6 +152,7 @@ details[open] .modal-overlay::after {
   letter-spacing: .02em;
   line-height: 150%;
   background: #f2f0e8 !important;
+  outline: none;
 }
 
 .search-modal__form .search__button {
