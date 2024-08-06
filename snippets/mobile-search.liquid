@@ -78,7 +78,11 @@
                 aria-label="{{ 'general.search.reset' | t }}"
               >
                 <svg class="icon icon-close" aria-hidden="true" focusable="false">
-                  <use xlink:href="#icon-reset">
+                  <symbol id="icon-reset" class="icon icon-close"  fill="none" viewBox="0 0 18 18" stroke="currentColor">
+                    <circle r="8.5" cy="9" cx="9" stroke-opacity="0.2"/>
+                    <path d="M6.82972 6.82915L1.17193 1.17097" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
+                    <path d="M1.22896 6.88502L6.77288 1.11523" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
+                  </symbol>
                 </svg>
               </button>
               <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
@@ -91,7 +95,7 @@
             </div>
   
             <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
-              {%- render 'loading-spinner', class: 'predictive-search__loading-state' -%}
+              {% comment %}{%- render 'loading-spinner', class: 'predictive-search__loading-state' -%}{% endcomment %}
             </div>
 
             <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
