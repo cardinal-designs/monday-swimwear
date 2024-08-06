@@ -66,8 +66,8 @@
 }
 
 .mobile__search .header__icon .icon {
-  height: 25px;
-  width: 25px;
+  height: 18px;
+  width: 18px;
 }
 
 details[open] > .search-modal {
