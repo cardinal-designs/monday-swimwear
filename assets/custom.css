@@ -54,6 +54,12 @@
   align-items: center;
 }
 
+.mobile__search .header__icon {
+  justify-content: unset;
+  color: #000;
+  margin-left: 0;
+}
+
 .mobile__search .header__icon .icon {
   height: 25px;
   width: 25px;
@@ -123,10 +129,6 @@ details[open] .modal-overlay::after {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.mobile__search .header__icon {
-  justify-content: unset;
 }
 
 @media screen and (min-width: 1150px) {
