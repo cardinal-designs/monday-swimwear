@@ -139,6 +139,14 @@ details[open] .modal-overlay::after {
   margin-top: 20px;
 }
 
+#predictive-search-title {
+  margin: 0;
+  font-size: 20px;
+  font-family: ABC Favorit, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .mobile__search #Search {
   width: 100%;
   padding: 0 0 8px;
