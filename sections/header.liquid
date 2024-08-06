@@ -8,115 +8,117 @@
 
 <header class="header header--{{ section.settings.logo_position }} page-width">
 
-  <div class="mobile__search">
-    {% render 'mobile-search', input_id: 'Search-In-Modal' %}
-  </div>
-
-  {%- if section.settings.menu != blank -%}
-    <header-drawer>
-      <div class="menu-drawer-container">
-        <button class="js-open-menu header__icon header__icon--menu" aria-label="Menu">
-          {% render 'icon-hamburger' %}
-        </button>
-        <div class="menu-drawer__overlay"></div> 
-        <div id="menu-drawer" class="menu-drawer" tabindex="-1" aria-hidden="true">
-          <div class="menu-drawer__inner-container">
-            {% comment %}
-            <div class="menu-drawer__header">
-              <div class="mobile-search">
-                {% if settings.ss_enable %}
-                  <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search" class="header__search-form">
-                    <div class="header__search-group">
-                      <input class="header__search-input-mobile" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore>
-                      <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
-                        {% render 'icon-search' %}
-                      </button>
-                    </div>
-                  </form>
-                {% else %}
-                  <form action="/search" method="get" role="search" class="header__search-form">
-                    <div class="header__search-group">
-                      <input class="header__search-input-mobile" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
-                      <input type="hidden" name="options[prefix]" value="last">
-                      <input type="hidden" name="type" value="product" />
-                      <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
-                        {% render 'icon-search' %}
-                      </button>
-                    </div>
-                  </form>
-                {% endif %}
-              </div>
-              <button class="js-close-menu header__icon header__icon--close" aria-label="Menu">
-                {% render 'icon-close' %}
-              </button>
-            </div>
-            {% endcomment %}
-            <div class="menu-drawer__navigation-container">
-              <nav class="menu-drawer__navigation">
-                <ul class="menu-drawer__menu list-menu list-unstyled" role="list">
-                  {%- for link in section.settings.mobile_menu.links -%}
-                    <li class="menu-drawer__menu-item--top">
-                      {%- if link.links != blank -%}
-                        <div class="menu-drawer__menu-item list-menu__item body{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
-                          {% if link.title contains 'Shop All' %}
-                            Shop
-                            <a class="shop-all-link link" href="/collections/shop-all">Shop All</a>
-                          {% else %}
-                            {{ link.title | escape }}
-                          {% endif %}
-                        </div>
-                        <div class="menu-drawer__submenu motion-reduce" tabindex="-1">
-                            <ul class="menu-drawer__menu menu-drawer__menu--middle list-menu list-unstyled" role="list" tabindex="-1">
-                              {%- for childlink in link.links -%}
-                                <li class="menu-drawer__menu-item--middle">
-                                  {%- if childlink.links == blank -%}
-                                    <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                      {{ childlink.title | escape }}
-                                    </a>
-                                  {%- else -%}
-                                    <button class="menu-drawer__menu-item link link--text list-menu__item">
-                                      {{ childlink.title | escape }}
-                                      <div class="menu-drawer__menu-control"></div>
-                                    </button>
-                                    <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu menu-drawer__submenu--bottom motion-reduce">
-                                      <ul class="menu-drawer__menu menu-drawer__menu--bottom list-menu list-unstyled" role="list" tabindex="-1">
-                                        {%- for grandchildlink in childlink.links -%}
-                                          <li class="menu-drawer__menu-item--bottom">
-                                            <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                              {{ grandchildlink.title | escape }}
-                                            </a>
-                                          </li>
-                                        {%- endfor -%}
-                                      </ul>
-                                    </div>
-                                  {%- endif -%}
-                                </li>
-                              {%- endfor -%}
-                            </ul>
-                        </div>
-                      {%- else -%}
-                        <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text btn{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
-                          {% if link.title contains 'Shop All' %}
-                            Shop
-                            <a class="shop-all-link link" href="/collections/shop-all">Shop All</a>
-                          {% else %}
-                            {{ link.title | escape }}
-                          {% endif %}
-                        </a>
-                      {%- endif -%}
-                    </li>
-                  {%- endfor -%}
-                </ul>
-                <div class="currency1 mobile-country-switcher">
-                          {%- render 'country-switcher' -%}
+  <div class="mobile__wrap">
+    <div class="mobile__search">
+      {% render 'mobile-search', input_id: 'Search-In-Modal' %}
+    </div>
+  
+    {%- if section.settings.menu != blank -%}
+      <header-drawer>
+        <div class="menu-drawer-container">
+          <button class="js-open-menu header__icon header__icon--menu" aria-label="Menu">
+            {% render 'icon-hamburger' %}
+          </button>
+          <div class="menu-drawer__overlay"></div> 
+          <div id="menu-drawer" class="menu-drawer" tabindex="-1" aria-hidden="true">
+            <div class="menu-drawer__inner-container">
+              {% comment %}
+              <div class="menu-drawer__header">
+                <div class="mobile-search">
+                  {% if settings.ss_enable %}
+                    <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" role="search" class="header__search-form">
+                      <div class="header__search-group">
+                        <input class="header__search-input-mobile" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here..." isp_ignore>
+                        <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
+                          {% render 'icon-search' %}
+                        </button>
+                      </div>
+                    </form>
+                  {% else %}
+                    <form action="/search" method="get" role="search" class="header__search-form">
+                      <div class="header__search-group">
+                        <input class="header__search-input-mobile" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search here...">
+                        <input type="hidden" name="options[prefix]" value="last">
+                        <input type="hidden" name="type" value="product" />
+                        <button class="header__search-button" aria-label="{{ 'general.search.search' | t }}">
+                          {% render 'icon-search' %}
+                        </button>
+                      </div>
+                    </form>
+                  {% endif %}
                 </div>
-              </nav>
+                <button class="js-close-menu header__icon header__icon--close" aria-label="Menu">
+                  {% render 'icon-close' %}
+                </button>
+              </div>
+              {% endcomment %}
+              <div class="menu-drawer__navigation-container">
+                <nav class="menu-drawer__navigation">
+                  <ul class="menu-drawer__menu list-menu list-unstyled" role="list">
+                    {%- for link in section.settings.mobile_menu.links -%}
+                      <li class="menu-drawer__menu-item--top">
+                        {%- if link.links != blank -%}
+                          <div class="menu-drawer__menu-item list-menu__item body{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
+                            {% if link.title contains 'Shop All' %}
+                              Shop
+                              <a class="shop-all-link link" href="/collections/shop-all">Shop All</a>
+                            {% else %}
+                              {{ link.title | escape }}
+                            {% endif %}
+                          </div>
+                          <div class="menu-drawer__submenu motion-reduce" tabindex="-1">
+                              <ul class="menu-drawer__menu menu-drawer__menu--middle list-menu list-unstyled" role="list" tabindex="-1">
+                                {%- for childlink in link.links -%}
+                                  <li class="menu-drawer__menu-item--middle">
+                                    {%- if childlink.links == blank -%}
+                                      <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                        {{ childlink.title | escape }}
+                                      </a>
+                                    {%- else -%}
+                                      <button class="menu-drawer__menu-item link link--text list-menu__item">
+                                        {{ childlink.title | escape }}
+                                        <div class="menu-drawer__menu-control"></div>
+                                      </button>
+                                      <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu menu-drawer__submenu--bottom motion-reduce">
+                                        <ul class="menu-drawer__menu menu-drawer__menu--bottom list-menu list-unstyled" role="list" tabindex="-1">
+                                          {%- for grandchildlink in childlink.links -%}
+                                            <li class="menu-drawer__menu-item--bottom">
+                                              <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                                {{ grandchildlink.title | escape }}
+                                              </a>
+                                            </li>
+                                          {%- endfor -%}
+                                        </ul>
+                                      </div>
+                                    {%- endif -%}
+                                  </li>
+                                {%- endfor -%}
+                              </ul>
+                          </div>
+                        {%- else -%}
+                          <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text btn{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                            {% if link.title contains 'Shop All' %}
+                              Shop
+                              <a class="shop-all-link link" href="/collections/shop-all">Shop All</a>
+                            {% else %}
+                              {{ link.title | escape }}
+                            {% endif %}
+                          </a>
+                        {%- endif -%}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                  <div class="currency1 mobile-country-switcher">
+                            {%- render 'country-switcher' -%}
+                  </div>
+                </nav>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header-drawer>
-  {%- endif -%}
+      </header-drawer>
+    {%- endif -%}
+  </div>
 
   <!-- Logo -->
   <div class="header__logo">
