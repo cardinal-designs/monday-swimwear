@@ -90,6 +90,18 @@ details[open] .modal-overlay::after {
   right: 0.3rem;
 }
 
+@keyframes animateMenuOpen {
+  0% {
+    opacity: 0;
+    transform: translateY(-1.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media screen and (min-width: 1150px) {
   
   .mobile__search {
