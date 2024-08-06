@@ -125,8 +125,8 @@ details[open] .modal-overlay::after {
 }
 
 .search-modal .icon {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 25px;
+  height: 25px;
 }
 
 .mobile__search .modal__toggle-close {
