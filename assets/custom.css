@@ -156,6 +156,12 @@ details[open] .modal-overlay::after {
 .predictive-search-products li > a {
   display: flex;
   align-items: center;
+  gap: 15px;
+}
+
+.predictive-search-products li > a span {
+  display: block;
+  line-height: normal;
 }
 
 #predictive-search-results button {
