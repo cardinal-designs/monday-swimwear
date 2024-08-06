@@ -3,11 +3,21 @@ class PredictiveSearch extends HTMLElement {
     super();
 
     this.input = this.querySelector('input[type="search"]');
+    this.resetButton = this.querySelector('button[type="reset"]');
     this.predictiveSearchResults = this.querySelector('#predictive-search');
 
     this.input.addEventListener('input', this.debounce((event) => {
       this.onChange(event);
     }, 300).bind(this));
+  }
+
+  toggleResetButton() {
+    const resetIsHidden = this.resetButton.classList.contains('hidden');
+    if (this.input.value.length > 0 && resetIsHidden) {
+      this.resetButton.classList.remove('hidden');
+    } else if (this.input.value.length === 0 && !resetIsHidden) {
+      this.resetButton.classList.add('hidden');
+    }
   }
 
   onChange() {
@@ -19,6 +29,7 @@ class PredictiveSearch extends HTMLElement {
     }
 
     this.getSearchResults(searchTerm);
+    this.toggleResetButton();
   }
 
   getSearchResults(searchTerm) {
