@@ -51,7 +51,7 @@
 
 details[open] > .search-modal {
   opacity: 1;
-  animation: animateMenuOpen var(--duration-default) ease;
+  animation: animateMenuOpen .2s ease;
 }
 
 details[open] .modal-overlay {
@@ -82,7 +82,7 @@ details[open] .modal-overlay::after {
   width: 100%;
   height: 100%;
   padding: 0 5rem 0 1rem;
-  line-height: calc(1 + 0.8 / var(--font-body-scale));
+  line-height: calc(1 + 0.8 / 1.0);
   position: relative;
 }
 
