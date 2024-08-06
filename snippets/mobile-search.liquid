@@ -1,34 +1,53 @@
 <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-<div
-      class="search-modal modal__content gradient"
-      role="dialog"
-      aria-modal="true"
-      aria-label="{{ 'general.search.search' | t }}"
-    >
-  <div class="modal-overlay"></div>
-  <div
-    class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}"
-    tabindex="-1"
-  >
-    <predictive-search>
-      <form action="{{ routes.search_url }}" method="get" role="search">
-        <label for="Search">Search</label>
-        <input
-          id="Search"
-          type="search"
-          name="q"
-          value="{{ search.terms | escape }}"
-          role="combobox"
-          aria-expanded="false"
-          aria-owns="predictive-search-results"
-          aria-controls="predictive-search-results"
-          aria-haspopup="listbox"
-          aria-autocomplete="list"
+<details-modal class="header__search">
+  <details>
+    <summary
+          class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+          aria-haspopup="dialog"
+          aria-label="{{ 'general.search.search' | t }}"
         >
-        <input name="options[prefix]" type="hidden" value="last">
-    
-        <div id="predictive-search" tabindex="-1"></div>
-      </form>
-    </predictive-search>
-  </div>
-</div>
+      <span>
+        <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+          <use href="#icon-search">
+        </svg>
+        <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
+          <use href="#icon-close">
+        </svg>
+      </span>
+    </summary>
+    <div
+        class="search-modal modal__content gradient"
+        role="dialog"
+        aria-modal="true"
+        aria-label="{{ 'general.search.search' | t }}"
+        >
+      <div class="modal-overlay"></div>
+      <div
+        class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}"
+        tabindex="-1"
+      >
+        <predictive-search>
+          <form action="{{ routes.search_url }}" method="get" role="search">
+            <label for="Search">Search</label>
+            <input
+              id="Search"
+              type="search"
+              name="q"
+              value="{{ search.terms | escape }}"
+              role="combobox"
+              aria-expanded="false"
+              aria-owns="predictive-search-results"
+              aria-controls="predictive-search-results"
+              aria-haspopup="listbox"
+              aria-autocomplete="list"
+            >
+            <input name="options[prefix]" type="hidden" value="last">
+        
+            <div id="predictive-search" tabindex="-1"></div>
+          </form>
+        </predictive-search>
+      </div>
+    </div>
+
+  </details>
+</details-modal>
