@@ -163,6 +163,7 @@ details[open] .modal-overlay::after {
   right: 0;
   width: 25px;
   height: 25px;
+  top: 11px;
 }
 
 #Search::-webkit-search-cancel-button {
