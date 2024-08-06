@@ -4,8 +4,6 @@ class DetailsModal extends HTMLElement {
     this.detailsContainer = this.querySelector('details');
     this.summaryToggle = this.querySelector('summary');
 
-    console.log('this:: ',this);
-
     this.detailsContainer.addEventListener(
       'keyup',
       (event) => event.code.toUpperCase() === 'ESCAPE' && this.close()
@@ -55,7 +53,6 @@ class DetailsModal extends HTMLElement {
     this.detailsContainer.removeAttribute('open');
     document.body.removeEventListener('click', this.onBodyClickEvent);
     document.body.classList.remove('overflow-hidden');
-    console.log('this: ',this);
   }
 }
 
