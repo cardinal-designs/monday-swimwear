@@ -136,6 +136,7 @@ details[open] .modal-overlay::after {
 #predictive-search-results {
   overflow: scroll;
   height: calc(100vh - 120px);
+  margin-top: 20px;
 }
 
 .mobile__search #Search {
