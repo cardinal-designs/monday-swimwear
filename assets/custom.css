@@ -94,7 +94,6 @@ details[open] .modal-overlay::after {
   opacity: 0;
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.08);
   min-height: calc(100% + 2px);
-  height: 100vh;
 }
 
 .search-modal__content {
