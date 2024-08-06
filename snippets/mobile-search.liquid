@@ -30,8 +30,6 @@
       >
         <predictive-search class="search-modal__form">
           <form action="{{ routes.search_url }}" method="get" role="search">
-            
-            <label for="Search">Search</label>
             <input
               id="Search"
               type="search"
@@ -43,6 +41,7 @@
               aria-controls="predictive-search-results"
               aria-haspopup="listbox"
               aria-autocomplete="list"
+              placeholder="Search"
             >
             <input name="options[prefix]" type="hidden" value="last">
             <button class="search__button" aria-label="{{ 'general.search.search' | t }}">
