@@ -158,6 +158,14 @@ details[open] .modal-overlay::after {
   align-items: center;
 }
 
+#predictive-search-results button {
+  font-family: ABC Favorit, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
 .mobile__search #Search {
   width: 100%;
   padding: 0 0 8px;
