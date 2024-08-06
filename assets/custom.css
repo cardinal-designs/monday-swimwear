@@ -147,6 +147,12 @@ details[open] .modal-overlay::after {
   font-weight: 400;
 }
 
+.predictive-search-products {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .mobile__search #Search {
   width: 100%;
   padding: 0 0 8px;
