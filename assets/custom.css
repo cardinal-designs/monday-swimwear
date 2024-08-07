@@ -184,7 +184,7 @@ details[open] .modal-overlay::after {
   font-size: 14px;
   font-family: ABC Favorit, sans-serif;
   letter-spacing: .02em;
-  line-height: 150%;
+  line-height: normal;
   background: #f2f0e8 !important;
   outline: none;
   display: inline-block;
