@@ -568,26 +568,43 @@ class VariantSelects extends HTMLElement {
       this.updateShareUrl();
     }
   }
-  updateMetafield(){
-  const variantJson = document.querySelectorAll('[id^=VariantJSON-');
-console.log("variantJson",variantJson)
-  if (variantJson.length > 0) {
-      variantJson.forEach((variant) => {
-console.log(variant.innerHTML,"variant.innerHTML")
-console.log("variant",variant)
-      const varObject = JSON.parse(variant.innerHTML);
-console.log(varObject,"varObject")
-        varObject.forEach((varObjects,i) => {
-console.log(varObjects,"varObjects.val");
+updateMetafield() {
+  const variantJson = document.querySelector('[id^=VariantJSON-');
+  if (variantJson) {
+    const varObject = JSON.parse(variantJson.innerHTML);
+    varObject.forEach((varObjects) => {
+      if (this.currentVariant.id === varObjects.variant_id) {
+        if (varObjects.val !== '') {
+  const variantRadios = document.querySelector("product-form variant-radios");
+  const existingNote = document.querySelector('.size-note.variant-note .detail');
+  const noteText = varObjects.val;
 
-        if(this.currentVariant.id == varObjects.variant_id){
-console.log(varObjects.val,"varObjects.val");
-          // $(".size-note.variant").text(varObjects.val);
+  if (variantRadios) {
+    if (existingNote) {
+      // Update the existing note text
+      existingNote.textContent = noteText;
+    } else {
+      // Create the new note element
+      const sizeNoteDiv = document.createElement('div');
+      sizeNoteDiv.classList.add('size-note');
+      sizeNoteDiv.classList.add('variant-note');
+
+      const detailP = document.createElement('p');
+      detailP.classList.add('detail');
+      detailP.textContent = noteText;
+
+      sizeNoteDiv.appendChild(detailP);
+
+      // Append the new note after the variant-radios element
+      variantRadios.insertAdjacentElement('afterend', sizeNoteDiv);
+    }
+  }
         }
-      });
+      }
     });
   }
 }
+
   updateOptions() {
     this.options = Array.from(
       this.querySelectorAll("select"),
