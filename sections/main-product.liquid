@@ -154,7 +154,7 @@
 
           {%- unless product.has_only_default_variant -%}
             {%- if picker_type == 'button' -%}
-              <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
+              <variant-radios class="no-js-hidden restocknote__change-js" data-section="{{ section.id }}" data-url="{{ product.url }}">
                 {%- for option in product.options_with_values -%}
 
                   {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
@@ -203,7 +203,7 @@
                 </script>
               </variant-radios>
             {%- else -%}
-              <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
+              <variant-selects class="no-js-hidden restocknote__change-js" data-section="{{ section.id }}" data-url="{{ product.url }}">
                 {%- for option in product.options_with_values -%}
                   <div class="product-form__input product-form__input--dropdown">
                     <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
