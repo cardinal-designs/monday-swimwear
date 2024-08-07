@@ -2680,7 +2680,7 @@ header-drawer {
 @media screen and (max-width: 768px) {
 
   .header__icons {
-    margin-left: 0;
+    margin-right: 0;
   }
   
   .ss__autocomplete--target .ss__autocomplete  {
