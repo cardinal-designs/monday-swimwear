@@ -599,6 +599,15 @@ updateMetafield() {
       variantRadios.insertAdjacentElement('afterend', sizeNoteDiv);
     }
   }
+        }else{
+           const sizeNoteDetail = document.querySelector('.size-note.variant-note .detail');
+  
+  if (sizeNoteDetail) {
+    const sizeNoteVariantNote = sizeNoteDetail.closest('.size-note.variant-note');
+    if (sizeNoteVariantNote) {
+      sizeNoteVariantNote.remove();
+    }
+  }
         }
       }
     });
