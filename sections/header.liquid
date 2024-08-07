@@ -8,11 +8,7 @@
 
 <header class="header header--{{ section.settings.logo_position }} page-width">
 
-  <div class="mobile__wrap">
-    <div class="mobile__search">
-      {% render 'mobile-search' %}
-    </div>
-  
+  <div class="mobile__wrap">  
     {%- if section.settings.menu != blank -%}
       <header-drawer>
         <div class="menu-drawer-container">
@@ -118,6 +114,9 @@
         </div>
       </header-drawer>
     {%- endif -%}
+    <div class="mobile__search">
+      {% render 'mobile-search' %}
+    </div>
   </div>
 
   <!-- Logo -->
