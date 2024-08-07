@@ -574,7 +574,7 @@ updateMetafield() {
     const varObject = JSON.parse(variantJson.innerHTML);
     varObject.forEach((varObjects) => {
       if (this.currentVariant.id === varObjects.variant_id) {
-        if (varObjects.val !== '') {
+        if (varObjects.val != '') {
   const variantRadios = document.querySelector("product-form variant-radios");
   const existingNote = document.querySelector('.size-note.variant-note .detail');
   const noteText = varObjects.val;
