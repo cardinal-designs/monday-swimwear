@@ -201,6 +201,10 @@ details[open] .modal-overlay::after {
   top: 11px;
 }
 
+#Search::-webkit-search-cancel-button {
+  margin-top: -3px;
+}
+
 @keyframes animateMenuOpen {
   
   0% {
