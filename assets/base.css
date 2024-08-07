@@ -2676,11 +2676,11 @@ header-drawer {
     display: none;
   }
 
-  .desktop-country-switcher {
+  /* .desktop-country-switcher {
     position: absolute;
     left: 38px;
     top: 21px;
-  }
+  } */
 }
 
 /*================ Mobile header edits ================*/
