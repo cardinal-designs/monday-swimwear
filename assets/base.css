@@ -2697,12 +2697,6 @@ header-drawer {
   .wk-link.wk-link--empty {
     display: none;
   }
-
-  .desktop-country-switcher {
-    position: absolute;
-    left: 38px;
-    top: 19px;
-  }
 }
 
 @media screen and (max-width: 500px) {
