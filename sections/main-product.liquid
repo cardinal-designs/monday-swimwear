@@ -259,7 +259,11 @@
             <p class="detail">{{ product.metafields.pdp_extras.size_note | newline_to_br }}</p>
           </div>
 	      {% endif %}
-
+          {% if product_variant.metafields.custom.restock_note != blank %}
+          <div class="size-note variant">
+            <p class="detail">{{ product_variant.metafields.custom.restock_note | newline_to_br }}</p>
+          </div>
+	      {% endif %}
           {% if product.metafields.custom.restock_note != blank %}
           <div class="size-note">
             <p class="detail">{{ product.metafields.custom.restock_note }}</p>
