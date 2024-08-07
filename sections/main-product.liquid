@@ -154,7 +154,7 @@
 
           {%- unless product.has_only_default_variant -%}
             {%- if picker_type == 'button' -%}
-              <variant-radios class="no-js-hidden restocknote__change-js" data-section="{{ section.id }}" data-url="{{ product.url }}">
+              <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
                 {%- for option in product.options_with_values -%}
 
                   {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
@@ -203,7 +203,7 @@
                 </script>
               </variant-radios>
             {%- else -%}
-              <variant-selects class="no-js-hidden restocknote__change-js" data-section="{{ section.id }}" data-url="{{ product.url }}">
+              <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
                 {%- for option in product.options_with_values -%}
                   <div class="product-form__input product-form__input--dropdown">
                     <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
@@ -254,11 +254,6 @@
               </div>
             </div>
           </noscript>
-          {% if product.metafields.pdp_extras.size_note != blank %}
-          <div class="size-note">
-            <p class="detail">{{ product.metafields.pdp_extras.size_note | newline_to_br }}</p>
-          </div>
-	      {% endif %}
           {% if product.selected_or_first_available_variant.metafields.custom.restock_note != blank %}
             <div class="size-note variant-note">
               <p class="detail">{{ product.selected_or_first_available_variant.metafields.custom.restock_note | newline_to_br }}</p>
