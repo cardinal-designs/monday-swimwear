@@ -195,6 +195,7 @@ details[open] .modal-overlay::after {
   padding: 12px;
   box-sizing: border-box;
   padding-right: 40px;
+  border-radius: 0;
 }
 
 .search-modal__form .search__button {
