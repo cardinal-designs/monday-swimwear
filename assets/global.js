@@ -549,13 +549,13 @@ class VariantSelects extends HTMLElement {
   }
 
   onVariantChange(event) {
-    console.log("onvariantchange")
     this.updateOptions();
     this.updateMasterId();
     this.toggleAddButton(true, "", false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateInfoText(event);
+    this.updateMetafield();
 
     if (!this.currentVariant) {
       this.toggleAddButton(true, "", true);
@@ -568,7 +568,26 @@ class VariantSelects extends HTMLElement {
       this.updateShareUrl();
     }
   }
+  updateMetafield(){
+  const variantJson = document.querySelectorAll('[id^=VariantJSON-');
+console.log("variantJson",variantJson)
+  if (variantJson.length > 0) {
+      variantJson.forEach((variant) => {
+console.log(variant.innerHTML,"variant.innerHTML")
+console.log("variant",variant)
+      const varObject = JSON.parse(variant.innerHTML);
+console.log(varObject,"varObject")
+        varObject.forEach((varObjects,i) => {
+console.log(varObjects,"varObjects.val");
 
+        if(this.currentVariant.id == varObjects.variant_id){
+console.log(varObjects.val,"varObjects.val");
+          // $(".size-note.variant").text(varObjects.val);
+        }
+      });
+    });
+  }
+}
   updateOptions() {
     this.options = Array.from(
       this.querySelectorAll("select"),
