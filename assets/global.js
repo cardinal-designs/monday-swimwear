@@ -574,40 +574,32 @@ updateMetafield() {
     const varObject = JSON.parse(variantJson.innerHTML);
     varObject.forEach((varObjects) => {
       if (this.currentVariant.id === varObjects.variant_id) {
-        if (varObjects.val != '') {
-  const variantRadios = document.querySelector("product-form variant-radios");
-  const existingNote = document.querySelector('.size-note.variant-note .detail');
-  const noteText = varObjects.val;
-
-  if (variantRadios) {
-    if (existingNote) {
-      // Update the existing note text
-      existingNote.textContent = noteText;
-    } else {
-      // Create the new note element
-      const sizeNoteDiv = document.createElement('div');
-      sizeNoteDiv.classList.add('size-note');
-      sizeNoteDiv.classList.add('variant-note');
-
-      const detailP = document.createElement('p');
-      detailP.classList.add('detail');
-      detailP.textContent = noteText;
-
-      sizeNoteDiv.appendChild(detailP);
-
-      // Append the new note after the variant-radios element
-      variantRadios.insertAdjacentElement('afterend', sizeNoteDiv);
-    }
-  }
-        }else{
-           const sizeNoteDetail = document.querySelector('.size-note.variant-note .detail');
-  
-  if (sizeNoteDetail) {
-    const sizeNoteVariantNote = sizeNoteDetail.closest('.size-note.variant-note');
-    if (sizeNoteVariantNote) {
-      sizeNoteVariantNote.remove();
-    }
-  }
+          if (varObjects.val != '') {
+            const variantRadios = document.querySelector("product-form variant-radios");
+            const existingNote = document.querySelector('.size-note.variant-note .detail');
+            const noteText = varObjects.val;
+            if (variantRadios) {
+                if (existingNote) {
+                    existingNote.textContent = noteText;
+                } else {
+                    const sizeNoteDiv = document.createElement('div');
+                    sizeNoteDiv.classList.add('size-note');
+                    sizeNoteDiv.classList.add('variant-note');
+                    const detailP = document.createElement('p');
+                    detailP.classList.add('detail');
+                    detailP.textContent = noteText;
+                    sizeNoteDiv.appendChild(detailP);
+                    variantRadios.insertAdjacentElement('afterend', sizeNoteDiv);
+                }
+            }
+        } else {
+          const sizeNoteDetail = document.querySelector('.size-note.variant-note .detail');
+          if (sizeNoteDetail) {
+            const sizeNoteVariantNote = sizeNoteDetail.closest('.size-note.variant-note');
+            if (sizeNoteVariantNote) {
+              sizeNoteVariantNote.remove();
+            }
+          }
         }
       }
     });
