@@ -254,15 +254,15 @@
               </div>
             </div>
           </noscript>
+          {% if product.metafields.pdp_extras.size_note != blank %}
+          <div class="size-note">
+            <p class="detail">{{ product.metafields.pdp_extras.size_note | newline_to_br }}</p>
+          </div>
+	      {% endif %}
           {% if product.selected_or_first_available_variant.metafields.custom.restock_note != blank %}
             <div class="size-note variant-note">
               <p class="detail">{{ product.selected_or_first_available_variant.metafields.custom.restock_note | newline_to_br }}</p>
             </div>
-	      {% endif %}
-          {% if product.metafields.custom.restock_note != blank %}
-          <div class="size-note">
-            <p class="detail">{{ product.metafields.custom.restock_note }}</p>
-          </div>
 	      {% endif %}
 
           <button class="product__size-chart js-open-chart sh5">Size Chart +</button>
