@@ -202,7 +202,7 @@ details[open] .modal-overlay::after {
   right: 5px;
   width: 25px;
   height: 25px;
-  top: 11px;
+  top: 12px;
 }
 
 #Search::-webkit-search-cancel-button {
