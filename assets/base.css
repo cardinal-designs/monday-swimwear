@@ -2667,7 +2667,22 @@ header-drawer {
   }
 }
 
+/*================ Mobile header edits ================*/
+
+.desktop-country-switcher {
+  align-self: center;
+}
+
+.desktop-country-switcher .disclosure__button {
+  color: black !important;
+}
+
 @media screen and (max-width: 768px) {
+
+  .header__icons {
+    margin-left: 0;
+  }
+  
   .ss__autocomplete--target .ss__autocomplete  {
     padding: 0;
   }
@@ -2681,16 +2696,6 @@ header-drawer {
     left: 38px;
     top: 21px;
   } */
-}
-
-/*================ Mobile header edits ================*/
-
-.desktop-country-switcher {
-  align-self: center;
-}
-
-.desktop-country-switcher .disclosure__button {
-  color: black !important;
 }
 
 @media screen and (max-width: 500px) {
