@@ -188,7 +188,7 @@ details[open] .modal-overlay::after {
   background: #f2f0e8 !important;
   outline: none;
   display: inline-block;
-  padding: 10px;
+  padding: 12px;
   box-sizing: border-box;
   padding-right: 40px;
 }
