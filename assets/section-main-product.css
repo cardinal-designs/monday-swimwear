@@ -380,6 +380,7 @@ variant-radios fieldset {
 }
 
 .product-form__input-active {
+  letter-spacing: 0.15em;
   margin: 0 0 0 10px;
 }
 

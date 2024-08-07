@@ -555,6 +555,7 @@ class VariantSelects extends HTMLElement {
     this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateInfoText(event);
+    this.updateMetafield();
 
     if (!this.currentVariant) {
       this.toggleAddButton(true, "", true);
@@ -567,6 +568,43 @@ class VariantSelects extends HTMLElement {
       this.updateShareUrl();
     }
   }
+updateMetafield() {
+  const variantJson = document.querySelector('[id^=VariantJSON-');
+  if (variantJson) {
+    const varObject = JSON.parse(variantJson.innerHTML);
+    varObject.forEach((varObjects) => {
+      if (this.currentVariant.id === varObjects.variant_id) {
+          if (varObjects.val != '') {
+            const variantRadios = document.querySelector("product-form variant-radios");
+            const existingNote = document.querySelector('.size-note.variant-note .detail');
+            const noteText = varObjects.val;
+            if (variantRadios) {
+                if (existingNote) {
+                    existingNote.textContent = noteText;
+                } else {
+                    const sizeNoteDiv = document.createElement('div');
+                    sizeNoteDiv.classList.add('size-note');
+                    sizeNoteDiv.classList.add('variant-note');
+                    const detailP = document.createElement('p');
+                    detailP.classList.add('detail');
+                    detailP.textContent = noteText;
+                    sizeNoteDiv.appendChild(detailP);
+                    variantRadios.insertAdjacentElement('afterend', sizeNoteDiv);
+                }
+            }
+        } else {
+          const sizeNoteDetail = document.querySelector('.size-note.variant-note .detail');
+          if (sizeNoteDetail) {
+            const sizeNoteVariantNote = sizeNoteDetail.closest('.size-note.variant-note');
+            if (sizeNoteVariantNote) {
+              sizeNoteVariantNote.remove();
+            }
+          }
+        }
+      }
+    });
+  }
+}
 
   updateOptions() {
     this.options = Array.from(
