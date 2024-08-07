@@ -154,7 +154,7 @@ details[open] .modal-overlay::after {
 
 .predictive-search-products {
   list-style: none;
-  margin: 10px 0;
+  margin: 10px 0 30px;
   padding: 0;
 }
 
