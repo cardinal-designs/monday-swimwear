@@ -259,11 +259,11 @@
             <p class="detail">{{ product.metafields.pdp_extras.size_note | newline_to_br }}</p>
           </div>
 	      {% endif %}
-          <div class="size-note variant">
           {% if product.selected_or_first_available_variant.metafields.custom.restock_note != blank %}
-            <p class="detail">{{ product.selected_or_first_available_variant.metafields.custom.restock_note | newline_to_br }}</p>
+            <div class="size-note variant-note">
+              <p class="detail">{{ product.selected_or_first_available_variant.metafields.custom.restock_note | newline_to_br }}</p>
+            </div>
 	      {% endif %}
-          </div>
           {% if product.metafields.custom.restock_note != blank %}
           <div class="size-note">
             <p class="detail">{{ product.metafields.custom.restock_note }}</p>
