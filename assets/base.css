@@ -2693,12 +2693,6 @@ header-drawer {
   color: black !important;
 }
 
-@media screen and (max-width: 768px) {
-  .wk-link.wk-link--empty {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 500px) {
   .disclosure__button {
     max-width: 80px;
