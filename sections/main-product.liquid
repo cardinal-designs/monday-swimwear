@@ -548,8 +548,17 @@
     </div>
   </div>
 </div>
-
-
+<script type="application/json" id="VariantJSON-{{ product.id }}">
+  [
+    {%- for variant in product.variants -%}
+      {
+        "variant_id": {{ variant.id }},
+        "val": "{{ variant.metafields.custom.restock_note }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+</script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     function isIE() {
