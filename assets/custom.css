@@ -115,7 +115,7 @@ details[open] .modal-overlay::after {
 .search-modal__close-button {
   position: absolute;
   right: 10px;
-  top: 14px;
+  top: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
