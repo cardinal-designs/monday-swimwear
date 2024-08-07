@@ -210,6 +210,10 @@ details[open] .modal-overlay::after {
   margin-top: -3px;
 }
 
+#Search::-webkit-search-decoration {
+  display: none;
+}
+
 @keyframes animateMenuOpen {
   
   0% {
