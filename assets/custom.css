@@ -210,7 +210,7 @@ details[open] .modal-overlay::after {
   display: inline-block;
   padding: 12px;
   box-sizing: border-box;
-  padding-right: 40px;
+  padding-left: 40px;
   border-radius: 0;
 }
 
