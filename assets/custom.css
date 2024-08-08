@@ -138,6 +138,27 @@ details[open] .modal-overlay::after {
   display: none;
 }
 
+div#predictive-search {
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+  width: 100vw;
+  padding: 0 20px;
+  position: absolute;
+  z-index: 4000;
+  top: 100%;
+  left: -20px;
+  right: 0;
+  max-height: 662px;
+  transition: max-height .5s ease, opacity .5s ease, visibility .5s;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 #predictive-search-results {
   overflow: scroll;
   height: 100%;
