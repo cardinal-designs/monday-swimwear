@@ -160,6 +160,10 @@ details[open=true] .modal-overlay::after {
   display: none;
 }
 
+.shopify-section-header.scrolled #predictive-search {
+  height: calc(100vh - 45px);
+}
+
 #predictive-search-results {
   margin-top: 20px;
 }
