@@ -138,8 +138,8 @@ details[open] .modal-overlay::after {
   display: none;
 }
 
-div#predictive-search {
-  height: 100%;
+#predictive-search {
+  height: 50%;
   opacity: 1;
   visibility: visible;
   width: 100vw;
