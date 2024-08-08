@@ -138,9 +138,27 @@ details[open] .modal-overlay::after {
   display: none;
 }
 
+#predictive-search {
+  opacity: 1;
+  visibility: visible;
+  width: 100vw;
+  padding: 0 20px;
+  position: absolute;
+  z-index: 4000;
+  top: auto;
+  left: -20px;
+  right: 0;
+  height: calc(100vh + 65px);
+  transition: max-height .5s ease, opacity .5s ease, visibility .5s;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 #predictive-search-results {
-  overflow: scroll;
-  height: calc(100vh - 120px);
   margin-top: 20px;
 }
 
