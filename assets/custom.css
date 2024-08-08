@@ -162,7 +162,7 @@ details[open] .modal-overlay::after {
 #predictive-search-results {
   overflow: scroll;
   height: 100%;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 #predictive-search-title {
