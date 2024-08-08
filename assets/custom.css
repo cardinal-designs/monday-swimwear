@@ -149,11 +149,10 @@ details[open=true] .modal-overlay::after {
   top: auto;
   left: -20px;
   right: 0;
-  height: calc(100vh - 140px);
+  height: 400px;
   transition: max-height .5s ease, opacity .5s ease, visibility .5s;
   background: #fff;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: scroll;
   -webkit-overflow-scrolling: smooth;
   scrollbar-width: none;
   -ms-overflow-style: none;
