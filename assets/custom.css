@@ -62,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 9px;
+  padding-top: 0;
 }
 
 .mobile__search .header__icon {
@@ -119,7 +119,7 @@ details[open] .modal-overlay::after {
 .search-modal__close-button {
   position: absolute;
   right: 10px;
-  top: 13px;
+  top: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
