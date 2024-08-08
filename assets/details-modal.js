@@ -53,7 +53,7 @@ class DetailsModal extends HTMLElement {
     this.detailsContainer.setAttribute('open',false);
     setTimeout(() => {
       this.detailsContainer.removeAttribute('open');
-    }, 1000);
+    }, 500);
     document.body.removeEventListener('click', this.onBodyClickEvent);
     document.body.classList.remove('overflow-hidden');
   }
