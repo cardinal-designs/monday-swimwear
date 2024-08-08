@@ -62,11 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .5s ease, transform .5s ease, visibility 0s linear .5s;
-  transform: translate3d(0, -100%, 0);
+  padding-top: 20px;
 }
 
 .mobile__search .header__icon {
@@ -80,11 +76,9 @@
   width: 18px;
 }
 
-details[open=true] > .search-modal {
+details[open] > .search-modal {
   opacity: 1;
-  visibility: visible;
-  transition-delay: 0s;
-  transform: translateZ(0);
+  animation: animateMenuOpen .2s ease;
 }
 
 details[open] .modal-overlay {
@@ -102,16 +96,16 @@ details[open] .modal-overlay::after {
 }
 
 .search-modal {
-  /* opacity: 0;
+  opacity: 0;
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.08);
-  min-height: calc(100% - 2px); */
+  min-height: calc(100vh - 74px);
 }
 
 .search-modal__content {
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 9px 50px 0 20px;
+  padding: 0 50px 20px 20px;
   position: relative;
   box-sizing: border-box;
 }
@@ -125,7 +119,7 @@ details[open] .modal-overlay::after {
 .search-modal__close-button {
   position: absolute;
   right: 10px;
-  top: 21px;
+  top: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,36 +138,15 @@ details[open] .modal-overlay::after {
   display: none;
 }
 
-#predictive-search {
-  height: 50%;
-  opacity: 1;
-  visibility: visible;
-  width: 100vw;
-  padding: 0 20px;
-  position: absolute;
-  z-index: 4000;
-  top: 100%;
-  left: -20px;
-  right: 0;
-  max-height: 662px;
-  transition: max-height .5s ease, opacity .5s ease, visibility .5s;
-  background: #fff;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: smooth;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
 #predictive-search-results {
   overflow: scroll;
-  height: 100%;
-  margin-top: 0;
+  height: calc(100vh - 120px);
+  margin-top: 20px;
 }
 
 #predictive-search-title {
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Tobias, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -221,18 +194,16 @@ details[open] .modal-overlay::after {
   display: inline-block;
   padding: 12px;
   box-sizing: border-box;
-  padding-left: 40px;
+  padding-right: 40px;
   border-radius: 0;
 }
 
 .search-modal__form .search__button {
   position: absolute;
-  left: 10px;
-  right: auto;
+  right: 5px;
   width: 25px;
   height: 25px;
-  top: 10px;
-  cursor: pointer;
+  top: 12px;
 }
 
 #Search::-webkit-search-cancel-button {
@@ -241,6 +212,20 @@ details[open] .modal-overlay::after {
 
 #Search::-webkit-search-decoration {
   display: none;
+}
+
+@keyframes animateMenuOpen {
+  
+  0% {
+    opacity: 0;
+    transform: translateY(-1.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
 }
 
 @media screen and (min-width: 1150px) {
