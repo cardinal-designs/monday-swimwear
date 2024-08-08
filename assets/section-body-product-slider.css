@@ -16,6 +16,13 @@
   gap: 20px;
 }
 
+.body-product-slider__header.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
 .body-product-slider__title {
   margin: 0;
 }
