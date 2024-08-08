@@ -80,7 +80,7 @@
   width: 18px;
 }
 
-details[open] > .search-modal {
+details[open=true] > .search-modal {
   opacity: 1;
   visibility: visible;
   transition-delay: 0s;
