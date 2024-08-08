@@ -143,7 +143,7 @@ details[open=true] .modal-overlay::after {
   opacity: 1;
   visibility: visible;
   width: 100vw;
-  padding: 0 20px;
+  padding: 0 20px 20px;
   position: absolute;
   z-index: 4000;
   top: auto;
