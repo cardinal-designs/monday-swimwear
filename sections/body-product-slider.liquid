@@ -4,7 +4,7 @@
 
 <div class="body-product-slider">
   <div class="page-width">
-    <div class="body-product-slider__header fade-in-up">
+    <div class="body-product-slider__header {{ section.settings.title_alignment }} fade-in-up">
       {% if section.settings.title_size == 'small' %}
         <h2 class="body-product-slider__title sh3">{{ section.settings.title }}</h2>
       {% elsif section.settings.title_size == 'medium' %}
@@ -118,19 +118,23 @@
       },
       {
         "type": "select",
-        "id": "mobile_text_location",
-        "label": "Mobile Text Location",
+        "id": "title_alignment",
+        "label": "Title Alignment",
         "options": [
           {
-            "value": "top",
-            "label": "Top"
+            "value": "left",
+            "label": "Left"
           },
           {
-            "value": "bottom",
-            "label": "Bottom"
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
           }
         ],
-        "default": "top"
+        "default": "left"
       },
       {
         "type": "text",
