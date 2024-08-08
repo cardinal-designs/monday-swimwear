@@ -63,6 +63,10 @@
   justify-content: center;
   align-items: center;
   padding-top: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease, transform .5s ease, visibility 0s linear .5s;
+  transform: translate3d(0, -100%, 0);
 }
 
 .mobile__search .header__icon {
