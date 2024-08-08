@@ -149,7 +149,7 @@ details[open=true] .modal-overlay::after {
   top: auto;
   left: -20px;
   right: 0;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 140px);
   transition: max-height .5s ease, opacity .5s ease, visibility .5s;
   background: #fff;
   overflow-x: hidden;
