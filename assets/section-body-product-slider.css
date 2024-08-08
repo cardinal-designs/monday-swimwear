@@ -9,6 +9,10 @@
   gap: 20px;
 }
 
+.body-product-slider__header.center .body-product-slider__title {
+  grid-column-start: 2;
+}
+
 .body-product-slider__title {
   margin: 0;
 }
