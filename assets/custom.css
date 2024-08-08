@@ -62,6 +62,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease, transform .5s ease, visibility 0s linear .5s;
+  transform: translate3d(0, -100%, 0);
 }
 
 .mobile__search .header__icon {
@@ -94,10 +98,6 @@ details[open] .modal-overlay::after {
   left: 0;
   right: 0;
   height: 100vh;
-}
-
-.search-modal {
-  opacity: 0;
 }
 
 .search-modal__content {
