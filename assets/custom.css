@@ -80,6 +80,7 @@
   width: 18px;
 }
 
+
 details[open=true] > .search-modal {
   opacity: 1;
   visibility: visible;
@@ -87,11 +88,11 @@ details[open=true] > .search-modal {
   transform: translateZ(0);
 }
 
-details[open] .modal-overlay {
+details[open=true] .modal-overlay {
   display: block;
 }
 
-details[open] .modal-overlay::after {
+details[open=true] .modal-overlay::after {
   position: absolute;
   content: '';
   background-color: rgb(0, 0, 0, 0.5);
@@ -148,7 +149,7 @@ details[open] .modal-overlay::after {
   top: auto;
   left: -20px;
   right: 0;
-  height: calc(100vh + 65px);
+  height: calc(100vh - 120px);
   transition: max-height .5s ease, opacity .5s ease, visibility .5s;
   background: #fff;
   overflow-x: hidden;
