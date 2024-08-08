@@ -5,7 +5,13 @@
 <div class="body-product-slider">
   <div class="page-width">
     <div class="body-product-slider__header fade-in-up">
-      <h2 class="body-product-slider__title sh3">{{ section.settings.title }}</h2>
+      {% if section.settings.title_size == 'small' %}
+        <h2 class="body-product-slider__title sh3">{{ section.settings.title }}</h2>
+      {% elsif section.settings.title_size == 'medium' %}
+        <h2 class="body-product-slider__title sh2">{{ section.settings.title }}</h2>
+      {% elsif section.settings.title_size == 'large' %}
+        <h2 class="body-product-slider__title h5">{{ section.settings.title }}</h2>
+      {% endif %}
       <p class="body-product-slider__text tag hide-mobile">{{ section.settings.text }}</p>
       <div class="body-product-slider__arrows hide-mobile">
         <button class="swiper-button swiper-button-prev">
@@ -89,6 +95,42 @@
         "type": "text",
         "id": "title",
         "label": "Title"
+      },
+      {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title Size",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "small"
+      },
+      {
+        "type": "select",
+        "id": "mobile_text_location",
+        "label": "Mobile Text Location",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ],
+        "default": "top"
       },
       {
         "type": "text",
