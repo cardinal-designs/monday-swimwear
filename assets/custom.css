@@ -51,7 +51,7 @@
   box-sizing: border-box;
 }
 
-.mobile__search .modal__content {
+/* .mobile__search .modal__content {
   position: absolute;
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@
   visibility: hidden;
   transition: opacity .5s ease, transform .5s ease, visibility 0s linear .5s;
   transform: translate3d(0, -100%, 0);
-}
+} */
 
 .mobile__search .header__icon {
   justify-content: unset;
