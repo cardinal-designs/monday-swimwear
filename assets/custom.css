@@ -140,7 +140,7 @@ details[open] .modal-overlay::after {
 
 #predictive-search-results {
   overflow: scroll;
-  height: calc(100vh - 120px);
+  height: 100%;
   margin-top: 20px;
 }
 
