@@ -9,7 +9,7 @@
 }
 
 .body-categories__block {
-  padding-bottom: 115%;
+  padding-bottom: 150%;
   position: relative;
 }
 
@@ -26,10 +26,6 @@
 @media screen and (max-width: 768px) {
   .body-categories__container {
     grid-template-columns: 1fr;
-  }
-
-  .body-categories__block {
-    padding-bottom: 57%;
   }
 
   .body-categories__block-title {
