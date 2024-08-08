@@ -222,6 +222,10 @@ details[open=true] .modal-overlay::after {
   border-radius: 0;
 }
 
+.mobile__search #Search::-webkit-search-cancel-button {
+  display: none;
+}
+
 .search-modal__form .search__button {
   position: absolute;
   left: 10px;
