@@ -97,8 +97,6 @@ details[open] .modal-overlay::after {
 
 .search-modal {
   opacity: 0;
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.08);
-  min-height: calc(100vh - 74px);
 }
 
 .search-modal__content {
