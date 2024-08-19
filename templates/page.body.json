@@ -110,25 +110,25 @@
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ACADIALEGGING-3.jpg",
-            "title": "Leggings",
-            "link": "shopify:\/\/collections\/monday-body-leggings"
+            "image": "shopify:\/\/shop_images\/shorts-final.png",
+            "title": "",
+            "link": "shopify:\/\/collections\/monday-body-shorts"
           }
         },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZION-BRA-2.jpg",
-            "title": "Tops",
-            "link": "shopify:\/\/collections\/bras-tops"
+            "image": "shopify:\/\/shop_images\/leggings-final.png",
+            "title": "",
+            "link": "shopify:\/\/collections\/monday-body-leggings"
           }
         },
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BOLERO-3.jpg",
-            "title": "Shorts",
-            "link": "shopify:\/\/collections\/monday-body-shorts"
+            "image": "shopify:\/\/shop_images\/bras-final.png",
+            "title": "",
+            "link": "shopify:\/\/collections\/monday-body-bras"
           }
         }
       },
