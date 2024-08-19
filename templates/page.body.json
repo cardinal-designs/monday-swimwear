@@ -118,17 +118,17 @@
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/leggings-final.png",
+            "image": "shopify:\/\/shop_images\/bras-final.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-leggings"
+            "link": "shopify:\/\/collections\/monday-body-bras"
           }
         },
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bras-final.png",
+            "image": "shopify:\/\/shop_images\/leggings-final.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-bras"
+            "link": "shopify:\/\/collections\/monday-body-leggings"
           }
         }
       },
