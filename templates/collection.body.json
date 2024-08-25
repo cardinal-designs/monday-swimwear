@@ -17,7 +17,8 @@
     "header": {
       "type": "collection-header",
       "settings": {
-        "text": ""
+        "text": "",
+        "image": "{{ collection.metafields.custom.collection_header_image.value }}"
       }
     },
     "filters": {
