@@ -13,12 +13,12 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/evergreen-banner-new_smaller_size_copy.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/evergreen-mob-2.png",
+        "image": "shopify:\/\/shop_images\/MB-sale-mainbanner-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/MB-sale-mainbanner-mobile1.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
-        "button_label": "Shop New Arrivals",
+        "button_label": "SHOP NOW",
         "button_link": "shopify:\/\/collections\/monday-body",
         "full_link": true
       }
@@ -97,11 +97,11 @@
 
       ],
       "settings": {
-        "title": "Every body is a Monday Body",
+        "title": "EVERY BODY IS A MONDAY BODY",
         "title_size": "large",
         "title_alignment": "center",
         "text": "",
-        "collection": "monday-body-the-slate-collection"
+        "collection": "monday-body-cliffside"
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
@@ -110,15 +110,15 @@
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shorts-final.png",
+            "image": "shopify:\/\/shop_images\/sale-TOPS.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-shorts"
+            "link": "shopify:\/\/collections\/monday-body-tops"
           }
         },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bras-final.png",
+            "image": "shopify:\/\/shop_images\/sale-bras.png",
             "title": "",
             "link": "shopify:\/\/collections\/monday-body-bras"
           }
@@ -126,9 +126,9 @@
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/leggings-final.png",
+            "image": "shopify:\/\/shop_images\/sale-bottoms.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-leggings"
+            "link": "shopify:\/\/collections\/monday-body-shorts-and-leggings"
           }
         }
       },
@@ -174,12 +174,12 @@
       "settings": {
         "title": "",
         "products": [
-          "denali-the-devin-bra-black-ivory",
-          "acadia-legging-27-black-ivory",
-          "griffith-short-6-25-black",
-          "runyon-canyon-bolero-black"
+          "zion-bra-evergreen-ivory",
+          "griffith-short-6-25-evergreen",
+          "arches-the-tash-bra-evergreen-ivory",
+          "acadia-legging-27-evergreen-ivory"
         ],
-        "image": "shopify:\/\/shop_images\/devin-bra_c42e4811-b122-4fd9-97c4-5152f8e721e1.jpg",
+        "image": "shopify:\/\/shop_images\/MB-BANNER.jpg",
         "image_link": "shopify:\/\/collections\/denali-the-devin-bra",
         "text_1": "move in monday",
         "text_2": ""
