@@ -12,14 +12,14 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/signature-main-desktop1.png",
-        "mobile_image": "shopify:\/\/shop_images\/signature-main-mob.png",
+        "image": "shopify:\/\/shop_images\/sale-banner-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/sale-banner-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_label": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/the-signature-collection-1",
+        "button_link": "shopify:\/\/collections\/the-end-of-season-sale-collection",
         "overlay_link": true
       }
     },
@@ -49,36 +49,36 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "bf612915-d86f-40f2-817f-6322dada207b": {
+        "collection_G8nQNt": {
           "type": "collection",
           "settings": {
-            "collection": "monday-beachwear"
+            "collection": "the-25-off-collection"
           }
         },
-        "collection_3hCPar": {
+        "collection_fUGqyE": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "the-50-off-collection"
           }
         },
-        "collection_Qw6CiG": {
+        "collection_QDbBxr": {
           "type": "collection",
           "settings": {
-            "collection": "ivory-boucle"
+            "collection": "the-70-off-collection"
           }
         },
-        "collection_R4hinJ": {
+        "collection_H3QBtG": {
           "type": "collection",
           "settings": {
-            "collection": "cobalt-crinkle"
+            "collection": "the-monday-body-sale"
           }
         }
       },
       "block_order": [
-        "bf612915-d86f-40f2-817f-6322dada207b",
-        "collection_3hCPar",
-        "collection_Qw6CiG",
-        "collection_R4hinJ"
+        "collection_G8nQNt",
+        "collection_fUGqyE",
+        "collection_QDbBxr",
+        "collection_H3QBtG"
       ],
       "settings": {
       }
@@ -95,6 +95,7 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_6221.png",
         "mobile_image": "shopify:\/\/shop_images\/clovelly-lower-mobile.jpg",
@@ -110,7 +111,7 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_19859947-3186-4ac3-9603-9c62c06e9136.jpg",
+            "image": "shopify:\/\/shop_images\/01_47f6d1e5-d3ba-485a-9d36-13a40f449fb5.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-supportive-collection"
@@ -119,16 +120,16 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_5b56d5c2-c054-4050-9350-976a1823b398.jpg",
-            "text": "New Signature Styles",
+            "image": "shopify:\/\/shop_images\/02_1b859f67-d733-4de1-91ed-04d79a97fea4.jpg",
+            "text": "Ivory Signature Styles",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/the-signature-collection-1"
+            "link": "shopify:\/\/collections\/ivory"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_a782ae49-bedb-4296-a554-cfeb307b78c4.jpg",
+            "image": "shopify:\/\/shop_images\/03_cfb390b9-1e66-4fbd-bd50-c53129d3e2ae.jpg",
             "text": "Essential Beachwear",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/monday-beachwear"
