@@ -232,6 +232,7 @@
 }
 
 .monday-body .collection-header__container h2 {
+  margin: 0;
   font-family: 'elza-text', sans-serif;
   font-size: 30px;
   font-style: normal;
@@ -244,6 +245,14 @@
 @media screen and (max-width: 768px) {
   .monday-body .collection-header {
     padding: 60px 0 50px;
+  }
+
+  .monday-body .collection-header__container {
+    display: block;
+  }
+
+  .monday-body .collection-header__container h2 {
+    margin-bottom: 10px;
   }
 }
 
