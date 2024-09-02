@@ -224,6 +224,13 @@
   text-align: left;
 }
 
+.monday-body .collection-header__container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
 .monday-body .collection-header__container h2 {
   font-family: 'elza-text', sans-serif;
   font-size: 30px;
