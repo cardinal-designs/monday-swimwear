@@ -249,7 +249,8 @@
 
 @media screen and (max-width: 768px) {
   .monday-body .collection-header {
-    padding: 60px 0 50px;
+    padding: 40px 0;
+    text-align: left;
   }
 
   .monday-body .collection-header__container {
