@@ -254,12 +254,11 @@
 
   .monday-body .collection-header__container {
     display: block;
-    text-align: left;
   }
 
   .monday-body .collection-header__container h2 {
+    margin-bottom: 10px;
     font-size: 24px;
-    margin-bottom: 20px;
   }
 }
 
