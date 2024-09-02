@@ -49,12 +49,6 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_G8nQNt": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-25-off-collection"
-          }
-        },
         "collection_fUGqyE": {
           "type": "collection",
           "settings": {
@@ -67,6 +61,12 @@
             "collection": "the-70-off-collection"
           }
         },
+        "collection_G8nQNt": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-beachwear"
+          }
+        },
         "collection_H3QBtG": {
           "type": "collection",
           "settings": {
@@ -75,9 +75,9 @@
         }
       },
       "block_order": [
-        "collection_G8nQNt",
         "collection_fUGqyE",
         "collection_QDbBxr",
+        "collection_G8nQNt",
         "collection_H3QBtG"
       ],
       "settings": {
