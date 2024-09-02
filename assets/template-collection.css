@@ -239,7 +239,7 @@
   font-weight: 300;
   line-height: 1.06;
   letter-spacing: 0.02em;
-  text-transform: unset;
+  text-transform: uppercase;
 }
 
 .monday-body .collection-header__container p {
@@ -258,7 +258,8 @@
   }
 
   .monday-body .collection-header__container h2 {
-    font-size: margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 }
 
