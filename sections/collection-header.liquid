@@ -1,11 +1,14 @@
 <div class="collection-header">
+  {% if section.settings.image != blank %}
+    {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'img-fill' %}
+  {% endif %}
   <div class="page-width">
     <div class="collection-header__container">
       <h2>{{ collection.title }}</h2>
       {% if collection.metafields.custom.collection_header_description != blank %}
-      <p class="body-large">{{ collection.metafields.custom.collection_header_description }}</p>
+        <p class="body-large">{{ collection.metafields.custom.collection_header_description }}</p>
       {% else %}
-      <p class="body-large">{{ section.settings.text }}</p>
+        <p class="body-large">{{ section.settings.text }}</p>
       {% endif %}
 
       {% if collection.metafields.custom.spotify_playlist != blank %}
@@ -24,6 +27,11 @@
         "id": "text",
         "label": "Text",
         "default": "We’re on vacation all year long."
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
       }
     ],
     "presets": [
