@@ -242,6 +242,11 @@
   text-transform: unset;
 }
 
+.monday-body .collection-header__container p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 768px) {
   .monday-body .collection-header {
     padding: 60px 0 50px;
