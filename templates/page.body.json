@@ -13,8 +13,8 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/MB-sale-mainbanner-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/MB-sale-mainbanner-mobile1.png",
+        "image": "shopify:\/\/shop_images\/body-cliffside-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/body-cliffside-mobile.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
@@ -110,25 +110,25 @@
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale-TOPS.png",
+            "image": "shopify:\/\/shop_images\/cliffside-bras.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-tops"
+            "link": "shopify:\/\/collections\/monday-body-bras"
           }
         },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale-bras.png",
+            "image": "shopify:\/\/shop_images\/cliffside-bottoms.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-bras"
+            "link": "shopify:\/\/collections\/monday-body-shorts-and-leggings"
           }
         },
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale-bottoms.png",
+            "image": "shopify:\/\/shop_images\/cliffside-tops.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-shorts-and-leggings"
+            "link": "shopify:\/\/collections\/monday-body-tops"
           }
         }
       },
