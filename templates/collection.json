@@ -1,5 +1,12 @@
 {
   "sections": {
+    "collection_password_M93VDx": {
+      "type": "collection-password",
+      "settings": {
+        "enable": true,
+        "text": "Enter password to view this collection:"
+      }
+    },
     "nosto_collection_prepend": {
       "type": "nosto-collection-prepend",
       "settings": {
@@ -119,6 +126,7 @@
     }
   },
   "order": [
+    "collection_password_M93VDx",
     "nosto_collection_prepend",
     "header",
     "filters",

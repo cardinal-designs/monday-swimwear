@@ -196,7 +196,7 @@
     {% endif %}
   </head>
 
-  <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
+  <body class="template-{{ template.name }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if monday_body %} monday-body{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %} {% if collection.metafields.custom.password != blank %}collection-denied{% endif %}">
     <img
       alt="LCP"
       width="99999"
