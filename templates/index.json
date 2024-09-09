@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/site-swap-dragonfruit-desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/site-swap-dragonfruit-mobile.png",
+        "image": "shopify:\/\/shop_images\/main4.png",
+        "mobile_image": "shopify:\/\/shop_images\/lakecomo-swap-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -95,7 +95,6 @@
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_6221.png",
         "mobile_image": "shopify:\/\/shop_images\/clovelly-lower-mobile.jpg",
