@@ -35,9 +35,7 @@
                         </div>
                         <div class="cart-drawer__upsell-content">
                           <p class="body">{{ current_product.title }}</p>
-                          {% for option in current_product.variants[0].options %}
-                            <p class="detail-caps">{{ current_product.options[forloop.index0] }} <span>{{ option }}</span></p>
-                          {% endfor %}
+                          <p class="detail-caps">{{ current_product.price | money }}</p>
                         </div>
                       </div>
                     {% endfor %}
