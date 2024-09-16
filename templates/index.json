@@ -49,6 +49,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_wbAFkR": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
+          }
+        },
         "collection_jCc6BD": {
           "type": "collection",
           "settings": {
@@ -69,6 +75,7 @@
         }
       },
       "block_order": [
+        "collection_wbAFkR",
         "collection_jCc6BD",
         "collection_tTN4nb",
         "collection_a7cRzg"
