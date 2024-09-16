@@ -154,17 +154,10 @@
     "5226b9f2-5319-4123-8208-701823acaaaa": {
       "type": "body-featured-collection",
       "blocks": {
-        "3b43e28f-6d9d-48de-8b70-428d017e8d99": {
-          "type": "link",
-          "settings": {
-            "title": "Bras + Tops",
-            "link": "shopify:\/\/collections\/monday-body-bras-and-tops"
-          }
-        },
         "c1f64361-f86a-42b3-917d-0eff2ac9311d": {
           "type": "link",
           "settings": {
-            "title": "Shop All",
+            "title": "Shop All Monday Body",
             "link": "shopify:\/\/collections\/monday-body"
           }
         },
@@ -178,7 +171,6 @@
         }
       },
       "block_order": [
-        "3b43e28f-6d9d-48de-8b70-428d017e8d99",
         "c1f64361-f86a-42b3-917d-0eff2ac9311d",
         "ab52e1b5-aa42-4277-abcb-8053dc7f88f9"
       ],
