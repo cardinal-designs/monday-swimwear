@@ -45,6 +45,16 @@
     "9391d348-ff6a-43ba-a74c-23aeca4fc41d": {
       "type": "body-content-slider",
       "blocks": {
+        "block_LJizxe": {
+          "type": "block",
+          "settings": {
+            "image_caption": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "8e1972bc-5b3e-40f9-9906-f711c791649e": {
           "type": "block",
           "settings": {
@@ -69,6 +79,7 @@
         }
       },
       "block_order": [
+        "block_LJizxe",
         "8e1972bc-5b3e-40f9-9906-f711c791649e",
         "1ecbf218-8471-457a-9c60-58c0199f3bd0"
       ],
@@ -175,12 +186,12 @@
         "title": "",
         "products": [
           "zion-bra-evergreen-ivory",
-          "griffith-short-6-25-evergreen",
-          "arches-the-tash-bra-evergreen-ivory",
-          "acadia-legging-27-evergreen-ivory"
+          "zion-tank-ivory-black",
+          "zion-bra-black-ivory",
+          "zion-tank-slate-ivory"
         ],
         "image": "shopify:\/\/shop_images\/4_9068e84b-578e-4c64-85ae-f2a2d0069f7a.jpg",
-        "image_link": "shopify:\/\/collections\/monday-body-the-slate-collection",
+        "image_link": "shopify:\/\/collections\/the-zion-collection",
         "text_1": "move in monday",
         "text_2": ""
       }
