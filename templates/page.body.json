@@ -13,8 +13,8 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/body-cliffside-desktop.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/body-cliffside-mobile.png",
+        "image": "shopify:\/\/shop_images\/SLATE-MAIN-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/SLATE-MAIN-mobile.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
@@ -101,7 +101,7 @@
         "title_size": "medium",
         "title_alignment": "center",
         "text": "",
-        "collection": "monday-body-cliffside"
+        "collection": "the-slate-collection"
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
@@ -110,7 +110,7 @@
         "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cliffside-bras.png",
+            "image": "shopify:\/\/shop_images\/mb-bras.png",
             "title": "",
             "link": "shopify:\/\/collections\/monday-body-bras"
           }
@@ -118,7 +118,7 @@
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cliffside-bottoms.png",
+            "image": "shopify:\/\/shop_images\/mb-bottoms.png",
             "title": "",
             "link": "shopify:\/\/collections\/monday-body-shorts-and-leggings"
           }
@@ -179,7 +179,7 @@
           "arches-the-tash-bra-evergreen-ivory",
           "acadia-legging-27-evergreen-ivory"
         ],
-        "image": "shopify:\/\/shop_images\/MB-BANNER.jpg",
+        "image": "shopify:\/\/shop_images\/4_9068e84b-578e-4c64-85ae-f2a2d0069f7a.jpg",
         "image_link": "shopify:\/\/collections\/monday-body-the-slate-collection",
         "text_1": "move in monday",
         "text_2": ""
