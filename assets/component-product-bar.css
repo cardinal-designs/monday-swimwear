@@ -289,6 +289,7 @@
 
   .product-bar__form {
     width: 100%;
+    margin-bottom: 0;
   }
 
   .product-bar__form .product-form {
