@@ -931,3 +931,19 @@ variant-radios fieldset {
 .size-chart__tab:hover:after {
   border-color: black !important;
 }
+
+/* Adjust Swatch Size */
+.product--adjust-swatches .product-form__input:not(.color-swatches) input[type=radio]+label {
+  width: auto;
+  padding: 0 15px;
+  border-radius: 50px;
+}
+
+.product--adjust-swatches .product-form__input:not(.color-swatches) input[type=radio]+label::after {
+  width: calc(100% + 14px);
+  border-radius: 50px;
+}
+
+.product--adjust-swatches .product-form__input-active {
+  display: none;
+}
