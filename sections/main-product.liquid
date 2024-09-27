@@ -13,7 +13,7 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
 <section class="page-width">
-  <div class="product{% if product.type == 'Gift Cards' or product.type == 'Gift Card' %} product--gift-card{% endif %}">
+  <div class="product{% if product.type == 'Gift Cards' or product.type == 'Gift Card' %} product--gift-card{% endif %}{% if product.title == 'Nippies Skin Lift' %} product--adjust-swatches{% endif %}">
     <div class="product__media-container">
       <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
         {{ "accessibility.skip_to_product_info" | t }}
