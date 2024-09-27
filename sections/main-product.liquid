@@ -157,7 +157,7 @@
               <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}">
                 {%- for option in product.options_with_values -%}
 
-                  {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
+                  {% assign color_label = 'select color,color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
                   {% assign downcase_option = option.name | downcase %}
 
                   <fieldset class="js product-form__input{% if color_label contains downcase_option %} color-swatches{% endif %}"{% if use_collection_for_swatches and option.name == 'Color' %} style="display: none"{% endif %}>
