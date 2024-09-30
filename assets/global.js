@@ -714,9 +714,12 @@ class VariantSelects extends HTMLElement {
         value;
     }
 
-    activeTexts.forEach((activeText) => {
-      activeText.innerHTML = value;
-    });
+    this.target.closest('.product-form__input').querySelector('.product-form__input-active').innerHTML = value;
+    document.querySelector('.product-bar').querySelector('.product-form__input-active').innerHTML = value;
+
+    // activeTexts.forEach((activeText) => {
+    //   activeText.innerHTML = value;
+    // });
   }
 
   updatePickupAvailability() {
