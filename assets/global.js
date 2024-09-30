@@ -714,6 +714,7 @@ class VariantSelects extends HTMLElement {
         value;
     }
 
+    console.log(event.target.closest('.product-form__input').querySelector('.product-form__input-active'))
     event.target.closest('.product-form__input').querySelector('.product-form__input-active').innerHTML = value;
     document.querySelector('.product-bar').querySelector('.product-form__input-active').innerHTML = value;
 
