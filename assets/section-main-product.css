@@ -944,6 +944,6 @@ variant-radios fieldset {
   border-radius: 50px;
 }
 
-.product--adjust-swatches .product-form__input-active {
+.product--adjust-swatches .product-form__input-buttons--select-size .product-form__input-active {
   display: none;
 }
