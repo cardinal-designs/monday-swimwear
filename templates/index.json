@@ -49,16 +49,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_a7cRzg": {
+          "type": "collection",
+          "settings": {
+            "collection": "husk-geo"
+          }
+        },
         "collection_wbAFkR": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
-          }
-        },
-        "collection_jCc6BD": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals"
           }
         },
         "collection_tTN4nb": {
@@ -66,19 +66,12 @@
           "settings": {
             "collection": "sarong"
           }
-        },
-        "collection_a7cRzg": {
-          "type": "collection",
-          "settings": {
-            "collection": "minimal-triangle-tops"
-          }
         }
       },
       "block_order": [
+        "collection_a7cRzg",
         "collection_wbAFkR",
-        "collection_jCc6BD",
-        "collection_tTN4nb",
-        "collection_a7cRzg"
+        "collection_tTN4nb"
       ],
       "settings": {
       }
@@ -96,12 +89,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/sunglasses-lower.png",
-        "mobile_image": "shopify://shop_images/lower-mob.png",
+        "image": "shopify://shop_images/signature-main1.png",
+        "mobile_image": "shopify://shop_images/signature-lower-mob.png",
         "left_text": "",
         "right_text": "",
         "link_label": "",
-        "link": "shopify://collections/es-vedra-sunglasses"
+        "link": "shopify://collections/the-signature-collection-1"
       }
     },
     "1640812146b4d73cae": {
@@ -110,35 +103,35 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/0_991fa00f-4c2b-4fbe-9929-c58bca2e73e3.jpg",
+            "image": "shopify://shop_images/3_2caa2f51-e4b6-4527-836c-0e5eaba590d5.jpg",
             "text": "The Supportive Collection",
             "link_label": "Shop Now",
             "link": "shopify://collections/the-supportive-collection"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/1_4ff00bea-080b-4800-8372-836182f6bbe7.jpg",
-            "text": "Swim One Pieces",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/one-pieces"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/3_7ce8d2ae-3f3d-4256-b279-e661682d97dc.jpg",
-            "text": "Essential Beachwear",
+            "image": "shopify://shop_images/1_f8e51e49-5f95-46a3-ac9f-e5e39d14367c.jpg",
+            "text": "For the Sun",
             "link_label": "Shop Now",
-            "link": "shopify://collections/monday-beachwear"
+            "link": "shopify://collections/beachwear-accessories"
+          }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/2_73b948fb-6ca4-4fc3-8673-6d62ad1c1485.jpg",
+            "text": "Ivory",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/ivory"
           }
         }
       },
       "block_order": [
         "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
