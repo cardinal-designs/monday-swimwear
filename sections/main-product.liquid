@@ -170,7 +170,7 @@
                         {% endif %}
                       </span>
                     </legend>
-                    <div class="product-form__input-buttons">
+                    <div class="product-form__input-buttons product-form__input-buttons--{{ option.name | handle }}">
                       {%- for value in option.values -%}
                         
                         {% assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg' %}
