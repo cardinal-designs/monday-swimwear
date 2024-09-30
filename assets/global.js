@@ -652,7 +652,6 @@ class VariantSelects extends HTMLElement {
       event.target.closest("input:checked").dataset.inventory
     );
     const initialValue = event.target.closest("input:checked").value;
-    const activeTexts = this.querySelectorAll(".product-form__input-active");
     const isSize = event.target.classList.contains("product-form__input-size");
     const isProductBar = event.target.classList.contains("is-product-bar");
 
@@ -713,14 +712,13 @@ class VariantSelects extends HTMLElement {
         `<span class="product-form__input-active-size-bubble">${initialValue}</span> ` +
         value;
     }
+    
+    const activeTexts = event.target.closest('.product-form__input').querySelectorAll('.product-form__input-active');
+    activeTexts.forEach((activeText) => {
+      activeText.innerHTML = value;
+    });
 
-    console.log(event.target.closest('.product-form__input').querySelector('.product-form__input-active'))
-    event.target.closest('.product-form__input').querySelector('.product-form__input-active').innerHTML = value;
     document.querySelector('.product-bar').querySelector('.product-form__input-active').innerHTML = value;
-
-    // activeTexts.forEach((activeText) => {
-    //   activeText.innerHTML = value;
-    // });
   }
 
   updatePickupAvailability() {
