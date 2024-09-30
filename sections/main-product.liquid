@@ -174,11 +174,9 @@
                       {%- for value in option.values -%}
                         
                         {% liquid
-                          assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg'
-                          assign color_swatch_image = images[color_swatch_name]
-
-                          if value.swatch.image != blank
-                            assign color_swatch_name = value.swatch.image
+                          if value.swatch.color == blank
+                            assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg'
+                            assign color_swatch_image = images[color_swatch_name]
                           endif
                         %}
 
