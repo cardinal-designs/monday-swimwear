@@ -189,7 +189,7 @@
                         </label>
                       {%- endfor -%}
                       <p class="product-form__input-active detail-caps hide-mobile">
-                        {% if option.name == 'Size' %}
+                        {% if option.name == 'Size' or option.name == 'Color' %}
                           {% render 'size-text' value: option.selected_value %}
                         {% else %}
                           {{ option.selected_value }}
