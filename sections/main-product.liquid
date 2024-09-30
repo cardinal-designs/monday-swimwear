@@ -173,8 +173,11 @@
                     <div class="product-form__input-buttons product-form__input-buttons--{{ option.name | handle }}">
                       {%- for value in option.values -%}
                         
-                        {% assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg' %}
-                        {% assign color_swatch_image = images[color_swatch_name] %}
+                        {% liquid
+                          
+                          assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg'
+                          assign color_swatch_image = images[color_swatch_name]
+                        %}
 
                         <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                           {% if option.name == 'Size' %}class="product-form__input-size"{% endif %}
@@ -184,7 +187,7 @@
                           {% if option.selected_value == value %}checked{% endif %}
                            form="{{ product_form_id }}"
                         >
-                        <label class="detail-caps" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" {% if color_label contains downcase_option %} style="font-size: 0;background-image: url('{{ color_swatch_image | img_url: '60x60' }}');"{% endif %}>
+                        <label data="{{ value.swatch.color }}" class="detail-caps" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" {% if color_label contains downcase_option %} style="font-size: 0;background-image: url('{{ color_swatch_image | img_url: '60x60' }}');"{% endif %}>
                           {{ value }}
                         </label>
                       {%- endfor -%}
