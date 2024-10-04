@@ -592,7 +592,8 @@ class VariantSelects extends HTMLElement {
       `[data-media-id="${this.dataset.section}-${this.currentVariant.featured_media.id}"]`
     );
 
-    console.log(window.productThumbsSlider,Number(newMedia.dataset.swiperSlideIndex))
+    if (!newMedia) return;
+    window.productThumbsSlider.slideTo(Number(newMedia.dataset.swiperSlideIndex));
 
     // if (!newMedia) return;
     // const modalContent = document.querySelector(
