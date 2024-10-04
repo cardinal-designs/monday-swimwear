@@ -593,7 +593,7 @@ class VariantSelects extends HTMLElement {
     );
 
     if (!newMedia) return;
-    window.productThumbsSlider.slideTo(Number(newMedia.dataset.swiperSlideIndex));
+    window.productThumbsSlider.slideToLoop(Number(newMedia.dataset.swiperSlideIndex));
 
     // if (!newMedia) return;
     // const modalContent = document.querySelector(
