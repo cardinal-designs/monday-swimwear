@@ -592,7 +592,7 @@ class VariantSelects extends HTMLElement {
       `[data-media-id="${this.dataset.section}-${this.currentVariant.featured_media.id}"]`
     );
 
-    newMedia.trigger('click');
+    newMedia.click();
     console.log('HERE',newMedia)
 
     // if (!newMedia) return;
