@@ -575,7 +575,7 @@
 
 {% javascript %}
     // Product sliders 
-    const productThumbsSlider = new Swiper('.product__thumbnail-list', {
+    window.productThumbsSlider = new Swiper('.product__thumbnail-list', {
     slidesPerView: 4,
     loop: false,
     spaceBetween: 20,
@@ -603,7 +603,7 @@
     loop: true,
     spaceBetween: 0,
     thumbs: {
-      swiper: productThumbsSlider
+      swiper: window.productThumbsSlider
     },
     scrollbar: {
       el: '.product__media-scrollbar',
