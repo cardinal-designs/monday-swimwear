@@ -175,7 +175,9 @@ class CartDrawer extends HTMLElement {
   }
 
   disableLoading() {
-    document.getElementById('cart-drawer-loading').classList.add('hidden');
+    if(document.getElementById('cart-drawer-loading')){
+      document.getElementById('cart-drawer-loading').classList.add('hidden');
+    }
   }
 
   handleBodyClick(evt) {
