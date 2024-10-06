@@ -13,13 +13,13 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify:\/\/shop_images\/SLATE-MAIN-desktop.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/SLATE-MAIN-mobile.png",
+        "image": "shopify://shop_images/zion-web_7573324a-d03f-4094-b54d-6ac13c8ca9d4.png",
+        "mobile_image": "shopify://shop_images/zion-main-mob.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
         "button_label": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/monday-body",
+        "button_link": "shopify://collections/the-zion-collection",
         "full_link": true
       }
     },
@@ -30,7 +30,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop New Arrivals",
-            "button_link": "shopify:\/\/collections\/monday-body-new-arrivals"
+            "button_link": "shopify://collections/monday-body-new-arrivals"
           }
         }
       },
@@ -58,23 +58,23 @@
         "8e1972bc-5b3e-40f9-9906-f711c791649e": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF1469.jpg",
-            "image_caption": "<p>Liv in the <a href=\"https:\/\/mondayswimwear.com\/products\/arches-bra-ivory-black\" title=\"https:\/\/mondayswimwear.com\/products\/arches-bra-ivory-black\">Arches Bra<\/a><\/p>",
+            "image": "shopify://shop_images/DSCF1469.jpg",
+            "image_caption": "<p>Liv in the <a href=\"https://mondayswimwear.com/products/arches-bra-ivory-black\" title=\"https://mondayswimwear.com/products/arches-bra-ivory-black\">Arches Bra</a></p>",
             "title": "The \"do it all\" bras",
             "text": "These bras will let you have it all and do it all. Genuinely supportive, high impact sports bras that are perfect for every type of fitness. Tried, tested, and perfected by Tash & Devin.",
             "button_label": "Shop Bras",
-            "button_link": "shopify:\/\/collections\/monday-body-bras"
+            "button_link": "shopify://collections/monday-body-bras"
           }
         },
         "1ecbf218-8471-457a-9c60-58c0199f3bd0": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_01b35f32-72f3-4185-908d-5f1599a817db.jpg",
+            "image": "shopify://shop_images/2_01b35f32-72f3-4185-908d-5f1599a817db.jpg",
             "image_caption": "",
             "title": "The it-girl uniform",
             "text": "Go to pieces for all day wear. Stylish, comfortable, and flattering. These are designed to take you from class to wherever your day takes you.",
             "button_label": "Shop All",
-            "button_link": "shopify:\/\/collections\/monday-body"
+            "button_link": "shopify://collections/monday-body"
           }
         }
       },
@@ -91,14 +91,14 @@
       "type": "body-image-text-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_5592.png",
-        "mobile_image": "shopify:\/\/shop_images\/Monday_D6_288.jpg",
+        "image": "shopify://shop_images/IMG_5592.png",
+        "mobile_image": "shopify://shop_images/Monday_D6_288.jpg",
         "section_size": "large",
         "content_position": "center-left",
         "subtitle": "",
         "text": "",
         "button_label": "",
-        "button_link": "shopify:\/\/collections\/monday-body-shorts-and-leggings",
+        "button_link": "shopify://collections/monday-body-shorts-and-leggings",
         "make_section_clickable": true
       }
     },
@@ -118,35 +118,35 @@
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
-        "8f087094-f3ad-4736-93d9-157a37f38591": {
+        "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mb-bras-updated.png",
+            "image": "shopify://shop_images/Flattering-tops.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-bras"
+            "link": "shopify://collections/monday-body-tops"
           }
         },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mb-bottoms.png",
+            "image": "shopify://shop_images/sculpting-bottoms.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-shorts-and-leggings"
+            "link": "shopify://collections/monday-body-shorts-and-leggings"
           }
         },
-        "553d10dc-6642-4b1c-815d-95677cea6218": {
+        "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mb-tops.png",
+            "image": "shopify://shop_images/supportive-bras.png",
             "title": "",
-            "link": "shopify:\/\/collections\/monday-body-tops"
+            "link": "shopify://collections/monday-body-bras"
           }
         }
       },
       "block_order": [
-        "8f087094-f3ad-4736-93d9-157a37f38591",
+        "553d10dc-6642-4b1c-815d-95677cea6218",
         "228154d8-da02-4a47-bdfb-eddec1bf3051",
-        "553d10dc-6642-4b1c-815d-95677cea6218"
+        "8f087094-f3ad-4736-93d9-157a37f38591"
       ],
       "settings": {
       }
@@ -158,7 +158,7 @@
           "type": "link",
           "settings": {
             "title": "Shop All Monday Body",
-            "link": "shopify:\/\/collections\/monday-body"
+            "link": "shopify://collections/monday-body"
           }
         },
         "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
@@ -177,13 +177,14 @@
       "settings": {
         "title": "",
         "products": [
-          "zion-bra-evergreen-ivory",
-          "zion-tank-slate-ivory",
-          "zion-tank-ivory-black",
-          "acadia-legging-27-black-ivory"
+          "zion-tank-black-ivory",
+          "yosemite-top-ivory-rib",
+          "the-tash-bra-black-ivory",
+          "elysian-short-black"
         ],
-        "image": "shopify:\/\/shop_images\/4_9068e84b-578e-4c64-85ae-f2a2d0069f7a.jpg",
-        "image_link": "shopify:\/\/collections\/the-zion-collection",
+        "image": "shopify://shop_images/4_9068e84b-578e-4c64-85ae-f2a2d0069f7a.jpg",
+        "video": "shopify://files/videos/MB-VIDEO.mp4",
+        "image_link": "shopify://collections/monday-body",
         "text_1": "move in monday",
         "text_2": ""
       }
