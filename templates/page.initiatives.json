@@ -32,6 +32,7 @@
       "blocks": {
         "block_kqJDBW": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "reversed": false,
             "image": "shopify://shop_images/1_0930ad41-7d8d-4124-a223-09da9a4a638a.jpg",
