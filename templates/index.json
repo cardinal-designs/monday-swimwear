@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/husk-geo-main-desktop_063a5f82-58de-4e0b-871c-4ac3e86e4284.png",
-        "mobile_image": "shopify://shop_images/husk-geo-main-mobile_106257d5-d2cf-4867-afff-5df18801dead.png",
+        "image": "shopify://shop_images/husk-geo-main-desktop.png",
+        "mobile_image": "shopify://shop_images/husk-geo-main-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -128,10 +128,10 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/1_bc22a284-cc19-4d5b-860b-7a255940e81b.jpg",
-            "text": "Beachwear",
+            "image": "shopify://shop_images/2_73b948fb-6ca4-4fc3-8673-6d62ad1c1485.jpg",
+            "text": "Ivory",
             "link_label": "Shop Now",
-            "link": "shopify://collections/monday-beachwear"
+            "link": "shopify://collections/ivory"
           }
         }
       },
