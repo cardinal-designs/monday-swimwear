@@ -25,14 +25,6 @@
           {% endfor %}
 
 
-          {% for option in current_product.options_with_values %}
-            {% if option.name == 'Color' %}
-              <div class="variant-buttons_hover">
-                <p class="hover__quick-add">Shop Now</p>
-              </div>
-              {% endif %}
-          {% endfor %}
-
             <div class="variant-buttons_hover">
              <p class="hover__quick-add">Quick Add</p>
             {% for current_product in collection_for_swatches.products %}
