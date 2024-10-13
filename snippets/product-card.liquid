@@ -24,11 +24,15 @@
             {% endif %}
           {% endfor %}
 
-          {% if product_card_product.variants[0].title == 'Color' or product_card_product.variants[1].title == 'Color' %}
-            <div class="variant-buttons_hover">
-              <p class="hover__quick-add">Shop Now</p>
-            </div>
-          {% else %}
+
+          {% for option in current_product.options_with_values %}
+            {% if option.name == 'Color' %}
+              <div class="variant-buttons_hover">
+                <p class="hover__quick-add">Shop Now</p>
+              </div>
+              {% endif %}
+          {% endfor %}
+
             <div class="variant-buttons_hover">
              <p class="hover__quick-add">Quick Add</p>
             {% for current_product in collection_for_swatches.products %}
@@ -45,7 +49,7 @@
             </div>
             {% endfor %}
             </div>
-          {% endif %}
+
           
         </div>
         <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
