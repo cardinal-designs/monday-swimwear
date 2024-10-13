@@ -23,6 +23,12 @@
               {% assign isPreSale = true %}
             {% endif %}
           {% endfor %}
+
+          {% if product_card_product.variant.size > 0 %}
+            <div class="variant-buttons_hover">
+              <p class="hover__quick-add">Shop Now</p>
+            </div>
+          {% else %}
             <div class="variant-buttons_hover">
              <p class="hover__quick-add">Quick Add</p>
             {% for current_product in collection_for_swatches.products %}
@@ -39,7 +45,8 @@
             </div>
             {% endfor %}
             </div>
-   
+          {% endif %}
+          
         </div>
         <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
       </a>
