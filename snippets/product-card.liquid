@@ -24,7 +24,7 @@
             {% endif %}
           {% endfor %}
 
-          {% if product_card_product.variants[0] == 'Color' %}
+          {% if product_card_product.variants[0].title == 'Color' or product_card_product.variants[1].title == 'Color' %}
             <div class="variant-buttons_hover">
               <p class="hover__quick-add">Shop Now</p>
             </div>
