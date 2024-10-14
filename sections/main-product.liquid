@@ -6,8 +6,20 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag: preload: true }}
 {{ 'component-size-chart.css' | asset_url | stylesheet_tag: preload: true }}
 
-{% assign picker_type = 'button' %}
+{% liquid
+  assign picker_type = 'button'
+  
+  assign has_color_variant = false
+  if product.options_by_name['Select Color'].values.size > 1 or product.options_by_name['Color'].values.size > 1
+    assign has_color_variant = true
+  endif
 
+  assign image_position = 1
+  if has_color_variant
+    assign image_position = product.selected_variant.featured_image.position
+  endif
+%}
+{{ image_position }}
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
