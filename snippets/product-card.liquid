@@ -1,7 +1,14 @@
 <link rel="stylesheet" href="{{ 'component-rating.css' | asset_url }}" media="print" onload="this.media='all'" />
 {% comment %}{{ 'component-rating.css' | asset_url | stylesheet_tag }}{% endcomment %}
-{{ product_card_product.options }}
 
+{% liquid
+  assign has_color_variant = false
+  assign options_map = product_card_product.options | map: ''
+  if product_card_product.options has 'Color' or product_card_product.options contains 'Select Color'
+    assign has_color_variant = true
+  endif
+%}
+{{ has_color_variant }}
 <product-card data="{{ product_card_product.variants[0].available | json }}" data-product-id="{{ product_card_product.id }}">
   <div class="product-card" tabindex="-1">
     <div class="product-card__inner">
