@@ -164,8 +164,8 @@
                         assign product_image = product_card_product.featured_image | img_url: '600x'
                       endif
                      %}
-{{ variant.title }}
-                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-variant="{{ variant }}" data-hover="{{ product_card_product.media[1] | img_url: '600x' }}" data-title="{{ product_card_product.title }}" data-url="{{ product_card_product.url  | within: collection }}{% if variant %}?variant={{ variant.id }}{% endif %}" data-available="{{ variant.available }}" data-price="{{ variant.price }}" data-compare-price="{{ variant.compare_at_price }}" data-currency="{{ shop.currency }}">
+                    
+                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-variant="{{ variant_for_value }}" data-hover="{{ product_card_product.media[1] | img_url: '600x' }}" data-title="{{ product_card_product.title }}" data-url="{{ product_card_product.url  | within: collection }}{% if variant_for_value %}?variant={{ variant_for_value.id }}{% endif %}" data-available="{{ variant_for_value.available }}" data-price="{{ variant_for_value.price }}" data-compare-price="{{ variant_for_value.compare_at_price }}" data-currency="{{ shop.currency }}">
                       <div class="product-card__swatch-color" style="background-color: {{ value.swatch.color }};{% if color_swatch_image != blank %}background-image: url('{{ color_swatch_image | img_url: '60x60' }}');{% endif %}"></div>
                       <span class="visually-hidden">{{ value }}</span>
                     </button>
