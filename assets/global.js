@@ -974,6 +974,7 @@ class ProductCard extends HTMLElement {
     const image = swatch.dataset.image;
     const hoverImage = swatch.dataset.hover;
     const available = swatch.dataset.available;
+    console.log(image,hoverImage,available)
 
     if (available == "true") {
       this.card.style.opacity = "1";
