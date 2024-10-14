@@ -4,7 +4,7 @@
 {% liquid
   assign has_color_variant = false
   for option in product_card_product.options_by_name
-    echo option
+    echo option.name
   endfor
 %}
 {{ has_color_variant }}
