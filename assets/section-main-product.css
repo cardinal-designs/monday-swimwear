@@ -954,7 +954,7 @@ variant-radios fieldset {
   height: 50px;
   top: 10px;
   left: 10px;
-  z-index: 2px;
+  z-index: 2;
 }
 
 .product-media__icon svg {
