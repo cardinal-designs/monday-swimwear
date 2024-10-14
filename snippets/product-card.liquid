@@ -147,13 +147,13 @@
                     {% comment %} Find variants for each color {% endcomment %}
                     {% for variant in product_card_product.variants %}
                       {% if variant[variant_option] == value %}
+                        sdfa
                         {% assign variant_for_value = variant %}
                         {% break %}
                       {% endif %}
                     {% endfor %}
 
                     {% comment %} Get image {% endcomment %}
-                    
                     {% liquid
                       if value.swatch.color == blank
                         assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg'
