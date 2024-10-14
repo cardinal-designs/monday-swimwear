@@ -6,7 +6,19 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag: preload: true }}
 {{ 'component-size-chart.css' | asset_url | stylesheet_tag: preload: true }}
 
-{% assign picker_type = 'button' %}
+{% liquid
+  assign picker_type = 'button'
+  
+  assign has_color_variant = false
+  if product.options_by_name['Select Color'].values.size > 1 or product.options_by_name['Color'].values.size > 1
+    assign has_color_variant = true
+  endif
+
+  assign image_position = 1
+  if has_color_variant
+    assign image_position = product.selected_variant.featured_image.position
+  endif
+%}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -49,7 +61,7 @@
           {% endunless %}
         </div>
         {% unless product.media.size == 1 %}
-          <ul class="product__media-list swiper list-unstyled" role="list">
+          <ul class="product__media-list swiper list-unstyled" role="list" data-position="{{ image_position }}">
             <div class="swiper-wrapper">
               {%- for media in product.media -%}
                 <li class="product__media-item swiper-slide" data-media-id="{{ section.id }}-{{ media.id }}">
@@ -602,6 +614,7 @@
     slidesPerView: 1,
     loop: true,
     spaceBetween: 0,
+    initialSlide: Number(document.querySelector('.product__media-list').dataset.position) - 1,
     thumbs: {
       swiper: window.productThumbsSlider
     },

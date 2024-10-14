@@ -1,7 +1,14 @@
 <link rel="stylesheet" href="{{ 'component-rating.css' | asset_url }}" media="print" onload="this.media='all'" />
 {% comment %}{{ 'component-rating.css' | asset_url | stylesheet_tag }}{% endcomment %}
 
-<product-card data="{{product_card_product.variants[0].available | json}}" data-product-id="{{ product_card_product.id }}">
+{% liquid
+  assign has_color_variant = false
+  if product_card_product.options_by_name['Select Color'].values.size > 1 or product_card_product.options_by_name['Color'].values.size > 1
+    assign has_color_variant = true
+  endif
+%}
+
+<product-card data="{{ product_card_product.variants[0].available | json }}" data-product-id="{{ product_card_product.id }}">
   <div class="product-card" tabindex="-1">
     <div class="product-card__inner">
       <a href="{{ product_card_product.url | within: collection }}" class="product-card__link full-unstyled-link">
@@ -23,23 +30,30 @@
               {% assign isPreSale = true %}
             {% endif %}
           {% endfor %}
+
+
+          {% unless has_color_variant %}
             <div class="variant-buttons_hover">
-             <p class="hover__quick-add">Quick Add</p>
-            {% for current_product in collection_for_swatches.products %}
-            <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
-              <div class="">
-                {% for variant in current_product.variants %}
-                  {% if variant.available %}
-                    <span class="js-add-to-cart" data-id="{{variant.id}}" data-is-pre-sale="{%- if isPreSale -%}true{%- endif -%}">{{ variant.option2 }}</span>
-                  {% else %}
-                    <span class="sold-out-swatch" data-id="{{variant.id}}">{{ variant.option2 }}</span>
-                  {% endif %}
+                <p class="hover__quick-add">Quick Add</p>
+                {% for current_product in collection_for_swatches.products %}
+                  <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
+                    <div class="">
+                      {% for variant in current_product.variants %}
+                        {% if variant.available %}
+                          <span class="js-add-to-cart" data-id="{{variant.id}}" data-is-pre-sale="{%- if isPreSale -%}true{%- endif -%}">{{ variant.option2 }}</span>
+                        {% else %}
+                          <span class="sold-out-swatch" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
                 {% endfor %}
               </div>
-            </div>
-            {% endfor %}
-            </div>
-   
+            {% else %}
+              <button class="variant-buttons__shop-now body">Shop Now</button>
+            {% endunless %}
+
+          
         </div>
         <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
       </a>
@@ -129,7 +143,7 @@
             {% comment %} Using product variants {% endcomment %}
             {% assign swatch_count = 0 %}
             <div class="product-card__swatches">
-              {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
+              {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve,select color' | split: ',' %}
               {% for option in product_card_product.options_with_values %}
                 {% assign downcase_option = option.name | downcase %}
 
@@ -150,17 +164,20 @@
                     {% endfor %}
 
                     {% comment %} Get image {% endcomment %}
+                    {% liquid
+                      if value.swatch.color == blank
+                        assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg'
+                        assign color_swatch_image = images[color_swatch_name]
+                      endif
+
+                      assign product_image = variant_for_value.featured_image | img_url: '600x'
+                      if variant_for_value.featured_image == blank
+                        assign product_image = product_card_product.featured_image | img_url: '600x'
+                      endif
+                     %}
                     
-                    {% assign color_swatch_name = value | replace: "/", "-" | handleize  | prepend: 'swatch_' | append: '.jpg' %}
-                    {% assign color_swatch_image = images[color_swatch_name] %}
-
-                    {% assign product_image = variant.featured_image | img_url: '600x' %}
-                    {% if variant.featured_image == blank %}
-                      {% assign product_image = product_card_product.featured_image | img_url: '600x' %}
-                    {% endif %}
-
-                    <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-variant="{{ variant }}" data-url="{{ variant.url | within: collection }}">
-                      <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                    <button class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-is-variant="true" data-variant="{{ variant_for_value }}" data-hover="{{ product_card_product.media[1] | img_url: '600x' }}" data-title="{{ product_card_product.title }}" data-url="{{ product_card_product.url  | within: collection }}{% if variant_for_value %}?variant={{ variant_for_value.id }}{% endif %}" data-available="{{ variant_for_value.available }}" data-price="{{ variant_for_value.price }}" data-compare-price="{{ variant_for_value.compare_at_price }}" data-currency="{{ shop.currency }}">
+                      <div class="product-card__swatch-color" style="background-color: {{ value.swatch.color }};{% if color_swatch_image != blank %}background-image: url('{{ color_swatch_image | img_url: '60x60' }}');{% endif %}"></div>
                       <span class="visually-hidden">{{ value }}</span>
                     </button>
                     {% assign swatch_count = swatch_count | plus: 1 %}

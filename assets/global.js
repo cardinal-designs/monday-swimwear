@@ -936,12 +936,16 @@ class ProductCard extends HTMLElement {
 
   onSwatchClick(swatch, event) {
     if (!swatch.classList.contains("active")) {
+      const isVariant = swatch.dataset.isVariant;
+      
       this.updateActiveSwatch(swatch);
       this.updateImages(swatch);
       this.updateTitle(swatch);
       this.updateLinks(swatch);
       this.updatePrice(swatch);
-      this.updateVariants(swatch);
+      if (isVariant != 'true') {
+        this.updateVariants(swatch);
+      }
     }
   }
 
