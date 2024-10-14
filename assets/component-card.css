@@ -183,7 +183,7 @@
     z-index: 99999999;
   }
 
-  .variant-buttons__shop-now {
+  .product-card:hover .variant-buttons__shop-now {
     opacity: 1;
   }
 }
