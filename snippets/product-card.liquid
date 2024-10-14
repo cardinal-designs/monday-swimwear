@@ -132,7 +132,7 @@
             {% comment %} Using product variants {% endcomment %}
             {% assign swatch_count = 0 %}
             <div class="product-card__swatches">
-              {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' %}
+              {% assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve,select size' | split: ',' %}
               {% for option in product_card_product.options_with_values %}
                 {% assign downcase_option = option.name | downcase %}
 
