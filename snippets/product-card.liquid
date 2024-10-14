@@ -3,8 +3,7 @@
 
 {% liquid
   assign has_color_variant = false
-  assign options_map = product_card_product.options | map: ''
-  if product_card_product.options has 'Color' or product_card_product.options contains 'Select Color'
+  if product_card_product.options contains 'Color' or product_card_product.options contains 'Select Color'
     assign has_color_variant = true
   endif
 %}
