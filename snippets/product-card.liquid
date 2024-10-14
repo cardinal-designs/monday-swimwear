@@ -2,7 +2,6 @@
 {% comment %}{{ 'component-rating.css' | asset_url | stylesheet_tag }}{% endcomment %}
 {{ product_card_product.options }}
 
-
 <product-card data="{{ product_card_product.variants[0].available | json }}" data-product-id="{{ product_card_product.id }}">
   <div class="product-card" tabindex="-1">
     <div class="product-card__inner">
