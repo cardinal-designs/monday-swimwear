@@ -154,16 +154,20 @@
 
                     {% comment %} Get image {% endcomment %}
                     
-                    {% assign color_swatch_name = value | replace: "/", "-" | handleize  | prepend: 'swatch_' | append: '.jpg' %}
-                    {% assign color_swatch_image = images[color_swatch_name] %}
+                    {% liquid
+                      if value.swatch.color == blank
+                        assign color_swatch_name = value | handleize | prepend: 'swatch_' | append: '.jpg'
+                        assign color_swatch_image = images[color_swatch_name]
+                      endif
 
-                    {% assign product_image = variant.featured_image | img_url: '600x' %}
-                    {% if variant.featured_image == blank %}
-                      {% assign product_image = product_card_product.featured_image | img_url: '600x' %}
-                    {% endif %}
+                      assign product_image = variant.featured_image | img_url: '600x'
+                      if variant.featured_image == blank
+                        assign product_image = product_card_product.featured_image | img_url: '600x'
+                      endif
+                     %}
 
                     <button  class="product-card__swatch{% if value == option.selected_value %} active{% endif %}" data-image="{{ product_image }}" data-variant="{{ variant }}" data-hover="{{ product_card_product.media[1] | img_url: '600x' }}" data-title="{{ product_card_product.title }}" data-url="{{ product_card_product.url  | within: collection }}{% if variant %}?variant={{ variant.id }}{% endif %}" data-available="{{ variant.available }}" data-price="{{ variant.price }}" data-compare-price="{{ variant.compare_at_price }}" data-currency="{{ shop.currency }}">
-                      <div class="product-card__swatch-color" style="background-image: url('{{ color_swatch_image | img_url: '30x' }}')"></div>
+                      <div class="product-card__swatch-color" style="background-color: {{ value.swatch.color }};{% if color_swatch_image != blank %}background-image: url('{{ color_swatch_image | img_url: '60x60' }}');{% endif %}"></div>
                       <span class="visually-hidden">{{ value }}</span>
                     </button>
                     {% assign swatch_count = swatch_count | plus: 1 %}
