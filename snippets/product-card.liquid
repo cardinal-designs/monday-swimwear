@@ -159,8 +159,8 @@
                         assign color_swatch_image = images[color_swatch_name]
                       endif
 
-                      assign product_image = variant.featured_image | img_url: '600x'
-                      if variant.featured_image == blank
+                      assign product_image = variant_for_value.featured_image | img_url: '600x'
+                      if variant_for_value.featured_image == blank
                         assign product_image = product_card_product.featured_image | img_url: '600x'
                       endif
                      %}
