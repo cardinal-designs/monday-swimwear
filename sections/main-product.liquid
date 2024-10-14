@@ -19,7 +19,7 @@
     assign image_position = product.selected_variant.featured_image.position
   endif
 %}
-{{ image_position }}
+
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
@@ -61,7 +61,7 @@
           {% endunless %}
         </div>
         {% unless product.media.size == 1 %}
-          <ul class="product__media-list swiper list-unstyled" role="list">
+          <ul class="product__media-list swiper list-unstyled" role="list" data-position="{{ image_position }}">
             <div class="swiper-wrapper">
               {%- for media in product.media -%}
                 <li class="product__media-item swiper-slide" data-media-id="{{ section.id }}-{{ media.id }}">
