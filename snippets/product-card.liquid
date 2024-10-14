@@ -32,8 +32,8 @@
           {% endfor %}
 
 
+          {% unless has_color_variant %}
             <div class="variant-buttons_hover">
-              {% unless has_color_variant %}
                 <p class="hover__quick-add">Quick Add</p>
                 {% for current_product in collection_for_swatches.products %}
                   <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
@@ -48,10 +48,10 @@
                     </div>
                   </div>
                 {% endfor %}
-              {% else %}
-                <p class="hover__quick-add">Shop</p>
-              {% endunless %}
-            </div>
+              </div>
+            {% else %}
+              <button class="variant-buttons__shop-now button">Shop Now</button>
+            {% endunless %}
 
           
         </div>
