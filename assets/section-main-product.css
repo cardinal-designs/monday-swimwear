@@ -42,6 +42,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .product__media-list .swiper-button {
@@ -946,4 +947,18 @@ variant-radios fieldset {
 
 .product--adjust-swatches .product-form__input-buttons--select-size .product-form__input-active {
   display: none;
+}
+
+.product-media__icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.product-media__icon svg {
+  width: 50px;
+  height: 50px;
 }
