@@ -3,11 +3,11 @@
 
 {% liquid
   assign has_color_variant = false
-  for option in product_card_product.options_by_name
-    echo option.name
-  endfor
+  if product_card_product.options_by_name['Select Color'].values.size > 1 or product_card_product.options_by_name['Color'].values.size > 1
+    assign has_color_variant = true
+  endif
 %}
-{{ has_color_variant }}
+
 <product-card data="{{ product_card_product.variants[0].available | json }}" data-product-id="{{ product_card_product.id }}">
   <div class="product-card" tabindex="-1">
     <div class="product-card__inner">
@@ -33,20 +33,24 @@
 
 
             <div class="variant-buttons_hover">
-             <p class="hover__quick-add">Quick Add</p>
-            {% for current_product in collection_for_swatches.products %}
-            <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
-              <div class="">
-                {% for variant in current_product.variants %}
-                  {% if variant.available %}
-                    <span class="js-add-to-cart" data-id="{{variant.id}}" data-is-pre-sale="{%- if isPreSale -%}true{%- endif -%}">{{ variant.option2 }}</span>
-                  {% else %}
-                    <span class="sold-out-swatch" data-id="{{variant.id}}">{{ variant.option2 }}</span>
-                  {% endif %}
+              {% unless has_color_variant %}
+                <p class="hover__quick-add">Quick Add</p>
+                {% for current_product in collection_for_swatches.products %}
+                  <div data-button="{{ current_product.title }}" class="product-card__button {% if current_product.title == product_card_product.title %}active{% endif %}">
+                    <div class="">
+                      {% for variant in current_product.variants %}
+                        {% if variant.available %}
+                          <span class="js-add-to-cart" data-id="{{variant.id}}" data-is-pre-sale="{%- if isPreSale -%}true{%- endif -%}">{{ variant.option2 }}</span>
+                        {% else %}
+                          <span class="sold-out-swatch" data-id="{{variant.id}}">{{ variant.option2 }}</span>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
                 {% endfor %}
-              </div>
-            </div>
-            {% endfor %}
+              {% else %}
+                <p class="hover__quick-add">Shop</p>
+              {% endunless %}
             </div>
 
           
