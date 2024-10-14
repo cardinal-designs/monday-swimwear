@@ -264,9 +264,3 @@ details[open=true] .modal-overlay::after {
 }
 
 /* ======================== Mobile search css end ========================= */
-
-.product-card__icon {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
