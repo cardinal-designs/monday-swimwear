@@ -3,7 +3,7 @@
 }
 
 .product-slider__header {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -115,7 +115,7 @@
 .product-slider__col-link {
   position: absolute;
   right: 0;
-  bottom: -30px;
+  bottom: -25px;
 }
 
 /* Collections */
