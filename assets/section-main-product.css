@@ -623,7 +623,9 @@ variant-radios fieldset {
   text-transform: uppercase;
 }
 
-.product__dropdown-content .rte p {
+.product__dropdown-content .rte p,
+.product__dropdown-content .rte ul,
+.product__dropdown-content .rte li {
   font-family: 'ABC Favorit', sans-serif;
   font-style: normal;
   font-weight: 400;
