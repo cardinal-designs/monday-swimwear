@@ -633,6 +633,10 @@ variant-radios fieldset {
   line-height: 1.8;
   letter-spacing: 0.02em;
 }
+
+.product__dropdown-content .rte ul {
+  margin-top: 0;
+}
   
 .product__dropdown-content .rte span,
 .product__dropdown-content .rte div {
