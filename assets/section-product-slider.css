@@ -16,6 +16,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .product-slider__header {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+}
+
 /* Navigation */
 .product-slider__navigation {
   display: flex;
@@ -79,7 +87,7 @@
   }
 
   .product-slider__navigation button {
-    margin-right: 30px;
+    margin-right: 40px;
   }
 
   .product-slider__navigation button:last-child {
