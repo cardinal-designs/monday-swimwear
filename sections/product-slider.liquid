@@ -23,8 +23,12 @@
             </button>
           </div>
         {% endfor %}
-        <div class="product-slider__col-link">
-          <a href="{{ current_collection.url }}" class="text-link">View All Products</a>
+          {% for block in section.blocks %}
+            {% assign current_collection = collections[block.settings.collection] %}
+            <div class="product-slider__col-link{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
+              <a href="{{ current_collection.url }}" class="text-link">View All Products</a>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>
