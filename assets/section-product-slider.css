@@ -114,6 +114,7 @@
 
 /* Link */
 .product-slider__col-link {
+  margin-top: 25px;
   display: none;
 }
 
