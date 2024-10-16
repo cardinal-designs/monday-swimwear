@@ -88,6 +88,11 @@
 }
 
 /* Arrows */
+.product-slider__arrows {
+  flex-shrink: 0;
+  text-align: right;
+}
+
 .product-slider__arrows-wrapper {
   display: none;
 }
@@ -114,7 +119,7 @@
 
 /* Link */
 .product-slider__col-link {
-  margin-top: 25px;
+  margin-top: 20px;
   display: none;
 }
 
