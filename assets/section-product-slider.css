@@ -21,6 +21,7 @@
     margin-left: -10px;
     margin-right: -10px;
     padding: 0 10px;
+    overflow: scroll;
     border-bottom: 1px solid rgba(0,0,0,0.1);
   }
 }
@@ -89,6 +90,7 @@
 
   .product-slider__navigation button {
     margin-right: 40px;
+    white-space: nowrap;
   }
 
   .product-slider__navigation button:last-child {
