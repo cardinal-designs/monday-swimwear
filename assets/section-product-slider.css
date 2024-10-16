@@ -112,12 +112,6 @@
   }
 }
 
-.product-slider__col-link {
-  position: absolute;
-  right: 0;
-  bottom: -25px;
-}
-
 /* Link */
 .product-slider__col-link {
   display: none;
@@ -125,6 +119,12 @@
 
 .product-slider__col-link.active {
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .product-slider__col-link {
+    margin-top: 30px;
+  }
 }
 
 /* Collections */
