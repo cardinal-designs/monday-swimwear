@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/husk-geo-desktop-new.png",
-        "mobile_image": "shopify://shop_images/husk-geo-main-mobile_106257d5-d2cf-4867-afff-5df18801dead.png",
+        "image": "shopify://shop_images/main-desktop-update.png",
+        "mobile_image": "shopify://shop_images/two-tone-mainbanner-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -49,10 +49,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_a7cRzg": {
+        "collection_wbAFkR": {
           "type": "collection",
           "settings": {
-            "collection": "husk-geo"
+            "collection": "the-signature-collection-1"
           }
         },
         "collection_Q79dTV": {
@@ -61,10 +61,10 @@
             "collection": "beachwear-accessories"
           }
         },
-        "collection_wbAFkR": {
+        "collection_a7cRzg": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "monday-beachwear"
           }
         },
         "collection_tTN4nb": {
@@ -75,9 +75,9 @@
         }
       },
       "block_order": [
-        "collection_a7cRzg",
-        "collection_Q79dTV",
         "collection_wbAFkR",
+        "collection_Q79dTV",
+        "collection_a7cRzg",
         "collection_tTN4nb"
       ],
       "settings": {
@@ -96,12 +96,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/signature-main1.png",
-        "mobile_image": "shopify://shop_images/signature-lower-mob.png",
+        "image": "shopify://shop_images/lower-desktop-update.png",
+        "mobile_image": "shopify://shop_images/Group_258.png",
         "left_text": "",
         "right_text": "",
         "link_label": "",
-        "link": "shopify://collections/the-signature-collection-1"
+        "link": "shopify://collections/knitwear"
       }
     },
     "1640812146b4d73cae": {
@@ -110,28 +110,28 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/3_2caa2f51-e4b6-4527-836c-0e5eaba590d5.jpg",
-            "text": "The Supportive Collection",
+            "image": "shopify://shop_images/signature_b469fbe5-0e2c-490c-95bf-b7460e62e71d.jpg",
+            "text": "The Signature Collection",
             "link_label": "Shop Now",
-            "link": "shopify://collections/the-supportive-collection"
+            "link": "shopify://collections/the-signature-collection-1"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/1_f8e51e49-5f95-46a3-ac9f-e5e39d14367c.jpg",
-            "text": "For the Sun",
+            "image": "shopify://shop_images/husk-geo.jpg",
+            "text": "Husk Geo",
             "link_label": "Shop Now",
-            "link": "shopify://collections/beachwear-accessories"
+            "link": "shopify://collections/husk-geo"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/1_bc22a284-cc19-4d5b-860b-7a255940e81b.jpg",
-            "text": "Beachwear Essentials",
+            "image": "shopify://shop_images/one-pieces_10633a9d-954b-48f1-ba43-447c3d339543.jpg",
+            "text": "One Pieces",
             "link_label": "Shop Now",
-            "link": "shopify://collections/monday-beachwear"
+            "link": "shopify://collections/one-pieces"
           }
         }
       },
