@@ -118,6 +118,15 @@
   bottom: -25px;
 }
 
+/* Link */
+.product-slider__col-link {
+  display: none;
+}
+
+.product-slider__col-link.active {
+  display: block;
+}
+
 /* Collections */
 .product-slider__collections {
   margin: 0 -5px;
