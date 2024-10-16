@@ -25,7 +25,7 @@
         {% endfor %}
         {% for block in section.blocks %}
           {% assign current_collection = collections[block.settings.collection] %}
-          <div class="product-slider__col-link{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
+          <div class="product-slider__col-link hide-mobile{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
             <a href="{{ current_collection.url }}" class="text-link">View All Products</a>
           </div>
         {% endfor %}
@@ -53,7 +53,7 @@
     </div>
     {% for block in section.blocks %}
       {% assign current_collection = collections[block.settings.collection] %}
-      <div class="product-slider__col-link product-slider__col-link--mobile{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
+      <div class="product-slider__col-link product-slider__col-link--mobile hide-desktop{% if forloop.first %} active{% endif %}" data-collection="{{ current_collection.handle }}">
         <a href="{{ current_collection.url }}" class="text-link">View All Products</a>
       </div>
     {% endfor %}
@@ -127,6 +127,9 @@
 
         document.querySelector('.product-slider__col-link.active').classList.remove('active');
         document.querySelector(`.product-slider__col-link[data-collection="${collection}"]`).classList.add('active'); 
+
+        document.querySelector('.product-slider__col-link--mobile.active').classList.remove('active');
+        document.querySelector(`.product-slider__col-link--mobile[data-collection="${collection}"]`).classList.add('active'); 
       }
     }); 
   });
