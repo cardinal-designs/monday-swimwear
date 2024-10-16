@@ -33,7 +33,11 @@
       </div>
       {% endif %}
       <div class="hero__button">
-        <a href="{{ section.settings.button_link }}" class="button button--white">{{ section.settings.button_label }}</a>
+        {% if section.settings.button_color == 'white' %}
+          <a href="{{ section.settings.button_link }}" class="button button--white">{{ section.settings.button_label }}</a>
+        {% else %}
+          <a href="{{ section.settings.button_link }}" class="text-link" style="color: white;">{{ section.settings.button_label }}</a>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -149,6 +153,22 @@
       {
         "type": "header",
         "content": "Button"
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "options": [
+          {
+            "value": "white",
+            "label": "White"
+          },
+          {
+            "value": "transparent",
+            "label": "Transparent"
+          }
+        ],
+        "default": "white",
+        "label": "Button Color"
       },
       {
         "type": "text",
