@@ -18,6 +18,7 @@
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
+        "button_color": "transparent",
         "button_label": "SHOP NOW",
         "button_link": "shopify://collections/new-arrivals",
         "overlay_link": true
@@ -33,6 +34,7 @@
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-split",
+        "button_color": "white",
         "button_label": "SHOP NOW",
         "button_link": "shopify://collections/new-arrivals",
         "overlay_link": false
