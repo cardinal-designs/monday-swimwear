@@ -91,6 +91,7 @@
   .product-slider__navigation button {
     margin-right: 40px;
     white-space: nowrap;
+    font-size: 14px;
   }
 
   .product-slider__navigation button:last-child {
