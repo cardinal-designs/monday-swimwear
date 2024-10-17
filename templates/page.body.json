@@ -1,20 +1,20 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify://shop_images/zion-web_7573324a-d03f-4094-b54d-6ac13c8ca9d4.png",
-        "mobile_image": "shopify://shop_images/zion-main-mob.png",
+        "image": "shopify://shop_images/cobalt-main-website.png",
+        "mobile_image": "shopify://shop_images/Cobalt-main-mobile.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
@@ -112,41 +112,41 @@
         "title_size": "medium",
         "title_alignment": "center",
         "text": "",
-        "collection": "the-slate-collection"
+        "collection": "the-cobalt-collection"
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
-        "553d10dc-6642-4b1c-815d-95677cea6218": {
+        "8f087094-f3ad-4736-93d9-157a37f38591": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/Flattering-tops.png",
+            "image": "shopify://shop_images/cobalt-bras.png",
             "title": "",
-            "link": "shopify://collections/monday-body-tops"
+            "link": "shopify://collections/monday-body-bras"
           }
         },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/sculpting-bottoms.png",
+            "image": "shopify://shop_images/cobalt-bottoms.png",
             "title": "",
             "link": "shopify://collections/monday-body-shorts-and-leggings"
           }
         },
-        "8f087094-f3ad-4736-93d9-157a37f38591": {
+        "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/supportive-bras.png",
+            "image": "shopify://shop_images/cobalt-tops.png",
             "title": "",
-            "link": "shopify://collections/monday-body-bras"
+            "link": "shopify://collections/monday-body-tops"
           }
         }
       },
       "block_order": [
-        "553d10dc-6642-4b1c-815d-95677cea6218",
+        "8f087094-f3ad-4736-93d9-157a37f38591",
         "228154d8-da02-4a47-bdfb-eddec1bf3051",
-        "8f087094-f3ad-4736-93d9-157a37f38591"
+        "553d10dc-6642-4b1c-815d-95677cea6218"
       ],
       "settings": {
       }
