@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "swimwear_image": "shopify://shop_images/IMG_0307.jpg",
@@ -914,7 +914,7 @@
               "style": "",
               "fabric": "",
               "fit_tip": "",
-              "shop_link": "shopify://products/le-marais-bottom-black-sig"
+              "shop_link": "shopify://products/le-marais-bottom-black"
             }
           },
           "e6c34dc0-c473-4734-967e-0e941c782f77": {
@@ -3982,12 +3982,6 @@
       },
       "573254258818049612": {
         "type": "shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "8605505498557855500": {
-        "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
         "disabled": false,
         "settings": {
         }
