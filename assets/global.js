@@ -589,7 +589,7 @@ class VariantSelects extends HTMLElement {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
     const newMedia = document.querySelector(
-      `[data-media-id="${this.dataset.section}-${this.currentVariant.featured_media.id}"]`
+      `.product__media-item[data-media-id="${this.dataset.section}-${this.currentVariant.featured_media.id}"]`
     );
 
     console.log(newMedia)
