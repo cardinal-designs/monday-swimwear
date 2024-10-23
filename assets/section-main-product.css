@@ -929,7 +929,7 @@ variant-radios fieldset {
   background-color: #faf9f6;
 }
 
-.monday-body .size-chart__tab.active:before, .size-chart__tab.active:after,
+.monday-body .size-chart__tab.active:before, .monday-body .size-chart__tab.active:after,
 .size-chart__tab:hover:before,
 .size-chart__tab:hover:after {
   border-color: black !important;
