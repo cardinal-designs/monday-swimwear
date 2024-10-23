@@ -162,9 +162,11 @@
 {% javascript %}
   // Handle opening / closing dropdowns
   const colorButton = document.querySelector('.product__swatches-button');
-  colorButton.addEventListener('click', event => {
-    colorButton.classList.toggle('active');
-  });
+  if (colorButton) {
+    colorButton.addEventListener('click', event => {
+      colorButton.classList.toggle('active');
+    });
+  }
 
   const dropdownButtons = document.querySelectorAll('.product-form__input-button');
   dropdownButtons.forEach(dropdownButton => {
