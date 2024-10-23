@@ -558,7 +558,9 @@
     <button class="size-chart__close js-close-size-chart">{% render 'icon-close' %}</button>
     <div class="size-chart__header">
       <button class="size-chart__tab sh2 active" data-tab="chart">Size Chart</button>
-      <button class="size-chart__tab sh2" data-tab="measure">How to Measure</button>
+      {% unless product.tags contains 'Monday Mini' %}
+        <button class="size-chart__tab sh2" data-tab="measure">How to Measure</button>
+      {% endunless %}
     </div>
     <div class="size-chart__content size-chart__content--chart active" data-tab="chart">
       <div class="size-chart__wrapper no-scrollbar">
