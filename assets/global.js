@@ -592,6 +592,7 @@ class VariantSelects extends HTMLElement {
       `[data-media-id="${this.dataset.section}-${this.currentVariant.featured_media.id}"]`
     );
 
+    console.log(newMedia)
     if (!newMedia) return;
     window.productSlider.slideToLoop(Number(newMedia.dataset.swiperSlideIndex));
 
