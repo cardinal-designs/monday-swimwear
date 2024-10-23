@@ -570,6 +570,8 @@
           {% render 'size-chart' type: 'bottom' %}
         {% elsif product.tags contains 'Swim One Piece' %}
           {% render 'size-chart' type: 'one-piece' %}
+        {% elsif product.tags contains 'Monday Mini' %}
+          {% render 'size-chart' type: 'mini' %}
         {% endif %}
       </div>
     </div>
