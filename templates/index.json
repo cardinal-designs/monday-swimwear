@@ -87,6 +87,7 @@
     },
     "164081090579915a8a": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "text": "First 300 Palm Green orders receive a gift with purchase.",
         "wide": true,
