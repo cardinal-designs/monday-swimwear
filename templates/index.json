@@ -102,7 +102,7 @@
         "mobile_image": "shopify://shop_images/burgundy-lower-mobile.png",
         "left_text": "",
         "right_text": "",
-        "link_label": "SHOP NOW",
+        "link_label": "",
         "link": "shopify://collections/burgundy-lattice-geo"
       }
     },
@@ -122,7 +122,7 @@
           "type": "link_block",
           "settings": {
             "image": "shopify://shop_images/ES-VEDRA.jpg",
-            "text": "Accessories",
+            "text": "Essential Accessories",
             "link_label": "Shop Now",
             "link": "shopify://collections/beachwear-accessories"
           }
