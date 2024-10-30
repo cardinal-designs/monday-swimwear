@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/PalmGreen-desktop.png",
-        "mobile_image": "shopify://shop_images/PalmGreen-mobile.png",
+        "desktop_video": "shopify://files/videos/mini-desktop (2).mp4",
+        "mobile_video": "shopify://files/videos/mini-mobile.mp4",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -54,7 +54,7 @@
         "collection_a7cRzg": {
           "type": "collection",
           "settings": {
-            "collection": "palm-green"
+            "collection": "monday-mini"
           }
         },
         "collection_wbAFkR": {
@@ -72,7 +72,7 @@
         "collection_Q79dTV": {
           "type": "collection",
           "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "chili-pepper"
           }
         }
       },
@@ -98,8 +98,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/burgundy-lower-final.png",
-        "mobile_image": "shopify://shop_images/burgundy-lower-mobile.png",
+        "image": "shopify://shop_images/palm-green-lower-desktop.png",
+        "mobile_image": "shopify://shop_images/Group_3603.png",
         "left_text": "",
         "right_text": "",
         "link_label": "",
