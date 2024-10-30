@@ -137,12 +137,6 @@
             "settings": {
               "product": "barcelona-tunic-ivory"
             }
-          },
-          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776": {
-            "type": "upsell",
-            "settings": {
-              "product": "st-tropez-sarong-white-crinkle-linen"
-            }
           }
         },
         "block_order": [
@@ -151,8 +145,7 @@
           "upsell_GVpByh",
           "ce35da39-8666-4078-8a2b-f96324678747",
           "upsell_ctGPrP",
-          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5",
-          "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776"
+          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5"
         ],
         "settings": {
           "cart_title": "Your Cart",
