@@ -184,7 +184,7 @@
               		  {% assign current_color = option.values[0] %}
                     {% endif %}
                   {% endfor %}
-                <p class="product__active-color detail-caps hide-mobile">{{ current_color }}</p>
+                <p class="product__active-color detail-caps hide-mobile{% if product.tags contains 'Monday Mini' %} hide-desktop{% endif %}">{{ current_color }}</p>
               </div>
 
             </div>
