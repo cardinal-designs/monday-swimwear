@@ -113,9 +113,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify://shop_images/SAN-REMO.jpg",
-            "text": "New One Pieces",
+            "text": "Essential Accessories",
             "link_label": "Shop Now",
-            "link": "shopify://collections/one-pieces"
+            "link": "shopify://collections/beachwear-accessories"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
