@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "desktop_video": "shopify://files/videos/mini-desktop (2).mp4",
-        "mobile_video": "shopify://files/videos/mini-mobile.mp4",
+        "image": "shopify://shop_images/Group_3634.png",
+        "mobile_image": "shopify://shop_images/Group_3636.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -54,7 +54,13 @@
         "collection_a7cRzg": {
           "type": "collection",
           "settings": {
-            "collection": "monday-mini"
+            "collection": "clementine-boucle"
+          }
+        },
+        "collection_Q79dTV": {
+          "type": "collection",
+          "settings": {
+            "collection": "palm-green"
           }
         },
         "collection_wbAFkR": {
@@ -68,19 +74,13 @@
           "settings": {
             "collection": "lattice-geo"
           }
-        },
-        "collection_Q79dTV": {
-          "type": "collection",
-          "settings": {
-            "collection": "chili-pepper"
-          }
         }
       },
       "block_order": [
         "collection_a7cRzg",
+        "collection_Q79dTV",
         "collection_wbAFkR",
-        "collection_tTN4nb",
-        "collection_Q79dTV"
+        "collection_tTN4nb"
       ],
       "settings": {
       }
@@ -98,8 +98,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/palm-green-lower-desktop.png",
-        "mobile_image": "shopify://shop_images/Group_3603.png",
+        "image": "shopify://shop_images/Group_3644.png",
+        "mobile_image": "shopify://shop_images/Monday_mini_-_lower_new.png",
         "left_text": "",
         "right_text": "",
         "link_label": "",
@@ -112,7 +112,7 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/TASH-DEV---1.jpg",
+            "image": "shopify://shop_images/SAN-REMO.jpg",
             "text": "New One Pieces",
             "link_label": "Shop Now",
             "link": "shopify://collections/one-pieces"
@@ -121,16 +121,16 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/ES-VEDRA.jpg",
-            "text": "Essential Accessories",
+            "image": "shopify://shop_images/SIGNATURE_7e70d93c-0850-49fe-af43-b9709dfc4a0a.jpg",
+            "text": "Signature",
             "link_label": "Shop Now",
-            "link": "shopify://collections/beachwear-accessories"
+            "link": "shopify://collections/the-signature-collection-1"
           }
         },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/2_13454e6f-cbd3-44bc-b5a3-74c426b77088.jpg",
+            "image": "shopify://shop_images/PALERMO.jpg",
             "text": "Luxe Knitwear",
             "link_label": "Shop Now",
             "link": "shopify://collections/knitwear"
