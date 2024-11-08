@@ -11,7 +11,7 @@
   </div>
   <div class="body-hero__image">
     {% if section.settings.video != blank %}
-      {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'body-hero__video hide-mobile' }}
+      {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'body-hero__video hide-mobile' }}
     {% if section.settings.mobile_video != blank %}
       {{ section.settings.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'body-hero__video hide-desktop' }}
     {% endif %}
