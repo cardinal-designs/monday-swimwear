@@ -82,8 +82,7 @@
         "collection_wbAFkR",
         "collection_tTN4nb"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "164081090579915a8a": {
       "type": "text",
@@ -102,8 +101,8 @@
         "mobile_image": "shopify://shop_images/Monday_mini_-_lower_new.png",
         "left_text": "",
         "right_text": "",
-        "link_label": "",
-        "link": "shopify://collections/monday-mini"
+        "link_label": "SHOP NOW",
+        "link": "shopify://collections/for-you-your-mini"
       }
     },
     "1640812146b4d73cae": {
@@ -280,8 +279,7 @@
     "nosto_index": {
       "type": "nosto-index",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
