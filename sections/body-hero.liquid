@@ -10,7 +10,12 @@
     </div>
   </div>
   <div class="body-hero__image">
-    {% if section.settings.mobile_image != blank %}
+    {% if section.settings.video != blank %}
+      {{ section.settings.desktop_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'body-hero__video hide-mobile' }}
+    {% if section.settings.mobile_video != blank %}
+      {{ section.settings.mobile_video | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'body-hero__video hide-desktop' }}
+    {% endif %}
+    {% elsif section.settings.mobile_image != blank %}
       {% render 'lazy-image' image: section.settings.image, fade: true, classes: 'hide-mobile' %}
       {% render 'lazy-image' image: section.settings.mobile_image, fade: true, classes: 'hide-desktop' %}
     {% else %}
@@ -43,6 +48,16 @@
         "type": "image_picker",
         "id": "image",
         "label": "Image"
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video"
+      },
+      {
+        "type": "video",
+        "id": "mobile_video",
+        "label": "Mobile Video"
       },
       {
         "type": "image_picker",
