@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/Group_3634.png",
-        "mobile_image": "shopify://shop_images/Group_3636.png",
+        "image": "shopify://shop_images/Group_3677.png",
+        "mobile_image": "shopify://shop_images/Group_3671.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -51,10 +51,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_a7cRzg": {
+        "collection_tTN4nb": {
           "type": "collection",
           "settings": {
-            "collection": "clementine-boucle"
+            "collection": "midnight-crinkle"
           }
         },
         "collection_Q79dTV": {
@@ -69,18 +69,18 @@
             "collection": "burgundy"
           }
         },
-        "collection_tTN4nb": {
+        "collection_a7cRzg": {
           "type": "collection",
           "settings": {
-            "collection": "lattice-geo"
+            "collection": "clementine-boucle"
           }
         }
       },
       "block_order": [
-        "collection_a7cRzg",
+        "collection_tTN4nb",
         "collection_Q79dTV",
         "collection_wbAFkR",
-        "collection_tTN4nb"
+        "collection_a7cRzg"
       ],
       "settings": {}
     },
@@ -97,8 +97,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/Group_3644.png",
-        "mobile_image": "shopify://shop_images/Monday_mini_-_lower_new.png",
+        "image": "shopify://shop_images/Group_3693.png",
+        "mobile_image": "shopify://shop_images/Group_3688.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -111,35 +111,35 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/SAN-REMO.jpg",
+            "image": "shopify://shop_images/3_2a4b58a5-3e67-4df5-8853-ce294adbfe0d.jpg",
             "text": "Essential Accessories",
             "link_label": "Shop Now",
             "link": "shopify://collections/beachwear-accessories"
           }
         },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/SIGNATURE_7e70d93c-0850-49fe-af43-b9709dfc4a0a.jpg",
-            "text": "Signature",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/the-signature-collection-1"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/PALERMO.jpg",
-            "text": "Luxe Knitwear",
+            "image": "shopify://shop_images/2_1e24baf6-2511-46be-bc86-59c0a9fa649a.jpg",
+            "text": "Flattering One Pieces",
             "link_label": "Shop Now",
-            "link": "shopify://collections/knitwear"
+            "link": "shopify://collections/one-pieces"
+          }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/MS-SIG-IMAGE.jpg",
+            "text": "Signature",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/the-signature-collection-1"
           }
         }
       },
       "block_order": [
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "ad429781-a8be-4669-ae64-dff66392ae7d"
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
