@@ -13,8 +13,8 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify://shop_images/cobalt-main-website.png",
-        "mobile_image": "shopify://shop_images/Cobalt-main-mobile.png",
+        "video": "shopify://files/videos/MONDAY-BODY-WEBSITE-DESKTOP1.mp4",
+        "mobile_video": "shopify://files/videos/MONDAY-BODY-MOBILE.mp4",
         "content_position": "center",
         "subtitle": "",
         "title": "",
@@ -84,8 +84,7 @@
         "1ecbf218-8471-457a-9c60-58c0199f3bd0"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "03602058-ccae-4fa9-916e-2dc87c0edbc7": {
       "type": "body-image-text-banner",
@@ -104,32 +103,22 @@
     },
     "8222a001-2c98-41d9-b358-90938e713902": {
       "type": "body-product-slider",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "EVERY BODY IS A MONDAY BODY",
         "title_size": "medium",
         "title_alignment": "center",
         "text": "",
-        "collection": "the-cobalt-collection"
+        "collection": "monday-body"
       }
     },
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
-        "8f087094-f3ad-4736-93d9-157a37f38591": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/cobalt-bras.png",
-            "title": "",
-            "link": "shopify://collections/monday-body-bras"
-          }
-        },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/cobalt-bottoms.png",
+            "image": "shopify://shop_images/SCULPTING-BOTTOMS_67b38f20-096e-41fd-9d9c-a0889c97b7b6.png",
             "title": "",
             "link": "shopify://collections/monday-body-shorts-and-leggings"
           }
@@ -137,19 +126,26 @@
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/cobalt-tops.png",
+            "image": "shopify://shop_images/FLATTERING-TOPS_52c0bc14-dc2b-4c3a-9c3b-8818c6fcdc92.png",
             "title": "",
             "link": "shopify://collections/monday-body-tops"
+          }
+        },
+        "8f087094-f3ad-4736-93d9-157a37f38591": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/SUPPORTIVE-BRAS_6504d715-86ac-429f-8fe1-43d0e6090627.png",
+            "title": "",
+            "link": "shopify://collections/monday-body-bras"
           }
         }
       },
       "block_order": [
-        "8f087094-f3ad-4736-93d9-157a37f38591",
         "228154d8-da02-4a47-bdfb-eddec1bf3051",
-        "553d10dc-6642-4b1c-815d-95677cea6218"
+        "553d10dc-6642-4b1c-815d-95677cea6218",
+        "8f087094-f3ad-4736-93d9-157a37f38591"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "5226b9f2-5319-4123-8208-701823acaaaa": {
       "type": "body-featured-collection",
@@ -157,8 +153,8 @@
         "c1f64361-f86a-42b3-917d-0eff2ac9311d": {
           "type": "link",
           "settings": {
-            "title": "Shop All Monday Body",
-            "link": "shopify://collections/monday-body"
+            "title": "Shop The Cobalt Collection",
+            "link": "shopify://collections/the-cobalt-collection"
           }
         },
         "ab52e1b5-aa42-4277-abcb-8053dc7f88f9": {
@@ -177,14 +173,13 @@
       "settings": {
         "title": "",
         "products": [
-          "the-tash-bra-black-ivory",
-          "griffith-short-6-25-black",
-          "zion-bra-black-ivory",
-          "acadia-legging-black"
+          "olympic-tank-cobalt",
+          "griffith-short-6-25-cobalt",
+          "arches-the-tash-bra-cobalt",
+          "acadia-legging-27-cobalt"
         ],
-        "image": "shopify://shop_images/4_9068e84b-578e-4c64-85ae-f2a2d0069f7a.jpg",
-        "video": "shopify://files/videos/mb-video-final.mp4",
-        "image_link": "shopify://collections/monday-body-high-impact",
+        "image": "shopify://shop_images/2_bc2c8145-9adf-4fcc-ac91-26fb2d044a03.jpg",
+        "image_link": "shopify://collections/the-cobalt-collection",
         "text_1": "move in monday",
         "text_2": ""
       }
