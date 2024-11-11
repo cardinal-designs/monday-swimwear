@@ -280,6 +280,9 @@ details[open=true] .modal-overlay::after {
 }
 
 .page-bfcm-early-access .go2771253331.go2771253331.go2771253331:focus-visible {
-  border: 0 !important;
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 1px solid black !important;
   outline: 0 !important;
 }
