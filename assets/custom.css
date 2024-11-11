@@ -279,6 +279,12 @@ details[open=true] .modal-overlay::after {
   width: 100% !important;
 }
 
+.page-bfcm-early-access .kl-private-reset-css-Xuajs1 button.go3265039304:hover {
+  background: transparent !important;
+  border-color: #000 !important;
+  color: #000 !important;
+}
+
 .page-bfcm-early-access .kl-private-reset-css-Xuajs1 input {
   border-bottom: 1px solid black !important;
   height: 50px !important;
