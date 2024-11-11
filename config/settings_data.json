@@ -2775,18 +2775,18 @@
               "answer": "<p>We offer free standard shipping for US items over $200 pre-tax and pre-shipping. If your US order is under $200, our standard shipping can vary between $8-$10.</p><p>If you are needing to expedite your package, we offer overnight and 2-day delivery. This expedited shipping cost can vary between $18-$40.</p><p>Please note, we do not fulfill orders over the weekend and any expedited order placed after 12:30pm, will be fulfilled the following business day.</p>"
             }
           },
+          "4d9c999e-8bf1-4332-b76b-b809eca5a61d": {
+            "type": "faq_item",
+            "settings": {
+              "title": "How does your expedited shipping work?",
+              "answer": "<p>We offer both overnight and 3-5 business day express shipping options. Expedited orders placed before 12:30 PM PST, Monday through Friday, will ship out the same day. </p><p>Orders placed after 12:30 PM PST will ship on the following business day. Please note, we do not ship or deliver on weekends or holidays. <em>Please be aware that express shipping may be temporarily unavailable during peak periods. </em></p><p>For Overnight Shipping:</p><ul><li>Orders placed on Thursday before 12:30 PM PST will arrive on Friday; after 12:30 PM PST, they’ll arrive on Monday.<br/></li><li>Orders placed on Friday before 12:30 PM PST will arrive on Monday; after 12:30 PM PST, they’ll arrive on Tuesday.</li></ul>"
+            }
+          },
           "67769b47-9e1b-4bc7-89a0-272dac2dd56e": {
             "type": "faq_item",
             "settings": {
               "title": "My package says \"delivered\" but I haven't received it, can you assist?",
               "answer": "<p>If your package is marked as delivered but you can’t locate it, don’t worry—our Route Shipping Insurance can help cover lost packages. We highly recommend keeping this insurance with your purchase for peace of mind. If you have Route Insurance, you can file a claim through this link: <a href=\"https://claims.route.com/\" target=\"_blank\">https://claims.route.com</a><br/>Before reaching out to Route, here are a few steps you can take:</p><ol><li>Allow 24 hours after the delivery confirmation, as packages sometimes arrive shortly afterward.<br/></li><li>Contact your local post carrier and speak directly to your postal worker, as they may remember where they left your package.<br/></li><li>Ensure your mail area is secure, and consider leaving a note requesting that packages not be left unattended.<br/></li><li>Check with your neighbors to see if they mistakenly collected your package.</li></ol><p>If you’ve completed these steps and still can’t find your package, please visit the carrier to file a claim. Please note that we cannot be held responsible for orders marked as “Delivered” or for packages covered without Route Shipping Insurance.<br/>To avoid future issues, ensure you provide a shipping address where someone can receive the package during the day if your mail area isn’t secure. For packages marked as “Delivered” but not received, an official non-emergency police report must be included with any claims.</p>"
-            }
-          },
-          "4d9c999e-8bf1-4332-b76b-b809eca5a61d": {
-            "type": "faq_item",
-            "settings": {
-              "title": "How does your expedited shipping work?",
-              "answer": "<p>We offer both overnight and 3-5 business day express shipping options. Expedited orders placed before 12:30 PM PST, Monday through Friday, will ship out the same day. </p><p>Orders placed after 12:30 PM PST will ship on the following business day. Please note, we do not ship or deliver on weekends or holidays. <em>Please be aware that express shipping may be temporarily unavailable during peak periods.</em></p><p>For Overnight Shipping:</p><ul><li>Orders placed on Thursday before 12:30 PM PST will arrive on Friday; after 12:30 PM PST, they’ll arrive on Monday.</li><li>Orders placed on Friday before 12:30 PM PST will arrive on Monday; after 12:30 PM PST, they’ll arrive on Tuesday.</li></ul>"
             }
           },
           "fded6e81-13b9-4516-a4c8-47e8bb750f35": {
@@ -2937,8 +2937,8 @@
           "36fa2bed-75b9-42c7-94f4-173b9207a8fe",
           "e036fd04-6634-411b-924a-b8b06d39e344",
           "190e690b-99bf-45d6-8ff5-7c280853edf9",
-          "67769b47-9e1b-4bc7-89a0-272dac2dd56e",
           "4d9c999e-8bf1-4332-b76b-b809eca5a61d",
+          "67769b47-9e1b-4bc7-89a0-272dac2dd56e",
           "fded6e81-13b9-4516-a4c8-47e8bb750f35",
           "88f56e8e-a3b5-49d2-839e-84b901721f26",
           "ef040c43-1bc8-4f62-8800-6911e5f13bba",
