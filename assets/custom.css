@@ -277,6 +277,8 @@ details[open=true] .modal-overlay::after {
 
 .page-bfcm-early-access .kl-private-reset-css-Xuajs1 button.go3265039304 {
   width: 100% !important;
+  transition: border .35s ease-in-out, color .35s ease-in-out, background .35s ease-in-out;
+  -webkit-transition: border .35s ease-in-out, color .35s ease-in-out, background .35s ease-in-out;
 }
 
 .page-bfcm-early-access .kl-private-reset-css-Xuajs1 button.go3265039304:hover {
