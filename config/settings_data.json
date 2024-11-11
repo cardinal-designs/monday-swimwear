@@ -2664,10 +2664,10 @@
       "faq-template": {
         "type": "faq-template",
         "blocks": {
-          "6a39d5b6-0a91-404d-a30d-0619a2cb800f": {
+          "header_MeFcVq": {
             "type": "header",
             "settings": {
-              "title": "Returns & Exchanges"
+              "title": "2024 Black Friday Policy"
             }
           },
           "480fc208-44d4-4764-9b18-2f1e7f85c198": {
@@ -2678,19 +2678,18 @@
               "answer": "<p><strong>What is the returns policy for international orders placed using a Black Friday and Cyber Monday discount code?</strong></p><p>For international orders using our Black Friday/Cyber Monday code, we do not offer refunds. Instead, we will issue store credit equivalent to the amount paid for the returned item(s). All requests must be made within 30 days from the date of delivery and be in the original condition with tags attached. We do not offer refunds back for taxes, duties, or shipping fees. We do not provide a return label or credit back any cost incurred for returning.</p><p><strong>What is the returns policy for U.S. orders using a Black Friday and Cyber Monday discount code?</strong></p><p>For orders placed within the United States using our Black Friday/Cyber Monday code we do not offer refunds. However, we offer two options:</p><ul><li>Store Credit: A store credit equivalent to the amount paid for the returned item(s), which can be used for future purchases.</li><li>Exchanges: You may also choose to exchange the returned item(s) for a different product of equal or lesser value. Any price difference will be issued as store credit.</li></ul><p>All requests must be made within 30 days from the date of delivery and be in the original condition with tags attached.</p><p><strong>Are there any exceptions to this policy?</strong></p><p>No, this policy applies to all Black Friday and Cyber Monday sales, and no exceptions will be made. Please carefully consider your purchases before completing them.</p><p><strong>Do you offer price adjustments for the sale increase? </strong></p><p>No price adjustments. </p>"
             }
           },
-          "1c5cf602-eef6-4a64-8a9e-67926875a5c2": {
-            "type": "faq_item",
+          "6a39d5b6-0a91-404d-a30d-0619a2cb800f": {
+            "type": "header",
             "settings": {
-              "title": "End of Summer '24 Sale Policy:",
-              "answer": "<p>Products listed with a 25-30% markdown can only be returned for store credit, with no exchanges or refunds. Any products marked down 40% or more are<strong> final sale</strong> and cannot be returned or exchanged. </p>"
+              "title": "Returns & Exchanges"
             }
           },
-          "06ea453a-75f1-4191-a3d1-0d8bc35661d7": {
+          "1c5cf602-eef6-4a64-8a9e-67926875a5c2": {
             "type": "faq_item",
             "disabled": true,
             "settings": {
-              "title": "What is your Black Friday / Cyber Monday return policy?",
-              "answer": "<p>All orders placed with any of our Black Friday / Cyber Monday discount codes are only eligible for a return for store credit, no exchanges or refunds. If you purchase an item that is marked as final sale, the item is not eligible for <em><strong>any </strong></em>form of a return. We do not offer price adjustments for any previous orders.</p>"
+              "title": "End of Summer '24 Sale Policy:",
+              "answer": "<p>Products listed with a 25-30% markdown can only be returned for store credit, with no exchanges or refunds. Any products marked down 40% or more are<strong> final sale</strong> and cannot be returned or exchanged. </p>"
             }
           },
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6": {
@@ -2733,14 +2732,6 @@
             "settings": {
               "title": "How do I start my return request?",
               "answer": "<p>We are sorry to hear you are needing to return! Please <a href=\"https://monday-swimwear.loopreturns.com/\"><strong>click this link</strong></a> to start your return.</p>"
-            }
-          },
-          "d59f3ab9-9bbd-4bff-99e6-def0b9e03097": {
-            "type": "faq_item",
-            "disabled": true,
-            "settings": {
-              "title": "What is your return policy for sale items and orders placed with a discount code?",
-              "answer": "<p>Any item purchased on sale or at a marked down price is final sale and ineligible for any form of return or exchange. If a discount code was applied to a full retail priced item, the item is not final sale <em><strong>unless</strong></em> if the discount code is advertised as final sale. We do not offer any exceptions for this policy.</p>"
             }
           },
           "a1c06967-31dc-456d-b9f7-53a056bc2e78": {
@@ -2795,21 +2786,13 @@
             "type": "faq_item",
             "settings": {
               "title": "How does your expedited shipping work?",
-              "answer": "<p>We offer overnight business day and 3-5 business day express shipping. Expedited orders placed before 12:30 pm PST Monday - Friday will ship out the same day. Orders placed after 12:30 pm PST will ship the following business day. We do not ship or deliver on weekends or holidays.</p><p>For Overnight Shipping:<br/>Orders placed on Thursday before 12:30 pm PST will arrive on Friday. After 12:30 pm PST, they’ll arrive Monday.<br/>Orders placed on Friday before 12:30 pm PST will arrive on Monday. After 12:30 pm PST, they’ll arrive on Tuesday.</p>"
+              "answer": "<p>We offer both overnight and 3-5 business day express shipping options. Expedited orders placed before 12:30 PM PST, Monday through Friday, will ship out the same day. </p><p>Orders placed after 12:30 PM PST will ship on the following business day. Please note, we do not ship or deliver on weekends or holidays. <em>Please be aware that express shipping may be temporarily unavailable during peak periods.</em></p><p>For Overnight Shipping:</p><ul><li>Orders placed on Thursday before 12:30 PM PST will arrive on Friday; after 12:30 PM PST, they’ll arrive on Monday.</li><li>Orders placed on Friday before 12:30 PM PST will arrive on Monday; after 12:30 PM PST, they’ll arrive on Tuesday.</li></ul>"
             }
           },
           "fded6e81-13b9-4516-a4c8-47e8bb750f35": {
             "type": "header",
             "settings": {
               "title": "International Shipping"
-            }
-          },
-          "df013a2a-941c-4b98-a6fe-5dc38bef8d80": {
-            "type": "faq_item",
-            "disabled": true,
-            "settings": {
-              "title": "If I am located internationally, how much will shipping cost?",
-              "answer": "<p>We ship all international packages via Passport Shipping that is then delivered to you through your local carrier. The shipping cost can vary depending on your location. Once you have entered in your location through our checkout page, the shipping fee will be displayed with any custom and duty tax prior to finalizing your order. Due to your location, shipping fees vary. </p>"
             }
           },
           "88f56e8e-a3b5-49d2-839e-84b901721f26": {
@@ -2831,45 +2814,6 @@
             "settings": {
               "title": "Do you ship orders to the UK & EU? If so, how will orders be shipped?",
               "answer": "<p>Yes, we ship to the UK & EU. Duties and taxes are already paid for by the customer within the product price due to local custom regulations.</p>"
-            }
-          },
-          "e0ed9c64-a1f6-4bf6-a33f-c3b032de101a": {
-            "type": "header",
-            "disabled": true,
-            "settings": {
-              "title": "Taxes & Duties"
-            }
-          },
-          "f4b4e342-a7da-4378-a231-74f0565c142c": {
-            "type": "faq_item",
-            "disabled": true,
-            "settings": {
-              "title": "Will I have to pay taxes/duties in my home country?",
-              "answer": "<p>All international packages may be subject to taxes and duties. If you select the Passport Shipping option, this charge is calculated and shown in your total shipping price at checkout, and you will not have to pay anything on receipt of your parcel. If you select any shipping option other than Passport Shipping, your local customs office will assess the customs duties and fees and notify you of this additional charge by email, phone, or physical notice. The amount of the charge is completely at the discretion of one’s local government.</p><p>We are legally required to claim the full retail value price of products purchased and our shipping system automatically enters this information into the customs documents it creates.</p><p>Please note: If you used a discount on your order, your customs office assesses taxes based on the original retail price. </p><p><em>Monday Swimwear is not held responsible nor can refund/reimburse for any taxes or duties charged by the customer’s local government. Any fees of this nature are the sole responsibility of the purchaser.</em></p><p><em>We are unable to offer a refund for taxes/duties.</em></p>"
-            }
-          },
-          "59f035f9-62f7-42ec-8f86-eb674cd72862": {
-            "type": "faq_item",
-            "disabled": true,
-            "settings": {
-              "title": "Can I calculate taxes/duties before delivery?",
-              "answer": "<p>If you select the Passport Shipping option, you will pay your duties and taxes upon checkout and your order is shipped DDP (Delivered Duty Paid), which means there is nothing for you to pay upon delivery.</p><p>If you do not use Passport Shipping option, we do not have the ability to estimate taxes prior to delivery.</p><p>Here are some helpful links:<br/>- For information on Canadian Customs click <a href=\"http://www.cbsa-asfc.gc.ca/menu-eng.html\">HERE<br/></a>- For information on UK Customs click <a href=\"http://www.hmrc.gov.uk/customs/tax-and-duty.htm\">HERE</a><br/>- For information on Australia Customs click <a href=\"http://www.customs.gov.au/site/page5834.asp\">HERE</a></p><p>If you have any other questions about duties and taxes, please email us at <em>customerservice@mondayswimwear.com</em></p>"
-            }
-          },
-          "aae2bfa3-2a24-49c3-b989-ea76777ee5c4": {
-            "type": "faq_item",
-            "disabled": true,
-            "settings": {
-              "title": "Can my order be shipped DDU (Delivered Duty Unpaid)?",
-              "answer": "<p>Some countries allow or require orders to be shipped DDU, these will be visible to your at time of checkout. Please note, we are unable to guarantee the cost of fees upon delivery. Duties and taxes are non-refundable.</p>"
-            }
-          },
-          "4571dc2f-cde2-4333-9d02-e8d0d9f5ad1d": {
-            "type": "faq_item",
-            "disabled": true,
-            "settings": {
-              "title": "I purchased my items with a discount code, why was I charged duties on the full retail value?",
-              "answer": "<p>We are legally required to claim the full retail value of products purchased and our shipping system automatically enters this information into the customs documents it creates.</p><p>Some countries have an easy process for applying for a refund of overpaid duties when you show proof of any discount applied to your purchase.</p><p>Please check with your local customs agency for details of any duty refund program in your region.</p><p>Canadian customers can use the request form found <a href=\"https://www.cbsa-asfc.gc.ca/publications/forms-formulaires/b2g-eng.html\" target=\"_blank\" title=\"https://www.cbsa-asfc.gc.ca/publications/forms-formulaires/b2g-eng.html\"><strong>here.</strong></a></p>"
             }
           },
           "header_hkfMDd": {
@@ -2977,17 +2921,16 @@
           }
         },
         "block_order": [
-          "6a39d5b6-0a91-404d-a30d-0619a2cb800f",
+          "header_MeFcVq",
           "480fc208-44d4-4764-9b18-2f1e7f85c198",
+          "6a39d5b6-0a91-404d-a30d-0619a2cb800f",
           "1c5cf602-eef6-4a64-8a9e-67926875a5c2",
-          "06ea453a-75f1-4191-a3d1-0d8bc35661d7",
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6",
           "911fbafc-5e0f-4618-9f58-af0126a0a664",
           "755defbc-be9d-447a-8a4e-bfabc87541d6",
           "3896c75f-a8d8-450f-b92c-420fc4056f91",
           "d91f11be-c1e1-431c-98e1-15dd64466611",
           "65e8243e-6d00-40ec-be71-ebe7901b79be",
-          "d59f3ab9-9bbd-4bff-99e6-def0b9e03097",
           "a1c06967-31dc-456d-b9f7-53a056bc2e78",
           "650ddacd-d103-4825-a8ae-70a465eb5a19",
           "0e2fb847-a09d-48d3-b3ec-806bd15e1ffd",
@@ -2997,15 +2940,9 @@
           "67769b47-9e1b-4bc7-89a0-272dac2dd56e",
           "4d9c999e-8bf1-4332-b76b-b809eca5a61d",
           "fded6e81-13b9-4516-a4c8-47e8bb750f35",
-          "df013a2a-941c-4b98-a6fe-5dc38bef8d80",
           "88f56e8e-a3b5-49d2-839e-84b901721f26",
           "ef040c43-1bc8-4f62-8800-6911e5f13bba",
           "fe55f69b-f633-40c6-a327-3675e17b77fc",
-          "e0ed9c64-a1f6-4bf6-a33f-c3b032de101a",
-          "f4b4e342-a7da-4378-a231-74f0565c142c",
-          "59f035f9-62f7-42ec-8f86-eb674cd72862",
-          "aae2bfa3-2a24-49c3-b989-ea76777ee5c4",
-          "4571dc2f-cde2-4333-9d02-e8d0d9f5ad1d",
           "header_hkfMDd",
           "faq_item_bqrzFV",
           "faq_item_CQNGdr",
