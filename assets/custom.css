@@ -285,6 +285,7 @@ details[open=true] .modal-overlay::after {
   background: transparent !important;
   border-color: #000 !important;
   color: #000 !important;
+  border: 1px solid black !important;
 }
 
 .page-bfcm-early-access .kl-private-reset-css-Xuajs1 input {
