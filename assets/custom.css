@@ -267,9 +267,9 @@ details[open=true] .modal-overlay::after {
 
 /* ======================== BFCM Klaviyo ========================= */
 .page-bfcm-early-access .kl-private-reset-css-Xuajs1 {
-  border-top: 0 !important;
-  border-bottom: 1px !important;
-  border-right: 0 !important;
-  border-left: 0 !important;
-  
+  border: 0 !important;
+}
+
+.page-bfcm-early-access .kl-private-reset-css-Xuajs1 button {
+  border-bottom: 1px solid black !important;
 }
