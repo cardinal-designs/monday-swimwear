@@ -2675,7 +2675,7 @@
             "disabled": true,
             "settings": {
               "title": "2023 BF/CM Return Policy",
-              "answer": "<p><strong>What is the returns policy for international orders placed using a Black Friday and Cyber Monday discount code?</strong></p><p>For international orders using our Black Friday/Cyber Monday code, we do not offer refunds. Instead, we will issue store credit equivalent to the amount paid for the returned item(s). All requests must be made within 30 days from the date of delivery and be in the original condition with tags attached. We do not offer refunds back for taxes, duties, or shipping fees. We do not provide a return label or credit back any cost incurred for returning.</p><p><strong>What is the returns policy for U.S. orders using a Black Friday and Cyber Monday discount code?</strong></p><p>For orders placed within the United States using our Black Friday/Cyber Monday code we do not offer refunds. However, we offer two options:</p><ul><li>Store Credit: A store credit equivalent to the amount paid for the returned item(s), which can be used for future purchases.</li><li>Exchanges: You may also choose to exchange the returned item(s) for a different product of equal or lesser value. Any price difference will be issued as store credit.</li></ul><p>All requests must be made within 30 days from the date of delivery and be in the original condition with tags attached.</p><p><strong>Are there any exceptions to this policy?</strong></p><p>No, this policy applies to all Black Friday and Cyber Monday sales, and no exceptions will be made. Please carefully consider your purchases before completing them.</p><p><strong>Do you offer price adjustments for the sale increase? </strong></p><p>No price adjustments. </p>"
+              "answer": "<p><strong>What is your return policy during the sale? </strong></p><p>Black Friday & Cyber Monday Return Policy: Orders placed with Black Friday or Cyber Monday promotional codes will qualify for store credit only. No refunds or exchanges will be available. If a final sale item is purchased with a Black Friday or Cyber Monday code applied, the purchase is final sale, no exceptions.</p><p><strong>When can I expect my order to arrive? </strong></p><p>During busy sale periods like Black Friday and Cyber Monday, we ask for 3-10 business days to fulfill orders and 3-12 business days for delivery. However, once an order has shipped, it may still experience delays in transit, so please allow an additional 7 business days for delivery. Please note that express shipping is not available during this time.</p><p><strong>Do you offer price adjustments?</strong></p><p>We understand your interest in a price adjustment, but unfortunately, we do not offer this option. During our sales periods, discounts are adjusted based on available inventory and this is not a policy we offer exceptions on. </p><p><strong>Can I make changes to my order after placing?</strong></p><p>Once an order is placed, no changes can be made. Please be sure to review your order carefully before finalizing, especially during busy sale periods. If you contact our team to request a change, please note that we are unable to accommodate any modifications, even if the request is made shortly after your order is placed.</p>"
             }
           },
           "6a39d5b6-0a91-404d-a30d-0619a2cb800f": {
@@ -2768,6 +2768,13 @@
               "answer": "<p>Once your order has been fulfilled, please allow 3-12 business days for delivery. Keep in mind that carrier delays may occur.</p><p>We do not ship or deliver on weekends, and some orders may require a signature upon delivery. </p><p>For express shipping, orders must be placed by 12:30 PM PST to ship the same business day. Expedited orders placed after 12:30 PM PST will ship the following business day and are delivered Monday through Friday. </p><p>Additionally, express shipping may be temporarily unavailable during busy periods.</p>"
             }
           },
+          "faq_item_CJjTUE": {
+            "type": "faq_item",
+            "settings": {
+              "title": "If I am located outside of the US, when will my order arrive?",
+              "answer": "<p>Once your order has been fulfilled, please allow 3-12 business days for delivery. Keep in mind that carrier delays may occur. During peak holiday seasons or sale events, fulfillment may take a bit longer, so please allow up to 7 additional business days for delivery.</p>"
+            }
+          },
           "190e690b-99bf-45d6-8ff5-7c280853edf9": {
             "type": "faq_item",
             "settings": {
@@ -2787,33 +2794,6 @@
             "settings": {
               "title": "My package says \"delivered\" but I haven't received it, can you assist?",
               "answer": "<p>If your package is marked as delivered but you can’t locate it, don’t worry—our Route Shipping Insurance can help cover lost packages. We highly recommend keeping this insurance with your purchase for peace of mind. If you have Route Insurance, you can file a claim through this link: <a href=\"https://claims.route.com/\" target=\"_blank\">https://claims.route.com</a><br/>Before reaching out to Route, here are a few steps you can take:</p><ol><li>Allow 24 hours after the delivery confirmation, as packages sometimes arrive shortly afterward.<br/></li><li>Contact your local post carrier and speak directly to your postal worker, as they may remember where they left your package.<br/></li><li>Ensure your mail area is secure, and consider leaving a note requesting that packages not be left unattended.<br/></li><li>Check with your neighbors to see if they mistakenly collected your package.</li></ol><p>If you’ve completed these steps and still can’t find your package, please visit the carrier to file a claim. Please note that we cannot be held responsible for orders marked as “Delivered” or for packages covered without Route Shipping Insurance.<br/>To avoid future issues, ensure you provide a shipping address where someone can receive the package during the day if your mail area isn’t secure. For packages marked as “Delivered” but not received, an official non-emergency police report must be included with any claims.</p>"
-            }
-          },
-          "fded6e81-13b9-4516-a4c8-47e8bb750f35": {
-            "type": "header",
-            "settings": {
-              "title": "International Shipping"
-            }
-          },
-          "88f56e8e-a3b5-49d2-839e-84b901721f26": {
-            "type": "faq_item",
-            "settings": {
-              "title": "If I am an international customer, when will my order arrive?",
-              "answer": "<p>Once your order has been fulfilled, please allow 3-12 business days for delivery. Keep in mind that carrier delays may occur. During peak holiday seasons or sale events, fulfillment may take a bit longer, so please allow up to 7 additional business days for delivery.</p><p><br/>Please note: We do not ship and/or deliver on weekends & some orders may require a signature.</p>"
-            }
-          },
-          "ef040c43-1bc8-4f62-8800-6911e5f13bba": {
-            "type": "faq_item",
-            "settings": {
-              "title": "If I refused an international package, will I receive a refund?",
-              "answer": "<p>We are sorry to hear you have refused your package! Once our team has received your returned package, we will process a refund for the items, minus the shipping fee. If your order was placed with our free international shipping, then we will deduct the cost incurred for returning your suit back to our warehouse.</p>"
-            }
-          },
-          "fe55f69b-f633-40c6-a327-3675e17b77fc": {
-            "type": "faq_item",
-            "settings": {
-              "title": "Do you ship orders to the UK & EU? If so, how will orders be shipped?",
-              "answer": "<p>Yes, we ship to the UK & EU. Duties and taxes are already paid for by the customer within the product price due to local custom regulations.</p>"
             }
           },
           "header_hkfMDd": {
@@ -2936,13 +2916,10 @@
           "0e2fb847-a09d-48d3-b3ec-806bd15e1ffd",
           "36fa2bed-75b9-42c7-94f4-173b9207a8fe",
           "e036fd04-6634-411b-924a-b8b06d39e344",
+          "faq_item_CJjTUE",
           "190e690b-99bf-45d6-8ff5-7c280853edf9",
           "4d9c999e-8bf1-4332-b76b-b809eca5a61d",
           "67769b47-9e1b-4bc7-89a0-272dac2dd56e",
-          "fded6e81-13b9-4516-a4c8-47e8bb750f35",
-          "88f56e8e-a3b5-49d2-839e-84b901721f26",
-          "ef040c43-1bc8-4f62-8800-6911e5f13bba",
-          "fe55f69b-f633-40c6-a327-3675e17b77fc",
           "header_hkfMDd",
           "faq_item_bqrzFV",
           "faq_item_CQNGdr",
