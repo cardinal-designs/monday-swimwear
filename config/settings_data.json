@@ -2670,12 +2670,32 @@
               "title": "2024 Black Friday Policy"
             }
           },
-          "480fc208-44d4-4764-9b18-2f1e7f85c198": {
+          "faq_item_trGcVm": {
             "type": "faq_item",
-            "disabled": true,
             "settings": {
-              "title": "2023 BF/CM Return Policy",
-              "answer": "<p><strong>What is your return policy during the sale? </strong></p><p>Black Friday & Cyber Monday Return Policy: Orders placed with Black Friday or Cyber Monday promotional codes will qualify for store credit only. No refunds or exchanges will be available. If a final sale item is purchased with a Black Friday or Cyber Monday code applied, the purchase is final sale, no exceptions.</p><p><strong>When can I expect my order to arrive? </strong></p><p>During busy sale periods like Black Friday and Cyber Monday, we ask for 3-10 business days to fulfill orders and 3-12 business days for delivery. However, once an order has shipped, it may still experience delays in transit, so please allow an additional 7 business days for delivery. Please note that express shipping is not available during this time.</p><p><strong>Do you offer price adjustments?</strong></p><p>We understand your interest in a price adjustment, but unfortunately, we do not offer this option. During our sales periods, discounts are adjusted based on available inventory and this is not a policy we offer exceptions on. </p><p><strong>Can I make changes to my order after placing?</strong></p><p>Once an order is placed, no changes can be made. Please be sure to review your order carefully before finalizing, especially during busy sale periods. If you contact our team to request a change, please note that we are unable to accommodate any modifications, even if the request is made shortly after your order is placed.</p>"
+              "title": "What is your return policy during the sale? ",
+              "answer": "<p>Black Friday & Cyber Monday Return Policy: Orders placed with Black Friday or Cyber Monday promotional codes will qualify for store credit only. No refunds or exchanges will be available. If a final sale item is purchased with a Black Friday or Cyber Monday code applied, the purchase is final sale, no exceptions.</p>"
+            }
+          },
+          "faq_item_dyXXpE": {
+            "type": "faq_item",
+            "settings": {
+              "title": "When can I expect my order to arrive? ",
+              "answer": "<p>During busy sale periods like Black Friday and Cyber Monday, we ask for 3-10 business days to fulfill orders and 3-12 business days for delivery. However, once an order has shipped, it may still experience delays in transit, so please allow an additional 7 business days for delivery. Please note that express shipping is not available during this time.</p>"
+            }
+          },
+          "faq_item_Bp997d": {
+            "type": "faq_item",
+            "settings": {
+              "title": "Do you offer price adjustments?",
+              "answer": "<p>We understand your interest in a price adjustment, but unfortunately, we do not offer this option. During our sales periods, discounts are adjusted based on available inventory and this is not a policy we offer exceptions on. </p>"
+            }
+          },
+          "faq_item_qrzTwL": {
+            "type": "faq_item",
+            "settings": {
+              "title": "Can I make changes to my order after placing?",
+              "answer": "<p>Once an order is placed, no changes can be made. Please be sure to review your order carefully before finalizing, especially during busy sale periods. If you contact our team to request a change, please note that we are unable to accommodate any modifications, even if the request is made shortly after your order is placed.</p>"
             }
           },
           "6a39d5b6-0a91-404d-a30d-0619a2cb800f": {
@@ -2902,7 +2922,10 @@
         },
         "block_order": [
           "header_MeFcVq",
-          "480fc208-44d4-4764-9b18-2f1e7f85c198",
+          "faq_item_trGcVm",
+          "faq_item_dyXXpE",
+          "faq_item_Bp997d",
+          "faq_item_qrzTwL",
           "6a39d5b6-0a91-404d-a30d-0619a2cb800f",
           "1c5cf602-eef6-4a64-8a9e-67926875a5c2",
           "3d2846b6-5217-4c1d-ac4b-6d1c2517c7d6",
