@@ -11,10 +11,23 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "show_header": true,
+        "full_width": false
+      }
+    },
+    "plain_text_8efNkV": {
+      "type": "plain-text",
+      "settings": {
+        "title": "",
+        "text": "",
+        "klaviyo": "<div class=\"klaviyo-form-Wg3NGL\"></div>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "plain_text_8efNkV"
   ]
 }
