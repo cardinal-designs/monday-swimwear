@@ -272,6 +272,7 @@ details[open=true] .modal-overlay::after {
 
 .page-bfcm-early-access .kl-private-reset-css-Xuajs1 button {
   border-bottom: 1px solid black !important;
+  width: auto !important;
 }
 
 .page-bfcm-early-access .kl-private-reset-css-Xuajs1 input {
