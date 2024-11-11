@@ -286,3 +286,8 @@ details[open=true] .modal-overlay::after {
   border-bottom: 1px solid black !important;
   outline: 0 !important;
 }
+
+.page-bfcm-early-access .go850562508:focus-visible {
+  border: 0 !important;
+  outline: 0 !important;
+}
