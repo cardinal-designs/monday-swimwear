@@ -114,38 +114,38 @@
               "product": "exuma-hat"
             }
           },
-          "upsell_GVpByh": {
+          "upsell_9fznNm": {
             "type": "upsell",
             "settings": {
-              "product": "valencia-bag-large"
+              "product": "valencia-bag-small"
             }
           },
-          "ce35da39-8666-4078-8a2b-f96324678747": {
+          "upsell_f46dY3": {
             "type": "upsell",
             "settings": {
-              "product": "almafi-sarong-black"
+              "product": "clovelly-one-piece-black-ivory"
             }
           },
-          "upsell_ctGPrP": {
+          "upsell_fHwMP6": {
             "type": "upsell",
             "settings": {
-              "product": "clovelly-one-piece-black"
+              "product": "st-tropez-sarong-black"
             }
           },
-          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5": {
+          "upsell_bkdDna": {
             "type": "upsell",
             "settings": {
-              "product": "barcelona-tunic-ivory"
+              "product": "barcelona-tunic-black"
             }
           }
         },
         "block_order": [
           "upsell_EkzeFE",
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
-          "upsell_GVpByh",
-          "ce35da39-8666-4078-8a2b-f96324678747",
-          "upsell_ctGPrP",
-          "88d94e3f-0205-4c6d-93ba-85aaaf9474f5"
+          "upsell_9fznNm",
+          "upsell_f46dY3",
+          "upsell_fHwMP6",
+          "upsell_bkdDna"
         ],
         "settings": {
           "cart_title": "Your Cart",
