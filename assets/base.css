@@ -2738,25 +2738,6 @@ header-drawer {
 }
 
 /*================ Route Cart Widget ================*/
-.pw-route-protection.desktop-align-right {
-  justify-content: flex-start;
-}
-.pw-route-protection .pw-container:not(.legacy) {
-  padding: 0px;
-  max-width: 100%;
-  text-align: left;  
-}
-
-.pw-variant-optimal-container {
-  max-width: 100%;
-}
-
-route-protect-widget[variant=fee] .pw-route-protection .pw-container, route-protect-widget[variant=optimal] .pw-route-protection .pw-container {
-  max-width: 100%:
-}
-
-route-protect-widget:not([payer='no_coverage']) .pw-container::after {
-  content: "By deselecting shipping protection, Monday Swimwear is not liable for lost, damaged, or stolen items.";
-  text-align: left;
-  padding-top: 0;
+.pw-route-protection {
+  padding-top: 0 !important;
 }
