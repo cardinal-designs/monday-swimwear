@@ -2737,3 +2737,17 @@ header-drawer {
   right: 0;
 }
 
+/*================ Route Cart Widget ================*/
+.pw-route-protection .pw-container:not(.legacy) {
+  padding: 0px;
+  max-width: 100%;
+  text-align: left;  
+}
+
+.pw-variant-optimal-container {
+  max-width: 100%;
+}
+
+route-protect-widget[variant=fee] .pw-route-protection .pw-container, route-protect-widget[variant=optimal] .pw-route-protection .pw-container {
+  max-width: 100%:
+}
