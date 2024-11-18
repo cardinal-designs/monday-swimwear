@@ -2738,6 +2738,9 @@ header-drawer {
 }
 
 /*================ Route Cart Widget ================*/
+.pw-route-protection.desktop-align-right {
+  justify-content: flex-start;
+}
 .pw-route-protection .pw-container:not(.legacy) {
   padding: 0px;
   max-width: 100%;
