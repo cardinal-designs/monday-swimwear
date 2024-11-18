@@ -2743,6 +2743,6 @@ header-drawer {
 }
 
 /*================ Cart Scroller ================*/
-.cart-drawer::-webkit-scrollbar {
+cart-drawer ::-webkit-scrollbar {
   width: 10px !important;
 }
