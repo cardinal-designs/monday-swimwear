@@ -62,7 +62,7 @@
   background: transparent linear-gradient(180deg,#fff 0,var(--beige-light) 100%) 0 0 no-repeat padding-box;
 }
 
-.cart-drawer__content::-webkit-scrollbar-thumb {
+.cart-drawer__inner::-webkit-scrollbar-thumb {
   width: 10px !important;
 }
 
