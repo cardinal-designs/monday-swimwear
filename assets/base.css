@@ -2741,3 +2741,8 @@ header-drawer {
 .pw-route-protection {
   padding-top: 0 !important;
 }
+
+/*================ Cart Scroller ================*/
+.cart-drawer::-webkit-scrollbar {
+  width: 10px !important;
+}
