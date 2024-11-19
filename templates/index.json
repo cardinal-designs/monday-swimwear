@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/Group_3677.png",
-        "mobile_image": "shopify://shop_images/Group_3671.png",
+        "image": "shopify://shop_images/30-main-desktop.png",
+        "mobile_image": "shopify://shop_images/30-main-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -51,6 +51,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_a7cRzg": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
+          }
+        },
         "collection_tTN4nb": {
           "type": "collection",
           "settings": {
@@ -68,19 +74,13 @@
           "settings": {
             "collection": "burgundy"
           }
-        },
-        "collection_a7cRzg": {
-          "type": "collection",
-          "settings": {
-            "collection": "clementine-boucle"
-          }
         }
       },
       "block_order": [
+        "collection_a7cRzg",
         "collection_tTN4nb",
         "collection_Q79dTV",
-        "collection_wbAFkR",
-        "collection_a7cRzg"
+        "collection_wbAFkR"
       ],
       "settings": {}
     },
@@ -97,8 +97,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/Group_3693.png",
-        "mobile_image": "shopify://shop_images/Group_3688.png",
+        "image": "shopify://shop_images/30-lower-desktop.png",
+        "mobile_image": "shopify://shop_images/mb-lower-mobile-final.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -108,37 +108,37 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/2_d92833ce-8a93-4282-af1e-074c3642e5d7.jpg",
+            "text": "Chili Pepper",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/chili-pepper"
+          }
+        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/3_2a4b58a5-3e67-4df5-8853-ce294adbfe0d.jpg",
+            "image": "shopify://shop_images/10_3f0104ae-b39c-4343-8cda-f6aa32f7a5e4.jpg",
             "text": "Essential Accessories",
             "link_label": "Shop Now",
             "link": "shopify://collections/beachwear-accessories"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/2_1e24baf6-2511-46be-bc86-59c0a9fa649a.jpg",
-            "text": "Flattering One Pieces",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/one-pieces"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/MS-SIG-IMAGE.jpg",
-            "text": "Signature",
+            "image": "shopify://shop_images/5_c85bbaed-92bd-43b6-93a1-2e9ef14fc90f.jpg",
+            "text": "Husk Geo",
             "link_label": "Shop Now",
-            "link": "shopify://collections/the-signature-collection-1"
+            "link": "shopify://collections/husk-geo"
           }
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
