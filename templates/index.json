@@ -112,9 +112,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify://shop_images/2_d92833ce-8a93-4282-af1e-074c3642e5d7.jpg",
-            "text": "Chili Pepper",
+            "text": "All Swimwear",
             "link_label": "Shop Now",
-            "link": "shopify://collections/chili-pepper"
+            "link": "shopify://collections/all-swimwear"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
@@ -130,9 +130,9 @@
           "type": "link_block",
           "settings": {
             "image": "shopify://shop_images/5_c85bbaed-92bd-43b6-93a1-2e9ef14fc90f.jpg",
-            "text": "Husk Geo",
+            "text": "All Resort Wear",
             "link_label": "Shop Now",
-            "link": "shopify://collections/husk-geo"
+            "link": "shopify://collections/monday-beachwear"
           }
         }
       },
