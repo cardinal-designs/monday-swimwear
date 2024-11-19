@@ -13,8 +13,8 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "video": "shopify://files/videos/MONDAY-BODY-WEBSITE-DESKTOP1.mp4",
-        "mobile_video": "shopify://files/videos/MONDAY-BODY-MOBILE.mp4",
+        "image": "shopify://shop_images/30-main-desktop.png",
+        "mobile_image": "shopify://shop_images/30-main-mobile.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
@@ -115,10 +115,18 @@
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
+        "8f087094-f3ad-4736-93d9-157a37f38591": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/MB-Bras_fdb4f1b9-5f36-49f0-8b28-c620f8acf836.png",
+            "title": "",
+            "link": "shopify://collections/monday-body-bras"
+          }
+        },
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/SCULPTING-BOTTOMS_67b38f20-096e-41fd-9d9c-a0889c97b7b6.png",
+            "image": "shopify://shop_images/MB-bottoms_ba99d3ce-3cf8-4864-acbb-00fd4887fba2.png",
             "title": "",
             "link": "shopify://collections/monday-body-shorts-and-leggings"
           }
@@ -126,24 +134,16 @@
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/FLATTERING-TOPS_52c0bc14-dc2b-4c3a-9c3b-8818c6fcdc92.png",
+            "image": "shopify://shop_images/MB-tops_ee06e814-54c1-4c33-9d9a-aea7079ca1c6.png",
             "title": "",
             "link": "shopify://collections/monday-body-tops"
-          }
-        },
-        "8f087094-f3ad-4736-93d9-157a37f38591": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/SUPPORTIVE-BRAS_6504d715-86ac-429f-8fe1-43d0e6090627.png",
-            "title": "",
-            "link": "shopify://collections/monday-body-bras"
           }
         }
       },
       "block_order": [
+        "8f087094-f3ad-4736-93d9-157a37f38591",
         "228154d8-da02-4a47-bdfb-eddec1bf3051",
-        "553d10dc-6642-4b1c-815d-95677cea6218",
-        "8f087094-f3ad-4736-93d9-157a37f38591"
+        "553d10dc-6642-4b1c-815d-95677cea6218"
       ],
       "settings": {}
     },
