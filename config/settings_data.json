@@ -108,10 +108,10 @@
               "product": "es-vedra-sunglasses-black"
             }
           },
-          "c53f4786-5fa6-4c8f-b227-d7914b83b00d": {
+          "upsell_jbPbgL": {
             "type": "upsell",
             "settings": {
-              "product": "exuma-hat"
+              "product": "cannes-clutch"
             }
           },
           "upsell_9fznNm": {
@@ -141,7 +141,7 @@
         },
         "block_order": [
           "upsell_EkzeFE",
-          "c53f4786-5fa6-4c8f-b227-d7914b83b00d",
+          "upsell_jbPbgL",
           "upsell_9fznNm",
           "upsell_f46dY3",
           "upsell_fHwMP6",
