@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/30-main-desktop.png",
-        "mobile_image": "shopify://shop_images/30-main-mobile.png",
+        "image": "shopify://shop_images/bfcm-desktop.png",
+        "mobile_image": "shopify://shop_images/bfcm-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -46,6 +46,16 @@
       "settings": {
         "title": "PARAISO Miami Beach",
         "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eZNpqsZDx2k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      }
+    },
+    "164081090579915a8a": {
+      "type": "text",
+      "disabled": true,
+      "settings": {
+        "text": "Orders placed with Black Friday or Cyber Monday promotional codes will qualify for store credit only.",
+        "wide": true,
+        "add_glow": false,
+        "link": "shopify://collections/shop-all"
       }
     },
     "16407502469f0e5f45": {
@@ -83,15 +93,6 @@
         "collection_wbAFkR"
       ],
       "settings": {}
-    },
-    "164081090579915a8a": {
-      "type": "text",
-      "settings": {
-        "text": "Orders placed with Black Friday or Cyber Monday promotional codes will qualify for store credit only.",
-        "wide": true,
-        "add_glow": false,
-        "link": "shopify://collections/shop-all"
-      }
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
