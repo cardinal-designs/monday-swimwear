@@ -86,12 +86,11 @@
     },
     "164081090579915a8a": {
       "type": "text",
-      "disabled": true,
       "settings": {
-        "text": "First 300 Palm Green orders receive a gift with purchase.",
+        "text": "Orders placed with Black Friday or Cyber Monday promotional codes will qualify for store credit only.",
         "wide": true,
         "add_glow": false,
-        "link": "shopify://collections/palm-green"
+        "link": "shopify://collections/shop-all"
       }
     },
     "16408101574f5b391b": {
@@ -286,8 +285,8 @@
     "1660324166f7286707",
     "1640133702b1b204aa",
     "1657215750b8e1724d",
-    "16407502469f0e5f45",
     "164081090579915a8a",
+    "16407502469f0e5f45",
     "16408101574f5b391b",
     "1640812146b4d73cae",
     "1640811405c1297562",
