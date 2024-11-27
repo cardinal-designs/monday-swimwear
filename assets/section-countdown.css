@@ -40,3 +40,17 @@
   margin: 2px 0 0;
   line-height: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .countdown__container {
+    gap: 8px;
+  }
+
+  .countdown__time {
+    font-size: 20px;
+  }
+  
+  .countdown__unit {
+    font-size: 9px;
+  }
+}
