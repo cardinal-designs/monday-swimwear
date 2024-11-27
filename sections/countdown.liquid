@@ -1,58 +1,60 @@
-{{ 'section-countdown.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'countdown.js' | asset_url }}" defer="defer"></script>
-
-{% assign bg_color = section.settings.background_color %}
-
-<countdown-timer>
-  <div class="{% if bg_color != blank and bg_color != 'rgba(0,0,0,0)' %} py-60" style="background-color: {{ bg_color }}"{% else %} my-60{% endif %}">
-    <div class="page-width flex gap-40 justify-around items-center flex-wrap">
-      {% if section.settings.title != blank %}
-        <h2 class="text-m-h1 font-serif italic md:text-h1">{{ section.settings.title }}</h2>
-      {% endif %}
-
-      <div class="flex items-center text-center border-l-1 border-r-1 border-sage">
-        <div class="px-15 border-r-1 border-sage md:px-30">
-          <h1 class="text-m-h1 font-serif italic md:text-h1" data-days>0</h1>
-          <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Days</p>
+{% unless section.settings.hidden %}
+  {{ 'section-countdown.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'countdown.js' | asset_url }}" defer="defer"></script>
+  
+  {% assign bg_color = section.settings.background_color %}
+  
+  <countdown-timer>
+    <div class="{% if bg_color != blank and bg_color != 'rgba(0,0,0,0)' %} py-60" style="background-color: {{ bg_color }}"{% else %} my-60{% endif %}">
+      <div class="page-width flex gap-40 justify-around items-center flex-wrap">
+        {% if section.settings.title != blank %}
+          <h2 class="text-m-h1 font-serif italic md:text-h1">{{ section.settings.title }}</h2>
+        {% endif %}
+  
+        <div class="flex items-center text-center border-l-1 border-r-1 border-sage">
+          <div class="px-15 border-r-1 border-sage md:px-30">
+            <h1 class="text-m-h1 font-serif italic md:text-h1" data-days>0</h1>
+            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Days</p>
+          </div>
+          <div class="px-15 border-r-1 border-sage md:px-30">
+            <h1 class="text-m-h1 font-serif italic md:text-h1" data-hours>0</h1>
+            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Hours</p>
+          </div>
+          <div class="px-15 border-r-1 border-sage md:px-30">
+            <h1 class="text-m-h1 font-serif italic md:text-h1" data-minutes>0</h1>
+            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Minutes</p>
+          </div>
+          <div class="px-15 md:px-30">
+            <h1 class="text-m-h1 font-serif italic md:text-h1" data-seconds>0</h1>
+            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Seconds</p>
+          </div>
         </div>
-        <div class="px-15 border-r-1 border-sage md:px-30">
-          <h1 class="text-m-h1 font-serif italic md:text-h1" data-hours>0</h1>
-          <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Hours</p>
-        </div>
-        <div class="px-15 border-r-1 border-sage md:px-30">
-          <h1 class="text-m-h1 font-serif italic md:text-h1" data-minutes>0</h1>
-          <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Minutes</p>
-        </div>
-        <div class="px-15 md:px-30">
-          <h1 class="text-m-h1 font-serif italic md:text-h1" data-seconds>0</h1>
-          <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Seconds</p>
-        </div>
+  
+        {% if section.settings.button_label != blank %}
+          <span>
+            {% if section.settings.button_style == 'button' %}
+              <a href="{{ section.settings.button_link }}" class="w-fit button">{{ section.settings.button_label }}</a>
+            {% else %}
+              {% render 'text-link' link: section.settings.button_link, label: section.settings.button_label %}
+            {% endif %}
+          </span>
+        {% endif %}
       </div>
-
-      {% if section.settings.button_label != blank %}
-        <span>
-          {% if section.settings.button_style == 'button' %}
-            <a href="{{ section.settings.button_link }}" class="w-fit button">{{ section.settings.button_label }}</a>
-          {% else %}
-            {% render 'text-link' link: section.settings.button_link, label: section.settings.button_label %}
-          {% endif %}
-        </span>
-      {% endif %}
     </div>
-  </div>
-
-  <script type="application/json" data-settings>
-    {
-      "year": {{ section.settings.year | json }},
-      "month": {{ section.settings.month | json }},
-      "day": {{ section.settings.day | json }},
-      "hour": {{ section.settings.hour | json }},
-      "minute": {{ section.settings.minute | json }},
-      "shopTimezone": {{ 'now' | date: '%z' | json }},
-      "hideWhenComplete": {{ section.settings.hide_when_complete | json }}
-    }
-  </script>
-</countdown-timer>
+  
+    <script type="application/json" data-settings>
+      {
+        "year": {{ section.settings.year | json }},
+        "month": {{ section.settings.month | json }},
+        "day": {{ section.settings.day | json }},
+        "hour": {{ section.settings.hour | json }},
+        "minute": {{ section.settings.minute | json }},
+        "shopTimezone": {{ 'now' | date: '%z' | json }},
+        "hideWhenComplete": {{ section.settings.hide_when_complete | json }}
+      }
+    </script>
+  </countdown-timer>
+{% endunless %}
 
 {% schema %}
   {
