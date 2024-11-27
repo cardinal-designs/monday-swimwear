@@ -1,4 +1,4 @@
-export default class CountdownTimer extends HTMLElement {
+var CountdownTimer = class extends HTMLElement {
   constructor() {
     super();
 
