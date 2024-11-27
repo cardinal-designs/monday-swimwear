@@ -41,6 +41,12 @@
         "hideWhenComplete": {{ section.settings.hide_when_complete | json }}
       }
     </script>
+
+    <style>
+      .countdown__text a {
+        color: {{ section.settings.text_color }};
+      }
+    </style>
   </countdown-timer>
 {% endunless %}
 
