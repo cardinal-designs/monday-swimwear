@@ -2,10 +2,8 @@
   {{ 'section-countdown.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'countdown.js' | asset_url }}" defer="defer"></script>
   
-  {% assign bg_color = section.settings.background_color %}
-  
   <countdown-timer>
-    <div class="{% if bg_color != blank and bg_color != 'rgba(0,0,0,0)' %} py-60" style="background-color: {{ bg_color }}"{% else %} my-60{% endif %}">
+    <div class="countdown" style="background-color: {{ section.settings.background_color }};color: {{ section.settings.text_color }};">
       <div class="page-width flex gap-40 justify-around items-center flex-wrap">
         {% if section.settings.text != blank %}
           <div class="text-m-h1 font-serif italic md:text-h1">{{ section.settings.text }}</div>
@@ -29,16 +27,6 @@
             <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Seconds</p>
           </div>
         </div>
-  
-        {% if section.settings.button_label != blank %}
-          <span>
-            {% if section.settings.button_style == 'button' %}
-              <a href="{{ section.settings.button_link }}" class="w-fit button">{{ section.settings.button_label }}</a>
-            {% else %}
-              {% render 'text-link' link: section.settings.button_link, label: section.settings.button_label %}
-            {% endif %}
-          </span>
-        {% endif %}
       </div>
     </div>
   
@@ -68,7 +56,13 @@
         "type": "color",
         "id": "background_color",
         "label": "Background Color",
-        "default": "#EBF1E6"
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#FFFFFF"
       },
       {
         "type": "header",
