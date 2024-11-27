@@ -21,10 +21,12 @@ var CountdownTimer = class extends HTMLElement {
       const now = new Date().getTime();
       const distance = this.countDownTime - now;
 
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
-      const minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
-      const seconds = Math.floor(distance % (1000 * 60) / 1000);
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+      let minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
+      let seconds = Math.floor(distance % (1000 * 60) / 1000);
+
+      days.length == 1 ? day
 
       if (distance < 0) {
         this.timerInterval && clearInterval(this.timerInterval);
@@ -42,6 +44,10 @@ var CountdownTimer = class extends HTMLElement {
         this.secondsEl.innerHTML = seconds;
       }
     });
+  }
+
+  handleNumber(number) {
+    return number < 10 ? `0${number}` : number;
   }
 }
 
