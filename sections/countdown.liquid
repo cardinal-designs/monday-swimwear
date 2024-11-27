@@ -1,4 +1,4 @@
-{% unless section.settings.hidden %}
+{% unless section.settings.hide_section %}
   {{ 'section-countdown.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'countdown.js' | asset_url }}" defer="defer"></script>
   
@@ -51,6 +51,11 @@
       {
         "type": "header",
         "content": "Config"
+      },
+      {
+        "type": "checkbox",
+        "id": "hide_section",
+        "label": "Hide Section"
       },
       {
         "type": "color",
