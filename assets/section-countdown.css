@@ -1,5 +1,5 @@
 .countdown {
-  padding: 10px 0;
+  padding: 8px 0 12px;
 }
 
 .countdown__text {
@@ -10,6 +10,7 @@
 .countdown__text * {
   margin: 0;
   font-size: 12px;
+  line-height: 1;
 }
 
 .countdown__text a {
