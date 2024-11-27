@@ -7,8 +7,8 @@
   <countdown-timer>
     <div class="{% if bg_color != blank and bg_color != 'rgba(0,0,0,0)' %} py-60" style="background-color: {{ bg_color }}"{% else %} my-60{% endif %}">
       <div class="page-width flex gap-40 justify-around items-center flex-wrap">
-        {% if section.settings.title != blank %}
-          <h2 class="text-m-h1 font-serif italic md:text-h1">{{ section.settings.title }}</h2>
+        {% if section.settings.text != blank %}
+          <div class="text-m-h1 font-serif italic md:text-h1">{{ section.settings.text }}</div>
         {% endif %}
   
         <div class="flex items-center text-center border-l-1 border-r-1 border-sage">
@@ -240,44 +240,13 @@
         "label": "Minute"
       },
       {
-        "type": "checkbox",
-        "id": "hide_when_complete",
-        "label": "Hide timer when complete"
-      },
-      {
         "type": "header",
         "content": "Content"
       },
       {
-        "type": "text",
-        "id": "title",
-        "label": "Title",
-        "default": "Countdown timer"
-      },
-      {
-        "type": "header",
-        "content": "Button"
-      },
-      {
-        "type": "text",
-        "id": "button_label",
-        "label": "Button Label",
-        "default": "Shop Now"
-      },
-      {
-        "type": "url",
-        "id": "button_link",
-        "label": "Button Link"
-      },
-      {
-        "type": "select",
-        "id": "button_style",
-        "options": [
-          { "value": "button", "label": "Button" },
-          { "value": "text", "label": "Text" }
-        ],
-        "default": "text",
-        "label": "Button Style"
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
       }
     ],
     "presets": [
