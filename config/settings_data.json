@@ -3892,7 +3892,7 @@
           "day": "1",
           "hour": "0",
           "minute": "0",
-          "text": "<p>Lorem ipsum <a href=\"/collections/new-arrivals\" title=\"New Arrivals\">link here</a></p>"
+          "text": "<p>Lorem ipsum <a href=\"/collections/new-arrivals\" title=\"New Arrivals\"><strong>link here</strong></a></p>"
         }
       }
     },
