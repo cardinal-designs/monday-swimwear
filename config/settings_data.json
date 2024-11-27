@@ -3885,8 +3885,8 @@
         "type": "countdown",
         "settings": {
           "hide_section": false,
-          "background_color": "#000000",
-          "text_color": "#FFFFFF",
+          "background_color": "#ffffff",
+          "text_color": "#000000",
           "year": 2024,
           "month": "december",
           "day": "1",
