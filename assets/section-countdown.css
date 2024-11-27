@@ -19,13 +19,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 .countdown__element {
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
 }
 
 .countdown__time {
@@ -35,5 +35,6 @@
 }
 
 .countdown__unit {
+  margin: 2px 0 0;
   line-height: 1;
 }
