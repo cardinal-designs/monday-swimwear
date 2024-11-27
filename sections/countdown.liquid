@@ -4,27 +4,27 @@
   
   <countdown-timer>
     <div class="countdown" style="background-color: {{ section.settings.background_color }};color: {{ section.settings.text_color }};">
-      <div class="page-width flex gap-40 justify-around items-center flex-wrap">
+      <div class="page-width">
         {% if section.settings.text != blank %}
-          <div class="text-m-h1 font-serif italic md:text-h1">{{ section.settings.text }}</div>
+          <div class="countdown__text">{{ section.settings.text }}</div>
         {% endif %}
   
-        <div class="flex items-center text-center border-l-1 border-r-1 border-sage">
-          <div class="px-15 border-r-1 border-sage md:px-30">
-            <h1 class="text-m-h1 font-serif italic md:text-h1" data-days>0</h1>
-            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Days</p>
+        <div class="countdown__container">
+          <div class="countdown__element">
+            <h1 class="countdown__time" data-days>00</h1>
+            <p class="countdown__unit">Days</p>
           </div>
-          <div class="px-15 border-r-1 border-sage md:px-30">
-            <h1 class="text-m-h1 font-serif italic md:text-h1" data-hours>0</h1>
-            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Hours</p>
+          <div class="countdown__element">
+            <h1 class="countdown__time" data-hours>00</h1>
+            <p class="countdown__unit">Hours</p>
           </div>
-          <div class="px-15 border-r-1 border-sage md:px-30">
-            <h1 class="text-m-h1 font-serif italic md:text-h1" data-minutes>0</h1>
-            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Minutes</p>
+          <div class="countdown__element">
+            <h1 class="countdown__time" data-minutes>00</h1>
+            <p class="countdown__unit">Minutes</p>
           </div>
-          <div class="px-15 md:px-30">
-            <h1 class="text-m-h1 font-serif italic md:text-h1" data-seconds>0</h1>
-            <p class="mt-10 text-m-sh1 uppercase md:text-sh2">Seconds</p>
+          <div class="countdown__element">
+            <h1 class="countdown__time" data-seconds>00</h1>
+            <p class="countdown__unit">Seconds</p>
           </div>
         </div>
       </div>
