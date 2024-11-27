@@ -36,10 +36,10 @@ var CountdownTimer = class extends HTMLElement {
           this.remove();
         }
       } else {
-        this.daysEl.innerHTML = formatNumber(days);
-        this.hoursEl.innerHTML = formatNumber(hours);
-        this.minutesEl.innerHTML = formatNumber(minutes);
-        this.secondsEl.innerHTML = formatNumber(seconds);
+        this.daysEl.innerHTML = this.formatNumber(days);
+        this.hoursEl.innerHTML = this.formatNumber(hours);
+        this.minutesEl.innerHTML = this.formatNumber(minutes);
+        this.secondsEl.innerHTML = this.formatNumber(seconds);
       }
     });
   }
