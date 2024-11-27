@@ -10,3 +10,7 @@
 .countdown__text * {
   margin: 0;
 }
+
+.countdown__text a {
+  text-decoration: underline;
+}
