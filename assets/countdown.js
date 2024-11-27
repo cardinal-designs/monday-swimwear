@@ -38,15 +38,15 @@ var CountdownTimer = class extends HTMLElement {
           this.remove();
         }
       } else {
-        this.daysEl.innerHTML = days;
-        this.hoursEl.innerHTML = hours;
-        this.minutesEl.innerHTML = minutes;
-        this.secondsEl.innerHTML = seconds;
+        this.daysEl.innerHTML = formatNumber(days);
+        this.hoursEl.innerHTML = formatNumber(hours);
+        this.minutesEl.innerHTML = formatNumber(minutes);
+        this.secondsEl.innerHTML = formatNumber(seconds);
       }
     });
   }
 
-  handleNumber(number) {
+  formatNumber(number) {
     return number < 10 ? `0${number}` : number;
   }
 }
