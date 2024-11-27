@@ -6,25 +6,25 @@
     <div class="countdown" style="background-color: {{ section.settings.background_color }};color: {{ section.settings.text_color }};">
       <div class="page-width">
         {% if section.settings.text != blank %}
-          <div class="countdown__text rte">{{ section.settings.text }}</div>
+          <div class="countdown__text rte body-sm">{{ section.settings.text }}</div>
         {% endif %}
   
         <div class="countdown__container">
           <div class="countdown__element">
             <h3 class="countdown__time" data-days>00</h3>
-            <p class="countdown__unit">Days</p>
+            <p class="countdown__unit body-sm">Days</p>
           </div>
           <div class="countdown__element">
             <h3 class="countdown__time" data-hours>00</h3>
-            <p class="countdown__unit">Hours</p>
+            <p class="countdown__unit body-sm">Hours</p>
           </div>
           <div class="countdown__element">
             <h3 class="countdown__time" data-minutes>00</h3>
-            <p class="countdown__unit">Minutes</p>
+            <p class="countdown__unit body-sm">Minutes</p>
           </div>
           <div class="countdown__element">
             <h3 class="countdown__time" data-seconds>00</h3>
-            <p class="countdown__unit">Seconds</p>
+            <p class="countdown__unit body-sm">Seconds</p>
           </div>
         </div>
       </div>
