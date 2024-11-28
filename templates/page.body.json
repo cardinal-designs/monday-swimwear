@@ -13,8 +13,8 @@
       "type": "body-hero",
       "settings": {
         "layout": "full",
-        "image": "shopify://shop_images/bfcm-desktop.png",
-        "mobile_image": "shopify://shop_images/bfcm-mobile.png",
+        "image": "shopify://shop_images/40-desktop.png",
+        "mobile_image": "shopify://shop_images/40-mobile.png",
         "content_position": "center",
         "subtitle": "",
         "title": "",
