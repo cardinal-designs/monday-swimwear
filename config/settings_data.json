@@ -3889,9 +3889,9 @@
           "text_color": "#000000",
           "year": 2024,
           "month": "december",
-          "day": "1",
-          "hour": "0",
-          "minute": "0",
+          "day": "3",
+          "hour": "23",
+          "minute": "59",
           "text": "<p>Lorem ipsum <a href=\"/collections/new-arrivals\" title=\"New Arrivals\"><strong>link here</strong></a></p>"
         }
       }
