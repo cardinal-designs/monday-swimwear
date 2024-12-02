@@ -61,6 +61,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_tTN4nb": {
+          "type": "collection",
+          "settings": {
+            "collection": "midnight-crinkle"
+          }
+        },
         "collection_wbAFkR": {
           "type": "collection",
           "settings": {
@@ -73,12 +79,6 @@
             "collection": "the-signature-collection-1"
           }
         },
-        "collection_tTN4nb": {
-          "type": "collection",
-          "settings": {
-            "collection": "midnight-crinkle"
-          }
-        },
         "collection_Q79dTV": {
           "type": "collection",
           "settings": {
@@ -87,9 +87,9 @@
         }
       },
       "block_order": [
+        "collection_tTN4nb",
         "collection_wbAFkR",
         "collection_a7cRzg",
-        "collection_tTN4nb",
         "collection_Q79dTV"
       ],
       "settings": {}
