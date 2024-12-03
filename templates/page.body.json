@@ -15,6 +15,8 @@
         "layout": "full",
         "image": "shopify://shop_images/40-desktop.png",
         "mobile_image": "shopify://shop_images/40-mobile.png",
+        "video": "shopify://files/videos/MONDAY-BODY-WEBSITE-DESKTOP1 (1).mp4",
+        "mobile_video": "shopify://files/videos/MONDAY-BODY-MOBILE (1).mp4",
         "content_position": "center",
         "subtitle": "",
         "title": "",
