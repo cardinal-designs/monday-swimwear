@@ -3884,7 +3884,7 @@
       "countdown": {
         "type": "countdown",
         "settings": {
-          "hide_section": false,
+          "hide_section": true,
           "background_color": "#ffffff",
           "text_color": "#000000",
           "year": 2024,
