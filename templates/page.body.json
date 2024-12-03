@@ -125,14 +125,6 @@
             "link": "shopify://collections/monday-body-bras"
           }
         },
-        "228154d8-da02-4a47-bdfb-eddec1bf3051": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/MB-bottoms_ba99d3ce-3cf8-4864-acbb-00fd4887fba2.png",
-            "title": "",
-            "link": "shopify://collections/monday-body-shorts-and-leggings"
-          }
-        },
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
@@ -140,12 +132,20 @@
             "title": "",
             "link": "shopify://collections/monday-body-tops"
           }
+        },
+        "228154d8-da02-4a47-bdfb-eddec1bf3051": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/MB-bottoms_ba99d3ce-3cf8-4864-acbb-00fd4887fba2.png",
+            "title": "",
+            "link": "shopify://collections/monday-body-shorts-and-leggings"
+          }
         }
       },
       "block_order": [
         "8f087094-f3ad-4736-93d9-157a37f38591",
-        "228154d8-da02-4a47-bdfb-eddec1bf3051",
-        "553d10dc-6642-4b1c-815d-95677cea6218"
+        "553d10dc-6642-4b1c-815d-95677cea6218",
+        "228154d8-da02-4a47-bdfb-eddec1bf3051"
       ],
       "settings": {}
     },
