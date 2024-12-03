@@ -117,18 +117,10 @@
     "2e292e74-3650-4541-a5ee-97da8f358f0a": {
       "type": "body-categories",
       "blocks": {
-        "8f087094-f3ad-4736-93d9-157a37f38591": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/MB-Bras_fdb4f1b9-5f36-49f0-8b28-c620f8acf836.png",
-            "title": "",
-            "link": "shopify://collections/monday-body-bras"
-          }
-        },
         "553d10dc-6642-4b1c-815d-95677cea6218": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/MB-tops_ee06e814-54c1-4c33-9d9a-aea7079ca1c6.png",
+            "image": "shopify://shop_images/Flattering-Tops_1.png",
             "title": "",
             "link": "shopify://collections/monday-body-tops"
           }
@@ -136,16 +128,24 @@
         "228154d8-da02-4a47-bdfb-eddec1bf3051": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/MB-bottoms_ba99d3ce-3cf8-4864-acbb-00fd4887fba2.png",
+            "image": "shopify://shop_images/Group_4115.png",
             "title": "",
             "link": "shopify://collections/monday-body-shorts-and-leggings"
+          }
+        },
+        "8f087094-f3ad-4736-93d9-157a37f38591": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Supportive-Bras_1.png",
+            "title": "",
+            "link": "shopify://collections/monday-body-bras"
           }
         }
       },
       "block_order": [
-        "8f087094-f3ad-4736-93d9-157a37f38591",
         "553d10dc-6642-4b1c-815d-95677cea6218",
-        "228154d8-da02-4a47-bdfb-eddec1bf3051"
+        "228154d8-da02-4a47-bdfb-eddec1bf3051",
+        "8f087094-f3ad-4736-93d9-157a37f38591"
       ],
       "settings": {}
     },
