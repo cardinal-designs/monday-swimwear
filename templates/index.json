@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/IMG_7622.png",
-        "mobile_image": "shopify://shop_images/IMG_7621.png",
+        "image": "shopify://shop_images/Group_4110.png",
+        "mobile_image": "shopify://shop_images/Group_3723_e0e0294b-6964-43eb-8258-40030536b3f5.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -61,22 +61,22 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_tTN4nb": {
-          "type": "collection",
-          "settings": {
-            "collection": "midnight-crinkle"
-          }
-        },
         "collection_wbAFkR": {
           "type": "collection",
           "settings": {
-            "collection": "burgundy"
+            "collection": "chili-pepper"
           }
         },
         "collection_a7cRzg": {
           "type": "collection",
           "settings": {
             "collection": "the-signature-collection-1"
+          }
+        },
+        "collection_tTN4nb": {
+          "type": "collection",
+          "settings": {
+            "collection": "midnight-crinkle"
           }
         },
         "collection_Q79dTV": {
@@ -87,9 +87,9 @@
         }
       },
       "block_order": [
-        "collection_tTN4nb",
         "collection_wbAFkR",
         "collection_a7cRzg",
+        "collection_tTN4nb",
         "collection_Q79dTV"
       ],
       "settings": {}
@@ -97,8 +97,8 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/Group_3718.png",
-        "mobile_image": "shopify://shop_images/Group_3746.png",
+        "image": "shopify://shop_images/Group_3718_437aaf68-559f-462f-bea5-adbc4f4cc534.png",
+        "mobile_image": "shopify://shop_images/Group_3746_0e05ec61-e84d-4227-946f-6ff1a5a3b586.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
