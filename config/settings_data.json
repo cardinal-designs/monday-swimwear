@@ -102,6 +102,12 @@
       "cart-drawer": {
         "type": "cart-drawer",
         "blocks": {
+          "upsell_HwcTwi": {
+            "type": "upsell",
+            "settings": {
+              "product": "es-vedra-sunglasses-black"
+            }
+          },
           "upsell_EkzeFE": {
             "type": "upsell",
             "settings": {
@@ -126,6 +132,12 @@
               "product": "clovelly-one-piece-black-ivory"
             }
           },
+          "upsell_4wzPjc": {
+            "type": "upsell",
+            "settings": {
+              "product": "san-remo-hat-natural"
+            }
+          },
           "upsell_fHwMP6": {
             "type": "upsell",
             "settings": {
@@ -140,10 +152,12 @@
           }
         },
         "block_order": [
+          "upsell_HwcTwi",
           "upsell_EkzeFE",
           "upsell_jbPbgL",
           "upsell_9fznNm",
           "upsell_f46dY3",
+          "upsell_4wzPjc",
           "upsell_fHwMP6",
           "upsell_bkdDna"
         ],
