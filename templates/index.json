@@ -108,37 +108,37 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/1_92b665c4-1074-437c-a5b1-ddb9b631f870.jpg",
+            "text": "Swim One Pieces",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/one-pieces"
+          }
+        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/1_dec78371-8211-4055-aca4-68be5b7a3a1f.jpg",
+            "image": "shopify://shop_images/2_f76d02f9-c7b5-4d4b-93ae-503432e24502.jpg",
             "text": "All Swimwear",
             "link_label": "Shop Now",
             "link": "shopify://collections/all-swimwear"
           }
         },
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/2_b5f6125f-fcfb-4aef-bad4-2c8dbfacb2d0.jpg",
-            "text": "Essential Accessories",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/beachwear-accessories"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/3_15768aab-55f7-4915-840e-c6339cc98536.jpg",
-            "text": "All Resort Wear",
+            "image": "shopify://shop_images/3_9ce21373-3f30-4410-af17-82b546ff8cce.jpg",
+            "text": "Eggplant Restock",
             "link_label": "Shop Now",
-            "link": "shopify://collections/monday-beachwear"
+            "link": "shopify://collections/eggplant-wide-rib"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
