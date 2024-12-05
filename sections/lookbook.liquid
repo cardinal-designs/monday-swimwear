@@ -17,7 +17,7 @@
       <div class="lookbook__grid">
         {% for block in section.blocks %}
           <button class="lookbook__grid-item" data-open data-index="{{ forloop.index }}" {{ block.shopify_attributes }}>
-            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+            {% render 'lazy-image' image: block.settings.image, force_fade: true, classes: 'img-fill' %}
           </button>
         {% endfor %}
       </div>
@@ -34,7 +34,7 @@
             <button data-close>{% render 'icon-close' %}</button>
           </div>
           <div class="lookbook__slideout-image">
-            {% render 'lazy-image' image: block.settings.image, fade: true, classes: 'img-fill' %}
+            {% render 'lazy-image' image: block.settings.image, force_fade: true, classes: 'img-fill' %}
           </div>
           <div class="lookbook__slideout-grid">
             {% for product in block.settings.products %}
