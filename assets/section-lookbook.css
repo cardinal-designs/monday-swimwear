@@ -1,0 +1,140 @@
+.lookbook__header {
+  margin: 60px 0;
+}
+
+.lookbook__header h2 {
+  margin: 0;
+}
+
+.lookbook__header p {
+  max-width: 600px;
+  margin: 15px 0 0;
+}
+
+.lookbook__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.lookbook__grid-item {
+  padding-bottom: 145%;
+  position: relative;
+}
+
+.lookbook__slideout-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  z-index: 9999999;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.lookbook.open + .lookbook__slideout-wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lookbook__slideout-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: .4;
+}
+
+.lookbook__slideout {
+  max-width: 550px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateX(100%);
+  overflow-y: auto;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.lookbook.open + .lookbook__slideout-wrapper .lookbook__slideout {
+  transform: translateX(0);
+}
+
+.lookbook__slideout-item {
+  padding: 0 20px 40px;
+  display: none;
+}
+
+.lookbook__slideout-item.active {
+  display: block;
+}
+
+.lookbook__slideout-header {
+  width: 100%;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  z-index: 20;
+}
+
+.lookbook__slideout-header h4 {
+  margin: 0;
+}
+
+.lookbook__slideout-image {
+  margin-bottom: 20px;
+  padding-bottom: 145%;
+  position: relative;
+}
+
+.lookbook__slideout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .lookbook__grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .lookbook__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .lookbook__header {
+    margin: 40px 0 30px;
+  }
+
+  .lookbook__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .lookbook__slideout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .lookbook__grid {
+    grid-template-columns: 1fr;
+  }
+}
