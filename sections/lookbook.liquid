@@ -41,7 +41,14 @@
             <button data-close>{% render 'icon-close' %}</button>
           </div>
           <div class="lookbook__slideout-image">
-            {% render 'lazy-image' image: block.settings.image, force_fade: true, classes: 'img-fill' %}
+            {% if block.settings.video != blank %}
+              {{
+                block.settings.video
+                | video_tag: loop: true, muted: true, autoplay: true, controls: false, image_size: '500x'
+              }}
+            {% else %}
+              {% render 'lazy-image' image: block.settings.image, force_fade: true, classes: 'img-fill' %}
+            {% endif %}
           </div>
           <div class="lookbook__slideout-grid">
             {% for product in block.settings.products %}
