@@ -20,7 +20,7 @@
             {% if block.settings.video != blank %}
               {{
                 block.settings.video
-                | video_tag: loop: true, muted: true, autoplay: true, controls: false, image_size: '500x', classes: 'img-fill'
+                | video_tag: loop: true, muted: true, autoplay: true, controls: false, image_size: '500x'
               }}
             {% else %}
               {% render 'lazy-image' image: block.settings.image, force_fade: true, classes: 'img-fill' %}
