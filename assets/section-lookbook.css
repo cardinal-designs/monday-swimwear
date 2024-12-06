@@ -22,6 +22,12 @@
   position: relative;
 }
 
+.lookbook__grid-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .lookbook__slideout-wrapper {
   position: fixed;
   top: 0;
