@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {}
+    },
+    "16426285735ee00f29": {
+      "type": "product-bar",
+      "settings": {
+        "title": ""
+      }
+    },
+    "164253095353d35284": {
+      "type": "in-real-life",
+      "settings": {
+        "title": "In Real Life"
+      }
+    },
+    "1650913168c87f151f": {
+      "type": "nosto-recommendations",
+      "settings": {
+        "label": "Complete the Look",
+        "custom_html": "<div class=\"nosto_element\" id=\"productpage-nosto-2\"></div>"
+      }
+    },
+    "nosto_product": {
+      "type": "nosto-product",
+      "settings": {}
+    },
+    "1653533601c1ff3a8b": {
+      "type": "fit-guide",
+      "blocks": {
+        "48c45190-8ecd-42e3-9a50-2e79eebe20d6": {
+          "type": "fit",
+          "settings": {
+            "title": "The",
+            "short_title": "",
+            "short_description": "",
+            "description": "",
+            "fit": "",
+            "padding": "",
+            "coverage": "",
+            "style": "",
+            "fabric": "",
+            "fit_tip": "",
+            "shop_link": "",
+            "explore_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "48c45190-8ecd-42e3-9a50-2e79eebe20d6"
+      ],
+      "disabled": true,
+      "settings": {
+        "offset_text": false,
+        "use_page_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426285735ee00f29",
+    "164253095353d35284",
+    "1650913168c87f151f",
+    "nosto_product",
+    "1653533601c1ff3a8b"
+  ]
+}
