@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/Group_4110.png",
-        "mobile_image": "shopify://shop_images/Group_3723_e0e0294b-6964-43eb-8258-40030536b3f5.png",
+        "image": "shopify://shop_images/IBIZABLUE-MAIN-desktop.png",
+        "mobile_image": "shopify://shop_images/IBIZABLUE-MAIN-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -61,10 +61,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_wbAFkR": {
+        "collection_Q79dTV": {
           "type": "collection",
           "settings": {
-            "collection": "chili-pepper"
+            "collection": "ibiza-blue"
           }
         },
         "collection_a7cRzg": {
@@ -73,32 +73,32 @@
             "collection": "the-signature-collection-1"
           }
         },
+        "collection_wbAFkR": {
+          "type": "collection",
+          "settings": {
+            "collection": "sarong"
+          }
+        },
         "collection_tTN4nb": {
           "type": "collection",
           "settings": {
-            "collection": "midnight-crinkle"
-          }
-        },
-        "collection_Q79dTV": {
-          "type": "collection",
-          "settings": {
-            "collection": "palm-green"
+            "collection": "monday-mini"
           }
         }
       },
       "block_order": [
-        "collection_wbAFkR",
+        "collection_Q79dTV",
         "collection_a7cRzg",
-        "collection_tTN4nb",
-        "collection_Q79dTV"
+        "collection_wbAFkR",
+        "collection_tTN4nb"
       ],
       "settings": {}
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/Group_3718_437aaf68-559f-462f-bea5-adbc4f4cc534.png",
-        "mobile_image": "shopify://shop_images/Group_3746_0e05ec61-e84d-4227-946f-6ff1a5a3b586.png",
+        "image": "shopify://shop_images/Group_4160.png",
+        "mobile_image": "shopify://shop_images/Group_4156.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
@@ -108,37 +108,37 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/malta-top.jpg",
+            "text": "The Signature Collection",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/the-signature-collection-1"
+          }
+        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/1_92b665c4-1074-437c-a5b1-ddb9b631f870.jpg",
+            "image": "shopify://shop_images/one-pieces_806fa621-f428-4969-b0e1-8188c01d34cb.jpg",
             "text": "Swim One Pieces",
             "link_label": "Shop Now",
             "link": "shopify://collections/one-pieces"
           }
         },
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/2_f76d02f9-c7b5-4d4b-93ae-503432e24502.jpg",
-            "text": "All Swimwear",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/all-swimwear"
-          }
-        },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/3_9ce21373-3f30-4410-af17-82b546ff8cce.jpg",
-            "text": "Eggplant Restock",
+            "image": "shopify://shop_images/midnight-dress-2.jpg",
+            "text": "Knitwear",
             "link_label": "Shop Now",
-            "link": "shopify://collections/eggplant-wide-rib"
+            "link": "shopify://collections/knitwear"
           }
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
