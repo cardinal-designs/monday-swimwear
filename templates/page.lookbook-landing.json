@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "shop-by-look",
+      "blocks": {
+        "block_dMXYnQ": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Rectangle_159.jpg",
+            "title": "Papaya Collection",
+            "link_label": "See More",
+            "link": "shopify://pages/lookbook"
+          }
+        },
+        "block_ccY9Ry": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Rectangle_159_1.jpg",
+            "title": "Accessories",
+            "link_label": "See More",
+            "link": "shopify://pages/lookbook"
+          }
+        },
+        "block_PbBTwd": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Group_1_4.jpg",
+            "title": "How to style sarong",
+            "link_label": "See More",
+            "link": "shopify://pages/lookbook"
+          }
+        }
+      },
+      "block_order": [
+        "block_dMXYnQ",
+        "block_ccY9Ry",
+        "block_PbBTwd"
+      ],
+      "settings": {
+        "title": "Shop By Look"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
