@@ -94,6 +94,10 @@
             <div class="product__media-scrollbar-wrapper hidden">
               <div class="product__media-scrollbar swiper-scrollbar"></div>
             </div>
+
+            {% if product.tags contains 'Long Body' %}
+              <div class="product-media__tag"><p class="detail-caps">Long Body</p></div>
+            {% endif %}
           </ul>
         {% else %}
           <ul class="product__media-list list-unstyled" role="list">
