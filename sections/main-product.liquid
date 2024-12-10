@@ -119,6 +119,10 @@
                 {% render 'product-thumbnail', media: media, position: forloop.index %}
               </li>
             {%- endfor -%}
+            
+            {% if product.tags contains 'Long Body' %}
+              <div class="product-media__tag"><p class="detail-caps">Long Body</p></div>
+            {% endif %}
           </ul>
         {% endunless %}
       </div>      
