@@ -25,6 +25,7 @@
         "block_RGFCUz": {
           "type": "block",
           "settings": {
+            "video": "shopify://files/videos/mb-video-final.mp4",
             "title": "Look 2",
             "products": [
               "barbados-bottom-black",
