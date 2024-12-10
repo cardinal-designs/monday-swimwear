@@ -43,6 +43,11 @@
   position: absolute;
   top: 10px;
   left: 10px;
+  background: white;
+}
+
+.product-media__tag p {
+  margin: 0;
 }
 
 .product__media-list {
