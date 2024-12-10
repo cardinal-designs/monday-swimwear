@@ -38,6 +38,13 @@
   gap: 40px;
 }
 
+.product-media__tag {
+  padding: 4px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .product__media-list {
   width: 100%;
   margin: 0;
