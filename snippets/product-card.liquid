@@ -56,6 +56,10 @@
           
         </div>
         <div class="sold-out__tag"><p class="body-small">Sold Out</p></div>
+
+        {% if current_product.tags contains 'Long Body' %}
+          <div class="product-card__tag"><p class="detail-caps">Long Body</p></div>
+        {% endif %}
       </a>
 
       <div class="product-card__content">
