@@ -1,0 +1,114 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'section-lookbook.css' | asset_url | stylesheet_tag: preload: true }}
+
+<script src="{{ 'lookbook.js' | asset_url }}" defer="defer"></script>
+
+<look-book>
+  <div class="lookbook">
+    <div class="page-width">
+      <div class="lookbook__header">
+        <h2>{{ section.settings.title }}</h2>
+        {% if section.settings.text != blank %}
+          <p class="body">{{ section.settings.text }}</p>
+        {% endif %}
+      </div>
+      <div class="lookbook__grid">
+        {% for block in section.blocks %}
+          <button class="lookbook__grid-item" data-open data-index="{{ forloop.index }}" {{ block.shopify_attributes }}>
+            {% if block.settings.video != blank %}
+              {{
+                block.settings.video
+                | video_tag: loop: true, muted: true, autoplay: true, controls: false, image_size: '500x'
+              }}
+            {% else %}
+              {% render 'lazy-image' image: block.settings.image, force_fade: true, classes: 'img-fill' %}
+            {% endif %}
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="lookbook__slideout-wrapper">
+    <button class="lookbook__slideout-overlay" data-close></button>
+    <div class="lookbook__slideout">
+      {% for block in section.blocks %}
+        <div class="lookbook__slideout-item{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index }}">
+          <div class="lookbook__slideout-header">
+            <h4>{{ block.settings.title }}</h4>
+            <button data-close>{% render 'icon-close' %}</button>
+          </div>
+          <div class="lookbook__slideout-image">
+            {% if block.settings.video != blank %}
+              {{
+                block.settings.video
+                | video_tag: loop: true, muted: true, autoplay: true, controls: false, image_size: '500x'
+              }}
+            {% else %}
+              {% render 'lazy-image' image: block.settings.image, force_fade: true, classes: 'img-fill' %}
+            {% endif %}
+          </div>
+          <div class="lookbook__slideout-grid">
+            {% for product in block.settings.products %}
+              {% assign current_product = all_products[product] %}
+              {% render 'product-card' product_card_product: product %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</look-book>
+
+{% schema %}
+  {
+    "name": "Lookbook",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "product_list",
+            "id": "products",
+            "label": "Products"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Lookbook"
+      }
+    ]
+  }
+{% endschema %}
