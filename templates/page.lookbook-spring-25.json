@@ -28,10 +28,10 @@
             "image": "shopify://shop_images/5_d0728511-e3c5-4980-a047-fae04abf6e76.jpg",
             "title": "Look 2",
             "products": [
-              "la-jolla-shirt-midnight",
-              "santa-cruz-short-midnight-crinkle",
               "morocco-top-midnight-crinkle",
-              "es-vedra-sunglasses-tortoise"
+              "es-vedra-sunglasses-tortoise",
+              "la-jolla-shirt-midnight",
+              "santa-cruz-short-midnight-crinkle"
             ]
           }
         },
