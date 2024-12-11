@@ -39,7 +39,7 @@
 }
 
 .product-media__tag {
-  padding: 6px 8px;
+  padding: 6px 8px 5px 9px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -48,6 +48,7 @@
 }
 
 .product-media__tag p {
+  font-size: 12px;
   margin: 0;
 }
 
