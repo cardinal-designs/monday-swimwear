@@ -25,11 +25,13 @@
         "block_RGFCUz": {
           "type": "block",
           "settings": {
-            "video": "shopify://files/videos/mb-video-final.mp4",
+            "image": "shopify://shop_images/5_d0728511-e3c5-4980-a047-fae04abf6e76.jpg",
             "title": "Look 2",
             "products": [
-              "barbados-bottom-black",
-              "antigua-top-black"
+              "la-jolla-shirt-midnight",
+              "santa-cruz-short-midnight-crinkle",
+              "morocco-top-midnight-crinkle",
+              "es-vedra-sunglasses-tortoise"
             ]
           }
         },
