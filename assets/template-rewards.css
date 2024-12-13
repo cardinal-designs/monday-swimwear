@@ -447,5 +447,9 @@
   .yotpo-vip-tiers-widget .yotpo-vip-tiers-grid-header .yotpo-vip-tier-icon-wrapper:empty {
     display: none;
   }
+
+  .swell-faq-list {
+    padding-left: 0;
+  }
   
 }
