@@ -402,3 +402,13 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  
+  [yotpo-instance-id="912204"] .yotpo-widget-hero-section .yotpo-text-on-background .yotpo-text-container .yotpo-text-and-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
