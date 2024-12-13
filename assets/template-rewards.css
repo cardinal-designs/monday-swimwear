@@ -413,7 +413,7 @@
     text-align: center;
   }
 
-  .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image {
+  .yotpo-widget-referral-widget .yotpo-referral-image {
     height: 100%;
     width: 100%;
     display: block !important;
@@ -425,7 +425,7 @@
     flex-direction: column;
   }
 
-  .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image:before {
+  .yotpo-widget-referral-widget .yotpo-referral-image:before {
     position: absolute;
     inset: 0;
     width: 100%;
