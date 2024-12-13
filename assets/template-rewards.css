@@ -421,6 +421,10 @@
     position: relative;
   }
 
+  [yotpo-instance-id="912204"] .yotpo-widget-referral-widget .yotpo-container-background:not(.yotpo-is-mobile).yotpo-swap-container {
+    flex-direction: column;
+  }
+
   [yotpo-instance-id="912204"] .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image:before {
     position: absolute;
     inset: 0;
