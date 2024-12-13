@@ -405,7 +405,7 @@
 
 @media only screen and (max-width: 768px) {
   
-  [yotpo-instance-id="912204"] .yotpo-widget-hero-section .yotpo-text-on-background .yotpo-text-container .yotpo-text-and-buttons {
+  .yotpo-widget-hero-section .yotpo-text-on-background .yotpo-text-container .yotpo-text-and-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -413,7 +413,7 @@
     text-align: center;
   }
 
-  [yotpo-instance-id="912204"] .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image {
+  .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image {
     height: 100%;
     width: 100%;
     display: block !important;
@@ -421,11 +421,11 @@
     position: relative;
   }
 
-  [yotpo-instance-id="912204"] .yotpo-widget-referral-widget .yotpo-container-background:not(.yotpo-is-mobile).yotpo-swap-container {
+  .yotpo-widget-referral-widget .yotpo-container-background:not(.yotpo-is-mobile).yotpo-swap-container {
     flex-direction: column;
   }
 
-  [yotpo-instance-id="912204"] .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image:before {
+  .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image:before {
     position: absolute;
     inset: 0;
     width: 100%;
