@@ -426,6 +426,7 @@
   }
 
   .yotpo-widget-referral-widget .yotpo-referral-image:before {
+    content: "";
     position: absolute;
     inset: 0;
     width: 100%;
