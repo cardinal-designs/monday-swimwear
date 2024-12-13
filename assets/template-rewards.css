@@ -429,5 +429,9 @@
   .yotpo-widget-referral-widget .yotpo-container-background .yotpo-tile-wrapper {
     padding: 20px !important;
   }
+
+  .yotpo-vip-tiers-widget .yotpo-vip-tiers-grid-benefit-name p {
+    font-size: 10px;
+  }
   
 }
