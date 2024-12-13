@@ -425,5 +425,9 @@
   .yotpo-widget-referral-widget .yotpo-container-background:not(.yotpo-is-mobile).yotpo-swap-container {
     flex-direction: column;
   }
+
+  .yotpo-widget-referral-widget .yotpo-container-background .yotpo-tile-wrapper {
+    padding: 20px !important;
+  }
   
 }
