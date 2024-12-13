@@ -439,5 +439,9 @@
   .yotpo-vip-tiers-widget .yotpo-vip-tiers-grid-header .yotpo-vip-tier-name {
     font-size: 12px !important;
   }
+
+  .yotpo-vip-tiers-widget .yotpo-vip-tiers-grid-header .yotpo-vip-tier-threshold {
+    font-size: 11px !important;
+  }
   
 }
