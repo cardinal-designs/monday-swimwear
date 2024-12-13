@@ -451,5 +451,11 @@
   .swell-faq-list {
     padding-left: 0;
   }
+
+  .yotpo-vip-tiers-widget .yotpo-is-mobile .yotpo-vip-tiers-grid-column.yotpo-vip-tiers-grid-column-benefits {
+    width: auto;
+    max-width: auto;
+    min-width: auto;
+  }
   
 }
