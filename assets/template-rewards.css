@@ -412,5 +412,21 @@
     flex-direction: column;
     text-align: center;
   }
+
+  [yotpo-instance-id="912204"] .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image {
+    height: 100%;
+    width: 100%;
+    display: block !important;
+    flex: none !important;
+    position: relative;
+  }
+
+  [yotpo-instance-id="912204"] .yotpo-widget-hero-section .yotpo-widget-referral-widget .yotpo-referral-image:before {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%;
+  }
   
 }
