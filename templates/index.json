@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/IBIZABLUE-MAIN-desktop.png",
-        "mobile_image": "shopify://shop_images/IBIZABLUE-MAIN-mobile.png",
+        "image": "shopify://shop_images/PAPAYA-main-desktop.png",
+        "mobile_image": "shopify://shop_images/papaya-lower-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -64,13 +64,13 @@
         "collection_Q79dTV": {
           "type": "collection",
           "settings": {
-            "collection": "ibiza-blue"
+            "collection": "papaya-wide-rib"
           }
         },
         "collection_a7cRzg": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "chili-pepper"
           }
         },
         "collection_wbAFkR": {
@@ -97,12 +97,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/Group_4160.png",
-        "mobile_image": "shopify://shop_images/Group_4156.png",
+        "image": "shopify://shop_images/signature-lower-desktop.png",
+        "mobile_image": "shopify://shop_images/signature-lower-mobile.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify://collections/beachwear-accessories"
+        "link": "shopify://collections/the-signature-collection-1"
       }
     },
     "1640812146b4d73cae": {
@@ -111,7 +111,7 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/malta-top.jpg",
+            "image": "shopify://shop_images/papaya-single-2.jpg",
             "text": "The Signature Collection",
             "link_label": "Shop Now",
             "link": "shopify://collections/the-signature-collection-1"
@@ -120,19 +120,19 @@
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/one-pieces_806fa621-f428-4969-b0e1-8188c01d34cb.jpg",
-            "text": "Swim One Pieces",
+            "image": "shopify://shop_images/papaya-single-3.jpg",
+            "text": "Husk Geo",
             "link_label": "Shop Now",
-            "link": "shopify://collections/one-pieces"
+            "link": "shopify://collections/husk-geo"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/midnight-dress-2.jpg",
-            "text": "Knitwear",
+            "image": "shopify://shop_images/papaya-single-1.jpg",
+            "text": "Swim One Pieces",
             "link_label": "Shop Now",
-            "link": "shopify://collections/knitwear"
+            "link": "shopify://collections/one-pieces"
           }
         }
       },
