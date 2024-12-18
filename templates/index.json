@@ -12,8 +12,8 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/PAPAYA-main-desktop.png",
-        "mobile_image": "shopify://shop_images/papaya-lower-mobile.png",
+        "image": "shopify://shop_images/exuma-main-desktop.png",
+        "mobile_image": "shopify://shop_images/Exuma-main-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -61,16 +61,22 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_tTN4nb": {
+          "type": "collection",
+          "settings": {
+            "collection": "beachwear-accessories"
+          }
+        },
         "collection_Q79dTV": {
           "type": "collection",
           "settings": {
-            "collection": "papaya-wide-rib"
+            "collection": "ibiza-blue"
           }
         },
         "collection_a7cRzg": {
           "type": "collection",
           "settings": {
-            "collection": "chili-pepper"
+            "collection": "dresses"
           }
         },
         "collection_wbAFkR": {
@@ -78,31 +84,25 @@
           "settings": {
             "collection": "sarong"
           }
-        },
-        "collection_tTN4nb": {
-          "type": "collection",
-          "settings": {
-            "collection": "monday-mini"
-          }
         }
       },
       "block_order": [
+        "collection_tTN4nb",
         "collection_Q79dTV",
         "collection_a7cRzg",
-        "collection_wbAFkR",
-        "collection_tTN4nb"
+        "collection_wbAFkR"
       ],
       "settings": {}
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/signature-lower-desktop.png",
-        "mobile_image": "shopify://shop_images/signature-lower-mobile.png",
+        "image": "shopify://shop_images/papaya-lower-desktop.png",
+        "mobile_image": "shopify://shop_images/papaya-lower-mobile.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify://collections/the-signature-collection-1"
+        "link": "shopify://collections/papaya-wide-rib"
       }
     },
     "1640812146b4d73cae": {
@@ -111,25 +111,25 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/papaya-single-2.jpg",
+            "image": "shopify://shop_images/resort-wear-1.jpg",
             "text": "Stylish Coverage",
             "link_label": "Shop Now",
-            "link": "shopify://collections/tops"
+            "link": "shopify://collections/monday-beachwear"
           }
         },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/papaya-single-3.jpg",
-            "text": "Husk Geo",
+            "image": "shopify://shop_images/signature-2.jpg",
+            "text": "The Signature Collection",
             "link_label": "Shop Now",
-            "link": "shopify://collections/husk-geo"
+            "link": "shopify://collections/the-signature-collection-1"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/papaya-single-1.jpg",
+            "image": "shopify://shop_images/signature-3.jpg",
             "text": "Swim One Pieces",
             "link_label": "Shop Now",
             "link": "shopify://collections/one-pieces"
