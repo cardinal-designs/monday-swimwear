@@ -111,7 +111,7 @@
           "upsell_EkzeFE": {
             "type": "upsell",
             "settings": {
-              "product": "exuma-hat"
+              "product": "exuma-hat-straw"
             }
           },
           "upsell_jbPbgL": {
