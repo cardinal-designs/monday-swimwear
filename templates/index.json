@@ -67,6 +67,12 @@
             "collection": "beachwear-accessories"
           }
         },
+        "collection_a7cRzg": {
+          "type": "collection",
+          "settings": {
+            "collection": "burgundy-lattice-geo"
+          }
+        },
         "collection_Q79dTV": {
           "type": "collection",
           "settings": {
@@ -78,19 +84,13 @@
           "settings": {
             "collection": "sarong"
           }
-        },
-        "collection_a7cRzg": {
-          "type": "collection",
-          "settings": {
-            "collection": "burgundy-lattice-geo"
-          }
         }
       },
       "block_order": [
         "collection_tTN4nb",
+        "collection_a7cRzg",
         "collection_Q79dTV",
-        "collection_wbAFkR",
-        "collection_a7cRzg"
+        "collection_wbAFkR"
       ],
       "settings": {}
     },
