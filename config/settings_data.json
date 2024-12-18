@@ -105,7 +105,7 @@
           "c53f4786-5fa6-4c8f-b227-d7914b83b00d": {
             "type": "upsell",
             "settings": {
-              "product": "exuma-hat"
+              "product": "exuma-hat-straw"
             }
           },
           "d0ac6ba5-e955-43e5-88cb-6ac1d5a29776": {
@@ -206,8 +206,7 @@
       },
       "fit-dictionary-navigation": {
         "type": "fit-dictionary-navigation",
-        "settings": {
-        }
+        "settings": {}
       },
       "fit-dictionary-list": {
         "type": "fit-dictionary-list",
@@ -592,8 +591,7 @@
           "53ad0856-0a4d-44a3-8195-38377837d3b1",
           "edbf894c-cd76-4d2a-ad8f-db8199614b88"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "fit-guide-bottoms": {
         "type": "fit-guide-bottoms",
@@ -1145,8 +1143,7 @@
           "50917c6a-4369-447a-b962-017a811c3759",
           "14ddb791-3e55-44aa-96e8-2e0a32f0eb97"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "fit-guide-tops": {
         "type": "fit-guide-tops",
@@ -1803,8 +1800,7 @@
           "ea441cd9-c67b-40e8-99a5-2be690dd654a",
           "e976424a-94e8-4927-9474-eff48cfdcaec"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "fit-guide-beachwear": {
         "type": "fit-guide-beachwear",
@@ -2523,8 +2519,7 @@
           "19deef62-adc0-441d-b400-f92ec75069d9",
           "600377c2-51b4-443c-a41f-2bc39a2216fa"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "faq-template": {
         "type": "faq-template",
@@ -2899,8 +2894,7 @@
           "6e7e7641-de4b-42ee-9ca7-ffe01b59057a",
           "7fb38702-3712-4d7e-ab71-e8dacaf99eb2"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "rewards-cta": {
         "type": "rewards-cta",
@@ -3401,9 +3395,7 @@
           "5bc4989e-9ba0-4d43-8e1d-13c203824c4a",
           "302901c1-02fd-4ffb-8f8b-bce4f94e1030"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "title": "Come Visit"
         }
@@ -3757,13 +3749,11 @@
       },
       "fit-guide-tops-body": {
         "type": "fit-guide-tops-body",
-        "settings": {
-        }
+        "settings": {}
       },
       "fit-guide-bottoms-body": {
         "type": "fit-guide-bottoms-body",
-        "settings": {
-        }
+        "settings": {}
       },
       "fit-guide-text-body": {
         "type": "fit-guide-text-body",
@@ -3774,8 +3764,7 @@
       },
       "fit-guide-editorial-cta-body": {
         "type": "fit-guide-editorial-cta-body",
-        "settings": {
-        }
+        "settings": {}
       },
       "fit-guide-image": {
         "type": "fit-guide-image",
@@ -3784,24 +3773,19 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "573254258818049612": {
         "type": "shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
-  "presets": {
-  }
+  "presets": {}
 }
