@@ -19,7 +19,7 @@
         "text_size": "small",
         "content_position": "bottom-center",
         "button_color": "transparent",
-        "button_label": "SHOP NOW",
+        "button_label": "",
         "button_link": "shopify://collections/new-arrivals",
         "overlay_link": true
       }
