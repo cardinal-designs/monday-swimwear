@@ -108,15 +108,6 @@
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/2_1594c572-0ee3-4172-8b98-2f02f6994df5.jpg",
-            "text": "Stylish Coverage",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/monday-beachwear"
-          }
-        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
@@ -124,6 +115,15 @@
             "text": "The Signature Collection",
             "link_label": "Shop Now",
             "link": "shopify://collections/the-signature-collection-1"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/2_1594c572-0ee3-4172-8b98-2f02f6994df5.jpg",
+            "text": "Stylish Coverage",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/monday-beachwear"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
@@ -137,8 +137,8 @@
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
