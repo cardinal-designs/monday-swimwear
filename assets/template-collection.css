@@ -25,6 +25,10 @@
   max-width: 650px;
 }
 
+.collection-header__container p b {
+  font-weight: 500;
+}
+
 .collection {
   margin-bottom: 60px;
   position: relative;
