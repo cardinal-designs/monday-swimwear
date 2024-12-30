@@ -12,15 +12,15 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/exuma-main-desktop.png",
-        "mobile_image": "shopify://shop_images/Exuma-main-mobile.png",
+        "image": "shopify://shop_images/signagture-main-desktop.png",
+        "mobile_image": "shopify://shop_images/signature-main-mobile.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_color": "transparent",
         "button_label": "",
-        "button_link": "shopify://collections/new-arrivals",
+        "button_link": "shopify://collections/the-signature-collection-1",
         "overlay_link": true
       }
     },
@@ -61,6 +61,12 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_wbAFkR": {
+          "type": "collection",
+          "settings": {
+            "collection": "sarong"
+          }
+        },
         "collection_tTN4nb": {
           "type": "collection",
           "settings": {
@@ -78,45 +84,30 @@
           "settings": {
             "collection": "ibiza-blue"
           }
-        },
-        "collection_wbAFkR": {
-          "type": "collection",
-          "settings": {
-            "collection": "sarong"
-          }
         }
       },
       "block_order": [
+        "collection_wbAFkR",
         "collection_tTN4nb",
         "collection_a7cRzg",
-        "collection_Q79dTV",
-        "collection_wbAFkR"
+        "collection_Q79dTV"
       ],
       "settings": {}
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/papaya-lower-desktop.png",
-        "mobile_image": "shopify://shop_images/papaya-lower-mobile.png",
+        "image": "shopify://shop_images/clementine-lower-final_1.png",
+        "mobile_image": "shopify://shop_images/Group_4370.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify://collections/papaya-wide-rib"
+        "link": "shopify://collections/the-end-of-season-sale-collection"
       }
     },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "0570681f-5b84-4eab-8818-e52ba333c98a": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/signature-2.jpg",
-            "text": "The Signature Collection",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/the-signature-collection-1"
-          }
-        },
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
@@ -129,17 +120,26 @@
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/signature-3.jpg",
+            "image": "shopify://shop_images/one-pieces-1-29.jpg",
             "text": "Swim One Pieces",
             "link_label": "Shop Now",
             "link": "shopify://collections/one-pieces"
           }
+        },
+        "0570681f-5b84-4eab-8818-e52ba333c98a": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/accessories-12-29.jpg",
+            "text": "Accessories",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/beachwear-accessories"
+          }
         }
       },
       "block_order": [
-        "0570681f-5b84-4eab-8818-e52ba333c98a",
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "0570681f-5b84-4eab-8818-e52ba333c98a"
       ],
       "settings": {
         "text_style": "underneath",
