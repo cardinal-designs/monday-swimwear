@@ -53,7 +53,7 @@
               {% endcomment %}
 
             {% elsif property.last != blank and propertyFirstHandle == 'disclaimer' %}
-              <p class="cart-drawer__item-option detail-caps">*{{ property.last }}</p>
+              <p class="cart-drawer__item-option detail-caps bold">*{{ property.last }}</p>
             {% else %}
               {% if propertyFirstHandle == 'disclaimer' %}
                 <p class="cart-drawer__item-option detail-caps">*{{ property.last }}</p>
