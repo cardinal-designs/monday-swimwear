@@ -6,9 +6,9 @@
     <div class="collection-header__container">
       <h2>{{ collection.title }}</h2>
       {% if collection.metafields.custom.collection_header_description != blank %}
-        <p class="body">{{ collection.metafields.custom.collection_header_description }}</p>
+        <p class="body-sm">{{ collection.metafields.custom.collection_header_description }}</p>
       {% else %}
-        <p class="body">{{ section.settings.text }}</p>
+        <p class="body-sm">{{ section.settings.text }}</p>
       {% endif %}
 
       {% if collection.metafields.custom.spotify_playlist != blank %}
