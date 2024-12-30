@@ -365,6 +365,11 @@
                 {% endcomment %}
                 <input id="final-sale" type="hidden" name="properties[Disclaimer]" value="Final Sale">
               {% endif %}
+
+              {% if product.tags contains 'Store Credit Only' %}
+                <input id="store-credit-only" type="hidden" name="properties[Disclaimer]" value="Store Credit Only">
+              {% endif %}
+            
               {% if product.tags contains 'PRE-SALE' %}
                 <input id="isPreSale" type="hidden" name="properties[_isPreSale]" value="true"> 
               {% endif %}
@@ -436,6 +441,8 @@
         {% for tag in product.tags %}
           {% if tag contains 'Final Sale' %}
             <p class="product__final-sale detail">This item is Final Sale. It cannot be returned for refund, credit or exchange.</p>
+          {% elsif tag contains 'Store Credit Only' %}
+            <p class="product__final-sale detail">This item is eligible for Store Credit refunds only.</p>
           {% endif %}
         {% endfor %}
 
