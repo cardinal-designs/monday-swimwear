@@ -12,15 +12,15 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/signagture-main-desktop.png",
-        "mobile_image": "shopify://shop_images/signature-main-mobile.png",
+        "image": "shopify://shop_images/Montego-main-desktop-edit.png",
+        "mobile_image": "shopify://shop_images/Montego-main-mobile-edit.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_color": "transparent",
         "button_label": "",
-        "button_link": "shopify://collections/the-signature-collection-1",
+        "button_link": "shopify://collections/new-arrivals",
         "overlay_link": true
       }
     },
@@ -61,10 +61,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_a7cRzg": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
         "collection_Q79dTV": {
           "type": "collection",
           "settings": {
-            "collection": "the-two-tone-collection"
+            "collection": "husk-geo"
           }
         },
         "collection_wbAFkR": {
@@ -78,31 +84,25 @@
           "settings": {
             "collection": "beachwear-accessories"
           }
-        },
-        "collection_a7cRzg": {
-          "type": "collection",
-          "settings": {
-            "collection": "husk-geo"
-          }
         }
       },
       "block_order": [
+        "collection_a7cRzg",
         "collection_Q79dTV",
         "collection_wbAFkR",
-        "collection_tTN4nb",
-        "collection_a7cRzg"
+        "collection_tTN4nb"
       ],
       "settings": {}
     },
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/clementine-lower-final_1.png",
-        "mobile_image": "shopify://shop_images/eoss-lower-mobile-edit2.png",
+        "image": "shopify://shop_images/signature-lower-desktop_07caa5b7-70eb-4a35-b36b-fb4b1270c229.png",
+        "mobile_image": "shopify://shop_images/signature-lower-mobiel.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify://collections/the-end-of-season-sale-collection"
+        "link": "shopify://collections/the-signature-collection-1"
       }
     },
     "1640812146b4d73cae": {
@@ -111,35 +111,35 @@
         "ad429781-a8be-4669-ae64-dff66392ae7d": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/2_1594c572-0ee3-4172-8b98-2f02f6994df5.jpg",
+            "image": "shopify://shop_images/RESORTWEAR.jpg",
             "text": "Resort Wear",
             "link_label": "Shop Now",
             "link": "shopify://collections/monday-beachwear"
           }
         },
-        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/one-pieces-1-29.jpg",
-            "text": "Swim One Pieces",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/one-pieces"
-          }
-        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/accessories-12-29.jpg",
-            "text": "Accessories",
+            "image": "shopify://shop_images/TOPS_78a7bf35-e711-44ed-a0d1-7e7bed4c0d03.jpg",
+            "text": "Two Tone",
             "link_label": "Shop Now",
-            "link": "shopify://collections/beachwear-accessories"
+            "link": "shopify://collections/the-two-tone-collection"
+          }
+        },
+        "61e4895c-cc75-4fad-b969-1bc491d269ef": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/ONE-PIECES_714d8ac2-dfdd-4805-9602-8a4b867490d5.jpg",
+            "text": "Swim One Pieces",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/one-pieces"
           }
         }
       },
       "block_order": [
         "ad429781-a8be-4669-ae64-dff66392ae7d",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef",
-        "0570681f-5b84-4eab-8818-e52ba333c98a"
+        "0570681f-5b84-4eab-8818-e52ba333c98a",
+        "61e4895c-cc75-4fad-b969-1bc491d269ef"
       ],
       "settings": {
         "text_style": "underneath",
