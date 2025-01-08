@@ -12,15 +12,15 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/Montego-main-desktop-edit.png",
-        "mobile_image": "shopify://shop_images/Montego-main-mobile-edit.png",
+        "image": "shopify://shop_images/Group_4194.png",
+        "mobile_image": "shopify://shop_images/Group_4193.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_color": "transparent",
         "button_label": "",
-        "button_link": "shopify://collections/new-arrivals",
+        "button_link": "shopify://collections/the-signature-collection-1",
         "overlay_link": true
       }
     },
@@ -97,12 +97,12 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/signature-lower-desktop_07caa5b7-70eb-4a35-b36b-fb4b1270c229.png",
-        "mobile_image": "shopify://shop_images/signature-lower-mobiel.png",
+        "image": "shopify://shop_images/Group_4192.png",
+        "mobile_image": "shopify://shop_images/Group_4191.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify://collections/the-signature-collection-1"
+        "link": "shopify://collections/beachwear-accessories"
       }
     },
     "1640812146b4d73cae": {
