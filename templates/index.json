@@ -61,16 +61,16 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
+        "collection_BgWPLK": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-signature-collection-1"
+          }
+        },
         "collection_a7cRzg": {
           "type": "collection",
           "settings": {
             "collection": "dresses"
-          }
-        },
-        "collection_Q79dTV": {
-          "type": "collection",
-          "settings": {
-            "collection": "husk-geo"
           }
         },
         "collection_wbAFkR": {
@@ -87,8 +87,8 @@
         }
       },
       "block_order": [
+        "collection_BgWPLK",
         "collection_a7cRzg",
-        "collection_Q79dTV",
         "collection_wbAFkR",
         "collection_tTN4nb"
       ],
