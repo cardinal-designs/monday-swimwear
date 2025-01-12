@@ -12,15 +12,15 @@
     "1660324166f7286707": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/Group_4194.png",
-        "mobile_image": "shopify://shop_images/Group_4193.png",
+        "image": "shopify://shop_images/Group_4525.png",
+        "mobile_image": "shopify://shop_images/Group_4526.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
         "content_position": "bottom-center",
         "button_color": "transparent",
         "button_label": "",
-        "button_link": "shopify://collections/the-signature-collection-1",
+        "button_link": "shopify://collections/new-arrivals",
         "overlay_link": true
       }
     },
@@ -61,36 +61,29 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_BgWPLK": {
+        "collection_kCzNbi": {
           "type": "collection",
           "settings": {
-            "collection": "the-signature-collection-1"
+            "collection": "desert-rose"
           }
         },
-        "collection_a7cRzg": {
+        "collection_MFEkCL": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "espresso-wide-rib"
           }
         },
-        "collection_wbAFkR": {
+        "collection_A8w7Vi": {
           "type": "collection",
           "settings": {
-            "collection": "sarong"
-          }
-        },
-        "collection_tTN4nb": {
-          "type": "collection",
-          "settings": {
-            "collection": "beachwear-accessories"
+            "collection": "espresso-ivory"
           }
         }
       },
       "block_order": [
-        "collection_BgWPLK",
-        "collection_a7cRzg",
-        "collection_wbAFkR",
-        "collection_tTN4nb"
+        "collection_kCzNbi",
+        "collection_MFEkCL",
+        "collection_A8w7Vi"
       ],
       "settings": {}
     },
