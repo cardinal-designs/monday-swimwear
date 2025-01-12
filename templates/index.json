@@ -13,7 +13,6 @@
       "type": "hero",
       "settings": {
         "image": "shopify://shop_images/Group_4525_4.png",
-        "mobile_image": "shopify://shop_images/Group_4526_2.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
@@ -73,24 +72,24 @@
             "collection": "ivory"
           }
         },
-        "collection_MFEkCL": {
-          "type": "collection",
-          "settings": {
-            "collection": "espresso-wide-rib"
-          }
-        },
         "collection_A8w7Vi": {
           "type": "collection",
           "settings": {
             "collection": "espresso-ivory"
+          }
+        },
+        "collection_MFEkCL": {
+          "type": "collection",
+          "settings": {
+            "collection": "espresso-wide-rib"
           }
         }
       },
       "block_order": [
         "collection_kCzNbi",
         "collection_jQatJD",
-        "collection_MFEkCL",
-        "collection_A8w7Vi"
+        "collection_A8w7Vi",
+        "collection_MFEkCL"
       ],
       "settings": {}
     },
