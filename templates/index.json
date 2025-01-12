@@ -67,6 +67,12 @@
             "collection": "desert-rose"
           }
         },
+        "collection_jQatJD": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory"
+          }
+        },
         "collection_MFEkCL": {
           "type": "collection",
           "settings": {
@@ -82,6 +88,7 @@
       },
       "block_order": [
         "collection_kCzNbi",
+        "collection_jQatJD",
         "collection_MFEkCL",
         "collection_A8w7Vi"
       ],
