@@ -90,49 +90,49 @@
     "16408101574f5b391b": {
       "type": "editorial-banner",
       "settings": {
-        "image": "shopify://shop_images/Group_4192.png",
-        "mobile_image": "shopify://shop_images/Group_4191.png",
+        "image": "shopify://shop_images/Group_4528.png",
+        "mobile_image": "shopify://shop_images/Group_4197.png",
         "left_text": "",
         "right_text": "",
         "link_label": "SHOP NOW",
-        "link": "shopify://collections/beachwear-accessories"
+        "link": "shopify://collections/soft-silver-shimmer"
       }
     },
     "1640812146b4d73cae": {
       "type": "link-blocks",
       "blocks": {
-        "ad429781-a8be-4669-ae64-dff66392ae7d": {
-          "type": "link_block",
-          "settings": {
-            "image": "shopify://shop_images/RESORTWEAR.jpg",
-            "text": "Resort Wear",
-            "link_label": "Shop Now",
-            "link": "shopify://collections/monday-beachwear"
-          }
-        },
         "0570681f-5b84-4eab-8818-e52ba333c98a": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/TOPS_78a7bf35-e711-44ed-a0d1-7e7bed4c0d03.jpg",
-            "text": "Two Tone",
+            "image": "shopify://shop_images/1_7058b74c-f4a7-41b8-a634-4db605d6d2ec.jpg",
+            "text": "The Signature Collection",
             "link_label": "Shop Now",
-            "link": "shopify://collections/the-two-tone-collection"
+            "link": "shopify://collections/the-signature-collection-1"
           }
         },
         "61e4895c-cc75-4fad-b969-1bc491d269ef": {
           "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/ONE-PIECES_714d8ac2-dfdd-4805-9602-8a4b867490d5.jpg",
-            "text": "Swim One Pieces",
+            "image": "shopify://shop_images/2_7a550209-fa67-4932-a01c-35050095504d.jpg",
+            "text": "Accessories",
             "link_label": "Shop Now",
-            "link": "shopify://collections/one-pieces"
+            "link": "shopify://collections/beachwear-accessories"
+          }
+        },
+        "ad429781-a8be-4669-ae64-dff66392ae7d": {
+          "type": "link_block",
+          "settings": {
+            "image": "shopify://shop_images/9_e7a025d3-49c7-41fd-bec9-ac55237b6080.jpg",
+            "text": "Resort Wear",
+            "link_label": "Shop Now",
+            "link": "shopify://collections/monday-beachwear"
           }
         }
       },
       "block_order": [
-        "ad429781-a8be-4669-ae64-dff66392ae7d",
         "0570681f-5b84-4eab-8818-e52ba333c98a",
-        "61e4895c-cc75-4fad-b969-1bc491d269ef"
+        "61e4895c-cc75-4fad-b969-1bc491d269ef",
+        "ad429781-a8be-4669-ae64-dff66392ae7d"
       ],
       "settings": {
         "text_style": "underneath",
