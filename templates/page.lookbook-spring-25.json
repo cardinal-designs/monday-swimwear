@@ -231,7 +231,9 @@
           "settings": {
             "image": "shopify://shop_images/look-12.jpg",
             "title": "Look 21",
-            "products": []
+            "products": [
+              "monte-carlo-dress-black-lace-crochet"
+            ]
           }
         },
         "block_hNPxmg": {
