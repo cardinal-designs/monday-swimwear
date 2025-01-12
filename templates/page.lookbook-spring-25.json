@@ -18,7 +18,9 @@
             "image": "shopify://shop_images/look-18.jpg",
             "title": "Look 1",
             "products": [
-              "montego-dress-eggplant-lace-crochet"
+              "hanalei-bottom-desert-rose",
+              "hanalei-top-desert-rose",
+              "san-remo-hat-natural"
             ]
           }
         },
@@ -27,7 +29,10 @@
           "settings": {
             "image": "shopify://shop_images/look-25.jpg",
             "title": "Look 2",
-            "products": []
+            "products": [
+              "bronte-top-desert-rose",
+              "bronte-bottom-desert-rose"
+            ]
           }
         },
         "block_f99fYP": {
@@ -35,7 +40,10 @@
           "settings": {
             "image": "shopify://shop_images/look-21.jpg",
             "title": "Look 3",
-            "products": []
+            "products": [
+              "honolulu-top-desert-rose",
+              "antigua-bottom-desert-rose"
+            ]
           }
         },
         "block_D4ixXb": {
@@ -43,7 +51,10 @@
           "settings": {
             "image": "shopify://shop_images/look-20.jpg",
             "title": "Look 4",
-            "products": []
+            "products": [
+              "bronte-top-ivory-w-pearl-ring",
+              "antigua-bottom-ivory-w-pearl-ring"
+            ]
           }
         },
         "block_Mq9YR9": {
@@ -51,7 +62,9 @@
           "settings": {
             "image": "shopify://shop_images/look-16.jpg",
             "title": "Look 5",
-            "products": []
+            "products": [
+              "antigua-bottom-ivory-w-pearl-ring"
+            ]
           }
         },
         "block_EpJfGR": {
@@ -59,7 +72,9 @@
           "settings": {
             "image": "shopify://shop_images/look-19.jpg",
             "title": "Look 6",
-            "products": []
+            "products": [
+              "bronte-top-ivory-w-pearl-ring"
+            ]
           }
         },
         "block_cLDepA": {
@@ -67,7 +82,10 @@
           "settings": {
             "image": "shopify://shop_images/look-14.jpg",
             "title": "Look 7",
-            "products": []
+            "products": [
+              "palma-top-espresso-ivory",
+              "palma-thong-espresso-ivory"
+            ]
           }
         },
         "block_EAkHkf": {
@@ -75,7 +93,10 @@
           "settings": {
             "image": "shopify://shop_images/look-15.jpg",
             "title": "Look 8",
-            "products": []
+            "products": [
+              "tamarama-top-espresso-ivory",
+              "malta-bottom-espresso-ivory"
+            ]
           }
         },
         "block_rmN8d9": {
@@ -83,7 +104,11 @@
           "settings": {
             "image": "shopify://shop_images/look-13.jpg",
             "title": "Look 9",
-            "products": []
+            "products": [
+              "bronte-top-espresso-wide-rib",
+              "tamarama-bottom-espresso-wide-rib",
+              "fontelina-skirt-espresso-petit-crochet"
+            ]
           }
         },
         "block_Qab6pD": {
@@ -91,7 +116,10 @@
           "settings": {
             "image": "shopify://shop_images/look-10.jpg",
             "title": "Look 10",
-            "products": []
+            "products": [
+              "cala-roja-top-espresso-ivory",
+              "santorini-bottom-espresso-ivory"
+            ]
           }
         },
         "block_aKb88h": {
@@ -99,7 +127,10 @@
           "settings": {
             "image": "shopify://shop_images/look-11.jpg",
             "title": "Look 11",
-            "products": []
+            "products": [
+              "bordeaux-top-espresso-ivory",
+              "malta-bottom-espresso-ivory"
+            ]
           }
         },
         "block_3H3AXg": {
@@ -107,7 +138,9 @@
           "settings": {
             "image": "shopify://shop_images/look-9.jpg",
             "title": "Look 12",
-            "products": []
+            "products": [
+              "ravello-one-piece-espresso-ivory"
+            ]
           }
         },
         "block_cCyN6A": {
@@ -115,7 +148,9 @@
           "settings": {
             "image": "shopify://shop_images/look-3.jpg",
             "title": "Look 13",
-            "products": []
+            "products": [
+              "miami-one-piece-espresso-ivory"
+            ]
           }
         },
         "block_KgPFAL": {
@@ -123,7 +158,10 @@
           "settings": {
             "image": "shopify://shop_images/look-4.jpg",
             "title": "Look 14",
-            "products": []
+            "products": [
+              "cala-roja-top-husk-geo",
+              "marina-piccola-sarong-husk-geo"
+            ]
           }
         },
         "block_UBUMQB": {
@@ -131,7 +169,9 @@
           "settings": {
             "image": "shopify://shop_images/look-5.jpg",
             "title": "Look 15",
-            "products": []
+            "products": [
+              "cote-dazur-dress-husk-geo"
+            ]
           }
         },
         "block_w6BqXB": {
@@ -139,7 +179,9 @@
           "settings": {
             "image": "shopify://shop_images/look-2.jpg",
             "title": "Look 16",
-            "products": []
+            "products": [
+              "palermo-skirt-black-lace-crochet"
+            ]
           }
         },
         "block_XTE6wh": {
@@ -147,7 +189,9 @@
           "settings": {
             "image": "shopify://shop_images/look-22.jpg",
             "title": "Look 17",
-            "products": []
+            "products": [
+              "sardinia-dress-black-crinkle"
+            ]
           }
         },
         "block_faEUFy": {
@@ -155,7 +199,9 @@
           "settings": {
             "image": "shopify://shop_images/look-17.jpg",
             "title": "Look 18",
-            "products": []
+            "products": [
+              "marrakesh-dress-black-lace-crochet"
+            ]
           }
         },
         "block_yzM8Qi": {
@@ -163,7 +209,9 @@
           "settings": {
             "image": "shopify://shop_images/look-6.jpg",
             "title": "Look 19",
-            "products": []
+            "products": [
+              "montego-mini-dress-espresso-treble-knit"
+            ]
           }
         },
         "block_Dwx6RN": {
@@ -171,7 +219,11 @@
           "settings": {
             "image": "shopify://shop_images/look-23.jpg",
             "title": "Look 20",
-            "products": []
+            "products": [
+              "montego-mini-dress-espresso-sequin",
+              "catania-dress-espresso-sequin",
+              "cartagena-skirt-espresso-sequin"
+            ]
           }
         },
         "block_mj8pHx": {
@@ -187,7 +239,9 @@
           "settings": {
             "image": "shopify://shop_images/look-7.jpg",
             "title": "Look 22",
-            "products": []
+            "products": [
+              "morocco-top-soft-silver-shimmer"
+            ]
           }
         },
         "block_jTYMnB": {
@@ -195,7 +249,10 @@
           "settings": {
             "image": "shopify://shop_images/look-8.jpg",
             "title": "Look 23",
-            "products": []
+            "products": [
+              "monday-thong-soft-silver-shimmer",
+              "monday-top-soft-silver-shimmer"
+            ]
           }
         },
         "block_wmke9C": {
@@ -203,7 +260,9 @@
           "settings": {
             "image": "shopify://shop_images/look-24.jpg",
             "title": "Look 24",
-            "products": []
+            "products": [
+              "st-barths-one-piece-soft-silver-shimmer"
+            ]
           }
         },
         "block_CFBw44": {
@@ -211,7 +270,10 @@
           "settings": {
             "image": "shopify://shop_images/look-1.jpg",
             "title": "Look 25",
-            "products": []
+            "products": [
+              "costa-rica-top-soft-silver-shimmer",
+              "bronte-bottom-soft-silver-shimmer"
+            ]
           }
         }
       },
