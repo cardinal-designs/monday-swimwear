@@ -60,10 +60,10 @@
     "16407502469f0e5f45": {
       "type": "product-slider",
       "blocks": {
-        "collection_kCzNbi": {
+        "collection_MFEkCL": {
           "type": "collection",
           "settings": {
-            "collection": "desert-rose"
+            "collection": "espresso-wide-rib"
           }
         },
         "collection_jQatJD": {
@@ -78,18 +78,18 @@
             "collection": "espresso-ivory"
           }
         },
-        "collection_MFEkCL": {
+        "collection_kCzNbi": {
           "type": "collection",
           "settings": {
-            "collection": "espresso-wide-rib"
+            "collection": "desert-rose"
           }
         }
       },
       "block_order": [
-        "collection_kCzNbi",
+        "collection_MFEkCL",
         "collection_jQatJD",
         "collection_A8w7Vi",
-        "collection_MFEkCL"
+        "collection_kCzNbi"
       ],
       "settings": {}
     },
