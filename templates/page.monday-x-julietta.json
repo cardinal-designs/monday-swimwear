@@ -95,105 +95,73 @@
         "block_aKb88h": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-11.jpg",
+            "image": "shopify://shop_images/3_29e567d8-b587-49bc-a807-982327aa826c.jpg",
             "title": "Look 11",
-            "products": [
-              "bordeaux-top-espresso-ivory",
-              "malta-bottom-espresso-ivory"
-            ]
+            "products": []
           }
         },
         "block_3H3AXg": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-9.jpg",
+            "image": "shopify://shop_images/1_1b8480cf-3c23-457d-9c6b-e2c7f58ab872.jpg",
             "title": "Look 12",
-            "products": [
-              "ravello-one-piece-espresso-ivory"
-            ]
+            "products": []
           }
         },
         "block_cCyN6A": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-3.jpg",
+            "image": "shopify://shop_images/13_4b27321c-ed47-49a0-b7ef-58c2545b22cf.jpg",
             "title": "Look 13",
-            "products": [
-              "miami-one-piece-espresso-ivory"
-            ]
+            "products": []
           }
         },
         "block_KgPFAL": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-4.jpg",
+            "image": "shopify://shop_images/2_01ee748d-5e13-4a09-81ca-dac08caf2b0f.jpg",
             "title": "Look 14",
-            "products": [
-              "cala-roja-top-husk-geo",
-              "marina-piccola-sarong-husk-geo"
-            ]
+            "products": []
           }
         },
         "block_UBUMQB": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-5.jpg",
+            "image": "shopify://shop_images/2_4a9d2cee-2668-4177-a924-ca61729656db.jpg",
             "title": "Look 15",
-            "products": [
-              "cote-dazur-dress-husk-geo"
-            ]
+            "products": []
           }
         },
         "block_w6BqXB": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-2.jpg",
+            "image": "shopify://shop_images/3_299663b1-0e6f-4d6a-a8fc-32d95eb7218b.jpg",
             "title": "Look 16",
-            "products": [
-              "palermo-skirt-black-lace-crochet"
-            ]
+            "products": []
           }
         },
         "block_XTE6wh": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-22.jpg",
+            "image": "shopify://shop_images/4_3e0252cc-d922-417c-bd54-b05d733a038b.jpg",
             "title": "Look 17",
-            "products": [
-              "sardinia-dress-black-crinkle"
-            ]
+            "products": []
           }
         },
         "block_faEUFy": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-17.jpg",
+            "image": "shopify://shop_images/12_637d2f81-2a16-404b-8a5c-c1938b0ca2b1.jpg",
             "title": "Look 18",
-            "products": [
-              "marrakesh-dress-black-lace-crochet"
-            ]
+            "products": []
           }
         },
         "block_yzM8Qi": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-6.jpg",
+            "image": "shopify://shop_images/15_56ef2efc-c747-42ab-ac08-b4bea21fa5a4.jpg",
             "title": "Look 19",
-            "products": [
-              "montego-mini-dress-espresso-treble-knit"
-            ]
-          }
-        },
-        "block_Dwx6RN": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/look-23.jpg",
-            "title": "Look 20",
-            "products": [
-              "montego-mini-dress-espresso-sequin",
-              "catania-dress-espresso-sequin",
-              "cartagena-skirt-espresso-sequin"
-            ]
+            "products": []
           }
         }
       },
@@ -216,8 +184,7 @@
         "block_w6BqXB",
         "block_XTE6wh",
         "block_faEUFy",
-        "block_yzM8Qi",
-        "block_Dwx6RN"
+        "block_yzM8Qi"
       ],
       "settings": {
         "title": "Julietta X Monday Collection",
