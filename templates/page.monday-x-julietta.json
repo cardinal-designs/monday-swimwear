@@ -15,111 +15,81 @@
         "block_kJtFqP": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-18.jpg",
+            "image": "shopify://shop_images/14_212a0fdd-6807-4647-8bc4-49ae32b22f71.jpg",
             "title": "Look 1",
-            "products": [
-              "hanalei-top-desert-rose",
-              "hanalei-bottom-desert-rose",
-              "san-remo-hat-natural"
-            ]
+            "products": []
           }
         },
         "block_RGFCUz": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-25.jpg",
+            "image": "shopify://shop_images/10_ebd5ffda-01a9-4ac2-9136-9ce0131f96b1.jpg",
             "title": "Look 2",
-            "products": [
-              "bronte-top-desert-rose",
-              "bronte-bottom-desert-rose"
-            ]
+            "products": []
           }
         },
         "block_f99fYP": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-21.jpg",
+            "image": "shopify://shop_images/0_a0202c1c-8b2c-4625-8ad0-3c6f6d1a7b3f.jpg",
             "title": "Look 3",
-            "products": [
-              "honolulu-top-desert-rose",
-              "antigua-bottom-desert-rose"
-            ]
+            "products": []
           }
         },
         "block_D4ixXb": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-20.jpg",
+            "image": "shopify://shop_images/Cayman-Necklace_5cee9e7a-d6df-403f-948d-a29222d5a6dc.jpg",
             "title": "Look 4",
-            "products": [
-              "bronte-top-ivory-w-pearl-ring",
-              "antigua-bottom-ivory-w-pearl-ring"
-            ]
+            "products": []
           }
         },
         "block_Mq9YR9": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-16.jpg",
+            "image": "shopify://shop_images/1_1938041f-892e-46c5-b56a-1d001c37eb3c.jpg",
             "title": "Look 5",
-            "products": [
-              "antigua-bottom-ivory-w-pearl-ring"
-            ]
+            "products": []
           }
         },
         "block_EpJfGR": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-19.jpg",
+            "image": "shopify://shop_images/13_4b27321c-ed47-49a0-b7ef-58c2545b22cf.jpg",
             "title": "Look 6",
-            "products": [
-              "bronte-top-ivory-w-pearl-ring"
-            ]
+            "products": []
           }
         },
         "block_cLDepA": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-14.jpg",
+            "image": "shopify://shop_images/11_612a814c-475f-4868-9839-29c11e84b214.jpg",
             "title": "Look 7",
-            "products": [
-              "palma-top-espresso-ivory",
-              "palma-thong-espresso-ivory"
-            ]
+            "products": []
           }
         },
         "block_EAkHkf": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-15.jpg",
+            "image": "shopify://shop_images/00_3f201b8c-6565-471a-9d37-14a15f1b1c43.jpg",
             "title": "Look 8",
-            "products": [
-              "tamarama-top-espresso-ivory",
-              "malta-bottom-espresso-ivory"
-            ]
+            "products": []
           }
         },
         "block_rmN8d9": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-13.jpg",
+            "image": "shopify://shop_images/1_493255f5-0217-4b56-8a7d-1822b9097e37.jpg",
             "title": "Look 9",
-            "products": [
-              "bronte-top-espresso-wide-rib",
-              "tamarama-bottom-espresso-wide-rib",
-              "fontelina-skirt-espresso-petit-crochet"
-            ]
+            "products": []
           }
         },
         "block_Qab6pD": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/look-10.jpg",
+            "image": "shopify://shop_images/7_7d2814e5-1ae3-42de-bce2-195e8f8e130c.jpg",
             "title": "Look 10",
-            "products": [
-              "cala-roja-top-espresso-ivory",
-              "santorini-bottom-espresso-ivory"
-            ]
+            "products": []
           }
         },
         "block_aKb88h": {
@@ -225,58 +195,6 @@
               "cartagena-skirt-espresso-sequin"
             ]
           }
-        },
-        "block_mj8pHx": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/look-12.jpg",
-            "title": "Look 21",
-            "products": [
-              "monte-carlo-dress-black-lace-crochet"
-            ]
-          }
-        },
-        "block_hNPxmg": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/look-7.jpg",
-            "title": "Look 22",
-            "products": [
-              "morocco-top-soft-silver-shimmer"
-            ]
-          }
-        },
-        "block_jTYMnB": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/look-8.jpg",
-            "title": "Look 23",
-            "products": [
-              "monday-thong-soft-silver-shimmer",
-              "monday-top-soft-silver-shimmer"
-            ]
-          }
-        },
-        "block_wmke9C": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/look-24.jpg",
-            "title": "Look 24",
-            "products": [
-              "st-barths-one-piece-soft-silver-shimmer"
-            ]
-          }
-        },
-        "block_CFBw44": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/look-1.jpg",
-            "title": "Look 25",
-            "products": [
-              "costa-rica-top-soft-silver-shimmer",
-              "bronte-bottom-soft-silver-shimmer"
-            ]
-          }
         }
       },
       "block_order": [
@@ -299,12 +217,7 @@
         "block_XTE6wh",
         "block_faEUFy",
         "block_yzM8Qi",
-        "block_Dwx6RN",
-        "block_mj8pHx",
-        "block_hNPxmg",
-        "block_jTYMnB",
-        "block_wmke9C",
-        "block_CFBw44"
+        "block_Dwx6RN"
       ],
       "settings": {
         "title": "Julietta X Monday Collection",
