@@ -13,6 +13,7 @@
       "type": "hero",
       "settings": {
         "image": "shopify://shop_images/Group_4525_4.png",
+        "mobile_image": "shopify://shop_images/Group_4525_4.png",
         "text": "",
         "text_color": "#ffffff",
         "text_size": "small",
