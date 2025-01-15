@@ -132,11 +132,19 @@
             "products": []
           }
         },
+        "block_9AHkyz": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/8_634a1e77-f1cd-4846-aa91-f40c9b285f2a.jpg",
+            "title": "Look 16",
+            "products": []
+          }
+        },
         "block_w6BqXB": {
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/3_299663b1-0e6f-4d6a-a8fc-32d95eb7218b.jpg",
-            "title": "Look 16",
+            "title": "Look 17",
             "products": []
           }
         },
@@ -144,7 +152,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/4_3e0252cc-d922-417c-bd54-b05d733a038b.jpg",
-            "title": "Look 17",
+            "title": "Look 18",
             "products": []
           }
         },
@@ -152,7 +160,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/12_637d2f81-2a16-404b-8a5c-c1938b0ca2b1.jpg",
-            "title": "Look 18",
+            "title": "Look 19",
             "products": []
           }
         },
@@ -160,7 +168,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/15_56ef2efc-c747-42ab-ac08-b4bea21fa5a4.jpg",
-            "title": "Look 19",
+            "title": "Look 20",
             "products": []
           }
         }
@@ -181,6 +189,7 @@
         "block_cCyN6A",
         "block_KgPFAL",
         "block_UBUMQB",
+        "block_9AHkyz",
         "block_w6BqXB",
         "block_XTE6wh",
         "block_faEUFy",
